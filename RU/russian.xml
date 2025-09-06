@@ -1013,7 +1013,7 @@
     <RecordThing>
       <Key>ItemCoalOre</Key>
       <Value>Руда (Уголь)</Value>
-      <Description>Humanity wouldn't have got to space without humble, combustible coal. Burn it in a {THING:SolidFuelGenerator}, smelt it in the {THING:StructureFurnace} to create {LINK:AlloysPage;alloys}, or use it in the {THING:ApplianceReagentProcessor} to make  {THING:ItemSprayCanBlack}.</Description>
+      <Description>Humanity wouldn't have got to space without humble, combustible coal. Burn it in a {THING:StructureSolidFuelGenerator}, smelt it in the {THING:StructureFurnace} to create {LINK:AlloysPage;alloys}, or use it in the {THING:ApplianceReagentProcessor} to make  {THING:ItemSprayCanBlack}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCompositeFloorGrating</Key>
@@ -1788,6 +1788,27 @@
         The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
         Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
     </RecordThing>
+	  <RecordThing>
+		  <Key>StructureChuteStraight3</Key>
+		  <Value>Транспортная труба (Прямая 3)</Value>
+		  <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+			  The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+			  Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		  <Key>StructureChuteStraight5</Key>
+		  <Value>Транспортная труба (Прямая 5)</Value>
+		  <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+			  The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+			  Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
+	  </RecordThing>
+	  <RecordThing>
+		  <Key>StructureChuteStraight10</Key>
+		  <Value>Транспортная труба (Прямая 10)</Value>
+		  <Description>Chutes act as pipes for items. Use them to connect various {LINK:ImportExportPage;import/export} equipment together such as the {THING:StructureVendingMachine} and printers like the {THING:StructureAutolathe}.
+			  The aim for any {LINK:Stationeers;Stationeer} is to make off-world survival less of a struggle for themselves, and those who will follow in their footsteps.
+			  Chutes are fundamental components of chute networks, which allow the transport of items between any machine or device with an {LINK:ImportExportPage;import/export} slot.</Description>
+	  </RecordThing>
     <RecordThing>
       <Key>StructureCompositeDoor</Key>
       <Value>Композитная дверь</Value>
@@ -2048,6 +2069,21 @@
       <Value>Труба (Прямая)</Value>
       <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeStraight} using an {THING:ItemKitInsulatedPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
+		<RecordThing>
+		  <Key>StructurePipeStraight3</Key>
+		  <Value>Труба (Прямая 3)</Value>
+		  <Description>Длинный вариант прямой трубы. Эти варианты нельзя объединять или теплоизолировать.</Description>
+		</RecordThing>
+		<RecordThing>
+		  <Key>StructurePipeStraight5</Key>
+		  <Value>Труба (Прямая 5)</Value>
+		  <Description>Длинный вариант прямой трубы. Эти варианты нельзя объединять или теплоизолировать.</Description>
+		</RecordThing>
+		<RecordThing>
+		  <Key>StructurePipeStraight10</Key>
+		  <Value>Труба (Прямая 10)</Value>
+		  <Description>Длинный вариант прямой трубы. Эти варианты нельзя объединять или теплоизолировать.</Description>
+		</RecordThing>
     <RecordThing>
       <Key>StructurePipeTJunction</Key>
       <Value>Труба (Т-образная)</Value>
@@ -2667,6 +2703,7 @@
     <RecordThing>
       <Key>StructureConsoleLED5</Key>
       <Value>Светодиодный дисплей (Маленький)</Value>
+      <Description>Обычно этот дисплей отображает необработанное числовое значение из Setting. При переключении в Строковый режим, дисплей обрабатывает это значение как 6 ASCII-символов, на каждый из которых применяется битовый сдвиг на 8 бит и логическое ИЛИ. Остальные режимы просто по-разному отображают одно и то же значение.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSign1x1</Key>
@@ -2723,10 +2760,12 @@
     <RecordThing>
       <Key>StructureConsoleLED1x2</Key>
       <Value>Светодиодный дисплей (Средний)</Value>
+      <Description>Обычно этот дисплей отображает необработанное числовое значение из Setting. При переключении в Строковый режим, дисплей обрабатывает это значение как 6 ASCII-символов, на каждый из которых применяется битовый сдвиг на 8 бит и логическое ИЛИ. Остальные режимы просто по-разному отображают одно и то же значение.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleLED1x3</Key>
       <Value>Светодиодный дисплей (Большой)</Value>
+		  <Description>Обычно этот дисплей отображает необработанное числовое значение из Setting. При переключении в Строковый режим, дисплей обрабатывает это значение как 6 ASCII-символов, на каждый из которых применяется битовый сдвиг на 8 бит и логическое ИЛИ. Остальные режимы просто по-разному отображают одно и то же значение.</Description>
     </RecordThing>
     <RecordThing>
       <Key>NpcChick</Key>
@@ -3959,6 +3998,7 @@
     <RecordThing>
       <Key>StructureCircuitHousing</Key>
       <Value>Сокет</Value>
+			<Description>Используется для подключения {THING:ItemIntegratedCircuit10}, чтобы запускать сложный логический код.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIntegratedCircuit10</Key>
@@ -4514,6 +4554,21 @@
       <Value>Изолированная труба (Прямая)</Value>
       <Description>Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
     </RecordThing>
+		<RecordThing>
+		  <Key>StructureInsulatedPipeStraight3</Key>
+		  <Value>Изолированная труба (Прямая 3)</Value>
+		  <Description>Длинный вариант прямой трубы. Эти варианты нельзя объединять. Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
+		</RecordThing>
+		<RecordThing>
+		  <Key>StructureInsulatedPipeStraight5</Key>
+		  <Value>Изолированная труба (Прямая 5)</Value>
+		  <Description>Длинный вариант прямой трубы. Эти варианты нельзя объединять. Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
+		</RecordThing>
+		<RecordThing>
+		  <Key>StructureInsulatedPipeStraight10</Key>
+		  <Value>Изолированная труба (Прямая 10)</Value>
+		  <Description>Длинный вариант прямой трубы. Эти варианты нельзя объединять. Изолированные трубы значительно уменьшают теплопотери газа, содержащегося в них.</Description>
+		</RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCorner</Key>
       <Value>Изолированная труба (Угловая)</Value>
@@ -5182,6 +5237,21 @@
       <Value>Жидкостная труба (Прямая)</Value>
       <Description>You can upgrade this pipe to an {THING:StructureInsulatedPipeLiquidStraight} using an {THING:ItemKitInsulatedLiquidPipe} and a {THING:ItemWrench}.</Description>
     </RecordThing>
+		<RecordThing>
+		  <Key>StructurePipeLiquidStraight3</Key>
+		  <Value>Liquid Pipe (Straight 3)</Value>
+		  <Description>Длинный вариант прямой жидкостной трубы. Эти варианты нельзя объединять или теплоизолировать.</Description>
+		</RecordThing>
+		<RecordThing>
+		  <Key>StructurePipeLiquidStraight5</Key>
+		  <Value>Liquid Pipe (Straight 5)</Value>
+		  <Description>Длинный вариант прямой жидкостной трубы. Эти варианты нельзя объединять или теплоизолировать.</Description>
+		</RecordThing>
+		<RecordThing>
+		  <Key>StructurePipeLiquidStraight10</Key>
+		  <Value>Liquid Pipe (Straight 10)</Value>
+		  <Description>Длинный вариант прямой жидкостной трубы. Эти варианты нельзя объединять или теплоизолировать.</Description>
+		</RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCorner</Key>
       <Value>Жидкостная труба (Угловая)</Value>
@@ -5841,42 +5911,57 @@
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCorner</Key>
       <Value>Изолированная жидкостная труба (Угол)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Description>Жидкостные трубы с очень низкими теплопотерями.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction</Key>
       <Value>Изолированная жидкостная труба (3-конечная)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Description>Жидкостные трубы с очень низкими теплопотерями.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction4</Key>
       <Value>Изолированная жидкостная труба (4-конечная)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Description>Жидкостные трубы с очень низкими теплопотерями.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeInsulatedLiquidCrossJunction</Key>
       <Value>Изолированная жидкостная труба (Х-образная)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Description>Жидкостные трубы с очень низкими теплопотерями.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction5</Key>
       <Value>Изолированная жидкостная труба (5-конечная)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Description>Жидкостные трубы с очень низкими теплопотерями.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction6</Key>
       <Value>Изолированная жидкостная труба (6-конечная)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Description>Жидкостные трубы с очень низкими теплопотерями.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidStraight</Key>
       <Value>Изолированная жидкостная труба (Прямая)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Description>Жидкостные трубы с очень низкими теплопотерями.</Description>
     </RecordThing>
+		<RecordThing>
+		  <Key>StructureInsulatedPipeLiquidStraight3</Key>
+		  <Value>Insulated Liquid Pipe (Straight 3)</Value>
+		  <Description>Длинный вариант жидкостной трубы с очень низкими теплопотерями. Эти варианты нельзя объединять</Description>
+		</RecordThing>
+		<RecordThing>
+		  <Key>StructureInsulatedPipeLiquidStraight5</Key>
+		  <Value>Insulated Liquid Pipe (Straight 5)</Value>
+		  <Description>Длинный вариант жидкостной трубы с очень низкими теплопотерями. Эти варианты нельзя объединять.</Description>
+		</RecordThing>
+		<RecordThing>
+		  <Key>StructureInsulatedPipeLiquidStraight10</Key>
+		  <Value>Insulated Liquid Pipe (Straight 10)</Value>
+		  <Description>Длинный вариант жидкостной трубы с очень низкими теплопотерями. Эти варианты нельзя объединять.</Description>
+		</RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidTJunction</Key>
       <Value>Изолированная жидкостная труба (T-образная)</Value>
-      <Description>Liquid piping with very low temperature loss or gain.</Description>
+      <Description>Жидкостные трубы с очень низкими теплопотерями.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeHeater</Key>
@@ -8117,6 +8202,16 @@
       <Value>Картридж (Глубинный рудокоп)</Value>
       <Description />
     </RecordThing>
+		<RecordThing>
+		  <Key>StructureCircuitHousingCompact</Key>
+		  <Value>Сокет (Компактный)</Value>
+		  <Description>Используется для подключения {THING:ItemIntegratedCircuit10}, чтобы запускать сложный логический код.</Description>
+		</RecordThing>
+		<RecordThing>
+		  <Key>ItemKitShuttleMKII</Key>
+		  <Value>Набор (Улучшенный челнок)</Value>
+		  <Description />
+		</RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -8271,6 +8366,14 @@
       <Key>ScannerSlot</Key>
       <Value>Сканирующая головка</Value>
     </Record>
+		<Record>
+		  <Key>ScanningHead</Key>
+		  <Value>Сканирующая головка</Value>
+		</Record>
+	  <Record>
+		<Key>PortableSlot</Key>
+		<Value>Переносное</Value>
+	  </Record>
     <Record>
       <Key>Motherboard</Key>
       <Value>Материнская плата</Value>
@@ -8311,6 +8414,10 @@
       <Key>Magazine</Key>
       <Value>Магазин</Value>
     </Record>
+		<Record>
+		  <Key>Chamber</Key>
+		  <Value>Камера</Value>
+		</Record>
     <Record>
       <Key>ContainerSlot</Key>
       <Value>Слот контейнера</Value>
@@ -8467,6 +8574,10 @@
       <Key>Tablet</Key>
       <Value>Планшет</Value>
     </Record>
+		<Record>
+		  <Key>None</Key>
+		  <Value>Нет</Value>
+		</Record>
   </Slots>
   <Interactables>
     <Record>
@@ -9023,6 +9134,250 @@
 		  <Key>EuropaPoiRegionMorensFellDescription</Key>
 		  <Value>Обдуваемая ветрами ледяная пустыня</Value>
 	  </Record>
+
+	  <Record>
+		  <Key>MimasPoiMarsdenCraterName</Key>
+		  <Value>Кратер Марсдена</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiMarsdenCraterDescription</Key>
+		  <Value>Пологий низменный кратер</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiDesolationName</Key>
+		  <Value>Кратер забвения</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiDesolationDescription</Key>
+		  <Value>Глубокий и пыльный кратер</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiDustBowlName</Key>
+		  <Value>Пыльная чаша</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiDustBowlDescription</Key>
+		  <Value>Обширный бесплодный кратер</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiCraterFieldLookOutName</Key>
+		  <Value>Вид на кратеры</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiCraterFieldLookOutDescription</Key>
+		  <Value>Вид на кратерное поле ниже</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiSouthHighlandsPassName</Key>
+		  <Value>Перевал южных высокогорий</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiSouthHighlandsPassDescription</Key>
+		  <Value>Узкая долина в высокогорье</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiShelteredCraterViewName</Key>
+		  <Value>Вид на защищённый кратер</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiShelteredCraterViewDescription</Key>
+		  <Value>Вид на гигантский центральный кратер</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiCentralMesaCraterName</Key>
+		  <Value>Центральная гора с кратером</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasPoiCentralMesaCraterDescription</Key>
+		  <Value>Кратер с кратером в кратере</Value>
+	  </Record>
+
+	  <Record>
+		  <Key>MimasNamedRegionCressidasPointName</Key>
+		  <Value>Точка Крессиды</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionCressidasFollyName</Key>
+		  <Value>Каприз Крессиды</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionSouthBarrensName</Key>
+		  <Value>Южные пустоши</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionWestBarrensName</Key>
+		  <Value>Западные пустоши</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionNorthBarrensName</Key>
+		  <Value>Северные пустоши</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionEastBarrensName</Key>
+		  <Value>Восточные пустоши</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionDustlandsWestName</Key>
+		  <Value>Запад пыльных земель</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionDustlandsNorthName</Key>
+		  <Value>Север пыльных земель</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionDustlandsSouthName</Key>
+		  <Value>Юг пыльных земель</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionCrumbsWatchName</Key>
+		  <Value>Островок Крэмба</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionNorthernEscarpmentName</Key>
+		  <Value>Северный уступ</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionNorthWesternHighlandsName</Key>
+		  <Value>Северо-западные высокогорья</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionNorthEasternHighlandsName</Key>
+		  <Value>Северо-восточные высокогорья</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionNorthernHighlandsName</Key>
+		  <Value>Северные высокогорья</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionSouthernHighlandsName</Key>
+		  <Value>Южные высокогорья</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionMarsdenCraterName</Key>
+		  <Value>Кратер Марсдена</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionHarrietsDitchName</Key>
+		  <Value>Канава Харриета</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionHarrietCraterName</Key>
+		  <Value>Кратер Харриета</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionDesolationName</Key>
+		  <Value>Кратер забвения</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionDustBowlName</Key>
+		  <Value>Пыльная чаша</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionLowlandsNorthWestName</Key>
+		  <Value>Северо-запад низменности</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionLowlandsWestName</Key>
+		  <Value>Запад низменности</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionLowlandsSouthName</Key>
+		  <Value>Юг низменности</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionLowlandsEastName</Key>
+		  <Value>Восток низменности</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionLowlandsNorthName</Key>
+		  <Value>Север низменности</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionCraterFieldNorthWestName</Key>
+		  <Value>Северо-запад кратерного поля</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionCraterFieldWestName</Key>
+		  <Value>Запад кратерного поля</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionCraterFieldSouthWestName</Key>
+		  <Value>Юго-запад кратерного поля</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionCraterFieldSouthName</Key>
+		  <Value>Юг кратерного поля</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionCraterFieldSouthEastName</Key>
+		  <Value>Юго-восток кратерного поля</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionCraterFieldEastName</Key>
+		  <Value>Восток кратерного поля</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionCraterFieldNorthEastName</Key>
+		  <Value>Северо-восток кратерного поля</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionCraterFieldNorthName</Key>
+		  <Value>Север кратерного поля</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionSuperCraterNorthWestName</Key>
+		  <Value>Северо-запад суперкратера</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionSuperCraterWestName</Key>
+		  <Value>Запад суперкратера</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionSuperCraterSouthWestName</Key>
+		  <Value>Юго-запад суперкратера</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionSuperCraterSouthName</Key>
+		  <Value>Юг суперкратера</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionSuperCraterSouthEastName</Key>
+		  <Value>Юго-восток суперкратера</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionSuperCraterEastName</Key>
+		  <Value>Восток суперкратера</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionSuperCraterNorthEastName</Key>
+		  <Value>Северо-восток суперкратера</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionSuperCraterNorthName</Key>
+		  <Value>Север суперкратера</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasNamedRegionCentralMesaName</Key>
+		  <Value>Центральная гора</Value>
+	  </Record>
+
+	  <Record>
+		  <Key>MimasSpawnCentralMesaName</Key>
+		  <Value>Центральная гора</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasSpawnHarrietCraterName</Key>
+		  <Value>Кратер Харриета</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasSpawnCraterFieldName</Key>
+		  <Value>Кратерное поле</Value>
+	  </Record>
+	  <Record>
+		  <Key>MimasSpawnDustBowlName</Key>
+		  <Value>Пыльная чаша</Value>
+	  </Record>
+
 	  <Record>
 		  <Key>EuropaNamedRegionTyreSlopeName</Key>
 		  <Value>Склон Тир</Value>
@@ -9991,6 +10346,10 @@
       <Key>SettingsParticleQuality</Key>
       <Value>Качество частиц</Value>
     </Record>
+		<Record>
+		  <Key>SettingsTerrainDetail</Key>
+		  <Value>Детали ландшафта</Value>
+		</Record>
     <Record>
       <Key>SettingsSoftParticles</Key>
       <Value>Мягкие частицы</Value>
@@ -10967,7 +11326,7 @@
       <Value>Настройки ввода</Value>
     </Record>
     <Record>
-      <Key>NewWorldAreaMimas</Key>
+      <Key>WorldMimasHerschel</Key>
       <Value>Мимас</Value>
     </Record>
     <Record>
@@ -10989,14 +11348,6 @@
     <Record>
       <Key>NewWorldMoon4kShortDesc</Key>
       <Value>4км на 4км</Value>
-    </Record>
-    <Record>
-      <Key>NewWorldMoon8kShortDesc</Key>
-      <Value>1km by 1km test moon map</Value>
-    </Record>
-    <Record>
-      <Key>NewWorld4KTerrainDesc</Key>
-      <Value>4K testing Map for new terrain system</Value>
     </Record>
     <Record>
       <Key>NewWorldLunarShortDesc</Key>
@@ -11027,7 +11378,7 @@
       <Value>Мир, раздираемый огромными приливными силами сверхмассивной черной дыры, возле которой он вращается. Вулкан оставляет мало надежды организмам, которые здесь оказываются, но его раздробленная поверхность и богатые залежи полезных ископаемых делают его рискованным и прибыльным предприятием для трейдеров. Будьте внимательны, так как глубокие трещины ведут к смертельным потокам магмы под поверхностью!</Value>
     </Record>
     <Record>
-      <Key>NewWorldMimasShortDesc</Key>
+      <Key>NewWorldMimasHerschelShortDesc</Key>
       <Value>Бесплодная скала, укрытая под крылом захватывающих колец Сатурна. Небольшой размер Мимаса отражается в его чрезвычайно низкой гравитации, а поверхность испещерена кратерами от заблудших обитателей кольца. Такое расстояние до солнца дает мало энергии от солнечных устройств. Будьте очень осторожны при ходьбе или прыжках, так как вы можете далеко прыгать и набирать большую скорость из-за крайне низкой гравитации.</Value>
     </Record>
     <Record>
@@ -12960,8 +13311,8 @@
       <Value>Секунд</Value>
     </Record>
     <Record>
-      <Key>SettingsThingRenderDistance</Key>
-      <Value>Дальность отрисовки предметов</Value>
+      <Key>SettingsRenderDistance</Key>
+      <Value>Дальность отрисовки</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderEnergy</Key>
@@ -16766,6 +17117,38 @@
       <Key>BuyDataOxygenReplenishment</Key>
       <Value>Oxygen Replenishment</Value>
     </Record>
+		<Record>
+		  <Key>BuyDataBoxOfMuffins</Key>
+		  <Value>Коробка кексов</Value>
+		</Record>
+		<Record>
+		  <Key>BuyDataBoxOfCornSoup</Key>
+		  <Value>Коробка консервов (Кукуруза)</Value>
+		</Record>
+		<Record>
+		  <Key>BuyDataBoxOfPumpkinSoup</Key>
+		  <Value>Коробка консервов (Тыквенная каша)</Value>
+		</Record>
+		<Record>
+		  <Key>BuyDataBoxOfChocolates</Key>
+		  <Value>Коробка шоколадных батончиков</Value>
+		</Record>
+		<Record>
+		  <Key>BuyDataChocolateCakeInBox</Key>
+		  <Value>Шоколадный торт в коробке</Value>
+		</Record>
+		<Record>
+		  <Key>BuyDataBoxOfTomatoSoup</Key>
+		  <Value>Коробка консервов (Суп из помидоров)</Value>
+		</Record>
+		<Record>
+		  <Key>BuyDataBoxOfRicePudding</Key>
+		  <Value>Коробка консервов (Рисовый пудинг)</Value>
+		</Record>
+		<Record>
+		  <Key>BuyDataBoxOfCannedEdamame</Key>
+		  <Value>Коробка консервов (Варёные соевые бобы)</Value>
+		</Record>
     <Record>
       <Key>BuyDataWaterReplenishment</Key>
       <Value>Water Replenishment</Value>
@@ -19689,7 +20072,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ProgrammableChipErrorCode</Key>
-      <Value>Ошибка {LOCAL:ErrorType} в строке {LOCAL:LineNumber}</Value>
+      <Value>Ошибка &lt;color=red&gt;{LOCAL:ErrorType}&lt;/color&gt; в строке {LOCAL:LineNumber}</Value>
     </Record>
     <Record>
       <Key>OutputLitres</Key>
