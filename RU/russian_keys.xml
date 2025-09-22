@@ -321,18 +321,15 @@
     </Record>
     <Record>
       <Key>Mouse0</Key>
-      <Value>&lt;size=40%&gt;Mouse&lt;/size&gt;
-0</Value>
+      <Value>ЛКМ</Value>
     </Record>
     <Record>
       <Key>Mouse1</Key>
-      <Value>&lt;size=40%&gt;Mouse&lt;/size&gt;
-1</Value>
+      <Value>ПКМ</Value>
     </Record>
     <Record>
       <Key>Mouse2</Key>
-      <Value>&lt;size=40%&gt;Mouse&lt;/size&gt;
-2</Value>
+      <Value>СКМ</Value>
     </Record>
     <Record>
       <Key>Mouse3</Key>
