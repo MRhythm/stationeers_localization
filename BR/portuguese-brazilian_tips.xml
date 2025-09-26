@@ -1,0 +1,49 @@
+﻿<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Code>PB</Code>
+  <GameTip>
+    <String>Pressione {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} ou {KEY:ToolBeltSlot} para alternar entre interações e encaixes em qualquer item de slot que você esteja vestindo. Pressione e segure para trocar entre esse slot e suas mãos ativas.</String>
+    <String>Ao pressionar {KEY:ToggleHandPower} ou {KEY:SecondaryAction}, você alterna a energia ligar/desligar dos itens na sua mão.</String>
+    <String>Pressione {KEY:ToggleLight} para alternar a luz do seu {THING:ItemSpaceHelmet} ligar/desligar.</String>
+    <String>Pressione {KEY:EmoteWave} para fazer seu personagem acenar para outros Stationeers.</String>
+    <String>Pressione {KEY:Jetpack} para ligar/desligar seu {THING:ItemSpacepack}.</String>
+    <String>Pressione {KEY:ToggleUI} para ligar/desligar a Interface do Usuário e tirar capturas de tela ou vídeo.</String>
+    <String>Pressione {KEY:Ascend} para subir quando seu {THING:ItemSpacepack} estiver ligado. Pressione {KEY:Descend} para descer.</String>
+    <String>Pressionar {KEY:InventorySelect} alterna entre um slot do inventário e sua mão ativa.</String>
+    <String>Pressionar {KEY:Drop} solta o que estiver na sua mão. Segurar {KEY:Drop} arremessa o item. Segure por mais tempo para arremessar mais longe.</String>
+    <String>Pressionar {KEY:SwapHands} troca sua mão ativa. Pressione {KEY:ActiveHandSlot} para percorrer as opções de interação do que estiver na sua mão ativa.</String>
+    <String>Pressione {KEY:Internals} para alternar rapidamente seu {THING:ItemSpaceHelmet} entre aberto e fechado.</String>
+    <String>Pressione {KEY:Chatting} para começar a conversar com outros jogadores.</String>
+    <String>Pressione {KEY:RotateLeft} para girar o cursor de construção para a esquerda, {KEY:RotateRight} para girar para a direita, {KEY:RotateUp} para girar para cima, {KEY:RotateDown} para girar para baixo, {KEY:RotateRollLeft} para rolar para a esquerda ou {KEY:RotateRollRight} para rolar para a direita.</String>
+    <String>O espaço não é tão vazio quanto parece.</String>
+    <String>Coloque uma pilha de {THING:ItemIronOre} em uma {THING:StructureArcFurnace} energizada para fundir um {THING:ItemIronIngot}.</String>
+    <String>Coloque uma {THING:MotherboardLogic} em um {THING:StructureComputer} para habilitar lógica com um chip IC. Você poderá adicionar condições e ações que controlam os estados dos dispositivos na mesma rede de dados.</String>
+    <String>Ao alterar a quantidade de algo por um botão no mundo, mantenha {KEY:QuantityModifier} pressionado enquanto clica para usar incrementos menores.</String>
+    <String>Use um {THING:ItemKitLogicInputOutput} para criar um {THING:StructureLogicReader} ou {THING:StructureLogicWriter}. Leitores permitem ler valores de outros dispositivos, escritores permitem alterar valores em dispositivos. Combinado com Unidades de Matemática, você pode criar sistemas automatizados extremamente complexos.</String>
+    <String>Use um {THING:ItemKitLogicInputOutput} para criar um {THING:StructureLogicBatchReader} ou {THING:StructureLogicBatchWriter}. Leitores permitem ler valores de todo um grupo de outros dispositivos; escritores permitem alterar valores em grupos inteiros de dispositivos.</String>
+    <String>Use um {THING:StructureRecycler} para converter coisas que você não quer mais em reagentes utilizáveis. Passe o {THING:ItemReagentMix} resultante em uma {THING:StructureCentrifuge} para convertê-lo de volta em minério, pronto para uma {THING:StructureFurnace}.</String>
+    <String>Use uma {THING:StructureHydraulicPipeBender} para fabricar itens atmosféricos, como o {THING:ItemKitAtmospherics}, que permite construir máquinas úteis como {THING:StructureAirConditioner} ou {THING:StructureFiltration}.</String>
+    <String>Quanto mais danificado estiver seu traje, menos eficiente ele será. Fita adesiva pode resolver isso.</String>
+    <String>Quanto mais danificado estiver seu traje, menos eficiente ele será.</String>
+    <String>Depois que o Manual original dos Stationeers colapsou em uma singularidade, ele foi substituído pela Stationpedia. Pressione {KEY:Help} para abri-la e obter orientação no jogo.</String>
+    <String>Seu {THING:ItemEvaSuit} e {THING:ItemSpaceHelmet} iniciais podem pegar fogo em temperaturas altas. Use {THING:ItemHardSuit} em ambientes perigosos.</String>
+    <String>O programa Stationeers foi estabelecido pela Offworld Development Agency para apoiar a exploração do Sistema Solar e além.</String>
+    <String>Preste atenção aos avisos do seu traje. Eles podem ajudar a evitar desastres.</String>
+    <String>{THING:ItemHardBackpack} pode carregar mais itens, mas não carrega você!</String>
+    <String>Quanto mais danificado estiver seu traje, menos eficiente ele será.</String>
+    <String>Se sua estação parecer sombria, anime o ambiente com músicas do {THING:StructureKlaxon} ou construa seu próprio sampler usando lógica.</String>
+    <String>{THING:StructureHarvie} permite automatizar totalmente o plantio, o crescimento e a colheita de plantas.</String>
+    <String>As Dicas Estendidas podem ser ativadas/desativadas no menu Configurações.</String>
+    <String>Você pode limpar todas as janelas abertas da tela de uma vez pressionando {KEY:HideAllWindows}.</String>
+    <String>{THING:ItemCrowbar} pode ser usado para abrir portas e controladores de energia sem energia.</String>
+    <String>{THING:ItemMiningDrill} pode ser mudado para o modo “Nivelar” para ajudar a criar pisos planos durante a mineração.</String>
+    <String>O {THING:ItemWearLamp} pode ser usado para iluminação sem usar um capacete.</String>
+    <String>Segurando {KEY:MouseControl} você ativa o cursor do mouse e pode arrastar itens para dentro e para fora do seu inventário ou entre slots.</String>
+    <String>O capacete espacial básico isola os Stationeers de tudo: do vácuo absoluto até cheiros estranhos de cozinha.</String>
+    <String>A física é sua amiga. Até deixar de ser.</String>
+    <String>O ajustador de aderência friccional é um modelo bi-rotacional com uni-empunhadura colunada. Não é “apenas” uma chave de fenda.</String>
+    <String>Na verdade não é “leite”, mas uma síntese patenteada pela Agrizero de {THING:ItemSoyOil} e {THING:ItemFern}, delicadamente misturada na {THING:ApplianceChemistryStation}.</String>
+    <String>Ilegais na Terra desde o Evento de Chengdu, as células de energia nuclear Norsec encontraram um novo mercado fora do mundo — e com muito menos preocupação com segurança.</String>
+    <String>Com fome? Barras de cereal são compactas, nutritivas e com níveis refrescantemente baixos de radiação.</String>
+    <String>Cansado de trocar filtros normais? Filtros Médios e Pesados duram 5x e 20x mais, mas são mais caros.</String>
+  </GameTip>
+</Language>
