@@ -5857,8 +5857,8 @@ Un groupe de quatre moteurs électriques montés sur le moyeu propulse le châss
 		<RecordThing>
 			<Key>StructureUprightWindTurbine</Key>
 			<Value>Éolienne (petite)</Value>
-			<Description>La turbine éolienne de base de {LINK:Norsec;Norsec} est un modèle facilement fabriqué et déployé rapidement, assez solide pour résister à tout ce que l'environnement peut lui infliger.
-Bien que la turbine éolienne soit optimisée pour produire de l'électricité même sur des mondes à faible atmosphère (jusqu'à 200 W), elle fonctionne mieux dans des environnements plus denses. La production varie en fonction de la vitesse du vent et peut augmenter considérablement pendant les tempêtes (jusqu'à 800 W), alors veillez à concevoir vos réseaux électriques en gardant cela à l'esprit.</Description>
+			<Description>La petite éolienne de {LINK:Norsec;Norsec} est un modèle facile à fabriquer et à déployer rapidement, conçu pour résister aux conditions environnementales les plus extrêmes.
+Bien qu'optimisée pour produire de l'énergie même sur des mondes à faible atmosphère (jusqu'à 200 W), elle offre ses meilleures performances dans des environnements plus denses. La production varie selon la vitesse du vent et, lors des tempêtes, peut augmenter de manière significative (jusqu'à 1 000 W). Pensez à concevoir vos réseaux électriques en tenant compte de ces variations.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CrateMkII</Key>
@@ -5949,8 +5949,9 @@ Il peut être automatisé en utilisant le {THING:StructureHarvie}. Notez que con
 		<RecordThing>
 			<Key>StructureWindTurbine</Key>
 			<Value>Éolienne (grande)</Value>
-			<Description>L'éolienne de Stationeers a d'abord été conçue par les ingénieurs atmosphériques de Norsec, cherchant à créer un système de production d'énergie entraîné par le vent qui fonctionnerait même sur des mondes à atmosphère très faible. Les pales ultra-légères répondent aux densités atmosphériques extrêmement faibles, tout en étant suffisamment solides pour fonctionner même sous une énorme contrainte dans des environnements beaucoup plus exigeants.
-Bien que l'éolienne soit optimisée pour produire de l'énergie (jusqu'à 500 W) même sur des mondes à faible atmosphère, elle fonctionne mieux dans des environnements plus denses. La production varie avec la vitesse du vent et, pendant les tempêtes, peut augmenter considérablement (jusqu'à 10 000 W), alors veillez à concevoir vos réseaux électriques en tenant compte de cela.</Description>
+			<Description>La grande éolienne des Stationeers a été conçue à l'origine par les ingénieurs atmosphériques de {LINK:Norsec;Norsec}, cherchant à créer un système de production d'énergie éolienne fonctionnant même sur des mondes à atmosphère extrêmement ténue. Ses pales ultra-légères réagissent aux densités atmosphériques les plus faibles, tout en étant assez robustes pour résister à des contraintes extrêmes dans des environnements bien plus exigeants.
+
+Bien qu'optimisée pour produire de l'énergie (jusqu'à 500 W) même sur des mondes à faible atmosphère, elle offre ses meilleures performances dans des environnements plus denses. La production varie en fonction de la vitesse du vent et, lors des tempêtes, peut augmenter de manière spectaculaire (jusqu'à 20 000 W). Pensez à concevoir vos réseaux électriques en tenant compte de ces variations.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitWindTurbine</Key>
