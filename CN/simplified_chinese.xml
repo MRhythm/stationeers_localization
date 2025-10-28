@@ -1589,7 +1589,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeVolumePump</Key>
-      <Value>(套件)管道泵</Value>
+      <Value>(套件)管道体积泵</Value>
       <Description>该套件能够建造一个 {THING:StructureVolumePump}</Description>
     </RecordThing>
     <RecordThing>
@@ -2448,8 +2448,8 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     </RecordThing>
     <RecordThing>
       <Key>StructureVolumePump</Key>
-      <Value>管道泵</Value>
-      <Description>管道泵可泵送气体. 它还能隔离两个不同的管道网络</Description>
+      <Value>管道体积泵</Value>
+      <Description>管道体积泵可泵送气体. 它还能隔离两个不同的管道网络</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidValve</Key>
@@ -5712,12 +5712,12 @@ AIMEe有7种模式:
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
-      <Value>液体管道泵</Value>
+      <Value>液体管道体积泵</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeVolumePump</Key>
-      <Value>(套件)液体管道泵</Value>
+      <Value>(套件)液体管道体积泵</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -6348,17 +6348,17 @@ AIMEe有7种模式:
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction</Key>
-      <Value>隔热液体管道(交叉)</Value>
-      <Description>与外界热交换率极低的液体管道</Description>
-    </RecordThing>
-    <RecordThing>
-      <Key>StructureInsulatedPipeLiquidCrossJunction4</Key>
       <Value>隔热液体管道(3角)</Value>
       <Description>与外界热交换率极低的液体管道</Description>
     </RecordThing>
     <RecordThing>
-      <Key>StructurePipeInsulatedLiquidCrossJunction</Key>
+      <Key>StructureInsulatedPipeLiquidCrossJunction4</Key>
       <Value>隔热液体管道(4角)</Value>
+      <Description>与外界热交换率极低的液体管道</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePipeInsulatedLiquidCrossJunction</Key>
+      <Value>隔热液体管道(交叉)</Value>
       <Description>与外界热交换率极低的液体管道</Description>
     </RecordThing>
     <RecordThing>
