@@ -23823,7 +23823,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>DeepMinerSomethingInTheWay</Key>
-      <Value>有东西挡住了 {LOCAL:Thing}</Value>
+      <Value>有东西挡住了: {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>TorpedoTubeNothingLoadedInto</Key>
