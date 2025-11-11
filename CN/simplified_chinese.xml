@@ -4635,7 +4635,7 @@ AIMEe有7种模式:
     </RecordThing>
     <RecordThing>
       <Key>AutolathePrinterMod</Key>
-      <Value>自动车床升改装件</Value>
+      <Value>自动车床改装件</Value>
       <Description>使用 {THING:ItemWeldingTorch} 或 {THING:ItemArcWelder} 将其安装到 {THING:StructureAutolathe} 可提升处理速度并解锁更多配方</Description>
     </RecordThing>
     <RecordThing>
