@@ -4105,9 +4105,9 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     <RecordThing>
       <Key>StructureUnloader</Key>
       <Value>卸载机</Value>
-      <Description>当插入任何物品时,  {LINK:Xigo;Xigo} Re:Gurge可高效卸载物品并将其导入滑道网络. 例如, 若装入完整的 {THING:ItemMiningBelt} , Re:Gurge会清空采矿带内容物并导入滑道网络, 随后将采矿带本身重新插入. 建议使用 {THING:StructureSorter} 回收采矿带. 
-输出=0导出主物品
-Output=1导出内部物品及最终主物品</Description>
+      <Description>当插入任何物品时,  {LINK:Xigo;Xigo} Re:Gurge可高效卸载物品并将其导入滑道网络. 例如, 若装入完整的 {THING:ItemMiningBelt} , Re:Gurge会清空采矿带内容物并输入滑道网络, 随后将采矿带本身重新插入. 建议使用 {THING:StructureSorter} 回收采矿带. 
+Output=0 时仅输出主物品
+Output=1 导出内部物品并最后输出主物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>ReagentFenoxitone</Key>
