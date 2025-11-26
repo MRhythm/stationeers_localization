@@ -1038,7 +1038,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemBatteryCellNuclear</Key>
-      <Value>电池(核)</Value>
+      <Value>电池(核能)</Value>
       <Description>自成都事件后在地球被禁用的Norsec核电池, 在太空找到了安全意识淡薄的新市场. 
  {HEADER:电力输出} 
 将功重比推向极限的"核电池"拥有2. 3兆瓦（2304000W）电量, 这得益于 {LINK:IngotPage;超级合金} 的特性</Description>
@@ -7141,38 +7141,38 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideInfinite</Key>
-      <Value>无限滤芯(二氧化碳)</Value>
-      <Description>选择性过滤二氧化碳, 利用内部压差构建基于相变的分离机制, 使用寿命无限</Description>
+      <Value>催化滤芯(二氧化碳)</Value>
+      <Description>选择性过滤二氧化碳, 利用内部压差构建基于相变原理的分离机制, 使用寿命非常长</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygenInfinite</Key>
-      <Value>无限滤芯(氧)</Value>
-      <Description>选择性过滤氧, 利用内部压差构建基于相变的分离机制, 使用寿命无限</Description>
+      <Value>催化滤芯(氧)</Value>
+      <Description>选择性过滤氧, 利用内部压差构建基于相变原理的分离机制, 使用寿命非常长</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideInfinite</Key>
-      <Value>无限滤芯(一氧化二氮)</Value>
-      <Description>选择性过滤一氧化二氮, 利用内部压差构建基于相变的分离机制, 使用寿命无限</Description>
+      <Value>催化滤芯(一氧化二氮)</Value>
+      <Description>选择性过滤一氧化二氮, 利用内部压差构建基于相变原理的分离机制, 使用寿命非常长</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogenInfinite</Key>
-      <Value>无限滤芯(氮)</Value>
-      <Description>选择性过滤氮, 利用内部压差构建基于相变的分离机制, 使用寿命无限</Description>
+      <Value>催化滤芯(氮)</Value>
+      <Description>选择性过滤氮, 利用内部压差构建基于相变原理的分离机制, 使用寿命非常长</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutantsInfinite</Key>
-      <Value>无限滤芯(污染物)</Value>
-      <Description>选择性过滤污染物, 利用内部压差构建基于相变的分离机制, 使用寿命无限</Description>
+      <Value>催化滤芯(污染物)</Value>
+      <Description>选择性过滤污染物, 利用内部压差构建基于相变原理的分离机制, 使用寿命非常长</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatilesInfinite</Key>
-      <Value>无限滤芯(可燃物)</Value>
-      <Description>选择性过滤 {GAS:Volatiles} , 利用内部压差构建基于相变的分离机制, 使用寿命无限</Description>
+      <Value>催化滤芯(可燃物)</Value>
+      <Description>选择性过滤 {GAS:Volatiles} , 利用内部压差构建基于相变的分离机制, 使用寿命非常长</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWaterInfinite</Key>
-      <Value>无限滤芯(水)</Value>
-      <Description>选择性过滤水, 利用内部压差构建基于相变的分离机制, 使用寿命无限</Description>
+      <Value>催化滤芯(水)</Value>
+      <Description>选择性过滤水, 利用内部压差构建基于相变原理的分离机制, 使用寿命非常长</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSolidFuel</Key>
@@ -7445,22 +7445,22 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankGas1x1</Key>
-      <Value>管道容积罐(小)</Value>
+      <Value>管道容积罐(1)</Value>
       <Description>小型管道扩容罐, 可增加管道网络的容积</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankGas1x2</Key>
-      <Value>管道容积罐</Value>
+      <Value>管道容积罐(2)</Value>
       <Description>小型管道扩容罐, 可增加管道网络的容积</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankLiquid1x1</Key>
-      <Value>液体管道容积罐(小)</Value>
+      <Value>液体管道容积罐(1)</Value>
       <Description>小型管道扩容罐, 可增加管道网络的容积</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankLiquid1x2</Key>
-      <Value>液体管道容积罐</Value>
+      <Value>液体管道容积罐(2)</Value>
       <Description>小型管道扩容罐, 可增加管道网络的容积</Description>
     </RecordThing>
     <RecordThing>
@@ -8058,7 +8058,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructurePumpedLiquidEngine</Key>
       <Value>自泵式液体火箭发动机</Value>
-      <Description>采用液体推进剂的自泵式发动机, 能效更高. 配备双输入口供Stationeer分别供应燃料, 通过设置变量控制输入燃料的混合比例. 该发动机设计使用 {GAS:LiquidVolatiles} 和 {GAS:LiquidOxygen} 作为燃料, 部分Stationeer报告改用 {GAS:LiquidNitrousOxide} 后推力显著提升</Description>
+      <Description>采用液体推进剂的自泵式发动机, 效能更高. 配备双输入口供Stationeer分别供应燃料和氧化剂, 通过设置变量控制输入燃料的混合比例. 该发动机设计使用 {GAS:LiquidVolatiles} 和 {GAS:LiquidOxygen} 作为燃料, 部分Stationeer报告改用 {GAS:LiquidNitrousOxide} 后推力显著提升</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPumpedLiquidEngine</Key>
@@ -8078,7 +8078,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructurePressureFedGasEngine</Key>
       <Value>供压式气体火箭发动机</Value>
-      <Description>虽效率较低但动力强劲, 供压式气体发动机根据输入管道压力自动调节双燃料输入量. 通过调整输入压力控制燃料混合比例, 建议维持 {GAS:Volatiles} 与 {GAS:Oxygen} 气体2:1的混合比. 冷却推进剂气体或使用 {GAS:NitrousOxide} 作为氧化剂可进一步提升推力输出</Description>
+      <Description>虽效率较低但推力强劲, 供压式气体发动机根据输入管道压力自动调节双燃料输入量. 通过调整输入压力控制燃料混合比例, 建议维持 {GAS:Volatiles} 与 {GAS:Oxygen} 气体2:1的混合比. 冷却推进剂气体或使用 {GAS:NitrousOxide} 作为氧化剂可进一步提升推力输出</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngine</Key>
@@ -8089,6 +8089,26 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Key>StructurePressureFedLiquidEngine</Key>
       <Value>供压式液体火箭发动机</Value>
       <Description>高效强力, 但运行稳定性要求较高的供压式液体发动机. 燃料输入量由输入管道的气压决定, 在此过程中会伴随少量气体输入, 需设计系统维持液体输入管道的高气压环境. 发动机第二液体管口为可选热交换接口, 用于管道内容物与发动机喷管之间的热交换, 逻辑变量设置可调节热交换效率</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPressureFedGasEngineHeavy</Key>
+      <Value>(套件)重型供压式气体火箭发动机</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePressureFedGasEngineHeavy</Key>
+      <Value>重型供压式气体火箭发动机</Value>
+      <Description>{THING:StructurePressureFedGasEngine}的增强型变体. 它通过牺牲少量效率换取推力的大幅提升. 供压式发动机根据输入管道的压力从各个输入端输送气体. 可以通过调整输入压力来控制燃料混合比例, 以达成 {GAS:Volatiles} 与 {GAS:Oxygen} 混合比2:1的目标. 使用冷却燃料气体或使用 {GAS:NitrousOxide} 作为氧化剂会输出更高的推力</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPressureFedLiquidEngineHeavy</Key>
+      <Value>(套件)重型供压式液体火箭发动机</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePressureFedLiquidEngineHeavy</Key>
+      <Value>重型供压式液体火箭发动机</Value>
+      <Description>{THING:StructurePressureFedLiquidEngine}的增强型变体. 它通过牺牲少量效率换取推力的大幅提升. 警告: 供压式发动机需要精密调控才能稳定运行. 液体燃料基于输入气体压力从输入端被吸入发动机, 此过程会同时带入部分气体, Stationeers需要设计一套系统来维持液体输入管道的气压. 第二个液体管道连接口是可选的热交换器接口, 用于在管道内容物与发动机喷管间进行热交换, 发动机的Setting变量可调节该换热器的效果</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeA1</Key>
@@ -8567,22 +8587,22 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x1</Key>
-      <Value>隔热管道容积罐(小)</Value>
+      <Value>隔热管道容积罐(1)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x2</Key>
-      <Value>隔热管道容积罐</Value>
+      <Value>隔热管道容积罐(2)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x1</Key>
-      <Value>隔热液体管道容积罐(小)</Value>
+      <Value>隔热液体管道容积罐(1)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x2</Key>
-      <Value>隔热液体管道容积罐</Value>
+      <Value>隔热液体管道容积罐(2)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -8908,6 +8928,8 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>ItemSuitHARM</Key>
       <Value>防护服</Value>
+      <Description>防护服是Stationeers对抗恶劣环境的终极手段.
+        防护服采用液冷技术, 具备卓越的隔热性能, 并拥有优秀的抗冲击和熔岩耐受能力. 虽然防护服不兼容 {THING:ItemJetpackBasic} ,但Stationeer仍可配备 {THING:ItemHardBackpack} 或 {THING:ItemHardMiningBackPack}. 由于其特殊的稳定性与体积，穿着防护服在风暴中行动时不会影响行走速度, 但这也导致日常操作时的移动速度有所下降.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitHelmetHARM</Key>
@@ -9078,8 +9100,8 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketDeepScanningHead</Key>
-      <Value>火箭深层扫描头</Value>
-      <Description />
+      <Value>火箭地表扫描头</Value>
+      <Description>当安装在火箭扫描仪中时, 地表扫描头将会扫描地图上的深层矿物区域.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureComputerBigScreenWallMounted</Key>
@@ -9094,6 +9116,230 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructureVendingMachineSmall</Key>
       <Value>小型智能货柜</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureVendingMachineSmall1</Key>
+      <Value>小型智能货柜1</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuitStorageFrame</Key>
+      <Value>宇航服收纳架</Value>
+      <Description>整洁又实用, 宇航服收纳架可存放一件 {THING:ItemEvaSuit}, 一个 {THING:ItemSpaceHelmet} 和一个{THING:ItemJetpackBasic}.
+        当通电并连接到 {GAS:Oxygen} 和 {GAS:Nitrogen} 时, 它将为宇航服的电池充电, 补充{THING:ItemGasCanisterOxygen} 和你的 {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister} .废气瓶将被泵送到连接到废弃物出口的管道中.
+        收纳架的所有管道都必须接好, 否则改设备将显示错误状态, 不过它仍会为电池充电.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuitStorageLocker</Key>
+      <Value>宇航服收纳柜</Value>
+      <Description>整洁又实用, 宇航服收纳架可存放一件 {THING:ItemEvaSuit}, 一个 {THING:ItemSpaceHelmet} 和一个{THING:ItemJetpackBasic}.
+        当通电并连接到 {GAS:Oxygen} 和 {GAS:Nitrogen} 时, 它将为宇航服的电池充电, 补充{THING:ItemGasCanisterOxygen} 和你的 {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister} .废气瓶将被泵送到连接到废弃物出口的管道中.
+        收纳架的所有管道都必须接好, 否则改设备将显示错误状态, 不过它仍会为电池充电.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_GasTankConnectorPiece</Key>
+      <Value>着陆场储罐连接器(气体)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_LiquidTankConnectorPiece</Key>
+      <Value>着陆场储罐连接器(液体)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInLineTankGas1x3</Key>
+      <Value>管道容积罐(3)</Value>
+      <Description>小型管道扩容罐, 可增加管道网络的容积</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInLineTankLiquid1x3</Key>
+      <Value>液体管道容积罐(3)</Value>
+      <Description>小型管道扩容罐, 可增加管道网络的容积</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankGas1x3</Key>
+      <Value>隔热管道容积罐(3)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankLiquid1x3</Key>
+      <Value>隔热液体管道容积罐(3)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner</Key>
+      <Value>超重型电缆(拐角)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner3</Key>
+      <Value>超重型电缆(3角)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner3Burnt</Key>
+      <Value>烧毁的超重型电缆(3角)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner4</Key>
+      <Value>超重型电缆(4角)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner4Burnt</Key>
+      <Value>烧毁的超重型电缆(4角)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCornerBurnt</Key>
+      <Value>烧毁的超重型电缆(拐角)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction</Key>
+      <Value>超重型电缆(交叉)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction4</Key>
+      <Value>超重型电缆(4路)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction4Burnt</Key>
+      <Value>烧毁的超重型电缆(4路)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction5</Key>
+      <Value>超重型电缆(5路)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction5Burnt</Key>
+      <Value>烧毁的超重型电缆(5路)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction6</Key>
+      <Value>超重型电缆(6路)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction6Burnt</Key>
+      <Value>烧毁的超重型电缆(6路)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunctionBurnt</Key>
+      <Value>烧毁的超重型电缆(交叉)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight</Key>
+      <Value>超重型电缆(直线)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight3</Key>
+      <Value>超重型电缆(直线3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight3Burnt</Key>
+      <Value>烧毁的超重型电缆(直线3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight5</Key>
+      <Value>超重型电缆(直线5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight5Burnt</Key>
+      <Value>烧毁的超重型电缆(直线5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight10</Key>
+      <Value>超重型电缆(直线10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight10Burnt</Key>
+      <Value>烧毁的超重型电缆(直线10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraightBurnt</Key>
+      <Value>烧毁的超重型电缆(直线)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableCoilSuperHeavy</Key>
+      <Value>电缆(超重型)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePacker</Key>
+      <Value>装载机</Value>
+      <Description>装载机会从其左侧插槽中取出物品, 并将其放入右侧插槽物品的可用插槽中. 插槽将按从第一个到最后一个的顺序填充. 如果找不到可用插槽, 则左侧插槽中的物品将被弹出. 右侧插槽中的物品一旦装满或是拉下拉杆, 将会自动弹出。</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>CardboardBoxLarge</Key>
+      <Value>大型纸箱</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicAFrameStripes</Key>
+      <Value>便携式A型框架标志(条纹)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicAFrameWIP</Key>
+      <Value>便携式A型框架标志(施工中)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicWorkCone</Key>
+      <Value>便携式施工锥桶</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicAFrameStripes</Key>
+      <Value>(套件)便携式A型框架标志(条纹)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicAFrameWIP1</Key>
+      <Value>(套件)便携式A型框架标志(施工中)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicBarrier</Key>
+      <Value>(套件)便携式路障</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicChannelizer</Key>
+      <Value>(套件)便携式导流柱</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicWorkCone</Key>
+      <Value>(套件)便携式施工锥桶</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicBarrier</Key>
+      <Value>便携式路障</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicChannelizer</Key>
+      <Value>便携式导流柱</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -9163,6 +9409,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>电池</Value>
     </Record>
     <Record>
+      <Key>Egg</Key>
+      <Value>蛋</Value>
+    </Record>
+    <Record>
       <Key>GasCanister</Key>
       <Value>气瓶</Value>
     </Record>
@@ -9229,6 +9479,14 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>Appliance2</Key>
       <Value>电器2</Value>
+    </Record>
+    <Record>
+      <Key>Payload</Key>
+      <Value>载荷</Value>
+    </Record>
+    <Record>
+      <Key>Recipient</Key>
+      <Value>容器</Value>
     </Record>
     <Record>
       <Key>Import</Key>
@@ -9403,6 +9661,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>玩家</Value>
     </Record>
     <Record>
+      <Key>Mask</Key>
+      <Value>面具</Value>
+    </Record>
+    <Record>
       <Key>Fertiliser</Key>
       <Value>肥料</Value>
     </Record>
@@ -9477,6 +9739,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>None</Key>
       <Value>无</Value>
+    </Record>
+    <Record>
+      <Key>Crate</Key>
+      <Value>储物箱插槽</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -12164,7 +12430,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiDogsheadCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterName</Key>
@@ -12172,7 +12438,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterName</Key>
@@ -12180,7 +12446,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterName</Key>
@@ -12188,7 +12454,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterName</Key>
@@ -12196,7 +12462,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterName</Key>
@@ -12204,7 +12470,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterName</Key>
@@ -12212,7 +12478,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterName</Key>
@@ -12220,7 +12486,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterName</Key>
@@ -12228,7 +12494,375 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaCraterDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadPassageSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadPassageNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarPlateauEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersOutcropDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersPlateauNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersPlateauSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSouthernHighlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPollenKnollDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPollenThumbDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderApproachDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSouthEasternWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBurningTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiJanosPlateauDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiJanosSlopeDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersViewDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentOutcropDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaHighlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHighlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBurningSaddleDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTwinsViewDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSpearOverlookDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTwinsPassDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPrometheusNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPrometheusSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNorthernWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiGreyOverlookDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentOverlookDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValoursRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBrokenPlateauDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarPlateauDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHeightsWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHeightsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSorinsDescentDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSorinsApproachDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensViewDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiAshRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSpearValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiFingerValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNarrowPassageDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDamonPassageDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonRiftDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiWestlandsGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiWestlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiHalesDescentDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDantesValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersWalkDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiForgottenValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPeanutValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsfootDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDeepscarSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDeepscarNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValleyOfHopeDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOuterWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentValleyNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentValleySouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiShatteredValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValleyOfLossDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiGreyChannelDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNeedleValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCalamitySouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCalamityNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionSouthEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionSouthWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionNorthWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionNorthEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDuchValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiIronValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPepperGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiAshValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderPeakDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountSorinDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonPeakDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarVentDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountValourDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountOrenDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiToraDescription</Key>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnVestaValleyName</Key>
@@ -12255,12 +12889,84 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>由嶙峋的岩石和坍塌的岩浆堆构成的严酷荒原</Value>
     </Record>
     <Record>
+      <Key>SpawnRoundRobin</Key>
+      <Value>轮换生成</Value>
+    </Record>
+    <Record>
+      <Key>SpawnRoundRobinDescription</Key>
+      <Value>每位玩家将在不同的地点开始游戏</Value>
+    </Record>
+    <Record>
       <Key>VulcanSpawnTitusReachName</Key>
-      <Value>泰特斯眺望</Value>
+      <Value>泰特斯山麓</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnTitusReachDescription</Key>
-      <Value>可俯瞰熔岩湖和火山群的平坦中等高度高原</Value>
+      <Value>一个平坦的中高度高原，可俯瞰熔岩湖和火山群</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnSerpentPlateauName</Key>
+      <Value>巨蛇高原</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnSerpentPlateauDescription</Key>
+      <Value>一片破碎的平原逐渐沉入熔岩湖中</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnTalonHeightsName</Key>
+      <Value>塔隆高地</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnTalonHeightsDescription</Key>
+      <Value>位于塔隆峰背风处的火山山脉谷地</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDusterPlateauNorthName</Key>
+      <Value>达斯特高原北部</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDusterPlateauNorthDescription</Key>
+      <Value>托庇于一条微型山谷, 可俯瞰花生谷</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnCinderPeakName</Key>
+      <Value>烬斑峰</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnCinderPeakDescription</Key>
+      <Value>位于狗爪山山脚下的深邃山谷</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnRedJunctionName</Key>
+      <Value>红色岔口</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnRedJunctionDescription</Key>
+      <Value>位于岔口湖与灾厄湖的湖岸</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnOrensTrackName</Key>
+      <Value>奥伦小径</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnOrensTrackDescription</Key>
+      <Value>坐落在奥伦山与勇气山之间，奥伦小径提供了良好的建筑空间</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDogsfootName</Key>
+      <Value>狗爪山</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDogsfootDescription</Key>
+      <Value>形似爪子的分叉玄武岩构造, 为躲避火山灰风暴提供了难得的庇护所</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnKalimarOutlookName</Key>
+      <Value>卡利马尔眺望台</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnKalimarOutlookDescription</Key>
+      <Value>一条熔岩河蜿蜒穿过下方的山谷，处于卡利马尔火山口的严酷注视之下</Value>
     </Record>
     <Record>
       <Key>OkayConfirmation</Key>
@@ -13049,6 +13755,14 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>SettingsTerrainDetail</Key>
       <Value>地形曲面细分</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTerrainDistance</Key>
+      <Value>地形细节</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMinableDistance</Key>
+      <Value>矿物渲染距离</Value>
     </Record>
     <Record>
       <Key>SettingsSoftParticles</Key>
@@ -14090,7 +14804,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>NewWorldVulcan2ShortDesc</Key>
-      <Value>由于环绕一个超大质量黑洞公转, 这颗星球已经被巨大的潮汐力撕碎. 对于任何有机生命, 在火神星上生存的希望都十分渺茫. 但破碎的星球表面之下, 却蕴含着丰富的矿物. 因此对于星际贸易商来说, 这里的回报也像风险一样可观. 一定要当心地表的裂缝, 因为下面很可能流淌着致命的岩浆</Value>
+      <Value>由于环绕一个超大质量黑洞公转, 这颗星球已经被巨大的潮汐力撕碎. 任何有机生命在火神星上生存的希望都十分渺茫. 但破碎的星球表面之下, 却蕴含着丰富的矿物. 因此对于星际贸易商来说, 这里的回报也像风险一样可观. 一定要当心地表的裂缝, 因为下面很可能流淌着致命的岩浆</Value>
     </Record>
     <Record>
       <Key>NewWorldMimasShortDesc</Key>
@@ -18042,7 +18756,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>MoleHydrogenDescription</Key>
-      <Value/>
+      <Value />
     </Record>
     <Record>
       <Key>MoleSteamDescription</Key>
@@ -18109,12 +18823,8 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>开始游戏</Value>
     </Record>
     <Record>
-      <Key>StationpediaMinCoolantTemperature</Key>
-      <Value>最低冷却液温度:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMaxCoolantTemperature</Key>
-      <Value>最高冷却液温度:</Value>
+      <Key>StationpediaCoolantTemperatureOperatingRange</Key>
+      <Value>冷却剂:</Value>
     </Record>
     <Record>
       <Key>StationpediaThermalConductivityConvection</Key>
@@ -18125,27 +18835,19 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>热辐射:</Value>
     </Record>
     <Record>
+      <Key>StationpediaSolarHeating</Key>
+      <Value>日光加热:</Value>
+    </Record>
+    <Record>
       <Key>StationpediaMovementSpeedModifier</Key>
       <Value>移动速度:</Value>
     </Record>
     <Record>
-      <Key>StationpediaThermalSaturation</Key>
-      <Value>热饱和:</Value>
+      <Key>StationpediaOperatingTemperatureRange</Key>
+      <Value>理想工作温度:</Value>
     </Record>
     <Record>
-      <Key>StationpediaMinSafeTemperature</Key>
-      <Value>最低安全温度:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMaxSafeTemperature</Key>
-      <Value>最高安全温度:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMinOperatingTemperature</Key>
-      <Value>最低工作温度:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMaxOperatingTemperature</Key>
+      <Key>StationpediaMaxOperatingTemperatureRange</Key>
       <Value>最高工作温度:</Value>
     </Record>
     <Record>
@@ -18481,6 +19183,14 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>快速开始带有Debug工具的地形编辑</Value>
     </Record>
     <Record>
+      <Key>DefaultStartCondition</Key>
+      <Value>标准</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionDescription</Key>
+      <Value>你将获得建立远程基地所需的基础物资, 这些物资被系统地整理在装有储物箱和物资包的登陆器中.</Value>
+    </Record>
+    <Record>
       <Key>DefaultScenarioStartCondition</Key>
       <Value>仅玩家</Value>
     </Record>
@@ -18501,6 +19211,30 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>标准(金星)</Value>
     </Record>
     <Record>
+      <Key>DefaultCommunityStartCondition</Key>
+      <Value>社区标准</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionDescription</Key>
+      <Value>每位Stationeer都将从属于自己的完整且设备齐全的登陆器开始.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionVulcan</Key>
+      <Value>社区标准(火神星)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionEuropa</Key>
+      <Value>社区标准(木卫二)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionMimas</Key>
+      <Value>社区标准(土卫一)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionVenus</Key>
+      <Value>社区标准(金星)</Value>
+    </Record>
+    <Record>
       <Key>BrutalStartCondition</Key>
       <Value>残酷</Value>
     </Record>
@@ -18513,12 +19247,32 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>残酷(土卫一)</Value>
     </Record>
     <Record>
+      <Key>BrutalCommunityStartCondition</Key>
+      <Value>社区残酷</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionEuropa</Key>
+      <Value>社区残酷(木卫二)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionMimas</Key>
+      <Value>社区残酷(土卫一)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionVulcan</Key>
+      <Value>社区残酷(高温星球)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionDescription</Key>
+      <Value>每位Stationeer将仅以一套最基础的物资开始.</Value>
+    </Record>
+    <Record>
       <Key>BrutalStartConditionVulcan</Key>
       <Value>残酷(高温星球)</Value>
     </Record>
     <Record>
       <Key>BrutalStartConditionDescription</Key>
-      <Value>你只拥有微不足道的物资. 我不会告诉你你的存活概率. . . 不过, 我衷心的同情你</Value>
+      <Value>你只拥有微不足道的物资. 我不会告诉你你的存活概率...不过, 我衷心的同情你</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildPower</Key>
@@ -20337,6 +21091,10 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>雪</Value>
     </Record>
     <Record>
+      <Key>SolarStormWeather</Key>
+      <Value>太阳风暴</Value>
+    </Record>
+    <Record>
       <Key>StationpediaPhaseChangeDiagramPressureTitle</Key>
       <Value>压强</Value>
     </Record>
@@ -20597,6 +21355,14 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>速生土豆</Value>
     </Record>
     <Record>
+      <Key>SellDataSuperCorn</Key>
+      <Value>超级玉米</Value>
+    </Record>
+    <Record>
+      <Key>SellDataResilientFern</Key>
+      <Value>强适应力蕨</Value>
+    </Record>
+    <Record>
       <Key>BuyDataBulkVolatiles</Key>
       <Value>散装燃气</Value>
     </Record>
@@ -20698,11 +21464,15 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>SellDataBoxOfBatteryCells</Key>
-      <Value>电池箱</Value>
+      <Value>一箱电池</Value>
     </Record>
     <Record>
       <Key>SellDataBoxOfBatteryCellsLarge</Key>
-      <Value>电池(大)箱</Value>
+      <Value>一箱电池(大)</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxOfNuclearBatteryCells</Key>
+      <Value>一箱电池(核能)</Value>
     </Record>
     <Record>
       <Key>SellDataWeldingFuel</Key>
@@ -20774,7 +21544,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TraderCosmicForge</Key>
-      <Value>宇际熔炉</Value>
+      <Value>宇宙熔炉</Value>
     </Record>
     <Record>
       <Key>TraderGalacticMetallurgy</Key>
@@ -21073,6 +21843,14 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
       <Value>小行星电器</Value>
     </Record>
     <Record>
+      <Key>TraderGenetics</Key>
+      <Value>基因工程</Value>
+    </Record>
+    <Record>
+      <Key>TraderRareItems</Key>
+      <Value>宇宙奇珍</Value>
+    </Record>
+    <Record>
       <Key>TradeError</Key>
       <Value>交易出错</Value>
     </Record>
@@ -21244,6 +22022,30 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
         我们深知存档丢失令人沮丧, 但此次重写为 Stationeers 的未来发展奠定了坚实基础.
         感谢您的理解与支持, 期待您能尽情体验全新版本带来的惊喜.
       </Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPowerCapacity</Key>
+      <Value>电力容量:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPowerGeneration</Key>
+      <Value>基础发电量:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMetabolicSuspension</Key>
+      <Value>代谢暂停</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMetabolicSuspensionDesc</Key>
+      <Value>提供电力时, 此设备能够暂时停止使用者的新陈代谢效应, 确保他们不再消耗食物和水</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCryogenicRegenerationDesc</Key>
+      <Value>提供电力时, 此设备能够修复所有类型的组织和器官损伤, 并且能够复活死亡的使用者</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCryogenicRegeneration</Key>
+      <Value>低温再生</Value>
     </Record>
   </Interface>
   <Colors>
@@ -27969,6 +28771,254 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>CancelLoadButton</Key>
       <Value>取消</Value>
+    </Record>
+    <Record>
+      <Key>LandingGear</Key>
+      <Value>起落架</Value>
+    </Record>
+    <Record>
+      <Key>Activate</Key>
+      <Value>激活</Value>
+    </Record>
+    <Record>
+      <Key>Deactivate</Key>
+      <Value>停用</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionStackSize</Key>
+      <Value>返回设备内部内存的堆栈大小.</Value>
+    </Record>
+    <Record>
+      <Key>CantEquipThisBackpack</Key>
+      <Value>穿着 {LOCAL:CurrentlyEquipped} 时无法装备 {LOCAL:InvalidItem}</Value>
+    </Record>
+    <Record>
+      <Key>ProportionalGainDescription</Key>
+      <Value>PID控制器的比例增益. 此值决定了控制器对设定点与过程变量之间误差的响应强度. 较高的值会导致更快的响应, 但可能导致超调或不稳定.</Value>
+    </Record>
+    <Record>
+      <Key>IntegralGainDescription</Key>
+      <Value>PID控制器的积分增益. 此值决定了控制器对随时间累积误差的响应程度. 较高的值有助于消除稳态误差, 但也可能导致振荡或不稳定.</Value>
+    </Record>
+    <Record>
+      <Key>DerivativeGainDescription</Key>
+      <Value>PID控制器的微分增益. 此值决定了控制器对误差变化率的响应程度. 较高的值有助于抑制振荡并提高稳定性, 但也可能导致噪声放大.</Value>
+    </Record>
+    <Record>
+      <Key>ResetDescription</Key>
+      <Value>重置PID控制器的内部状态, 清除所有累积误差并将输出归零. 这对于重新开始或从不稳定状态恢复非常有用.</Value>
+    </Record>
+    <Record>
+      <Key>SetpointDescription</Key>
+      <Value>PID控制器旨在尽可能达到的值. 这是过程变量的目标值，控制器将调整其输出以最小化设定点与过程变量之间的差异。</Value>
+    </Record>
+    <Record>
+      <Key>MinimumDescription</Key>
+      <Value>所提供逻辑设备的最小值。</Value>
+    </Record>
+    <Record>
+      <Key>NetworkFaultDescription</Key>
+      <Value>连接的网络出现故障, 例如管道破裂或其他故障.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionMaturityRatio</Key>
+      <Value>植物成熟的进度, 以0到1之间的分数表示, 1表示成熟并准备收获。</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionSeedingRatio</Key>
+      <Value>植物朝向结籽的进度, 以0到1之间的分数表示, 1表示已经结种并在收获时提供种子.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionBdnvl</Key>
+      <Value>如果所提供的设备对于所提供逻辑类型的读取指令无效, 则跳转到行a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionBdnvs</Key>
+      <Value>如果所提供的设备对于所提供逻辑类型的写入指令无效, 则跳转到行a</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionPow</Key>
+      <Value>计算a的b次幂并将结果存储到寄存器中. 遵循IEEE-754浮点算术标准.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionExt</Key>
+      <Value>从a中提取一段bit值, 起始位置为b, 长度为c, 并放置到提供的寄存器中. 最大有效载荷长度不得超过53位.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionIns</Key>
+      <Value>将a的值按bit位插入到指定的寄存器中, 起始位置为b, 长度为c. 最大有效载荷长度不得超过53位.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionLerp</Key>
+      <Value>以比率c在a和b之间进行线性插值，并将结果放置到提供的寄存器中。比率c将被限制在0和1之间。</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherState</Key>
+      <Value>碎冰机状态</Value>
+    </Record>
+    <Record>
+      <Key>InternalAtmosphere</Key>
+      <Value>内部气体</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherSetting</Key>
+      <Value>低于 {LOCAL:Temperature} 时将进行加热</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherHeater</Key>
+      <Value>加热元素</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherHeating</Key>
+      <Value>由于需要加热到目标温度 {LOCAL:Temperature} , 工作变慢</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherIndicatorHeat</Key>
+      <Value>加热中</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherIndicatorIdle</Key>
+      <Value>闲置</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherAtmosFull</Key>
+      <Value>内部气体已满</Value>
+    </Record>
+    <Record>
+      <Key>BreathingAtmosphere</Key>
+      <Value>内部大气</Value>
+    </Record>
+    <Record>
+      <Key>CryogenicLiquid</Key>
+      <Value>低温液体</Value>
+    </Record>
+    <Record>
+      <Key>NotPureLiquidNitrogen</Key>
+      <Value>液体不是纯液氮</Value>
+    </Record>
+    <Record>
+      <Key>CryoLiquidVolumeTooLow</Key>
+      <Value>低温液体体积必须高于 {LOCAL:Volume} </Value>
+    </Record>
+    <Record>
+      <Key>CryoLiquidTemperatureTooHigh</Key>
+      <Value>低温液体必须低于 {LOCAL:Temperature} </Value>
+    </Record>
+    <Record>
+      <Key>CryoWillRevive</Key>
+      <Value>将复活死者</Value>
+    </Record>
+    <Record>
+      <Key>CryoState</Key>
+      <Value>低温休眠状态</Value>
+    </Record>
+    <Record>
+      <Key>SleeperState</Key>
+      <Value>休眠舱状态</Value>
+    </Record>
+    <Record>
+      <Key>SleeperMetabolicSuspension</Key>
+      <Value>代谢暂停中</Value>
+    </Record>
+    <Record>
+      <Key>SleeperDoorIsOpen</Key>
+      <Value>门开启时操作禁用</Value>
+    </Record>
+    <Record>
+      <Key>CryoWillHeal</Key>
+      <Value>将治疗伤者</Value>
+    </Record>
+    <Record>
+      <Key>Vacuum</Key>
+      <Value>真空</Value>
+    </Record>
+    <Record>
+      <Key>Null</Key>
+      <Value>空</Value>
+    </Record>
+    <Record>
+      <Key>VehicleIsNotDamaged</Key>
+      <Value>{LOCAL:Rover}未受损</Value>
+    </Record>
+    <Record>
+      <Key>PatchingRecipe</Key>
+      <Value>{LOCAL:ModName} 正在为 {LOCAL:PrefabName} 修补配方</Value>
+    </Record>
+    <Record>
+      <Key>UnknownMod</Key>
+      <Value>未知</Value>
+    </Record>
+    <Record>
+      <Key>ActionRepairRover</Key>
+      <Value>维修载具</Value>
+    </Record>
+    <Record>
+      <Key>SlotVacant</Key>
+      <Value>空置</Value>
+    </Record>
+    <Record>
+      <Key>SlotOccupant</Key>
+      <Value>占用</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotForSpecies</Key>
+      <Value>设备无法被 {LOCAL:Species} 占用</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotConstructed</Key>
+      <Value>{LOCAL:Thing} 尚未完成建造</Value>
+    </Record>
+    <Record>
+      <Key>DevicePressureTooHigh</Key>
+      <Value>{LOCAL:Thing} 超出其内部压力额定值</Value>
+    </Record>
+    <Record>
+      <Key>RocketGasCollectActionInfo</Key>
+      <Value>收集器: {LOCAL:OnOff}, 下次产出: {LOCAL:Yield}</Value>
+    </Record>
+    <Record>
+      <Key>CryoAtmosphereIsUnsafe</Key>
+      <Value>大气无法安全呼吸</Value>
+    </Record>
+    <Record>
+      <Key>CryoNoAtmosphericInput</Key>
+      <Value>管道网络无可呼吸气体</Value>
+    </Record>
+    <Record>
+      <Key>CryoNoLiquidInput</Key>
+      <Value>管道网络无低温液体</Value>
+    </Record>
+    <Record>
+      <Key>TradeActionData</Key>
+      <Value>包含 {LOCAL:Value} 的数据</Value>
+    </Record>
+    <Record>
+      <Key>RegionName</Key>
+      <Value>区域: {LOCAL:Name}</Value>
+    </Record>
+    <Record>
+      <Key>OldSaveDetected</Key>
+      <Value>检测到1个旧存档</Value>
+    </Record>
+    <Record>
+      <Key>OldSavesDetected</Key>
+      <Value>检测到{LOCAL:Count}个旧存档</Value>
+    </Record>
+    <Record>
+      <Key>DeleteOldSave</Key>
+      <Value>确定要删除1个旧存档吗?</Value>
+    </Record>
+    <Record>
+      <Key>DeleteOldSaves</Key>
+      <Value>确定要删除{LOCAL:Count}个旧存档吗?</Value>
+    </Record>
+    <Record>
+      <Key>SuitOperatingRangeText</Key>
+      <Value>{LOCAL:Minimum} 至 {LOCAL:Maximum}</Value>
+    </Record>
+    <Record>
+      <Key>RespawnHere</Key>
+      <Value>重生点已设置</Value>
     </Record>
   </GameStrings>
   <GameTip/>
