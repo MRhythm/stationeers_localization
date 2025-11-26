@@ -1589,7 +1589,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeVolumePump</Key>
-      <Value>(套件)管道体积泵</Value>
+      <Value>(套件)管道容积泵</Value>
       <Description>该套件能够建造一个 {THING:StructureVolumePump}</Description>
     </RecordThing>
     <RecordThing>
@@ -2448,8 +2448,8 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     </RecordThing>
     <RecordThing>
       <Key>StructureVolumePump</Key>
-      <Value>管道体积泵</Value>
-      <Description>管道体积泵可泵送气体. 它还能隔离两个不同的管道网络</Description>
+      <Value>管道容积泵</Value>
+      <Description>管道容积泵可泵送气体. 它还能隔离两个不同的管道网络</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidValve</Key>
@@ -5712,12 +5712,12 @@ AIMEe有7种模式:
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidVolumePump</Key>
-      <Value>液体管道体积泵</Value>
+      <Value>液体管道容积泵</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidPipeVolumePump</Key>
-      <Value>(套件)液体管道体积泵</Value>
+      <Value>(套件)液体管道容积泵</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -23977,11 +23977,11 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>MinIdealGrowPressure</Key>
-      <Value>最低理想生长温度</Value>
+      <Value>最低理想生长气压</Value>
     </Record>
     <Record>
       <Key>MaxIdealGrowPressure</Key>
-      <Value>最高理想生长温度</Value>
+      <Value>最高理想生长气压</Value>
     </Record>
     <Record>
       <Key>NoSprayPaint</Key>
