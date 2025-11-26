@@ -23175,11 +23175,11 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>MinIdealGrowPressure</Key>
-      <Value>最低理想生长温度</Value>
+      <Value>最低理想生长气压</Value>
     </Record>
     <Record>
       <Key>MaxIdealGrowPressure</Key>
-      <Value>最高理想生长温度</Value>
+      <Value>最高理想生长气压</Value>
     </Record>
     <Record>
       <Key>NoSprayPaint</Key>
