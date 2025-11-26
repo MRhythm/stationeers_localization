@@ -7219,37 +7219,37 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideInfinite</Key>
       <Value>Catalytic Filter (Carbon Dioxide)</Value>
-      <Description>A filter that selectively targets Carbon Dioxide. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets Carbon Dioxide. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygenInfinite</Key>
       <Value>Catalytic Filter (Oxygen)</Value>
-      <Description>A filter that selectively targets Oxygen. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets Oxygen. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideInfinite</Key>
       <Value>Catalytic Filter (Nitrous Oxide)</Value>
-      <Description>A filter that selectively targets Nitrous Oxide. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets Nitrous Oxide. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogenInfinite</Key>
       <Value>Catalytic Filter (Nitrogen)</Value>
-      <Description>A filter that selectively targets Nitrogen. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets Nitrogen. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutantsInfinite</Key>
       <Value>Catalytic Filter (Pollutants)</Value>
-      <Description>A filter that selectively targets Pollutants. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets Pollutants. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatilesInfinite</Key>
       <Value>Catalytic Filter (Volatiles)</Value>
-      <Description>A filter that selectively targets {GAS:Volatiles}. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets {GAS:Volatiles}. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWaterInfinite</Key>
       <Value>Catalytic Filter (Water)</Value>
-      <Description>A filter that selectively targets Water. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets Water. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSolidFuel</Key>
@@ -8168,6 +8168,26 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Description>Highly efficient and powerful, the Pressure Fed Liquid Engine is a challenging engine to run in a stable configuration. Liquid is pulled from the input into the engine based on the input gas pressure. Some gas is also moved in this process so Stationeers will need to devise a system to maintain a high gas pressure in the liquid input pipe. The second liquid pipe connection is an optional heat-exchanger connection which exchanges heat between the pipes contents and the engine bell, the Setting variable drives the effectiveness of the heat-exchanger.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitPressureFedGasEngineHeavy</Key>
+      <Value>Kit (Heavy Pressure Fed Gas Engine)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePressureFedGasEngineHeavy</Key>
+      <Value>Heavy Pressure Fed Gas Engine</Value>
+      <Description>A larger more powerful variant of the {THING:StructurePressureFedGasEngine}. It sacrifices a small amount of efficiency for greatly increased thrust. Pressure Fed Gas Engines move gas from each of their inputs based on the pressure of the input pipes. Control the mixing ratio of fuels by tweaking the input pressures to target a 2:1 mix of {GAS:Volatiles} to {GAS:Oxygen} gas. Chilling propellant gasses or using {GAS:NitrousOxide} as an oxydizer will result in even higher thrust outputs.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPressureFedLiquidEngineHeavy</Key>
+      <Value>Kit (Heavy Pressure Fed Liquid Engine)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePressureFedLiquidEngineHeavy</Key>
+      <Value>Heavy Pressure Fed Liquid Engine</Value>
+      <Description>A larger more powerful variant of the {THING:StructurePressureFedLiquidEngine}. It sacrifices a small amount of efficiency for greatly increased thrust. Warning, Pressure Fed Liquid Engines are challenging engine to run in a stable configuration. Liquid is pulled from the input into the engine based on the input gas pressure. Some gas is also moved in this process so Stationeers will need to devise a system to maintain a high gas pressure in the liquid input pipe. The second liquid pipe connection is an optional heat-exchanger connection which exchanges heat between the pipes contents and the engine bell, the Setting variable drives the effectiveness of the heat-exchanger.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureFuselageTypeA1</Key>
       <Value>Fuselage (Type A1)</Value>
       <Description />
@@ -8989,6 +9009,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <RecordThing>
       <Key>ItemSuitHARM</Key>
       <Value>HARM Suit</Value>
+      <Description>The HARM Suit is the Stationeer's last resort against hostile environments.
+It is liquid cooled for superb thermal performance and boasts superior resistance to impacts and lava exposure. While the HARM suit is not compatible with a {THING:ItemJetpackBasic}, Stationeer's are still able to equip a {THING:ItemHardBackpack} or {THING:ItemHardMiningBackPack}. Due to its extra stability and size, storms do not effect movement speed while in a HARM suit; however, this results in an overall reduction to movement in general operation.
+
+</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitHelmetHARM</Key>
@@ -9159,8 +9183,8 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketDeepScanningHead</Key>
-      <Value>Rocket Deep Scanner Head</Value>
-      <Description />
+      <Value>Rocket Surface Scanner Head</Value>
+      <Description>When placed in a Rocket Scanner, the Surface Scanner Head will scan the map for deep mining regions.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureComputerBigScreenWallMounted</Key>
@@ -9175,6 +9199,230 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <RecordThing>
       <Key>StructureVendingMachineSmall</Key>
       <Value>Vending Machine Small</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureVendingMachineSmall1</Key>
+      <Value>Vending Machine Small1</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuitStorageFrame</Key>
+      <Value>Suit Storage Frame</Value>
+      <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}. 
+When powered and connected to {GAS:Oxygen} and {GAS:Nitrogen}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. The wastetank will be pumped out to the pipe connected to the waste outlet.
+All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuitStorageLocker</Key>
+      <Value>Suit Storage Locker</Value>
+      <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}.
+When powered and connected to {GAS:Oxygen} and {GAS:Nitrogen}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. The wastetank will be pumped out to the pipe connected to the waste outlet.
+All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_GasTankConnectorPiece</Key>
+      <Value>Landingpad Tank Connector (Gas)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_LiquidTankConnectorPiece</Key>
+      <Value>Landingpad Tank Connector (Liquid)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInLineTankGas1x3</Key>
+      <Value>In-Line Tank Gas 1x3</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInLineTankLiquid1x3</Key>
+      <Value>In-Line Tank Liquid 1x3</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankGas1x3</Key>
+      <Value>In-Line Tank Gas 1x3 (Insulated)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankLiquid1x3</Key>
+      <Value>In-Line Tank Liquid 1x3 (Insulated)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner</Key>
+      <Value>Super-Heavy Cable (Corner)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner3</Key>
+      <Value>Super-Heavy Cable (Corner 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner3Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Corner 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner4</Key>
+      <Value>Super-Heavy Cable (Corner 4)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner4Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Corner 4)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCornerBurnt</Key>
+      <Value>Burnt Super-Heavy Cable (Corner)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction</Key>
+      <Value>Super-Heavy Cable (Junction)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction4</Key>
+      <Value>Super-Heavy Cable (Junction 4)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction4Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Junction 4)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction5</Key>
+      <Value>Super-Heavy Cable (Junction 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction5Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Junction 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction6</Key>
+      <Value>Super-Heavy Cable (Junction 6)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction6Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Junction 6)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunctionBurnt</Key>
+      <Value>Burnt Super-Heavy Cable (Junction)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight</Key>
+      <Value>Super-Heavy Cable (Straight)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight3</Key>
+      <Value>Super-Heavy Cable (Straight 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight3Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Straight 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight5</Key>
+      <Value>Super-Heavy Cable (Straight 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight5Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Straight 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight10</Key>
+      <Value>Super-Heavy Cable (Straight 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight10Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Straight 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraightBurnt</Key>
+      <Value>Burnt Super-Heavy Cable (Straight)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableCoilSuperHeavy</Key>
+      <Value>Cable Coil (Super Heavy)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePacker</Key>
+      <Value>Loader</Value>
+      <Description>The Loader will take objects from its left slot and put them in the available slots of the object inserted in the right slot. The slots will be filled in order from first to last. If no available slot is found, the left slot object will be ejected. The right slot object will auto eject once full or if the level is pulled.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>CardboardBoxLarge</Key>
+      <Value>Large Cardboard Box</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicAFrameStripes</Key>
+      <Value>Portable A Frame Sign (Stripes)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicAFrameWIP</Key>
+      <Value>Portable A Frame Sign (WIP)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicWorkCone</Key>
+      <Value>Portable Work Cone</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicAFrameStripes</Key>
+      <Value>Kit Portable A Frame Sign (Stripes)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicAFrameWIP1</Key>
+      <Value>Kit Portable A Frame Sign (WIP)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicBarrier</Key>
+      <Value>Kit Portable Barrier</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicChannelizer</Key>
+      <Value>Kit Portable Channelizer</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicWorkCone</Key>
+      <Value>Kit Portable Work Cone</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicBarrier</Key>
+      <Value>Portable Barrier</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicChannelizer</Key>
+      <Value>Portable Channelizer</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -9244,6 +9492,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Battery</Value>
     </Record>
     <Record>
+      <Key>Egg</Key>
+      <Value>Egg</Value>
+    </Record>
+    <Record>
       <Key>GasCanister</Key>
       <Value>Gas Canister</Value>
     </Record>
@@ -9310,6 +9562,14 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>Appliance2</Key>
       <Value>Appliance 2</Value>
+    </Record>
+    <Record>
+      <Key>Payload</Key>
+      <Value>Payload</Value>
+    </Record>
+    <Record>
+      <Key>Recipient</Key>
+      <Value>Recipient</Value>
     </Record>
     <Record>
       <Key>Import</Key>
@@ -9484,6 +9744,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Player</Value>
     </Record>
     <Record>
+      <Key>Mask</Key>
+      <Value>Mask</Value>
+    </Record>
+    <Record>
       <Key>Fertiliser</Key>
       <Value>Fertiliser</Value>
     </Record>
@@ -9558,6 +9822,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>None</Key>
       <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>Crate</Key>
+      <Value>Crate Slot</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -10258,6 +10526,54 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>VenusPoiRegionPaleBrimstonePlainDescription</Key>
       <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiCallanishPeakName</Key>
+      <Value>Callanish Peak</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiCallanishPeakDescription</Key>
+      <Value>Highest point in the sector</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiFalgasDescentName</Key>
+      <Value>Falga's Descent</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiFalgasDescentDescription</Key>
+      <Value>Steep climb down to the grand basin</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiBalgatanRidgeName</Key>
+      <Value>Balgatan Ridge</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiBalgatanRidgeDescription</Key>
+      <Value>Overlooking the northern basin</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiSouthCallanishPassName</Key>
+      <Value>South Callanish Pass</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiSouthCallanishPassDescription</Key>
+      <Value>Safer route into the highlands</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiSidonGullyName</Key>
+      <Value>Sidon Gully</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiSidonGullyDescription</Key>
+      <Value>Sheltered finger off the grand basin</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiMorensFellName</Key>
+      <Value>Moren's Fell</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiMorensFellDescription</Key>
+      <Value>Windswept ice desert</Value>
     </Record>
     <Record>
       <Key>EuropaPoiRegionBluePeakName</Key>
@@ -12245,7 +12561,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiDogsheadCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterName</Key>
@@ -12253,7 +12569,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterName</Key>
@@ -12261,7 +12577,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterName</Key>
@@ -12269,7 +12585,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterName</Key>
@@ -12277,7 +12593,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterName</Key>
@@ -12285,7 +12601,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterName</Key>
@@ -12293,7 +12609,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterName</Key>
@@ -12301,7 +12617,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterName</Key>
@@ -12309,7 +12625,371 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadPassageSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadPassageNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarPlateauEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersOutcropDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersPlateauNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersPlateauSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSouthernHighlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPollenKnollDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPollenThumbDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderApproachDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSouthEasternWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBurningTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiJanosPlateauDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiJanosSlopeDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersViewDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentOutcropDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaHighlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHighlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBurningSaddleDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTwinsViewDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSpearOverlookDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTwinsPassDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPrometheusNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPrometheusSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNorthernWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiGreyOverlookDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentOverlookDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValoursRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBrokenPlateauDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarPlateauDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHeightsWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHeightsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSorinsDescentDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSorinsApproachDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensViewDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiAshRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSpearValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiFingerValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNarrowPassageDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDamonPassageDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonRiftDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiWestlandsGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiWestlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiHalesDescentDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDantesValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersWalkDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiForgottenValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPeanutValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsfootDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDeepscarSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDeepscarNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValleyOfHopeDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOuterWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentValleyNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentValleySouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiShatteredValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValleyOfLossDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiGreyChannelDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNeedleValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCalamitySouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCalamityNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionSouthEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionSouthWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionNorthWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionNorthEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDuchValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiIronValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPepperGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiAshValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderPeakDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountSorinDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonPeakDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarVentDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountValourDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountOrenDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiToraDescription</Key>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnVestaValleyName</Key>
@@ -12336,12 +13016,84 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>An unforgiving wasteland of jagged rock and collapsed magma chambers</Value>
     </Record>
     <Record>
+      <Key>SpawnRoundRobin</Key>
+      <Value>Round Robin</Value>
+    </Record>
+    <Record>
+      <Key>SpawnRoundRobinDescription</Key>
+      <Value>Each player will start the game in a separate location.</Value>
+    </Record>
+    <Record>
       <Key>VulcanSpawnTitusReachName</Key>
       <Value>Titus Reach</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnTitusReachDescription</Key>
       <Value>A flat mid-height plateau overlooking lava lakes and volcanoes</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnSerpentPlateauName</Key>
+      <Value>Serpent Plateau</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnSerpentPlateauDescription</Key>
+      <Value>A shattered plain subsides into lava lakes</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnTalonHeightsName</Key>
+      <Value>Talon Heights</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnTalonHeightsDescription</Key>
+      <Value>A volcanic mountain valley in the lee of Talon's peak</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDusterPlateauNorthName</Key>
+      <Value>Duster Plateau North</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDusterPlateauNorthDescription</Key>
+      <Value>Sheltered by a micro valley that overlooks Peanut Valley.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnCinderPeakName</Key>
+      <Value>Cinder Peak</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnCinderPeakDescription</Key>
+      <Value>A deep vally at the foot of Dogsfoot Mountain.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnRedJunctionName</Key>
+      <Value>Red Junction</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnRedJunctionDescription</Key>
+      <Value>On the shores of Junction Lake and Lake Calamity.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnOrensTrackName</Key>
+      <Value>Oren's Track</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnOrensTrackDescription</Key>
+      <Value>Nestled between Mount Oren and Mount Valour, Oren's Track offers some good building space.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDogsfootName</Key>
+      <Value>Dogsfoot</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDogsfootDescription</Key>
+      <Value>A forked basalt formation resembling a paw, offering rare shelter from ash storms.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnKalimarOutlookName</Key>
+      <Value>Kalimar Outlook</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnKalimarOutlookDescription</Key>
+      <Value>A river of lava winds its way through the valley below, beneath the harsh gaze of Kalimar Vent</Value>
     </Record>
     <Record>
       <Key>OkayConfirmation</Key>
@@ -13130,6 +13882,14 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>SettingsTerrainDetail</Key>
       <Value>Terrain Tessellation</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTerrainDistance</Key>
+      <Value>Terrain Detail</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMinableDistance</Key>
+      <Value>Minable Render Distance</Value>
     </Record>
     <Record>
       <Key>SettingsSoftParticles</Key>
@@ -14176,7 +14936,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>NewWorldVulcan2ShortDesc</Key>
-      <Value>A world torn apart due to massive tidal forces from the supermassive black hole it orbits. Vulcan offers little hope for any organism that ends up here, but it's fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders.Watch out for the deep crevasses that lead to deadly magma flows beneath the surface!</Value>
+      <Value>A world torn apart due to massive tidal forces from the supermassive black hole it orbits. Vulcan offers little hope for any organism that ends up here, but its fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders. Watch out for the deep crevasses that lead to deadly magma flows beneath the surface!</Value>
     </Record>
     <Record>
       <Key>NewWorldMimasShortDesc</Key>
@@ -14188,7 +14948,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>LunarWorldDescriptionShort</Key>
-      <Value>With no atmosphere, the barren and crater scarred surface of the moon provides a stable environment for Luna operations.</Value>
+      <Value>With no atmosphere, the barren and crater scarred surface of the moon provides a stable environment for lunar operations.</Value>
     </Record>
     <Record>
       <Key>MarsWorldDescriptionShort</Key>
@@ -18201,12 +18961,8 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Start Game</Value>
     </Record>
     <Record>
-      <Key>StationpediaMinCoolantTemperature</Key>
-      <Value>Min Coolant Temperature:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMaxCoolantTemperature</Key>
-      <Value>Max Coolant Temperature:</Value>
+      <Key>StationpediaCoolantTemperatureOperatingRange</Key>
+      <Value>Coolant:</Value>
     </Record>
     <Record>
       <Key>StationpediaThermalConductivityConvection</Key>
@@ -18217,28 +18973,20 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Thermal Radiation:</Value>
     </Record>
     <Record>
+      <Key>StationpediaSolarHeating</Key>
+      <Value>Solar Heating:</Value>
+    </Record>
+    <Record>
       <Key>StationpediaMovementSpeedModifier</Key>
       <Value>Movement Speed:</Value>
     </Record>
     <Record>
-      <Key>StationpediaThermalSaturation</Key>
-      <Value>Thermal Saturation:</Value>
+      <Key>StationpediaOperatingTemperatureRange</Key>
+      <Value>Ideal Operation:</Value>
     </Record>
     <Record>
-      <Key>StationpediaMinSafeTemperature</Key>
-      <Value>Min Safe Temperature:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMaxSafeTemperature</Key>
-      <Value>Max Safe Temperature:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMinOperatingTemperature</Key>
-      <Value>Min Operating Temperature:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMaxOperatingTemperature</Key>
-      <Value>Max Operating Temperature:</Value>
+      <Key>StationpediaMaxOperatingTemperatureRange</Key>
+      <Value>Max Operation:</Value>
     </Record>
     <Record>
       <Key>ScoreboardDaysLived</Key>
@@ -18575,6 +19323,14 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Start with debug tools to quickly edit terrain.</Value>
     </Record>
     <Record>
+      <Key>DefaultStartCondition</Key>
+      <Value>Standard</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionDescription</Key>
+      <Value>You will start with the basics you need to establish a remote base, organized systematically in a lander stocked with crates and packages.</Value>
+    </Record>
+    <Record>
       <Key>DefaultScenarioStartCondition</Key>
       <Value>Only player kit</Value>
     </Record>
@@ -18595,6 +19351,30 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Standard (Venus)</Value>
     </Record>
     <Record>
+      <Key>DefaultCommunityStartCondition</Key>
+      <Value>Standard Community</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionDescription</Key>
+      <Value>Each Stationeer starts with their own fully stocked lander.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionVulcan</Key>
+      <Value>Standard Community (Vulcan)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionEuropa</Key>
+      <Value>Standard Community (Europa)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionMimas</Key>
+      <Value>Standard Community (Mimas)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionVenus</Key>
+      <Value>Standard Community (Venus)</Value>
+    </Record>
+    <Record>
       <Key>BrutalStartCondition</Key>
       <Value>Brutal</Value>
     </Record>
@@ -18605,6 +19385,26 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>BrutalStartConditionMimas</Key>
       <Value>Brutal (Mimas)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartCondition</Key>
+      <Value>Brutal Community</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionEuropa</Key>
+      <Value>Brutal Community (Europa)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionMimas</Key>
+      <Value>Brutal Community (Mimas)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionVulcan</Key>
+      <Value>Brutal Community (Hot Planet)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionDescription</Key>
+      <Value>Each Stationeer will start with their own set of minimalist supplies.</Value>
     </Record>
     <Record>
       <Key>BrutalStartConditionVulcan</Key>
@@ -20097,7 +20897,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>CelestialBodyHimalia</Key>
-      <Value>Hamilia</Value>
+      <Value>Himalia</Value>
     </Record>
     <Record>
       <Key>CelestialBodyMimas</Key>
@@ -20432,6 +21232,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Snow</Value>
     </Record>
     <Record>
+      <Key>SolarStormWeather</Key>
+      <Value>Solar Storm</Value>
+    </Record>
+    <Record>
       <Key>StationpediaPhaseChangeDiagramPressureTitle</Key>
       <Value>Pressure</Value>
     </Record>
@@ -20692,6 +21496,14 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Fast Growing Potato</Value>
     </Record>
     <Record>
+      <Key>SellDataSuperCorn</Key>
+      <Value>Super Corn</Value>
+    </Record>
+    <Record>
+      <Key>SellDataResilientFern</Key>
+      <Value>Resilient Fern</Value>
+    </Record>
+    <Record>
       <Key>BuyDataBulkVolatiles</Key>
       <Value>Bulk Volatiles</Value>
     </Record>
@@ -20798,6 +21610,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>SellDataBoxOfBatteryCellsLarge</Key>
       <Value>Box of Battery Cells (Large)</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxOfNuclearBatteryCells</Key>
+      <Value>Box of Battery Cells (Nuclear)</Value>
     </Record>
     <Record>
       <Key>SellDataWeldingFuel</Key>
@@ -21168,6 +21984,14 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Asteroid Appliances</Value>
     </Record>
     <Record>
+      <Key>TraderGenetics</Key>
+      <Value>Genetic Engineering</Value>
+    </Record>
+    <Record>
+      <Key>TraderRareItems</Key>
+      <Value>Cosmic Curiosities</Value>
+    </Record>
+    <Record>
       <Key>TradeError</Key>
       <Value>Trade Error</Value>
     </Record>
@@ -21249,7 +22073,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>NewWorldLunarShortDesc</Key>
-      <Value>Set on the boundary of a lunar mare, where ancient lava plains meet the jagged highlands, the terrain is a mix of open flats and fractured ridges, shaped by impacts and volcanic history. With no atmosphere, it provides a stark but stable environment for Luna operations</Value>
+      <Value>Set on the boundary of a lunar mare, where ancient lava plains meet the jagged highlands, the terrain is a mix of open flats and fractured ridges, shaped by impacts and volcanic history. With no atmosphere, it provides a stark but stable environment for lunar operations</Value>
     </Record>
     <Record>
       <Key>WorldMimasHerschel</Key>
@@ -21257,7 +22081,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>NewWorldMimasHerschelShortDesc</Key>
-      <Value>A barren rock nestled under the wing of Saturn's spectacular rings. Mimas tiny stature is reflected in its extremely low gravity, and the Mimantean surface is saturated with impact craters from wayward ring occupants. It's distance from the sun provides little power from solar devices.Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the extremely low gravity.</Value>
+      <Value>A barren rock nestled under the wing of Saturn's spectacular rings. Mimas tiny stature is reflected in its extremely low gravity, and the Mimantean surface is saturated with impact craters from wayward ring occupants. Its distance from the sun provides little power from solar devices. Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the extremely low gravity.</Value>
     </Record>
     <Record>
       <Key>MultiplayerCouldNotConnect</Key>
@@ -21320,8 +22144,8 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Available Scanners</Value>
     </Record>
     <Record>
-        <Key>OldSavesDetectedMessage</Key>
-        <Value>The save system has been re-written from scratch and old saves are no longer supported.
+      <Key>OldSavesDetectedMessage</Key>
+      <Value>The save system has been re-written from scratch and old saves are no longer supported.
 There are some community tools that you can use to convert old saves. In this case make sure to back up your save folder before attempting to convert.</Value>
     </Record>
     <Record>
@@ -21339,6 +22163,30 @@ If you’d like to try converting your saves, the community has created tools th
 We know losing saves is frustrating, but this rewrite lays the foundation for the future of Stationeers.
 Thank you for your understanding, and we can’t wait for you to experience what’s new.
             </Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPowerCapacity</Key>
+      <Value>Power Capacity:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPowerGeneration</Key>
+      <Value>Base Power Generation:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMetabolicSuspension</Key>
+      <Value>Metabolic Suspension</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMetabolicSuspensionDesc</Key>
+      <Value>When powered this device will suspend the metabolism of the occupand ensuring they  no longer consume food or water</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCryogenicRegenerationDesc</Key>
+      <Value>When powered this device will repair all kinds of damage to tissue and organs as well as regenerating dead occupants </Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCryogenicRegeneration</Key>
+      <Value>Cryogenic Regeneration</Value>
     </Record>
   </Interface>
   <Colors>
@@ -28014,6 +28862,254 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>CancelLoadButton</Key>
       <Value>Cancel</Value>
+    </Record>
+    <Record>
+      <Key>LandingGear</Key>
+      <Value>Landing Gear</Value>
+    </Record>
+    <Record>
+      <Key>Activate</Key>
+      <Value>Activate</Value>
+    </Record>
+    <Record>
+      <Key>Deactivate</Key>
+      <Value>Deactivate</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionStackSize</Key>
+      <Value>Returns the stack size of the devices internal memory.</Value>
+    </Record>
+    <Record>
+      <Key>CantEquipThisBackpack</Key>
+      <Value>{LOCAL:InvalidItem} can not be equipped when wearing {LOCAL:CurrentlyEquipped}</Value>
+    </Record>
+    <Record>
+      <Key>ProportionalGainDescription</Key>
+      <Value>The proportional gain of the PID controller. This value determines how aggressively the controller responds to the error between the setpoint and the process variable. A higher value results in a faster response but may lead to overshoot or instability.</Value>
+    </Record>
+    <Record>
+      <Key>IntegralGainDescription</Key>
+      <Value>The integral gain of the PID controller. This value determines how much the controller responds to the accumulated error over time. A higher value can help eliminate steady-state errors but may also lead to oscillations or instability.</Value>
+    </Record>
+    <Record>
+      <Key>DerivativeGainDescription</Key>
+      <Value>The derivative gain of the PID controller. This value determines how much the controller responds to the rate of change of the error. A higher value can help dampen oscillations and improve stability, but may also lead to noise amplification.</Value>
+    </Record>
+    <Record>
+      <Key>ResetDescription</Key>
+      <Value>Resets the PID controller's internal state, clearing any accumulated error and resetting the output to zero. This is useful for starting fresh or recovering from an unstable state.</Value>
+    </Record>
+    <Record>
+      <Key>SetpointDescription</Key>
+      <Value>The desired value that the PID controller aims to achieve. This is the target value for the process variable, and the controller will adjust its output to minimize the difference between the setpoint and the process variable.</Value>
+    </Record>
+    <Record>
+      <Key>MinimumDescription</Key>
+      <Value>Minimum value for provided logic device.</Value>
+    </Record>
+    <Record>
+      <Key>NetworkFaultDescription</Key>
+      <Value>Attached network is experiencing a fault, such as a pipe burst or other failure.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionMaturityRatio</Key>
+      <Value>How far the plant is towards maturity represented as a fraction between 0 and 1, with 1 being mature and ready for harvest.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionSeedingRatio</Key>
+      <Value>How far the plant is towards seeding represented as a fraction between 0 and 1, with 1 being seeding and will supply seeds when harvested.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionBdnvl</Key>
+      <Value>Will branch to line a if the provided device not valid for a load instruction for the provided logic type.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionBdnvs</Key>
+      <Value>Will branch to line a if the provided device not valid for a store instruction for the provided logic type.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionPow</Key>
+      <Value>Stores the result of raising a to the power of b in the register. Follows IEEE-754 standard for floating point arithmetic.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionExt</Key>
+      <Value>Extracts a bit field from a, beginning at b for c length and placed in the provided register. Payload cannot exceed 53 bits in final length.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionIns</Key>
+      <Value>Inserts a bit field of a into the provided register, beginning at b for c length. Payload cannot exceed 53 bits in final length.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionLerp</Key>
+      <Value>Linearly interpolates between a and b by the ratio c, and places the result in the register provided. The ratio c will be clamped between 0 and 1.</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherState</Key>
+      <Value>Ice Crusher Status</Value>
+    </Record>
+    <Record>
+      <Key>InternalAtmosphere</Key>
+      <Value>Internal Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherSetting</Key>
+      <Value>Will Heat if below {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherHeater</Key>
+      <Value>Heating Element</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherHeating</Key>
+      <Value>Operation slowed while heating to {LOCAL:Temperature} target</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherIndicatorHeat</Key>
+      <Value>Heating</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherIndicatorIdle</Key>
+      <Value>Idle</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherAtmosFull</Key>
+      <Value>Internal Atmosphere is Full</Value>
+    </Record>
+    <Record>
+      <Key>BreathingAtmosphere</Key>
+      <Value>Occupant Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>CryogenicLiquid</Key>
+      <Value>Cryogenic Liquid</Value>
+    </Record>
+    <Record>
+      <Key>NotPureLiquidNitrogen</Key>
+      <Value>Liquid is not pure Liquid Nitrogen</Value>
+    </Record>
+    <Record>
+      <Key>CryoLiquidVolumeTooLow</Key>
+      <Value>Cryogenic Liquid volume must be above {LOCAL:Volume}</Value>
+    </Record>
+    <Record>
+      <Key>CryoLiquidTemperatureTooHigh</Key>
+      <Value>Cryogenic liquid must be below {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>CryoWillRevive</Key>
+      <Value>Will regenerate deceased patients</Value>
+    </Record>
+    <Record>
+      <Key>CryoState</Key>
+      <Value>Cryogenic Status</Value>
+    </Record>
+    <Record>
+      <Key>SleeperState</Key>
+      <Value>Sleeper Status</Value>
+    </Record>
+    <Record>
+      <Key>SleeperMetabolicSuspension</Key>
+      <Value>Metabolic Suspension Active</Value>
+    </Record>
+    <Record>
+      <Key>SleeperDoorIsOpen</Key>
+      <Value>Operation disabled while door open</Value>
+    </Record>
+    <Record>
+      <Key>CryoWillHeal</Key>
+      <Value>Will heal damaged patients</Value>
+    </Record>
+    <Record>
+      <Key>Vacuum</Key>
+      <Value>Vacuum</Value>
+    </Record>
+    <Record>
+      <Key>Null</Key>
+      <Value>Null</Value>
+    </Record>
+    <Record>
+      <Key>VehicleIsNotDamaged</Key>
+      <Value>{LOCAL:Rover} is not damaged</Value>
+    </Record>
+    <Record>
+      <Key>PatchingRecipe</Key>
+      <Value>{LOCAL:ModName} is patching recipe for {LOCAL:PrefabName}</Value>
+    </Record>
+    <Record>
+      <Key>UnknownMod</Key>
+      <Value>Unknown</Value>
+    </Record>
+    <Record>
+      <Key>ActionRepairRover</Key>
+      <Value>Repair Vehicle</Value>
+    </Record>
+    <Record>
+      <Key>SlotVacant</Key>
+      <Value>Vacant</Value>
+    </Record>
+    <Record>
+      <Key>SlotOccupant</Key>
+      <Value>Occupant</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotForSpecies</Key>
+      <Value>Device cannot be occupied by {LOCAL:Species}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotConstructed</Key>
+      <Value>{LOCAL:Thing} has not been fully constructed</Value>
+    </Record>
+    <Record>
+      <Key>DevicePressureTooHigh</Key>
+      <Value>{LOCAL:Thing} exceeds its internal pressure rating</Value>
+    </Record>
+    <Record>
+      <Key>RocketGasCollectActionInfo</Key>
+      <Value>Collector: {LOCAL:OnOff}, Next Yield: {LOCAL:Yield}</Value>
+    </Record>
+    <Record>
+      <Key>CryoAtmosphereIsUnsafe</Key>
+      <Value>Breathing Atmosphere is unsafe</Value>
+    </Record>
+    <Record>
+      <Key>CryoNoAtmosphericInput</Key>
+      <Value>No Breathing Gas Network</Value>
+    </Record>
+    <Record>
+      <Key>CryoNoLiquidInput</Key>
+      <Value>No Cryogenic Liquid Network</Value>
+    </Record>
+    <Record>
+      <Key>TradeActionData</Key>
+      <Value>Includes {LOCAL:Value} of data</Value>
+    </Record>
+    <Record>
+      <Key>RegionName</Key>
+      <Value>Region: {LOCAL:Name}</Value>
+    </Record>
+    <Record>
+      <Key>OldSaveDetected</Key>
+      <Value>1 Old Save Detected</Value>
+    </Record>
+    <Record>
+      <Key>OldSavesDetected</Key>
+      <Value>{LOCAL:Count} Old Saves Detected</Value>
+    </Record>
+    <Record>
+      <Key>DeleteOldSave</Key>
+      <Value>Are you sure you want to delete 1 old save?</Value>
+    </Record>
+    <Record>
+      <Key>DeleteOldSaves</Key>
+      <Value>Are you sure you want to delete {LOCAL:Count} old saves?</Value>
+    </Record>
+    <Record>
+      <Key>SuitOperatingRangeText</Key>
+      <Value>{LOCAL:Minimum} to {LOCAL:Maximum}</Value>
+    </Record>
+    <Record>
+      <Key>RespawnHere</Key>
+      <Value>Spawn Point Set</Value>
     </Record>
   </GameStrings>
   <GameTip />

@@ -191,5 +191,13 @@
       <Key>StatusIconLeavingAreaDesc</Key>
       <Value>Out of bounds, turn around</Value>
     </Record>
+    <Record>
+      <Key>StatusIconCoolantName</Key>
+      <Value>Coolant tank temperature</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantDesc</Key>
+      <Value>Coolant Temperature is too high</Value>
+    </Record>
   </ScreenSpaceToolTips>
 </Language>
