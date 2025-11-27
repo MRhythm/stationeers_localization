@@ -9279,7 +9279,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>ItemCableCoilSuperHeavy</Key>
-      <Value>电缆(超重型)</Value>
+      <Value>超重型电缆</Value>
       <Description />
     </RecordThing>
     <RecordThing>
