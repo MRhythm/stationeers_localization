@@ -192,6 +192,14 @@
       <Value>Out of bounds, turn around</Value>
     </Record>
     <Record>
+      <Key>StatusIconRespawnStressName</Key>
+      <Value>Respawn Stress</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconRespawnStressDesc</Key>
+      <Value>Affects action speeds</Value>
+    </Record>
+    <Record>
       <Key>StatusIconCoolantName</Key>
       <Value>Coolant tank temperature</Value>
     </Record>

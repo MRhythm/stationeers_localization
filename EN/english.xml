@@ -15,6 +15,11 @@
       <Unit>ml</Unit>
     </RecordReagent>
     <RecordReagent>
+      <Key>Cheese</Key>
+      <Value>Cheese</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>Egg</Key>
       <Value>Egg</Value>
       <Unit />
@@ -1163,7 +1168,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemFertilizedEgg</Key>
       <Value>Egg</Value>
-      <Description>To hatch it requires an incubation temperature of between 35 and 45 degrees Celsius and will hatch into a {THING:NpcChick}. If the egg is exposed to temperatures below 10 degrees it will no longer be viable.</Description>
+      <Description>When incubated will hatch into a {THING:NpcChick}. If exposed to temperatures below 10 degrees it will no longer be viable.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFireExtinguisher</Key>
@@ -1849,6 +1854,11 @@ The {LINK:Norsec;Norsec-designed} K-cops 10-10 sorter motherboard permits {LINK:
       <Key>OrganLungs</Key>
       <Value>Human Lungs</Value>
       <Description>Lungs are delicate organs. Keeping them at the correct temperature and pressure is advisable.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicBodyBag</Key>
+      <Value>Body Bag</Value>
+      <Description>When dead players decay they will move into a body bag. If they have not respawned the dead player can be revived in a {THING:StructureCryoTube}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SpaceShuttle</Key>
@@ -9425,6 +9435,46 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Portable Channelizer</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>ItemCheeseWedge</Key>
+      <Value>Cheese</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBurger</Key>
+      <Value>Burger</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableFuse500k</Key>
+      <Value>Cable Fuse (500kW)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeGastoGas</Key>
+      <Value>Super-Large Direct Heat Exchanger (Gases)</Value>
+      <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeGastoLiquid</Key>
+      <Value>Super-Large Direct Heat Exchanger (Gas to Liquid)</Value>
+      <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeLiquidToLiquid</Key>
+      <Value>Super-Large Direct Heat Exchanger (Liquids)</Value>
+      <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBurgerBox</Key>
+      <Value>Burger Box</Value>
+      <Description>A container for a {THING:ItemBurger} that is both asethetic and practical as it will significantly reduce the decay rate. Will directly allow the eating of contained food when opened in hands.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDrinkingFountain2x1</Key>
+      <Value>Drinking Fountain</Value>
+      <Description>The Drinking Fountain can be interacted with directly to increase hydration. It needs a {GAS:Water} supply.</Description>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -9590,6 +9640,14 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>TransportSlot</Key>
       <Value>Transport Slot</Value>
+    </Record>
+    <Record>
+      <Key>BurgerSlot</Key>
+      <Value>Burger</Value>
+    </Record>
+    <Record>
+      <Key>FriesSlot</Key>
+      <Value>Fries</Value>
     </Record>
     <Record>
       <Key>DrillSlot</Key>
@@ -10335,6 +10393,14 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
   </Interactables>
   <Interface>
+    <Record>
+      <Key>InventorySort</Key>
+      <Value>Sort</Value>
+    </Record>
+    <Record>
+      <Key>InventoryClose</Key>
+      <Value>Close</Value>
+    </Record>
     <Record>
       <Key>VenusPoiRegionFumaroleSteppeName</Key>
       <Value>Fumarole Steppe</Value>
@@ -14393,6 +14459,66 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>PromptGiveUpConfirm</Key>
       <Value>Give Up</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptTitle</Key>
+      <Value>Unconscious</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptMessage</Key>
+      <Value>You are unconscious but not dead. What would you like to do?</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptOptionWaitForHelp</Key>
+      <Value>Wait</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptAskForHelp</Key>
+      <Value>Ask for Help</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptOptionGiveUp</Key>
+      <Value>Give Up</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptTitle</Key>
+      <Value>Dead</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptMessage</Key>
+      <Value>You are dead. What would you like to do?</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptOptionWaitForHelp</Key>
+      <Value>Wait</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptAskForHelp</Key>
+      <Value>Ask for Help</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptOptionGiveUp</Key>
+      <Value>Give Up</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptTitle</Key>
+      <Value>Give Up</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousGiveUpPromptMessage</Key>
+      <Value>Are you sure you want to give up? Another player can still save you.</Value>
+    </Record>
+    <Record>
+      <Key>DeadGiveUpPromptMessage</Key>
+      <Value>Are you sure you want to give up? Another player can revive you in a Cryotube.</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptOptionGiveUp</Key>
+      <Value>Respawn</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptOptionCancel</Key>
+      <Value>Dismiss</Value>
     </Record>
     <Record>
       <Key>AlertYourSaveFileIsBroken</Key>
@@ -21358,6 +21484,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>BuyDataBoxOfChocolates</Key>
       <Value>Box of Chocolates</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBurgerPackage</Key>
+      <Value>Packaged Burger</Value>
     </Record>
     <Record>
       <Key>BuyDataChocolateCakeInBox</Key>
@@ -29110,6 +29240,290 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>RespawnHere</Key>
       <Value>Spawn Point Set</Value>
+    </Record>
+    <Record>
+      <Key>Hydration</Key>
+      <Value>Hydration</Value>
+    </Record>
+    <Record>
+      <Key>Nutrition</Key>
+      <Value>Nutrition</Value>
+    </Record>
+    <Record>
+      <Key>Oxygenation</Key>
+      <Value>Oxygenation</Value>
+    </Record>
+    <Record>
+      <Key>Stun</Key>
+      <Value>Stun</Value>
+    </Record>
+    <Record>
+      <Key>NextWeatherHashDescription</Key>
+      <Value>NextWeatherHash provides the hash value for the name of the next weather event as a 32 bit integer.</Value>
+    </Record>
+    <Record>
+      <Key>WeatherEventComing</Key>
+      <Value>A weather event is incoming</Value>
+    </Record>
+    <Record>
+      <Key>DeviceMustBeOutside</Key>
+      <Value>The {LOCAL:Device} will not function indoors</Value>
+    </Record>
+    <Record>
+      <Key>DeviceConfigMode</Key>
+      <Value>Set to Configure</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOperateMode</Key>
+      <Value>Set to Operate</Value>
+    </Record>
+    <Record>
+      <Key>SlotItemProvidesPower</Key>
+      <Value>The {LOCAL:Item} provide {LOCAL:Power} of power</Value>
+    </Record>
+    <Record>
+      <Key>CanReplaceFuselage</Key>
+      <Value>Can replace other fuselages when holding a {LOCAL:Tool}</Value>
+    </Record>
+    <Record>
+      <Key>ShowerWillClean</Key>
+      <Value>Will clean {LOCAL:Occupant}</Value>
+    </Record>
+    <Record>
+      <Key>ShowerNotInPosition</Key>
+      <Value>{LOCAL:Occupant} is not close enough to shower</Value>
+    </Record>
+    <Record>
+      <Key>ShowerCannotWhenWearing</Key>
+      <Value>Cannot shower wearing {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>NamedThingDamageIsAt</Key>
+      <Value>{LOCAL:Thing} {LOCAL:DamageType} is at {LOCAL:Percent}</Value>
+    </Record>
+    <Record>
+      <Key>CoolingAmount</Key>
+      <Value>Cooling {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>HeatingAmount</Key>
+      <Value>Heating {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionFreeSlots</Key>
+      <Value>The number of free slots available in this object.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTotalSlots</Key>
+      <Value>The total number of slots available in this object.</Value>
+    </Record>
+    <Record>
+      <Key>UnidentifiedPlayer</Key>
+      <Value>Unidentified player</Value>
+    </Record>
+    <Record>
+      <Key>PlayerHasAlreadyRespawned</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; has &lt;color=yellow&gt;respawned&lt;/color&gt; and cannot be revived.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerBodyBagDead</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; is &lt;color=red&gt;dead&lt;/color&gt; in the body bag and waiting to be revived.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerIsOnline</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; is &lt;color=green&gt;online&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerIsOffline</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; is &lt;color=yellow&gt;offline&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>BodyBagName</Key>
+      <Value>Body Bag(&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt;)</Value>
+    </Record>
+    <Record>
+      <Key>PlayerBelongings</Key>
+      <Value>Belongings</Value>
+    </Record>
+    <Record>
+      <Key>PlayerReviveInCryotube</Key>
+      <Value>Place &lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; in a &lt;color=green&gt;Cryotube&lt;/color&gt; to revive.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerRequestHelpUnconscious</Key>
+      <Value>{LOCAL:UserName} is in trouble and needs help.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerRequestHelpDead</Key>
+      <Value>{LOCAL:UserName} is dead. They have requested they be revived in a Cryotube.</Value>
+    </Record>
+    <Record>
+      <Key>FoodContainerDecayReduction</Key>
+      <Value>Decay reduced to {LOCAL:Percent} inside {LOCAL:Container}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotClosed</Key>
+      <Value>The {LOCAL:Device} must be closed to operate</Value>
+    </Record>
+    <Record>
+      <Key>CannotInteract</Key>
+      <Value>Cannot interact</Value>
+    </Record>
+    <Record>
+      <Key>EnergyTransfer</Key>
+      <Value>Energy Transfer</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangeArea</Key>
+      <Value>Surface Area</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangeFromTo</Key>
+      <Value>Exchanging from {LOCAL:Input1} to {LOCAL:Input2}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNoPayload</Key>
+      <Value>{LOCAL:Thing} has no payload</Value>
+    </Record>
+    <Record>
+      <Key>EntityStarving</Key>
+      <Value>Starving</Value>
+    </Record>
+    <Record>
+      <Key>EntityRespawnStress</Key>
+      <Value>Fatigued from respawn</Value>
+    </Record>
+    <Record>
+      <Key>ConsumptionSpeed</Key>
+      <Value>Consumption Speed</Value>
+    </Record>
+    <Record>
+      <Key>ToolUseSpeed</Key>
+      <Value>Tool Speed</Value>
+    </Record>
+    <Record>
+      <Key>TradePenalty</Key>
+      <Value>Trade Penalty</Value>
+    </Record>
+    <Record>
+      <Key>DeviceIsNotOperable</Key>
+      <Value>Device is not operable</Value>
+    </Record>
+    <Record>
+      <Key>PumpIntoPad</Key>
+      <Value>Pump into landingpad</Value>
+    </Record>
+    <Record>
+      <Key>PumpIntoTank</Key>
+      <Value>Pump into tank</Value>
+    </Record>
+    <Record>
+      <Key>Inward</Key>
+      <Value>Inward</Value>
+    </Record>
+    <Record>
+      <Key>Outward</Key>
+      <Value>Outward</Value>
+    </Record>
+    <Record>
+      <Key>Warning</Key>
+      <Value>Warning</Value>
+    </Record>
+    <Record>
+      <Key>Critical</Key>
+      <Value>Critical</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureO2</Key>
+      <Value>Oxygen Partial Pressure</Value>
+    </Record>
+    <Record>
+      <Key>LungsEfficiency</Key>
+      <Value>Breathing Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>ToxinDamage</Key>
+      <Value>Toxin Damage</Value>
+    </Record>
+    <Record>
+      <Key>BurnDamage</Key>
+      <Value>Burn Damage</Value>
+    </Record>
+    <Record>
+      <Key>VacuumDamage</Key>
+      <Value>Vacuum Damage</Value>
+    </Record>
+    <Record>
+      <Key>DamageFromLackOfFood</Key>
+      <Value>Loosing Health due to lack of Food</Value>
+    </Record>
+    <Record>
+      <Key>DamageFromLackOfWater</Key>
+      <Value>Loosing Health due to lack of Water</Value>
+    </Record>
+    <Record>
+      <Key>RobotHasNoBattery</Key>
+      <Value>Battery missing</Value>
+    </Record>
+    <Record>
+      <Key>RobotBatteryNoCharge</Key>
+      <Value>Battery has no charge</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureN2O</Key>
+      <Value>Partial Pressure Nitrous Oxide</Value>
+    </Record>
+    <Record>
+      <Key>Refreshed</Key>
+      <Value>Refreshed</Value>
+    </Record>
+    <Record>
+      <Key>MovementSpeed</Key>
+      <Value>Movement Speed</Value>
+    </Record>
+    <Record>
+      <Key>Hygiene</Key>
+      <Value>Hygiene</Value>
+    </Record>
+    <Record>
+      <Key>UnviableEggNotice</Key>
+      <Value>The {LOCAL:Name} is unviable</Value>
+    </Record>
+    <Record>
+      <Key>WillHatchInto</Key>
+      <Value>Will hatch into a {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ViableEggNotice</Key>
+      <Value>Incubation requires {LOCAL:MinTemp} to {LOCAL:MaxTemp}</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateMoodDecreasing</Key>
+      <Value>Mood is Decreasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateMoodIncreasing</Key>
+      <Value>Mood is Increasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateHygieneDecreasing</Key>
+      <Value>Hygiene is Decreasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateHygieneIncreasing</Key>
+      <Value>Hygiene is Increasing</Value>
+    </Record>
+    <Record>
+      <Key>EggIsTooCold</Key>
+      <Value>Egg is too cold</Value>
+    </Record>
+    <Record>
+      <Key>EggIsTooHot</Key>
+      <Value>Egg is too hot</Value>
+    </Record>
+    <Record>
+      <Key>FertilizedEggProcess</Key>
+      <Value>The {LOCAL:Thing} is {LOCAL:Percent} to hatching</Value>
     </Record>
   </GameStrings>
   <GameTip />
