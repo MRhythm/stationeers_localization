@@ -22231,11 +22231,11 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
   <Keys>
     <Record>
       <Key>None</Key>
-      <Value>无</Value>
+      <Value>None</Value>
     </Record>
     <Record>
       <Key>Backspace</Key>
-      <Value>退格(BackSpace)</Value>
+      <Value>Backspace</Value>
     </Record>
     <Record>
       <Key>Tab</Key>
@@ -22243,75 +22243,75 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>Clear</Key>
-      <Value>清除</Value>
+      <Value>Clear</Value>
     </Record>
     <Record>
       <Key>Return</Key>
-      <Value>回车(Enter)</Value>
+      <Value>Return</Value>
     </Record>
     <Record>
       <Key>Pause</Key>
-      <Value>暂停(Pause)</Value>
+      <Value>Pause</Value>
     </Record>
     <Record>
       <Key>Escape</Key>
-      <Value>Esc</Value>
+      <Value>Escape</Value>
     </Record>
     <Record>
       <Key>Space</Key>
-      <Value>空格(Space)</Value>
+      <Value>Space</Value>
     </Record>
     <Record>
       <Key>Exclaim</Key>
-      <Value>!</Value>
+      <Value>Exclaim</Value>
     </Record>
     <Record>
       <Key>DoubleQuote</Key>
-      <Value>"</Value>
+      <Value>Double Quote</Value>
     </Record>
     <Record>
       <Key>Hash</Key>
-      <Value>#</Value>
+      <Value>Hash</Value>
     </Record>
     <Record>
       <Key>Dollar</Key>
-      <Value>$</Value>
+      <Value>Dollar</Value>
     </Record>
     <Record>
       <Key>Percent</Key>
-      <Value>%</Value>
+      <Value>Percent</Value>
     </Record>
     <Record>
       <Key>Ampersand</Key>
-      <Value>&amp;</Value>
+      <Value>Ampersand</Value>
     </Record>
     <Record>
       <Key>Quote</Key>
-      <Value>"</Value>
+      <Value>Quote</Value>
     </Record>
     <Record>
       <Key>LeftParen</Key>
-      <Value>(</Value>
+      <Value>Left Paren</Value>
     </Record>
     <Record>
       <Key>RightParen</Key>
-      <Value>)</Value>
+      <Value>Right Paren</Value>
     </Record>
     <Record>
       <Key>Asterisk</Key>
-      <Value>*</Value>
+      <Value>Asterisk</Value>
     </Record>
     <Record>
       <Key>Plus</Key>
-      <Value>+</Value>
+      <Value>Plus</Value>
     </Record>
     <Record>
       <Key>Comma</Key>
-      <Value>,</Value>
+      <Value>Comma</Value>
     </Record>
     <Record>
       <Key>Minus</Key>
-      <Value>-</Value>
+      <Value>Minus</Value>
     </Record>
     <Record>
       <Key>Period</Key>
@@ -22319,99 +22319,99 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>Slash</Key>
-      <Value>/</Value>
+      <Value>Slash</Value>
     </Record>
     <Record>
       <Key>Alpha0</Key>
-      <Value>0</Value>
+      <Value>Alpha0</Value>
     </Record>
     <Record>
       <Key>Alpha1</Key>
-      <Value>1</Value>
+      <Value>Alpha1</Value>
     </Record>
     <Record>
       <Key>Alpha2</Key>
-      <Value>2</Value>
+      <Value>Alpha2</Value>
     </Record>
     <Record>
       <Key>Alpha3</Key>
-      <Value>3</Value>
+      <Value>Alpha3</Value>
     </Record>
     <Record>
       <Key>Alpha4</Key>
-      <Value>4</Value>
+      <Value>Alpha4</Value>
     </Record>
     <Record>
       <Key>Alpha5</Key>
-      <Value>5</Value>
+      <Value>Alpha5</Value>
     </Record>
     <Record>
       <Key>Alpha6</Key>
-      <Value>6</Value>
+      <Value>Alpha6</Value>
     </Record>
     <Record>
       <Key>Alpha7</Key>
-      <Value>7</Value>
+      <Value>Alpha7</Value>
     </Record>
     <Record>
       <Key>Alpha8</Key>
-      <Value>8</Value>
+      <Value>Alpha8</Value>
     </Record>
     <Record>
       <Key>Alpha9</Key>
-      <Value>9</Value>
+      <Value>Alpha9</Value>
     </Record>
     <Record>
       <Key>Colon</Key>
-      <Value>:</Value>
+      <Value>Colon</Value>
     </Record>
     <Record>
       <Key>Semicolon</Key>
-      <Value>;</Value>
+      <Value>Semicolon</Value>
     </Record>
     <Record>
       <Key>Less</Key>
-      <Value>&lt;</Value>
+      <Value>Less</Value>
     </Record>
     <Record>
       <Key>Equals</Key>
-      <Value>=</Value>
+      <Value>Equals</Value>
     </Record>
     <Record>
       <Key>Greater</Key>
-      <Value>&gt;</Value>
+      <Value>Greater</Value>
     </Record>
     <Record>
       <Key>Question</Key>
-      <Value>?</Value>
+      <Value>Question</Value>
     </Record>
     <Record>
       <Key>At</Key>
-      <Value>@</Value>
+      <Value>At</Value>
     </Record>
     <Record>
       <Key>LeftBracket</Key>
-      <Value>[</Value>
+      <Value>Left Bracket</Value>
     </Record>
     <Record>
       <Key>Backslash</Key>
-      <Value>\</Value>
+      <Value>Backslash</Value>
     </Record>
     <Record>
       <Key>RightBracket</Key>
-      <Value>]</Value>
+      <Value>Right Bracket</Value>
     </Record>
     <Record>
       <Key>Caret</Key>
-      <Value>^</Value>
+      <Value>Caret</Value>
     </Record>
     <Record>
       <Key>Underscore</Key>
-      <Value>_</Value>
+      <Value>Underscore</Value>
     </Record>
     <Record>
       <Key>BackQuote</Key>
-      <Value>`</Value>
+      <Value>Back Quote</Value>
     </Record>
     <Record>
       <Key>A</Key>
@@ -22519,19 +22519,19 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>LeftCurlyBracket</Key>
-      <Value>{</Value>
+      <Value>Left Curly Bracket</Value>
     </Record>
     <Record>
       <Key>Pipe</Key>
-      <Value>|</Value>
+      <Value>Pipe</Value>
     </Record>
     <Record>
       <Key>RightCurlyBracket</Key>
-      <Value>}</Value>
+      <Value>Right Curly Bracket</Value>
     </Record>
     <Record>
       <Key>Tilde</Key>
-      <Value>~</Value>
+      <Value>Tilde</Value>
     </Record>
     <Record>
       <Key>Delete</Key>
@@ -22539,87 +22539,87 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>Keypad0</Key>
-      <Value>Num0</Value>
+      <Value>Keypad0</Value>
     </Record>
     <Record>
       <Key>Keypad1</Key>
-      <Value>Num1</Value>
+      <Value>Keypad1</Value>
     </Record>
     <Record>
       <Key>Keypad2</Key>
-      <Value>Num2</Value>
+      <Value>Keypad2</Value>
     </Record>
     <Record>
       <Key>Keypad3</Key>
-      <Value>Num3</Value>
+      <Value>Keypad3</Value>
     </Record>
     <Record>
       <Key>Keypad4</Key>
-      <Value>Num4</Value>
+      <Value>Keypad4</Value>
     </Record>
     <Record>
       <Key>Keypad5</Key>
-      <Value>Num5</Value>
+      <Value>Keypad5</Value>
     </Record>
     <Record>
       <Key>Keypad6</Key>
-      <Value>Num6</Value>
+      <Value>Keypad6</Value>
     </Record>
     <Record>
       <Key>Keypad7</Key>
-      <Value>Num7</Value>
+      <Value>Keypad7</Value>
     </Record>
     <Record>
       <Key>Keypad8</Key>
-      <Value>Num8</Value>
+      <Value>Keypad8</Value>
     </Record>
     <Record>
       <Key>Keypad9</Key>
-      <Value>Num9</Value>
+      <Value>Keypad9</Value>
     </Record>
     <Record>
       <Key>KeypadPeriod</Key>
-      <Value>Num</Value>
+      <Value>Keypad Period</Value>
     </Record>
     <Record>
       <Key>KeypadDivide</Key>
-      <Value>Num/</Value>
+      <Value>Keypad Divide</Value>
     </Record>
     <Record>
       <Key>KeypadMultiply</Key>
-      <Value>Num*</Value>
+      <Value>Keypad Multiply</Value>
     </Record>
     <Record>
       <Key>KeypadMinus</Key>
-      <Value>Num-</Value>
+      <Value>Keypad Minus</Value>
     </Record>
     <Record>
       <Key>KeypadPlus</Key>
-      <Value>Num+</Value>
+      <Value>Keypad Plus</Value>
     </Record>
     <Record>
       <Key>KeypadEnter</Key>
-      <Value>NumEnter</Value>
+      <Value>Keypad Enter</Value>
     </Record>
     <Record>
       <Key>KeypadEquals</Key>
-      <Value>Num=</Value>
+      <Value>Keypad Equals</Value>
     </Record>
     <Record>
       <Key>UpArrow</Key>
-      <Value>↑</Value>
+      <Value>Up Arrow</Value>
     </Record>
     <Record>
       <Key>DownArrow</Key>
-      <Value>↓</Value>
+      <Value>Down Arrow</Value>
     </Record>
     <Record>
       <Key>RightArrow</Key>
-      <Value>→</Value>
+      <Value>Right Arrow</Value>
     </Record>
     <Record>
       <Key>LeftArrow</Key>
-      <Value>←</Value>
+      <Value>Left Arrow</Value>
     </Record>
     <Record>
       <Key>Insert</Key>
@@ -22635,11 +22635,11 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>PageUp</Key>
-      <Value>PageUp</Value>
+      <Value>Page Up</Value>
     </Record>
     <Record>
       <Key>PageDown</Key>
-      <Value>PageDown</Value>
+      <Value>Page Down</Value>
     </Record>
     <Record>
       <Key>F1</Key>
@@ -22707,67 +22707,67 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>CapsLock</Key>
-      <Value>大写锁定(CapsLock)</Value>
+      <Value>Caps Lock</Value>
     </Record>
     <Record>
       <Key>ScrollLock</Key>
-      <Value>ScrollLock</Value>
+      <Value>Scroll Lock</Value>
     </Record>
     <Record>
       <Key>RightShift</Key>
-      <Value>RSHIFT</Value>
+      <Value>Right Shift</Value>
     </Record>
     <Record>
       <Key>LeftShift</Key>
-      <Value>LSHIFT</Value>
+      <Value>Left Shift</Value>
     </Record>
     <Record>
       <Key>RightControl</Key>
-      <Value>RControl</Value>
+      <Value>Right Control</Value>
     </Record>
     <Record>
       <Key>LeftControl</Key>
-      <Value>LControl</Value>
+      <Value>Left Control</Value>
     </Record>
     <Record>
       <Key>RightAlt</Key>
-      <Value>右Alt</Value>
+      <Value>Right Alt</Value>
     </Record>
     <Record>
       <Key>LeftAlt</Key>
-      <Value>左Alt</Value>
+      <Value>Left Alt</Value>
     </Record>
     <Record>
       <Key>RightApple</Key>
-      <Value>RightApple</Value>
+      <Value>Right Apple</Value>
     </Record>
     <Record>
       <Key>RightCommand</Key>
-      <Value>RightCommand</Value>
+      <Value>Right Command</Value>
     </Record>
     <Record>
       <Key>LeftCommand</Key>
-      <Value>LeftCommand</Value>
+      <Value>Left Command</Value>
     </Record>
     <Record>
       <Key>LeftApple</Key>
-      <Value>LeftApple</Value>
+      <Value>Left Apple</Value>
     </Record>
     <Record>
       <Key>LeftWindows</Key>
-      <Value>LeftWindows</Value>
+      <Value>Left Windows</Value>
     </Record>
     <Record>
       <Key>RightWindows</Key>
-      <Value>RightWindows</Value>
+      <Value>Right Windows</Value>
     </Record>
     <Record>
       <Key>AltGr</Key>
-      <Value>AltGr</Value>
+      <Value>Alt Gr</Value>
     </Record>
     <Record>
       <Key>Help</Key>
-      <Value>F1</Value>
+      <Value>Help</Value>
     </Record>
     <Record>
       <Key>Print</Key>
@@ -22775,806 +22775,763 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>SysReq</Key>
-      <Value>系统请求</Value>
+      <Value>Sys Req</Value>
     </Record>
     <Record>
       <Key>Break</Key>
-      <Value>中断(Break)</Value>
+      <Value>Break</Value>
     </Record>
     <Record>
       <Key>Menu</Key>
-      <Value>菜单</Value>
+      <Value>Menu</Value>
     </Record>
     <Record>
       <Key>Mouse0</Key>
-      <Value>鼠标左键(Mouse0)</Value>
+      <Value>Mouse0</Value>
     </Record>
     <Record>
       <Key>Mouse1</Key>
-      <Value>鼠标右键(Mouse1)</Value>
+      <Value>Mouse1</Value>
     </Record>
     <Record>
       <Key>Mouse2</Key>
-      <Value>鼠标中键(Mouse2)</Value>
+      <Value>Mouse2</Value>
     </Record>
     <Record>
       <Key>Mouse3</Key>
-      <Value>鼠标3</Value>
+      <Value>Mouse3</Value>
     </Record>
     <Record>
       <Key>Mouse4</Key>
-      <Value>&lt;size=40%&gt;鼠标&lt;/size&gt;
-4</Value>
+      <Value>Mouse4</Value>
     </Record>
     <Record>
       <Key>Mouse5</Key>
-      <Value>&lt;size=40%&gt;鼠标&lt;/size&gt;
-5</Value>
+      <Value>Mouse5</Value>
     </Record>
     <Record>
       <Key>Mouse6</Key>
-      <Value>&lt;size=40%&gt;鼠标&lt;/size&gt;
-6</Value>
+      <Value>Mouse6</Value>
     </Record>
     <Record>
       <Key>JoystickButton0</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-0</Value>
+      <Value>Joystick Button0</Value>
     </Record>
     <Record>
       <Key>JoystickButton1</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-1</Value>
+      <Value>Joystick Button1</Value>
     </Record>
     <Record>
       <Key>JoystickButton2</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-2</Value>
+      <Value>Joystick Button2</Value>
     </Record>
     <Record>
       <Key>JoystickButton3</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-3</Value>
+      <Value>Joystick Button3</Value>
     </Record>
     <Record>
       <Key>JoystickButton4</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-4</Value>
+      <Value>Joystick Button4</Value>
     </Record>
     <Record>
       <Key>JoystickButton5</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-5</Value>
+      <Value>Joystick Button5</Value>
     </Record>
     <Record>
       <Key>JoystickButton6</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-6</Value>
+      <Value>Joystick Button6</Value>
     </Record>
     <Record>
       <Key>JoystickButton7</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-7</Value>
+      <Value>Joystick Button7</Value>
     </Record>
     <Record>
       <Key>JoystickButton8</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-8</Value>
+      <Value>Joystick Button8</Value>
     </Record>
     <Record>
       <Key>JoystickButton9</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-9</Value>
+      <Value>Joystick Button9</Value>
     </Record>
     <Record>
       <Key>JoystickButton10</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-10</Value>
+      <Value>Joystick Button10</Value>
     </Record>
     <Record>
       <Key>JoystickButton11</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-11</Value>
+      <Value>Joystick Button11</Value>
     </Record>
     <Record>
       <Key>JoystickButton12</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-12</Value>
+      <Value>Joystick Button12</Value>
     </Record>
     <Record>
       <Key>JoystickButton13</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-13</Value>
+      <Value>Joystick Button13</Value>
     </Record>
     <Record>
       <Key>JoystickButton14</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-14</Value>
+      <Value>Joystick Button14</Value>
     </Record>
     <Record>
       <Key>JoystickButton15</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-15</Value>
+      <Value>Joystick Button15</Value>
     </Record>
     <Record>
       <Key>JoystickButton16</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-16</Value>
+      <Value>Joystick Button16</Value>
     </Record>
     <Record>
       <Key>JoystickButton17</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-17</Value>
+      <Value>Joystick Button17</Value>
     </Record>
     <Record>
       <Key>JoystickButton18</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-18</Value>
+      <Value>Joystick Button18</Value>
     </Record>
     <Record>
       <Key>JoystickButton19</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-19</Value>
+      <Value>Joystick Button19</Value>
     </Record>
     <Record>
       <Key>Joystick1Button0</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-0</Value>
+      <Value>Joystick1 Button0</Value>
     </Record>
     <Record>
       <Key>Joystick1Button1</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-1</Value>
+      <Value>Joystick1 Button1</Value>
     </Record>
     <Record>
       <Key>Joystick1Button2</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-2</Value>
+      <Value>Joystick1 Button2</Value>
     </Record>
     <Record>
       <Key>Joystick1Button3</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-3</Value>
+      <Value>Joystick1 Button3</Value>
     </Record>
     <Record>
       <Key>Joystick1Button4</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-4</Value>
+      <Value>Joystick1 Button4</Value>
     </Record>
     <Record>
       <Key>Joystick1Button5</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-5</Value>
+      <Value>Joystick1 Button5</Value>
     </Record>
     <Record>
       <Key>Joystick1Button6</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-6</Value>
+      <Value>Joystick1 Button6</Value>
     </Record>
     <Record>
       <Key>Joystick1Button7</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-7</Value>
+      <Value>Joystick1 Button7</Value>
     </Record>
     <Record>
       <Key>Joystick1Button8</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-8</Value>
+      <Value>Joystick1 Button8</Value>
     </Record>
     <Record>
       <Key>Joystick1Button9</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-9</Value>
+      <Value>Joystick1 Button9</Value>
     </Record>
     <Record>
       <Key>Joystick1Button10</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-10</Value>
+      <Value>Joystick1 Button10</Value>
     </Record>
     <Record>
       <Key>Joystick1Button11</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-11</Value>
+      <Value>Joystick1 Button11</Value>
     </Record>
     <Record>
       <Key>Joystick1Button12</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-12</Value>
+      <Value>Joystick1 Button12</Value>
     </Record>
     <Record>
       <Key>Joystick1Button13</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-13</Value>
+      <Value>Joystick1 Button13</Value>
     </Record>
     <Record>
       <Key>Joystick1Button14</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-14</Value>
+      <Value>Joystick1 Button14</Value>
     </Record>
     <Record>
       <Key>Joystick1Button15</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-15</Value>
+      <Value>Joystick1 Button15</Value>
     </Record>
     <Record>
       <Key>Joystick1Button16</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-16</Value>
+      <Value>Joystick1 Button16</Value>
     </Record>
     <Record>
       <Key>Joystick1Button17</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-17</Value>
+      <Value>Joystick1 Button17</Value>
     </Record>
     <Record>
       <Key>Joystick1Button18</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-18</Value>
+      <Value>Joystick1 Button18</Value>
     </Record>
     <Record>
       <Key>Joystick1Button19</Key>
-      <Value>&lt;size=40%&gt;手柄&lt;/size&gt;
-19</Value>
+      <Value>Joystick1 Button19</Value>
     </Record>
     <Record>
       <Key>Joystick2Button0</Key>
-      <Value>手柄2按键0</Value>
+      <Value>Joystick2 Button0</Value>
     </Record>
     <Record>
       <Key>Joystick2Button1</Key>
-      <Value>手柄2按键1</Value>
+      <Value>Joystick2 Button1</Value>
     </Record>
     <Record>
       <Key>Joystick2Button2</Key>
-      <Value>手柄2按键2</Value>
+      <Value>Joystick2 Button2</Value>
     </Record>
     <Record>
       <Key>Joystick2Button3</Key>
-      <Value>手柄2按键3</Value>
+      <Value>Joystick2 Button3</Value>
     </Record>
     <Record>
       <Key>Joystick2Button4</Key>
-      <Value>手柄2按键4</Value>
+      <Value>Joystick2 Button4</Value>
     </Record>
     <Record>
       <Key>Joystick2Button5</Key>
-      <Value>手柄2按键5</Value>
+      <Value>Joystick2 Button5</Value>
     </Record>
     <Record>
       <Key>Joystick2Button6</Key>
-      <Value>手柄2按键6</Value>
+      <Value>Joystick2 Button6</Value>
     </Record>
     <Record>
       <Key>Joystick2Button7</Key>
-      <Value>手柄2按键7</Value>
+      <Value>Joystick2 Button7</Value>
     </Record>
     <Record>
       <Key>Joystick2Button8</Key>
-      <Value>手柄2按键8</Value>
+      <Value>Joystick2 Button8</Value>
     </Record>
     <Record>
       <Key>Joystick2Button9</Key>
-      <Value>手柄2按键9</Value>
+      <Value>Joystick2 Button9</Value>
     </Record>
     <Record>
       <Key>Joystick2Button10</Key>
-      <Value>手柄2按键10</Value>
+      <Value>Joystick2 Button10</Value>
     </Record>
     <Record>
       <Key>Joystick2Button11</Key>
-      <Value>手柄2按键11</Value>
+      <Value>Joystick2 Button11</Value>
     </Record>
     <Record>
       <Key>Joystick2Button12</Key>
-      <Value>手柄2按键12</Value>
+      <Value>Joystick2 Button12</Value>
     </Record>
     <Record>
       <Key>Joystick2Button13</Key>
-      <Value>手柄2按键13</Value>
+      <Value>Joystick2 Button13</Value>
     </Record>
     <Record>
       <Key>Joystick2Button14</Key>
-      <Value>手柄2按键14</Value>
+      <Value>Joystick2 Button14</Value>
     </Record>
     <Record>
       <Key>Joystick2Button15</Key>
-      <Value>手柄2按键15</Value>
+      <Value>Joystick2 Button15</Value>
     </Record>
     <Record>
       <Key>Joystick2Button16</Key>
-      <Value>手柄2按键16</Value>
+      <Value>Joystick2 Button16</Value>
     </Record>
     <Record>
       <Key>Joystick2Button17</Key>
-      <Value>手柄2按键17</Value>
+      <Value>Joystick2 Button17</Value>
     </Record>
     <Record>
       <Key>Joystick2Button18</Key>
-      <Value>手柄2按键18</Value>
+      <Value>Joystick2 Button18</Value>
     </Record>
     <Record>
       <Key>Joystick2Button19</Key>
-      <Value>手柄2按键19</Value>
+      <Value>Joystick2 Button19</Value>
     </Record>
     <Record>
       <Key>Joystick3Button0</Key>
-      <Value>手柄3按键0</Value>
+      <Value>Joystick3 Button0</Value>
     </Record>
     <Record>
       <Key>Joystick3Button1</Key>
-      <Value>手柄3按键1</Value>
+      <Value>Joystick3 Button1</Value>
     </Record>
     <Record>
       <Key>Joystick3Button2</Key>
-      <Value>手柄3按键2</Value>
+      <Value>Joystick3 Button2</Value>
     </Record>
     <Record>
       <Key>Joystick3Button3</Key>
-      <Value>手柄3按键3</Value>
+      <Value>Joystick3 Button3</Value>
     </Record>
     <Record>
       <Key>Joystick3Button4</Key>
-      <Value>手柄3按键4</Value>
+      <Value>Joystick3 Button4</Value>
     </Record>
     <Record>
       <Key>Joystick3Button5</Key>
-      <Value>手柄3按键5</Value>
+      <Value>Joystick3 Button5</Value>
     </Record>
     <Record>
       <Key>Joystick3Button6</Key>
-      <Value>手柄3按键6</Value>
+      <Value>Joystick3 Button6</Value>
     </Record>
     <Record>
       <Key>Joystick3Button7</Key>
-      <Value>手柄3按键7</Value>
+      <Value>Joystick3 Button7</Value>
     </Record>
     <Record>
       <Key>Joystick3Button8</Key>
-      <Value>手柄3按键8</Value>
+      <Value>Joystick3 Button8</Value>
     </Record>
     <Record>
       <Key>Joystick3Button9</Key>
-      <Value>手柄3按键9</Value>
+      <Value>Joystick3 Button9</Value>
     </Record>
     <Record>
       <Key>Joystick3Button10</Key>
-      <Value>手柄3按键10</Value>
+      <Value>Joystick3 Button10</Value>
     </Record>
     <Record>
       <Key>Joystick3Button11</Key>
-      <Value>手柄3按键11</Value>
+      <Value>Joystick3 Button11</Value>
     </Record>
     <Record>
       <Key>Joystick3Button12</Key>
-      <Value>手柄3按键12</Value>
+      <Value>Joystick3 Button12</Value>
     </Record>
     <Record>
       <Key>Joystick3Button13</Key>
-      <Value>手柄3按键13</Value>
+      <Value>Joystick3 Button13</Value>
     </Record>
     <Record>
       <Key>Joystick3Button14</Key>
-      <Value>手柄3按键14</Value>
+      <Value>Joystick3 Button14</Value>
     </Record>
     <Record>
       <Key>Joystick3Button15</Key>
-      <Value>手柄3按键15</Value>
+      <Value>Joystick3 Button15</Value>
     </Record>
     <Record>
       <Key>Joystick3Button16</Key>
-      <Value>手柄3按键16</Value>
+      <Value>Joystick3 Button16</Value>
     </Record>
     <Record>
       <Key>Joystick3Button17</Key>
-      <Value>手柄3按键17</Value>
+      <Value>Joystick3 Button17</Value>
     </Record>
     <Record>
       <Key>Joystick3Button18</Key>
-      <Value>手柄3按键18</Value>
+      <Value>Joystick3 Button18</Value>
     </Record>
     <Record>
       <Key>Joystick3Button19</Key>
-      <Value>手柄3按键19</Value>
+      <Value>Joystick3 Button19</Value>
     </Record>
     <Record>
       <Key>Joystick4Button0</Key>
-      <Value>手柄4按键0</Value>
+      <Value>Joystick4 Button0</Value>
     </Record>
     <Record>
       <Key>Joystick4Button1</Key>
-      <Value>手柄4按键1</Value>
+      <Value>Joystick4 Button1</Value>
     </Record>
     <Record>
       <Key>Joystick4Button2</Key>
-      <Value>手柄4按键2</Value>
+      <Value>Joystick4 Button2</Value>
     </Record>
     <Record>
       <Key>Joystick4Button3</Key>
-      <Value>手柄4按键3</Value>
+      <Value>Joystick4 Button3</Value>
     </Record>
     <Record>
       <Key>Joystick4Button4</Key>
-      <Value>手柄4按键4</Value>
+      <Value>Joystick4 Button4</Value>
     </Record>
     <Record>
       <Key>Joystick4Button5</Key>
-      <Value>手柄4按键5</Value>
+      <Value>Joystick4 Button5</Value>
     </Record>
     <Record>
       <Key>Joystick4Button6</Key>
-      <Value>手柄4按键6</Value>
+      <Value>Joystick4 Button6</Value>
     </Record>
     <Record>
       <Key>Joystick4Button7</Key>
-      <Value>手柄4按键7</Value>
+      <Value>Joystick4 Button7</Value>
     </Record>
     <Record>
       <Key>Joystick4Button8</Key>
-      <Value>手柄4按键8</Value>
+      <Value>Joystick4 Button8</Value>
     </Record>
     <Record>
       <Key>Joystick4Button9</Key>
-      <Value>手柄4按键9</Value>
+      <Value>Joystick4 Button9</Value>
     </Record>
     <Record>
       <Key>Joystick4Button10</Key>
-      <Value>手柄4按键10</Value>
+      <Value>Joystick4 Button10</Value>
     </Record>
     <Record>
       <Key>Joystick4Button11</Key>
-      <Value>手柄4按键11</Value>
+      <Value>Joystick4 Button11</Value>
     </Record>
     <Record>
       <Key>Joystick4Button12</Key>
-      <Value>手柄4按键12</Value>
+      <Value>Joystick4 Button12</Value>
     </Record>
     <Record>
       <Key>Joystick4Button13</Key>
-      <Value>手柄4按键13</Value>
+      <Value>Joystick4 Button13</Value>
     </Record>
     <Record>
       <Key>Joystick4Button14</Key>
-      <Value>手柄4按键14</Value>
+      <Value>Joystick4 Button14</Value>
     </Record>
     <Record>
       <Key>Joystick4Button15</Key>
-      <Value>手柄4按键15</Value>
+      <Value>Joystick4 Button15</Value>
     </Record>
     <Record>
       <Key>Joystick4Button16</Key>
-      <Value>手柄4按键16</Value>
+      <Value>Joystick4 Button16</Value>
     </Record>
     <Record>
       <Key>Joystick4Button17</Key>
-      <Value>手柄4按键17</Value>
+      <Value>Joystick4 Button17</Value>
     </Record>
     <Record>
       <Key>Joystick4Button18</Key>
-      <Value>手柄4按键18</Value>
+      <Value>Joystick4 Button18</Value>
     </Record>
     <Record>
       <Key>Joystick4Button19</Key>
-      <Value>手柄4按键19</Value>
+      <Value>Joystick4 Button19</Value>
     </Record>
     <Record>
       <Key>Joystick5Button0</Key>
-      <Value>手柄5按键0</Value>
+      <Value>Joystick5 Button0</Value>
     </Record>
     <Record>
       <Key>Joystick5Button1</Key>
-      <Value>手柄5按键1</Value>
+      <Value>Joystick5 Button1</Value>
     </Record>
     <Record>
       <Key>Joystick5Button2</Key>
-      <Value>手柄5按键2</Value>
+      <Value>Joystick5 Button2</Value>
     </Record>
     <Record>
       <Key>Joystick5Button3</Key>
-      <Value>手柄5按键3</Value>
+      <Value>Joystick5 Button3</Value>
     </Record>
     <Record>
       <Key>Joystick5Button4</Key>
-      <Value>手柄5按键4</Value>
+      <Value>Joystick5 Button4</Value>
     </Record>
     <Record>
       <Key>Joystick5Button5</Key>
-      <Value>手柄5按键5</Value>
+      <Value>Joystick5 Button5</Value>
     </Record>
     <Record>
       <Key>Joystick5Button6</Key>
-      <Value>手柄5按键6</Value>
+      <Value>Joystick5 Button6</Value>
     </Record>
     <Record>
       <Key>Joystick5Button7</Key>
-      <Value>手柄5按键7</Value>
+      <Value>Joystick5 Button7</Value>
     </Record>
     <Record>
       <Key>Joystick5Button8</Key>
-      <Value>手柄5按键8</Value>
+      <Value>Joystick5 Button8</Value>
     </Record>
     <Record>
       <Key>Joystick5Button9</Key>
-      <Value>手柄5按键9</Value>
+      <Value>Joystick5 Button9</Value>
     </Record>
     <Record>
       <Key>Joystick5Button10</Key>
-      <Value>手柄5按键10</Value>
+      <Value>Joystick5 Button10</Value>
     </Record>
     <Record>
       <Key>Joystick5Button11</Key>
-      <Value>手柄5按键11</Value>
+      <Value>Joystick5 Button11</Value>
     </Record>
     <Record>
       <Key>Joystick5Button12</Key>
-      <Value>手柄5按键12</Value>
+      <Value>Joystick5 Button12</Value>
     </Record>
     <Record>
       <Key>Joystick5Button13</Key>
-      <Value>手柄5按键13</Value>
+      <Value>Joystick5 Button13</Value>
     </Record>
     <Record>
       <Key>Joystick5Button14</Key>
-      <Value>手柄5按键14</Value>
+      <Value>Joystick5 Button14</Value>
     </Record>
     <Record>
       <Key>Joystick5Button15</Key>
-      <Value>手柄5按键15</Value>
+      <Value>Joystick5 Button15</Value>
     </Record>
     <Record>
       <Key>Joystick5Button16</Key>
-      <Value>手柄5按键16</Value>
+      <Value>Joystick5 Button16</Value>
     </Record>
     <Record>
       <Key>Joystick5Button17</Key>
-      <Value>手柄5按键17</Value>
+      <Value>Joystick5 Button17</Value>
     </Record>
     <Record>
       <Key>Joystick5Button18</Key>
-      <Value>手柄5按键18</Value>
+      <Value>Joystick5 Button18</Value>
     </Record>
     <Record>
       <Key>Joystick5Button19</Key>
-      <Value>手柄5按键19</Value>
+      <Value>Joystick5 Button19</Value>
     </Record>
     <Record>
       <Key>Joystick6Button0</Key>
-      <Value>手柄6按键0</Value>
+      <Value>Joystick6 Button0</Value>
     </Record>
     <Record>
       <Key>Joystick6Button1</Key>
-      <Value>手柄6按键1</Value>
+      <Value>Joystick6 Button1</Value>
     </Record>
     <Record>
       <Key>Joystick6Button2</Key>
-      <Value>手柄6按键2</Value>
+      <Value>Joystick6 Button2</Value>
     </Record>
     <Record>
       <Key>Joystick6Button3</Key>
-      <Value>手柄6按键3</Value>
+      <Value>Joystick6 Button3</Value>
     </Record>
     <Record>
       <Key>Joystick6Button4</Key>
-      <Value>手柄6按键4</Value>
+      <Value>Joystick6 Button4</Value>
     </Record>
     <Record>
       <Key>Joystick6Button5</Key>
-      <Value>手柄6按键5</Value>
+      <Value>Joystick6 Button5</Value>
     </Record>
     <Record>
       <Key>Joystick6Button6</Key>
-      <Value>手柄6按键6</Value>
+      <Value>Joystick6 Button6</Value>
     </Record>
     <Record>
       <Key>Joystick6Button7</Key>
-      <Value>手柄6按键7</Value>
+      <Value>Joystick6 Button7</Value>
     </Record>
     <Record>
       <Key>Joystick6Button8</Key>
-      <Value>手柄6按键8</Value>
+      <Value>Joystick6 Button8</Value>
     </Record>
     <Record>
       <Key>Joystick6Button9</Key>
-      <Value>手柄6按键9</Value>
+      <Value>Joystick6 Button9</Value>
     </Record>
     <Record>
       <Key>Joystick6Button10</Key>
-      <Value>手柄6按键10</Value>
+      <Value>Joystick6 Button10</Value>
     </Record>
     <Record>
       <Key>Joystick6Button11</Key>
-      <Value>手柄6按键11</Value>
+      <Value>Joystick6 Button11</Value>
     </Record>
     <Record>
       <Key>Joystick6Button12</Key>
-      <Value>手柄6按键12</Value>
+      <Value>Joystick6 Button12</Value>
     </Record>
     <Record>
       <Key>Joystick6Button13</Key>
-      <Value>手柄6按键13</Value>
+      <Value>Joystick6 Button13</Value>
     </Record>
     <Record>
       <Key>Joystick6Button14</Key>
-      <Value>手柄6按键14</Value>
+      <Value>Joystick6 Button14</Value>
     </Record>
     <Record>
       <Key>Joystick6Button15</Key>
-      <Value>手柄6按键15</Value>
+      <Value>Joystick6 Button15</Value>
     </Record>
     <Record>
       <Key>Joystick6Button16</Key>
-      <Value>手柄6按键16</Value>
+      <Value>Joystick6 Button16</Value>
     </Record>
     <Record>
       <Key>Joystick6Button17</Key>
-      <Value>手柄6按键17</Value>
+      <Value>Joystick6 Button17</Value>
     </Record>
     <Record>
       <Key>Joystick6Button18</Key>
-      <Value>手柄6按键18</Value>
+      <Value>Joystick6 Button18</Value>
     </Record>
     <Record>
       <Key>Joystick6Button19</Key>
-      <Value>手柄6按键19</Value>
+      <Value>Joystick6 Button19</Value>
     </Record>
     <Record>
       <Key>Joystick7Button0</Key>
-      <Value>手柄7按键0</Value>
+      <Value>Joystick7 Button0</Value>
     </Record>
     <Record>
       <Key>Joystick7Button1</Key>
-      <Value>手柄7按键1</Value>
+      <Value>Joystick7 Button1</Value>
     </Record>
     <Record>
       <Key>Joystick7Button2</Key>
-      <Value>手柄7按键2</Value>
+      <Value>Joystick7 Button2</Value>
     </Record>
     <Record>
       <Key>Joystick7Button3</Key>
-      <Value>手柄7按键3</Value>
+      <Value>Joystick7 Button3</Value>
     </Record>
     <Record>
       <Key>Joystick7Button4</Key>
-      <Value>手柄7按键4</Value>
+      <Value>Joystick7 Button4</Value>
     </Record>
     <Record>
       <Key>Joystick7Button5</Key>
-      <Value>手柄7按键5</Value>
+      <Value>Joystick7 Button5</Value>
     </Record>
     <Record>
       <Key>Joystick7Button6</Key>
-      <Value>手柄7按键6</Value>
+      <Value>Joystick7 Button6</Value>
     </Record>
     <Record>
       <Key>Joystick7Button7</Key>
-      <Value>手柄7按键7</Value>
+      <Value>Joystick7 Button7</Value>
     </Record>
     <Record>
       <Key>Joystick7Button8</Key>
-      <Value>手柄7按键8</Value>
+      <Value>Joystick7 Button8</Value>
     </Record>
     <Record>
       <Key>Joystick7Button9</Key>
-      <Value>手柄7按键9</Value>
+      <Value>Joystick7 Button9</Value>
     </Record>
     <Record>
       <Key>Joystick7Button10</Key>
-      <Value>手柄7按键10</Value>
+      <Value>Joystick7 Button10</Value>
     </Record>
     <Record>
       <Key>Joystick7Button11</Key>
-      <Value>手柄7按键11</Value>
+      <Value>Joystick7 Button11</Value>
     </Record>
     <Record>
       <Key>Joystick7Button12</Key>
-      <Value>手柄7按键12</Value>
+      <Value>Joystick7 Button12</Value>
     </Record>
     <Record>
       <Key>Joystick7Button13</Key>
-      <Value>手柄7按键13</Value>
+      <Value>Joystick7 Button13</Value>
     </Record>
     <Record>
       <Key>Joystick7Button14</Key>
-      <Value>手柄7按键14</Value>
+      <Value>Joystick7 Button14</Value>
     </Record>
     <Record>
       <Key>Joystick7Button15</Key>
-      <Value>手柄7按键15</Value>
+      <Value>Joystick7 Button15</Value>
     </Record>
     <Record>
       <Key>Joystick7Button16</Key>
-      <Value>手柄7按键16</Value>
+      <Value>Joystick7 Button16</Value>
     </Record>
     <Record>
       <Key>Joystick7Button17</Key>
-      <Value>手柄7按键17</Value>
+      <Value>Joystick7 Button17</Value>
     </Record>
     <Record>
       <Key>Joystick7Button18</Key>
-      <Value>手柄7按键18</Value>
+      <Value>Joystick7 Button18</Value>
     </Record>
     <Record>
       <Key>Joystick7Button19</Key>
-      <Value>手柄7按键19</Value>
+      <Value>Joystick7 Button19</Value>
     </Record>
     <Record>
       <Key>Joystick8Button0</Key>
-      <Value>手柄8按键0</Value>
+      <Value>Joystick8 Button0</Value>
     </Record>
     <Record>
       <Key>Joystick8Button1</Key>
-      <Value>手柄8按键1</Value>
+      <Value>Joystick8 Button1</Value>
     </Record>
     <Record>
       <Key>Joystick8Button2</Key>
-      <Value>手柄8按键2</Value>
+      <Value>Joystick8 Button2</Value>
     </Record>
     <Record>
       <Key>Joystick8Button3</Key>
-      <Value>手柄8按键3</Value>
+      <Value>Joystick8 Button3</Value>
     </Record>
     <Record>
       <Key>Joystick8Button4</Key>
-      <Value>手柄8按键4</Value>
+      <Value>Joystick8 Button4</Value>
     </Record>
     <Record>
       <Key>Joystick8Button5</Key>
-      <Value>手柄8按键5</Value>
+      <Value>Joystick8 Button5</Value>
     </Record>
     <Record>
       <Key>Joystick8Button6</Key>
-      <Value>手柄8按键6</Value>
+      <Value>Joystick8 Button6</Value>
     </Record>
     <Record>
       <Key>Joystick8Button7</Key>
-      <Value>手柄8按键7</Value>
+      <Value>Joystick8 Button7</Value>
     </Record>
     <Record>
       <Key>Joystick8Button8</Key>
-      <Value>手柄8按键8</Value>
+      <Value>Joystick8 Button8</Value>
     </Record>
     <Record>
       <Key>Joystick8Button9</Key>
-      <Value>手柄8按键9</Value>
+      <Value>Joystick8 Button9</Value>
     </Record>
     <Record>
       <Key>Joystick8Button10</Key>
-      <Value>手柄8按键10</Value>
+      <Value>Joystick8 Button10</Value>
     </Record>
     <Record>
       <Key>Joystick8Button11</Key>
-      <Value>手柄8按键11</Value>
+      <Value>Joystick8 Button11</Value>
     </Record>
     <Record>
       <Key>Joystick8Button12</Key>
-      <Value>手柄8按键12</Value>
+      <Value>Joystick8 Button12</Value>
     </Record>
     <Record>
       <Key>Joystick8Button13</Key>
-      <Value>手柄8按键13</Value>
+      <Value>Joystick8 Button13</Value>
     </Record>
     <Record>
       <Key>Joystick8Button14</Key>
-      <Value>手柄8按键14</Value>
+      <Value>Joystick8 Button14</Value>
     </Record>
     <Record>
       <Key>Joystick8Button15</Key>
-      <Value>手柄8按键15</Value>
+      <Value>Joystick8 Button15</Value>
     </Record>
     <Record>
       <Key>Joystick8Button16</Key>
-      <Value>手柄8按键16</Value>
+      <Value>Joystick8 Button16</Value>
     </Record>
     <Record>
       <Key>Joystick8Button17</Key>
-      <Value>手柄8按键17</Value>
+      <Value>Joystick8 Button17</Value>
     </Record>
     <Record>
       <Key>Joystick8Button18</Key>
-      <Value>手柄8按键18</Value>
+      <Value>Joystick8 Button18</Value>
     </Record>
     <Record>
       <Key>Joystick8Button19</Key>
-      <Value>手柄8按键19</Value>
+      <Value>Joystick8 Button19</Value>
     </Record>
   </Keys>
   <Mineables>
