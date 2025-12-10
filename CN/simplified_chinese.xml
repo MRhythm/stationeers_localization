@@ -15,6 +15,11 @@
       <Unit>ml</Unit>
     </RecordReagent>
     <RecordReagent>
+      <Key>Cheese</Key>
+      <Value>乳酪</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>Egg</Key>
       <Value>蛋</Value>
       <Unit/>
@@ -1152,7 +1157,7 @@
     <RecordThing>
       <Key>ItemFertilizedEgg</Key>
       <Value>受精卵</Value>
-      <Description>需置于在35至45摄氏度的温度下孵化才能孵出 {THING:NpcChick} . 若暴露于10度以下环境将失去活性</Description>
+      <Description>能够孵化成一只 {THING:NpcChick} . 若暴露于10度以下环境将失去活性</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFireExtinguisher</Key>
@@ -1833,6 +1838,11 @@
       <Key>OrganLungs</Key>
       <Value>人肺</Value>
       <Description>精密器官, 需为其营造并维持适宜温度与压力环境</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicBodyBag</Key>
+      <Value>尸体袋</Value>
+      <Description>当玩家死亡并开始腐烂后, 尸体会被移动到尸体袋中. 如果他们并未重生, 可以在 {THING:StructureCryoTube} 中复活他们.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SpaceShuttle</Key>
@@ -8533,7 +8543,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructureDrinkingFountain</Key>
       <Value>直饮水池</Value>
-      <Description>可直接交互提升饮水值的装置, 需连接供 {GAS:Water} 系统</Description>
+      <Description>可直接交互并增加饮水值的装置, 需要为其供应 {GAS:Water}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDrinkingFountain</Key>
@@ -9328,6 +9338,46 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Description />
     </RecordThing>
     <RecordThing>
+      <Key>ItemCheeseWedge</Key>
+      <Value>乳酪</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBurger</Key>
+      <Value>汉堡包</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableFuse500k</Key>
+      <Value>保险丝(500kW)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeGastoGas</Key>
+      <Value>超大型间板式换热器(气体)</Value>
+      <Description>直接均衡两个输入管道网络的温度</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeGastoLiquid</Key>
+      <Value>超大型间板式换热器(气体+液体)</Value>
+      <Description>直接均衡两个输入管道网络的温度</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeLiquidToLiquid</Key>
+      <Value>超大型间板式换热器(液体)</Value>
+      <Description>直接均衡两个输入管道网络的温度</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBurgerBox</Key>
+      <Value>汉堡包盒</Value>
+      <Description>用于存放 {THING:ItemBurger} 的容器, 兼顾美观与实用性, 能显著降低食物腐烂速度. 拿在手上并开启时可直接食用其中的食物.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDrinkingFountain2x1</Key>
+      <Value>Drinking Fountain</Value>
+      <Description>可直接交互并增加饮水值的装置, 需要为其供应 {GAS:Water}</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitDynamicWorkCone</Key>
       <Value>(套件)便携式施工锥桶</Value>
       <Description />
@@ -9507,6 +9557,14 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>TransportSlot</Key>
       <Value>运输槽位</Value>
+    </Record>
+    <Record>
+      <Key>BurgerSlot</Key>
+      <Value>汉堡包</Value>
+    </Record>
+    <Record>
+      <Key>FriesSlot</Key>
+      <Value>炸薯条</Value>
     </Record>
     <Record>
       <Key>DrillSlot</Key>
@@ -10252,6 +10310,14 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
   </Interactables>
   <Interface>
+    <Record>
+      <Key>InventorySort</Key>
+      <Value>整理</Value>
+    </Record>
+    <Record>
+      <Key>InventoryClose</Key>
+      <Value>关闭</Value>
+    </Record>
     <Record>
       <Key>VenusPoiRegionFumaroleSteppeName</Key>
       <Value>喷口荒原</Value>
@@ -14265,6 +14331,66 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>PromptGiveUpConfirm</Key>
       <Value>放弃</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptTitle</Key>
+      <Value>失去意识</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptMessage</Key>
+      <Value>你已经失去意识, 但还未死亡. 你打算怎么做?</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptOptionWaitForHelp</Key>
+      <Value>等待</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptAskForHelp</Key>
+      <Value>请求帮助</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptOptionGiveUp</Key>
+      <Value>放弃</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptTitle</Key>
+      <Value>死亡</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptMessage</Key>
+      <Value>你已经死了. 你打算怎么做?</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptOptionWaitForHelp</Key>
+      <Value>等待</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptAskForHelp</Key>
+      <Value>请求帮助</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptOptionGiveUp</Key>
+      <Value>放弃</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptTitle</Key>
+      <Value>放弃</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousGiveUpPromptMessage</Key>
+      <Value>另一名玩家可以帮助你, 你确定要放弃吗?</Value>
+    </Record>
+    <Record>
+      <Key>DeadGiveUpPromptMessage</Key>
+      <Value>另一名玩家可以使用冷冻舱复活你, 你确定要放弃吗?</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptOptionGiveUp</Key>
+      <Value>重生</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptOptionCancel</Key>
+      <Value>不了</Value>
     </Record>
     <Record>
       <Key>AlertYourSaveFileIsBroken</Key>
@@ -21217,6 +21343,10 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>BuyDataBoxOfChocolates</Key>
       <Value>盒装巧克力</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBurgerPackage</Key>
+      <Value>盒装汉堡包</Value>
     </Record>
     <Record>
       <Key>BuyDataChocolateCakeInBox</Key>
@@ -29019,6 +29149,290 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>RespawnHere</Key>
       <Value>重生点已设置</Value>
+    </Record>
+    <Record>
+      <Key>Hydration</Key>
+      <Value>水分</Value>
+    </Record>
+    <Record>
+      <Key>Nutrition</Key>
+      <Value>营养</Value>
+    </Record>
+    <Record>
+      <Key>Oxygenation</Key>
+      <Value>氧合作用</Value>
+    </Record>
+    <Record>
+      <Key>Stun</Key>
+      <Value>昏迷</Value>
+    </Record>
+    <Record>
+      <Key>NextWeatherHashDescription</Key>
+      <Value>NextWeatherHash 以一个32位整数形式提供下一个天气事件名称的哈希值.</Value>
+    </Record>
+    <Record>
+      <Key>WeatherEventComing</Key>
+      <Value>天气事件即将到来</Value>
+    </Record>
+    <Record>
+      <Key>DeviceMustBeOutside</Key>
+      <Value>{LOCAL:Device} 在室内无法运作</Value>
+    </Record>
+    <Record>
+      <Key>DeviceConfigMode</Key>
+      <Value>设为配置模式</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOperateMode</Key>
+      <Value>设为操作模式</Value>
+    </Record>
+    <Record>
+      <Key>SlotItemProvidesPower</Key>
+      <Value>{LOCAL:Item} 提供 {LOCAL:Power} 电力</Value>
+    </Record>
+    <Record>
+      <Key>CanReplaceFuselage</Key>
+      <Value>手持 {LOCAL:Tool} 时可替换其他机身</Value>
+    </Record>
+    <Record>
+      <Key>ShowerWillClean</Key>
+      <Value>将清除 {LOCAL:Occupant}</Value>
+    </Record>
+    <Record>
+      <Key>ShowerNotInPosition</Key>
+      <Value>{LOCAL:Occupant} 距离淋浴器太远</Value>
+    </Record>
+    <Record>
+      <Key>ShowerCannotWhenWearing</Key>
+      <Value>穿着 {LOCAL:Thing} 时无法淋浴</Value>
+    </Record>
+    <Record>
+      <Key>NamedThingDamageIsAt</Key>
+      <Value>{LOCAL:Thing} 的 {LOCAL:DamageType} 为 {LOCAL:Percent}</Value>
+    </Record>
+    <Record>
+      <Key>CoolingAmount</Key>
+      <Value>冷却 {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>HeatingAmount</Key>
+      <Value>加热 {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionFreeSlots</Key>
+      <Value>此物体中的空闲槽位数量</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTotalSlots</Key>
+      <Value>此物体中的槽位总数</Value>
+    </Record>
+    <Record>
+      <Key>UnidentifiedPlayer</Key>
+      <Value>未知玩家</Value>
+    </Record>
+    <Record>
+      <Key>PlayerHasAlreadyRespawned</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; 已 &lt;color=yellow&gt;重生&lt;/color&gt; 无法被复活.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerBodyBagDead</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; 已 &lt;color=red&gt;dead&lt;/color&gt; 死亡并位于尸体袋中, 正在等待复活.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerIsOnline</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; &lt;color=green&gt;上线&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerIsOffline</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; &lt;color=yellow&gt;离线&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>BodyBagName</Key>
+      <Value>尸体袋(&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt;)</Value>
+    </Record>
+    <Record>
+      <Key>PlayerBelongings</Key>
+      <Value>随身物品</Value>
+    </Record>
+    <Record>
+      <Key>PlayerReviveInCryotube</Key>
+      <Value>将 &lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; 放到 &lt;color=green&gt;冷冻舱&lt;/color&gt; 中复活</Value>
+    </Record>
+    <Record>
+      <Key>PlayerRequestHelpUnconscious</Key>
+      <Value>{LOCAL:UserName} 出了岔子, 需要帮助.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerRequestHelpDead</Key>
+      <Value>{LOCAL:UserName} 已经死亡, 他们请求在冷冻舱中复活.</Value>
+    </Record>
+    <Record>
+      <Key>FoodContainerDecayReduction</Key>
+      <Value>在 {LOCAL:Container} 内部, 腐烂速度降低至 {LOCAL:Percent}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotClosed</Key>
+      <Value>必须关闭 {LOCAL:Device} 才能操作</Value>
+    </Record>
+    <Record>
+      <Key>CannotInteract</Key>
+      <Value>无法交互</Value>
+    </Record>
+    <Record>
+      <Key>EnergyTransfer</Key>
+      <Value>热量传导</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangeArea</Key>
+      <Value>表面积</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangeFromTo</Key>
+      <Value>正在从 {LOCAL:Input1} 传导至 {LOCAL:Input2}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNoPayload</Key>
+      <Value>{LOCAL:Thing} 没有有效载荷</Value>
+    </Record>
+    <Record>
+      <Key>EntityStarving</Key>
+      <Value>饥饿</Value>
+    </Record>
+    <Record>
+      <Key>EntityRespawnStress</Key>
+      <Value>重生疲劳</Value>
+    </Record>
+    <Record>
+      <Key>ConsumptionSpeed</Key>
+      <Value>代谢速度</Value>
+    </Record>
+    <Record>
+      <Key>ToolUseSpeed</Key>
+      <Value>使用工具速度</Value>
+    </Record>
+    <Record>
+      <Key>TradePenalty</Key>
+      <Value>交易惩罚</Value>
+    </Record>
+    <Record>
+      <Key>DeviceIsNotOperable</Key>
+      <Value>设备不可操作</Value>
+    </Record>
+    <Record>
+      <Key>PumpIntoPad</Key>
+      <Value>泵入着陆场</Value>
+    </Record>
+    <Record>
+      <Key>PumpIntoTank</Key>
+      <Value>泵入储罐</Value>
+    </Record>
+    <Record>
+      <Key>Inward</Key>
+      <Value>吸入</Value>
+    </Record>
+    <Record>
+      <Key>Outward</Key>
+      <Value>排出</Value>
+    </Record>
+    <Record>
+      <Key>Warning</Key>
+      <Value>警告</Value>
+    </Record>
+    <Record>
+      <Key>Critical</Key>
+      <Value>严重</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureO2</Key>
+      <Value>氧气分压</Value>
+    </Record>
+    <Record>
+      <Key>LungsEfficiency</Key>
+      <Value>呼吸效率</Value>
+    </Record>
+    <Record>
+      <Key>ToxinDamage</Key>
+      <Value>毒素伤害</Value>
+    </Record>
+    <Record>
+      <Key>BurnDamage</Key>
+      <Value>烧伤伤害</Value>
+    </Record>
+    <Record>
+      <Key>VacuumDamage</Key>
+      <Value>真空伤害</Value>
+    </Record>
+    <Record>
+      <Key>DamageFromLackOfFood</Key>
+      <Value>缺少食物, 生命值下降</Value>
+    </Record>
+    <Record>
+      <Key>DamageFromLackOfWater</Key>
+      <Value>缺乏水分, 生命值下降</Value>
+    </Record>
+    <Record>
+      <Key>RobotHasNoBattery</Key>
+      <Value>电池缺失</Value>
+    </Record>
+    <Record>
+      <Key>RobotBatteryNoCharge</Key>
+      <Value>电池耗尽</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureN2O</Key>
+      <Value>一氧化二氮分压</Value>
+    </Record>
+    <Record>
+      <Key>Refreshed</Key>
+      <Value>恢复精力</Value>
+    </Record>
+    <Record>
+      <Key>MovementSpeed</Key>
+      <Value>移动速度</Value>
+    </Record>
+    <Record>
+      <Key>Hygiene</Key>
+      <Value>卫生</Value>
+    </Record>
+    <Record>
+      <Key>UnviableEggNotice</Key>
+      <Value>{LOCAL:Name} 无法存活</Value>
+    </Record>
+    <Record>
+      <Key>WillHatchInto</Key>
+      <Value>将孵化为 {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ViableEggNotice</Key>
+      <Value>孵化需要温度 {LOCAL:MinTemp} 至 {LOCAL:MaxTemp} </Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateMoodDecreasing</Key>
+      <Value>心情下降</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateMoodIncreasing</Key>
+      <Value>心情上升</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateHygieneDecreasing</Key>
+      <Value>卫生下降</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateHygieneIncreasing</Key>
+      <Value>卫生上升</Value>
+    </Record>
+    <Record>
+      <Key>EggIsTooCold</Key>
+      <Value>蛋太冷了</Value>
+    </Record>
+    <Record>
+      <Key>EggIsTooHot</Key>
+      <Value>蛋太热了</Value>
+    </Record>
+    <Record>
+      <Key>FertilizedEggProcess</Key>
+      <Value>{LOCAL:Thing} 的孵化进度为 {LOCAL:Percent}</Value>
     </Record>
   </GameStrings>
   <GameTip/>

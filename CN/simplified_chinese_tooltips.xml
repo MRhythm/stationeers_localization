@@ -192,6 +192,14 @@
       <Value>已越界, 立刻折返</Value>
     </Record>
     <Record>
+      <Key>StatusIconRespawnStressName</Key>
+      <Value>重生压力</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconRespawnStressDesc</Key>
+      <Value>影响各类行为速度</Value>
+    </Record>
+    <Record>
       <Key>StatusIconCoolantName</Key>
       <Value>冷却剂温度</Value>
     </Record>
