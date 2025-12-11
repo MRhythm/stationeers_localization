@@ -336,7 +336,7 @@
 		</Record>
 		<Record>
 			<Key>Collect</Key>
-			<Value>Rassembler</Value>
+			<Value>Collecter</Value>
 		</Record>
 		<Record>
 			<Key>Add</Key>
@@ -545,7 +545,7 @@ Il suffit de le boulonner à un {THING:StructureBench} avec une {THING:ItemWrenc
 		<RecordThing>
 			<Key>ApplianceReagentProcessor</Key>
 			<Value>Mixeur</Value>
-			<Description>Alliant la puissance d'un extracteur de jus et la précision d'un alambic d'alchimiste, le mixeur {LINK:Xigo;Xigo} transforme certaines matières premières et articles alimentaires en ingrédients pour la cuisine et l'artisanat. Un appareil essentiel dans toute cuisine spatiale. Fixez-le à l’établi, et il est prêt à l’emploi.</Description>
+			<Description>Alliant la puissance d'un extracteur de jus et la précision d'un alambic d'alchimiste, le mixeur {LINK:Xigo;Xigo} transforme certaines matières premières et articles alimentaires en ingrédients pour la cuisine et l'artisanat. Un appareil essentiel dans toute cuisine spatiale. Fixez-le à l'établi, et il est prêt à l'emploi.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautFemaleArmL</Key>
@@ -575,7 +575,7 @@ Il suffit de le boulonner à un {THING:StructureBench} avec une {THING:ItemWrenc
 		<RecordThing>
 			<Key>BodyPartAstronautFemaleTorso</Key>
 			<Value>Torse d'une astronaute</Value>
-			<Description>Ce torse n’ira nulle part tout seul.</Description>
+			<Description>Ce torse n'ira nulle part tout seul.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautMaleArmL</Key>
@@ -600,7 +600,7 @@ Il suffit de le boulonner à un {THING:StructureBench} avec une {THING:ItemWrenc
 		<RecordThing>
 			<Key>BodyPartAstronautMaleLegR</Key>
 			<Value>Jambe droite d'un astronaute</Value>
-			<Description>Les jambes, c’est utile… mais des roues, ça aurait été stylé.</Description>
+			<Description>Les jambes, c'est utile… mais des roues, ça aurait été stylé.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartAstronautTorso</Key>
@@ -690,12 +690,12 @@ Il suffit de le boulonner à un {THING:StructureBench} avec une {THING:ItemWrenc
 		<RecordThing>
 			<Key>BodyPartChickLegL</Key>
 			<Value>Patte gauche de poussin</Value>
-			<Description>C’est la patte gauche d’un poussin.</Description>
+			<Description>C'est la patte gauche d'un poussin.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartChickLegR</Key>
 			<Value>Patte droite de poussin</Value>
-			<Description>C’est la patte droite d’un poussin.</Description>
+			<Description>C'est la patte droite d'un poussin.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartChickTail</Key>
@@ -725,7 +725,7 @@ Il suffit de le boulonner à un {THING:StructureBench} avec une {THING:ItemWrenc
 		<RecordThing>
 			<Key>BodyPartGraylienBody</Key>
 			<Value>Corps de Grisalien</Value>
-			<Description>Le corps d’un extraterrestre gris, ou une très bonne imitation.</Description>
+			<Description>Le corps d'un extraterrestre gris, ou une très bonne imitation.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartGraylienHead</Key>
@@ -755,7 +755,7 @@ Il suffit de le boulonner à un {THING:StructureBench} avec une {THING:ItemWrenc
 		<RecordThing>
 			<Key>BodyPartRoosterBlackHead</Key>
 			<Value>Tête de coq noir</Value>
-			<Description>La tête d’un coq noir. Le cadeau parfait pour la fête des mères (ou pas).</Description>
+			<Description>La tête d'un coq noir. Le cadeau parfait pour la fête des mères (ou pas).</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartRoosterBlackLegL</Key>
@@ -775,12 +775,12 @@ Il suffit de le boulonner à un {THING:StructureBench} avec une {THING:ItemWrenc
 		<RecordThing>
 			<Key>BodyPartRoosterBlackWingL</Key>
 			<Value>Aile gauche de coq noir</Value>
-			<Description>L’aile gauche d’un coq noir.</Description>
+			<Description>L'aile gauche d'un coq noir.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartRoosterBlackWingR</Key>
 			<Value>Aile droite de coq noir</Value>
-			<Description>L’aile droite d’un coq noir.</Description>
+			<Description>L'aile droite d'un coq noir.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartRoosterBrownBody</Key>
@@ -810,12 +810,12 @@ Il suffit de le boulonner à un {THING:StructureBench} avec une {THING:ItemWrenc
 		<RecordThing>
 			<Key>BodyPartRoosterBrownWingL</Key>
 			<Value>Aile gauche de coq marron</Value>
-			<Description>L’aile gauche d’un coq marron, enfin... à peu près.</Description>
+			<Description>L'aile gauche d'un coq marron, enfin... à peu près.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>BodyPartRoosterBrownWingR</Key>
 			<Value>Aile droite de coq marron</Value>
-			<Description>L’aile droite d’un coq marron, enfin... à peu près.</Description>
+			<Description>L'aile droite d'un coq marron, enfin... à peu près.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeAtmosAnalyser</Key>
@@ -830,12 +830,12 @@ Il suffit de le boulonner à un {THING:StructureBench} avec une {THING:ItemWrenc
 		<RecordThing>
 			<Key>CartridgeNetworkAnalyser</Key>
 			<Value>Carte (Analyseur de réseau)</Value>
-			<Description>Un véritable chef-d'oeuvre de la micro-électronique, l'analyseur de réseau affiche le courant, la tension et la puissance électrique d'un réseau de câbles, ainsi que tout appareil qui y est connecté. Inspiré d’un design souvent imité de {LINK:Sinotai;Sinotai}, il s’utilise avec la {THING:ItemTablet}.</Description>
+			<Description>Un véritable chef-d'oeuvre de la micro-électronique, l'analyseur de réseau affiche le courant, la tension et la puissance électrique d'un réseau de câbles, ainsi que tout appareil qui y est connecté. Inspiré d'un design souvent imité de {LINK:Sinotai;Sinotai}, il s'utilise avec la {THING:ItemTablet}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>Character</Key>
 			<Value>Personnage</Value>
-			<Description>C’est vous-même.</Description>
+			<Description>C'est vous-même.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardAirControl</Key>
@@ -851,10 +851,12 @@ Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialis
 		<RecordThing>
 			<Key>CircuitboardAirlockControl</Key>
 			<Value>Circuit imprimé (Contrôleur de sas)</Value>
-			<Description>On raconte que les premiers croquis de ce circuit imprimé ont été griffonnés sur le mur des toilettes de {LINK:Norsec;Norsec} par un ingénieur mécontent. La polyvalence et la facilité de fabrication de cette carte en ont fait le système de contrôle préféré des {LINK:Stationeers;Stationeers} pour automatiser le cycle de pressurisation/dépressurisation du sas. 
-Pour accéder au mode configuration, insérez le circuit imprimé dans une {THING:StructureConsole} avec une {THING:ItemDataDisk}. En mode configuration, vous pouvez voir tous les objets accessibles aux données actuellement connectés à la {THING:StructureConsole}. Les portes, lumières, capteurs de gaz et consoles esclaves peuvent être sélectionnés (surlignés en vert) et seront contrôlés une fois la {THING:ItemDataDisk} retirée.
+			<Description>On raconte que les premiers croquis de ce circuit imprimé ont été griffonnés sur le mur des toilettes de {LINK:Norsec;Norsec} par un ingénieur mécontent. La polyvalence et la facilité de fabrication de cette carte en ont fait le système de contrôle préféré des {LINK:Stationeers;Stationeers} pour automatiser le cycle de pressurisation/dépressurisation d’un sas entre une zone pressurisée et un vide spatial.
 
-Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialiser.
+Pour accéder au mode configuration, insérez le {THING:CircuitboardAirlockControl} dans une {THING:StructureConsole}, refermez avec une {THING:ItemGlassSheets}, puis utilisez un {THING:ItemScrewdriver} sur la vis.
+En mode configuration, vous pouvez visualiser tous les objets connectés à la {THING:StructureConsole} et accessibles aux données. Les {THING:ItemKitDoor}, {THING:ItemWallLight}, {THING:StructureGasSensor} et {THING:StructureConsole} esclaves peuvent être sélectionnés (surlignés en vert) et seront contrôlés une fois le mode configuration désactivé, après un nouveau coup de {THING:ItemScrewdriver} sur la vis.
+
+Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit imprimé} pour le réinitialiser.
 </Description>
 		</RecordThing>
 		<RecordThing>
@@ -864,9 +866,9 @@ Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialis
 		<RecordThing>
 			<Key>CircuitboardCameraDisplay</Key>
 			<Value>Circuit imprimé (Afficheur de caméra)</Value>
-			<Description>La surveillance s’avère parfois indispensable dans les environnements hostiles de construction de bases. Ce circuit imprimé permet aux {LINK:Stationeers;Stationeers} méfiants de transformer une {THING:StructureConsole} en un écran de sécurité lorsqu'elle est connectée à une {THING:StructureCamera}.
+			<Description>La surveillance s'avère parfois indispensable dans les environnements hostiles de construction de bases. Ce circuit imprimé permet aux {LINK:Stationeers;Stationeers} méfiants de transformer une {THING:StructureConsole} en un écran de sécurité lorsqu'elle est connectée à une {THING:StructureCamera}.
 
-Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialiser.
+Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit imprimé} pour le réinitialiser.
 </Description>
 		</RecordThing>
 		<RecordThing>
@@ -874,7 +876,7 @@ Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialis
 			<Value>Circuit imprimé (Contrôleur de porte)</Value>
 			<Description>Indispensable pour la construction des bases des {LINK:Stationeers;Stationeers}, ce circuit imprimé permet d'ouvrir et de fermer une {THING:StructureCompositeDoor}, {THING:StructureBlastDoor} ou {THING:StructureGlassDoor} à distance, lorsqu'il est connecté à une {THING:StructureConsole}. Ce système peut également être relié à un {THING:StructureMotionSensor} pour créer des portes automatiques.
 
-Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialiser.
+Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit imprimé} pour le réinitialiser.
 </Description>
 		</RecordThing>
 		<RecordThing>
@@ -882,7 +884,7 @@ Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialis
 			<Value>Circuit imprimé (Afficheur de gaz)</Value>
 			<Description>Savoir, c'est pouvoir. Insérez ce circuit imprimé dans une {THING:StructureConsole} pour afficher la pression ou la température du gaz dans tout réservoir connecté, {THING:ItemPipeAnalyizer} ou {THING:ItemGasSensor}.
 
-Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialiser.
+Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit imprimé} pour le réinitialiser.
 </Description>
 		</RecordThing>
 		<RecordThing>
@@ -890,7 +892,7 @@ Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialis
 			<Value>Circuit imprimé (Contrôleur de mode)</Value>
 			<Description>Vous n'arrivez pas à décider quel mode vous préférez ? Ce circuit imprimé permet de changer facilement entre les modes de n'importe quel appareil connecté.
 
-Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialiser.
+Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit imprimé} pour le réinitialiser.
 </Description>
 		</RecordThing>
 		<RecordThing>
@@ -902,7 +904,7 @@ Le circuit imprimé a deux modes:
 - "Liaison" allume ou éteint tous les appareils 
 - "Basculer" fait passer chaque appareil à son état alternatif.
 
-Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialiser.
+Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit imprimé} pour le réinitialiser.
 </Description>
 		</RecordThing>
 		<RecordThing>
@@ -910,7 +912,7 @@ Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialis
 			<Value>Circuit imprimé (Afficheur de vaisseau)</Value>
 			<Description>Lorsque le manuel original de {LINK:Stationeers;Stationeer} s'est effondré sous son propre poids en une singularité, certaines informations ont été irrémédiablement perdues. Parmi ce mystérieux corpus de connaissances se trouve le but exact du tableau d'affichage du navire.
 
-Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialiser.
+Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit imprimé} pour le réinitialiser.
 </Description>
 		</RecordThing>
 		<RecordThing>
@@ -918,7 +920,7 @@ Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialis
 			<Value>Circuit imprimé (Contrôleur de panneaux solaires)</Value>
 			<Description>L'ajout de ce circuit imprimé dans une {THING:StructureConsole} vous permet de contrôler manuellement les angles horizontaux et verticaux de tout {THING:StructureSolarPanel} connecté.
 
-Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialiser.
+Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit imprimé} pour le réinitialiser.
 </Description>
 		</RecordThing>
 		<RecordThing>
@@ -1003,7 +1005,7 @@ Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la sect
 		<RecordThing>
 			<Key>DynamicLight</Key>
 			<Value>Lampe portable</Value>
-			<Description>Philippe Starck ne l’applaudirait peut-être pas, mais cette lampe alimentée par batterie éclaire les recoins sombres quand la lumière fait défaut. Alimentée par n'importe quelle batterie, c'est une conception {LINK:Xigo;Xigo} "sans fioritures" qui peut être fabriquée à moindre coût avec un minimum de tracas. À moins que vous n'aimiez les tracas. Auquel cas, faites autant de tracas que vous le souhaitez.</Description>
+			<Description>Philippe Starck ne l'applaudirait peut-être pas, mais cette lampe alimentée par batterie éclaire les recoins sombres quand la lumière fait défaut. Alimentée par n'importe quelle batterie, c'est une conception {LINK:Xigo;Xigo} "sans fioritures" qui peut être fabriquée à moindre coût avec un minimum de tracas. À moins que vous n'aimiez les tracas. Auquel cas, faites autant de tracas que vous le souhaitez.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicScrubber</Key>
@@ -1037,7 +1039,7 @@ Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la sect
 		<RecordThing>
 			<Key>EntityGraylien</Key>
 			<Value>Entité : Grisalien</Value>
-			<Description>Bien que l'humanité ait historiquement appelé ces créatures des "Gris", elles préfèrent aujourd'hui l’appellation plus inclusive de "Trans-beige".</Description>
+			<Description>Bien que l'humanité ait historiquement appelé ces créatures des "Gris", elles préfèrent aujourd'hui l'appellation plus inclusive de "Trans-beige".</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>EntityRoosterBlack</Key>
@@ -1103,8 +1105,9 @@ Poussant l'équilibre entre puissance et poids à ses limites, la Batterie (nucl
 		<RecordThing>
 			<Key>ItemCableCoil</Key>
 			<Value>Bobine de câble 5 kW</Value>
-			<Description>Les métaphores corporelles sont usées et anthropocentriques, mais c'est Frida Stuppen, la première administratrice de {LINK:ODA;ODA}, qui a dit : "Que le câblage soit comme les nerfs et les vaisseaux, transmettant à la fois l'énergie et les données à travers les systèmes que nous forgeons parmi les étoiles." Des commentateurs ultérieurs ont suggéré qu'elle donnait simplement une touche romantique à une pièce d'économie douteuse. Quoi qu'il en soit, le câblage standard est le point de départ de tout réseau des {LINK:Stationeers;Stationeers}.
-Un câble enroulé normal a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
+			<Description>Les métaphores corporelles sont certes usées et anthropocentriques, mais c’est Frida Stuppen, première administratrice de {LINK:ODA;ODA}, qui déclara : « Que le câblage soit comme les nerfs et les vaisseaux, transmettant à la fois l’énergie et les données à travers les systèmes que nous forgeons parmi les étoiles. »
+Des commentateurs ultérieurs ont suggéré qu’elle ne faisait qu’ajouter une touche romantique à une infrastructure économiquement discutable. Quoi qu’il en soit, le câblage standard reste le point de départ de tout réseau dans {LINK:Stationeers;Stationeers}.
+La bobine de câble normal supporte une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy} ou la {THING:ItemCableCoilSuperHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemChemLightBlue</Key>
@@ -1153,8 +1156,8 @@ Un câble enroulé normal a une puissance maximale de 5 kW. Pour des application
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemDataDisk</Key>
-			<Value>Disquette de données</Value>
-			<Description/>
+			<Value>Disquette de données (OBSOLÈTE)</Value>
+			<Description>OBSOLÈTE : Pour accéder au mode configuration de la {THING:StructureConsole}, utilisez désormais un {THING:ItemScrewdriver} sur la vis.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemDrill</Key>
@@ -1165,7 +1168,7 @@ Un câble enroulé normal a une puissance maximale de 5 kW. Pour des application
 			<Key>ItemDuctTape</Key>
 			<Value>Ruban adhésif</Value>
 			<Description>Dans un passé lointain, l'un des grands champions de la Terre a enseigné à une génération de "Réparateurs" que le ruban adhésif était la réponse à tout problème. Les {LINK:Stationeers;Stationeers} ont démontré que cette vérité reste valable, tant que le problème concerne une {THING:ItemEvaSuit} endommagée, un {THING:ItemJetpackBasic}, un {THING:ItemSpaceHelmet} ou même un {THING:StructureSolarPanel}.
-Pour l’utiliser sur soi-même : placez le ruban adhésif dans votre main active, maintenez le bouton droit de la SOURIS pour réparer automatiquement les dégâts.</Description>
+Pour l'utiliser sur soi-même : placez le ruban adhésif dans votre main active, maintenez le bouton droit de la SOURIS pour réparer automatiquement les dégâts.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemDynamite</Key>
@@ -1202,7 +1205,9 @@ Si un oeuf a été fécondé et qu'il est maintenu entre 35 et 45°C, un {THING:
 		<RecordThing>
 			<Key>ItemFertilizedEgg</Key>
 			<Value>Oeuf fécondé</Value>
-			<Description>Si incubé, il éclora en un {THING:NpcChick}. S'il est exposé à des températures inférieures à 10 degrés, il ne sera plus viable.</Description>
+			<Description>Si incubé, il éclora en un {THING:NpcChick}. S'il est exposé à des températures inférieures à 10 degrés, il ne sera plus viable.
+La dégradation est réduite à 50% dans une {THING:ItemEggCarton}.
+L'incubation nécessite une température de 35°C à 40°C.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemFireExtinguisher</Key>
@@ -1827,7 +1832,7 @@ Ce n'est peut-être pas élégant, mais la {THING:ItemOxite} et la {THING:ItemVo
 		<RecordThing>
 			<Key>ItemSteelSheets</Key>
 			<Value>Plaque d'acier</Value>
-			<Description>Un matériau de construction avancé, les plaques {THING:ItemSteelIngot} sont utilisées lors de la construction d'un {THING:StructureFrame} et de plusieurs autres types de {LINK:StructuresPage;murs}.</Description>
+			<Description>Un matériau de construction avancé, les plaques faites de {THING:ItemSteelIngot} sont utilisées lors de la construction d'un {THING:StructureFrame} et de plusieurs autres types de {LINK:StructuresPage;murs}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSuitStorage</Key>
@@ -2085,7 +2090,7 @@ Soyez là, même quand vous ne l'êtes pas.</Description>
 			<Description>Si un {THING:StructureRecycler} ou un {THING:StructureFurnace} déséquilibré produit un {THING:ItemReagentMix} plutôt que les {LINK:IngotPage;lingots} souhaités, une centrifugeuse permet de récupérer les {LINK:OrePage;minerais} bruts. 
 Elle raffine également le {THING:ItemDirtyOre} produit par la {THING:StructureDeepMiner} et le {THING:ItemSpaceOre} produit par la {THING:StructureRocketMiner}. 
 Son grand frère, la {THING:StructureCombustionCentrifuge}, peut être utilisé pour traiter les objets de manière significativement plus rapide. Les objets traités par la centrifugeuse seront dégazés. 
-Si elle est ouverte alors qu’elle est sous tension, la centrifugeuse entrera dans un état d’erreur, réduira ses tours par minute (RPM) à 0, puis expulsera les objets.</Description>
+Si elle est ouverte alors qu'elle est sous tension, la centrifugeuse entrera dans un état d'erreur, réduira ses tours par minute (RPM) à 0, puis expulsera les objets.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureChair</Key>
@@ -2204,20 +2209,23 @@ Les gaines sont des composants fondamentaux des réseaux de gaines, qui permette
 		<RecordThing>
 			<Key>StructureConsole</Key>
 			<Value>Console (simple)</Value>
-			<Description>Ce boîtier de contrôle {LINK:Norsec;Norsec-designed} gère les appareils tels que la {THING:StructureActiveVent}, le {THING:StructureGasSensor} et la {THING:StructureCompositeDoor}, en fonction du {LINK:LogicPage;circuit imprimé} inséré dans l'unité. Il dispose d'un port de données/alimentation partagé.
-Une console complète affiche tous les appareils connectés au réseau électrique actuel. Tous les appareils non liés à la carte de circuit installée seront grisés et inutilisables. Les consoles sont verrouillées une fois qu'une {THING:ItemDataDisk} est retirée.</Description>
+			<Description>Ce boîtier de contrôle {LINK:Norsec;Norsec} pilote des appareils tels que la {THING:StructureActiveVent}, le {THING:StructureGasSensor} et la {THING:StructureCompositeDoor}, en fonction du {LINK:LogicPage;circuit imprimé} inséré dans l’unité. Il dispose d’un port partagé pour les données et l’alimentation.
+Pour accéder au mode configuration, insérez un {LINK:LogicPage;circuit imprimé} dans une {THING:StructureConsole}, refermez avec une {THING:ItemGlassSheets}, puis utilisez un {THING:ItemScrewdriver} sur la vis.
+En mode configuration, vous pouvez visualiser tous les objets connectés à la {THING:StructureConsole} et accessibles aux données. Les appareils non associés au {LINK:LogicPage;circuit imprimé} installé apparaîtront en grisé et seront inactifs.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureConsoleDual</Key>
 			<Value>Console (double connexion)</Value>
-			<Description>Ce boîtier de contrôle {LINK:Norsec;Norsec-designed} gère des appareils tels que la {THING:StructureActiveVent}, le {THING:StructureGasSensor}, la {THING:StructureCompositeDoor} et d'autres, en fonction du {LINK:LogicPage;circuit imprimé} inséré dans l'unité. Il possède des ports de données et d'alimentation séparés.
-Une console complète affiche tous les appareils connectés au réseau d'alimentation actuel. Tous les appareils non liés à la carte de circuit installée seront grisés et inutilisables. Les consoles sont verrouillées une fois qu'une {THING:ItemDataDisk} est retirée.</Description>
+			<Description>Ce boîtier de contrôle {LINK:Norsec;Norsec} pilote des appareils tels que la {THING:StructureActiveVent}, le {THING:StructureGasSensor} et la {THING:StructureCompositeDoor}, en fonction du {LINK:LogicPage;circuit imprimé} inséré dans l’unité. Il dispose d’un port séparé pour les données et l’alimentation.
+Pour accéder au mode configuration, insérez un {LINK:LogicPage;circuit imprimé} dans une {THING:StructureConsoleDual}, refermez avec une {THING:ItemGlassSheets}, puis utilisez un {THING:ItemScrewdriver} sur la vis.
+En mode configuration, vous pouvez visualiser tous les objets connectés à la {THING:StructureConsoleDual} et accessibles aux données. Les appareils non associés au {LINK:LogicPage;circuit imprimé} installé apparaîtront en grisé et seront inactifs.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureConsoleMonitor</Key>
 			<Value>Console (inclinée)</Value>
-			<Description>Ce boîtier de contrôle {LINK:Norsec;Norsec-designed} gère des appareils tels que la {THING:StructureActiveVent}, le {THING:StructureGasSensor} et la {THING:StructureCompositeDoor}, en fonction du {LINK:LogicPage;circuit imprimé} inséré dans l'unité. Il possède un port de données/alimentation partagé et une interface inclinée charmante.
-Une console complète affiche tous les appareils connectés au réseau d'alimentation actuel. Tous les appareils non liés à la carte de circuit installée seront grisés et inutilisables. Les consoles sont verrouillées une fois qu'une {THING:ItemDataDisk} est retirée.</Description>
+			<Description>Ce boîtier de contrôle {LINK:Norsec;Norsec} pilote des appareils tels que la {THING:StructureActiveVent}, le {THING:StructureGasSensor} et la {THING:StructureCompositeDoor}, en fonction du {LINK:LogicPage;circuit imprimé} inséré dans l’unité. Il dispose d’un port partagé pour les données et l’alimentation.
+Pour accéder au mode configuration, insérez un {LINK:LogicPage;circuit imprimé} dans une {THING:StructureConsoleMonitor}, refermez avec une {THING:ItemGlassSheets}, puis utilisez un {THING:ItemScrewdriver} sur la vis.
+En mode configuration, vous pouvez visualiser tous les objets connectés à la {THING:StructureConsoleMonitor} et accessibles aux données. Les appareils non associés au {LINK:LogicPage;circuit imprimé} installé apparaîtront en grisé et seront inactifs.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureControlChair</Key>
@@ -2511,7 +2519,7 @@ Capable de gérer une pression maximale de plus de 20 000 kPa, il nécessite une
 		<RecordThing>
 			<Key>StructureSorter</Key>
 			<Value>Trieur</Value>
-			<Description>Aucun niveau d'automatisation n'est complet sans un moyen de déplacer différents objets vers différentes parties d'un système. Le trieuse Xigo A2B peut être programmée via un ordinateur avec une {THING:MotherboardSorter} pour diriger divers objets vers différents réseaux de gaines. Les objets filtrés sont toujours dirigés vers le côté droit du trieur, tandis que les objets non filtrés continuent tout droit.</Description>
+			<Description>Aucun niveau d'automatisation n'est complet sans un moyen de déplacer différents objets vers différentes parties d'un système. Le Trieur Xigo A2B peut être programmé via un ordinateur avec une {THING:MotherboardSorter} pour diriger divers objets vers différents réseaux de gaines. Les objets filtrés sont toujours dirigés vers le côté droit du trieur, tandis que les objets non filtrés continuent tout droit.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureStacker</Key>
@@ -2789,7 +2797,10 @@ Contrairement au {THING:StructureFurnace} plus avancé, le four à arc ne peut p
 		<RecordThing>
 			<Key>ItemCableCoilHeavy</Key>
 			<Value>Bobine de câble 100 kW</Value>
-			<Description>Utilisez des bobines de câble 100 kW pour les systèmes électriques à forte consommation.</Description>
+			<Description>Les métaphores corporelles sont certes usées et anthropocentriques, mais c’est Frida Stuppen, première administratrice de {LINK:ODA;ODA}, qui déclara : « Que le câblage soit comme les nerfs et les vaisseaux, transmettant à la fois l’énergie et les données à travers les systèmes que nous forgeons parmi les étoiles. »
+Des commentateurs ultérieurs ont suggéré qu’elle ne faisait qu’ajouter une touche romantique à une infrastructure économiquement discutable. Quoi qu’il en soit, le câblage standard reste le point de départ de tout réseau dans {LINK:Stationeers;Stationeers}.
+Utilisez des bobines de câble 100 kW pour les systèmes électriques à forte consommation. 
+Il existe également la {THING:ItemCableCoil} et la {THING:ItemCableCoilSuperHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureFrameIron</Key>
@@ -3053,7 +3064,7 @@ Très sensible à la température, la glace d'oxyde commencera à fondre dès qu
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeTracker</Key>
-			<Value>Carte (Traqueur)</Value>
+			<Value>Carte (GPS)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasSensor</Key>
@@ -3587,7 +3598,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		<RecordThing>
 			<Key>ItemKitCompositeCladding</Key>
 			<Value>Kit (Revêtement)</Value>
-			<Description>Un kit peu coûteux qui vous permet de placer une variété d’éléments structurels simples qui ne sont pas étanches à l’air. Ils peuvent être utilisés pour la décoration ou pour créer des chemins, des rampes, des ponts, etc. Certains des plus grands types de revêtement nécessitent deux kits à placer.</Description>
+			<Description>Un kit peu coûteux qui vous permet de placer une variété d'éléments structurels simples qui ne sont pas étanches à l'air. Ils peuvent être utilisés pour la décoration ou pour créer des chemins, des rampes, des ponts, etc. Certains des plus grands types de revêtement nécessitent deux kits à placer.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingAngledCornerLongR</Key>
@@ -4380,7 +4391,7 @@ Faites attention à ne pas pressuriser au-delà de 20 MPa, sinon cela pourrait p
 		<RecordThing>
 			<Key>StructureLogicBatchReader</Key>
 			<Value>UL : Lecture groupée</Value>
-			<Description>L'unité logique : Lecture groupée est l’opposée d’une {THING:StructureLogicBatchWriter}. Elle permet de lire à partir de tous les appareils connectés d’un type "TYPE" et de récupérer la méthode "MTHD" : Average (Moyenne), Sum (Somme), Minimum (Minimum), ou Maximum (Maximum) d'un paramètre logique "VAR".</Description>
+			<Description>L'unité logique : Lecture groupée est l'opposée d'une {THING:StructureLogicBatchWriter}. Elle permet de lire à partir de tous les appareils connectés d'un type "TYPE" et de récupérer la méthode "MTHD" : Average (Moyenne), Sum (Somme), Minimum (Minimum), ou Maximum (Maximum) d'un paramètre logique "VAR".</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLogicReagentReader</Key>
@@ -4462,15 +4473,17 @@ Sortie = 1 pour exporter les objets à l'intérieur et éventuellement l'objet p
 		<RecordThing>
 			<Key>StructureLogicBatchSlotReader</Key>
 			<Value>UL : Lecture par emplacements groupés</Value>
-			<Description>L'unité logique : Lecture par emplacements groupés permet de lire à partir de tous les appareils connectés d’un type "IN" et de récupérer le "MTHD" : Moyenne (Average), Somme (Sum), Minimum (Minimum), ou Maximum (Maximum) d'un paramètre logique "VAR" dans un emplacement "SLOT".</Description>
+			<Description>L'unité logique : Lecture par emplacements groupés permet de lire à partir de tous les appareils connectés d'un type "IN" et de récupérer le "MTHD" : Moyenne (Average), Somme (Sum), Minimum (Minimum), ou Maximum (Maximum) d'un paramètre logique "VAR" dans un emplacement "SLOT".</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardAdvAirlockControl</Key>
 			<Value>Circuit imprimé (Contrôleur de sas avancé)</Value>
-			<Description>On raconte que les premiers croquis de ce circuit imprimé ont été griffonnés sur le mur des toilettes de {LINK:Norsec;Norsec} par un ingénieur mécontent. La polyvalence et la facilité de fabrication de cette carte en ont fait le système de contrôle préféré des {LINK:Stationeers;Stationeers} pour automatiser le cycle de pressurisation/dépressurisation du sas. 
-Pour accéder au mode configuration, insérez le circuit imprimé dans une {THING:StructureConsole} avec une {THING:ItemDataDisk}. En mode configuration, vous pouvez voir tous les objets accessibles aux données actuellement connectés à la {THING:StructureConsole}. Les portes, lumières, capteurs de gaz et consoles esclaves peuvent être sélectionnés (surlignés en vert) et seront contrôlés une fois la {THING:ItemDataDisk} retirée.
+			<Description>On raconte que les premiers croquis de ce circuit imprimé auraient été griffonnés sur le mur des toilettes de {LINK:Norsec;Norsec} par un ingénieur mécontent. La polyvalence et la simplicité de fabrication de cette carte en ont fait le système de contrôle privilégié des {LINK:Stationeers;Stationeers} pour automatiser le cycle de pressurisation et de dépressurisation d’un sas séparant deux atmosphères pressurisées distinctes.
+			
+Pour accéder au mode configuration, insérez le {THING:CircuitboardAdvAirlockControl} dans une {THING:StructureConsole}, refermez avec une {THING:ItemGlassSheets}, puis utilisez un {THING:ItemScrewdriver} sur la vis.
+En mode configuration, vous pouvez visualiser tous les objets connectés à la {THING:StructureConsole} et accessibles aux données. Les {THING:ItemKitDoor}, {THING:ItemWallLight}, {THING:StructureGasSensor} et {THING:StructureConsole} esclaves peuvent être sélectionnés (surlignés en vert) et seront contrôlés une fois le mode configuration désactivé, après un nouveau coup de {THING:ItemScrewdriver} sur la vis.
 
-Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialiser.
+Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit imprimé} pour le réinitialiser.
 </Description>
 		</RecordThing>
 		<RecordThing>
@@ -4835,7 +4848,7 @@ Lorsqu'elle est connectée à un {THING:StructureComputer} contenant une {THING:
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureRover</Key>
-			<Value>Châssis Rover</Value>
+			<Value>Châssis de Rover</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitRoverFrame</Key>
@@ -4921,7 +4934,7 @@ Mode 6 : État assigné automatiquement, s'affiche lorsque les emplacements de s
 		</RecordThing>
 		<RecordThing>
 			<Key>CartridgeGPS</Key>
-			<Value>Carte (GPS)</Value>
+			<Value>Carte (GPS) (OBSOLÈTE)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLogicTransmitter</Key>
@@ -5103,7 +5116,7 @@ et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemEmergencyToolBelt</Key>
-			<Value>Ceinture d’outils de secours</Value>
+			<Value>Ceinture d'outils de secours</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemElectronicParts</Key>
@@ -6175,11 +6188,11 @@ Le Nv2 est simplement plus résistant à la température et à la pression.</Des
 			<Key>ItemMKIIDuctTape</Key>
 			<Value>Ruban adhésif Nv2</Value>
 			<Description>Dans le passé lointain, l'un des grands champions de la Terre a enseigné à une génération de "Réparateurs" que le ruban adhésif était la réponse à tout problème. Les {LINK:Stationeers;Stationeers} ont démontré que cette vérité reste valable, tant que le problème est un {THING:ItemEvaSuit} endommagé, un {THING:ItemJetpackBasic}, un {THING:ItemSpaceHelmet} ou même un {THING:StructureSolarPanel} endommagé.
-Pour l’utiliser sur soi-même : mettez du ruban adhésif dans votre main active, maintenez le BOUTON DROIT DE LA SOURIS enfoncé pour réparer automatiquement les dégâts.</Description>
+Pour l'utiliser sur soi-même : mettez du ruban adhésif dans votre main active, maintenez le BOUTON DROIT DE LA SOURIS enfoncé pour réparer automatiquement les dégâts.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitWaterBottleFiller</Key>
-			<Value>Kit (Remplisseur de gourdes d’eau)</Value>
+			<Value>Kit (Remplisseur de gourdes d'eau)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -6244,7 +6257,7 @@ Pour l’utiliser sur soi-même : mettez du ruban adhésif dans votre main activ
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWaterBottleFillerBottom</Key>
-			<Value>Remplisseur de gourdes d’eau (OBSOLÈTE)</Value>
+			<Value>Remplisseur de gourdes d'eau (OBSOLÈTE)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -6261,7 +6274,7 @@ Pour l’utiliser sur soi-même : mettez du ruban adhésif dans votre main activ
 			<Key>StructureFloorDrain</Key>
 			<Value>Entrée passive (liquide)</Value>
 			<Description>Une entrée passive de liquide au sol qui retire rapidement les liquides de l'atmosphère vers le réseau de tuyaux connecté, et égalise les gaz avec l'atmosphère ambiante.
-Elle retire les liquides des grilles situées au même niveau jusqu’à une distance de 6 grilles (non visibles).</Description>
+Elle retire les liquides des grilles situées au même niveau jusqu'à une distance de 6 grilles (non visibles).</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemLiquidPipeAnalyzer</Key>
@@ -7212,7 +7225,7 @@ Très sensible à la température, la glace azotée commencera à fondre dès qu
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureNitrolyzer</Key>
-			<Value>Générateur de protoxyde d’azote</Value>
+			<Value>Générateur de protoxyde d'azote</Value>
 			<Description>Cet appareil est utilisé pour créer du {GAS:NitrousOxide} à partir d'{GAS:Oxygen}, d'{GAS:Nitrogen} et d'une grande quantité d'énergie. Le processus ne transforme pas complètement tout le gaz disponible en une seule fois, de sorte que la sortie est un mélange des trois gaz, qui peut nécessiter un traitement ultérieur. Plus de {GAS:NitrousOxide} sera créé si le gaz à l'intérieur de la machine est proche d'un ratio de 1/1 d'{GAS:Oxygen} et d'{GAS:Nitrogen}. La deuxième ligne d'entrée de gaz est facultative et non nécessaire si le gaz est préalablement mélangé.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -7285,7 +7298,7 @@ Aucun équipement ne peut être porté lors de l'entrée dans l'appareil.</Descr
 		<RecordThing>
 			<Key>StructureDeepMiner</Key>
 			<Value>Foreuse profonde</Value>
-			<Description>Fore à travers le terrain jusqu'au socle rocheux. Une fois le socle atteint, le {THING:ItemDirtyOre} est extraite environ toutes les 90 secondes.</Description>
+			<Description>Fore à travers le terrain jusqu'au socle rocheux. Une fois le socle atteint, le {THING:ItemDirtyOre} est extrait environ toutes les 90 secondes.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSleeperVertical</Key>
@@ -7336,8 +7349,8 @@ Aucun équipement ne peut être porté lors de l'entrée dans l'appareil.</Descr
 			<Key>StructureCombustionCentrifuge</Key>
 			<Value>Centrifugeuse à combustion</Value>
 			<Description>La centrifugeuse à combustion est une version alimentée au gaz de la {THING:StructureCentrifuge}. Si un {THING:StructureRecycler} ou un {THING:StructureFurnace} déséquilibré produit un {THING:ItemReagentMix} plutôt que les {LINK:IngotPage;lingots} souhaités, une centrifugeuse permet de récupérer les {LINK:OrePage;minerai} brutes. 
-Elle raffine également le {THING:ItemDirtyOre} produit par la {THING:StructureDeepMiner} et le {THING:ItemSpaceOre} produit par la {THING:StructureRocketMiner}. Un mélange de combustible doit être fourni à l’entrée de gaz, et les gaz résiduels doivent être évacués par la sortie.
-Les tours par minute (RPM) de la machine doivent être contrôlés via les leviers de l’accélérateur et du limiteur de combustion. Si la centrifugeuse à combustion gagne ou perd des tr/min (RPM) trop rapidement, elle subira des contraintes et finira par s'arrêter. Des tr/min (RPM) plus élevés se traduisent directement par des vitesses de traitement plus rapides.
+Elle raffine également le {THING:ItemDirtyOre} produit par la {THING:StructureDeepMiner} et le {THING:ItemSpaceOre} produit par la {THING:StructureRocketMiner}. Un mélange de combustible doit être fourni à l'entrée de gaz, et les gaz résiduels doivent être évacués par la sortie.
+Les tours par minute (RPM) de la machine doivent être contrôlés via les leviers de l'accélérateur et du limiteur de combustion. Si la centrifugeuse à combustion gagne ou perd des tr/min (RPM) trop rapidement, elle subira des contraintes et finira par s'arrêter. Des tr/min (RPM) plus élevés se traduisent directement par des vitesses de traitement plus rapides.
 Le levier de l'accélérateur contrôle la quantité de carburant aspirée dans la machine, augmentant la température à l'intérieur du moteur, et entraînant une augmentation des tr/min (RPM). Le levier limiteur influence la vitesse de combustion, et la quantité de gaz non brûlé dans les gaz d'échappement.
 Éjecter du minerai de la centrifugeuse à combustion lorsqu'elle fonctionne à haut régime entraînera une accumulation supplémentaire de contraintes. Si elle est arrêtée sans contraintes, la machine commencera automatiquement à freiner et à réduire les tr/min (RPM) de manière contrôlée.
  </Description>
@@ -7658,7 +7671,7 @@ Faites attention à ne pas pressuriser au-delà de 25 MPa, sinon cela pourrait p
 		<RecordThing>
 			<Key>ItemSprayGun</Key>
 			<Value>Pistolet de peinture</Value>
-			<Description>À utiliser avec une bombe de peinture dans l’emplacement {SLOT:SprayCan} pour peindre les structures, câbles et tuyaux. Beaucoup plus efficace et rapide que l’utilisation de bombes de peinture individuelles.</Description>
+			<Description>À utiliser avec une bombe de peinture dans l'emplacement {SLOT:SprayCan} pour peindre les structures, câbles et tuyaux. Beaucoup plus efficace et rapide que l'utilisation de bombes de peinture individuelles.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureFuselage1x1</Key>
@@ -8370,7 +8383,7 @@ Mode 5 : Cartographier
 		<RecordThing>
 			<Key>StructureRocketMiner</Key>
 			<Value>Foreuse de fusée</Value>
-			<Description>Récupère les ressources disponibles à l'emplacement actuel de la fusée dans l'espace. L’extraction minière génère également un léger flux de points de relevé à cet emplacement.</Description>
+			<Description>Récupère les ressources disponibles à l'emplacement actuel de la fusée dans l'espace. L'extraction minière génère également un léger flux de points de relevé à cet emplacement.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemRocketMiningDrillHead</Key>
@@ -9315,7 +9328,7 @@ Les valeurs logiques atmosphériques de base pointent vers le stockage interne d
 		<RecordThing>
 			<Key>StructureLarreDockCargo</Key>
 			<Value>Quai de robot LArRE cargaison</Value>
-			<Description>Le robot de la Ligne Articulée de Rail avec Entité de cargaison (LArRE cargaison) peut prendre et déposer des objets dans les emplacements des appareils. Il est utile pour des choses comme changer les filtres, extraire des objets des casiers et d’autres tâches basées sur des emplacements. Le cadran sur le panneau avant indique avec quel emplacement de l'appareil interagir.
+			<Description>Le robot de la Ligne Articulée de Rail avec Entité de cargaison (LArRE cargaison) peut prendre et déposer des objets dans les emplacements des appareils. Il est utile pour des choses comme changer les filtres, extraire des objets des casiers et d'autres tâches basées sur des emplacements. Le cadran sur le panneau avant indique avec quel emplacement de l'appareil interagir.
 			
 Les variables de l'emplacement de l'objet dans l'emplacement cible peuvent être lues à l'aide de l'index d'emplacement 255. 
 
@@ -9391,9 +9404,9 @@ Appuyer sur le bouton d'activation lorsque le robot LArRE est à son quai d'orig
 			<Key>ItemSuitHARM</Key>
 			<Value>Combinaison spatiale HARM</Value>
 			<Description>La combinaison spatiale HARM est le dernier rempart du {LINK:Stationeers;Stationeer} face aux environnements les plus hostiles.  
-Refroidie par liquide pour une performance thermique optimale, elle offre une résistance exceptionnelle aux chocs et à l’exposition à la lave.  
-Bien que la combinaison spatiale HARM ne soit pas compatible avec un {THING:ItemJetpackBasic}, les {LINK:Stationeers;Stationeers} peuvent toujours s’équiper d’un {THING:ItemHardBackpack} ou d’un {THING:ItemHardMiningBackPack}.  
-Grâce à sa stabilité et à sa structure renforcée, les tempêtes n’affectent pas la vitesse de déplacement en combinaison spatiale HARM ; en revanche, cela entraîne une légère réduction de la mobilité en conditions normales.
+Refroidie par liquide pour une performance thermique optimale, elle offre une résistance exceptionnelle aux chocs et à l'exposition à la lave.  
+Bien que la combinaison spatiale HARM ne soit pas compatible avec un {THING:ItemJetpackBasic}, les {LINK:Stationeers;Stationeers} peuvent toujours s'équiper d'un {THING:ItemHardBackpack} ou d'un {THING:ItemHardMiningBackPack}.  
+Grâce à sa stabilité et à sa structure renforcée, les tempêtes n'affectent pas la vitesse de déplacement en combinaison spatiale HARM ; en revanche, cela entraîne une légère réduction de la mobilité en conditions normales.
 
 </Description>
 		</RecordThing>
@@ -9487,7 +9500,7 @@ Le 'N Flow-P' possède quatre connexions, vous permettant de faire passer deux r
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureIndustrialBurnerHeatExchangerExtension</Key>
-			<Value>Brûleur industriel à chaleur (Extension de l’échangeur)</Value>
+			<Value>Brûleur industriel à chaleur (Extension de l'échangeur)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureIndustrialCombustor</Key>
@@ -9587,7 +9600,7 @@ Il calcule en continu un signal d'erreur e(t) = consigne – mesure, puis appliq
 		<RecordThing>
 			<Key>StructureRocketGasCollector</Key>
 			<Value>Extracteur de fusée (gaz)</Value>
-			<Description>Lorsqu’il est installé sur une fusée, cet appareil permet d’extraire l’atmosphère gazeuse de différents planétoïdes.</Description>
+			<Description>Lorsqu'il est installé sur une fusée, cet appareil permet d'extraire l'atmosphère gazeuse de différents planétoïdes.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemRocketDeepScanningHead</Key>
@@ -9775,7 +9788,10 @@ Tous les tuyaux du rangement doivent être connectés, sinon l'unité affichera 
 		<RecordThing>
 			<Key>ItemCableCoilSuperHeavy</Key>
 			<Value>Bobine de câble 500 kW</Value>
-			<Description>Utilisez des bobines de câble 500 KW pour les systèmes électriques à trés forte consommation.</Description>
+			<Description>Les métaphores corporelles sont certes usées et anthropocentriques, mais c’est Frida Stuppen, première administratrice de {LINK:ODA;ODA}, qui déclara : « Que le câblage soit comme les nerfs et les vaisseaux, transmettant à la fois l’énergie et les données à travers les systèmes que nous forgeons parmi les étoiles. »
+Des commentateurs ultérieurs ont suggéré qu’elle ne faisait qu’ajouter une touche romantique à une infrastructure économiquement discutable. Quoi qu’il en soit, le câblage standard reste le point de départ de tout réseau dans {LINK:Stationeers;Stationeers}.
+Utilisez des bobines de câble 500 kW pour les systèmes électriques à très forte consommation. 
+Il existe également la {THING:ItemCableCoil} et la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePacker</Key>
@@ -10012,12 +10028,12 @@ Tous les tuyaux du rangement doivent être connectés, sinon l'unité affichera 
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageAutolathe1</Key>
-			<Value>Plaque de {THING:StrucutreAutolathe}</Value>
+			<Value>Plaque de {THING:StructureAutolathe}</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageAutolathe2</Key>
-			<Value>Plaque de {THING:StrucutreAutolathe}</Value>
+			<Value>Plaque de {THING:StructureAutolathe}</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -10037,12 +10053,12 @@ Tous les tuyaux du rangement doivent être connectés, sinon l'unité affichera 
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageAutolathe6</Key>
-			<Value>Plaque de {THING:StrucutreAutolathe}</Value>
+			<Value>Plaque de {THING:StructureAutolathe}</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageAutolathe7</Key>
-			<Value>Plaque de {THING:StrucutreAutolathe}</Value>
+			<Value>Plaque de {THING:StructureAutolathe}</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -10250,7 +10266,7 @@ Tous les tuyaux du rangement doivent être connectés, sinon l'unité affichera 
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageShuttleLandingPad1</Key>
-			<Value>Interrupteur d'{THING:StructureShuttleLandingPad}</Value>
+			<Value>Interrupteur de {THING:StructureShuttleLandingPad}</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -10924,10 +10940,6 @@ Le module doit être connecté à un module de stockage de ressources de fusée 
 		<Record>
 			<Key>Plant</Key>
 			<Value>Plante</Value>
-		</Record>
-		<Record>
-			<Key>Storage</Key>
-			<Value>Stockage</Value>
 		</Record>
 		<Record>
 			<Key>Storage</Key>
@@ -12021,7 +12033,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>MimasNamedRegionWestBarrensName</Key>
-			<Value>Terres arides de l’Ouest</Value>
+			<Value>Terres arides de l'Ouest</Value>
 		</Record>
 		<Record>
 			<Key>MimasNamedRegionNorthBarrensName</Key>
@@ -12029,7 +12041,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>MimasNamedRegionEastBarrensName</Key>
-			<Value>Terres arides de l’Est</Value>
+			<Value>Terres arides de l'Est</Value>
 		</Record>
 		<Record>
 			<Key>MimasNamedRegionDustlandsWestName</Key>
@@ -12205,7 +12217,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>MimasSpawnDustBowlDescription</Key>
-			<Value>Ce cratère dans les terres stériles centrales est couvert de cratères d’impact.</Value>
+			<Value>Ce cratère dans les terres stériles centrales est couvert de cratères d'impact.</Value>
 		</Record>
 		<Record>
 			<Key>EuropaNamedRegionTyreSlopeName</Key>
@@ -12489,7 +12501,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>VenusSpawnFaithValleyDescription</Key>
-			<Value>Une vallée oppressante, à l’ombre pendant une grande partie de la journée.</Value>
+			<Value>Une vallée oppressante, à l'ombre pendant une grande partie de la journée.</Value>
 		</Record>
 		<Record>
 			<Key>VenusSpawnFaithValleyDescription</Key>
@@ -12777,11 +12789,11 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>MarsNamedRegionArcadiaFlatsSouthName</Key>
-			<Value>Plaines d’Arcadia Sud</Value>
+			<Value>Plaines d'Arcadia Sud</Value>
 		</Record>
 		<Record>
 			<Key>MarsNamedRegionArcadiaFlatsNorthName</Key>
-			<Value>Plaines d’Arcadia Nord</Value>
+			<Value>Plaines d'Arcadia Nord</Value>
 		</Record>
 		<Record>
 			<Key>MarsNamedRegionTharsisRiseSouthName</Key>
@@ -12797,7 +12809,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>MarsNamedRegionAeolisRidgeName</Key>
-			<Value>Crête d’Aeolis</Value>
+			<Value>Crête d'Aeolis</Value>
 		</Record>
 		<Record>
 			<Key>MarsNamedRegionButchersFlatName</Key>
@@ -12841,7 +12853,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>MarsNamedRegionEloKnollName</Key>
-			<Value>Butte d’Elo</Value>
+			<Value>Butte d'Elo</Value>
 		</Record>
 		<Record>
 			<Key>MarsNamedRegionDonutFlatsWestName</Key>
@@ -12885,7 +12897,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>MarsNamedRegionEosRidgeName</Key>
-			<Value>Crête d’Eos</Value>
+			<Value>Crête d'Eos</Value>
 		</Record>
 		<Record>
 			<Key>MarsNamedRegionOuterPlainsWestName</Key>
@@ -12957,7 +12969,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>MarsSpawnCanyonOverlookDescription</Key>
-			<Value>Le bord d’un haut plateau surplombant le vaste Canyon Finders</Value>
+			<Value>Le bord d'un haut plateau surplombant le vaste Canyon Finders</Value>
 		</Record>
 		<Record>
 			<Key>MarsSpawnCanyonOverlookDescription</Key>
@@ -12989,7 +13001,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>MarsSpawnFindersCanyonDescription</Key>
-			<Value>De hautes falaises abruptes dominent le creux d’un grand canyon</Value>
+			<Value>De hautes falaises abruptes dominent le creux d'un grand canyon</Value>
 		</Record>
 		<Record>
 			<Key>MarsSpawnFindersCanyonDescription</Key>
@@ -12997,7 +13009,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>MarsSpawnHellasCragsName</Key>
-			<Value>Falaises d’Hellas</Value>
+			<Value>Falaises d'Hellas</Value>
 		</Record>
 		<Record>
 			<Key>MarsSpawnHellasCragsName</Key>
@@ -13021,7 +13033,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>MarsSpawnDonutFlatsDescription</Key>
-			<Value>Plaines balayées par le vent de poussière qui s’étendent dans toutes les directions</Value>
+			<Value>Plaines balayées par le vent de poussière qui s'étendent dans toutes les directions</Value>
 		</Record>
 		<Record>
 			<Key>MarsSpawnDonutFlatsDescription</Key>
@@ -13833,11 +13845,11 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>VenusNamedRegionDawnfireValleyName</Key>
-			<Value>Vallée Feu d’Aube</Value>
+			<Value>Vallée Feu d'Aube</Value>
 		</Record>
 		<Record>
 			<Key>VenusNamedRegionStarglowValleyName</Key>
-			<Value>Vallée Éclat d’Étoiles</Value>
+			<Value>Vallée Éclat d'Étoiles</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionDogsheadPassageSouthName</Key>
@@ -13941,7 +13953,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionOrensWasteName</Key>
-			<Value>Décharge d’Oren</Value>
+			<Value>Décharge d'Oren</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionGreyOverlookName</Key>
@@ -13957,7 +13969,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionOrensTrackName</Key>
-			<Value>Piste d’Oren</Value>
+			<Value>Piste d'Oren</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionBrokenPlateauName</Key>
@@ -13993,7 +14005,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionOrensViewName</Key>
-			<Value>Vue d’Oren</Value>
+			<Value>Vue d'Oren</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionTranquilityRiseName</Key>
@@ -14029,11 +14041,11 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionWestlandsGullyName</Key>
-			<Value>Goulet des Terres de l’Ouest</Value>
+			<Value>Goulet des Terres de l'Ouest</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionWestlandsName</Key>
-			<Value>Terres de l’Ouest</Value>
+			<Value>Terres de l'Ouest</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionHalesDescentName</Key>
@@ -14077,7 +14089,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionValleyOfHopeName</Key>
-			<Value>Vallée de l’Espoir</Value>
+			<Value>Vallée de l'Espoir</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionOuterWasteName</Key>
@@ -14113,7 +14125,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionNeedleValleyName</Key>
-			<Value>Vallée de l’Aiguille</Value>
+			<Value>Vallée de l'Aiguille</Value>
 		</Record>
 		<Record>
 			<Key>VulcanNamedRegionCalamitySouthName</Key>
@@ -14925,7 +14937,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>BatteryCategory</Key>
-			<Value>Stockage d’énergie</Value>
+			<Value>Stockage d'énergie</Value>
 		</Record>
 		<Record>
 			<Key>CableCategory</Key>
@@ -14993,7 +15005,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>PersonalToolbelt</Key>
-			<Value>Ceintures d’outils</Value>
+			<Value>Ceintures d'outils</Value>
 		</Record>
 		<Record>
 			<Key>Other</Key>
@@ -15077,7 +15089,7 @@ la poussée</Value>
 		</Record>
 		<Record>
 			<Key>TraderErrorConnectWires</Key>
-			<Value>Le commerçant ne pouvait pas terminer l’échange, vérifier si vos câbles ne sont pas coupés !</Value>
+			<Value>Le commerçant ne pouvait pas terminer l'échange, vérifier si vos câbles ne sont pas coupés !</Value>
 		</Record>
 		<Record>
 			<Key>TraderErrorMissingMotherboard</Key>
@@ -16063,7 +16075,7 @@ quitter ?</Value>
 		</Record>
 		<Record>
 			<Key>PromptOverwriteBody</Key>
-			<Value>Êtes-vous sûr de vouloir écraser ce script avec les données affichées à l’écran ? Cela remplacera ce qui se trouve dans votre bibliothèque de code source.</Value>
+			<Value>Êtes-vous sûr de vouloir écraser ce script avec les données affichées à l'écran ? Cela remplacera ce qui se trouve dans votre bibliothèque de code source.</Value>
 		</Record>
 		<Record>
 			<Key>PromptOverwriteConfirm</Key>
@@ -16507,7 +16519,7 @@ Ne soyez simplement pas triste lorsque vous vous réduirez en minuscules petits 
 		</Record>
 		<Record>
 			<Key>Incident_Supply</Key>
-			<Value>Les satellites suggèrent qu'une caisse est tombée à proximité, votre traqueur de balise devrait vous montrer le chemin.</Value>
+			<Value>Les satellites suggèrent qu'une caisse est tombée à proximité, votre {THING:CartridgeTracker} devrait vous montrer le chemin.</Value>
 		</Record>
 		<Record>
 			<Key>TradingNoMoneyHash</Key>
@@ -16731,11 +16743,11 @@ Un endroit idéal pour le joueur débutant, avec moins de dangers et de complexi
 		</Record>
 		<Record>
 			<Key>NewWorldVulcanShortDesc</Key>
-			<Value>L’environnement volatile de Vulcain ne peut survivre que dans très peu d’organismes vivants, mais sa surface fracturée et ses riches gisements de minéraux en font une entreprise risquée mais rentable pour les commerçants entreprenants.</Value>
+			<Value>L'environnement volatile de Vulcain ne peut survivre que dans très peu d'organismes vivants, mais sa surface fracturée et ses riches gisements de minéraux en font une entreprise risquée mais rentable pour les commerçants entreprenants.</Value>
 		</Record>
 		<Record>
 			<Key>NewWorldVulcan2ShortDesc</Key>
-			<Value>Un monde déchiré en raison des forces de marée massives du trou noir supermassif qu’il orbite. Vulcain ne laisse guère d’espoir aux organismes qui aboutissent ici, mais sa surface fracturée et ses riches gisements minéraux en font une entreprise à la fois risquée et rentable pour les commerçants entreprenants.
+			<Value>Un monde déchiré en raison des forces de marée massives du trou noir supermassif qu'il orbite. Vulcain ne laisse guère d'espoir aux organismes qui aboutissent ici, mais sa surface fracturée et ses riches gisements minéraux en font une entreprise à la fois risquée et rentable pour les commerçants entreprenants.
 Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels sous la surface !</Value>
 		</Record>
 		<Record>
@@ -16780,7 +16792,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>LunarSpawnMontesUmbrarumName</Key>
-			<Value>Monts de l’Ombre</Value>
+			<Value>Monts de l'Ombre</Value>
 		</Record>
 		<Record>
 			<Key>LunarSpawnMontesUmbrarumDescription</Key>
@@ -16820,7 +16832,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>GeoNameLunarMontesUmbrarum</Key>
-			<Value>Monts de l’Ombre</Value>
+			<Value>Monts de l'Ombre</Value>
 		</Record>
 		<Record>
 			<Key>GeoNameLunarVallisLiama</Key>
@@ -16896,7 +16908,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>GeoNameLunarFossaAbyssus</Key>
-			<Value>Fosse de l’Abîme</Value>
+			<Value>Fosse de l'Abîme</Value>
 		</Record>
 		<Record>
 			<Key>GeoNameLunarMareSomnii</Key>
@@ -16912,7 +16924,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>GeoNameLunarVallisOblivionis</Key>
-			<Value>Vallée de l’Oubli</Value>
+			<Value>Vallée de l'Oubli</Value>
 		</Record>
 		<Record>
 			<Key>GeoNameLunarCraterNox</Key>
@@ -17132,7 +17144,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>LogicTypeMode</Key>
-			<Value>Nombre entier pour l’état du mode, différents appareils auront différents états de mode à leur disposition</Value>
+			<Value>Nombre entier pour l'état du mode, différents appareils auront différents états de mode à leur disposition</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeError</Key>
@@ -17264,11 +17276,11 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>LogicTypeRatioPollutant</Key>
-			<Value>Le ratio de {GAS:Pollutant} dans l’atmosphère de l'appareil</Value>
+			<Value>Le ratio de {GAS:Pollutant} dans l'atmosphère de l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeRatioVolatiles</Key>
-			<Value>Le ratio de {GAS:Volatiles} dans l’atmosphère de l'appareil</Value>
+			<Value>Le ratio de {GAS:Volatiles} dans l'atmosphère de l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeRatioWater</Key>
@@ -17288,7 +17300,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 		</Record>
 		<Record>
 			<Key>LogicTypeCombustion</Key>
-			<Value>L’atmosphère d’évaluation est en feu. Renvoie 1 si l’atmosphère est en feu, 0 sinon.</Value>
+			<Value>L'atmosphère d'évaluation est en feu. Renvoie 1 si l'atmosphère est en feu, 0 sinon.</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeRatioOxygenInput</Key>
@@ -17527,7 +17539,7 @@ Méfiez-vous des profondes crevasses qui mènent à des flux de magma mortels so
 10 : Rose
 11 : Violet
 
-C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera violet. L'{LINK:ODA;ODA} est impuissante à changer cela. De même, tout ce qui est inférieur à 0 sera bleu.</Value>
+C'est une loi universelle inébranlable que tout ce qui dépasse 11 sera violet. L'{LINK:ODA;ODA} est impuissante à changer cela. De même, tout ce qui est inférieur à 0 sera bleu.</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeElevatorSpeed</Key>
@@ -17770,15 +17782,15 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>LogicTypeSolarIrradiance</Key>
-			<Value>L’irradiance solaire actuelle.</Value>
+			<Value>L'irradiance solaire actuelle.</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeSettingInput</Key>
-			<Value>Le réglage d’entrée pour l’appareil</Value>
+			<Value>Le réglage d'entrée pour l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicTypeSettingOutput</Key>
-			<Value>Le réglage de sortie pour l’appareil</Value>
+			<Value>Le réglage de sortie pour l'appareil</Value>
 		</Record>
 		<Record>
 			<Key>LogicSlotTypeNone</Key>
@@ -17867,7 +17879,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 19 : Lingot 
 20 : Torpille 
 21 : Carte 
-22 : Carte d’accès 
+22 : Carte d'accès 
 23 : Chargeur 
 24 : Circuit 
 25 : Bouteille 
@@ -18184,7 +18196,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>ContactTradeRequestFail</Key>
-			<Value>La navette du commerçant nécessite un atterrissage sûr. Veuillez vous assurer que l’aire d’atterrissage soit dégagé et connecté au réseau. Un distributeur automatique est obligatoire pour procéder aux échanges.</Value>
+			<Value>La navette du commerçant nécessite un atterrissage sûr. Veuillez vous assurer que l'aire d'atterrissage soit dégagé et connecté au réseau. Un distributeur automatique est obligatoire pour procéder aux échanges.</Value>
 		</Record>
 		<Record>
 			<Key>ContactTradeRequestFailInUse</Key>
@@ -18192,11 +18204,11 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>ContactLandingRequestFailVendingMachine</Key>
-			<Value>Vous avez besoin d’un distributeur automatique connecté au réseau pour interagir avec ce commerçant.</Value>
+			<Value>Vous avez besoin d'un distributeur automatique connecté au réseau pour interagir avec ce commerçant.</Value>
 		</Record>
 		<Record>
 			<Key>ContactLandingRequestFailSatellite</Key>
-			<Value>Il y a un problème avec votre satellite. Vérifiez s’il est connecté au réseau et alimenté en énergie.</Value>
+			<Value>Il y a un problème avec votre satellite. Vérifiez s'il est connecté au réseau et alimenté en énergie.</Value>
 		</Record>
 		<Record>
 			<Key>ContactLandingRequestFailStorm</Key>
@@ -18504,7 +18516,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>DawnTemperatureField</Key>
-			<Value>Température à l’aube</Value>
+			<Value>Température à l'aube</Value>
 		</Record>
 		<Record>
 			<Key>NoonTemperatureField</Key>
@@ -18536,7 +18548,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>CartridgeTrackerTitle</Key>
-			<Value>TRAQUEUR</Value>
+			<Value>GPS</Value>
 		</Record>
 		<Record>
 			<Key>CartridgeTrackerSelected</Key>
@@ -18588,7 +18600,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>CartridgeAtmosAnalyserTitle</Key>
-			<Value>ANALYSE DE L’ATMOSPHERE</Value>
+			<Value>ANALYSE DE L'ATMOSPHERE</Value>
 		</Record>
 		<Record>
 			<Key>CartridgeAtmosAnalyserCapacityTitle</Key>
@@ -18600,7 +18612,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>DialogConfirmLastSaveIsAutoSave</Key>
-			<Value>ETES-VOUS-SUR ? Le dernier enregistrement que vous avez est une sauvegarde automatique. Vous risquez de perdre vos progrès si vous n’enregistrez pas maintenant.</Value>
+			<Value>ETES-VOUS-SUR ? Le dernier enregistrement que vous avez est une sauvegarde automatique. Vous risquez de perdre vos progrès si vous n'enregistrez pas maintenant.</Value>
 		</Record>
 		<Record>
 			<Key>GameMenuButtonCancel</Key>
@@ -18828,7 +18840,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>NetworkAnalyserNetwork</Key>
-			<Value>RÉSEAU DE CÂBLE</Value>
+			<Value>RÉSEAU DE CÂBLAGE</Value>
 		</Record>
 		<Record>
 			<Key>NetworkAnalyserActual</Key>
@@ -18948,7 +18960,7 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>MineablesInVicinity</Key>
-			<Value>Renvoie la quantité de minerais potentiels dans la zone autour d’AIMEe.</Value>
+			<Value>Renvoie la quantité de minerais potentiels dans la zone autour d'AIMEe.</Value>
 		</Record>
 		<Record>
 			<Key>MineablesInQueue</Key>
@@ -18980,10 +18992,10 @@ C’est une loi universelle inébranlable que tout ce qui dépasse 11 sera viole
 		</Record>
 		<Record>
 			<Key>ScriptCommandL</Key>
-			<Value>Registre = la valeur logique (logicType) en utilisant la référence d’un appareil qui est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+			<Value>Registre = la valeur logique (logicType) en utilisant la référence d'un appareil qui est defini soit par : 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandLD</Key>
@@ -19004,22 +19016,22 @@ Peut utiliser soit le chiffre, soit le mot (en anglais).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandLBS</Key>
-			<Value>Registre = la valeur "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l’emplacement" (slotIndex) de tous les appareils réseau qui correspondent au type du Hash en utilisant le mode groupé indiqué :
+			<Value>Registre = la valeur "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l'emplacement" (slotIndex) de tous les appareils réseau qui correspondent au type du Hash en utilisant le mode groupé indiqué :
 0 = Moyenne (Average), 1 = Somme (Sum), 2 = Minimum (Minimum), 3 = Maximum (Maximum). 
 Peut utiliser soit le chiffre, soit le mot (en anglais).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandLBNS</Key>
-			<Value>Registre = la valeur "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l’emplacement" (slotIndex) de tous les appareils réseau qui correspondent au type du Hash et au nom fournis en utilisant le mode groupé indiqué :
+			<Value>Registre = la valeur "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l'emplacement" (slotIndex) de tous les appareils réseau qui correspondent au type du Hash et au nom fournis en utilisant le mode groupé indiqué :
 0 = Moyenne (Average), 1 = Somme (Sum), 2 = Minimum (Minimum), 3 = Maximum (Maximum). 
 Peut utiliser soit le chiffre, soit le mot (en anglais).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandS</Key>
-			<Value>Stocke la valeur du registre dans la valeur logique (logicType) d’un appareil qui est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+			<Value>Stocke la valeur du registre dans la valeur logique (logicType) d'un appareil qui est defini soit par : 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandSD</Key>
@@ -19028,14 +19040,14 @@ Peut utiliser soit le chiffre, soit le mot (en anglais).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandSS</Key>
-			<Value>Stocke la valeur du registre dans la valeur "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l’emplacement" (slotIndex) d’un appareil qui est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+			<Value>Stocke la valeur du registre dans la valeur "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l'emplacement" (slotIndex) d'un appareil qui est defini soit par : 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandSBS</Key>
-			<Value>Stocke la valeur du registre dans la valeur "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l’emplacement" (slotIndex) de tous les appareils réseau qui correspondent au type du Hash.</Value>
+			<Value>Stocke la valeur du registre dans la valeur "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l'emplacement" (slotIndex) de tous les appareils réseau qui correspondent au type du Hash.</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandSB</Key>
@@ -19043,10 +19055,10 @@ Peut utiliser soit le chiffre, soit le mot (en anglais).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandLS</Key>
-			<Value>Registre = le type de "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l’emplacement" (slotIndex) d’un appareil qui est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+			<Value>Registre = le type de "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l'emplacement" (slotIndex) d'un appareil qui est defini soit par : 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandLR</Key>
@@ -19056,9 +19068,9 @@ Le type de réactif peut être soit :
 Peut utiliser soit le chiffre, soit le mot (en anglais).
 
 L'appareil est definie soit par : 
-- la valeur d’index du support IC10 (d?) 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandAlias</Key>
@@ -19084,17 +19096,17 @@ L'appareil est definie soit par :
 			<Key>ScriptCommandSdse</Key>
 			<Value>Registre = 1 si l'appareil est configuré, sinon 0
 L'appareil est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandSdns</Key>
 			<Value>Registre = 1 si l'appareil n'est pas configuré, sinon 0
 L'appareil est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandSlt</Key>
@@ -19209,33 +19221,33 @@ L'appareil est defini soit par :
 			<Key>ScriptCommandBdse</Key>
 			<Value>Saute à la ligne a si l'appareil est configuré.
 L'appareil est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBdns</Key>
 			<Value>Saute à la ligne a si l'appareil n'est pas configuré.
 L'appareil est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBdnvl</Key>
 			<Value>Saute à la ligne a si l'appareil fourni n'est pas valide pour une instruction de chargement pour valeur logique (logicTvpe) fourni.
 L'appareil est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBdnvs</Key>
 			<Value>Saute à la ligne a si l'appareil fourni n'est pas valide pour une instruction de stockage pour valeur logique (logicTvpe) fourni.
 L'appareil est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBlt</Key>
@@ -19325,17 +19337,17 @@ L'appareil est defini soit par :
 			<Key>ScriptCommandBrdse</Key>
 			<Value>Fait un saut relatif de a lignes si l'appareil est configuré
 L'appareil est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrdns</Key>
 			<Value>Fait un saut relatif de a lignes si l'appareil n'est pas configuré
 L'appareil est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrlt</Key>
@@ -19413,17 +19425,17 @@ L'appareil est defini soit par :
 			<Key>ScriptCommandBdseal</Key>
 			<Value>Saute à la ligne a si l'appareil est configuré et stocke le numéro de la ligne suivante dans ra.
 L'appareil est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBdnsal</Key>
 			<Value>Saute à la ligne a si l'appareil n'est pas configuré et stocke le numéro de la ligne suivante dans ra.
 L'appareil est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBltal</Key>
@@ -19685,7 +19697,7 @@ L'appareil est defini soit par :
 		</Record>
 		<Record>
 			<Key>WarningSavePathNotWritableDescription</Key>
-			<Value>Impossible d’écrire pour sauver le chemin. Il a été réinitialisé en défaut</Value>
+			<Value>Impossible d'écrire pour sauver le chemin. Il a été réinitialisé en défaut</Value>
 		</Record>
 		<Record>
 			<Key>WarningSavePathNotWritable</Key>
@@ -19817,7 +19829,7 @@ L'appareil est defini soit par :
 		</Record>
 		<Record>
 			<Key>NoAtmos</Key>
-			<Value>{0} n’a pas {1}d'atmosphère{2}</Value>
+			<Value>{0} n'a pas {1}d'atmosphère{2}</Value>
 		</Record>
 		<Record>
 			<Key>PlantTemperature</Key>
@@ -19825,11 +19837,11 @@ L'appareil est defini soit par :
 		</Record>
 		<Record>
 			<Key>PlantNoSunlight</Key>
-			<Value>{0} n’a pas la {1}lumière du soleil requise{2}</Value>
+			<Value>{0} n'a pas la {1}lumière du soleil requise{2}</Value>
 		</Record>
 		<Record>
 			<Key>PlantToxic</Key>
-			<Value>{0} a été endommagé a cause d'un ratio élevé {1}de polluants{2} dans l’atmosphère</Value>
+			<Value>{0} a été endommagé a cause d'un ratio élevé {1}de polluants{2} dans l'atmosphère</Value>
 		</Record>
 		<Record>
 			<Key>holdhotkey</Key>
@@ -19901,7 +19913,7 @@ L'appareil est defini soit par :
 		</Record>
 		<Record>
 			<Key>TutorialCompleteDateOfCompletion</Key>
-			<Value>Date d’achèvement :</Value>
+			<Value>Date d'achèvement :</Value>
 		</Record>
 		<Record>
 			<Key>BottleSlot</Key>
@@ -20045,7 +20057,7 @@ L'appareil est defini soit par :
 		</Record>
 		<Record>
 			<Key>CommandToggleGod</Key>
-			<Value>Active ou désactive l’invincibilité du joueur, y compris la combinaison. : "/tg"</Value>
+			<Value>Active ou désactive l'invincibilité du joueur, y compris la combinaison. : "/tg"</Value>
 		</Record>
 		<Record>
 			<Key>CommandToggleInfinitePower</Key>
@@ -20125,9 +20137,9 @@ L'appareil est defini soit par :
 		</Record>
 		<Record>
 			<Key>AgrizeroDesc</Key>
-			<Value>Agrizero est une entreprise de biotechnologie agricole axée sur la recherche et le déploiement hors-monde de technologies agricoles. L’objectif de l’entreprise est de fournir un réseau de "bio-usines" autonomes et autosuffisantes qui, à terme, alimenteront un million d’êtres humains dans l’espace.
-Émergeant des catastrophes environnementales de la fin du XXIe siècle, l’entreprise prends racine dans les initiatives chinoises d’agriculture artificielle. Elle s’est maintenant étendue aux installations de la ceinture d’astéroïdes, où l’approvisionnement en astéroïdes de glace rend l’agriculture verticale en environnement contrôlée extrêmement prometteuse.
-Alors que beaucoup de leurs installations sont encore en construction, Agrizero est déjà l’un des principaux fournisseurs de groupes hors-monde tels que {LINK:ODA;ODA}, {LINK:Sinotai;Sinotai} et &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; à travers un réseau de commerçants en constante expansion.</Value>
+			<Value>Agrizero est une entreprise de biotechnologie agricole axée sur la recherche et le déploiement hors-monde de technologies agricoles. L'objectif de l'entreprise est de fournir un réseau de "bio-usines" autonomes et autosuffisantes qui, à terme, alimenteront un million d'êtres humains dans l'espace.
+Émergeant des catastrophes environnementales de la fin du XXIe siècle, l'entreprise prends racine dans les initiatives chinoises d'agriculture artificielle. Elle s'est maintenant étendue aux installations de la ceinture d'astéroïdes, où l'approvisionnement en astéroïdes de glace rend l'agriculture verticale en environnement contrôlée extrêmement prometteuse.
+Alors que beaucoup de leurs installations sont encore en construction, Agrizero est déjà l'un des principaux fournisseurs de groupes hors-monde tels que {LINK:ODA;ODA}, {LINK:Sinotai;Sinotai} et &lt;color=#0080FFFF&gt;{LINK:ExMin;ExMin}&lt;/color&gt; à travers un réseau de commerçants en constante expansion.</Value>
 		</Record>
 		<Record>
 			<Key>Asura</Key>
@@ -20135,10 +20147,10 @@ Alors que beaucoup de leurs installations sont encore en construction, Agrizero 
 		</Record>
 		<Record>
 			<Key>AsuraDesc</Key>
-			<Value>Asura Biomedia a été fondée au début du 22e siècle par Ashan Gurwaja, trillionaire de Mumbai. Théoriquement axée sur la "biotechnologie", l’entreprise a toujours eu une notion "élastique" de ce que cela impliquait, depuis les produits pharmaceutiques jusqu’aux aliments pour animaux de compagnie.
-L’expérience de Gurwaja dans les entreprises de bio-ingénierie a placé l’entreprise au plus haut niveau des industries de bio-sciences dès le début, et elle a grandi exactement comme son fondateur l’avait prévu : rapidement et de manière fiable. L'entreprise est structurée spécifiquement pour engloutir toutes les petites entreprises sur son chemin.
-Vers le milieu du siècle, les ambitions d’Asura ont évolué pour englober l’ensemble des systèmes de santé – elle est aujourd’hui le plus grand fournisseur de soins de santé sur Terre, intégrant les hôpitaux et les soins primaires avec les fournitures médicales, la production pharmaceutique et la vente au détail, les soins résidentiels et les services funéraires.
-En 2150, l’entreprise d’Asura était une simple proposition, comme en témoigne leur célèbre slogan publicitaire, si ce n’est tristement célèbre : "Nous sommes en vous".</Value>
+			<Value>Asura Biomedia a été fondée au début du 22e siècle par Ashan Gurwaja, trillionaire de Mumbai. Théoriquement axée sur la "biotechnologie", l'entreprise a toujours eu une notion "élastique" de ce que cela impliquait, depuis les produits pharmaceutiques jusqu'aux aliments pour animaux de compagnie.
+L'expérience de Gurwaja dans les entreprises de bio-ingénierie a placé l'entreprise au plus haut niveau des industries de bio-sciences dès le début, et elle a grandi exactement comme son fondateur l'avait prévu : rapidement et de manière fiable. L'entreprise est structurée spécifiquement pour engloutir toutes les petites entreprises sur son chemin.
+Vers le milieu du siècle, les ambitions d'Asura ont évolué pour englober l'ensemble des systèmes de santé – elle est aujourd'hui le plus grand fournisseur de soins de santé sur Terre, intégrant les hôpitaux et les soins primaires avec les fournitures médicales, la production pharmaceutique et la vente au détail, les soins résidentiels et les services funéraires.
+En 2150, l'entreprise d'Asura était une simple proposition, comme en témoigne leur célèbre slogan publicitaire, si ce n'est tristement célèbre : "Nous sommes en vous".</Value>
 		</Record>
 		<Record>
 			<Key>CHAC</Key>
@@ -20147,8 +20159,8 @@ En 2150, l’entreprise d’Asura était une simple proposition, comme en témoi
 		<Record>
 			<Key>CHACDesc</Key>
 			<Value>Fondée en 2085 pour produire des armes pour les forces spatiales de {LINK:Sinotai;Sinotai}, la société est connue pour fabriquer des armes hautement fiables et abordables pour une utilisation hors monde.
-Leur approche pragmatique se traduit par l’accent mis sur les conceptions adaptées à l’impression 3D et à la production de masse, ainsi que par une grande réutilisation des composants entre les modèles et les classes d’armes.
-En conséquence, bien que les canons CHAC n'excellent dans aucune catégorie particulière, et n’ont certainement jamais été accusés de grandeurs. Ils ne souffrent pas de manquements importants et ont suffisamment bien passé les tests les plus connues pour que leurs concepteurs aient gagné le titre informel d'armurier du système solaire.</Value>
+Leur approche pragmatique se traduit par l'accent mis sur les conceptions adaptées à l'impression 3D et à la production de masse, ainsi que par une grande réutilisation des composants entre les modèles et les classes d'armes.
+En conséquence, bien que les canons CHAC n'excellent dans aucune catégorie particulière, et n'ont certainement jamais été accusés de grandeurs. Ils ne souffrent pas de manquements importants et ont suffisamment bien passé les tests les plus connues pour que leurs concepteurs aient gagné le titre informel d'armurier du système solaire.</Value>
 		</Record>
 		<Record>
 			<Key>ExMin</Key>
@@ -20156,9 +20168,9 @@ En conséquence, bien que les canons CHAC n'excellent dans aucune catégorie par
 		</Record>
 		<Record>
 			<Key>ExMinDesc</Key>
-			<Value>Au lendemain de la catastrophe de Sisyphe sur Mars en 2079, le déplacement d’astéroïdes a été officiellement interdit par l’ {LINK:ODA;ODA}. Ce changement a forcé l’industrie minière spatiale naissante à reconsidérer ses stratégies, mais jusqu’à l’ouverture de l’ascenseur spatial de Manaus, l’extraction de ressources hors monde était effectivement impossible du a une économie marginale.
-Formé en 2095 par un ancien conglomérat minier suisse-allemand et un consortium d’autres intérêts, ExMin fut plus une idée qu’une réalité commerciale pendant plusieurs décennies. Créé avec la certitude qu’un ascenseur spatial finirait par être construit, ExMin a été l’un des premiers à exploiter l’accès qu’il offrait. Par la suite, il est devenu l’une des entités commerciales les plus puissantes du Système solaire.
-Avec l’accès à l’espace sécurisé, ExMin est devenu un acteur central dans le flux de ressources vers la Terre. Elle est en concurrence, principalement avec le géant minier brésilien &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, mais l’entreprise n’a jamais complètement perdu son avance sur l’exploitation minière hors monde. Synonyme de métaux rares et pionnier de l’extraction de ressources hors-monde, ExMin est à l’avant-garde du développement dans tout le système solaire.</Value>
+			<Value>Au lendemain de la catastrophe de Sisyphe sur Mars en 2079, le déplacement d'astéroïdes a été officiellement interdit par l' {LINK:ODA;ODA}. Ce changement a forcé l'industrie minière spatiale naissante à reconsidérer ses stratégies, mais jusqu'à l'ouverture de l'ascenseur spatial de Manaus, l'extraction de ressources hors monde était effectivement impossible du a une économie marginale.
+Formé en 2095 par un ancien conglomérat minier suisse-allemand et un consortium d'autres intérêts, ExMin fut plus une idée qu'une réalité commerciale pendant plusieurs décennies. Créé avec la certitude qu'un ascenseur spatial finirait par être construit, ExMin a été l'un des premiers à exploiter l'accès qu'il offrait. Par la suite, il est devenu l'une des entités commerciales les plus puissantes du Système solaire.
+Avec l'accès à l'espace sécurisé, ExMin est devenu un acteur central dans le flux de ressources vers la Terre. Elle est en concurrence, principalement avec le géant minier brésilien &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt;, mais l'entreprise n'a jamais complètement perdu son avance sur l'exploitation minière hors monde. Synonyme de métaux rares et pionnier de l'extraction de ressources hors-monde, ExMin est à l'avant-garde du développement dans tout le système solaire.</Value>
 		</Record>
 		<Record>
 			<Key>GeFabrik</Key>
@@ -20166,9 +20178,9 @@ Avec l’accès à l’espace sécurisé, ExMin est devenu un acteur central dan
 		</Record>
 		<Record>
 			<Key>GeFabrikDesc</Key>
-			<Value>Officiellement connue sous le nom de Gewehrfabrik GmbH, GeFabrik est l’une des entreprises d’armement les plus anciennes et les plus réputées au monde. Elle est connue pour produire des armes à feu extrêmement précises et de haute qualité.
-Dans la foulée de l’effondrement de la fabrication d’armes en Europe dans les années 2030, un groupe d'ancien employé de l’armement au chômage a formé GeFabrik. Vouée au renouvellement des principes de conception originaux, l’entreprise est légendaire pour ses essais approfondis, qui durent parfois jusqu’à 10 ans, afin de produire des armes au format "ganz".
-GeFabrik est largement reconnu comme ayant à lui seul sauvé la réputation de la qualité de fabrication allemande, tout en ne faisant rien pour leur sens de l’humour.</Value>
+			<Value>Officiellement connue sous le nom de Gewehrfabrik GmbH, GeFabrik est l'une des entreprises d'armement les plus anciennes et les plus réputées au monde. Elle est connue pour produire des armes à feu extrêmement précises et de haute qualité.
+Dans la foulée de l'effondrement de la fabrication d'armes en Europe dans les années 2030, un groupe d'ancien employé de l'armement au chômage a formé GeFabrik. Vouée au renouvellement des principes de conception originaux, l'entreprise est légendaire pour ses essais approfondis, qui durent parfois jusqu'à 10 ans, afin de produire des armes au format "ganz".
+GeFabrik est largement reconnu comme ayant à lui seul sauvé la réputation de la qualité de fabrication allemande, tout en ne faisant rien pour leur sens de l'humour.</Value>
 		</Record>
 		<Record>
 			<Key>Hiiragi</Key>
@@ -20177,7 +20189,7 @@ GeFabrik est largement reconnu comme ayant à lui seul sauvé la réputation de 
 		<Record>
 			<Key>HiiragiDesc</Key>
 			<Value>Fondée par Noboru Hiiragi au lendemain de la bulle économique de 2110, Hiiragi Communications a absorbé plusieurs actifs étrangers de premier plan, devenant rapidement le réseau de communication trans-stellaire le plus utilisé.
-Si vous avez communiqué avec vos amis et votre famille récemment, c’est grâce au réseau Hiiragi, même s’il a été masqué par le nom de l’une de ses nombreuses filiales. Hiiragi est également le numéro un des vendeur de PCD (Personal Communication Devices) ainsi qu'un important investisseur dans les réseaux de télécommunications terrestres.</Value>
+Si vous avez communiqué avec vos amis et votre famille récemment, c'est grâce au réseau Hiiragi, même s'il a été masqué par le nom de l'une de ses nombreuses filiales. Hiiragi est également le numéro un des vendeur de PCD (Personal Communication Devices) ainsi qu'un important investisseur dans les réseaux de télécommunications terrestres.</Value>
 		</Record>
 		<Record>
 			<Key>Norsec</Key>
@@ -20185,9 +20197,9 @@ Si vous avez communiqué avec vos amis et votre famille récemment, c’est grâ
 		</Record>
 		<Record>
 			<Key>NorsecDesc</Key>
-			<Value>Avec ses racines dans l’industrie de la défense du début du XXe siècle, Norsec (alias Northern Security Systems) a été un des premiers à se lancer dans l’exploitation minière des astéroïdes. D'ailleurs, l’un de ses remorqueurs fut impliqué dans la célèbre Catastrophe de Sisyphus, un astéroïde délocalisé détruit la colonie martienne naissante de Sanders.
-Norsec a été officiellement disculpé de tout acte répréhensible, mais lorsque l’{LINK:ODA;ODA} interdit la délocalisation astéroïdale, l’entreprise s’est tournée vers l’infrastructure et la fabrication.
-La Division des systèmes spatiaux basés en orbite de Norsec est responsable de la conception et de la production des systèmes de transport d’{LINK:ODA;ODA}, tout en étant également soupçonnée de détenir une grande partie du capital d'{LINK:ExMin;ExMin}. L’entreprise est également reconnue pour son engagement dans la technologie robotique expérimentale.</Value>
+			<Value>Avec ses racines dans l'industrie de la défense du début du XXe siècle, Norsec (alias Northern Security Systems) a été un des premiers à se lancer dans l'exploitation minière des astéroïdes. D'ailleurs, l'un de ses remorqueurs fut impliqué dans la célèbre Catastrophe de Sisyphus, un astéroïde délocalisé détruit la colonie martienne naissante de Sanders.
+Norsec a été officiellement disculpé de tout acte répréhensible, mais lorsque l'{LINK:ODA;ODA} interdit la délocalisation astéroïdale, l'entreprise s'est tournée vers l'infrastructure et la fabrication.
+La Division des systèmes spatiaux basés en orbite de Norsec est responsable de la conception et de la production des systèmes de transport d'{LINK:ODA;ODA}, tout en étant également soupçonnée de détenir une grande partie du capital d'{LINK:ExMin;ExMin}. L'entreprise est également reconnue pour son engagement dans la technologie robotique expérimentale.</Value>
 		</Record>
 		<Record>
 			<Key>ODA</Key>
@@ -20195,9 +20207,9 @@ La Division des systèmes spatiaux basés en orbite de Norsec est responsable de
 		</Record>
 		<Record>
 			<Key>ODADesc</Key>
-			<Value>Au lendemain de la crise terrestre, l’intérêt de l’humanité pour l’espace a diminué. Pourtant, beaucoup ont estimé que, sans ambitions au-delà de notre planète, notre espèce pourrait dépérir.
-Créée en 2070 par une Organisation des Nations Unies nouvellement remaniée, l’Offworld Development Agency (agence de développement extraterrestre) a reçu un objectif très spécifique : guider et encourager l’exploration spatiale humaine à un moment où le cosmos s’estompait dans l’esprit du public. 
-L'ODA inaugura le programme {LINK:Stationeers;Stationeer} en 2095. Sachant qu’il serait difficile d’obtenir du financement, l’ODA conçu le programme comme une initiative spatiale à progression lente et à faibles coûts. Bien que certains &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; aient été qualifiés de 'naufragés cosmiques à bas prix', le succès du programme témoigne de la sagesse et du pragmatisme de la vision de l’ODA.</Value>
+			<Value>Au lendemain de la crise terrestre, l'intérêt de l'humanité pour l'espace a diminué. Pourtant, beaucoup ont estimé que, sans ambitions au-delà de notre planète, notre espèce pourrait dépérir.
+Créée en 2070 par une Organisation des Nations Unies nouvellement remaniée, l'Offworld Development Agency (agence de développement extraterrestre) a reçu un objectif très spécifique : guider et encourager l'exploration spatiale humaine à un moment où le cosmos s'estompait dans l'esprit du public. 
+L'ODA inaugura le programme {LINK:Stationeers;Stationeer} en 2095. Sachant qu'il serait difficile d'obtenir du financement, l'ODA conçu le programme comme une initiative spatiale à progression lente et à faibles coûts. Bien que certains &lt;color=#0080FFFF&gt;{LINK:Stationeers;Stationeers}&lt;/color&gt; aient été qualifiés de 'naufragés cosmiques à bas prix', le succès du programme témoigne de la sagesse et du pragmatisme de la vision de l'ODA.</Value>
 		</Record>
 		<Record>
 			<Key>Recurso</Key>
@@ -20205,10 +20217,10 @@ L'ODA inaugura le programme {LINK:Stationeers;Stationeer} en 2095. Sachant qu’
 		</Record>
 		<Record>
 			<Key>RecursoDesc</Key>
-			<Value>Cet ancien groupe minier brésilien s’est ramifié dans l’exploitation spatiale à la fin du XXIe siècle.
-Axée principalement sur les minéraux et les métaux, l’entreprise peut-être vue comme une extension du gouvernement brésilien. Très peu de personnalités politiques de haut niveau du Brésil moderne ne sont pas impliquées d'un manière ou d'une autre avec ce géant industriel.
-L'enchevêtrement avec la politique sud-américaine a donné à la compagnie beaucoup d’influence sur l’ascenseur spatial de Manaus. Ce profond contrôle de l’état brésilien a amené d’autres groupes (y compris l’{LINK:ODA;ODA}) à exercer une certaine "souplesse" à l’égard de Recurso.
-Des accusations de délocalisation illégale d’astéroïdes, de violations de la sécurité et de nombreuses infractions commerciales l'ont à peine touché. En même temps, les défenseurs de Recurso soulignent que très peu de choses ont été prouvées par un tribunal, et Recurso n’est pas seul accusé. D’où le truisme : "Dans l’espace, nous vivons tous dans des maisons de verre. "</Value>
+			<Value>Cet ancien groupe minier brésilien s'est ramifié dans l'exploitation spatiale à la fin du XXIe siècle.
+Axée principalement sur les minéraux et les métaux, l'entreprise peut-être vue comme une extension du gouvernement brésilien. Très peu de personnalités politiques de haut niveau du Brésil moderne ne sont pas impliquées d'un manière ou d'une autre avec ce géant industriel.
+L'enchevêtrement avec la politique sud-américaine a donné à la compagnie beaucoup d'influence sur l'ascenseur spatial de Manaus. Ce profond contrôle de l'état brésilien a amené d'autres groupes (y compris l'{LINK:ODA;ODA}) à exercer une certaine "souplesse" à l'égard de Recurso.
+Des accusations de délocalisation illégale d'astéroïdes, de violations de la sécurité et de nombreuses infractions commerciales l'ont à peine touché. En même temps, les défenseurs de Recurso soulignent que très peu de choses ont été prouvées par un tribunal, et Recurso n'est pas seul accusé. D'où le truisme : "Dans l'espace, nous vivons tous dans des maisons de verre. "</Value>
 		</Record>
 		<Record>
 			<Key>Sinotai</Key>
@@ -20216,9 +20228,9 @@ Des accusations de délocalisation illégale d’astéroïdes, de violations de 
 		</Record>
 		<Record>
 			<Key>SinotaiDesc</Key>
-			<Value>Seule entité étatique "traditionnelle" capable de survivre à la politique hors monde, l'influence et le pouvoir de Sinotai n’ont d’égal que l’{LINK:ODA;ODA} elle-même. À bien des égards, c'est une relique, un sous-organisme d’une bureaucratie d’entreprise incroyablement compliquée liée à la Terre. Sa structure permis à Sinotai de réaliser des choses incroyables.
-Prouvant sa force au début du 21ème siècle, en envoyant les premiers humains sur Mars, en établissant le premier système de puissance gigawatt hors monde, et la première raffinerie de carburant spatiale. Toutes les organisations spatiales ont d’un certain degré de relation avec Sinotai. Une blague courante dit qu’il est impossible de faire quoi que ce soit dans l’espace sans eux.
-Indépendamment de la vérité, l’approche de Sinotai du développement hors-monde a été une approche "soft power" faites de MOU avec &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; (leur donnant un accès préférentiel à l’ascenseur spatial de Manaus) aux sombres alliances de convenance avec un éventail de groupes de commerçants.</Value>
+			<Value>Seule entité étatique "traditionnelle" capable de survivre à la politique hors monde, l'influence et le pouvoir de Sinotai n'ont d'égal que l'{LINK:ODA;ODA} elle-même. À bien des égards, c'est une relique, un sous-organisme d'une bureaucratie d'entreprise incroyablement compliquée liée à la Terre. Sa structure permis à Sinotai de réaliser des choses incroyables.
+Prouvant sa force au début du 21ème siècle, en envoyant les premiers humains sur Mars, en établissant le premier système de puissance gigawatt hors monde, et la première raffinerie de carburant spatiale. Toutes les organisations spatiales ont d'un certain degré de relation avec Sinotai. Une blague courante dit qu'il est impossible de faire quoi que ce soit dans l'espace sans eux.
+Indépendamment de la vérité, l'approche de Sinotai du développement hors-monde a été une approche "soft power" faites de MOU avec &lt;color=#0080FFFF&gt;{LINK:Recurso;Recurso}&lt;/color&gt; (leur donnant un accès préférentiel à l'ascenseur spatial de Manaus) aux sombres alliances de convenance avec un éventail de groupes de commerçants.</Value>
 		</Record>
 		<Record>
 			<Key>TK</Key>
@@ -20226,9 +20238,9 @@ Indépendamment de la vérité, l’approche de Sinotai du développement hors-m
 		</Record>
 		<Record>
 			<Key>TKDesc</Key>
-			<Value>À l’origine un entrepreneur de la défense spécialisé dans la force brute, l’armement haute puissance, Tanzanian Kinetic Systems a exécuté un changement à grande échelle en temps de paix pour devenir le principal concepteur de l’Assemblée africaine des convoyeurs de marchandises à grande vitesse.
-Aujourd’hui, grâce aux partenariats Afro-Sino du XXIe siècle, TK produit et conçoit des réseaux de gaines de transports. Basée dans le district "reconnecté" de Kigamboni à Dar E Salaam, la Société conclut régulièrement des partenariats de développement avec le &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; et, par conséquent, leurs nombreux produits présentent des similitudes.
-Après tout, qu’est-ce qu’une arme à feu ? Un "convoyeur de marchandises à grande vitesse".
+			<Value>À l'origine un entrepreneur de la défense spécialisé dans la force brute, l'armement haute puissance, Tanzanian Kinetic Systems a exécuté un changement à grande échelle en temps de paix pour devenir le principal concepteur de l'Assemblée africaine des convoyeurs de marchandises à grande vitesse.
+Aujourd'hui, grâce aux partenariats Afro-Sino du XXIe siècle, TK produit et conçoit des réseaux de gaines de transports. Basée dans le district "reconnecté" de Kigamboni à Dar E Salaam, la Société conclut régulièrement des partenariats de développement avec le &lt;color=#0080FFFF&gt;{LINK:CHAC;CHAC}&lt;/color&gt; et, par conséquent, leurs nombreux produits présentent des similitudes.
+Après tout, qu'est-ce qu'une arme à feu ? Un "convoyeur de marchandises à grande vitesse".
  </Value>
 		</Record>
 		<Record>
@@ -20237,9 +20249,9 @@ Après tout, qu’est-ce qu’une arme à feu ? Un "convoyeur de marchandises à
 		</Record>
 		<Record>
 			<Key>XigoDesc</Key>
-			<Value>Un sondage de 2150 a révélé le "X" de Xigo comme l’un des symboles les plus reconnus dans le monde. Pourtant, peu de participants ont pu décrire clairement l'étendue réelle de l’entreprise.
-Précisément là où l’entreprise commence et elle se termine, a fait l’objet de théories, d’études financières et de poursuites sans fin. A l’origine un site Web de comparaison des prix, le conglomérat s’est élargi pour englober les données, puis la distribution et enfin la production.
-Il s’agissait d’une expansion apparemment aveugle, centrée non pas sur une seule industrie, mais sur toutes les industries. Couvrant un si grand nombre de domaines que les analystes commerciaux ont largement rejeté l’idée que Xigo était une entité unique. Il s’agit plutôt d’un regroupement conceptuel pour une branche de l’activité humaine. Et bien que de telles statistiques soient, par leur nature même, difficiles à confirmer, des estimations récentes suggèrent que Xigo emploie plus de 1,5 % de toute la race humaine.
+			<Value>Un sondage de 2150 a révélé le "X" de Xigo comme l'un des symboles les plus reconnus dans le monde. Pourtant, peu de participants ont pu décrire clairement l'étendue réelle de l'entreprise.
+Précisément là où l'entreprise commence et elle se termine, a fait l'objet de théories, d'études financières et de poursuites sans fin. A l'origine un site Web de comparaison des prix, le conglomérat s'est élargi pour englober les données, puis la distribution et enfin la production.
+Il s'agissait d'une expansion apparemment aveugle, centrée non pas sur une seule industrie, mais sur toutes les industries. Couvrant un si grand nombre de domaines que les analystes commerciaux ont largement rejeté l'idée que Xigo était une entité unique. Il s'agit plutôt d'un regroupement conceptuel pour une branche de l'activité humaine. Et bien que de telles statistiques soient, par leur nature même, difficiles à confirmer, des estimations récentes suggèrent que Xigo emploie plus de 1,5 % de toute la race humaine.
 Autant dire, il produit presque tout.
 	</Value>
 		</Record>
@@ -20249,12 +20261,12 @@ Autant dire, il produit presque tout.
 		</Record>
 		<Record>
 			<Key>StationeersDesc</Key>
-			<Value>Au début du 22e siècle, la Terre sortait d’un cataclysme. Ses ressources s’érodaient, notre population diminuait, à l'époque l'esprit était à la reconstruction.
-Initié par l’{LINK:ODA;ODA} (Agence de Développement Extraterrestre) en 2095CE, le programme {LINK:Stationeers;Stationeers} était dédié à un idéal unique : garder l’humanité la tête vers les étoiles.
-Les {LINK:Stationeers;Stationeers} sont tout : astronautes, ingénieurs et explorateurs. Ils sont déployés avec un équipement et des outils limités, formés pour faire plus avec moins. Leur travail consiste à fournir une infrastructure pour les humains dans l’espace, à une fraction du coût des programmes spatiaux traditionnels.
-Capables de construire et de maintenir des bases n’importe où de la Lune à Mimas et au-delà, les {LINK:Stationeers;Stationeers} sont notre avant-garde dans le cosmos. Formés à la survie hors-monde, aux techniques minières et de construction, à la métallurgie de base, à l’électronique, à la fuséologie, à l’hydroponie et à des sciences plus " arcaniques", les {LINK:Stationeers;Stationeers} font ce qu’ils doivent faire pour survivre et prospérer.
-Réputé pour n’avoir aucun critère d’entrée, il n’existe pas de {LINK:Stationeers;Stationeer} "typique". Le profilage psychologique suggère que les cadets qui réussissent sont pragmatiques et monomentaux, mais certains des plus célèbres stationnaires n’ont ni l’une ni l’autre de ces qualités.
-Le programme {LINK:Stationeers;Stationeers}, qui est fondamentalement ouvert à toute l’humanité, recrute dans les domaines du génie civil, des industries militaires et aérospatiales, du développement de logiciels, des groupes miniers, ainsi que des domaines scientifiques et même des ordres religieux.
+			<Value>Au début du 22e siècle, la Terre sortait d'un cataclysme. Ses ressources s'érodaient, notre population diminuait, à l'époque l'esprit était à la reconstruction.
+Initié par l'{LINK:ODA;ODA} (Agence de Développement Extraterrestre) en 2095CE, le programme {LINK:Stationeers;Stationeers} était dédié à un idéal unique : garder l'humanité la tête vers les étoiles.
+Les {LINK:Stationeers;Stationeers} sont tout : astronautes, ingénieurs et explorateurs. Ils sont déployés avec un équipement et des outils limités, formés pour faire plus avec moins. Leur travail consiste à fournir une infrastructure pour les humains dans l'espace, à une fraction du coût des programmes spatiaux traditionnels.
+Capables de construire et de maintenir des bases n'importe où de la Lune à Mimas et au-delà, les {LINK:Stationeers;Stationeers} sont notre avant-garde dans le cosmos. Formés à la survie hors-monde, aux techniques minières et de construction, à la métallurgie de base, à l'électronique, à la fuséologie, à l'hydroponie et à des sciences plus " arcaniques", les {LINK:Stationeers;Stationeers} font ce qu'ils doivent faire pour survivre et prospérer.
+Réputé pour n'avoir aucun critère d'entrée, il n'existe pas de {LINK:Stationeers;Stationeer} "typique". Le profilage psychologique suggère que les cadets qui réussissent sont pragmatiques et monomentaux, mais certains des plus célèbres stationnaires n'ont ni l'une ni l'autre de ces qualités.
+Le programme {LINK:Stationeers;Stationeers}, qui est fondamentalement ouvert à toute l'humanité, recrute dans les domaines du génie civil, des industries militaires et aérospatiales, du développement de logiciels, des groupes miniers, ainsi que des domaines scientifiques et même des ordres religieux.
 
 	</Value>
 		</Record>
@@ -20304,7 +20316,7 @@ Le programme {LINK:Stationeers;Stationeers}, qui est fondamentalement ouvert à 
 		</Record>
 		<Record>
 			<Key>ControlMouseScrollDisc</Key>
-			<Value>Sélectionnez l’élément</Value>
+			<Value>Sélectionnez l'élément</Value>
 		</Record>
 		<Record>
 			<Key>ControlTurnOn</Key>
@@ -20328,7 +20340,7 @@ Le programme {LINK:Stationeers;Stationeers}, qui est fondamentalement ouvert à 
 		</Record>
 		<Record>
 			<Key>ControlUseItemDisc</Key>
-			<Value>Utiliser l’objet</Value>
+			<Value>Utiliser l'objet</Value>
 		</Record>
 		<Record>
 			<Key>ControlMineDisc</Key>
@@ -20360,7 +20372,7 @@ Le programme {LINK:Stationeers;Stationeers}, qui est fondamentalement ouvert à 
 		</Record>
 		<Record>
 			<Key>FixedWeatherEventMissing</Key>
-			<Value>Aucun système météorologique n’a été trouvé pour ce monde. Le système météorologique par défaut a été appliqué. Attendez-vous à des turbulences.</Value>
+			<Value>Aucun système météorologique n'a été trouvé pour ce monde. Le système météorologique par défaut a été appliqué. Attendez-vous à des turbulences.</Value>
 		</Record>
 		<Record>
 			<Key>AdvancedTutorialButton</Key>
@@ -20794,7 +20806,7 @@ Le programme {LINK:Stationeers;Stationeers}, qui est fondamentalement ouvert à 
 		</Record>
 		<Record>
 			<Key>MoleOxygenDescription</Key>
-			<Value>Le "dioxygène" de formule "O2", est appelée communément "oxygène". Il fournit de l'énergie lorsqu'il est libéré lors de la combustion, et se lie également à l'hydrogène pour créer de l'{GAS:Water}. Il est créé par les {LINK:OrganicPage;plantes}, ainsi que par le traitement de la {THING:ItemOxite}. Il est hautement inflammable à basse température et ça température d’auto-inflammation est de 300°C :
+			<Value>Le "dioxygène" de formule "O2", est appelée communément "oxygène". Il fournit de l'énergie lorsqu'il est libéré lors de la combustion, et se lie également à l'hydrogène pour créer de l'{GAS:Water}. Il est créé par les {LINK:OrganicPage;plantes}, ainsi que par le traitement de la {THING:ItemOxite}. Il est hautement inflammable à basse température et ça température d'auto-inflammation est de 300°C :
 			
 2 {GAS:Volatiles} + 1 {GAS:Oxygen} -&gt; 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + chaleur (~2 143°C).</Value>
 		</Record>
@@ -20815,11 +20827,11 @@ Le {GAS:CarbonDioxide} a une chaleur spécifique modérément élevée, ce qui e
 En raison de réglementations obscures et largement oubliées de l'{LINK:ODA;ODA}, les {GAS:Volatiles} sont parfois étiquetés "H2" par divers éléments de technologie. Cependant, bien qu'ils soient similaires à l'hydrogène, ils ne sont pas "réellement" de l'hydrogène. Le {GAS:Volatiles} ne produira pas de l'{GAS:Water} lorsqu'il est brûlé, sans un catalyseur (voir le {THING:H2Combustor}). Seuls, ils créent des {GAS:Pollutant} et du {GAS:CarbonDioxide} lorsqu'ils sont brûlés dans le rapport suivant :
  
 2 {GAS:Volatiles} + 1 {GAS:Oxygen} -&gt; 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + chaleur (~2 143°C)
-(Température d’auto-inflammation : 300°C).
+(Température d'auto-inflammation : 300°C).
 
 Il existe aussi du supercarburant (NOS):
 1 {GAS:Volatiles} + 1 {GAS:NitrousOxide} -&gt; 2 {GAS:Nitrogen} + 2 {GAS:CarbonDioxide} + chaleur (~5 757°C)
-(Température d’auto-inflammation : 50°C).</Value>
+(Température d'auto-inflammation : 50°C).</Value>
 		</Record>
 		<Record>
 			<Key>MolePollutantDescription</Key>
@@ -21326,7 +21338,7 @@ L'{GAS:LiquidHydrogen} introduit dans l'atmosphère s'évaporera rapidement en {
 		</Record>
 		<Record>
 			<Key>DefaultStartConditionDescription</Key>
-			<Value>Vous commencerez avec l’équipement essentiel pour établir une base isolée, soigneusement organisé dans un atterrisseur équipé de caisses et de colis.</Value>
+			<Value>Vous commencerez avec l'équipement essentiel pour établir une base isolée, soigneusement organisé dans un atterrisseur équipé de caisses et de colis.</Value>
 		</Record>
 		<Record>
 			<Key>TerrainEditStartCondition</Key>
@@ -21426,7 +21438,7 @@ L'{GAS:LiquidHydrogen} introduit dans l'atmosphère s'évaporera rapidement en {
 		</Record>
 		<Record>
 			<Key>BrutalStartConditionDescription</Key>
-			<Value>Vous aurez très peu d’équipements pour survivre. Je ne vous dirai pas quelles sont vos chances... mais... vous avez toute ma sympathie.</Value>
+			<Value>Vous aurez très peu d'équipements pour survivre. Je ne vous dirai pas quelles sont vos chances... mais... vous avez toute ma sympathie.</Value>
 		</Record>
 		<Record>
 			<Key>WorldObjectiveBuildPower</Key>
@@ -22009,7 +22021,7 @@ Gestion des gaz</Value>
 		</Record>
 		<Record>
 			<Key>Tutorial3InsertCanisterFromLocker</Key>
-			<Value>Prenez une {THING:ItemGasCanisterEmpty} blanc du casier et insérez-le dans le {THING:StructureGasTankStorage}.</Value>
+			<Value>Prenez une {THING:ItemGasCanisterEmpty} blanche du casier et insérez-la dans le {THING:StructureGasTankStorage}.</Value>
 		</Record>
 		<Record>
 			<Key>Tutorial3OpenTheCanisterValve</Key>
@@ -22050,7 +22062,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockDescription</Key>
-			<Value>Apprenez les bases de la création d’un sas.</Value>
+			<Value>Apprenez les bases de la création d'un sas.</Value>
 		</Record>
 		<Record>
 			<Key>CommunityTutorialBigFootMSR</Key>
@@ -22062,7 +22074,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockPowerInfo</Key>
-			<Value>L’utilisation d’un {THING:StructureAreaPowerControl} dans un sas servira de batterie de secours et isolera le sas des commandes logiques erronées.</Value>
+			<Value>L'utilisation d'un {THING:StructureAreaPowerControl} dans un sas servira de batterie de secours et isolera le sas des commandes logiques erronées.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockPowerPlaceAPC</Key>
@@ -22070,7 +22082,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockAPCName</Key>
-			<Value>Fournir l’électricité au sas</Value>
+			<Value>Fournir l'électricité au sas</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockAPCPryOpen</Key>
@@ -22090,7 +22102,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockInformationInfo</Key>
-			<Value>La plupart des sas contiennent des composants communs tels qu’une {THING:StructureConsole} et un {THING:StructureGasSensor}.</Value>
+			<Value>La plupart des sas contiennent des composants communs tels qu'une {THING:StructureConsole} et un {THING:StructureGasSensor}.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockInformationPlaceConsole</Key>
@@ -22098,7 +22110,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockInformationPlaceSensor</Key>
-			<Value>Placez un {THING:StructureGasSensor} à l’autre extrémité du câble, à côté.</Value>
+			<Value>Placez un {THING:StructureGasSensor} à l'autre extrémité du câble, à côté.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockInsertCardName</Key>
@@ -22106,7 +22118,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockInsertCardInfo</Key>
-			<Value>Le {THING:CircuitboardAdvAirlockControl} est utilisé lorsque l’atmosphère est présente des deux côtés, tandis que le {THING:CircuitboardAirlockControl} est utilisé lorsqu’un côté est dans le vide.</Value>
+			<Value>Le {THING:CircuitboardAdvAirlockControl} est utilisé lorsque l'atmosphère est présente des deux côtés, tandis que le {THING:CircuitboardAirlockControl} est utilisé lorsqu'un côté est dans le vide.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockInsertCardPutAdvAirlock</Key>
@@ -22142,7 +22154,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockBuildDoorsWelderReminder</Key>
-			<Value>N’oubliez pas d’éteindre le poste à souder lorsqu’il n’est pas utilisé.</Value>
+			<Value>N'oubliez pas d'éteindre le poste à souder lorsqu'il n'est pas utilisé.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockProgramingName</Key>
@@ -22154,11 +22166,11 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockProgramingUseLabeller</Key>
-			<Value>Étiquetez les {THING:StructureGlassDoor} et {THING:StructureActiveVent} d’un côté du sas avec un nom facile à retenir, comme "Extérieur" ou "Intérieur". Puis étiquetez l’autre côté de manière opposée.</Value>
+			<Value>Étiquetez les {THING:StructureGlassDoor} et {THING:StructureActiveVent} d'un côté du sas avec un nom facile à retenir, comme "Extérieur" ou "Intérieur". Puis étiquetez l'autre côté de manière opposée.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockProgramingInserDisk</Key>
-			<Value>Insérez la {THING:ItemDataDisk} dans l'emplacement de la console pour activer l’écran de configuration.</Value>
+			<Value>Utilisez le {THING:ItemScrewdriver} sur la vis pour activer l'écran de configuration.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockProgramingPressureSettingNote</Key>
@@ -22166,11 +22178,11 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockProgramingChooseExteriorDoors</Key>
-			<Value>Sélectionnez la porte extérieure avec la souris. Le texte vert changera en "Intérieur" pour l’autre porte afin de sélectionner chaque côté.</Value>
+			<Value>Sélectionnez la porte extérieure avec la souris. Le texte vert changera en "Intérieur" pour l'autre porte afin de sélectionner chaque côté.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockProgramingRepeatForVents</Key>
-			<Value>Répétez la même configuration pour les {THING:StructureActiveVent}, en choisissant d’abord la {THING:StructureActiveVent} extérieure, puis l’intérieur.</Value>
+			<Value>Répétez la même configuration pour les {THING:StructureActiveVent}, en choisissant d'abord la {THING:StructureActiveVent} extérieure, puis l'intérieur.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockProgramingChooseSensor</Key>
@@ -22178,7 +22190,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockProgramingRemoveDisk</Key>
-			<Value>Lorsque toutes les sélections sont correctes, le bouton devient vert fixe. Retirez la {THING:ItemDataDisk} .</Value>
+			<Value>Lorsque toutes les sélections sont correctes, le bouton devient vert fixe. Utilisez de nouveau le {THING:ItemScrewdriver} sur la vis.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockActivateAirlockName</Key>
@@ -22186,11 +22198,11 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockActivateAirlockInfo</Key>
-			<Value>La vie dans l’espace est une aventure. Pour y accéder, il faut d’abord utiliser un sas. - BigfootMSR</Value>
+			<Value>La vie dans l'espace est une aventure. Pour y accéder, il faut d'abord utiliser un sas. - BigfootMSR</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockActivateAirlockOperatingInfo</Key>
-			<Value>Le sas dépressurise d’abord la pièce, puis la represseurise selon la valeur définie dans l’écran de configuration.</Value>
+			<Value>Le sas dépressurise d'abord la pièce, puis la represseurise selon la valeur définie dans l'écran de configuration.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockActivateAirlockHowToIncreaseSpeed</Key>
@@ -22198,7 +22210,7 @@ SAS</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockActivateAirlockCancellButton</Key>
-			<Value>Si le cycle prend trop de temps, appuyez sur le bouton d’annulation de la console pour passer à l’étape suivante.</Value>
+			<Value>Si le cycle prend trop de temps, appuyez sur le bouton d'annulation de la console pour passer à l'étape suivante.</Value>
 		</Record>
 		<Record>
 			<Key>TutorialAirlockActivateAirlockProgramYourOwn</Key>
@@ -22391,7 +22403,7 @@ Four</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialSteelReloadName</Key>
-			<Value>Insérer l'acier mélangé {THING:ItemReagentMix}</Value>
+			<Value>Insérer le {THING:ItemReagentMix} d'acier</Value>
 		</Record>
 		<Record>
 			<Key>FurnaceTutorialSteelReloadInfo</Key>
@@ -22960,7 +22972,7 @@ Fabrication</Value>
 		</Record>
 		<Record>
 			<Key>CelestialBodyPhoebe</Key>
-			<Value>PhOebé</Value>
+			<Value>Phoebé</Value>
 		</Record>
 		<Record>
 			<Key>CelestialBodyUranus</Key>
@@ -23056,7 +23068,7 @@ Fabrication</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataStirlingEngineGas</Key>
-			<Value>Gaz de moteur Stirling</Value>
+			<Value>Bouteille de gaz pour moteur Stirling</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataAirlockSupplies</Key>
@@ -23148,7 +23160,7 @@ Fabrication</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataEggCartonFertilized</Key>
-			<Value>Carton d'oeufs (fécondés)</Value>
+			<Value>Boîte à oeufs (fécondés)</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataMiningSupplies</Key>
@@ -23954,7 +23966,7 @@ DU SAS</Value>
 		</Record>
 		<Record>
 			<Key>TraderSpaceSpanners</Key>
-			<Value>Clés de l’Espace</Value>
+			<Value>Clés de l'Espace</Value>
 		</Record>
 		<Record>
 			<Key>TraderMeteorMechanics</Key>
@@ -23966,7 +23978,7 @@ DU SAS</Value>
 		</Record>
 		<Record>
 			<Key>TraderCosmosConvenience</Key>
-			<Value>Cosmo’ Dépôt</Value>
+			<Value>Cosmo' Dépôt</Value>
 		</Record>
 		<Record>
 			<Key>TraderStarStop</Key>
@@ -23986,7 +23998,7 @@ DU SAS</Value>
 		</Record>
 		<Record>
 			<Key>TraderMeteorMunchies</Key>
-			<Value>Croqu’Météores</Value>
+			<Value>Croqu'Météores</Value>
 		</Record>
 		<Record>
 			<Key>TraderGalacticGadgets</Key>
@@ -24018,7 +24030,7 @@ DU SAS</Value>
 		</Record>
 		<Record>
 			<Key>TraderAsteroidAppliances</Key>
-			<Value>Électros d’Astéroïdes</Value>
+			<Value>Électros d'Astéroïdes</Value>
 		</Record>
 		<Record>
 			<Key>TraderAsteroidAppliances</Key>
@@ -24126,7 +24138,7 @@ DU SAS</Value>
 		</Record>
 		<Record>
 			<Key>MultiplayerCouldNotConnect</Key>
-			<Value>Impossible d’établir une connexion</Value>
+			<Value>Impossible d'établir une connexion</Value>
 		</Record>
 		<Record>
 			<Key>MultiplayerCheckAddress</Key>
@@ -24219,11 +24231,11 @@ Merci de votre compréhension et nous avons hâte que vous découvriez toutes le
 		</Record>
 		<Record>
 			<Key>StationpediaMetabolicSuspensionDesc</Key>
-			<Value>Lorsqu’il est alimenté, cet appareil suspend le métabolisme de l’occupant, garantissant qu’il ne consomme plus ni nourriture ni eau.</Value>
+			<Value>Lorsqu'il est alimenté, cet appareil suspend le métabolisme de l'occupant, garantissant qu'il ne consomme plus ni nourriture ni eau.</Value>
 		</Record>
 		<Record>
 			<Key>StationpediaCryogenicRegenerationDesc</Key>
-			<Value>Lorsqu’il est alimenté, cet appareil répare tous types de dommages aux tissus et aux organes, et régénère également les occupants décédés.</Value>
+			<Value>Lorsqu'il est alimenté, cet appareil répare tous types de dommages aux tissus et aux organes, et régénère également les occupants décédés.</Value>
 		</Record>
 		<Record>
 			<Key>StationpediaCryogenicRegeneration</Key>
@@ -27201,7 +27213,7 @@ Statut : {LOCAL:StatusValue}</Value>
 		</Record>
 		<Record>
 			<Key>SplicerBusy</Key>
-			<Value>Épissage en cours &lt;color=green&gt;{LOCAL:PercentComplete}%&lt;/color&gt; terminé</Value>
+			<Value>Épissage en cours &lt;color=green&gt;{LOCAL:PercentComplete}%&lt;/color&gt; terminée</Value>
 		</Record>
 		<Record>
 			<Key>SplicerAddOneToSlot</Key>
@@ -27992,7 +28004,7 @@ Pas de distributeur automatique trouvé.</Value>
 		</Record>
 		<Record>
 			<Key>WorldInfoGravity</Key>
-			<Value>La &lt;color=yellow&gt;gravité&lt;/color&gt; est de {LOCAL:Gravity} &lt;color=white&gt; par rapport à celle de la Terre&lt;/color&gt;</Value>
+			<Value>La &lt;color=yellow&gt;gravité&lt;/color&gt; est de {LOCAL:Gravity} &lt;color=white&gt;par rapport à celle de la Terre&lt;/color&gt;</Value>
 		</Record>
 		<Record>
 			<Key>WorldInfoRotationPeriod</Key>
@@ -28117,11 +28129,11 @@ toutes les {LOCAL:RotationPeriod} à {LOCAL:SolarAngle}</Value>
 		</Record>
 		<Record>
 			<Key>DifficultyValueRate</Key>
-			<Value>Taux {LOCAL:Type} {LOCAL:Value}</Value>
+			<Value>{LOCAL:Type} {LOCAL:Value}</Value>
 		</Record>
 		<Record>
 			<Key>DifficultyValueYield</Key>
-			<Value>Rendement {LOCAL:Type} {LOCAL:Value}</Value>
+			<Value>{LOCAL:Type} rendement {LOCAL:Value}</Value>
 		</Record>
 		<Record>
 			<Key>DifficultyValueStatus</Key>
@@ -28133,7 +28145,7 @@ toutes les {LOCAL:RotationPeriod} à {LOCAL:SolarAngle}</Value>
 		</Record>
 		<Record>
 			<Key>DifficultyThingValueRate</Key>
-			<Value>{LOCAL:Type} à {LOCAL:Thing} taux {LOCAL:Value}</Value>
+			<Value>{LOCAL:Type} à {LOCAL:Thing} {LOCAL:Value}</Value>
 		</Record>
 		<Record>
 			<Key>PassedMolesDescription</Key>
@@ -28200,7 +28212,7 @@ Doit être comprise entre 25 km et 120 km.</Value>
 		</Record>
 		<Record>
 			<Key>LogicDescriptionAlignmentError</Key>
-			<Value>L'écart angulaire entre l'orientation actuelle du télescope et la cible. Indique l’écart du télescope par rapport à la cible. Renvoie NaN lorsqu'il n'y a pas de cible.</Value>
+			<Value>L'écart angulaire entre l'orientation actuelle du télescope et la cible. Indique l'écart du télescope par rapport à la cible. Renvoie NaN lorsqu'il n'y a pas de cible.</Value>
 		</Record>
 		<Record>
 			<Key>LogicDescriptionCelestialParentHash</Key>
@@ -28314,10 +28326,10 @@ Exprimé sous forme de ratio entre 0 et 1.</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionGet</Key>
-			<Value>Registre = valeur du tableau à l'adresse fournie d’un appareil qui est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+			<Value>Registre = valeur du tableau à l'adresse fournie d'un appareil qui est defini soit par : 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionClr</Key>
@@ -28330,17 +28342,17 @@ Exprimé sous forme de ratio entre 0 et 1.</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionPut</Key>
-			<Value>Stocke la valeur dans le tableau à l'adresse fournie d’un appareil qui est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+			<Value>Stocke la valeur dans le tableau à l'adresse fournie d'un appareil qui est defini soit par : 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionGetD</Key>
-			<Value>Registre = valeur du tableau à l'adresse fournie d’un appareil qui est defini soit par : 
-- la valeur d’index du support IC10 (d?) 
+			<Value>Registre = valeur du tableau à l'adresse fournie d'un appareil qui est defini soit par : 
+- la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l’ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
+- la référence directe à l'ID (identifiant unique de cet objet en particulier, qui commence par "$").</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionPutD</Key>
@@ -28611,11 +28623,11 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>TradeItemParent</Key>
-			<Value>{LOCAL:Item} avec les éléments suivants : </Value>
+			<Value>{LOCAL:Item} contient : </Value>
 		</Record>
 		<Record>
 			<Key>TradeItemContains</Key>
-			<Value>{LOCAL:OrePrefab} contient les éléments suivants : </Value>
+			<Value>{LOCAL:OrePrefab} contient : </Value>
 		</Record>
 		<Record>
 			<Key>TradeRatio</Key>
@@ -30165,7 +30177,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>DifficultyStatisticOfflineMetabolism</Key>
-			<Value>Métabolisme hors ligne</Value>
+			<Value>Métabolisme en hors ligne</Value>
 		</Record>
 		<Record>
 			<Key>DownlinkConnectedToNothing</Key>
@@ -30738,7 +30750,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>BatteryCellStateFull</Key>
-			<Value>Plein</Value>
+			<Value>100 %</Value>
 		</Record>
 		<Record>
 			<Key>CommsMotherboardCurrentlyTrading</Key>
@@ -30810,7 +30822,8 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>TradeActionCharge</Key>
-			<Value>Charge {LOCAL:Value}</Value>
+			<Value>Charge : {LOCAL:Value}
+</Value>
 		</Record>
 		<Record>
 			<Key>LogicWrite</Key>
@@ -31226,7 +31239,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>RespawnHere</Key>
-			<Value>Point d’apparition défini</Value>
+			<Value>Point d'apparition défini</Value>
 		</Record>
 		<Record>
 			<Key>Hydration</Key>
@@ -31246,7 +31259,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>NextWeatherHashDescription</Key>
-			<Value>NextWeatherHash fournit la valeur de hachage du nom du prochain événement météo sous forme d’entier 32 bits.</Value>
+			<Value>NextWeatherHash fournit la valeur de hachage du nom du prochain événement météo sous forme d'entier 32 bits.</Value>
 		</Record>
 		<Record>
 			<Key>WeatherEventComing</Key>
@@ -31266,11 +31279,11 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>SlotItemProvidesPower</Key>
-			<Value>{LOCAL:Item} fournit {LOCAL:Power} d’énergie</Value>
+			<Value>{LOCAL:Item} fournit {LOCAL:Power} d'énergie</Value>
 		</Record>
 		<Record>
 			<Key>CanReplaceFuselage</Key>
-			<Value>Peut remplacer d’autres fuselages en tenant un {LOCAL:Tool}</Value>
+			<Value>Peut remplacer d'autres fuselages en tenant un {LOCAL:Tool}</Value>
 		</Record>
 		<Record>
 			<Key>ShowerWillClean</Key>
@@ -31278,7 +31291,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>ShowerNotInPosition</Key>
-			<Value>{LOCAL:Occupant} n’est pas assez proche de la douche</Value>
+			<Value>{LOCAL:Occupant} n'est pas assez proche de la douche</Value>
 		</Record>
 		<Record>
 			<Key>ShowerCannotWhenWearing</Key>
@@ -31298,11 +31311,11 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>LogicDescriptionFreeSlots</Key>
-			<Value>Nombre d’emplacements libres disponibles dans cet objet.</Value>
+			<Value>Nombre d'emplacements libres disponibles dans cet objet.</Value>
 		</Record>
 		<Record>
 			<Key>LogicDescriptionTotalSlots</Key>
-			<Value>Nombre total d’emplacements disponibles dans cet objet.</Value>
+			<Value>Nombre total d'emplacements disponibles dans cet objet.</Value>
 		</Record>
 		<Record>
 			<Key>UnidentifiedPlayer</Key>
@@ -31314,7 +31327,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>PlayerBodyBagDead</Key>
-			<Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; est &lt;color=red&gt;mort&lt;/color&gt; dans le sac mortuaire et attend d’être réanimé.</Value>
+			<Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; est &lt;color=red&gt;mort&lt;/color&gt; dans le sac mortuaire et attend d'être réanimé.</Value>
 		</Record>
 		<Record>
 			<Key>PlayerIsOnline</Key>
@@ -31338,7 +31351,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>PlayerRequestHelpUnconscious</Key>
-			<Value>{LOCAL:UserName} est en difficulté et a besoin d’aide.</Value>
+			<Value>{LOCAL:UserName} est en difficulté et a besoin d'aide.</Value>
 		</Record>
 		<Record>
 			<Key>PlayerRequestHelpDead</Key>
@@ -31358,11 +31371,11 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>EnergyTransfer</Key>
-			<Value>Transfert d’énergie</Value>
+			<Value>Transfert d'énergie</Value>
 		</Record>
 		<Record>
 			<Key>HeatExchangeArea</Key>
-			<Value>Surface d’échange</Value>
+			<Value>Surface d'échange</Value>
 		</Record>
 		<Record>
 			<Key>HeatExchangeFromTo</Key>
@@ -31370,7 +31383,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>DeviceNoPayload</Key>
-			<Value>{LOCAL:Thing} n’a pas de charge utile</Value>
+			<Value>{LOCAL:Thing} n'a pas de charge utile</Value>
 		</Record>
 		<Record>
 			<Key>EntityStarving</Key>
@@ -31386,7 +31399,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>ToolUseSpeed</Key>
-			<Value>Vitesse d’utilisation des outils</Value>
+			<Value>Vitesse d'utilisation des outils</Value>
 		</Record>
 		<Record>
 			<Key>TradePenalty</Key>
@@ -31394,11 +31407,11 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>DeviceIsNotOperable</Key>
-			<Value>Le dispositif n’est pas opérationnel</Value>
+			<Value>Le dispositif n'est pas opérationnel</Value>
 		</Record>
 		<Record>
 			<Key>PumpIntoPad</Key>
-			<Value>Pomper vers la plateforme d’atterrissage</Value>
+			<Value>Pomper vers la plateforme d'atterrissage</Value>
 		</Record>
 		<Record>
 			<Key>PumpIntoTank</Key>
@@ -31414,7 +31427,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>Warning</Key>
-			<Value>Avertissement</Value>
+			<Value>Alerte</Value>
 		</Record>
 		<Record>
 			<Key>Critical</Key>
@@ -31446,7 +31459,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>DamageFromLackOfWater</Key>
-			<Value>Perte de santé due au manque d’eau</Value>
+			<Value>Perte de santé due au manque d'eau</Value>
 		</Record>
 		<Record>
 			<Key>RobotHasNoBattery</Key>
@@ -31458,11 +31471,11 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>PartialPressureN2O</Key>
-			<Value>Pression partielle d’oxyde nitreux</Value>
+			<Value>Pression partielle d'oxyde nitreux</Value>
 		</Record>
 		<Record>
 			<Key>Refreshed</Key>
-			<Value>Rafraîchi</Value>
+			<Value>Propre</Value>
 		</Record>
 		<Record>
 			<Key>MovementSpeed</Key>
@@ -31474,7 +31487,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>UnviableEggNotice</Key>
-			<Value>{LOCAL:Name} n’est pas viable</Value>
+			<Value>{LOCAL:Name} n'est pas viable</Value>
 		</Record>
 		<Record>
 			<Key>WillHatchInto</Key>
@@ -31482,43 +31495,43 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>ViableEggNotice</Key>
-			<Value>L’incubation nécessite une température de {LOCAL:MinTemp} à {LOCAL:MaxTemp}</Value>
+			<Value>L'incubation nécessite une température de {LOCAL:MinTemp} à {LOCAL:MaxTemp}</Value>
 		</Record>
 		<Record>
 			<Key>PlayerStateMoodDecreasing</Key>
-			<Value>L’humeur diminue</Value>
+			<Value>L'humeur diminue</Value>
 		</Record>
 		<Record>
 			<Key>PlayerStateMoodIncreasing</Key>
-			<Value>L’humeur augmente</Value>
+			<Value>L'humeur augmente</Value>
 		</Record>
 		<Record>
 			<Key>PlayerStateHygieneDecreasing</Key>
-			<Value>L’hygiène diminue</Value>
+			<Value>L'hygiène diminue</Value>
 		</Record>
 		<Record>
 			<Key>PlayerStateHygieneIncreasing</Key>
-			<Value>L’hygiène augmente</Value>
+			<Value>L'hygiène augmente</Value>
 		</Record>
 		<Record>
 			<Key>EggIsTooCold</Key>
-			<Value>L’oeuf est trop froid</Value>
+			<Value>L'oeuf est trop froid</Value>
 		</Record>
 		<Record>
 			<Key>EggIsTooHot</Key>
-			<Value>L’oeuf est trop chaud</Value>
+			<Value>L'oeuf est trop chaud</Value>
 		</Record>
 		<Record>
 			<Key>FertilizedEggProcess</Key>
-			<Value>{LOCAL:Thing} est à {LOCAL:Percent} de l’éclosion</Value>
+			<Value>{LOCAL:Thing} est à {LOCAL:Percent} de l'éclosion</Value>
 		</Record>
 		<Record>
 			<Key>LogicDescriptionAltitude</Key>
-			<Value>L'altitude à laquelle la fusée est au-dessus de la surface de la planète. -1 si la fusée est dans l'espace.</Value>
+			<Value>Altitude de la fusée par rapport à la surface. Affiche -1 si dans l'espace.</Value>
 		</Record>
 		<Record>
 			<Key>AutoLandConfidence</Key>
-			<Value>Confiance en la réussite de l'atterrissage :</Value>
+			<Value>Probabilité de réussite de l'atterrissage :</Value>
 		</Record>
 		<Record>
 			<Key>DefaultStartCondition</Key>
