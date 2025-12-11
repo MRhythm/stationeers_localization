@@ -77,7 +77,7 @@
 		<StationpediaPage>
 			<Key>FabricatorPage</Key>
 			<Title>Machines</Title>
-			<Text>Ce sont des structures alimentées qui peuvent être utilisées pour fabriquer ce dont vous avez besoin dans le jeu. Ils utilisent généralement des {LINK:IngotPage;lingots} pour extraire les {LINK:ReagentPage;réactifs} dont ils ont besoin pour créer des objets.
+			<Text>Ce sont des structures alimentées qui peuvent être utilisées pour fabriquer ce dont vous avez besoin dans le jeu. Elles utilisent généralement des {LINK:IngotPage;lingots} pour extraire les {LINK:ReagentPage;réactifs} dont ils ont besoin pour créer des objets.
  {LIST_OF_FABRICATORS}
  </Text>
 		</StationpediaPage>
@@ -99,14 +99,14 @@
 			<Key>SmeltingPage</Key>
 			<DisplayFilter>Guides</DisplayFilter>
 			<Title>Fonte</Title>
-			<Text>Une fois que vous avez du {LINK:OrePage;minerai}, vous devez le convertir en {LINK:IngotPage;lingot} pour pouvoir utiliser leur {LINK:ReagentPage;réactif}. La fonte produit souvent des {LINK:GasPage;gaz}. Cela se produit soit dans le {THING:StructureArcFurnace} (pour des recettes simples) ou dans le {THING:StructureFurnace} pour un {LINK:AlloyPage;alliage} plus compliqué, et enfin un {THING:StructureAdvancedFurnace} pour un {LINK:SuperAlloyPage;Super alliage}. Pour les alliages complexes, vous devrez réaliser des mélanges avec des rapports parfaits, de {LINK:TemperaturePage;température} et de {LINK:PressurePage;pression}.			
+			<Text>Une fois que vous avez du {LINK:OrePage;minerai}, vous devez le convertir en {LINK:IngotPage;lingot} pour pouvoir utiliser leurs {LINK:ReagentPage;réactifs}. La fonte produit souvent des {LINK:GasPage;gaz}. Cela se produit soit dans le {THING:StructureArcFurnace} (pour des recettes simples) ou dans le {THING:StructureFurnace} pour un {LINK:AlloyPage;alliage} plus compliqué, et enfin un {THING:StructureAdvancedFurnace} pour un {LINK:SuperAlloyPage;Super alliage}. Pour les alliages complexes, vous devrez réaliser des mélanges avec des rapports parfaits, de {LINK:TemperaturePage;température} et de {LINK:PressurePage;pression}.			
 		 </Text>
 		</StationpediaPage>
 		<StationpediaPage>
 			<Key>MiningPage</Key>
 			<DisplayFilter>Guides</DisplayFilter>
 			<Title>Minage</Title>
-			<Text>Vous pouvez exploiter un {LINK:OrePage;minerai} avec une {THING:ItemMiningDrill}. Si vous portez une {THING:ItemMiningBelt}, le {LINK:OrePage;minerai} y sera automatiquement placé.
+			<Text>Vous pouvez miner un {LINK:OrePage;minerai} avec une {THING:ItemMiningDrill}. Si vous portez une {THING:ItemMiningBelt}, le {LINK:OrePage;minerai} y sera automatiquement placé.
 	</Text>
 		</StationpediaPage>
 		<StationpediaPage>
@@ -119,7 +119,7 @@ Il existe trois niveaux distincts de contacts. Ces contacts sont de plus en plus
 
 Les contacts doivent être résolus par la parabole avant de pouvoir déterminer avec précision la direction du contact. Le temps de résolution est déterminé par la puissance de sortie de la parabole multipliée par l'alignement de la parabole, sur la puissance de résolution attendue du contact. Si le contact se résout trop lentement, cela indique probablement que vous n'êtes pas du tout proche de la cible, et vous devriez essayer un angle très différent. Alternativement, le contact pourrait avoir une puissance attendue très élevée, et votre parabole actuelle n'est tout simplement pas assez grande pour le résoudre en un temps raisonnable. Le processus de résolution utilise seulement 10% de la puissance réelle configurée pour votre parabole.
 
-Une fois que vous avez résolu la position des contacts, vous pourrez appuyer sur le bouton d'interrogation. Tout comme pour la résolution, vous devrez fournir suffisamment de puissance au contact. Le dialogue d'interrogation vous informera des calculs en cours. L'interrogation a également une puissance minimale, et si la parabole n'est pas suffisamment pointée, ou si la puissance est trop faible, vous ne pourrez pas démarrer le processus. L'interrogation a également une exigence de temps, les contacts plus difficiles prenant significativement plus de temps, il vous faudra donc utiliser des puissances élevées pour vous assurer de terminer avant que le commerçant ne parte. Une fois l'interrogatoire terminé, vous pourrez faire atterrir le commerçant comme auparavant.
+Une fois que vous avez résolu la position des contacts, vous pourrez appuyer sur le bouton d'interrogation. Tout comme pour la résolution, vous devrez fournir suffisamment de puissance au contact. Le dialogue d'interrogation vous informera des calculs en cours. L'interrogation a également une puissance minimale, et si la parabole n'est pas suffisamment pointée, ou si la puissance est trop faible, vous ne pourrez pas démarrer le processus. L'interrogation a également une exigence de temps, les contacts plus difficiles prenant significativement plus de temps, il vous faudra donc utiliser des puissances élevées pour vous assurer de terminer avant que le commerçant ne parte. Une fois l'interrogation terminé, vous pourrez faire atterrir le commerçant comme auparavant.
 
 {LIST_OF_TRADING_DEVICES}
  </Text>
@@ -129,7 +129,7 @@ Une fois que vous avez résolu la position des contacts, vous pourrez appuyer su
 			<Title>Construction</Title>
 			<DisplayFilter>Guides</DisplayFilter>
 			<Text>{HEADER:Pour Commencer}
-En général, vous utiliserez des {LINK:KitPage;kits} pour initier la construction, puis une variété d'{LINK:ToolPage;outil} et des {LINK:ResourcePage;ressources} pour terminer. Faites attention au nombre de kits nécessaires pour construire ce que vous avez sélectionné, car certaines structures nécessitent plus d'un élément du lot pour être consommées. Pour certains kits, vous aurez plusieurs options, utilisez la {COLORRED:Molette de défilement} pour changer l'option actuelle que vous voulez construire.
+En général, vous utiliserez des {LINK:KitPage;kits} pour initier la construction, puis une variété d'{LINK:ToolPage;outil} et des {LINK:ResourcePage;ressources} pour terminer. Faites attention au nombre de kits nécessaires pour construire ce que vous avez sélectionné, car certaines structures nécessitent plus d'un élément du lot pour être consommés. Pour certains kits, vous aurez plusieurs options, utilisez la {COLORRED:Molette de défilement} pour changer l'option actuelle que vous voulez construire.
 
 {HEADER:États de Construction}
 Certaines structures auront plusieurs états de construction nécessitant différentes combinaisons pour être complétées. Votre info-bulle vous indiquera la combinaison nécessaire pour terminer la structure. Parfois, vous devrez avoir deux objets, un dans chaque main, pour compléter un état de construction. Certains outils devront d'abord être activés, ce qui peut être fait en appuyant sur {KEY:ToggleHandPower} tandis qu'il est dans votre main active.
@@ -156,7 +156,7 @@ Lors de la construction, il est important de noter que la pression est mesurée 
 En conséquence, les {LINK:Stationeers;Stationeers} ont dû créer leur propre accompagnement musical pour le travail exigeant de construction et de maintenance des infrastructures extraterrestres.
 Au cœur de ce passe-temps se trouve le séquenceur pas à pas, qui permet aux {LINK:Stationeers;Stationeers} de créer des motifs ou des boucles musicales courtes.
 
-{HEADER: CREE VOTRE MUSIQUE - POUR COMMENCER}
+{HEADER: CRÉEZ VOTRE MUSIQUE - POUR COMMENCER}
 
 1 : Connectez 8 {THING:DeviceStepUnit} à votre {THING:LogicStepSequencer8} via le port de données sur le côté gauche.
 
@@ -194,7 +194,7 @@ L'ajout d'appareils à un réseau de tuyaux peut le diviser en deux réseaux dif
 
 Utilisez la {THING:ItemTablet} avec la {THING:CartridgeAtmosAnalyser} installé pour voir des informations sur le contenu de tout réseau de tuyaux.
 
-{HEADER:RADIATEURS PASSIF}
+{HEADER:RADIATEUR PASSIF}
 Fabriqué dans l'imprimante hydraulique, un {THING:StructurePipeRadiator} vous aidera à échanger de la chaleur entre les tuyaux et leur environnement environnant. Ils fonctionnent à la fois sur les tuyaux isolés et les tuyaux, ainsi que sur leurs variantes liquides.
 
 Dans des conditions normales, un segment de tuyau échangera de la chaleur avec son environnement environnant, mais l'ajout d'un radiateur à ce segment de tuyau accélérera grandement le processus. Un segment de tuyau continuera d'échanger de la chaleur avec l'atmosphère environnante jusqu'à ce que les deux s'équilibrent en température.
@@ -203,10 +203,10 @@ Dans des conditions normales, un segment de tuyau échangera de la chaleur avec 
 Vous pouvez refroidir ou chauffer n'importe quel environnement en utilisant un {THING:StructurePipeRadiator} pour échanger de la chaleur entre deux atmosphères. Un exemple serait de placer un tuyau sur le mur, de le remplir de gaz et de placer des radiateurs sur le tuyau. Les deux atmosphères du tuyau et de la pièce échangeront de la température jusqu'à ce que leurs environnements s'équilibrent.
 
 {HEADER:RADIATEUR ÉLECTRIQUE}
-Le {THING:ItemWallHeater} est un appareil simple qui peut être installé sur un mur ou un cadre (en fer ou en acier) et connecté à l'alimentation. Lorsqu'il est allumé, il commencera à chauffer l'environnement environnant. Il consomme 1 010 W de puissance et peut être contrôlé par des unitées logiques pour fonctionner lorsque la température atteint un certain niveau.
+Le {THING:ItemWallHeater} est un appareil simple qui peut être installé sur un mur ou un cadre (en fer ou en acier) et connecté à l'alimentation. Lorsqu'il est allumé, il commencera à chauffer l'environnement environnant. Il consomme 1 010 W de puissance et peut être contrôlé par des unités logiques pour fonctionner lorsque la température atteint un certain niveau.
 
 {HEADER:REFROIDISSEUR À GAZ}
-Le {THING:ItemWallCooler} à l'opposé du {THING:ItemWallHeater}, qui ne peut que augmenter la température. Le refroidisseur à gaz fonctionne en extrayant de la chaleur de l'atmosphère environnante et en ajoutant cette chaleur à son réseau de tuyaux de gaz. Pour faire fonctionner correctement le refroidisseur à gaz, vous devrez connecter des tuyaux de gaz au refroidisseur à gaz et remplir le réseau de tuyaux de gaz connecté avec n'importe quel type de gaz. La capacité calorifique et le volume du gaz détermineront sa réaction aux variations de température. 
+Le {THING:ItemWallCooler} est l'opposé du {THING:ItemWallHeater}, qui ne peut qu'augmenter la température. Le refroidisseur à gaz fonctionne en extrayant de la chaleur de l'atmosphère environnante et en ajoutant cette chaleur à son réseau de tuyaux de gaz. Pour faire fonctionner correctement le refroidisseur à gaz, vous devrez connecter des tuyaux de gaz au refroidisseur à gaz et remplir le réseau de tuyaux de gaz connecté avec n'importe quel type de gaz. La capacité calorifique et le volume du gaz détermineront sa réaction aux variations de température. 
 
 Plus la différence de température entre le gaz stocké dans les tuyaux et la pièce est grande, moins le refroidisseur à gaz sera efficace. Ainsi, pour maintenir le refroidisseur à gaz en marche avec une efficacité acceptable, vous devrez vous débarrasser de la chaleur qui s'accumule dans les tuyaux qui y sont connectés. Une pratique courante consiste à faire passer les tuyaux de gaz vers l'extérieur et à utiliser des radiateurs sur la section extérieure des tuyaux pour éliminer la chaleur.
 
@@ -223,7 +223,7 @@ Le {THING:ItemWaterWallCooler} est similaire au {THING:ItemWallCooler}, mais uti
 
 
 {HEADER:CLIMATISEUR}
-Le {THING:StructureAirConditioner} dans sa forme de base fonctionne comme le refroidisseur a gaz et peut bénéficier des mêmes conceptions. Cependant, il est plus puissant. Il refroidit plus rapidement et utilise considérablement plus de puissance en fonction de la situation, le rendant ainsi plus adapté pour traiter de grands volumes et de vastes zones. Il peut chauffer ou refroidir en fonction du réglage.
+Le {THING:StructureAirConditioner} dans sa forme de base fonctionne comme le refroidisseur à gaz et peut bénéficier des mêmes conceptions. Cependant, il est plus puissant. Il refroidit plus rapidement et utilise considérablement plus de puissance en fonction de la situation, le rendant ainsi plus adapté pour traiter de grands volumes et de vastes zones. Il peut chauffer ou refroidir en fonction du réglage.
 
 CLIMATISEUR : COMMENT ÇA MARCHE
 Le climatiseur a 3 connexions de tuyaux (Entrée, Sortie, Déchet). Le gaz entre par le côté d'entrée, puis, en fonction du réglage, de la chaleur est ajoutée ou retirée du gaz entrant, et ajoutée au tuyau de déchet. Le gaz de sortie sortira ensuite par la connexion de sortie, plus frais ou plus chaud en fonction du réglage.
@@ -321,7 +321,7 @@ Les pièces de fusée sont imprimées sur l'{THING:StructureRocketManufactory}.
 
 Le {THING:StructureFuselageTypeA1} doit être construit sur une {THING:StructureLaunchMount}. Un {THING:StructureGovernedGasEngine} doit être placé dans un {THING:StructureEngineMountTypeA1}.
 
-Des connexions ombilicaux de ressources sont placés sur la {THING:StructureRocketTower} et connectent à l'{THING:StructureGasUmbilicalMale} et à la {THING:StructureGasUmbilicalFemale} situés à l'intérieur de la fusée.
+Des connexions ombilicales de ressources sont placés sur la {THING:StructureRocketTower} et connectent à l'{THING:StructureGasUmbilicalMale} et à la {THING:StructureGasUmbilicalFemale} situés à l'intérieur de la fusée.
 
 Un {THING:StructureComputer} avec la {THING:MotherboardRockets} fournit une interface utilisateur pour contrôler la fusée.
 
@@ -506,11 +506,11 @@ Pression de fonte {0}</Text>
 		</StationpediaPage>
 		<StationpediaPage>
 			<Key>Lore</Key>
-			<Text/>
+			<Text></Text>
 		</StationpediaPage>
 		<StationpediaPage>
 			<Key>Guides</Key>
-			<Text/>
+			<Text></Text>
 		</StationpediaPage>
 		<StationpediaPage>
 			<Key>CreatedReagentTemplate</Key>
@@ -627,7 +627,7 @@ L'effet de ces ingrédients dépend de leurs proportions respectives dans le com
 			<Key>HydrationPage</Key>
 			<Title>Soif + hydratation</Title>
 			<DisplayFilter>Guides</DisplayFilter>
-			<Text>Votre {LINK:Stationeers;Stationeer} moyen doit boire de l'{GAS:Water} régulièrement. Cependant, les réglementations de santé et de sécurité obscures et peut-être malavisées de l'{LINK:ODA;ODA} ont depuis longtemps refusé aux {LINK:Stationeers;Stationeers} le droit de disposer de mécanismes d'hydratation dans leur combinaison. Au lieu de cela, ils doivent prendre régulièrement des pauses pour ouvrir leur casque et boire de l'{GAS:Water}. Faire cela dans un environnement non pressurisé n'est pas conseillé.
+			<Text>Votre {LINK:Stationeers;Stationeer} moyen doit boire de l'{GAS:Water} régulièrement. Cependant, les réglementations de santé et de sécurité obscures et peut-être malavisées de l'{LINK:ODA;ODA} ont depuis longtemps refusé aux {LINK:Stationeers;Stationeers} le droit de disposer d'un système d'hydratation intégré dans leur combinaison. Au lieu de cela, ils doivent prendre régulièrement des pauses pour ouvrir leur casque et boire de l'{GAS:Water}. Faire cela dans un environnement non pressurisé n'est pas conseillé.
 
 À quelle fréquence boire ? Cela est déterminé par votre niveau de difficulté, la chaleur de la planète et la quantité que vous aimez bouger votre corps.
 
@@ -657,7 +657,7 @@ Les combinaisons ont 6 à 8 emplacements :
 - Réservoir de déchets (x1) - recueille les gaz éliminés par les filtres
 - Support de vie (x1) - contient une batterie, qui alimente votre climatisation, vos lumières, etc.
 - Filtres (x3) - nécessite au moins un {THING:ItemGasFilterCarbonDioxide} (si humain), en fonction de votre mélange gazeux respirable. Notez qu'une {THING:ItemHardSuit} possède 4 emplacements de filtre.
-- Circuit intéré (IC10) - uniquement pour la {THING:ItemHardSuit}.
+- Circuit intégré (IC10) - uniquement pour la {THING:ItemHardSuit}.
 
 Pression : doit être réglée à 50-100 kPa (0,5 à 1 atmosphère terrestre). Les humains dans le jeu tolèrent jusqu'à ~250 kPa et peuvent survivre jusqu'à ~300 kPa.
 
@@ -665,7 +665,7 @@ Température : normalement réglée à 18-21 °C, les humains dans le jeu préf�
 
 Filtres : le filtre par défaut est le filtre de {GAS:CarbonDioxide}, qui capture le gaz généré par les humains lorsqu'ils expirent. Si vous n'utilisez pas 100 % d'{GAS:Oxygen} dans votre mélange gazeux respirable, ajoutez des filtres supplémentaires, par exemple si vous mélangez 25 % d'{GAS:Oxygen} + 75 % d'{GAS:Nitrogen}, l'azote s'accumulera dans votre combinaison au fil du temps et vous étouffera, à moins d'avoir un filtre à azote. Si vous avez les filtres appropriés et le gaz respirable, mais que vous rencontrez toujours des problèmes, utilisez la fonction "Purge" sur votre casque spatial. Des avertissements d'{GAS:Oxygen} faible/critique retentiront lorsque vos filtres cesseront de fonctionner.
 
-Si elle est endommagée, votre combinaison peut être réparée en maintenant le {THING:ItemDuctTape} dans votre main et en utilisant le bouton "activer".
+Si elle est endommagée, votre combinaison peut être réparée en maintenant le {THING:ItemDuctTape} dans votre main et en utilisant le bouton "Activer".
 </Text>
 		</StationpediaPage>
 	</HelpPage>
