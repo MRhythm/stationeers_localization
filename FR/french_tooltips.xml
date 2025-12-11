@@ -5,19 +5,19 @@
 	<ScreenSpaceToolTips>
 		<Record>
 			<Key>StatusIconToxinName</Key>
-			<Value>Toxines</Value>
+			<Value>Polluants</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconToxinDesc</Key>
-			<Value>Niveau de toxines élevé</Value>
+			<Value>Niveau de polluants élevé</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconToxinDescription</Key>
-			<Value>Niveau de toxines élevé</Value>
+			<Value>Niveau de polluants élevé</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconToxinWarning</Key>
-			<Value>Attention : Niveau de toxines élevé</Value>
+			<Value>Attention : Niveau de polluants élevé</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconHydrationDesc</Key>
@@ -37,7 +37,7 @@
 		</Record>
 		<Record>
 			<Key>StatusIconToxinCritical</Key>
-			<Value>Niveau de toxines critique</Value>
+			<Value>Niveau de polluants critique</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconOxygenName</Key>
@@ -53,7 +53,7 @@
 		</Record>
 		<Record>
 			<Key>StatusIconOxyegnCritical</Key>
-			<Value>Réservoir d’oxygène critique, remplacez-le immédiatement</Value>
+			<Value>Réservoir d'oxygène critique, remplacez-le immédiatement</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconPressureName</Key>
@@ -109,7 +109,7 @@
 		</Record>
 		<Record>
 			<Key>StatusIconJetpackName</Key>
-			<Value>Propulseurs actifs</Value>
+			<Value>Propulseurs activés</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconClimbingName</Key>
@@ -181,15 +181,15 @@
 		</Record>
 		<Record>
 			<Key>StatusIconAirTankDesc</Key>
-			<Value>Le réservoir d'air est presque épuisé</Value>
+			<Value>Le réservoir d'air est presque vide</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconJetpackWarningName</Key>
-			<Value>Attention : Capacité du propulseur</Value>
+			<Value>Attention : Capacité des propulseurs</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconJetpackWarningDesc</Key>
-			<Value>Le propulseur est presque épuisé</Value>
+			<Value>Le carburant des propulseurs est presque vide</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconFilterName</Key>
@@ -197,11 +197,11 @@
 		</Record>
 		<Record>
 			<Key>StatusIconFilterDesc</Key>
-			<Value>Les filtres sont presque épuisés</Value>
+			<Value>Les filtres sont presque usés</Value>
 		</Record>
 		<Record>
 			<Key>StatucIconFilterDesc</Key>
-			<Value>Les filtres sont presque épuisés</Value>
+			<Value>Les filtres sont presque usés</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconWasteName</Key>
@@ -258,6 +258,22 @@
 		<Record>
 			<Key>StatusIconLeavingAreaDesc</Key>
 			<Value>Faites demi-tour</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconRespawnStressName</Key>
+			<Value>Stress de réapparition</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconRespawnStressDesc</Key>
+			<Value>Réduit la vitesse des actions</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconCoolantName</Key>
+			<Value>Température du réservoir de liquide de refroidissement</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconCoolantDesc</Key>
+			<Value>La température du liquide de refroidissement est trop élevée</Value>
 		</Record>
 	</ScreenSpaceToolTips>
 </Language>
