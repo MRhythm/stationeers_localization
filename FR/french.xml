@@ -9788,13 +9788,18 @@ Tous les tuyaux du rangement doivent être connectés, sinon l'unité affichera 
 			<Description/>
 		</RecordThing>
 		<RecordThing>
+			<Key>ToyCosmo</Key>
+			<Value>Jouet Cosmo</Value>
+			<Description>Le meilleur ami de l'homme.</Description>
+		</RecordThing>
+		<RecordThing>
 			<Key>DynamicAFrameStripes</Key>
-			<Value>Panneau A portable (Rayures)</Value>
+			<Value>Barrière de signalisation portable (rayures)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicAFrameWIP</Key>
-			<Value>Panneau A portable (En cours)</Value>
+			<Value>Barrière de signalisation portable (travaux)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -9804,12 +9809,12 @@ Tous les tuyaux du rangement doivent être connectés, sinon l'unité affichera 
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicAFrameStripes</Key>
-			<Value>Kit (Panneau A portable (Rayures))</Value>
+			<Value>Kit (Barrière de signalisation portable, rayures)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicAFrameWIP1</Key>
-			<Value>Kit (Panneau A portable (En cours))</Value>
+			<Value>Kit (Barrière de signalisation portable, travaux)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -9819,7 +9824,7 @@ Tous les tuyaux du rangement doivent être connectés, sinon l'unité affichera 
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicChannelizer</Key>
-			<Value>Kit (Canalisateur portable)</Value>
+			<Value>Kit (Balise de signalisation portable)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -9834,7 +9839,7 @@ Tous les tuyaux du rangement doivent être connectés, sinon l'unité affichera 
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicChannelizer</Key>
-			<Value>Canalisateur portable</Value>
+			<Value>Balise de signalisation portable</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
