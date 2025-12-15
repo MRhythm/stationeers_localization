@@ -29309,15 +29309,15 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ToxinDamage</Key>
-      <Value>毒素伤害</Value>
+      <Value>毒素损伤</Value>
     </Record>
     <Record>
       <Key>BurnDamage</Key>
-      <Value>烧伤伤害</Value>
+      <Value>呼吸温度损伤</Value>
     </Record>
     <Record>
       <Key>VacuumDamage</Key>
-      <Value>真空伤害</Value>
+      <Value>真空损伤</Value>
     </Record>
     <Record>
       <Key>DamageFromLackOfFood</Key>
