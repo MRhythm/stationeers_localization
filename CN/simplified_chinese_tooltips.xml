@@ -149,11 +149,11 @@
     </Record>
     <Record>
       <Key>StatusIconWasteName</Key>
-      <Value>水分容量</Value>
+      <Value>废气瓶容量</Value>
     </Record>
     <Record>
       <Key>StatusIconWasteDesc</Key>
-      <Value>储水瓶将满</Value>
+      <Value>废气瓶将满</Value>
     </Record>
     <Record>
       <Key>StatusIconHealthName</Key>
@@ -190,6 +190,22 @@
     <Record>
       <Key>StatusIconLeavingAreaDesc</Key>
       <Value>已越界, 立刻折返</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconRespawnStressName</Key>
+      <Value>重生压力</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconRespawnStressDesc</Key>
+      <Value>影响各类行为速度</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantName</Key>
+      <Value>冷却剂温度</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantDesc</Key>
+      <Value>冷却剂温度过高</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>

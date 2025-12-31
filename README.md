@@ -14,11 +14,11 @@ Overwrite the existing files when prompted.<br/>
 | ------------- | -------------------- | -------------------------- |
 | CN            | Simplefied Chinese   | MRhythm                    |
 | RU            | Russian              | AlexusYT                   |
-| FR            | French               | CedricDx, Gosti_FR         |
+| FR            | French               | CedricDx                   |
 
 
 
 ### Maintenance:
 This repository synchronizes with game updates.<br/>
-Last updated: 2025/08/14<br/>
-Game version: 25797<br/>
+Last updated: 2025/12/10<br/>
+Game version: 26682<br/>

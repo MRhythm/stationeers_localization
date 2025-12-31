@@ -379,11 +379,24 @@
       <DisplayFilter>Guides</DisplayFilter>
       <Text>太阳系的行星并非表面那般平静. 在任何一个拥有大气层的星球上度过七天后, 深不可测的自然力量便会开始发威——用暴风雪、沙尘暴和火山活动袭击毫无防备的Stationeer.
 因此,  {LINK:ODA;ODA} 建议新部署的工程师应在着陆后7天内建造气密基地.
+
 遗留在火星、楼兰、火神星或木卫二等星球风暴中的松散物体——包括你的着陆舱——都可能被吹到极其遥远的地方.
+
 同样需要注意的是, 太阳能板也十分脆弱, 其玻璃可能在风暴中碎裂, 甚至偶尔会被特别猛烈的风暴彻底摧毁. 在风暴期间, 它们的发电效率也会急剧下降
       </Text>
    </StationpediaPage>
-    
+
+   <StationpediaPage>
+        <Key>CableNetworkPage</Key>
+        <Title>Cable Networks</Title>
+        <Text>使用 {THING:ItemCableCoil} 铺设电缆时, 你会同时创建电缆网络. 这些网络包含易失性内存, 可通过 {THING:ItemIntegratedCircuit10} 进行读取或写入操作, 其中包括各种特殊逻辑变量 (例如 {LOGICTYPE:Channel0} 到 {LOGICTYPE:Channel7} ). 网络还具备可读内存, 其中包含网络上所有数据设备的列表，并可通过 GET 指令查找该设备的 {LOGICTYPE:ReferenceId}。
+
+要获取堆栈中当前设备的数量，请使用网络上的 {LOGICTYPE:StackSize} 变量, 因为网络会根据其内部设备动态调整堆栈大小. 电缆网络是易失性内存, 当网络发生变化时, 其顺序,内容和数据都会随之改变——因此你可能需要持续轮询并更新信息.
+
+要访问这些数据, 可在设备引用后添加额外标识符, 例如 {COLORYELLOW:d0}:{COLORYELLOW:1} 表示访问设备d0上的1号网络. 对应的网络连接编号可在Stationpedia对应设备的"连接"条目下查看.
+        </Text>
+   </StationpediaPage>
+
     <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                     TEMPLATES               |

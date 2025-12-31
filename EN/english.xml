@@ -15,6 +15,11 @@
       <Unit>ml</Unit>
     </RecordReagent>
     <RecordReagent>
+      <Key>Cheese</Key>
+      <Value>Cheese</Value>
+      <Unit>g</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>Egg</Key>
       <Value>Egg</Value>
       <Unit />
@@ -1163,7 +1168,7 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     <RecordThing>
       <Key>ItemFertilizedEgg</Key>
       <Value>Egg</Value>
-      <Description>To hatch it requires an incubation temperature of between 35 and 45 degrees Celsius and will hatch into a {THING:NpcChick}. If the egg is exposed to tepratures below 10 degrees it will no longer be viable.</Description>
+      <Description>When incubated will hatch into a {THING:NpcChick}. If exposed to temperatures below 10 degrees it will no longer be viable.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFireExtinguisher</Key>
@@ -1851,6 +1856,11 @@ The {LINK:Norsec;Norsec-designed} K-cops 10-10 sorter motherboard permits {LINK:
       <Description>Lungs are delicate organs. Keeping them at the correct temperature and pressure is advisable.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicBodyBag</Key>
+      <Value>Body Bag</Value>
+      <Description>When dead players decay they will move into a body bag. If they have not respawned the dead player can be revived in a {THING:StructureCryoTube}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>SpaceShuttle</Key>
       <Value>Space Shuttle</Value>
       <Description>An antiquated {LINK:Sinotai;Sinotai} transport craft, long since decommissioned.</Description>
@@ -1888,7 +1898,7 @@ Lastly, an APC charges batteries, which can provide backup power to the sub-netw
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
-      <Value>Area Power Control</Value>
+      <Value>Area Power Control (Reversed)</Value>
       <Description>An Area Power Control (APC) has three main functions. 
 Its primary purpose is to regulate power flow, ensuring uninterrupted performance from devices and machinery, especially those with a fluctuating draw. 
 APCs also create sub-networks, as no devices on the far side of an APC are visible on the main network. 
@@ -4559,6 +4569,10 @@ When connected to a {THING:StructureComputer} containing a {THING:MotherboardCom
       <Value>Lander</Value>
     </RecordThing>
     <RecordThing>
+      <Key>LanderMkII</Key>
+      <Value>Lander Mk II</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemRemoteDetonator</Key>
       <Value>Remote Detonator</Value>
     </RecordThing>
@@ -7215,37 +7229,37 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideInfinite</Key>
       <Value>Catalytic Filter (Carbon Dioxide)</Value>
-      <Description>A filter that selectively targets Carbon Dioxide. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets Carbon Dioxide. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygenInfinite</Key>
       <Value>Catalytic Filter (Oxygen)</Value>
-      <Description>A filter that selectively targets Oxygen. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets Oxygen. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideInfinite</Key>
       <Value>Catalytic Filter (Nitrous Oxide)</Value>
-      <Description>A filter that selectively targets Nitrous Oxide. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets Nitrous Oxide. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogenInfinite</Key>
       <Value>Catalytic Filter (Nitrogen)</Value>
-      <Description>A filter that selectively targets Nitrogen. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets Nitrogen. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutantsInfinite</Key>
       <Value>Catalytic Filter (Pollutants)</Value>
-      <Description>A filter that selectively targets Pollutants. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets Pollutants. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatilesInfinite</Key>
       <Value>Catalytic Filter (Volatiles)</Value>
-      <Description>A filter that selectively targets {GAS:Volatiles}. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets {GAS:Volatiles}. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWaterInfinite</Key>
       <Value>Catalytic Filter (Water)</Value>
-      <Description>A filter that selectively targets Water. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it an unlimited lifecycle.</Description>
+      <Description>A filter that selectively targets Water. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSolidFuel</Key>
@@ -8164,6 +8178,26 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Description>Highly efficient and powerful, the Pressure Fed Liquid Engine is a challenging engine to run in a stable configuration. Liquid is pulled from the input into the engine based on the input gas pressure. Some gas is also moved in this process so Stationeers will need to devise a system to maintain a high gas pressure in the liquid input pipe. The second liquid pipe connection is an optional heat-exchanger connection which exchanges heat between the pipes contents and the engine bell, the Setting variable drives the effectiveness of the heat-exchanger.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitPressureFedGasEngineHeavy</Key>
+      <Value>Kit (Heavy Pressure Fed Gas Engine)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePressureFedGasEngineHeavy</Key>
+      <Value>Heavy Pressure Fed Gas Engine</Value>
+      <Description>A larger more powerful variant of the {THING:StructurePressureFedGasEngine}. It sacrifices a small amount of efficiency for greatly increased thrust. Pressure Fed Gas Engines move gas from each of their inputs based on the pressure of the input pipes. Control the mixing ratio of fuels by tweaking the input pressures to target a 2:1 mix of {GAS:Volatiles} to {GAS:Oxygen} gas. Chilling propellant gasses or using {GAS:NitrousOxide} as an oxydizer will result in even higher thrust outputs.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPressureFedLiquidEngineHeavy</Key>
+      <Value>Kit (Heavy Pressure Fed Liquid Engine)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePressureFedLiquidEngineHeavy</Key>
+      <Value>Heavy Pressure Fed Liquid Engine</Value>
+      <Description>A larger more powerful variant of the {THING:StructurePressureFedLiquidEngine}. It sacrifices a small amount of efficiency for greatly increased thrust. Warning, Pressure Fed Liquid Engines are challenging engine to run in a stable configuration. Liquid is pulled from the input into the engine based on the input gas pressure. Some gas is also moved in this process so Stationeers will need to devise a system to maintain a high gas pressure in the liquid input pipe. The second liquid pipe connection is an optional heat-exchanger connection which exchanges heat between the pipes contents and the engine bell, the Setting variable drives the effectiveness of the heat-exchanger.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureFuselageTypeA1</Key>
       <Value>Fuselage (Type A1)</Value>
       <Description />
@@ -8985,6 +9019,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <RecordThing>
       <Key>ItemSuitHARM</Key>
       <Value>HARM Suit</Value>
+      <Description>The HARM Suit is the Stationeer's last resort against hostile environments.
+It is liquid cooled for superb thermal performance and boasts superior resistance to impacts and lava exposure. While the HARM suit is not compatible with a {THING:ItemJetpackBasic}, Stationeer's are still able to equip a {THING:ItemHardBackpack} or {THING:ItemHardMiningBackPack}. Due to its extra stability and size, storms do not effect movement speed while in a HARM suit; however, this results in an overall reduction to movement in general operation.
+
+</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitHelmetHARM</Key>
@@ -9155,8 +9193,287 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketDeepScanningHead</Key>
-      <Value>Rocket Deep Scanner Head</Value>
+      <Value>Rocket Surface Scanner Head</Value>
+      <Description>When placed in a Rocket Scanner, the Surface Scanner Head will scan the map for deep mining regions.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureComputerBigScreenWallMounted</Key>
+      <Value>Computer (Big Screen Wall Mounted)</Value>
       <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureComputerBigScreen</Key>
+      <Value>Computer (Big Screen)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureVendingMachineSmall</Key>
+      <Value>Vending Machine Small</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureVendingMachineSmall1</Key>
+      <Value>Vending Machine Small1</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuitStorageFrame</Key>
+      <Value>Suit Storage Frame</Value>
+      <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}. 
+When powered and connected to {GAS:Oxygen} and {GAS:Nitrogen}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. The wastetank will be pumped out to the pipe connected to the waste outlet.
+All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuitStorageLocker</Key>
+      <Value>Suit Storage Locker</Value>
+      <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}.
+When powered and connected to {GAS:Oxygen} and {GAS:Nitrogen}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. The wastetank will be pumped out to the pipe connected to the waste outlet.
+All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_GasTankConnectorPiece</Key>
+      <Value>Landingpad Tank Connector (Gas)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_LiquidTankConnectorPiece</Key>
+      <Value>Landingpad Tank Connector (Liquid)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInLineTankGas1x3</Key>
+      <Value>In-Line Tank Gas 1x3</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInLineTankLiquid1x3</Key>
+      <Value>In-Line Tank Liquid 1x3</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankGas1x3</Key>
+      <Value>In-Line Tank Gas 1x3 (Insulated)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankLiquid1x3</Key>
+      <Value>In-Line Tank Liquid 1x3 (Insulated)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner</Key>
+      <Value>Super-Heavy Cable (Corner)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner3</Key>
+      <Value>Super-Heavy Cable (Corner 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner3Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Corner 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner4</Key>
+      <Value>Super-Heavy Cable (Corner 4)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner4Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Corner 4)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCornerBurnt</Key>
+      <Value>Burnt Super-Heavy Cable (Corner)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction</Key>
+      <Value>Super-Heavy Cable (Junction)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction4</Key>
+      <Value>Super-Heavy Cable (Junction 4)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction4Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Junction 4)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction5</Key>
+      <Value>Super-Heavy Cable (Junction 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction5Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Junction 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction6</Key>
+      <Value>Super-Heavy Cable (Junction 6)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction6Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Junction 6)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunctionBurnt</Key>
+      <Value>Burnt Super-Heavy Cable (Junction)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight</Key>
+      <Value>Super-Heavy Cable (Straight)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight3</Key>
+      <Value>Super-Heavy Cable (Straight 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight3Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Straight 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight5</Key>
+      <Value>Super-Heavy Cable (Straight 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight5Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Straight 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight10</Key>
+      <Value>Super-Heavy Cable (Straight 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight10Burnt</Key>
+      <Value>Burnt Super-Heavy Cable (Straight 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraightBurnt</Key>
+      <Value>Burnt Super-Heavy Cable (Straight)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableCoilSuperHeavy</Key>
+      <Value>Cable Coil (Super Heavy)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePacker</Key>
+      <Value>Loader</Value>
+      <Description>The Loader will take objects from its left slot and put them in the available slots of the object inserted in the right slot. The slots will be filled in order from first to last. If no available slot is found, the left slot object will be ejected. The right slot object will auto eject once full or if the level is pulled.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>CardboardBoxLarge</Key>
+      <Value>Large Cardboard Box</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicAFrameStripes</Key>
+      <Value>Portable A Frame Sign (Stripes)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicAFrameWIP</Key>
+      <Value>Portable A Frame Sign (WIP)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicWorkCone</Key>
+      <Value>Portable Work Cone</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicAFrameStripes</Key>
+      <Value>Kit Portable A Frame Sign (Stripes)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicAFrameWIP1</Key>
+      <Value>Kit Portable A Frame Sign (WIP)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicBarrier</Key>
+      <Value>Kit Portable Barrier</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicChannelizer</Key>
+      <Value>Kit Portable Channelizer</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicWorkCone</Key>
+      <Value>Kit Portable Work Cone</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicBarrier</Key>
+      <Value>Portable Barrier</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicChannelizer</Key>
+      <Value>Portable Channelizer</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCheeseWedge</Key>
+      <Value>Cheese</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBurger</Key>
+      <Value>Burger</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableFuse500k</Key>
+      <Value>Cable Fuse (500kW)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeGastoGas</Key>
+      <Value>Super-Large Direct Heat Exchanger (Gases)</Value>
+      <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeGastoLiquid</Key>
+      <Value>Super-Large Direct Heat Exchanger (Gas to Liquid)</Value>
+      <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeLiquidToLiquid</Key>
+      <Value>Super-Large Direct Heat Exchanger (Liquids)</Value>
+      <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBurgerBox</Key>
+      <Value>Burger Box</Value>
+      <Description>A container for a {THING:ItemBurger} that is both asethetic and practical as it will significantly reduce the decay rate. Will directly allow the eating of contained food when opened in hands.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDrinkingFountain2x1</Key>
+      <Value>Drinking Fountain</Value>
+      <Description>The Drinking Fountain can be interacted with directly to increase hydration. It needs a {GAS:Water} supply.</Description>
     </RecordThing>
   </Things>
   <Slots>
@@ -9223,6 +9540,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>Battery</Key>
       <Value>Battery</Value>
+    </Record>
+    <Record>
+      <Key>Egg</Key>
+      <Value>Egg</Value>
     </Record>
     <Record>
       <Key>GasCanister</Key>
@@ -9293,6 +9614,14 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Appliance 2</Value>
     </Record>
     <Record>
+      <Key>Payload</Key>
+      <Value>Payload</Value>
+    </Record>
+    <Record>
+      <Key>Recipient</Key>
+      <Value>Recipient</Value>
+    </Record>
+    <Record>
       <Key>Import</Key>
       <Value>Import</Value>
     </Record>
@@ -9311,6 +9640,14 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>TransportSlot</Key>
       <Value>Transport Slot</Value>
+    </Record>
+    <Record>
+      <Key>BurgerSlot</Key>
+      <Value>Burger</Value>
+    </Record>
+    <Record>
+      <Key>FriesSlot</Key>
+      <Value>Fries</Value>
     </Record>
     <Record>
       <Key>DrillSlot</Key>
@@ -9465,6 +9802,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Player</Value>
     </Record>
     <Record>
+      <Key>Mask</Key>
+      <Value>Mask</Value>
+    </Record>
+    <Record>
       <Key>Fertiliser</Key>
       <Value>Fertiliser</Value>
     </Record>
@@ -9539,6 +9880,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>None</Key>
       <Value>None</Value>
+    </Record>
+    <Record>
+      <Key>Crate</Key>
+      <Value>Crate Slot</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -10048,6 +10393,254 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
   </Interactables>
   <Interface>
+    <Record>
+      <Key>InventorySort</Key>
+      <Value>Sort</Value>
+    </Record>
+    <Record>
+      <Key>InventoryClose</Key>
+      <Value>Close</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionFumaroleSteppeName</Key>
+      <Value>Fumarole Steppe</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionFumaroleSteppeDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionAureliaFlatsName</Key>
+      <Value>Aurelia Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionAureliaFlatsDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionIshtarPlateName</Key>
+      <Value>Ishtar Plate</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionIshtarPlateDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionCythereanPlainName</Key>
+      <Value>Cytherean Plain</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionCythereanPlainDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionVesperaPansName</Key>
+      <Value>Vespera Pans</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionVesperaPansDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionVulcanReachName</Key>
+      <Value>Vulcan Reach</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionVulcanReachDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionHephaestianFlatsName</Key>
+      <Value>Hephaestian Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionHephaestianFlatsDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionSulfurMirrorName</Key>
+      <Value>Sulfur Mirror</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionSulfurMirrorDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionPyriteTablelandName</Key>
+      <Value>Pyrite Tableland</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionPyriteTablelandDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionThiolBasinName</Key>
+      <Value>Thiol Basin</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionThiolBasinDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionGossanPlainName</Key>
+      <Value>Gossan Plain</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionGossanPlainDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionYellowMesaName</Key>
+      <Value>Yellow Mesa</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionYellowMesaDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionSaffronFlatsName</Key>
+      <Value>Saffron Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionSaffronFlatsDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionMidasWastesName</Key>
+      <Value>Midas Wastes</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionMidasWastesDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionCalderaSheetName</Key>
+      <Value>Caldera Sheet</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionCalderaSheetDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionGalenaPansName</Key>
+      <Value>Galena Pans</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionGalenaPansDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionOrpimentPanName</Key>
+      <Value>Orpiment Pan</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionOrpimentPanDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionRealgarPanName</Key>
+      <Value>Realgar Pan</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionRealgarPanDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionCinnabarPanName</Key>
+      <Value>Cinnabar Pan</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionCinnabarPanDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionJarositeFlatsName</Key>
+      <Value>Jarosite Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionJarositeFlatsDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionBrimPoolSteppeName</Key>
+      <Value>Brim Pool Steppe</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionBrimPoolSteppeDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionSulfurSaltPanName</Key>
+      <Value>Sulfur Salt Pan</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionSulfurSaltPanDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionFadedSulfurPlateName</Key>
+      <Value>Faded Sulfur Plate</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionFadedSulfurPlateDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionPaleBrimstonePlainName</Key>
+      <Value>Pale Brimstone Plain</Value>
+    </Record>
+    <Record>
+      <Key>VenusPoiRegionPaleBrimstonePlainDescription</Key>
+      <Value>Sulfur Flats</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiCallanishPeakName</Key>
+      <Value>Callanish Peak</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiCallanishPeakDescription</Key>
+      <Value>Highest point in the sector</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiFalgasDescentName</Key>
+      <Value>Falga's Descent</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiFalgasDescentDescription</Key>
+      <Value>Steep climb down to the grand basin</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiBalgatanRidgeName</Key>
+      <Value>Balgatan Ridge</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiBalgatanRidgeDescription</Key>
+      <Value>Overlooking the northern basin</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiSouthCallanishPassName</Key>
+      <Value>South Callanish Pass</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiSouthCallanishPassDescription</Key>
+      <Value>Safer route into the highlands</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiSidonGullyName</Key>
+      <Value>Sidon Gully</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiSidonGullyDescription</Key>
+      <Value>Sheltered finger off the grand basin</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiMorensFellName</Key>
+      <Value>Moren's Fell</Value>
+    </Record>
+    <Record>
+      <Key>EuropaPoiMorensFellDescription</Key>
+      <Value>Windswept ice desert</Value>
+    </Record>
     <Record>
       <Key>EuropaPoiRegionBluePeakName</Key>
       <Value>Blue Peak</Value>
@@ -10563,7 +11156,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>EuropaSpawnBalgatanPassName</Key>
       <Value>Balgatan Pass</Value>
-    </Record>    
+    </Record>
     <Record>
       <Key>EuropaSpawnBalgatanPassDescription</Key>
       <Value>A broad pass running through steep ranges.</Value>
@@ -10583,6 +11176,38 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>EuropaSpawnTyreValleyDescription</Key>
       <Value>An isolated valley ringed by jagged peaks.</Value>
+    </Record>
+    <Record>
+      <Key>VenusSpawnGaiaValleyName</Key>
+      <Value>Gaia Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusSpawnGaiaValleyDescription</Key>
+      <Value>A relatively large and open valley populated with sulfur flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusSpawnDaisyValleyName</Key>
+      <Value>Daisy Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusSpawnDaisyValleyDescription</Key>
+      <Value>Nestled in a small valley, in proximity to the largest sulfur plain in the region</Value>
+    </Record>
+    <Record>
+      <Key>VenusSpawnFaithValleyName</Key>
+      <Value>Faith Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusSpawnFaithValleyDescription</Key>
+      <Value>An oppressive valley shrouded in shade for much of the day</Value>
+    </Record>
+    <Record>
+      <Key>VenusSpawnDuskValleyName</Key>
+      <Value>Dusk Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusSpawnDuskValleyDescription</Key>
+      <Value>Tucked in a long winding valley with towering peaks on either side</Value>
     </Record>
     <Record>
       <Key>LunarPoiRichOreCraterName</Key>
@@ -10916,7 +11541,6 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>MarsSpawnDonutFlatsDescription</Key>
       <Value>Dust blown plains that stretch in all directions</Value>
     </Record>
-    
     <Record>
       <Key>MarsPoiCrowesLookoutName</Key>
       <Value>Crowes Lookout</Value>
@@ -10949,7 +11573,1594 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Key>MarsPoiCamdenCraterKnollDescription</Key>
       <Value>Crater center</Value>
     </Record>
-    
+    <Record>
+      <Key>VenusNamedRegionArtemisValleyName</Key>
+      <Value>Artemis Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionDianaValleyName</Key>
+      <Value>Diana Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSeleneValleyName</Key>
+      <Value>Selene Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionLunaValleyName</Key>
+      <Value>Luna Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionPhoebeValleyName</Key>
+      <Value>Phoebe Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionRhiannonValleyName</Key>
+      <Value>Rhiannon Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSifValleyName</Key>
+      <Value>Sif Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionIdunnValleyName</Key>
+      <Value>Idunn Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionJunaValleyName</Key>
+      <Value>Juna Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionChandraValleyName</Key>
+      <Value>Chandra Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionMahinaValleyName</Key>
+      <Value>Mahina Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionPeleValleyName</Key>
+      <Value>Pele Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionObaValleyName</Key>
+      <Value>Oba Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionOyaValleyName</Key>
+      <Value>Oya Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionAlaValleyName</Key>
+      <Value>Ala Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionOshunValleyName</Key>
+      <Value>Oshun Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionBastetValleyName</Key>
+      <Value>Bastet Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSekhmetValleyName</Key>
+      <Value>Sekhmet Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHathorValleyName</Key>
+      <Value>Hathor Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionNutValleyName</Key>
+      <Value>Nut Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionFortunaValleyName</Key>
+      <Value>Fortuna Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionTycheValleyName</Key>
+      <Value>Tyche Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCeresValleyName</Key>
+      <Value>Ceres Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionFloraValleyName</Key>
+      <Value>Flora Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionPaxValleyName</Key>
+      <Value>Pax Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionVictoriaValleyName</Key>
+      <Value>Victoria Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionConcordiaValleyName</Key>
+      <Value>Concordia Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionFidesValleyName</Key>
+      <Value>Fides Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionJustitiaValleyName</Key>
+      <Value>Justitia Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionLibertasValleyName</Key>
+      <Value>Libertas Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSalusValleyName</Key>
+      <Value>Salus Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSpesValleyName</Key>
+      <Value>Spes Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionVeritasValleyName</Key>
+      <Value>Veritas Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionVestaValleyName</Key>
+      <Value>Vesta Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionAuroraValleyName</Key>
+      <Value>Aurora Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionMinervaValleyName</Key>
+      <Value>Minerva Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionJunoValleyName</Key>
+      <Value>Juno Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionMaiaValleyName</Key>
+      <Value>Maia Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCarmentaValleyName</Key>
+      <Value>Carmenta Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionFeroniaValleyName</Key>
+      <Value>Feronia Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionOpsValleyName</Key>
+      <Value>Ops Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionBonaValleyName</Key>
+      <Value>Bona Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionFelicitasValleyName</Key>
+      <Value>Felicitas Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHonorValleyName</Key>
+      <Value>Honor Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHopeValleyName</Key>
+      <Value>Hope Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionFaithValleyName</Key>
+      <Value>Faith Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionGraceValleyName</Key>
+      <Value>Grace Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCharityValleyName</Key>
+      <Value>Charity Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionPrudenceValleyName</Key>
+      <Value>Prudence Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionWisdomValleyName</Key>
+      <Value>Wisdom Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHarmonyValleyName</Key>
+      <Value>Harmony Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionUnityValleyName</Key>
+      <Value>Unity Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionMercyValleyName</Key>
+      <Value>Mercy Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionJoyValleyName</Key>
+      <Value>Joy Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionJusticeValleyName</Key>
+      <Value>Justice Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionPeaceValleyName</Key>
+      <Value>Peace Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionFortuneValleyName</Key>
+      <Value>Fortune Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionDestinyValleyName</Key>
+      <Value>Destiny Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionVictoryValleyName</Key>
+      <Value>Victory Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionTriumphValleyName</Key>
+      <Value>Triumph Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionProsperityValleyName</Key>
+      <Value>Prosperity Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionPlentyValleyName</Key>
+      <Value>Plenty Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionAbundanceValleyName</Key>
+      <Value>Abundance Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionDawnValleyName</Key>
+      <Value>Dawn Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionDuskValleyName</Key>
+      <Value>Dusk Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHorizonValleyName</Key>
+      <Value>Horizon Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionMeadowValleyName</Key>
+      <Value>Meadow Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionRiverValleyName</Key>
+      <Value>River Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionWillowValleyName</Key>
+      <Value>Willow Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionLaurelValleyName</Key>
+      <Value>Laurel Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionRoseValleyName</Key>
+      <Value>Rose Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionLilyValleyName</Key>
+      <Value>Lily Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionIvyValleyName</Key>
+      <Value>Ivy Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHazelValleyName</Key>
+      <Value>Hazel Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionMapleValleyName</Key>
+      <Value>Maple Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionRowanValleyName</Key>
+      <Value>Rowan Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHollyValleyName</Key>
+      <Value>Holly Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHeatherValleyName</Key>
+      <Value>Heather Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionVioletValleyName</Key>
+      <Value>Violet Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionDaisyValleyName</Key>
+      <Value>Daisy Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCloverValleyName</Key>
+      <Value>Clover Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionFernValleyName</Key>
+      <Value>Fern Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionAthenaValleyName</Key>
+      <Value>Athena Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHeraValleyName</Key>
+      <Value>Hera Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionDemeterValleyName</Key>
+      <Value>Demeter Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHestiaValleyName</Key>
+      <Value>Hestia Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionIreneValleyName</Key>
+      <Value>Irene Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionThemisValleyName</Key>
+      <Value>Themis Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionNikeValleyName</Key>
+      <Value>Nike Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionGaiaValleyName</Key>
+      <Value>Gaia Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSilverValleyName</Key>
+      <Value>Silver Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCybeleValleyName</Key>
+      <Value>Cybele Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionBrigidValleyName</Key>
+      <Value>Brigid Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionEponaValleyName</Key>
+      <Value>Epona Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionTaraValleyName</Key>
+      <Value>Tara Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionLakshmiValleyName</Key>
+      <Value>Lakshmi Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCalliopeValleyName</Key>
+      <Value>Calliope Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionClioValleyName</Key>
+      <Value>Clio Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionThaliaValleyName</Key>
+      <Value>Thalia Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionEratoValleyName</Key>
+      <Value>Erato Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionUraniaValleyName</Key>
+      <Value>Urania Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionEchoValleyName</Key>
+      <Value>Echo Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionAuraValleyName</Key>
+      <Value>Aura Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCedarValleyName</Key>
+      <Value>Cedar Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionBirchValleyName</Key>
+      <Value>Birch Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionAspenValleyName</Key>
+      <Value>Aspen Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionPineValleyName</Key>
+      <Value>Pine Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionOakValleyName</Key>
+      <Value>Oak Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionElmValleyName</Key>
+      <Value>Elm Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionBeechValleyName</Key>
+      <Value>Beech Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionAlderValleyName</Key>
+      <Value>Alder Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSpruceValleyName</Key>
+      <Value>Spruce Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionAshValleyName</Key>
+      <Value>Ash Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionAmberValleyName</Key>
+      <Value>Amber Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCloudValleyName</Key>
+      <Value>Cloud Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionBrookValleyName</Key>
+      <Value>Brook Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCoralValleyName</Key>
+      <Value>Coral Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionPearlValleyName</Key>
+      <Value>Pearl Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSunriseValleyName</Key>
+      <Value>Sunrise Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionStarlightValleyName</Key>
+      <Value>Starlight Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHarborValleyName</Key>
+      <Value>Harbor Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionBeaconValleyName</Key>
+      <Value>Beacon Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCitrineValleyName</Key>
+      <Value>Citrine Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionAmbergrisValleyName</Key>
+      <Value>Ambergris Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionMarigoldValleyName</Key>
+      <Value>Marigold Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionTopazValleyName</Key>
+      <Value>Topaz Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSaddleValleyName</Key>
+      <Value>Saddle Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSaffronValleyName</Key>
+      <Value>Saffron Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCradleValleyName</Key>
+      <Value>Cradle Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHearthValleyName</Key>
+      <Value>Hearth Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionEmberValleyName</Key>
+      <Value>Ember Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionGladeValleyName</Key>
+      <Value>Glade Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHelFlatsName</Key>
+      <Value>Hel Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionPersephoneBasinName</Key>
+      <Value>Persephone Basin</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHecateFlatsName</Key>
+      <Value>Hecate Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCirceWastesName</Key>
+      <Value>Circe Wastes</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionMedeaPlainsName</Key>
+      <Value>Medea Plains</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionElectraFieldsName</Key>
+      <Value>Electra Fields</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionBellonaFlatsName</Key>
+      <Value>Bellona Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionEnyoBasinName</Key>
+      <Value>Enyo Basin</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSekhmetWastesName</Key>
+      <Value>Sekhmet Wastes</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionMutFlatsName</Key>
+      <Value>Mut Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionAnatPlainsName</Key>
+      <Value>Anat Plains</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSalaciaFlatsName</Key>
+      <Value>Salacia Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionDorisBasinName</Key>
+      <Value>Doris Basin</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionGalateaFieldsName</Key>
+      <Value>Galatea Fields</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionThalassaFlatsName</Key>
+      <Value>Thalassa Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCetoWastesName</Key>
+      <Value>Ceto Wastes</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionRanFlatsName</Key>
+      <Value>Ran Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSkadiPlainsName</Key>
+      <Value>Skadi Plains</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionSigynBasinName</Key>
+      <Value>Sigyn Basin</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionAuroraFlatsName</Key>
+      <Value>Aurora Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionRheaPlainsName</Key>
+      <Value>Rhea Plains</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionTheiaBasinName</Key>
+      <Value>Theia Basin</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionEosFlatsName</Key>
+      <Value>Eos Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionTethysFlatsName</Key>
+      <Value>Tethys Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionDioneBasinName</Key>
+      <Value>Dione Basin</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHebeFieldsName</Key>
+      <Value>Hebe Fields</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionIrisFlatsName</Key>
+      <Value>Iris Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionNereidPlainsName</Key>
+      <Value>Nereid Plains</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionHestiaFlatsName</Key>
+      <Value>Hestia Flats</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionPomonaPlainsName</Key>
+      <Value>Pomona Plains</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionCrystalValleyName</Key>
+      <Value>Crystal Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionEchoingValleyName</Key>
+      <Value>Echoing Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionWhisperValleyName</Key>
+      <Value>Whisper Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionShadowValleyName</Key>
+      <Value>Shadow Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionFrostValleyName</Key>
+      <Value>Frost Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionEmberlightValleyName</Key>
+      <Value>Emberlight Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionTwilightValleyName</Key>
+      <Value>Twilight Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionDawnfireValleyName</Key>
+      <Value>Dawnfire Valley</Value>
+    </Record>
+    <Record>
+      <Key>VenusNamedRegionStarglowValleyName</Key>
+      <Value>Starglow Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionDogsheadPassageSouthName</Key>
+      <Value>Dogshead Passage South</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionDogsheadPassageNorthName</Key>
+      <Value>Dogshead Passage North</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionKalimarPlateauEastName</Key>
+      <Value>Kalimar Plateau East</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionDustersOutcropName</Key>
+      <Value>Dusters Outcrop</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionDustersPlateauNorthName</Key>
+      <Value>Dusters Plateau North</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionDustersPlateauSouthName</Key>
+      <Value>Dusters Plateau South</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionSerpentRiseName</Key>
+      <Value>Serpent Rise</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionSouthernHighlandsName</Key>
+      <Value>Southern Highlands</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionPollenKnollName</Key>
+      <Value>Pollen Knoll</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionPollenThumbName</Key>
+      <Value>Pollen Thumb</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionCinderApproachName</Key>
+      <Value>Cinder Approach</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionSouthEasternWasteName</Key>
+      <Value>Southeastern Waste</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionBurningTrackName</Key>
+      <Value>Burning Track</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionJanosPlateauName</Key>
+      <Value>Janos Plateau</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionJanosSlopeName</Key>
+      <Value>Janos Slope</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionBreakersViewName</Key>
+      <Value>Breakers View</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionCrescentOutcropName</Key>
+      <Value>Crescent Outcrop</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionLomaHighlandsName</Key>
+      <Value>Loma Highlands</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionTalonHighlandsName</Key>
+      <Value>Talon Highlands</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionBurningSaddleName</Key>
+      <Value>Burning Saddle</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionTwinsViewName</Key>
+      <Value>Twins View</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionSpearOverlookName</Key>
+      <Value>Spear Overlook</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionTwinsPassName</Key>
+      <Value>Twins Pass</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionPrometheusNorthName</Key>
+      <Value>Prometheus North</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionPrometheusSouthName</Key>
+      <Value>Prometheus South</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionOrensWasteName</Key>
+      <Value>Oren's Waste</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionGreyOverlookName</Key>
+      <Value>Grey Overlook</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionCrescentOverlookName</Key>
+      <Value>Crescent Overlook</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionValoursRiseName</Key>
+      <Value>Valour's Rise</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionOrensTrackName</Key>
+      <Value>Oren's Track</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionBrokenPlateauName</Key>
+      <Value>Broken Plateau</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionKalimarPlateauName</Key>
+      <Value>Kalimar Plateau</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionTalonHeightsWestName</Key>
+      <Value>Talon Heights West</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionTalonHeightsName</Key>
+      <Value>Talon Heights</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionSorinsDescentName</Key>
+      <Value>Sorin's Descent</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionSorinsApproachName</Key>
+      <Value>Sorin's Approach</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionKalimarTrackName</Key>
+      <Value>Kalimar Track</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionNorthernWasteName</Key>
+      <Value>Northern Waste</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionOrensViewName</Key>
+      <Value>Oren's View</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionTranquilityRiseName</Key>
+      <Value>Tranquility Rise</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionTalonRiseName</Key>
+      <Value>Talon Rise</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionAshRiseName</Key>
+      <Value>Ash Rise</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionSpearValleyName</Key>
+      <Value>Spear Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionFingerValleyName</Key>
+      <Value>Finger Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionNarrowPassageName</Key>
+      <Value>Narrow Passage</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionDamonPassageName</Key>
+      <Value>Damon Passage</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionTalonRiftName</Key>
+      <Value>Talon Rift</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionWestlandsGullyName</Key>
+      <Value>Westlands Gully</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionWestlandsName</Key>
+      <Value>Westlands</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionHalesDescentName</Key>
+      <Value>Hale's Descent</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionDantesValleyName</Key>
+      <Value>Dante's Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionCrescentValleyName</Key>
+      <Value>Crescent Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionBreakersWalkName</Key>
+      <Value>Breaker's Walk</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionBreakersGullyName</Key>
+      <Value>Breaker's Gully</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionForgottenValleyName</Key>
+      <Value>Forgotten Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionPeanutValleyName</Key>
+      <Value>Peanut Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionDogsfootName</Key>
+      <Value>Dogsfoot</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionDeepscarSouthName</Key>
+      <Value>Deepscar South</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionDeepscarNorthName</Key>
+      <Value>Deepscar North</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionValleyOfHopeName</Key>
+      <Value>Valley of Hope</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionOuterWasteName</Key>
+      <Value>Outer Waste</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionSerpentValleyNorthName</Key>
+      <Value>Serpent Valley North</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionSerpentValleySouthName</Key>
+      <Value>Serpent Valley South</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionShatteredValleyName</Key>
+      <Value>Shattered Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionValleyOfLossName</Key>
+      <Value>Valley of Loss</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionCinderTrackName</Key>
+      <Value>Cinder Track</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionCinderGullyName</Key>
+      <Value>Cinder Gully</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionGreyChannelName</Key>
+      <Value>Grey Channel</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionNeedleValleyName</Key>
+      <Value>Needle Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionCalamitySouthName</Key>
+      <Value>Calamity South</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionCalamityNorthName</Key>
+      <Value>Calamity North</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionRedJunctionSouthEastName</Key>
+      <Value>Red Junction Southeast</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionRedJunctionSouthWestName</Key>
+      <Value>Red Junction Southwest</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionRedJunctionNorthWestName</Key>
+      <Value>Red Junction Northwest</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionRedJunctionNorthEastName</Key>
+      <Value>Red Junction Northeast</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionDuchValleyName</Key>
+      <Value>Duch Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionTranquilityNorthName</Key>
+      <Value>Tranquility North</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionTranquilityWestName</Key>
+      <Value>Tranquility West</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionTranquilityEastName</Key>
+      <Value>Tranquility East</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionIronValleyName</Key>
+      <Value>Iron Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionPepperGullyName</Key>
+      <Value>Pepper Gully</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionAshValleyName</Key>
+      <Value>Ash Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionCinderPeakName</Key>
+      <Value>Cinder Peak</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionMountSorinName</Key>
+      <Value>Mount Sorin</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionDogsheadName</Key>
+      <Value>Dogshead</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionTalonPeakName</Key>
+      <Value>Talon Peak</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionKalimarVentName</Key>
+      <Value>Kalimar Vent</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionMountValourName</Key>
+      <Value>Mount Valour</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionMountOrenName</Key>
+      <Value>Mount Oren</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionLomaName</Key>
+      <Value>Loma</Value>
+    </Record>
+    <Record>
+      <Key>VulcanNamedRegionToraName</Key>
+      <Value>Tora</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadCraterName</Key>
+      <Value>Dogshead Crater</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadCraterDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSorinCraterName</Key>
+      <Value>Sorin Crater</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSorinCraterDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarCraterName</Key>
+      <Value>Kalimar Crater</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarCraterDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderCraterName</Key>
+      <Value>Cinder Crater</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderCraterDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValourCraterName</Key>
+      <Value>Valour Crater</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValourCraterDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrenCraterName</Key>
+      <Value>Oren Crater</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrenCraterDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonCraterName</Key>
+      <Value>Talon Crater</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonCraterDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiToraCraterName</Key>
+      <Value>Tora Crater</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiToraCraterDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaCraterName</Key>
+      <Value>Loma Crater</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaCraterDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadPassageSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadPassageNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarPlateauEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersOutcropDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersPlateauNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersPlateauSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSouthernHighlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPollenKnollDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPollenThumbDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderApproachDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSouthEasternWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBurningTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiJanosPlateauDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiJanosSlopeDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersViewDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentOutcropDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaHighlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHighlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBurningSaddleDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTwinsViewDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSpearOverlookDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTwinsPassDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPrometheusNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPrometheusSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNorthernWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiGreyOverlookDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentOverlookDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValoursRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBrokenPlateauDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarPlateauDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHeightsWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHeightsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSorinsDescentDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSorinsApproachDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensViewDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiAshRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSpearValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiFingerValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNarrowPassageDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDamonPassageDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonRiftDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiWestlandsGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiWestlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiHalesDescentDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDantesValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersWalkDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiForgottenValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPeanutValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsfootDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDeepscarSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDeepscarNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValleyOfHopeDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOuterWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentValleyNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentValleySouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiShatteredValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValleyOfLossDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiGreyChannelDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNeedleValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCalamitySouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCalamityNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionSouthEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionSouthWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionNorthWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionNorthEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDuchValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiIronValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPepperGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiAshValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderPeakDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountSorinDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonPeakDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarVentDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountValourDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountOrenDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiToraDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnVestaValleyName</Key>
+      <Value>Vesta Valley</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnVestaValleyDescription</Key>
+      <Value>A deep volcanic valley, carved by ancient lava flows and surrounded by towering cliffs</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnEtnasFuryName</Key>
+      <Value>Etna's Fury</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnEtnasFuryDescription</Key>
+      <Value>A cracked, flat plain above lava tunnels, overlooking distant volcanoes</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnIxionsDemiseName</Key>
+      <Value>Ixion's Demise</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnIxionsDemiseDescription</Key>
+      <Value>An unforgiving wasteland of jagged rock and collapsed magma chambers</Value>
+    </Record>
+    <Record>
+      <Key>SpawnRoundRobin</Key>
+      <Value>Round Robin</Value>
+    </Record>
+    <Record>
+      <Key>SpawnRoundRobinDescription</Key>
+      <Value>Each player will start the game in a separate location.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnTitusReachName</Key>
+      <Value>Titus Reach</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnTitusReachDescription</Key>
+      <Value>A flat mid-height plateau overlooking lava lakes and volcanoes</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnSerpentPlateauName</Key>
+      <Value>Serpent Plateau</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnSerpentPlateauDescription</Key>
+      <Value>A shattered plain subsides into lava lakes</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnTalonHeightsName</Key>
+      <Value>Talon Heights</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnTalonHeightsDescription</Key>
+      <Value>A volcanic mountain valley in the lee of Talon's peak</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDusterPlateauNorthName</Key>
+      <Value>Duster Plateau North</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDusterPlateauNorthDescription</Key>
+      <Value>Sheltered by a micro valley that overlooks Peanut Valley.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnCinderPeakName</Key>
+      <Value>Cinder Peak</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnCinderPeakDescription</Key>
+      <Value>A deep vally at the foot of Dogsfoot Mountain.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnRedJunctionName</Key>
+      <Value>Red Junction</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnRedJunctionDescription</Key>
+      <Value>On the shores of Junction Lake and Lake Calamity.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnOrensTrackName</Key>
+      <Value>Oren's Track</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnOrensTrackDescription</Key>
+      <Value>Nestled between Mount Oren and Mount Valour, Oren's Track offers some good building space.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDogsfootName</Key>
+      <Value>Dogsfoot</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDogsfootDescription</Key>
+      <Value>A forked basalt formation resembling a paw, offering rare shelter from ash storms.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnKalimarOutlookName</Key>
+      <Value>Kalimar Outlook</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnKalimarOutlookDescription</Key>
+      <Value>A river of lava winds its way through the valley below, beneath the harsh gaze of Kalimar Vent</Value>
+    </Record>
     <Record>
       <Key>OkayConfirmation</Key>
       <Value>Okay</Value>
@@ -11440,11 +13651,11 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>NewWorldAreaVenus</Key>
-      <Value>Venus</Value>
+      <Value>Venus: Miasma</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaMars</Key>
-      <Value>Mars</Value>
+      <Value>Mars: The Canyon</Value>
     </Record>
     <Record>
       <Key>Mars</Key>
@@ -11500,11 +13711,11 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>NewWorldAreaEuropa2</Key>
-      <Value>Europa: Galileo Peaks</Value>
+      <Value>Europa: Colosseum</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaVulcan2</Key>
-      <Value>Vulcan</Value>
+      <Value>Vulcan: Foundry</Value>
     </Record>
     <Record>
       <Key>NewWorldEnableAwayMissions</Key>
@@ -11739,6 +13950,14 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
       <Value>Terrain Tessellation</Value>
     </Record>
     <Record>
+      <Key>SettingsTerrainDistance</Key>
+      <Value>Terrain Detail</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMinableDistance</Key>
+      <Value>Minable Render Distance</Value>
+    </Record>
+    <Record>
       <Key>SettingsSoftParticles</Key>
       <Value>Soft Particles</Value>
     </Record>
@@ -11857,6 +14076,10 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>InputTextRename</Key>
       <Value>Rename</Value>
+    </Record>
+    <Record>
+      <Key>ButtonDontShowAgain</Key>
+      <Value>Don't Show Again</Value>
     </Record>
     <Record>
       <Key>ButtonOk</Key>
@@ -12171,7 +14394,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>PromptOverwriteBody</Key>
-      <Value>Are you sure you want to overwrite existing saved world?</Value>
+      <Value>Are you sure you want to overwrite this script with the data you have on the computer screen? This will replace what is in your source code library.</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteConfirm</Key>
@@ -12236,6 +14459,66 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>PromptGiveUpConfirm</Key>
       <Value>Give Up</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptTitle</Key>
+      <Value>Unconscious</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptMessage</Key>
+      <Value>You are unconscious but not dead. What would you like to do?</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptOptionWaitForHelp</Key>
+      <Value>Wait</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptAskForHelp</Key>
+      <Value>Ask for Help</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptOptionGiveUp</Key>
+      <Value>Give Up</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptTitle</Key>
+      <Value>Dead</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptMessage</Key>
+      <Value>You are dead. What would you like to do?</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptOptionWaitForHelp</Key>
+      <Value>Wait</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptAskForHelp</Key>
+      <Value>Ask for Help</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptOptionGiveUp</Key>
+      <Value>Give Up</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptTitle</Key>
+      <Value>Give Up</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousGiveUpPromptMessage</Key>
+      <Value>Are you sure you want to give up? Another player can still save you.</Value>
+    </Record>
+    <Record>
+      <Key>DeadGiveUpPromptMessage</Key>
+      <Value>Are you sure you want to give up? Another player can revive you in a Cryotube.</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptOptionGiveUp</Key>
+      <Value>Respawn</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptOptionCancel</Key>
+      <Value>Dismiss</Value>
     </Record>
     <Record>
       <Key>AlertYourSaveFileIsBroken</Key>
@@ -12779,7 +15062,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>NewWorldVulcan2ShortDesc</Key>
-      <Value>A world torn apart due to massive tidal forces from the supermassive black hole it orbits. Vulcan offers little hope for any organism that ends up here, but it's fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders.Watch out for the deep crevasses that lead to deadly magma flows beneath the surface!</Value>
+      <Value>A world torn apart due to massive tidal forces from the supermassive black hole it orbits. Vulcan offers little hope for any organism that ends up here, but its fractured surface and rich mineral deposits make it a risky but profitable venture for enterprising traders. Watch out for the deep crevasses that lead to deadly magma flows beneath the surface!</Value>
     </Record>
     <Record>
       <Key>NewWorldMimasShortDesc</Key>
@@ -12791,7 +15074,7 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     </Record>
     <Record>
       <Key>LunarWorldDescriptionShort</Key>
-      <Value>With no atmosphere, the barren and crater scarred surface of the moon provides a stable environment for Lunar operations.</Value>
+      <Value>With no atmosphere, the barren and crater scarred surface of the moon provides a stable environment for lunar operations.</Value>
     </Record>
     <Record>
       <Key>MarsWorldDescriptionShort</Key>
@@ -13809,6 +16092,18 @@ Pressing the activate button while the LArRE arm is at its home dock will move t
     <Record>
       <Key>LogicTypePressureEfficiency</Key>
       <Value>How the pressure of the input pipe and waste pipe effect the machines efficiency</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSolarIrradiance</Key>
+      <Value>The current solar irradiance.</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingInput</Key>
+      <Value>The input setting for the device</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeSettingOutput</Key>
+      <Value>The output setting for the device</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeNone</Key>
@@ -16792,12 +19087,8 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Start Game</Value>
     </Record>
     <Record>
-      <Key>StationpediaMinCoolantTemperature</Key>
-      <Value>Min Coolant Temperature:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMaxCoolantTemperature</Key>
-      <Value>Max Coolant Temperature:</Value>
+      <Key>StationpediaCoolantTemperatureOperatingRange</Key>
+      <Value>Coolant:</Value>
     </Record>
     <Record>
       <Key>StationpediaThermalConductivityConvection</Key>
@@ -16808,28 +19099,20 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Thermal Radiation:</Value>
     </Record>
     <Record>
+      <Key>StationpediaSolarHeating</Key>
+      <Value>Solar Heating:</Value>
+    </Record>
+    <Record>
       <Key>StationpediaMovementSpeedModifier</Key>
       <Value>Movement Speed:</Value>
     </Record>
     <Record>
-      <Key>StationpediaThermalSaturation</Key>
-      <Value>Thermal Saturation:</Value>
+      <Key>StationpediaOperatingTemperatureRange</Key>
+      <Value>Ideal Operation:</Value>
     </Record>
     <Record>
-      <Key>StationpediaMinSafeTemperature</Key>
-      <Value>Min Safe Temperature:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMaxSafeTemperature</Key>
-      <Value>Max Safe Temperature:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMinOperatingTemperature</Key>
-      <Value>Min Operating Temperature:</Value>
-    </Record>
-    <Record>
-      <Key>StationpediaMaxOperatingTemperature</Key>
-      <Value>Max Operating Temperature:</Value>
+      <Key>StationpediaMaxOperatingTemperatureRange</Key>
+      <Value>Max Operation:</Value>
     </Record>
     <Record>
       <Key>ScoreboardDaysLived</Key>
@@ -17166,6 +19449,14 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Start with debug tools to quickly edit terrain.</Value>
     </Record>
     <Record>
+      <Key>DefaultStartCondition</Key>
+      <Value>Standard</Value>
+    </Record>
+    <Record>
+      <Key>DefaultStartConditionDescription</Key>
+      <Value>You will start with the basics you need to establish a remote base, organized systematically in a lander stocked with crates and packages.</Value>
+    </Record>
+    <Record>
       <Key>DefaultScenarioStartCondition</Key>
       <Value>Only player kit</Value>
     </Record>
@@ -17186,6 +19477,30 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Standard (Venus)</Value>
     </Record>
     <Record>
+      <Key>DefaultCommunityStartCondition</Key>
+      <Value>Standard Community</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionDescription</Key>
+      <Value>Each Stationeer starts with their own fully stocked lander.</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionVulcan</Key>
+      <Value>Standard Community (Vulcan)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionEuropa</Key>
+      <Value>Standard Community (Europa)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionMimas</Key>
+      <Value>Standard Community (Mimas)</Value>
+    </Record>
+    <Record>
+      <Key>DefaultCommunityStartConditionVenus</Key>
+      <Value>Standard Community (Venus)</Value>
+    </Record>
+    <Record>
       <Key>BrutalStartCondition</Key>
       <Value>Brutal</Value>
     </Record>
@@ -17196,6 +19511,26 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>BrutalStartConditionMimas</Key>
       <Value>Brutal (Mimas)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartCondition</Key>
+      <Value>Brutal Community</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionEuropa</Key>
+      <Value>Brutal Community (Europa)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionMimas</Key>
+      <Value>Brutal Community (Mimas)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionVulcan</Key>
+      <Value>Brutal Community (Hot Planet)</Value>
+    </Record>
+    <Record>
+      <Key>BrutalCommunityStartConditionDescription</Key>
+      <Value>Each Stationeer will start with their own set of minimalist supplies.</Value>
     </Record>
     <Record>
       <Key>BrutalStartConditionVulcan</Key>
@@ -17814,6 +20149,555 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Open the {THING:StructureValve} to release Oxygen into the room.</Value>
     </Record>
     <Record>
+      <Key>TutorialRating</Key>
+      <Value>Tutorial</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockWorldName</Key>
+      <Value>Community Walkthrough: Airlocks</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockDescription</Key>
+      <Value>Learn the basics of creating an Airlock.</Value>
+    </Record>
+    <Record>
+      <Key>CommunityTutorialBigFootMSR</Key>
+      <Value>A Stationeers community tutorial from BigFootMSR</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockPowerName</Key>
+      <Value>Setting up power to the Airlock</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockPowerInfo</Key>
+      <Value>Using an {THING:StructureAreaPowerControl} in an airlock will act as a battery backup and isolate the airlock from erroneous logic commands.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockPowerPlaceAPC</Key>
+      <Value>Place an {THING:StructureAreaPowerControl} to the right of the light connected to the green power supply cable. Watch the direction of the arrows on the APC.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockAPCName</Key>
+      <Value>Provide Power to the airlock</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockAPCPryOpen</Key>
+      <Value>Pry open the {THING:StructureAreaPowerControl} cover with a {THING:ItemCrowbar}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockAPCTurnOn</Key>
+      <Value>Turn on the {THING:StructureAreaPowerControl} by flipping the lever.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockAPCInstallBatt</Key>
+      <Value>Place a {THING:ItemBatteryCellLarge} from the locker into the {THING:StructureAreaPowerControl} {SLOT:Battery} slot</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockInformationName</Key>
+      <Value>Airlock common components</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockInformationInfo</Key>
+      <Value>Most airlocks will have common components such as a {THING:StructureConsole} and {THING:StructureGasSensor}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockInformationPlaceConsole</Key>
+      <Value>Place a {THING:StructureConsole} in the middle of the frame, below the {THING:StructureLightRound}, in the hallway between the two rooms.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockInformationPlaceSensor</Key>
+      <Value>Place a {THING:StructureGasSensor} on the other cable end next to it.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockInsertCardName</Key>
+      <Value>Insert the Circuitboard into the Console</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockInsertCardInfo</Key>
+      <Value>Advanced airlocks are used when you have atmosphere on both sides, while the airlock card is used when you have vacuum on one side of the airlock.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockInsertCardPutAdvAirlock</Key>
+      <Value>Place the {THING:CircuitboardAdvAirlockControl} from the locker into the {THING:StructureConsole}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockInsertCardInstallGlass</Key>
+      <Value>Finish the console with a {THING:ItemGlassSheets}, and turn it on.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockVentilationName</Key>
+      <Value>Place Active Vents</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockVentilationInfo</Key>
+      <Value>Advanced airlocks require an {THING:StructureActiveVent} for each side of the airlock. There are several types of vents in the game such as the larger more powerful, {THING:StructurePoweredVent} and {THING:StructurePoweredVentLarge} for those really large airlocks.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockVentilationPlaceVents</Key>
+      <Value>Place two {THING:StructureActiveVent} on the roof connected to the yellow pipe and cable.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockBuildDoorsName</Key>
+      <Value>Complete the 2 doors</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockBuildDoorsInfo</Key>
+      <Value>The type of door to use will depend on your situation. There are many types of doors in the {THING:ItemKitDoor}, {THING:ItemKitAirlock}, {THING:ItemKitAirlockGate} and {THING:ItemKitBlastDoor}.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockBuildDoorsFinish</Key>
+      <Value>Finish building both of the {THING:StructureGlassDoor} for the airlock with the supplies in the Locker.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockBuildDoorsWelderReminder</Key>
+      <Value>Remember to turn off your Welder when not in use.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockProgramingName</Key>
+      <Value>Programing the airlock</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockProgramingInfo</Key>
+      <Value>The {THING:ItemLabeller} can be used to set the names, settings, and values of many devices in the game.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockProgramingUseLabeller</Key>
+      <Value>Label the {THING:StructureGlassDoor} and {THING:StructureActiveVent} on one side of the airlock something easy to remember like 'Exterior', or 'Interior'. Then label the other side the opposite.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockProgramingInserDisk</Key>
+      <Value>Insert the {THING:ItemDataDisk} into the disk slot on the side of the {THING:StructureConsole} to enable the setup screen.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockProgramingPressureSettingNote</Key>
+      <Value>The Advanced Airlock gives you the option to set the pressure of each side of the airlock that the airlock will attempt to pressurize too. You should set this to match the pressure on each side of the airlock. Note the regular Airlock card does not allow this feature.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockProgramingChooseExteriorDoors</Key>
+      <Value>Choose the exterior door by clicking on it with the mouse. Notice the Green exterior text changes to interior on the other one to select which door will be which.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockProgramingRepeatForVents</Key>
+      <Value>Repeat the same setup step for the vents, first choosing the exterior vent, then the interior vent.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockProgramingChooseSensor</Key>
+      <Value>Lastly choose the airlock Sensor.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockProgramingRemoveDisk</Key>
+      <Value>Once the sensor has been selected, if all selections have been made correctly, the switch should be solid green and no longer blinking. Remove the disk.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockActivateAirlockName</Key>
+      <Value>Activate the Airlock.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockActivateAirlockInfo</Key>
+      <Value>Life in space is an adventure. To get there, one must first use an airlock. - BigfootMSR</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockActivateAirlockOperatingInfo</Key>
+      <Value>The airlock will first depressurize the chamber, and then re-pressurize it to the pressure selected at the top of the Airlock Configuration Screen.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockActivateAirlockHowToIncreaseSpeed</Key>
+      <Value>You can increase the speed of the airlock by increasing the size of the pipe network, or volume. You can add more Pipes or in-line Tanks to increase volume.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockActivateAirlockCancellButton</Key>
+      <Value>If the airlock is taking too long to cycle, you can hit the cancel button on the console screen to move it to the next step.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockActivateAirlockProgramYourOwn</Key>
+      <Value>It is possible to create your own airlocks using the in game IC10 programming.</Value>
+    </Record>
+    <Record>
+      <Key>TutorialAirlockActivateAirlockCycleAirlock</Key>
+      <Value>Cycle the airlock.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialName</Key>
+      <Value>Community Walkthrough: Furnace Basics</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialDescription</Key>
+      <Value>Learn the basics of smelting.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSmeltingIntro</Key>
+      <Value>Smelting Intro</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSmeltingInfo</Key>
+      <Value>Raw {LINK:OrePage;ore} that has been mined needs to be processed into {LINK:IngotPage;ingots} for use in the Printers. This can be done in an {THING:StructureArcFurnace}, a {THING:StructureFurnace}, or the {THING:StructureAdvancedFurnace}.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSmeltingPlaceArcFurnace</Key>
+      <Value>Place the {THING:StructureArcFurnace} from the {THING:StructureStorageLocker}, on the Yellow Frame connected to the Power Cable.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSmeltingTurnOnArcFurnace</Key>
+      <Value>Turn on the {THING:StructureArcFurnace}.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialArcFurnaceName</Key>
+      <Value>Arc Furnace</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialArcFurnaceInfo</Key>
+      <Value>Different Ores will take different amounts of power to process. {THING:ItemGoldOre} being the most power hungry. You may need to protect your circuits later when using an Arc Furnace for smelting.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialArcFurnaceTakeBackpack</Key>
+      <Value>Take the Orange {THING:ItemMiningBackPack} from the Locker, Open it with {KEY:ActiveHandSlot}, and drag an {THING:ItemIronOre} into the
+        {SLOT:Import} slot of the {THING:StructureArcFurnace}.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialArcFurnacePressButton</Key>
+      <Value>Press the Red Button on the {THING:StructureArcFurnace} to activate it. Then either wait for a bit for the ore to process and drop out the back. You can hit the button again to stop it.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialFurnaceName</Key>
+      <Value>The Basic Furnace</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialFurnaceInfo</Key>
+      <Value>Some mined ores can have gasses in them that will be released during the smelting process. Some of these Gases can be valuable and or used as a fuel source. You can check what gasses are in each ore by searching for them in the Stationpedia {KEY:Help}.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialFurnacePlaceFurnace</Key>
+      <Value>Remove the {THING:StructureFurnace} from the Locker and place it above the Green Frame. Its suggested to put it on its side so you can access the top Input Slot easier, and the output wont clip into the ground. Rotate the placement orientation with {KEY:RotateLeft}/{KEY:RotateRight},{KEY:RotateUp}/{KEY:RotateDown},{KEY:RotateRollLeft}/{KEY:RotateRollRight}.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialFurnaceBuildFurnace</Key>
+      <Value>Finish building the {THING:StructureFurnace}.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialFurnacePlaceGasValve</Key>
+      <Value>Place a {THING:StructureValve} above the Red Cable on the wall connected to the Yellow Pipe.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialPlumbingName</Key>
+      <Value>Plumbing the Furnace</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialPlumbingInfo</Key>
+      <Value>The {THING:StructureFurnace} has two pipe connections and a cable connection. The Input pipe connection has a one way check valve to prevent gas from back flowing into the pipe. Input pressure must be higher than the Furnace Pressure to inject more fuel. The Output connection does not have a valve so gas can freely flow between the furnace and the Output pipe. You can point your mouse at a port to see which one it is.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialPlumbingConnectOutputPipe</Key>
+      <Value>Connect the Output Port of the {THING:StructureFurnace} to the Valve with Pipe.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialFiringTheFurnaceName</Key>
+      <Value>Fire the Furnace.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialFiringTheFurnaceInfo</Key>
+      <Value>Ice will melt when exposed to temperatures above 0c or when in direct sunlight on the Moon. The {THING:StructureFurnace} cannot begin to process ores without a little bit of gas in the {THING:StructureFurnace}. DO NOT put a full stack of ice in the {THING:StructureFurnace}.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialFiringTheFurnaceTakeWhiteBackpack</Key>
+      <Value>Take the White Backpack from the Locker. Transfer a stack of {THING:ItemOxite} to your hand, and split off 1 Oxite Ice once the External Temperature reaches 'Nil' in the lower right hand corner of the screen.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialFiringTheFurnacePutInOxite</Key>
+      <Value>Place the {THING:ItemOxite} in the Input slot of the {THING:StructureFurnace}. Then hit the Red Activate Button to melt the ice in the {THING:StructureFurnace} until the door opens again.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialFiringTheFurnaceSplitVolatiles</Key>
+      <Value>Do the same for {THING:ItemVolatiles} in the Red Backpack, and split off 2 {THING:ItemVolatiles}.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialFiringTheFurnacePlaceVolatilesPressStart</Key>
+      <Value>Place the {THING:ItemVolatiles} in the Furnace. This time when you hit the Activate Button, the {THING:StructureFurnace} will ignite. Monitor the pressure gauge on the front.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSmeltingOreName</Key>
+      <Value>Smelting Ores</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSmeltingOreInfo</Key>
+      <Value>The {THING:StructureFurnace} is now ready to load in Ores. Notice as you begin smelting Ores loaded into the {THING:StructureFurnace}, the Temperature will drop and the Pressure will rise from the off-gassing of the Ore. Ore can only be off-gassed once.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSmeltingOrePlaceCopperOre</Key>
+      <Value>Place a stack of {THING:ItemCopperOre} into the Furnace's Input Slot from the Orange {THING:ItemMiningBackPack}.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSmeltingOreObserveProcessWindow</Key>
+      <Value>Point the Mouse Cursor at the Rectangle area on the Furnace to monitor the smelting process.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSmeltingOreProcessWindowInformation</Key>
+      <Value>Once the Furnace shows 'Will produce Copper Ingot', and the Activate Button turns Green, Open the Handle to eject the {THING:ItemCopperIngot}.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSmeltingOreCloseHandle</Key>
+      <Value>Make sure to close the Handle again or anything new put in the Furnace will just pass through after processing.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialAlloysName</Key>
+      <Value>Making Alloys Intro</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialAlloysInfo</Key>
+      <Value>All Ingots and Alloys have a Minimum and Maximum Pressure and Temperature range. Use the Stationpedia by hitting {KEY:Help} and searching for the Ingot. If the Furnace Pressure and Temperature ranges are out of spec, or too cold then open the Valve to vent most of the gas from the Furnace to reset it.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialAlloysPrepareAlloyMix</Key>
+      <Value>While the {THING:StructureFurnace} is still hot from the previous smelting, we can prepare some ore to make an alloy.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialAlloysOpenHandleIfFull</Key>
+      <Value>First ensure there is nothing loaded into the {THING:StructureFurnace} that would upset the alloy mix by looking at the Rectangle Window on the front of the Furnace. Open the Handle if it contains anything, to eject it.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialAlloysLoadSteelMix</Key>
+      <Value>Load in a stack of {THING:ItemCoalOre}, and 3 Stacks of {THING:ItemIronOre}. If you add the wrong ingredients, pull the handle to eject the bad mix.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialAlloysMonitorProcess</Key>
+      <Value>Monitor the smelting process.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialResetName</Key>
+      <Value>Reset the Furnace</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialResetInfo</Key>
+      <Value>The {THING:StructureFurnace} is too cold at this point to create our alloy due to the radiation of the heat energy into the vacuum of the Moon and the off-gassing from the Ore. Let's reset the Furnace.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialResetEjectContents</Key>
+      <Value>Eject the contents of the {THING:StructureFurnace}. This will create balls of {THING:ItemReagentMix} that will later be put back into the Furnace.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialResetOpenValveDrainFurnace</Key>
+      <Value>Open the {THING:StructureValve} on the wall to vent most of the gas from the {THING:StructureFurnace}. Vent the gas till its below 500kPa. Then close the {THING:StructureValve}.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialResetCloseFurnaceHandle</Key>
+      <Value>Make sure to close the Handle again on the {THING:StructureFurnace}.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialResetNotAlwaysNecessary</Key>
+      <Value>It is not always necessary to eject the contents of the {THING:StructureFurnace} to reset it, however for this tutorial, we will.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialReHeatingName</Key>
+      <Value>Reheating the Furnace</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialReHeatingInfo</Key>
+      <Value>A 2:1 mix of {GAS:Volatiles}:{GAS:Oxygen} fuel is the most common fuel source and autoignites at 300c, while a 50:50 mix of {GAS:Volatiles}:{GAS:NitrousOxide} will autoignite at 50c but will burn much hotter.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialReHeatingInsertMoreFuel</Key>
+      <Value>Input more {THING:ItemVolatiles} and {THING:ItemOxite} Ice into the {THING:StructureFurnace} and ignite it as before.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSteelReloadName</Key>
+      <Value>Input the mixed Steel {THING:ItemReagentMix}</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSteelReloadInfo</Key>
+      <Value>The Furnace is the beating heart of every Stationeer's base. It has been melting ore and hearts for Centuries. -BigfootMSR</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSteelReloadInsertReagentMix</Key>
+      <Value>Now that the {THING:StructureFurnace} is hot enough, insert the balls of {THING:ItemReagentMix} we created earlier, into the Furnace and wait for them to process.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSteelReloadObserveTempPressure</Key>
+      <Value>Notice as you input the {THING:ItemReagentMix}, the Temp and Pressure don't change, except for the radiation of heat energy to the Vacuum of the Moon because the mix has been de-gassed.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialSteelReloadObserveProcessWindow</Key>
+      <Value>Monitor the Processing of the Steel by looking at the Rectangular Window.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialEjectSteelIngot</Key>
+      <Value>Once the {THING:StructureFurnace} is ready to make the {THING:ItemSteelIngot}, the Button on the Furnace will turn Green. Open the Handle while the Button is Green to eject the Steel Ingot.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialPutThatAwayName</Key>
+      <Value>Put it away</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialPutThatAwayInfo</Key>
+      <Value>Having a furnace exposed to the elements wastes a lot of heat due to convection and radiation. You should think about enclosing the Furnace in a small box filled with about 150kpa of hot gas to effectively stop the heat loss and save fuel.</Value>
+    </Record>
+    <Record>
+      <Key>FurnaceTutorialPutThatAwayPlaceIngotInLocker</Key>
+      <Value>Place the {THING:ItemSteelIngot} into the {THING:StructureStorageLocker}.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialName</Key>
+      <Value>Community Walkthrough: Manufacturing</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialDescription</Key>
+      <Value>Learn the basics of Manufacturing and what printers are available.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialManufacturingIntroName</Key>
+      <Value>Manufacturing Intro</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialManufacturingIntroInfo</Key>
+      <Value>There are currently 6 Printers in Stationeers of varying types. We will go over them 1 at a time.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialManufacturingIntroAutolatheInfo</Key>
+      <Value>The {THING:StructureAutolathe} is the most essential of all the printers, without it, you can not make the others. It is where most of your construction items will be crafted.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialManufacturingIntroPrintersUseIngots</Key>
+      <Value>All the Printers operate on {LINK:IngotPage;ingots} that have to first be processed from {LINK:OrePage;ore} in a {THING:StructureFurnace}.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialManufacturingIntroLookThroughPrintersInfo</Key>
+      <Value>Feel free to have a look through the list of items each printer contains before you continue to the next step.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialManufacturingIntroPlaceAutolathe</Key>
+      <Value>Place the {THING:StructureAutolathe} and finish construction with the supplies from the Locker, then turn it On.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupElectronicsPrinterName</Key>
+      <Value>Setup Electronics Printer</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupElectronicsPrinterInfo</Key>
+      <Value>As the name suggests, the {THING:StructureElectronicsPrinter} is where you will find most electronic devices, logic components, lights, appliances, and is much faster at printing Cables than the {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupElectronicsPrinterLoadIngotsInAutolathe</Key>
+      <Value>Load the basic rectangular Ingots from the Locker into the {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupElectronicsPrinterPrintRequiredComponents</Key>
+      <Value>For our purposes here today, it would be wise to print 6 {THING:ItemIronSheets}, 10 {THING:ItemPlasticSheets}, 4 {THING:ItemSteelSheets}. You already have the required {THING:ItemCableCoil} in your {THING:ItemToolBelt}.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupElectronicsPrinterUseOfPrinterButtons</Key>
+      <Value>Use Yellow Magnifying Glass Button on the {THING:StructureAutolathe} to search for the parts you need. When you select it from the pop-up screen, it will be selected and the window will disappear. Hovering over the Green Button, between the Arrows, will tell you what the currently selected item is and while printing give you the progress via a tooltip. Pressing the Green Button will start the print.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupElectronicsPrinterHowToEjectIngots</Key>
+      <Value>If for some reason you need to eject the Ingots from a Printer, you can do so by pulling the Handle on the front of the machine.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupElectronicsPrinterBuildElectronicsPrinter</Key>
+      <Value>Finish building the {THING:StructureElectronicsPrinter} by printing the required supplies from the Autolathe.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupPipeBenderName</Key>
+      <Value>Setup the Pipe Bender</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupPipeBenderInfo</Key>
+      <Value>The 3 main core Printers you will use are the {THING:StructureAutolathe}, {THING:StructureElectronicsPrinter}, and {THING:StructureHydraulicPipeBender}. The other printers are more specialized and not required in the early stages of a Station.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupPipeBenderWhatsInside</Key>
+      <Value>The {THING:StructureHydraulicPipeBender} is where you will find most Atmospheric items such as Filters, {THING:ItemKitAtmospherics}, Vents, and is much faster at printing Pipes than the {THING:StructureAutolathe}.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupPipeBenderConstructIt</Key>
+      <Value>Finish constructing the {THING:StructureHydraulicPipeBender} by using the supplies from the {THING:StructureAutolathe} to finish building it.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupToolPrinterName</Key>
+      <Value>Setup the Tool Printer</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupToolPrinterInfo</Key>
+      <Value>The {THING:StructureToolManufactory} contains many quality of life tool and suit upgrades.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupToolPrinterConstructIt</Key>
+      <Value>Finish constructing the {THING:StructureToolManufactory} by using the supplies from the {THING:StructureAutolathe} to finish building it.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupSecurityPrinterName</Key>
+      <Value>Setup Security</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupSecurityPrinterInfo</Key>
+      <Value>The {THING:StructureSecurityPrinter} grants access to the Security Card system, {THING:CartridgeAccessController}, to allow Stationeers to limit access to Doors, machines, Lockers and other items.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupSecurityPrinterCheapExplosives</Key>
+      <Value>The {THING:StructureSecurityPrinter} has cheap explosives.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupSecurityPrinterConstructIt</Key>
+      <Value>Finish constructing the {THING:StructureSecurityPrinter} by using the supplies from the {THING:StructureAutolathe} to finish building it.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupRocketPrinterName</Key>
+      <Value>Setup Rocket Manufactory</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupRocketPrinterInfo</Key>
+      <Value>The {THING:StructureRocketManufactory} will grant you access to all things Rocketry.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupRocketPrinterRocketryForResources</Key>
+      <Value>Rocketry is a great way to get lots of Ice and Ore that you may be lacking on your planet.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialSetupRocketPrinterConstructIt</Key>
+      <Value>Finish constructing the {THING:StructureRocketManufactory} by using the supplies from the Autolathe to finish building it.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialModsName</Key>
+      <Value>Tier 2</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialModsInfo</Key>
+      <Value>Stationeers does not have a research mechanism, but it does have technology tiers that need to be unlocked by upgrading the printers to tier 2. Tier 2 printers have a slight increase in power use and slight decrease in speed. Theses values can be found in the Stationpedia {KEY:Help}. Only the 4 main printers have upgrades: {THING:StructureAutolathe}, {THING:StructureElectronicsPrinter}, {THING:StructureHydraulicPipeBender} and {THING:StructureToolManufactory}.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialModsNeedModToUpgrade</Key>
+      <Value>In order to upgrade the printer, we need to create a Mod. At this stage, the first, and only Mod you can create is for the {THING:StructureElectronicsPrinter}.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialModsModsRequireAlloys</Key>
+      <Value>The mods require alloys you need to first create in a furnace such as {THING:ItemSolderIngot}, {THING:ItemElectrumIngot}, {THING:ItemSteelIngot}, and {THING:ItemConstantanIngot}.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialModsPrintModInElecPrinter</Key>
+      <Value>Print a {THING:ElectronicPrinterMod} using the {THING:StructureElectronicsPrinter}. Search for 'Mod'. Mods can take a while to print so make sure you power systems are up to par.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialModsModsProvidedForTimeSake</Key>
+      <Value>For the sake of time, the Mods have been provided for you in the locker.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialModsUpgradeElecPrintertoTier2</Key>
+      <Value>Upgrade the {THING:StructureElectronicsPrinter} to tier 2 by holding the {THING:ElectronicPrinterMod} in one hand and using a {THING:ItemScrewdriver} in the other.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialModsEjectIngotsIfRequired</Key>
+      <Value>You may need to eject the Ingots from the Autolathe and move them to the Electronics Printer by pulling on the Autolathe Eject Handle.</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialFinishingUpName</Key>
+      <Value>Final Mods</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialFinishingUpInfo</Key>
+      <Value>Stationeers has 2 other Fabricators we did not visit here today. The {THING:StructureAutomatedOven}, and {THING:StructureAdvancedPackagingMachine}. They work similar to the printers we have seen here, but work for food items. 'One can only print their way to success, or not' -BigfootMSR</Value>
+    </Record>
+    <Record>
+      <Key>ManufacturingTutorialFinishingUpInstallRemainingMods</Key>
+      <Value>Install all the remaining Mods on the appropriate Printers to finish this Tutorial.</Value>
+    </Record>
+    <Record>
       <Key>AutoExpandToggle</Key>
       <Value>Auto Expand</Value>
     </Record>
@@ -18139,7 +21023,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>CelestialBodyHimalia</Key>
-      <Value>Hamilia</Value>
+      <Value>Himalia</Value>
     </Record>
     <Record>
       <Key>CelestialBodyMimas</Key>
@@ -18474,6 +21358,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Snow</Value>
     </Record>
     <Record>
+      <Key>SolarStormWeather</Key>
+      <Value>Solar Storm</Value>
+    </Record>
+    <Record>
       <Key>StationpediaPhaseChangeDiagramPressureTitle</Key>
       <Value>Pressure</Value>
     </Record>
@@ -18596,6 +21484,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>BuyDataBoxOfChocolates</Key>
       <Value>Box of Chocolates</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBurgerPackage</Key>
+      <Value>Packaged Burger</Value>
     </Record>
     <Record>
       <Key>BuyDataChocolateCakeInBox</Key>
@@ -18734,6 +21626,14 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Fast Growing Potato</Value>
     </Record>
     <Record>
+      <Key>SellDataSuperCorn</Key>
+      <Value>Super Corn</Value>
+    </Record>
+    <Record>
+      <Key>SellDataResilientFern</Key>
+      <Value>Resilient Fern</Value>
+    </Record>
+    <Record>
       <Key>BuyDataBulkVolatiles</Key>
       <Value>Bulk Volatiles</Value>
     </Record>
@@ -18840,6 +21740,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>SellDataBoxOfBatteryCellsLarge</Key>
       <Value>Box of Battery Cells (Large)</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxOfNuclearBatteryCells</Key>
+      <Value>Box of Battery Cells (Nuclear)</Value>
     </Record>
     <Record>
       <Key>SellDataWeldingFuel</Key>
@@ -19210,6 +22114,14 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Asteroid Appliances</Value>
     </Record>
     <Record>
+      <Key>TraderGenetics</Key>
+      <Value>Genetic Engineering</Value>
+    </Record>
+    <Record>
+      <Key>TraderRareItems</Key>
+      <Value>Cosmic Curiosities</Value>
+    </Record>
+    <Record>
       <Key>TradeError</Key>
       <Value>Trade Error</Value>
     </Record>
@@ -19287,7 +22199,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>WorldLunar</Key>
-      <Value>Lunar: Great Mare</Value>
+      <Value>Moon: Great Mare</Value>
     </Record>
     <Record>
       <Key>NewWorldLunarShortDesc</Key>
@@ -19295,11 +22207,11 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>WorldMimasHerschel</Key>
-      <Value>Mimas: Herschel Crater</Value>
+      <Value>Mimas: Impact</Value>
     </Record>
     <Record>
       <Key>NewWorldMimasHerschelShortDesc</Key>
-      <Value>A barren rock nestled under the wing of Saturn's spectacular rings. Mimas tiny stature is reflected in its extremely low gravity, and the Mimantean surface is saturated with impact craters from wayward ring occupants. It's distance from the sun provides little power from solar devices.Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the extremely low gravity.</Value>
+      <Value>A barren rock nestled under the wing of Saturn's spectacular rings. Mimas tiny stature is reflected in its extremely low gravity, and the Mimantean surface is saturated with impact craters from wayward ring occupants. Its distance from the sun provides little power from solar devices. Be very careful when walking or jumping, as you can travel a long way and gain a lot of speed due to the extremely low gravity.</Value>
     </Record>
     <Record>
       <Key>MultiplayerCouldNotConnect</Key>
@@ -19360,6 +22272,51 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     <Record>
       <Key>AvailableScanners</Key>
       <Value>Available Scanners</Value>
+    </Record>
+    <Record>
+      <Key>OldSavesDetectedMessage</Key>
+      <Value>The save system has been re-written from scratch and old saves are no longer supported.
+There are some community tools that you can use to convert old saves. In this case make sure to back up your save folder before attempting to convert.</Value>
+    </Record>
+    <Record>
+      <Key>MajorUpdateTitle</Key>
+      <Value>Major Update</Value>
+    </Record>
+    <Record>
+      <Key>MajorUpdateDescription</Key>
+      <Value>This is the &lt;b&gt;largest update we’ve ever released for Stationeers&lt;/b&gt;. 
+It brings huge changes to the game, including a &lt;b&gt;complete terrain rewrite&lt;/b&gt;, a &lt;b&gt;rewritten save/load system&lt;/b&gt;, significant improvements to multiplayer and overall performance and stability upgrades.
+            
+Because of these changes, &lt;b&gt;old saves are not compatible&lt;/b&gt; and &lt;b&gt;we will not be making them backward-compatible&lt;/b&gt;.
+If you’d like to try converting your saves, the community has created tools that may help — visit our &lt;color=#00AAFF&gt;&lt;b&gt;Discord&lt;/b&gt;&lt;/color&gt; to get advice and assistance from other players.
+                
+We know losing saves is frustrating, but this rewrite lays the foundation for the future of Stationeers.
+Thank you for your understanding, and we can’t wait for you to experience what’s new.
+            </Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPowerCapacity</Key>
+      <Value>Power Capacity:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPowerGeneration</Key>
+      <Value>Base Power Generation:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMetabolicSuspension</Key>
+      <Value>Metabolic Suspension</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMetabolicSuspensionDesc</Key>
+      <Value>When powered this device will suspend the metabolism of the occupand ensuring they  no longer consume food or water</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCryogenicRegenerationDesc</Key>
+      <Value>When powered this device will repair all kinds of damage to tissue and organs as well as regenerating dead occupants </Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCryogenicRegeneration</Key>
+      <Value>Cryogenic Regeneration</Value>
     </Record>
   </Interface>
   <Colors>
@@ -26035,6 +28992,538 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>CancelLoadButton</Key>
       <Value>Cancel</Value>
+    </Record>
+    <Record>
+      <Key>LandingGear</Key>
+      <Value>Landing Gear</Value>
+    </Record>
+    <Record>
+      <Key>Activate</Key>
+      <Value>Activate</Value>
+    </Record>
+    <Record>
+      <Key>Deactivate</Key>
+      <Value>Deactivate</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionStackSize</Key>
+      <Value>Returns the stack size of the devices internal memory.</Value>
+    </Record>
+    <Record>
+      <Key>CantEquipThisBackpack</Key>
+      <Value>{LOCAL:InvalidItem} can not be equipped when wearing {LOCAL:CurrentlyEquipped}</Value>
+    </Record>
+    <Record>
+      <Key>ProportionalGainDescription</Key>
+      <Value>The proportional gain of the PID controller. This value determines how aggressively the controller responds to the error between the setpoint and the process variable. A higher value results in a faster response but may lead to overshoot or instability.</Value>
+    </Record>
+    <Record>
+      <Key>IntegralGainDescription</Key>
+      <Value>The integral gain of the PID controller. This value determines how much the controller responds to the accumulated error over time. A higher value can help eliminate steady-state errors but may also lead to oscillations or instability.</Value>
+    </Record>
+    <Record>
+      <Key>DerivativeGainDescription</Key>
+      <Value>The derivative gain of the PID controller. This value determines how much the controller responds to the rate of change of the error. A higher value can help dampen oscillations and improve stability, but may also lead to noise amplification.</Value>
+    </Record>
+    <Record>
+      <Key>ResetDescription</Key>
+      <Value>Resets the PID controller's internal state, clearing any accumulated error and resetting the output to zero. This is useful for starting fresh or recovering from an unstable state.</Value>
+    </Record>
+    <Record>
+      <Key>SetpointDescription</Key>
+      <Value>The desired value that the PID controller aims to achieve. This is the target value for the process variable, and the controller will adjust its output to minimize the difference between the setpoint and the process variable.</Value>
+    </Record>
+    <Record>
+      <Key>MinimumDescription</Key>
+      <Value>Minimum value for provided logic device.</Value>
+    </Record>
+    <Record>
+      <Key>NetworkFaultDescription</Key>
+      <Value>Attached network is experiencing a fault, such as a pipe burst or other failure.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionMaturityRatio</Key>
+      <Value>How far the plant is towards maturity represented as a fraction between 0 and 1, with 1 being mature and ready for harvest.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionSeedingRatio</Key>
+      <Value>How far the plant is towards seeding represented as a fraction between 0 and 1, with 1 being seeding and will supply seeds when harvested.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionBdnvl</Key>
+      <Value>Will branch to line a if the provided device not valid for a load instruction for the provided logic type.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionBdnvs</Key>
+      <Value>Will branch to line a if the provided device not valid for a store instruction for the provided logic type.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionPow</Key>
+      <Value>Stores the result of raising a to the power of b in the register. Follows IEEE-754 standard for floating point arithmetic.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionExt</Key>
+      <Value>Extracts a bit field from a, beginning at b for c length and placed in the provided register. Payload cannot exceed 53 bits in final length.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionIns</Key>
+      <Value>Inserts a bit field of a into the provided register, beginning at b for c length. Payload cannot exceed 53 bits in final length.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionLerp</Key>
+      <Value>Linearly interpolates between a and b by the ratio c, and places the result in the register provided. The ratio c will be clamped between 0 and 1.</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherState</Key>
+      <Value>Ice Crusher Status</Value>
+    </Record>
+    <Record>
+      <Key>InternalAtmosphere</Key>
+      <Value>Internal Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherSetting</Key>
+      <Value>Will Heat if below {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherHeater</Key>
+      <Value>Heating Element</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherHeating</Key>
+      <Value>Operation slowed while heating to {LOCAL:Temperature} target</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherIndicatorHeat</Key>
+      <Value>Heating</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherIndicatorIdle</Key>
+      <Value>Idle</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherAtmosFull</Key>
+      <Value>Internal Atmosphere is Full</Value>
+    </Record>
+    <Record>
+      <Key>BreathingAtmosphere</Key>
+      <Value>Occupant Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>CryogenicLiquid</Key>
+      <Value>Cryogenic Liquid</Value>
+    </Record>
+    <Record>
+      <Key>NotPureLiquidNitrogen</Key>
+      <Value>Liquid is not pure Liquid Nitrogen</Value>
+    </Record>
+    <Record>
+      <Key>CryoLiquidVolumeTooLow</Key>
+      <Value>Cryogenic Liquid volume must be above {LOCAL:Volume}</Value>
+    </Record>
+    <Record>
+      <Key>CryoLiquidTemperatureTooHigh</Key>
+      <Value>Cryogenic liquid must be below {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>CryoWillRevive</Key>
+      <Value>Will regenerate deceased patients</Value>
+    </Record>
+    <Record>
+      <Key>CryoState</Key>
+      <Value>Cryogenic Status</Value>
+    </Record>
+    <Record>
+      <Key>SleeperState</Key>
+      <Value>Sleeper Status</Value>
+    </Record>
+    <Record>
+      <Key>SleeperMetabolicSuspension</Key>
+      <Value>Metabolic Suspension Active</Value>
+    </Record>
+    <Record>
+      <Key>SleeperDoorIsOpen</Key>
+      <Value>Operation disabled while door open</Value>
+    </Record>
+    <Record>
+      <Key>CryoWillHeal</Key>
+      <Value>Will heal damaged patients</Value>
+    </Record>
+    <Record>
+      <Key>Vacuum</Key>
+      <Value>Vacuum</Value>
+    </Record>
+    <Record>
+      <Key>Null</Key>
+      <Value>Null</Value>
+    </Record>
+    <Record>
+      <Key>VehicleIsNotDamaged</Key>
+      <Value>{LOCAL:Rover} is not damaged</Value>
+    </Record>
+    <Record>
+      <Key>PatchingRecipe</Key>
+      <Value>{LOCAL:ModName} is patching recipe for {LOCAL:PrefabName}</Value>
+    </Record>
+    <Record>
+      <Key>UnknownMod</Key>
+      <Value>Unknown</Value>
+    </Record>
+    <Record>
+      <Key>ActionRepairRover</Key>
+      <Value>Repair Vehicle</Value>
+    </Record>
+    <Record>
+      <Key>SlotVacant</Key>
+      <Value>Vacant</Value>
+    </Record>
+    <Record>
+      <Key>SlotOccupant</Key>
+      <Value>Occupant</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotForSpecies</Key>
+      <Value>Device cannot be occupied by {LOCAL:Species}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotConstructed</Key>
+      <Value>{LOCAL:Thing} has not been fully constructed</Value>
+    </Record>
+    <Record>
+      <Key>DevicePressureTooHigh</Key>
+      <Value>{LOCAL:Thing} exceeds its internal pressure rating</Value>
+    </Record>
+    <Record>
+      <Key>RocketGasCollectActionInfo</Key>
+      <Value>Collector: {LOCAL:OnOff}, Next Yield: {LOCAL:Yield}</Value>
+    </Record>
+    <Record>
+      <Key>CryoAtmosphereIsUnsafe</Key>
+      <Value>Breathing Atmosphere is unsafe</Value>
+    </Record>
+    <Record>
+      <Key>CryoNoAtmosphericInput</Key>
+      <Value>No Breathing Gas Network</Value>
+    </Record>
+    <Record>
+      <Key>CryoNoLiquidInput</Key>
+      <Value>No Cryogenic Liquid Network</Value>
+    </Record>
+    <Record>
+      <Key>TradeActionData</Key>
+      <Value>Includes {LOCAL:Value} of data</Value>
+    </Record>
+    <Record>
+      <Key>RegionName</Key>
+      <Value>Region: {LOCAL:Name}</Value>
+    </Record>
+    <Record>
+      <Key>OldSaveDetected</Key>
+      <Value>1 Old Save Detected</Value>
+    </Record>
+    <Record>
+      <Key>OldSavesDetected</Key>
+      <Value>{LOCAL:Count} Old Saves Detected</Value>
+    </Record>
+    <Record>
+      <Key>DeleteOldSave</Key>
+      <Value>Are you sure you want to delete 1 old save?</Value>
+    </Record>
+    <Record>
+      <Key>DeleteOldSaves</Key>
+      <Value>Are you sure you want to delete {LOCAL:Count} old saves?</Value>
+    </Record>
+    <Record>
+      <Key>SuitOperatingRangeText</Key>
+      <Value>{LOCAL:Minimum} to {LOCAL:Maximum}</Value>
+    </Record>
+    <Record>
+      <Key>RespawnHere</Key>
+      <Value>Spawn Point Set</Value>
+    </Record>
+    <Record>
+      <Key>Hydration</Key>
+      <Value>Hydration</Value>
+    </Record>
+    <Record>
+      <Key>Nutrition</Key>
+      <Value>Nutrition</Value>
+    </Record>
+    <Record>
+      <Key>Oxygenation</Key>
+      <Value>Oxygenation</Value>
+    </Record>
+    <Record>
+      <Key>Stun</Key>
+      <Value>Stun</Value>
+    </Record>
+    <Record>
+      <Key>NextWeatherHashDescription</Key>
+      <Value>NextWeatherHash provides the hash value for the name of the next weather event as a 32 bit integer.</Value>
+    </Record>
+    <Record>
+      <Key>WeatherEventComing</Key>
+      <Value>A weather event is incoming</Value>
+    </Record>
+    <Record>
+      <Key>DeviceMustBeOutside</Key>
+      <Value>The {LOCAL:Device} will not function indoors</Value>
+    </Record>
+    <Record>
+      <Key>DeviceConfigMode</Key>
+      <Value>Set to Configure</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOperateMode</Key>
+      <Value>Set to Operate</Value>
+    </Record>
+    <Record>
+      <Key>SlotItemProvidesPower</Key>
+      <Value>The {LOCAL:Item} provide {LOCAL:Power} of power</Value>
+    </Record>
+    <Record>
+      <Key>CanReplaceFuselage</Key>
+      <Value>Can replace other fuselages when holding a {LOCAL:Tool}</Value>
+    </Record>
+    <Record>
+      <Key>ShowerWillClean</Key>
+      <Value>Will clean {LOCAL:Occupant}</Value>
+    </Record>
+    <Record>
+      <Key>ShowerNotInPosition</Key>
+      <Value>{LOCAL:Occupant} is not close enough to shower</Value>
+    </Record>
+    <Record>
+      <Key>ShowerCannotWhenWearing</Key>
+      <Value>Cannot shower wearing {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>NamedThingDamageIsAt</Key>
+      <Value>{LOCAL:Thing} {LOCAL:DamageType} is at {LOCAL:Percent}</Value>
+    </Record>
+    <Record>
+      <Key>CoolingAmount</Key>
+      <Value>Cooling {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>HeatingAmount</Key>
+      <Value>Heating {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionFreeSlots</Key>
+      <Value>The number of free slots available in this object.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTotalSlots</Key>
+      <Value>The total number of slots available in this object.</Value>
+    </Record>
+    <Record>
+      <Key>UnidentifiedPlayer</Key>
+      <Value>Unidentified player</Value>
+    </Record>
+    <Record>
+      <Key>PlayerHasAlreadyRespawned</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; has &lt;color=yellow&gt;respawned&lt;/color&gt; and cannot be revived.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerBodyBagDead</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; is &lt;color=red&gt;dead&lt;/color&gt; in the body bag and waiting to be revived.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerIsOnline</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; is &lt;color=green&gt;online&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerIsOffline</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; is &lt;color=yellow&gt;offline&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>BodyBagName</Key>
+      <Value>Body Bag(&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt;)</Value>
+    </Record>
+    <Record>
+      <Key>PlayerBelongings</Key>
+      <Value>Belongings</Value>
+    </Record>
+    <Record>
+      <Key>PlayerReviveInCryotube</Key>
+      <Value>Place &lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; in a &lt;color=green&gt;Cryotube&lt;/color&gt; to revive.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerRequestHelpUnconscious</Key>
+      <Value>{LOCAL:UserName} is in trouble and needs help.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerRequestHelpDead</Key>
+      <Value>{LOCAL:UserName} is dead. They have requested they be revived in a Cryotube.</Value>
+    </Record>
+    <Record>
+      <Key>FoodContainerDecayReduction</Key>
+      <Value>Decay reduced to {LOCAL:Percent} inside {LOCAL:Container}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotClosed</Key>
+      <Value>The {LOCAL:Device} must be closed to operate</Value>
+    </Record>
+    <Record>
+      <Key>CannotInteract</Key>
+      <Value>Cannot interact</Value>
+    </Record>
+    <Record>
+      <Key>EnergyTransfer</Key>
+      <Value>Energy Transfer</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangeArea</Key>
+      <Value>Surface Area</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangeFromTo</Key>
+      <Value>Exchanging from {LOCAL:Input1} to {LOCAL:Input2}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNoPayload</Key>
+      <Value>{LOCAL:Thing} has no payload</Value>
+    </Record>
+    <Record>
+      <Key>EntityStarving</Key>
+      <Value>Starving</Value>
+    </Record>
+    <Record>
+      <Key>EntityRespawnStress</Key>
+      <Value>Fatigued from respawn</Value>
+    </Record>
+    <Record>
+      <Key>ConsumptionSpeed</Key>
+      <Value>Consumption Speed</Value>
+    </Record>
+    <Record>
+      <Key>ToolUseSpeed</Key>
+      <Value>Tool Speed</Value>
+    </Record>
+    <Record>
+      <Key>TradePenalty</Key>
+      <Value>Trade Penalty</Value>
+    </Record>
+    <Record>
+      <Key>DeviceIsNotOperable</Key>
+      <Value>Device is not operable</Value>
+    </Record>
+    <Record>
+      <Key>PumpIntoPad</Key>
+      <Value>Pump into landingpad</Value>
+    </Record>
+    <Record>
+      <Key>PumpIntoTank</Key>
+      <Value>Pump into tank</Value>
+    </Record>
+    <Record>
+      <Key>Inward</Key>
+      <Value>Inward</Value>
+    </Record>
+    <Record>
+      <Key>Outward</Key>
+      <Value>Outward</Value>
+    </Record>
+    <Record>
+      <Key>Warning</Key>
+      <Value>Warning</Value>
+    </Record>
+    <Record>
+      <Key>Critical</Key>
+      <Value>Critical</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureO2</Key>
+      <Value>Oxygen Partial Pressure</Value>
+    </Record>
+    <Record>
+      <Key>LungsEfficiency</Key>
+      <Value>Breathing Efficiency</Value>
+    </Record>
+    <Record>
+      <Key>ToxinDamage</Key>
+      <Value>Toxin Damage</Value>
+    </Record>
+    <Record>
+      <Key>BurnDamage</Key>
+      <Value>Burn Damage</Value>
+    </Record>
+    <Record>
+      <Key>VacuumDamage</Key>
+      <Value>Vacuum Damage</Value>
+    </Record>
+    <Record>
+      <Key>DamageFromLackOfFood</Key>
+      <Value>Loosing Health due to lack of Food</Value>
+    </Record>
+    <Record>
+      <Key>DamageFromLackOfWater</Key>
+      <Value>Loosing Health due to lack of Water</Value>
+    </Record>
+    <Record>
+      <Key>RobotHasNoBattery</Key>
+      <Value>Battery missing</Value>
+    </Record>
+    <Record>
+      <Key>RobotBatteryNoCharge</Key>
+      <Value>Battery has no charge</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureN2O</Key>
+      <Value>Partial Pressure Nitrous Oxide</Value>
+    </Record>
+    <Record>
+      <Key>Refreshed</Key>
+      <Value>Refreshed</Value>
+    </Record>
+    <Record>
+      <Key>MovementSpeed</Key>
+      <Value>Movement Speed</Value>
+    </Record>
+    <Record>
+      <Key>Hygiene</Key>
+      <Value>Hygiene</Value>
+    </Record>
+    <Record>
+      <Key>UnviableEggNotice</Key>
+      <Value>The {LOCAL:Name} is unviable</Value>
+    </Record>
+    <Record>
+      <Key>WillHatchInto</Key>
+      <Value>Will hatch into a {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ViableEggNotice</Key>
+      <Value>Incubation requires {LOCAL:MinTemp} to {LOCAL:MaxTemp}</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateMoodDecreasing</Key>
+      <Value>Mood is Decreasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateMoodIncreasing</Key>
+      <Value>Mood is Increasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateHygieneDecreasing</Key>
+      <Value>Hygiene is Decreasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateHygieneIncreasing</Key>
+      <Value>Hygiene is Increasing</Value>
+    </Record>
+    <Record>
+      <Key>EggIsTooCold</Key>
+      <Value>Egg is too cold</Value>
+    </Record>
+    <Record>
+      <Key>EggIsTooHot</Key>
+      <Value>Egg is too hot</Value>
+    </Record>
+    <Record>
+      <Key>FertilizedEggProcess</Key>
+      <Value>The {LOCAL:Thing} is {LOCAL:Percent} to hatching</Value>
     </Record>
   </GameStrings>
   <GameTip />

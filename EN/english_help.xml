@@ -263,8 +263,8 @@ Good luck, Cadet!
     <StationpediaPage>
       <Key>OrePage</Key>
       <Title>Ores</Title>
-      <Text>These are items that are {LINK:MiningPage;mined} and can often be {LINK:SmeltingPage;smelted}. You can also get mixed ore by recycling items in the {THING:StructureRecycler} and then passing it through the {THING:StructureCentrifuge} which will break it into {LINK:OrePage;ore} for {LINK:SmeltingPage;smelting}.
-        There are some ores that will melt when exposed to sunlight or heat and produce {LINK:GasPage;gases}. For example {THING:ItemIce} melts into {GAS:Water} and {GAS:Oxygen}. Be careful to keep these out of heat or sunlight until you actually want them to melt.{LIST_OF_ORES}
+      <Text>These are items that are {LINK:MiningPage;mined} and can often be {LINK:SmeltingPage;smelted}. You can also get mixed ore by recycling items in the {THING:StructureRecycler} and then passing it through the {THING:StructureCentrifuge} which will break it into {LINK:OrePage;ore} for {LINK:SmeltingPage;smelting}. 
+There are some ores that will melt when exposed to sunlight or heat and produce {LINK:GasPage;gases}. For example {THING:ItemIce} melts into {GAS:Water} and {GAS:Oxygen}. Be careful to keep these out of heat or sunlight until you actually want them to melt.{LIST_OF_ORES}
       </Text>
     </StationpediaPage>
 
@@ -376,9 +376,23 @@ More complex rockets may use {THING:StructureRocketMiner} and {THING:StructureCa
       <Title>Weather</Title>
       <DisplayFilter>Guides</DisplayFilter>
       <Text>The Solar System's planets are not as calm as they may seem. After seven days on any world with an atmosphere, the inscrutable forces of nature swing into action – hitting unwary Stationeers with blizzards, dust storms and volcanic events.
+
 As such, the {LINK:ODA;ODA} recommends that freshly deployed Stationeers create an airtight base within 7 days of landing.
+
 Any dynamic objects left outside in a storm – on Mars, Loulan, Vulcan or Europa – risks being blown far, far away, including your lander.
+
 Likewise, be aware that solar panels are fragile and may have their glass shattered, or occasionally even be destroyed by a sufficiently ferocious storm. During storms, their output is also drastically reduced.
+      </Text>
+   </StationpediaPage>
+    
+    <StationpediaPage>
+      <Key>CableNetworkPage</Key>
+      <Title>Cable Networks</Title>
+      <Text>When placing cables with {THING:ItemCableCoil} you create cable networks. These contain volatile memory that can be read or written to using a  {THING:ItemIntegratedCircuit10}. This includes a variety of special logic variables such as {LOGICTYPE:Channel0} through to {LOGICTYPE:Channel7}. The networks also have readable memory, which contains a list of all the data devices on the network, and can be used with GET to find the {LOGICTYPE:ReferenceId} for that device. 
+	  
+To find out the current quantity of devices in the stack, use the {LOGICTYPE:StackSize} variable on the network, as the network adjusts its stack size dynamically based on devices within it. Cable Networks are volatile memory, and will change both their order, contents, and data whenever the network changes - so you may need to constantly poll and update the information.  
+
+To access this, use extra notation on your device references such as {COLORYELLOW:d0}:{COLORYELLOW:1} to access network 1 off the provided device. To find out the connection number, check the stationpedia page for that device for the number under the connections section.
       </Text>
    </StationpediaPage>
     
