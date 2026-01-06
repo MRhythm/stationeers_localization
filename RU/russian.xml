@@ -5468,7 +5468,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>StructureWaterWallCooler</Key>
       <Value>Жидкостный настенный охладитель</Value>
-      <Description />>
+      <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidDrain</Key>
@@ -18134,139 +18134,139 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>Tutorial3Title</Key>
-      <Value>Tutorial 3: Atmospherics</Value>
+      <Value>Урок 3: Атмосфера</Value>
     </Record>
     <Record>
       <Key>Tutorial3Summary</Key>
-      <Value>Learn how to refill canisters and move gas around the world</Value>
+      <Value>Узнайте, как пополнять газовые баллоны и перемещать газ по миру</Value>
     </Record>
     <Record>
       <Key>Tutorial3RefillOxygenTankHeading</Key>
-      <Value>Refill your suit air canister</Value>
+      <Value>Пополните кислородный баллон вашего скафандра</Value>
     </Record>
     <Record>
       <Key>Tutorial3SuitInventory</Key>
-      <Value>Your {THING:ItemEvaSuit} has an inventory just like a Backback or Toolbelt.</Value>
+      <Value>Ваш {THING:ItemEvaSuit} имеет инвентарь, как рюкзак или пояс.</Value>
     </Record>
     <Record>
       <Key>Tutorial3OxygenTankLow</Key>
-      <Value>Your Oxygen {THING:ItemGasCanisterEmpty} is low pressure.</Value>
+      <Value>Ваш кислородный {THING:ItemGasCanisterEmpty} практически пуст.</Value>
     </Record>
     <Record>
       <Key>Tutorial3SuitWarning</Key>
-      <Value>The {THING:ItemEvaSuit} will give a warning when the Oxygen {THING:ItemGasCanisterEmpty} is removed.</Value>
+      <Value>{THING:ItemEvaSuit} выдаст предупреждение, когда кислородный {THING:ItemGasCanisterEmpty} будет извлечён.</Value>
     </Record>
     <Record>
       <Key>Tutorial3CanisterSlot</Key>
-      <Value>The {THING:DynamicGasCanisterEmpty} canister slot refills canisters.</Value>
+      <Value>Пополнить баллон можно поместив его в слот для баллона, который есть у {THING:DynamicGasCanisterEmpty}.</Value>
     </Record>
     <Record>
       <Key>Tutorial3EmptyWasteHeading</Key>
-      <Value>Empty suit waste canister</Value>
+      <Value>Опустошите баллон с отходами скафандра</Value>
     </Record>
     <Record>
       <Key>Tutorial3WasteTankFillsUp</Key>
-      <Value>The yellow Waste {THING:ItemGasCanisterEmpty} in your suit fills with breathed out CO2.</Value>
+      <Value>Жёлтый {THING:ItemGasCanisterEmpty} с отходами наполняется выдыхаемым углекислым газом.</Value>
     </Record>
     <Record>
       <Key>Tutorial3WasteTankNeedsEmptying</Key>
-      <Value>The Waste {THING:ItemGasCanisterEmpty} must be emptied when full.</Value>
+      <Value>Этот {THING:ItemGasCanisterEmpty} необходимо опустошать, когда он заполняется.</Value>
     </Record>
     <Record>
       <Key>Tutorial3ClickToEmptyWaste</Key>
-      <Value>Clicking on the yellow {THING:ItemGasCanisterEmpty} will open its interaction window.</Value>
+      <Value>Клик на жёлтый {THING:ItemGasCanisterEmpty} откроет окно взаимодействия. Нажмите копку Открыть для опустошения</Value>
     </Record>
     <Record>
       <Key>Tutorial3AnalyzeGasTankHeading</Key>
-      <Value>Analyse the Portable Gas Tank with your tablet for 5 seconds</Value>
+      <Value>Проанализируйте газовый резервуар вашим планшетом в течение 5 секунд</Value>
     </Record>
     <Record>
       <Key>Tutorial3TabletInBackpack</Key>
-      <Value>Your {THING:ItemHardBackpack} contains a {THING:ItemTablet}.</Value>
+      <Value>Ваш {THING:ItemHardBackpack} содержит {THING:ItemTablet}.</Value>
     </Record>
     <Record>
       <Key>Tutorial3InsertCartridge</Key>
-      <Value>The {THING:ItemTablet} has an inventory that accepts a {THING:CartridgeAtmosAnalyser}.</Value>
+      <Value>У {THING:ItemTablet} есть слот, который принимает {THING:CartridgeAtmosAnalyser}.</Value>
     </Record>
     <Record>
       <Key>Tutorial3AtmosAnalyserInfo</Key>
-      <Value>Turn on {THING:ItemTablet} by clicking &lt;color=#FBB03B&gt;Right Mouse Button&lt;/color&gt;. The {THING:CartridgeAtmosAnalyser} will display gas pressure and temperature.</Value>
+      <Value>Включите {THING:ItemTablet} нажатием &lt;color=#FBB03B&gt;Правой кнопки мыши&lt;/color&gt;. {THING:CartridgeAtmosAnalyser} отобразит давление и температуру газа.</Value>
     </Record>
     <Record>
       <Key>Tutorial3AtmosAnalyserInfo2</Key>
-      <Value>The {THING:CartridgeAtmosAnalyser} shows the room's atmosphere or the gas inside the item you're looking at.</Value>
+      <Value>{THING:CartridgeAtmosAnalyser} показывает атмосферу комнаты или газ внутри предмета на который вы смотрите.</Value>
     </Record>
     <Record>
       <Key>Tutorial3FillPipeHeading</Key>
-      <Value>Fill the pipe network with oxygen</Value>
+      <Value>Заполните сеть труб кислородом</Value>
     </Record>
     <Record>
       <Key>Tutorial3DragCanister</Key>
-      <Value>Drag a {THING:DynamicGasCanisterEmpty} on top of the {THING:StructurePortablesConnector} using the side handles.</Value>
+      <Value>Переместите {THING:DynamicGasCanisterEmpty} на {THING:StructurePortablesConnector} используя его боковые ручки.</Value>
     </Record>
     <Record>
       <Key>Tutorial3ConnectPortableTank</Key>
-      <Value>Once in position, drop the tank with {KEY:Drop} and {THING:ItemWrench} it down to connect.</Value>
+      <Value>Когда спозиционируете резервуар, отпустите его клавишей {KEY:Drop} и примените {THING:ItemWrench} для их присоединения.</Value>
     </Record>
     <Record>
       <Key>Tutorial3AnalyzePipeNetworkHeading</Key>
-      <Value>Look at the white Pipe Meter</Value>
+      <Value>Посмотрите на белый манометр</Value>
     </Record>
     <Record>
       <Key>Tutorial3NoticePressure</Key>
-      <Value>Like the {THING:CartridgeAtmosAnalyser}, the {THING:StructurePipeMeter} is another way to read gas pressure and temperature in a pipe.</Value>
+      <Value>Как и {THING:CartridgeAtmosAnalyser}, {THING:StructurePipeMeter} - это способ считать давление и температуру газа в трубе.</Value>
     </Record>
     <Record>
       <Key>Tutorial3AddGasTankStorageHeading</Key>
-      <Value>Connect a gas tank storage</Value>
+      <Value>Подключите стойку для газового баллона</Value>
     </Record>
     <Record>
       <Key>Tutorial3ConstructValveBluePipe</Key>
-      <Value>Construct a {THING:StructureValve} to connect the blue pipe to the white pipe.</Value>
+      <Value>Постройте {THING:StructureValve}, чтобы соединить синюю трубу с белой.</Value>
     </Record>
     <Record>
       <Key>Tutorial3ConstructGasTankStorage</Key>
-      <Value>Construct a {THING:StructureGasTankStorage} attached to the blue pipe using the {THING:ItemKitPipeUtility} in the locker.</Value>
+      <Value>Постройте {THING:StructureGasTankStorage} используя {THING:ItemKitPipeUtility} из шкафчика, прикрепив ее к синей трубе</Value>
     </Record>
     <Record>
       <Key>Tutorial3ScrollToChangeBlueprint</Key>
-      <Value>The {THING:ItemKitPipeUtility} can build multiple devices. Use the &lt;color=#FBB03B&gt;Mouse Scroll Wheel&lt;/color&gt; to select the {THING:StructureGasTankStorage} blueprint.</Value>
+      <Value>{THING:ItemKitPipeUtility} может строить множество устройств. Используйте &lt;color=#FBB03B&gt;Колесо мыши&lt;/color&gt; чтобы выбрать схему {THING:StructureGasTankStorage}.</Value>
     </Record>
     <Record>
       <Key>Tutorial3FillCanisterHeading</Key>
-      <Value>Fill up an empty canister</Value>
+      <Value>Наполните пустой баллон</Value>
     </Record>
     <Record>
       <Key>Tutorial3InsertCanisterFromLocker</Key>
-      <Value>Take a white {THING:ItemGasCanisterEmpty} from the locker and insert it into the {THING:StructureGasTankStorage}.</Value>
+      <Value>Возьмите белый {THING:ItemGasCanisterEmpty} из шкафчика и вставьте его в {THING:StructureGasTankStorage}.</Value>
     </Record>
     <Record>
       <Key>Tutorial3OpenTheCanisterValve</Key>
-      <Value>The {THING:StructureValve} allows mixing between two pipe networks, turn the handle to open the {THING:StructureValve}.</Value>
+      <Value>{THING:StructureValve} позволяет смешивать атмосферы двух труб. Поверните ручку, чтобы открыть {THING:StructureValve}.</Value>
     </Record>
     <Record>
       <Key>Tutorial3AnalyzeCanisterHeading</Key>
-      <Value>Analyze the Canister for 5 seconds</Value>
+      <Value>Проанализируйте баллон в течение 5 секунд</Value>
     </Record>
     <Record>
       <Key>Tutorial3AnalyzeCanisterInStorage</Key>
-      <Value>Analyse the {THING:ItemGasCanisterEmpty} in the {THING:StructureGasTankStorage} with your {THING:ItemTablet}.</Value>
+      <Value>Проанализируйте {THING:ItemGasCanisterEmpty} в {THING:StructureGasTankStorage} с помощью {THING:ItemTablet}.</Value>
     </Record>
     <Record>
       <Key>Tutorial3PassiveVents</Key>
-      <Value>The {THING:StructurePassiveVent} allows gas to mix between the connected pipe and the world.</Value>
+      <Value>{THING:StructurePassiveVent} позволяет смешивать газ между подключенной трубой и миром.</Value>
     </Record>
     <Record>
       <Key>Tutorial3ConstructOrangeValve</Key>
-      <Value>Construct a {THING:StructureValve} in the space between the white and orange pipes.</Value>
+      <Value>Постройте {THING:StructureValve} в пространстве между белой и оранжевой трубами.</Value>
     </Record>
     <Record>
       <Key>Tutorial3PressurizeRoomHeading</Key>
-      <Value>Pressurize the room</Value>
+      <Value>Повысьте давление в помещении</Value>
     </Record>
     <Record>
       <Key>Tutorial3OpenTheRoomValve</Key>
-      <Value>Open the {THING:StructureValve} to release Oxygen into the room.</Value>
+      <Value>Откройте {THING:StructureValve}, чтобы выпустить кислород в комнату.</Value>
     </Record>
     <Record>
       <Key>TutorialRating</Key>
@@ -18274,167 +18274,167 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>TutorialAirlockWorldName</Key>
-      <Value>Community Walkthrough: Airlocks</Value>
+      <Value>Руководство от сообщества: Шлюзы</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockDescription</Key>
-      <Value>Learn the basics of creating an Airlock.</Value>
+      <Value>Изучите основы создания шлюзов.</Value>
     </Record>
     <Record>
       <Key>CommunityTutorialBigFootMSR</Key>
-      <Value>A Stationeers community tutorial from BigFootMSR</Value>
+      <Value>Пошаговое руководство от BigFootMSR из сообщества Stationeers</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockPowerName</Key>
-      <Value>Setting up power to the Airlock</Value>
+      <Value>Подключение питания к шлюзу</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockPowerInfo</Key>
-      <Value>Using an {THING:StructureAreaPowerControl} in an airlock will act as a battery backup and isolate the airlock from erroneous logic commands.</Value>
+      <Value>Использование {THING:StructureAreaPowerControl} в шлюзе даст резервное питание и изолирует устройства шлюза от ошибочных логических команд из сети.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockPowerPlaceAPC</Key>
-      <Value>Place an {THING:StructureAreaPowerControl} to the right of the light connected to the green power supply cable. Watch the direction of the arrows on the APC.</Value>
+      <Value>Поместите {THING:StructureAreaPowerControl} справа от светильника, подключенного к зелёному питающему кабелю. Обратите внимание на направление стрелок на корпусе ИБП.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockAPCName</Key>
-      <Value>Provide Power to the airlock</Value>
+      <Value>Предоставьте питание шлюзу</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockAPCPryOpen</Key>
-      <Value>Pry open the {THING:StructureAreaPowerControl} cover with a {THING:ItemCrowbar}.</Value>
+      <Value>Сдвиньте крышку {THING:StructureAreaPowerControl} с помощью {THING:ItemCrowbar}.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockAPCTurnOn</Key>
-      <Value>Turn on the {THING:StructureAreaPowerControl} by flipping the lever.</Value>
+      <Value>Включите {THING:StructureAreaPowerControl} поднятием рычага.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockAPCInstallBatt</Key>
-      <Value>Place a {THING:ItemBatteryCellLarge} from the locker into the {THING:StructureAreaPowerControl} {SLOT:Battery} slot</Value>
+      <Value>Поместите {THING:ItemBatteryCellLarge} из шкафчика в слот {THING:StructureAreaPowerControl} для {SLOT:Battery}</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInformationName</Key>
-      <Value>Airlock common components</Value>
+      <Value>Общие компоненты шлюза</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInformationInfo</Key>
-      <Value>Most airlocks will have common components such as a {THING:StructureConsole} and {THING:StructureGasSensor}.</Value>
+      <Value>Большинство шлюзов имеют общие компоненты, такие как {THING:StructureConsole} и {THING:StructureGasSensor}.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInformationPlaceConsole</Key>
-      <Value>Place a {THING:StructureConsole} in the middle of the frame, below the {THING:StructureLightRound}, in the hallway between the two rooms.</Value>
+      <Value>Поместите {THING:StructureConsole} в середину каркаса, под {THING:StructureLightRound} в проходе между двумя комнатами.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInformationPlaceSensor</Key>
-      <Value>Place a {THING:StructureGasSensor} on the other cable end next to it.</Value>
+      <Value>Поставьте {THING:StructureGasSensor} на соседний кабель.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInsertCardName</Key>
-      <Value>Insert the Circuitboard into the Console</Value>
+      <Value>Вставьте Плату в Консоль</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInsertCardInfo</Key>
-      <Value>Advanced airlocks are used when you have atmosphere on both sides, while the airlock card is used when you have vacuum on one side of the airlock.</Value>
+      <Value>Плата расширенного управления шлюзом используются когда у вас с двух сторон есть атмосфера, в то время как обычная плата управления шлюзом используется, когда с одной из сторон вакуум.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInsertCardPutAdvAirlock</Key>
-      <Value>Place the {THING:CircuitboardAdvAirlockControl} from the locker into the {THING:StructureConsole}.</Value>
+      <Value>Поместите {THING:CircuitboardAdvAirlockControl} из шкафчика в {THING:StructureConsole}.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInsertCardInstallGlass</Key>
-      <Value>Finish the console with a {THING:ItemGlassSheets}, and turn it on.</Value>
+      <Value>Завершите строительство консоли с помощью {THING:ItemGlassSheets} и включите её.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockVentilationName</Key>
-      <Value>Place Active Vents</Value>
+      <Value>Установите две Активные вентиляции</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockVentilationInfo</Key>
-      <Value>Advanced airlocks require an {THING:StructureActiveVent} for each side of the airlock. There are several types of vents in the game such as the larger more powerful, {THING:StructurePoweredVent} and {THING:StructurePoweredVentLarge} for those really large airlocks.</Value>
+      <Value>Продвинутые шлюзы требуют {THING:StructureActiveVent} для каждой стороны шлюза. В игре есть несколько типов вентиляций, таких как {THING:StructurePoweredVent} и {THING:StructurePoweredVentLarge} для действительно больших шлюзов.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockVentilationPlaceVents</Key>
-      <Value>Place two {THING:StructureActiveVent} on the roof connected to the yellow pipe and cable.</Value>
+      <Value>Поместите две {THING:StructureActiveVent} на потолок, подключив их к жёлтой трубе и кабелю.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockBuildDoorsName</Key>
-      <Value>Complete the 2 doors</Value>
+      <Value>Завершите 2 двери</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockBuildDoorsInfo</Key>
-      <Value>The type of door to use will depend on your situation. There are many types of doors in the {THING:ItemKitDoor}, {THING:ItemKitAirlock}, {THING:ItemKitAirlockGate} and {THING:ItemKitBlastDoor}.</Value>
+      <Value>Тип двери зависит от вашей ситуации. Существует много типов дверей, среди них {THING:ItemKitDoor}, {THING:ItemKitAirlock}, {THING:ItemKitAirlockGate} и {THING:ItemKitBlastDoor}.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockBuildDoorsFinish</Key>
-      <Value>Finish building both of the {THING:StructureGlassDoor} for the airlock with the supplies in the Locker.</Value>
+      <Value>Закончите строительство двух {THING:StructureGlassDoor} в шлюзе, используя ресурсы из шкафчика.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockBuildDoorsWelderReminder</Key>
-      <Value>Remember to turn off your Welder when not in use.</Value>
+      <Value>Не забывайте выключать Газовую горелку, когда ей не пользуетесь.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingName</Key>
-      <Value>Programing the airlock</Value>
+      <Value>Программирование шлюза</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingInfo</Key>
-      <Value>The {THING:ItemLabeller} can be used to set the names, settings, and values of many devices in the game.</Value>
+      <Value>В игре для переименования или задания значения настройки большинства устройств используется {THING:ItemLabeller}.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingUseLabeller</Key>
-      <Value>Label the {THING:StructureGlassDoor} and {THING:StructureActiveVent} on one side of the airlock something easy to remember like 'Exterior', or 'Interior'. Then label the other side the opposite.</Value>
+      <Value>Назовите {THING:StructureGlassDoor} и {THING:StructureActiveVent} на одной из сторон шлюза каким-нибудь запоминающимся названием, например 'Снаружи' или 'Внутри'. Затем назовите другую сторону противоположным названием.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingInserDisk</Key>
-      <Value>Insert the {THING:ItemDataDisk} into the disk slot on the side of the {THING:StructureConsole} to enable the setup screen.</Value>
+      <Value>Используйте {THING:ItemScrewdriver} на боковом винте на {THING:StructureConsole}, чтобы перейти в режим настройки.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingPressureSettingNote</Key>
-      <Value>The Advanced Airlock gives you the option to set the pressure of each side of the airlock that the airlock will attempt to pressurize too. You should set this to match the pressure on each side of the airlock. Note the regular Airlock card does not allow this feature.</Value>
+      <Value>Плата расширенного управления шлюзом дает возможность задать целевое давление внешней и внутренней среды. В этом случае шлюз будет пытаться выровнять давление. Обратите внимание, что обычная плата управления шлюзом так делать не может.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingChooseExteriorDoors</Key>
-      <Value>Choose the exterior door by clicking on it with the mouse. Notice the Green exterior text changes to interior on the other one to select which door will be which.</Value>
+      <Value>Выберите курсором мыши внешнюю дверь в списке устройств. В этот момент зелёная надпись Exterior на другой двери превратится в красную надпись Interior. Её тоже необходимо выбрать. </Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingRepeatForVents</Key>
-      <Value>Repeat the same setup step for the vents, first choosing the exterior vent, then the interior vent.</Value>
+      <Value>Повторите то же самое для вентиляций: сначала выберите внешнюю, а затем внутреннюю.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingChooseSensor</Key>
-      <Value>Lastly choose the airlock Sensor.</Value>
+      <Value>В конце, выберите Газовый датчик.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingRemoveDisk</Key>
-      <Value>Once the sensor has been selected, if all selections have been made correctly, the switch should be solid green and no longer blinking. Remove the disk.</Value>
+      <Value>После того, как всё будет выбрано корректно, переключатель питания консоли станет зелёным и перестанет мигать. Повторно кликните отверткой по винту, чтобы выйти из режима настройки.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockName</Key>
-      <Value>Activate the Airlock.</Value>
+      <Value>Активируйте шлюз.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockInfo</Key>
-      <Value>Life in space is an adventure. To get there, one must first use an airlock. - BigfootMSR</Value>
+      <Value>Жизнь в космосе - это приключение. И оно начинается с первого использования шлюза. - BigfootMSR</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockOperatingInfo</Key>
-      <Value>The airlock will first depressurize the chamber, and then re-pressurize it to the pressure selected at the top of the Airlock Configuration Screen.</Value>
+      <Value>Сначала воздух комнаты откуда вы пришли будет откачен, а затем будет закачен воздух с противоположной комнаты до ранее выбранного вами давления.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockHowToIncreaseSpeed</Key>
-      <Value>You can increase the speed of the airlock by increasing the size of the pipe network, or volume. You can add more Pipes or in-line Tanks to increase volume.</Value>
+      <Value>Вы можете увеличить скорость шлюза путём увеличения размера или объёма сети труб. Можете добавить больше Труб или Трубопроводных баллонов, чтобы увеличить объём.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockCancellButton</Key>
-      <Value>If the airlock is taking too long to cycle, you can hit the cancel button on the console screen to move it to the next step.</Value>
+      <Value>Если цикл откачивания-закачивания воздуха занимает слишком много времени, мы можете нажать кнопку Cancel на экране консоли, чтобы отмениить текущий шаг цикла и перейти к следующему.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockProgramYourOwn</Key>
-      <Value>It is possible to create your own airlocks using the in game IC10 programming.</Value>
+      <Value>Также, есть возможность создавать свои собственные шлюзы используя внутриигровое программирование чипов IC10.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockCycleAirlock</Key>
-      <Value>Cycle the airlock.</Value>
+      <Value>Запустите шлюзование.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialName</Key>
