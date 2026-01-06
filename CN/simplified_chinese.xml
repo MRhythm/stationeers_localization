@@ -25982,7 +25982,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>IsCurrentlyMelting</Key>
-      <Value>正在&lt;color=yellow&gt;熔炼&lt;/color&gt;</Value>
+      <Value>正在 &lt;color=yellow&gt;融化&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ContainsItemInSlotAtQuantity</Key>
