@@ -955,14 +955,11 @@ The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle'
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
       <Value>Portable Liquid Tank (Water)</Value>
-      <Description>This portable tank stores liquid, and liquid only. You just have to fill it up. To do this, bolt one to a {THING:ItemTankConnector} using a {THING:ItemWrench}, then connect it to {THING:StructurePipeLiquidStraight} to supply liquid to a network. 
-Try to keep pressure under 10 MPa, or you'll end up wet, hurt and sorry, without any of the fun.
-You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
-    </RecordThing>
+      </RecordThing>
     <RecordThing>
       <Key>DynamicLiquidCanisterEmpty</Key>
       <Value>Portable Liquid Tank</Value>
-      <Description>This portable tank stores liquid, and liquid only. You can bolt one to a {THING:ItemTankConnectorLiquid} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. You can refill a {THING:ItemGasCanisterWater} by attaching it to the tank's striped section. Or you could use a {THING:ItemWrench} to attach it to a rocket and take it somewhere distant and dry, then feel good about yourself.</Description>
+      <Description>This portable tank stores liquid. You can bolt one to a {THING:StructurePortablesConnector} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. You can refill a {THING:ItemLiquidCanisterEmpty} by attaching it to the tank's striped section.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGenerator</Key>
@@ -5761,7 +5758,7 @@ The speed of heat gain or loss will depend on the liquid in question. Adding mul
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
       <Value>Portable Liquid Tank Mk II</Value>
-      <Description>An empty, insulated liquid {SLOT:GasCanister}.</Description>
+      <Description>This portable tank stores liquid and is fully insulated. You can bolt one to a {THING:StructurePortablesConnector} using a {THING:ItemWrench}, then connect it to a pipe network to refill it. You can refill a {THING:ItemLiquidCanisterEmpty} by attaching it to the tank's striped section.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
@@ -9474,6 +9471,34 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>StructureDrinkingFountain2x1</Key>
       <Value>Drinking Fountain</Value>
       <Description>The Drinking Fountain can be interacted with directly to increase hydration. It needs a {GAS:Water} supply.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidFiltration</Key>
+      <Value>Kit (Liquid Filtration)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFiltrationLiquid</Key>
+      <Value>Filtration Liquid</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicPayloadDeliveryContainer</Key>
+      <Value>Payload Delivery Container</Value>
+      <Description>When attached to a {THING:StructureRocketLargePayloadBay} the {THING:DynamicPayloadDeliveryContainer} can be deployed in Low Orbit to drop supplies to any location on the map.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPayloadDeliveryContainer</Key>
+      <Value>Kit (Payload Delivery Container)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketLargePayloadBay</Key>
+      <Value>Payload Bay Large</Value>
+      <Description>The {THING:StructureRocketLargePayloadBay} functions as an attachment point for the {THING:DynamicPayloadDeliveryContainer}. Set the deploy location by setting the PositionX and PositionZ logic variables on the device. Use the deploy action on the rocket location panel to deploy an attached payload. The Open logic variable must be set to 1 to commence payload deploy.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRocketLargePayloadBay</Key>
+      <Value>Kit (Payload Bay Large)</Value>
     </RecordThing>
   </Things>
   <Slots>
@@ -16388,6 +16413,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>LogicTypeMass</Key>
       <Value>The total Mass of the rocket in kilograms including fuel and cargo. The more massive the rocket the more fuel will be required to move to a new location in space.</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeContactSlotIdHash</Key>
+      <Value>The hash of the traders slot Id.</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
@@ -28018,7 +28047,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketDeployActionInfo</Key>
-      <Value>Cargo Bay: {LOCAL:OnOff}, State: {LOCAL:Open}, Progress: {LOCAL:Progress}</Value>
+      <Value>Payload Bay: {LOCAL:OnOff}, State: {LOCAL:Open}, Progress: {LOCAL:Progress}</Value>
     </Record>
     <Record>
       <Key>TutorialYouDied</Key>
@@ -29524,6 +29553,26 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>FertilizedEggProcess</Key>
       <Value>The {LOCAL:Thing} is {LOCAL:Percent} to hatching</Value>
+    </Record>
+    <Record>
+      <Key>ThisDeviceNotOpen</Key>
+      <Value>{LOCAL:Thing} must be open to operate</Value>
+    </Record>
+    <Record>
+      <Key>RocketLogDeploy</Key>
+      <Value>{LOCAL:DisplayName} has successfully deployed {LOCAL:Thing} to x: {LOCAL:X} z:{LOCAL:Z}</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployFailNotInLowOrbit</Key>
+      <Value>{LOCAL:Payload} Can only be deployed in Low Orbit</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployFailNoPayload</Key>
+      <Value>No payload to deploy</Value>
+    </Record>
+    <Record>
+      <Key>ConstructionBlockedByDynamic</Key>
+      <Value>Construction blocked by {LOCAL:Thing}</Value>
     </Record>
   </GameStrings>
   <GameTip />
