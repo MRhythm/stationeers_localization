@@ -29184,7 +29184,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ShowerWillClean</Key>
-      <Value>将清除 {LOCAL:Occupant}</Value>
+      <Value>{LOCAL:Occupant} 将变得整洁</Value>
     </Record>
     <Record>
       <Key>ShowerNotInPosition</Key>
