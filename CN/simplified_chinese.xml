@@ -951,12 +951,11 @@
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
       <Value>便携储液罐(水)</Value>
-      <Description>这款便携储罐专用于储存液体. 您只需将其注满即可. 为此, 请使用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上, 再连接至 {THING:StructurePipeLiquidStraight} 并为管道网络供应液体. 请将压力控制在10MPa以下, 否则您将在痛苦和懊悔中浑身湿透. 可 {THING:ItemGasCanisterWater} 放入罐体条纹区域进行分装. 也可用 {THING:ItemWrench} 将其安装到火箭上, 带往遥远干燥之地, 享受满足感</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLiquidCanisterEmpty</Key>
       <Value>便携储液罐(空)</Value>
-      <Description>这款便携储罐专用于储存液体. 您可以使用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上, 再连接至 {THING:StructurePipeLiquidStraight} 并为管道网络供应液体. 请将压力控制在10MPa以下, 否则您将在痛苦和懊悔中浑身湿透. 可 {THING:ItemGasCanisterWater} 放入罐体条纹区域进行分装. 也可用 {THING:ItemWrench} 将其安装到火箭上, 带往遥远干燥之地, 享受满足感</Description>
+      <Description>这款便携储罐用于储存液体. 您可以使用 {THING:ItemWrench} 将其固定到 {THING:StructurePortablesConnector} 上, 再连接至 {THING:StructurePipeLiquidStraight} 并为管道网络供应液体. 请将压力控制在10MPa以下, 否则您将在痛苦和懊悔中浑身湿透. 可将 {THING:ItemLiquidCanisterEmpty} 放入罐体条纹区域进行分装.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGenerator</Key>
@@ -5708,7 +5707,7 @@ AIMEe有7种模式:
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
       <Value>便携储液罐MkII</Value>
-      <Description>一个空的绝热液体 {SLOT:GasCanister}</Description>
+      <Description>这款便携储罐用于储存液体, 并且完全隔绝热量. 您可以使用 {THING:ItemWrench} 将其固定到 {THING:StructurePortablesConnector} 上, 再连接至管道网络对其进行加注. 可将 {THING:ItemLiquidCanisterEmpty} 放入罐体条纹区域进行分装.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
@@ -9338,6 +9337,21 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Description />
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitDynamicWorkCone</Key>
+      <Value>(套件)便携式施工锥桶</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicBarrier</Key>
+      <Value>便携式路障</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicChannelizer</Key>
+      <Value>便携式导流柱</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
       <Key>ItemCheeseWedge</Key>
       <Value>乳酪</Value>
       <Description />
@@ -9378,19 +9392,32 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Description>可直接交互并增加饮水值的装置, 需要为其供应 {GAS:Water}</Description>
     </RecordThing>
     <RecordThing>
-      <Key>ItemKitDynamicWorkCone</Key>
-      <Value>(套件)便携式施工锥桶</Value>
+      <Key>ItemKitLiquidFiltration</Key>
+      <Value>(套件)液体过滤机</Value>
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>DynamicBarrier</Key>
-      <Value>便携式路障</Value>
+      <Key>StructureFiltrationLiquid</Key>
+      <Value>液体过滤机</Value>
       <Description />
     </RecordThing>
     <RecordThing>
-      <Key>DynamicChannelizer</Key>
-      <Value>便携式导流柱</Value>
-      <Description />
+      <Key>DynamicPayloadDeliveryContainer</Key>
+      <Value>载荷投送容器舱</Value>
+      <Description>当挂载到 {THING:StructureRocketLargePayloadBay} 时, {THING:DynamicPayloadDeliveryContainer} 可在低轨道展开, 并向地图上的任意位置投放补给品.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPayloadDeliveryContainer</Key>
+      <Value>(套件)载荷投送容器舱</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketLargePayloadBay</Key>
+      <Value>大型载荷舱</Value>
+      <Description>{THING:StructureRocketLargePayloadBay} 可以挂载 {THING:DynamicPayloadDeliveryContainer} . 通过设置设备上的 PositionX 和 PositionZ 逻辑变量来设置目标位置. 使用火箭位置面板上的部署动作来投送装载的载荷. 必须先将Open逻辑变量设置为1才能进行投送.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRocketLargePayloadBay</Key>
+      <Value>(套件)大型载荷舱</Value>
     </RecordThing>
   </Things>
   <Slots>
@@ -16253,6 +16280,10 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <Record>
       <Key>LogicTypeMass</Key>
       <Value>火箭包括燃料和货物在内的总质量, 以千克为单位. 火箭质量越大, 移动到太空中的新地点所消耗的燃料越多</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeContactSlotIdHash</Key>
+      <Value>贸易商槽位id的哈希值.</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
@@ -25951,7 +25982,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>IsCurrentlyMelting</Key>
-      <Value>正在&lt;color=yellow&gt;熔炼&lt;/color&gt;</Value>
+      <Value>正在 &lt;color=yellow&gt;融化&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ContainsItemInSlotAtQuantity</Key>
@@ -27884,7 +27915,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>RocketDeployActionInfo</Key>
-      <Value>货舱: {LOCAL:OnOff}, 状态: {LOCAL:Open}, 进度: {LOCAL:Progress}</Value>
+      <Value>载荷舱: {LOCAL:OnOff}, 状态: {LOCAL:Open}, 进度: {LOCAL:Progress}</Value>
     </Record>
     <Record>
       <Key>TutorialYouDied</Key>
@@ -29153,7 +29184,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>ShowerWillClean</Key>
-      <Value>将清除 {LOCAL:Occupant}</Value>
+      <Value>{LOCAL:Occupant} 将变得整洁</Value>
     </Record>
     <Record>
       <Key>ShowerNotInPosition</Key>
@@ -29390,6 +29421,26 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     <Record>
       <Key>FertilizedEggProcess</Key>
       <Value>{LOCAL:Thing} 的孵化进度为 {LOCAL:Percent}</Value>
+    </Record>
+    <Record>
+      <Key>ThisDeviceNotOpen</Key>
+      <Value>{LOCAL:Thing} 必须处于打开状态才能操作</Value>
+    </Record>
+    <Record>
+      <Key>RocketLogDeploy</Key>
+      <Value>{LOCAL:DisplayName} 成功将 {LOCAL:Thing} 部署到了坐标 X: {LOCAL:X} Z:{LOCAL:Z}</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployFailNotInLowOrbit</Key>
+      <Value>{LOCAL:Payload} 只能在低轨道进行部署</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployFailNoPayload</Key>
+      <Value>没有可供部署的载荷</Value>
+    </Record>
+    <Record>
+      <Key>ConstructionBlockedByDynamic</Key>
+      <Value>建造动作被 {LOCAL:Thing} 阻挡</Value>
     </Record>
   </GameStrings>
   <GameTip/>
