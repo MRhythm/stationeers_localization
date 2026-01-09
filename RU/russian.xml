@@ -18438,220 +18438,220 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>FurnaceTutorialName</Key>
-      <Value>Community Walkthrough: Furnace Basics</Value>
+      <Value>Руководство от сообщества: Печи</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialDescription</Key>
-      <Value>Learn the basics of smelting.</Value>
+      <Value>Изучите основы плавления и создания сплавов.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingIntro</Key>
-      <Value>Smelting Intro</Value>
+      <Value>Введение в плавление</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingInfo</Key>
-      <Value>Raw {LINK:OrePage;ore} that has been mined needs to be processed into {LINK:IngotPage;ingots} for use in the Printers. This can be done in an {THING:StructureArcFurnace}, a {THING:StructureFurnace}, or the {THING:StructureAdvancedFurnace}.</Value>
+      <Value>Добытую сырую {LINK:OrePage;руду} нужно переплавить в {LINK:IngotPage;слитки} для использования в Принтерах. Это можно сделать в {THING:StructureArcFurnace}, {THING:StructureFurnace} или {THING:StructureAdvancedFurnace}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingPlaceArcFurnace</Key>
-      <Value>Place the {THING:StructureArcFurnace} from the {THING:StructureStorageLocker}, on the Yellow Frame connected to the Power Cable.</Value>
+      <Value>Возьмите {THING:StructureArcFurnace} из {THING:StructureStorageLocker}, поставьте ее на жёлтый каркас и подключите к кабелю.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingTurnOnArcFurnace</Key>
-      <Value>Turn on the {THING:StructureArcFurnace}.</Value>
+      <Value>Включите {THING:StructureArcFurnace}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialArcFurnaceName</Key>
-      <Value>Arc Furnace</Value>
+      <Value>Дуговая печь</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialArcFurnaceInfo</Key>
-      <Value>Different Ores will take different amounts of power to process. {THING:ItemGoldOre} being the most power hungry. You may need to protect your circuits later when using an Arc Furnace for smelting.</Value>
+      <Value>Разные руды требуют разное количество энергии для обработки. {THING:ItemGoldOre} самая энергозатратная. Вероятно, в будущем вам придется защитить энергосистему от перегрузки дуговой печью.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialArcFurnaceTakeBackpack</Key>
-      <Value>Take the Orange {THING:ItemMiningBackPack} from the Locker, Open it with {KEY:ActiveHandSlot}, and drag an {THING:ItemIronOre} into the
-        {SLOT:Import} slot of the {THING:StructureArcFurnace}.</Value>
+      <Value>Возьмите оранжевый {THING:ItemMiningBackPack} из шкафчика, откройте его с помощью {KEY:ActiveHandSlot} и перенесите {THING:ItemIronOre} в
+        слот {SLOT:Import} у {THING:StructureArcFurnace}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialArcFurnacePressButton</Key>
-      <Value>Press the Red Button on the {THING:StructureArcFurnace} to activate it. Then either wait for a bit for the ore to process and drop out the back. You can hit the button again to stop it.</Value>
+      <Value>Нажмите красную кнопку на {THING:StructureArcFurnace} для её активации. Затем подождите немного, чтобы руда переплавилась. Вы можете нажать кнопку снова, чтобы остановить процесс.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFurnaceName</Key>
-      <Value>The Basic Furnace</Value>
+      <Value>Простая печь</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFurnaceInfo</Key>
-      <Value>Some mined ores can have gasses in them that will be released during the smelting process. Some of these Gases can be valuable and or used as a fuel source. You can check what gasses are in each ore by searching for them in the Stationpedia {KEY:Help}.</Value>
+      <Value>Некоторые добытые руды могут содержать газы, которые будут выпущены во время процесса переплавки. Некоторые из них могут быть полезны и/или использованы как источник энергии. Вы можете посмотреть, какие газы содержатся в каких рудах, используя поиск в Станциопедии {KEY:Help}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFurnacePlaceFurnace</Key>
-      <Value>Remove the {THING:StructureFurnace} from the Locker and place it above the Green Frame. Its suggested to put it on its side so you can access the top Input Slot easier, and the output wont clip into the ground. Rotate the placement orientation with {KEY:RotateLeft}/{KEY:RotateRight},{KEY:RotateUp}/{KEY:RotateDown},{KEY:RotateRollLeft}/{KEY:RotateRollRight}.</Value>
+      <Value>Возьмите {THING:StructureFurnace} из шкафчиа и поместите ее над зелёным каркасом. Рекомендуется поставить ее так, чтобы вы могли получить удобный доступ к входному слоту и при этом выходной слот не упирался в пол. Напомню, вращать структуру можно с помощью клавиш {KEY:RotateLeft}/{KEY:RotateRight}, {KEY:RotateUp}/{KEY:RotateDown}, {KEY:RotateRollLeft}/{KEY:RotateRollRight}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFurnaceBuildFurnace</Key>
-      <Value>Finish building the {THING:StructureFurnace}.</Value>
+      <Value>Завершите постройку {THING:StructureFurnace}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFurnacePlaceGasValve</Key>
-      <Value>Place a {THING:StructureValve} above the Red Cable on the wall connected to the Yellow Pipe.</Value>
+      <Value>Поставьте {THING:StructureValve} над красным кабелем на стене и подключите его к жёлтой трубе.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialPlumbingName</Key>
-      <Value>Plumbing the Furnace</Value>
+      <Value>Подключение печи</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialPlumbingInfo</Key>
-      <Value>The {THING:StructureFurnace} has two pipe connections and a cable connection. The Input pipe connection has a one way check valve to prevent gas from back flowing into the pipe. Input pressure must be higher than the Furnace Pressure to inject more fuel. The Output connection does not have a valve so gas can freely flow between the furnace and the Output pipe. You can point your mouse at a port to see which one it is.</Value>
+      <Value>{THING:StructureFurnace} имеет два соединения для труб и одно для кабеля. Входное подключение имеет обратный клапан, что не дает газу из печи возвращаться в трубу. Чтобы добавить больше топлива, входящее давление должно быть больше, чем давление внутри печи. Выходящее подключение такого клапана не имеет и газ может свободно переходить между печью и трубой. Вы можете навести указатель мыши на порт подключения и увидеть, какой из них выходной.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialPlumbingConnectOutputPipe</Key>
-      <Value>Connect the Output Port of the {THING:StructureFurnace} to the Valve with Pipe.</Value>
+      <Value>Подключите выходной порт {THING:StructureFurnace} к {THING:StructureValve} с помощью труб из шкафчика.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnaceName</Key>
-      <Value>Fire the Furnace.</Value>
+      <Value>Зажигание печи</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnaceInfo</Key>
-      <Value>Ice will melt when exposed to temperatures above 0c or when in direct sunlight on the Moon. The {THING:StructureFurnace} cannot begin to process ores without a little bit of gas in the {THING:StructureFurnace}. DO NOT put a full stack of ice in the {THING:StructureFurnace}.</Value>
+      <Value>Лёд будет плавиться от прямого солнечного света на Луне или, если поместить его в атмосферу с температурой выше 0 градусов. {THING:StructureFurnace} не может начать обработку руды без небольшого количества газа внутри. НЕ ПОМЕЩАЙТЕ целый стак льда в {THING:StructureFurnace}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnaceTakeWhiteBackpack</Key>
-      <Value>Take the White Backpack from the Locker. Transfer a stack of {THING:ItemOxite} to your hand, and split off 1 Oxite Ice once the External Temperature reaches 'Nil' in the lower right hand corner of the screen.</Value>
+      <Value>Возьмите белый рюкзак из шкафчика. Перенесите {THING:ItemOxite} в руку и отделите 1 Оксит после того, как наружная температура достигнет 'Н/Д' в нижнем правом углу экрана.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnacePutInOxite</Key>
-      <Value>Place the {THING:ItemOxite} in the Input slot of the {THING:StructureFurnace}. Then hit the Red Activate Button to melt the ice in the {THING:StructureFurnace} until the door opens again.</Value>
+      <Value>Поместите {THING:ItemOxite} во входной слот Печи. Затем нажмите красную кнопку активации, чтобы расплавить лёд, а затем дождитесь открытия дверцы Печи.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnaceSplitVolatiles</Key>
-      <Value>Do the same for {THING:ItemVolatiles} in the Red Backpack, and split off 2 {THING:ItemVolatiles}.</Value>
+      <Value>Повторите это для {THING:ItemVolatiles} из красного рюкзака и отделите 2 {THING:ItemVolatiles}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnacePlaceVolatilesPressStart</Key>
-      <Value>Place the {THING:ItemVolatiles} in the Furnace. This time when you hit the Activate Button, the {THING:StructureFurnace} will ignite. Monitor the pressure gauge on the front.</Value>
+      <Value>Поместите {THING:ItemVolatiles} в Печь. На этот раз, когда вы нажмёте кнопку активации, {THING:StructureFurnace} зажжётся. Следите за манометром рядом с кнопкой активации.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreName</Key>
-      <Value>Smelting Ores</Value>
+      <Value>Переплавка руд</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreInfo</Key>
-      <Value>The {THING:StructureFurnace} is now ready to load in Ores. Notice as you begin smelting Ores loaded into the {THING:StructureFurnace}, the Temperature will drop and the Pressure will rise from the off-gassing of the Ore. Ore can only be off-gassed once.</Value>
+      <Value>{THING:StructureFurnace} теперь готова к загрузке руд. Обратите внимание, по мере загрузки руд в Печь, температура будет снижаться, а давление будет расти из-за высвобождения газа из руды. Газ из руды может быть высвобождён только один раз.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOrePlaceCopperOre</Key>
-      <Value>Place a stack of {THING:ItemCopperOre} into the Furnace's Input Slot from the Orange {THING:ItemMiningBackPack}.</Value>
+      <Value>Поместите стак {THING:ItemCopperOre} из оранжевого {THING:ItemMiningBackPack} в слот Импорта Печи.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreObserveProcessWindow</Key>
-      <Value>Point the Mouse Cursor at the Rectangle area on the Furnace to monitor the smelting process.</Value>
+      <Value>Направьте курсор мыши на прямоугольную область на Печи, чтобы увидеть прогресс переплавки.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreProcessWindowInformation</Key>
-      <Value>Once the Furnace shows 'Will produce Copper Ingot', and the Activate Button turns Green, Open the Handle to eject the {THING:ItemCopperIngot}.</Value>
+      <Value>Как только Печь покажет 'Будет произведено {THING:ItemCopperIngot}' и кнопка активации станет зелёной, потяните за рычаг, чтобы извлечь {THING:ItemCopperIngot}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreCloseHandle</Key>
-      <Value>Make sure to close the Handle again or anything new put in the Furnace will just pass through after processing.</Value>
+      <Value>Убедитесь, что вы вернули рычаг обратно, иначе новые ресурсы будут извлекаться сразу же после обработки.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysName</Key>
-      <Value>Making Alloys Intro</Value>
+      <Value>Введение в производство сплавов</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysInfo</Key>
-      <Value>All Ingots and Alloys have a Minimum and Maximum Pressure and Temperature range. Use the Stationpedia by hitting {KEY:Help} and searching for the Ingot. If the Furnace Pressure and Temperature ranges are out of spec, or too cold then open the Valve to vent most of the gas from the Furnace to reset it.</Value>
+      <Value>Все слитки и сплавы имеют минимально и максимально допустимые значения давления и температуры. Для того, чтобы их узнать, воспользуйтесь поиском желаемого слитка в Станциопедии (Клавиша {KEY:Help}). Если параметры печи не соответствуют требуемым параметрам, откройте {THING:StructureValve}, чтобы сбросить часть газа из печи.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysPrepareAlloyMix</Key>
-      <Value>While the {THING:StructureFurnace} is still hot from the previous smelting, we can prepare some ore to make an alloy.</Value>
+      <Value>Пока {THING:StructureFurnace} ещё горячая от прошлой плавки, мы можем подготовить руду для создания сплава.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysOpenHandleIfFull</Key>
-      <Value>First ensure there is nothing loaded into the {THING:StructureFurnace} that would upset the alloy mix by looking at the Rectangle Window on the front of the Furnace. Open the Handle if it contains anything, to eject it.</Value>
+      <Value>Для начала, убедитесь, что ничего не загружено в {THING:StructureFurnace}, так как это может испортить сплав. Для этого посмотрите на прямоугольное окно на лицевой стороне печи. Если в печи что-то есть, потяните рычаг для извлечения.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysLoadSteelMix</Key>
-      <Value>Load in a stack of {THING:ItemCoalOre}, and 3 Stacks of {THING:ItemIronOre}. If you add the wrong ingredients, pull the handle to eject the bad mix.</Value>
+      <Value>Загрузите стак {THING:ItemCoalOre} и 3 стака {THING:ItemIronOre}. Если вы добавили неправильные ингредиенты, потяните рычаг, чтобы извлечь плохую смесь.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysMonitorProcess</Key>
-      <Value>Monitor the smelting process.</Value>
+      <Value>Смотрите за процессом переплавки.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialResetName</Key>
-      <Value>Reset the Furnace</Value>
+      <Value>Очистка печи</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialResetInfo</Key>
-      <Value>The {THING:StructureFurnace} is too cold at this point to create our alloy due to the radiation of the heat energy into the vacuum of the Moon and the off-gassing from the Ore. Let's reset the Furnace.</Value>
+      <Value>{THING:StructureFurnace} сейчас слишком холодная, чтобы создать наш сплав из-за излучения тепловой энергии в вакуум Луны и высвобождения газа из руды. Давайте очистим печь.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialResetEjectContents</Key>
-      <Value>Eject the contents of the {THING:StructureFurnace}. This will create balls of {THING:ItemReagentMix} that will later be put back into the Furnace.</Value>
+      <Value>Извлеките содержимое печи. Это создаст шарики {THING:ItemReagentMix}, которые можно будет загрузить обратно позже.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialResetOpenValveDrainFurnace</Key>
-      <Value>Open the {THING:StructureValve} on the wall to vent most of the gas from the {THING:StructureFurnace}. Vent the gas till its below 500kPa. Then close the {THING:StructureValve}.</Value>
+      <Value>Откройте {THING:StructureValve} на стене, чтобы сбросить часть газа из {THING:StructureFurnace}. Сбрасывайте газ до тех пор, пока давление внутри печи не упадет ниже 500кПа. После этого, закройте {THING:StructureValve}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialResetCloseFurnaceHandle</Key>
-      <Value>Make sure to close the Handle again on the {THING:StructureFurnace}.</Value>
+      <Value>Убедитесь, что вы закрыли рычаг сброса содержимого из {THING:StructureFurnace}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialResetNotAlwaysNecessary</Key>
-      <Value>It is not always necessary to eject the contents of the {THING:StructureFurnace} to reset it, however for this tutorial, we will.</Value>
+      <Value>Не всегда обязательно извлекать содержимое печи, чтобы очистить ее, но в этом уроке мы всё равно сделаем именно так.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialReHeatingName</Key>
-      <Value>Reheating the Furnace</Value>
+      <Value>Подогрев печи</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialReHeatingInfo</Key>
-      <Value>A 2:1 mix of {GAS:Volatiles}:{GAS:Oxygen} fuel is the most common fuel source and autoignites at 300c, while a 50:50 mix of {GAS:Volatiles}:{GAS:NitrousOxide} will autoignite at 50c but will burn much hotter.</Value>
+      <Value>Смесь {GAS:Volatiles} и {GAS:Oxygen} в пропорции 2:1 - это самый обычный источник топлива. Эта смесь самовоспламеняется при температуре в 300 градусов. В свою очередь смесь {GAS:Volatiles} и {GAS:NitrousOxide} в пропорции 50:50 самовоспламеняется при температуре 50 градусов и горит сильно горячее.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialReHeatingInsertMoreFuel</Key>
-      <Value>Input more {THING:ItemVolatiles} and {THING:ItemOxite} Ice into the {THING:StructureFurnace} and ignite it as before.</Value>
+      <Value>Положите больше {THING:ItemVolatiles} и {THING:ItemOxite} в {THING:StructureFurnace} и зажгите её также, как вы делали до этого.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadName</Key>
-      <Value>Input the mixed Steel {THING:ItemReagentMix}</Value>
+      <Value>Положите {THING:ItemReagentMix} стали</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadInfo</Key>
-      <Value>The Furnace is the beating heart of every Stationeer's base. It has been melting ore and hearts for Centuries. -BigfootMSR</Value>
+      <Value>Печь - это бьющееся сердце каждой базы Станционера. Она плавит руды и сердца веков. - BigfootMSR</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadInsertReagentMix</Key>
-      <Value>Now that the {THING:StructureFurnace} is hot enough, insert the balls of {THING:ItemReagentMix} we created earlier, into the Furnace and wait for them to process.</Value>
+      <Value>Теперь {THING:StructureFurnace} достаточно нагрелась. Поместите шарики {THING:ItemReagentMix}, которые мы вытащили ранее, в печь и дождитесь их переплавки.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadObserveTempPressure</Key>
-      <Value>Notice as you input the {THING:ItemReagentMix}, the Temp and Pressure don't change, except for the radiation of heat energy to the Vacuum of the Moon because the mix has been de-gassed.</Value>
+      <Value>Заметьте, по мере того, как вы загружаете {THING:ItemReagentMix}, температура и давление уже не будут изменяться, за исключением процсса излучения тепловой энергии в вакуум Луны.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadObserveProcessWindow</Key>
-      <Value>Monitor the Processing of the Steel by looking at the Rectangular Window.</Value>
+      <Value>Смотрите за прогрессом обработки стали, глядя на прямоугольное окно печи.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialEjectSteelIngot</Key>
-      <Value>Once the {THING:StructureFurnace} is ready to make the {THING:ItemSteelIngot}, the Button on the Furnace will turn Green. Open the Handle while the Button is Green to eject the Steel Ingot.</Value>
+      <Value>После того, как {THING:StructureFurnace} будет готова произвести {THING:ItemSteelIngot}, кнопка активации станет зелёной. Потяните за рычаг, пока кнопка зелёная, чтобы извлечь стальные слитки.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialPutThatAwayName</Key>
-      <Value>Put it away</Value>
+      <Value>Уберите печь подальше</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialPutThatAwayInfo</Key>
-      <Value>Having a furnace exposed to the elements wastes a lot of heat due to convection and radiation. You should think about enclosing the Furnace in a small box filled with about 150kpa of hot gas to effectively stop the heat loss and save fuel.</Value>
+      <Value>Печь теряет огромное количество тепла из-за конвекции и теплового излучения. Вам нужно подумать о том, чтобы заключить её в маленькую коробку, наполненную примерно 150кПа горячего газа, чтобы замедлить потери тепла и сохранить больше топлива.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialPutThatAwayPlaceIngotInLocker</Key>
-      <Value>Place the {THING:ItemSteelIngot} into the {THING:StructureStorageLocker}.</Value>
+      <Value>Положите {THING:ItemSteelIngot} в {THING:StructureStorageLocker}.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialName</Key>
