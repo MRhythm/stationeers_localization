@@ -15,6 +15,11 @@
       <Unit>мл</Unit>
     </RecordReagent>
     <RecordReagent>
+      <Key>Cheese</Key>
+      <Value>Сыр</Value>
+      <Unit>г</Unit>
+    </RecordReagent>
+    <RecordReagent>
       <Key>Egg</Key>
       <Value>Яйцо</Value>
       <Unit>шт</Unit>
@@ -508,6 +513,26 @@
     <Record>
       <Key>FlipRover</Key>
       <Value>Перевернуть планетоход</Value>
+    </Record>
+    <Record>
+      <Key>Idle</Key>
+      <Value>Неактивен</Value>
+    </Record>
+    <Record>
+      <Key>Active</Key>
+      <Value>Активен</Value>
+    </Record>
+    <Record>
+      <Key>Repair</Key>
+      <Value>Repair</Value>
+    </Record>
+    <Record>
+      <Key>Extend</Key>
+      <Value>Extend</Value>
+    </Record>
+    <Record>
+      <Key>Retract</Key>
+      <Value>Retract</Value>
     </Record>
   </Actions>
   <Things>
@@ -1226,7 +1251,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemIronIngot</Key>
-      <Value>Слиток (Железа)</Value>
+      <Value>Слиток (Железо)</Value>
       <Description>The most basic unit of construction available to {LINK:Stationeers;Stationeer}-kind, iron ingots are created by smelting {THING:ItemIronOre} in the {THING:StructureFurnace} and {THING:StructureArcFurnace}, and used to create a variety of items.</Description>
     </RecordThing>
     <RecordThing>
@@ -1606,6 +1631,11 @@
       <Value>Материнская плата (Сортировщик)</Value>
       <Description>Motherboards are connected to {THING:StructureComputer}s to perform various technical functions.
         The {LINK:Norsec;Norsec-designed} K-cops 10-10 sorter motherboard permits {LINK:Stationeers;Stationeers} to control which items a {THING:StructureSorter} does, and does not, permit to pass.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicBodyBag</Key>
+      <Value>Мешок для трупа</Value>
+      <Description>Когда погибший персонаж разлагается, он перемещается в мешок для трупа. Если он не возродился, его можно воскресить в {THING:StructureCryoTube}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureActiveVent</Key>
@@ -7010,49 +7040,49 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </RecordThing>
     <RecordThing>
       <Key>StructureSmallDirectHeatExchangeLiquidtoGas</Key>
-      <Value>Теплообменник (Газ + жидкость) </Value>
+      <Value>Теплообменник (Газ и жидкость) </Value>
       <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSmallDirectHeatExchangeGastoGas</Key>
-      <Value>Теплообменник (Газ + газ)</Value>
+      <Value>Теплообменник (Газы)</Value>
       <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSmallDirectHeatExchangeLiquidtoLiquid</Key>
-      <Value>Теплообменник (Жидкость + жидкость)</Value>
+      <Value>Теплообменник (Жидкости)</Value>
       <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeDirectHeatExchangeGastoGas</Key>
-      <Value>Большой теплообменник (Газ + газ)</Value>
+      <Value>Большой теплообменник (Газы)</Value>
       <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeDirectHeatExchangeGastoLiquid</Key>
-      <Value>Большой теплообменник (Газ + Жидкость)</Value>
+      <Value>Большой теплообменник (Газ и жидкость)</Value>
       <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLargeDirectHeatExchangeLiquidtoLiquid</Key>
-      <Value>Большой теплообменник (Жидкость + жидкость)</Value>
+      <Value>Большой теплообменник (Жидкости)</Value>
       <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassthroughHeatExchangerLiquidToLiquid</Key>
-      <Value>Противоточный теплообменник (Жидкость + жидкость)</Value>
+      <Value>Противоточный теплообменник (Жидкости)</Value>
       <Description>Exchange heat from one pipe network to another. By drawing down the pressure of the outputs with a pump or regulator and regulating input pressures, the temperatures of two counterflowing networks can be effectively exchanged.
         Balancing the throughput of both inputs is key to creating a good exchange of temperatures.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassthroughHeatExchangerGasToLiquid</Key>
-      <Value>Противоточный теплообменник (Газ + жидкость)</Value>
+      <Value>Противоточный теплообменник (Газ и жидкость)</Value>
       <Description>Exchange heat from one pipe network to another. By drawing down the pressure of the outputs with a pump or regulator and regulating input pressures, the temperatures of two counterflowing networks can be effectively exchanged.
         Balancing the throughput of both inputs is key to creating a good exhange of temperatures.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassthroughHeatExchangerGasToGas</Key>
-      <Value>Противоточный теплообменник (Газ + газ)</Value>
+      <Value>Противоточный теплообменник (Газы)</Value>
       <Description>Exchange heat from one pipe network to another. By drawing down the pressure of the outputs with a pump or regulator and regulating input pressures, the temperatures of two counterflowing networks can be effectively exchanged.
         Balancing the throughput of both inputs is key to creating a good exhange of temperatures.</Description>
     </RecordThing>
@@ -7404,6 +7434,26 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>StructurePressureFedLiquidEngine</Key>
       <Value>Жидкостный двигатель с подачей давлением</Value>
       <Description>Highly efficient and powerful, the Pressure Fed Liquid Engine is a challenging engine to run in a stable configuration. Liquid is pulled from the input into the engine based on the input gas pressure. Some gas is also moved in this process so Stationeers will need to devise a system to maintain a high gas pressure in the liquid input pipe. The second liquid pipe connection is an optional heat-exchanger connection which exchanges heat between the pipes contents and the engine bell, the Setting variable drives the effectiveness of the heat-exchanger.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPressureFedGasEngineHeavy</Key>
+      <Value>Набор (Тяжёлый газовый двигатель с подачей давлением)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePressureFedGasEngineHeavy</Key>
+      <Value>Тяжёлый газовый двигатель с подачей давлением</Value>
+      <Description>A larger more powerful variant of the {THING:StructurePressureFedGasEngine}. It sacrifices a small amount of efficiency for greatly increased thrust. Pressure Fed Gas Engines move gas from each of their inputs based on the pressure of the input pipes. Control the mixing ratio of fuels by tweaking the input pressures to target a 2:1 mix of {GAS:Volatiles} to {GAS:Oxygen} gas. Chilling propellant gasses or using {GAS:NitrousOxide} as an oxydizer will result in even higher thrust outputs.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPressureFedLiquidEngineHeavy</Key>
+      <Value>Набор (Тяжёлый жидкостный двигатель с подачей давлением)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePressureFedLiquidEngineHeavy</Key>
+      <Value>Тяжёлый жидкостный двигатель с подачей давлением</Value>
+      <Description>A larger more powerful variant of the {THING:StructurePressureFedLiquidEngine}. It sacrifices a small amount of efficiency for greatly increased thrust. Warning, Pressure Fed Liquid Engines are challenging engine to run in a stable configuration. Liquid is pulled from the input into the engine based on the input gas pressure. Some gas is also moved in this process so Stationeers will need to devise a system to maintain a high gas pressure in the liquid input pipe. The second liquid pipe connection is an optional heat-exchanger connection which exchanges heat between the pipes contents and the engine bell, the Setting variable drives the effectiveness of the heat-exchanger.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeA1</Key>
@@ -7961,6 +8011,11 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Description />
     </RecordThing>
     <RecordThing>
+      <Key>ItemPortablesPackage</Key>
+      <Value>Portables Package</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
       <Key>ItemMiningPackage</Key>
       <Value>Упаковка с шахтёрским снаряжением</Value>
       <Description />
@@ -8166,6 +8221,18 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Георадар (GPR)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>ItemSuitHARM</Key>
+      <Value>Скафандр HARM</Value>
+      <Description>The HARM Suit is the Stationeer's last resort against hostile environments.
+        It is liquid cooled for superb thermal performance and boasts superior resistance to impacts and lava exposure. While the HARM suit is not compatible with a {THING:ItemJetpackBasic}, Stationeer's are still able to equip a {THING:ItemHardBackpack} or {THING:ItemHardMiningBackPack}. Due to its extra stability and size, storms do not effect movement speed while in a HARM suit; however, this results in an overall reduction to movement in general operation.
+
+      </Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSuitHelmetHARM</Key>
+      <Value>Шлем HARM</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>MonsterEgg</Key>
       <Value>Яйцо монстра</Value>
     </RecordThing>
@@ -8291,6 +8358,298 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Компьютер (С большим экраном)</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>StructureVendingMachineSmall</Key>
+      <Value>Склад (Маленький)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuitStorageFrame</Key>
+      <Value>Стойка для скафандра (Каркас)</Value>
+      <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}.
+        When powered and connected to {GAS:Oxygen} and {GAS:Nitrogen}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. The wastetank will be pumped out to the pipe connected to the waste outlet.
+        All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuitStorageLocker</Key>
+      <Value>Стойка для скафандра (Шкафчик)</Value>
+      <Description>As tidy as it is useful, the suit storage rack holds an {THING:ItemEvaSuit}, {THING:ItemSpaceHelmet} and a {THING:ItemJetpackBasic}.
+        When powered and connected to {GAS:Oxygen} and {GAS:Nitrogen}, it will recharge the suit's batteries, refill the {THING:ItemGasCanisterOxygen} and your {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. The wastetank will be pumped out to the pipe connected to the waste outlet.
+        All the rack's pipes must be connected or the unit will show an error state, but it will still charge the battery.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_GasTankConnectorPiece</Key>
+      <Value>Посадочная площадка (Коннектор газового резервуара)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_LiquidTankConnectorPiece</Key>
+      <Value>Посадочная площадка (Коннектор жидкостного резервуара)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInLineTankGas1x3</Key>
+      <Value>Газовый трубопроводный баллон</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInLineTankLiquid1x3</Key>
+      <Value>Жидкостный трубопроводный баллон</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankGas1x3</Key>
+      <Value>Газовый трубопроводный баллон (Изолированный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureInsulatedInLineTankLiquid1x3</Key>
+      <Value>Жидкостный трубопроводный баллон (Изолированный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner</Key>
+      <Value>Сверхтяжёлый кабель (Угловой)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner3</Key>
+      <Value>Сверхтяжёлый кабель (3-конечный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner3Burnt</Key>
+      <Value>Сгоревший сверхтяжёлый кабель (3-конечный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner4</Key>
+      <Value>Сверхтяжёлый кабель (4-конечный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCorner4Burnt</Key>
+      <Value>Сгоревший сверхтяжёлый кабель (4-конечный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyCornerBurnt</Key>
+      <Value>Сгоревший сверхтяжёлый кабель (Угловой)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction</Key>
+      <Value>Сверхтяжёлый кабель (Т-образный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction4</Key>
+      <Value>Сверхтяжёлый кабель (Х-образный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction4Burnt</Key>
+      <Value>Сгоревший сверхтяжёлый кабель (Х-образный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction5</Key>
+      <Value>Сверхтяжёлый кабель (5-конечный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction5Burnt</Key>
+      <Value>Сгоревший сверхтяжёлый кабель (5-конечный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction6</Key>
+      <Value>Сверхтяжёлый кабель (6-конечный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunction6Burnt</Key>
+      <Value>Сгоревший сверхтяжёлый кабель (6-конечный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyJunctionBurnt</Key>
+      <Value>Сгоревший сверхтяжёлый кабель (Т-образный)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight</Key>
+      <Value>Сверхтяжёлый кабель (Прямой)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight3</Key>
+      <Value>Сверхтяжёлый кабель (Прямой 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight3Burnt</Key>
+      <Value>Сгоревший сверхтяжёлый кабель (Прямой 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight5</Key>
+      <Value>Сверхтяжёлый кабель (Прямой 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight5Burnt</Key>
+      <Value>Сгоревший сверхтяжёлый кабель (Прямой 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight10</Key>
+      <Value>Сверхтяжёлый кабель (Прямой 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraight10Burnt</Key>
+      <Value>Сгоревший сверхтяжёлый кабель (Прямой 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableSuperHeavyStraightBurnt</Key>
+      <Value>Сгоревший сверхтяжёлый кабель (Прямой)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableCoilSuperHeavy</Key>
+      <Value>Моток кабеля (Сверхтяжёлый)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePacker</Key>
+      <Value>Упаковщик</Value>
+      <Description>The Loader will take objects from its left slot and put them in the available slots of the object inserted in the right slot. The slots will be filled in order from first to last. If no available slot is found, the left slot object will be ejected. The right slot object will auto eject once full or if the level is pulled.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>CardboardBoxLarge</Key>
+      <Value>Большая картонная коробка</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicAFrameStripes</Key>
+      <Value>Portable A Frame Sign (Stripes)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicAFrameWIP</Key>
+      <Value>Portable A Frame Sign (WIP)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicWorkCone</Key>
+      <Value>Portable Work Cone</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicAFrameStripes</Key>
+      <Value>Kit Portable A Frame Sign (Stripes)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicAFrameWIP1</Key>
+      <Value>Kit Portable A Frame Sign (WIP)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicBarrier</Key>
+      <Value>Kit Portable Barrier</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicChannelizer</Key>
+      <Value>Kit Portable Channelizer</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitDynamicWorkCone</Key>
+      <Value>Kit Portable Work Cone</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicBarrier</Key>
+      <Value>Portable Barrier</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicChannelizer</Key>
+      <Value>Portable Channelizer</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCheeseWedge</Key>
+      <Value>Сыр</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBurger</Key>
+      <Value>Бургер</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableFuse500k</Key>
+      <Value>Предохранитель (500 кВт)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeGastoGas</Key>
+      <Value>Сверхбольшой теплообменник (Газы)</Value>
+      <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeGastoLiquid</Key>
+      <Value>Сверхбольшой теплообменник (Газ и жидкость)</Value>
+      <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSuperLargeDirectHeatExchangeLiquidToLiquid</Key>
+      <Value>Сверхбольшой теплообменник (Жидкости)</Value>
+      <Description>Direct Heat Exchangers equalize the temperature of the two input networks.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemBurgerBox</Key>
+      <Value>Коробка для бургера</Value>
+      <Description>A container for a {THING:ItemBurger} that is both asethetic and practical as it will significantly reduce the decay rate. Will directly allow the eating of contained food when opened in hands.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureDrinkingFountain2x1</Key>
+      <Value>Питьевой фонтан</Value>
+      <Description>The Drinking Fountain can be interacted with directly to increase hydration. It needs a {GAS:Water} supply.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLiquidFiltration</Key>
+      <Value>Kit (Liquid Filtration)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFiltrationLiquid</Key>
+      <Value>Filtration Liquid</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>DynamicPayloadDeliveryContainer</Key>
+      <Value>Payload Delivery Container</Value>
+      <Description>When attached to a {THING:StructureRocketLargePayloadBay} the {THING:DynamicPayloadDeliveryContainer} can be deployed in Low Orbit to drop supplies to any location on the map.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitPayloadDeliveryContainer</Key>
+      <Value>Kit (Payload Delivery Container)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureRocketLargePayloadBay</Key>
+      <Value>Payload Bay Large</Value>
+      <Description>The {THING:StructureRocketLargePayloadBay} functions as an attachment point for the {THING:DynamicPayloadDeliveryContainer}. Set the deploy location by setting the PositionX and PositionZ logic variables on the device. Use the deploy action on the rocket location panel to deploy an attached payload. The Open logic variable must be set to 1 to commence payload deploy.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitRocketLargePayloadBay</Key>
+      <Value>Kit (Payload Bay Large)</Value>
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -8311,7 +8670,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>Input</Key>
-      <Value>Приёмник</Value>
+      <Value>Ввод</Value>
     </Record>
     <Record>
       <Key>LeftHand</Key>
@@ -8358,12 +8717,16 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Батарея</Value>
     </Record>
     <Record>
+      <Key>Egg</Key>
+      <Value>Яйцо</Value>
+    </Record>
+    <Record>
       <Key>GasCanister</Key>
       <Value>Газовый баллон</Value>
     </Record>
     <Record>
       <Key>GasFilter</Key>
-      <Value>Фильтр</Value>
+      <Value>Газовый фильтр</Value>
     </Record>
     <Record>
       <Key>AirTank</Key>
@@ -8426,6 +8789,14 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Прибор 2</Value>
     </Record>
     <Record>
+      <Key>Payload</Key>
+      <Value>Полезная нагрузка</Value>
+    </Record>
+    <Record>
+      <Key>Recipient</Key>
+      <Value>Получатель</Value>
+    </Record>
+    <Record>
       <Key>Import</Key>
       <Value>Импорт</Value>
     </Record>
@@ -8446,12 +8817,24 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Слот (Транспорт)</Value>
     </Record>
     <Record>
+      <Key>BurgerSlot</Key>
+      <Value>Бургер</Value>
+    </Record>
+    <Record>
+      <Key>FriesSlot</Key>
+      <Value>Картофель фри</Value>
+    </Record>
+    <Record>
       <Key>DrillSlot</Key>
       <Value>Буровое долото</Value>
     </Record>
     <Record>
       <Key>ScannerSlot</Key>
       <Value>Сканирующая головка</Value>
+    </Record>
+    <Record>
+      <Key>DrillHead</Key>
+      <Value>Буровое долото</Value>
     </Record>
 		<Record>
 		  <Key>ScanningHead</Key>
@@ -8591,15 +8974,15 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>CoolantTank</Key>
-      <Value>Coolant Tank</Value>
+      <Value>Баллон теплоносителя</Value>
     </Record>
     <Record>
       <Key>Mod</Key>
       <Value>Mod</Value>
     </Record>
     <Record>
-      <Key>Chip</Key>
-      <Value>Chip</Value>
+      <Key>Чип</Key>
+      <Value>Чип</Value>
     </Record>
     <Record>
       <Key>Filter1</Key>
@@ -8636,10 +9019,6 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>Appliance</Key>
       <Value>Прибор</Value>
-    </Record>
-    <Record>
-      <Key>DrillHead</Key>
-      <Value>Буровое долото</Value>
     </Record>
     <Record>
       <Key>SoundCartridge</Key>
@@ -9173,6 +9552,14 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
   </Interactables>
   <Interface>
+    <Record>
+      <Key>InventorySort</Key>
+      <Value>Сортировать</Value>
+    </Record>
+    <Record>
+      <Key>InventoryClose</Key>
+      <Value>Закрыть</Value>
+    </Record>
     <Record>
       <Key>VenusPoiRegionFumaroleSteppeName</Key>
       <Value>Фумарольная равнина</Value>
@@ -10983,7 +11370,6 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>VenusNamedRegionStarglowValleyName</Key>
       <Value>Starglow Valley</Value>
     </Record>
-
     <Record>
       <Key>VulcanNamedRegionDogsheadPassageSouthName</Key>
       <Value>Dogshead Passage South</Value>
@@ -11348,14 +11734,13 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>VulcanNamedRegionToraName</Key>
       <Value>Tora</Value>
     </Record>
-
     <Record>
       <Key>VulcanPoiDogsheadCraterName</Key>
       <Value>Dogshead Crater</Value>
     </Record>
     <Record>
       <Key>VulcanPoiDogsheadCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterName</Key>
@@ -11363,7 +11748,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterName</Key>
@@ -11371,7 +11756,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterName</Key>
@@ -11379,7 +11764,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterName</Key>
@@ -11387,7 +11772,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterName</Key>
@@ -11395,7 +11780,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterName</Key>
@@ -11403,7 +11788,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterName</Key>
@@ -11419,9 +11804,372 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterDescription</Key>
-      <Value> </Value>
+      <Value>New Location</Value>
     </Record>
-
+    <Record>
+      <Key>VulcanPoiDogsheadPassageSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadPassageNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarPlateauEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersOutcropDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersPlateauNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDustersPlateauSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSouthernHighlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPollenKnollDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPollenThumbDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderApproachDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSouthEasternWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBurningTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiJanosPlateauDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiJanosSlopeDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersViewDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentOutcropDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaHighlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHighlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBurningSaddleDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTwinsViewDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSpearOverlookDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTwinsPassDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPrometheusNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPrometheusSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNorthernWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiGreyOverlookDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentOverlookDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValoursRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBrokenPlateauDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarPlateauDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHeightsWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonHeightsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSorinsDescentDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSorinsApproachDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOrensViewDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiAshRiseDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSpearValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiFingerValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNarrowPassageDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDamonPassageDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonRiftDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiWestlandsGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiWestlandsDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiHalesDescentDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDantesValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCrescentValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersWalkDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiBreakersGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiForgottenValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPeanutValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsfootDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDeepscarSouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDeepscarNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValleyOfHopeDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiOuterWasteDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentValleyNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiSerpentValleySouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiShatteredValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiValleyOfLossDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderTrackDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiGreyChannelDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiNeedleValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCalamitySouthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCalamityNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionSouthEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionSouthWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionNorthWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiRedJunctionNorthEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDuchValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityNorthDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityWestDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTranquilityEastDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiIronValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiPepperGullyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiAshValleyDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiCinderPeakDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountSorinDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiDogsheadDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiTalonPeakDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiKalimarVentDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountValourDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiMountOrenDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiLomaDescription</Key>
+      <Value>New Location</Value>
+    </Record>
+    <Record>
+      <Key>VulcanPoiToraDescription</Key>
+      <Value>New Location</Value>
+    </Record>
     <Record>
       <Key>VulcanSpawnVestaValleyName</Key>
       <Value>Vesta Valley</Value>
@@ -11447,12 +12195,84 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>An unforgiving wasteland of jagged rock and collapsed magma chambers</Value>
     </Record>
     <Record>
+      <Key>SpawnRoundRobin</Key>
+      <Value>Round Robin</Value>
+    </Record>
+    <Record>
+      <Key>SpawnRoundRobinDescription</Key>
+      <Value>Each player will start the game in a separate location.</Value>
+    </Record>
+    <Record>
       <Key>VulcanSpawnTitusReachName</Key>
       <Value>Titus Reach</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnTitusReachDescription</Key>
       <Value>A flat mid-height plateau overlooking lava lakes and volcanoes</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnSerpentPlateauName</Key>
+      <Value>Serpent Plateau</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnSerpentPlateauDescription</Key>
+      <Value>A shattered plain subsides into lava lakes</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnTalonHeightsName</Key>
+      <Value>Talon Heights</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnTalonHeightsDescription</Key>
+      <Value>A volcanic mountain valley in the lee of Talon's peak</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDusterPlateauNorthName</Key>
+      <Value>Duster Plateau North</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDusterPlateauNorthDescription</Key>
+      <Value>Sheltered by a micro valley that overlooks Peanut Valley.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnCinderPeakName</Key>
+      <Value>Cinder Peak</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnCinderPeakDescription</Key>
+      <Value>A deep vally at the foot of Dogsfoot Mountain.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnRedJunctionName</Key>
+      <Value>Red Junction</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnRedJunctionDescription</Key>
+      <Value>On the shores of Junction Lake and Lake Calamity.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnOrensTrackName</Key>
+      <Value>Oren's Track</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnOrensTrackDescription</Key>
+      <Value>Nestled between Mount Oren and Mount Valour, Oren's Track offers some good building space.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDogsfootName</Key>
+      <Value>Dogsfoot</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnDogsfootDescription</Key>
+      <Value>A forked basalt formation resembling a paw, offering rare shelter from ash storms.</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnKalimarOutlookName</Key>
+      <Value>Kalimar Outlook</Value>
+    </Record>
+    <Record>
+      <Key>VulcanSpawnKalimarOutlookDescription</Key>
+      <Value>A river of lava winds its way through the valley below, beneath the harsh gaze of Kalimar Vent</Value>
     </Record>
     <Record>
       <Key>OkayConfirmation</Key>
@@ -11485,6 +12305,18 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>InterrogationProgress</Key>
       <Value>Trader Interrogation Progess</Value>
+    </Record>
+    <Record>
+      <Key>RespawnConditionEasy</Key>
+      <Value>Easy</Value>
+    </Record>
+    <Record>
+      <Key>RespawnConditionNormal</Key>
+      <Value>Normal</Value>
+    </Record>
+    <Record>
+      <Key>RespawnConditionStationeer</Key>
+      <Value>Stationeer</Value>
     </Record>
     <Record>
       <Key>Rpm</Key>
@@ -12218,10 +13050,18 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>SettingsParticleQuality</Key>
       <Value>Качество частиц</Value>
     </Record>
-		<Record>
-		  <Key>SettingsTerrainDetail</Key>
-		  <Value>Детали ландшафта</Value>
-		</Record>
+    <Record>
+      <Key>SettingsTerrainDetail</Key>
+      <Value>Детали ландшафта</Value>
+    </Record>
+    <Record>
+      <Key>SettingsTerrainDistance</Key>
+      <Value>Дальность отрисовки ландшафта</Value>
+    </Record>
+    <Record>
+      <Key>SettingsMinableDistance</Key>
+      <Value>Дальность отрисовки ресурсов</Value>
+    </Record>
     <Record>
       <Key>SettingsSoftParticles</Key>
       <Value>Мягкие частицы</Value>
@@ -12716,8 +13556,68 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Возродиться</Value>
     </Record>
     <Record>
+      <Key>UnconsciousPromptTitle</Key>
+      <Value>Без сознания</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptMessage</Key>
+      <Value>Вы без сознания, но не мертвы. Что вы хотите сделать?</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptOptionWaitForHelp</Key>
+      <Value>Подождать</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptAskForHelp</Key>
+      <Value>Позвать помощь</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousPromptOptionGiveUp</Key>
+      <Value>Сдаться</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptTitle</Key>
+      <Value>Мёртв</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptMessage</Key>
+      <Value>Вы мертвы. Что вы хотите сделать?</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptOptionWaitForHelp</Key>
+      <Value>Подождать</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptAskForHelp</Key>
+      <Value>Позвать помощь</Value>
+    </Record>
+    <Record>
+      <Key>DeadPromptOptionGiveUp</Key>
+      <Value>Сдаться</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptTitle</Key>
+      <Value>Сдаться</Value>
+    </Record>
+    <Record>
+      <Key>UnconsciousGiveUpPromptMessage</Key>
+      <Value>Вы уверены что хотите сдаться? Другой игрок всё ещё может вас спасти.</Value>
+    </Record>
+    <Record>
+      <Key>DeadGiveUpPromptMessage</Key>
+      <Value>Вы уверены что хотите сдаться? Другой игрок может оживить вас в Криокапсуле.</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptOptionGiveUp</Key>
+      <Value>Возродиться</Value>
+    </Record>
+    <Record>
+      <Key>GiveUpPromptOptionCancel</Key>
+      <Value>Dismiss</Value>
+    </Record>
+    <Record>
       <Key>AlertYourSaveFileIsBroken</Key>
-      <Value>Файл {0} неисправен. Проверьте мир {1}.</Value>
+      <Value>Файл {0} поврежден. Проверьте мир {1}.</Value>
     </Record>
     <Record>
       <Key>AlertInvalidIP</Key>
@@ -12737,8 +13637,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>AlertNoResponse</Key>
-      <Value>Нет ответа от сервера.
-                                              Пожалуйста, попробуйте еще раз.</Value>
+      <Value>
+        Нет ответа от игрового сервера.
+        Пожалуйста, попробуйте еще раз.
+      </Value>
     </Record>
     <Record>
       <Key>AlertKicked</Key>
@@ -13730,11 +14632,11 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>LogicTypePressureExternal</Key>
-      <Value>Настройка внешнего давления, в KPa</Value>
+      <Value>Настройка внешнего давления, в кПа</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureInternal</Key>
-      <Value>Настройка внутреннего давления, в KPa</Value>
+      <Value>Настройка внутреннего давления, в кПа</Value>
     </Record>
     <Record>
       <Key>LogicTypeActivate</Key>
@@ -17686,7 +18588,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>WorldObjectiveBuildPrinters</Key>
-      <Value>Build more printers</Value>
+      <Value>Постройте больше принтеров</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildStacker</Key>
@@ -17722,7 +18624,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </Record>
     <Record>
       <Key>WorldObjectiveUpgradeManufacturing</Key>
-      <Value>Upgrade Manufacturing</Value>
+      <Value>Улучшите производство</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildFurnace</Key>
@@ -19478,6 +20380,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Snow</Value>
     </Record>
     <Record>
+      <Key>SolarStormWeather</Key>
+      <Value>Солнечная буря</Value>
+    </Record>
+    <Record>
       <Key>StationpediaPhaseChangeDiagramPressureTitle</Key>
       <Value>Pressure</Value>
     </Record>
@@ -19844,6 +20750,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <Record>
       <Key>SellDataBoxOfBatteryCellsLarge</Key>
       <Value>Box of Battery Cells (Large)</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBoxOfNuclearBatteryCells</Key>
+      <Value>Box of Battery Cells (Nuclear)</Value>
     </Record>
     <Record>
       <Key>SellDataWeldingFuel</Key>
@@ -20385,6 +21295,30 @@ All the rack's pipes must be connected or the unit will show an error state, but
         Мы знаем, что потеря сохранений очень расстраивает, но эти изменения лежат в основе будущего игры Stationeers.
         Спасибо за понимание. Нам не терпится, чтобы вы попробовали наше обновление!
       </Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPowerCapacity</Key>
+      <Value>Ёмкость энергии:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaPowerGeneration</Key>
+      <Value>Базовое производство энергии:</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMetabolicSuspension</Key>
+      <Value>Приостановка метаболизма</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaMetabolicSuspensionDesc</Key>
+      <Value>При наличии питания устройство приостановит метаболизм пользователя так, что он не будет потреблять еду и воду</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCryogenicRegenerationDesc</Key>
+      <Value>При наличии питания устройство восстановит все типы повреждения тканей и органов, а также воскресит мёртвых пользователей</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCryogenicRegeneration</Key>
+      <Value>Криогенная регенерация</Value>
     </Record>
   </Interface>
   <Colors>
@@ -21942,7 +22876,7 @@ This will &lt;color=red&gt;delete {LOCAL:WorldSaveName}&lt;/color&gt; backup onl
     </Record>
     <Record>
       <Key>DaysPassedHudText</Key>
-      <Value>DAY {LOCAL:DaysPassed}</Value>
+      <Value>ДЕНЬ {LOCAL:DaysPassed}</Value>
     </Record>
     <Record>
       <Key>CustomSkeletonName</Key>
@@ -21995,7 +22929,7 @@ This will &lt;color=red&gt;delete {LOCAL:WorldSaveName}&lt;/color&gt; backup onl
     </Record>
     <Record>
       <Key>CryoConditionsNotMet</Key>
-      <Value>Conditions not met</Value>
+      <Value>Условия не соблюдены</Value>
     </Record>
     <Record>
       <Key>CryoReviving</Key>
@@ -22193,7 +23127,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AddSeedsToSlot</Key>
-      <Value>This will add one {0} to the tray</Value>
+      <Value>Это добавит один {0} в лоток</Value>
     </Record>
     <Record>
       <Key>ClearFertiliser</Key>
@@ -22209,15 +23143,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NothingToWater</Key>
-      <Value>Nothing to water</Value>
+      <Value>Поливать нечего</Value>
     </Record>
     <Record>
       <Key>AlreadyFullOfWater</Key>
-      <Value>Already full of water</Value>
+      <Value>Уже полное воды</Value>
     </Record>
     <Record>
       <Key>WaterPlantWith</Key>
-      <Value>Water plant with {LOCAL:InHand}</Value>
+      <Value>Полить растение с помощью {LOCAL:InHand}</Value>
     </Record>
     <Record>
       <Key>CanOnlyUseLiquidOnPlants</Key>
@@ -22673,7 +23607,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StackerNoContentsToClear</Key>
-      <Value>&lt;color=red&gt;No contents to clear&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Нечего очищать&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>StackerWillForceChangeFromLogicToAutomatic</Key>
@@ -22681,7 +23615,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StackerContainsQuantity</Key>
-      <Value>Contains {LOCAL:Quantity} x {LOCAL:Item}</Value>
+      <Value>Содержит {LOCAL:Quantity} x {LOCAL:Item}</Value>
     </Record>
     <Record>
       <Key>StackableNotEnoughInStackOf</Key>
@@ -22761,7 +23695,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingCreateThing</Key>
-      <Value>Creating {LOCAL:Thing} &lt;color=yellow&gt;{1:F0}%&lt;/color&gt;</Value>
+      <Value>Создание {LOCAL:Thing} &lt;color=yellow&gt;{1:F0}%&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ThingCanNotManufacture</Key>
@@ -22837,11 +23771,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>MicrowaveOpenFailure</Key>
-      <Value>Something is preventing this from closing</Value>
+      <Value>Что-то мешает закрытию</Value>
     </Record>
     <Record>
       <Key>MicrowaveAddUnitsOf</Key>
-      <Value>Add &lt;color=green&gt;{0}&lt;/color&gt; units of {1}</Value>
+      <Value>Добавить &lt;color=green&gt;{0}&lt;/color&gt; единиц {1}</Value>
     </Record>
     <Record>
       <Key>ComposterNotEnoughProcessItems</Key>
@@ -22909,7 +23843,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceCanNotAdd</Key>
-      <Value>&lt;color=red&gt;You cannot add this to the device&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Вы не можете добавить это в устройство&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeviceCanNotAddWhileProcessing</Key>
@@ -22929,11 +23863,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceEmpty</Key>
-      <Value>This is to empty the device of all reagents</Value>
+      <Value>Нажмите, чтобы очистить устройство от всех реагентов</Value>
     </Record>
     <Record>
       <Key>DeviceWillProduce</Key>
-      <Value>Will produce {LOCAL:Device}</Value>
+      <Value>Будет произведено {LOCAL:Device}</Value>
     </Record>
     <Record>
       <Key>DeviceAddReagents</Key>
@@ -22941,7 +23875,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceNothingToClear</Key>
-      <Value>&lt;color=red&gt;There is nothing in this device to clear&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;В устройстве нечего убирать&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeviceOnlyCookedItems</Key>
@@ -23081,7 +24015,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>VolumeChangeDirection</Key>
-      <Value>Change Direction</Value>
+      <Value>Изменить направление</Value>
     </Record>
     <Record>
       <Key>HoldForSmallIncrements</Key>
@@ -23641,15 +24575,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PressureSafteySetTo</Key>
-      <Value>The &lt;color=green&gt;{LOCAL:Location} Safety&lt;/color&gt; is set to &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
+      <Value>&lt;color=green&gt;{LOCAL:Location} цель давления&lt;/color&gt; установлена на &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>AtmosphereExternal</Key>
-      <Value>External</Value>
+      <Value>Внешняя</Value>
     </Record>
     <Record>
       <Key>AtmosphereInternal</Key>
-      <Value>Internal</Value>
+      <Value>Внутренняя</Value>
     </Record>
     <Record>
       <Key>IngotIsType</Key>
@@ -23805,7 +24739,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ClearStacker</Key>
-      <Value>Clear Stacker</Value>
+      <Value>Очистить стакер</Value>
     </Record>
     <Record>
       <Key>QuantityOfGasTypeInMix</Key>
@@ -23869,7 +24803,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingWillDecayIn</Key>
-      <Value>Will decay completely in &lt;color=yellow&gt;{0}&lt;/color&gt;</Value>
+      <Value>Полностью разложится через &lt;color=yellow&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CannotConstructWhenDamaged</Key>
@@ -23877,15 +24811,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SlotOccupiedBy</Key>
-      <Value>Currently occupied by {LOCAL:DynamicThing}</Value>
+      <Value>Сейчас занято {LOCAL:DynamicThing}</Value>
     </Record>
     <Record>
       <Key>DeviceDoesNotAllowInternals</Key>
-      <Value>Cannot enter device while wearing a {LOCAL:Thing}</Value>
+      <Value>Нельзя зайти в устройство с надетым {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>DeviceDoesNotAllowItemsInHands</Key>
-      <Value>Cannot enter device while {LOCAL:Thing} is in {LOCAL:Slot}</Value>
+      <Value>Нельзя зайти в устройство с {LOCAL:Thing} в {LOCAL:Slot}</Value>
     </Record>
     <Record>
       <Key>PlantDead</Key>
@@ -24073,7 +25007,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ProcessedMoles</Key>
-      <Value>Processed Input {LOCAL:Moles}</Value>
+      <Value>Обработано {LOCAL:Moles}</Value>
     </Record>
     <Record>
       <Key>PressureDifferential</Key>
@@ -24321,19 +25255,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>OperationalTemperatureEfficiency</Key>
-      <Value>Operational Temperature Efficiency {LOCAL:Value}</Value>
+      <Value>Эффективность рабочей температуры {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>TemperatureDifferentialEfficiency</Key>
-      <Value>Temperature Differential Efficiency {LOCAL:Value}</Value>
+      <Value>Эффективность разницы температуры {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>PressureEfficiency</Key>
-      <Value>Pressure Efficiency {LOCAL:Value}</Value>
+      <Value>Эффективность давления {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>ConversionEfficiency</Key>
-      <Value>Conversion Efficiency {LOCAL:Value}</Value>
+      <Value>Эффективность преобразования {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionSemiMajorAxis</Key>
@@ -24597,7 +25531,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CantPaintSameColour</Key>
-      <Value>The {LOCAL:Thing} is already painted {LOCAL:Color}</Value>
+      <Value>{LOCAL:Thing} уже окрашен в {LOCAL:Color}</Value>
     </Record>
     <Record>
       <Key>AtmosphereVolume</Key>
@@ -24609,35 +25543,35 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StirlingTemperatureHot</Key>
-      <Value>Temperature Hot Side</Value>
+      <Value>Температура горячей стороны</Value>
     </Record>
     <Record>
       <Key>GeneratingPower</Key>
-      <Value>Generating</Value>
+      <Value>Генерация</Value>
     </Record>
     <Record>
       <Key>StirlingTemperatureCold</Key>
-      <Value>Temperature Cold Side</Value>
+      <Value>Температура холодной стороны</Value>
     </Record>
     <Record>
       <Key>StirlingOperatingEfficiency</Key>
-      <Value>Environment Operating Efficiency</Value>
+      <Value>Эффективность работы с окружением</Value>
     </Record>
     <Record>
       <Key>StirlingPressureDifferential</Key>
-      <Value>Pressure Differential</Value>
+      <Value>Разница давления</Value>
     </Record>
     <Record>
       <Key>StirlingGasEfficiency</Key>
-      <Value>Working Gas Efficiency</Value>
+      <Value>Эффективность рабочего газа</Value>
     </Record>
     <Record>
       <Key>StirlingHelperText</Key>
-      <Value>Connect input and output pipe networks and supply input network with hot high pressure gas</Value>
+      <Value>Подключите трубы ко входу и выходу, затем подайте горячий газ под высоким давлением на вход</Value>
     </Record>
     <Record>
       <Key>StirlingMissingCanister</Key>
-      <Value>&lt;color=red&gt;Missing a &lt;color=green&gt;Gas Canister&lt;/color&gt; for working gas&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Отсутствует &lt;color=green&gt;Газовый баллон&lt;/color&gt; с рабочим газом&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>SlotContainsItem</Key>
@@ -24657,15 +25591,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ProcessingThing</Key>
-      <Value>Processing {LOCAL:Thing}</Value>
+      <Value>Обработка {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ProduceQuantityOfResource</Key>
-      <Value>Will produce {LOCAL:Quantity} x {LOCAL:Resource} of {LOCAL:Thing}</Value>
+      <Value>Будет произведено {LOCAL:Quantity} x {LOCAL:Resource} {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ProduceResource</Key>
-      <Value>Will produce {LOCAL:Size} of {LOCAL:Resource}</Value>
+      <Value>Будет произведено {LOCAL:Size} x {LOCAL:Resource}</Value>
     </Record>
     <Record>
       <Key>ProduceAnotherResource</Key>
@@ -24841,7 +25775,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>MachinePressureDifferential</Key>
-      <Value>Pressure Differential {LOCAL:PressureDelta}</Value>
+      <Value>Разница давления {LOCAL:PressureDelta}</Value>
     </Record>
     <Record>
       <Key>PassedMolesInput1</Key>
@@ -24857,19 +25791,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>FlowRateStatus</Key>
-      <Value>Flow-rate is &lt;color={LOCAL:color}&gt;{LOCAL:flowRate}&lt;/color&gt;</Value>
+      <Value>Скорость потока &lt;color={LOCAL:color}&gt;{LOCAL:flowRate}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>IncreasePipeVolumePressure</Key>
-      <Value>Increase output pipe-network capacity or pressure</Value>
+      <Value>Увеличьте давление или объём выходной сети труб</Value>
     </Record>
     <Record>
       <Key>PressureCloseToTarget</Key>
-      <Value>Pressure close to External target</Value>
+      <Value>Давление близко к Внешней цели</Value>
     </Record>
     <Record>
       <Key>PressureCloseToInternalTarget</Key>
-      <Value>Pressure close to Internal target</Value>
+      <Value>Давление близко к Внутренней цели</Value>
     </Record>
     <Record>
       <Key>Rocket</Key>
@@ -26150,7 +27084,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketDeployActionInfo</Key>
-      <Value>Cargo Bay: {LOCAL:OnOff}, State: {LOCAL:Open}, Progress: {LOCAL:Progress}</Value>
+      <Value>Payload Bay: {LOCAL:OnOff}, State: {LOCAL:Open}, Progress: {LOCAL:Progress}</Value>
     </Record>
     <Record>
       <Key>TutorialYouDied</Key>
@@ -26163,6 +27097,10 @@ Status: {LOCAL:StatusValue}</Value>
     <Record>
       <Key>RoomState</Key>
       <Value>in a {LOCAL:RoomType}</Value>
+    </Record>
+    <Record>
+      <Key>BrutalStartConditionDescription</Key>
+      <Value>The bare minimum to survive</Value>
     </Record>
     <Record>
       <Key>StartScreenHeaderInWorldSpawns</Key>
@@ -26434,19 +27372,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CableAnalyserActual</Key>
-      <Value>Actual {LOCAL:Value}</Value>
+      <Value>Текущее {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>CableAnalyserRequired</Key>
-      <Value>Required {LOCAL:Value}</Value>
+      <Value>Требуемое {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>CableAnalyserPotential</Key>
-      <Value>Potential {LOCAL:Value}</Value>
+      <Value>Потенциал {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>CableAnalyserNoCableNetworkFound</Key>
-      <Value>No cable network found</Value>
+      <Value>Кабельная сеть не найдена</Value>
     </Record>
     <Record>
       <Key>EntityDehydrated</Key>
@@ -26611,27 +27549,27 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SolarPanelEfficiency</Key>
-      <Value>Efficiency</Value>
+      <Value>Эффективность</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateMax</Key>
-      <Value>Max</Value>
+      <Value>максимальная</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateInwardsLimited</Key>
-      <Value>Inwards Limited</Value>
+      <Value>внутрь ограничена</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateInwardsVeryLimited</Key>
-      <Value>Inwards Very Limited</Value>
+      <Value>внутрь сильно ограничена</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateOutwardsLimited</Key>
-      <Value>Outwards Limited</Value>
+      <Value>наружу ограничена</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateOutwardsVeryLimited</Key>
-      <Value>Outwards Very Limited</Value>
+      <Value>наружу сильно ограничена</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateIdle</Key>
@@ -26639,47 +27577,47 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizingInternal</Key>
-      <Value>Pressurizing Internal</Value>
+      <Value>Герметизация внтури</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizedInternal</Key>
-      <Value>Pressurized Internal</Value>
+      <Value>Герметизировано внутри</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStateDepressurizingInternal</Key>
-      <Value>Depressurizing Internal</Value>
+      <Value>Разгерметизация внтури</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizingExternal</Key>
-      <Value>Pressurizing External</Value>
+      <Value>Герметизация снаружи</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizedExternal</Key>
-      <Value>Pressurized External</Value>
+      <Value>Герметизировано снаружи</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStateDepressurizingExternal</Key>
-      <Value>Depressurizing External</Value>
+      <Value>Разгерметизация снаружи</Value>
     </Record>
     <Record>
       <Key>AirlockControlStateDisabled</Key>
-      <Value>Disabled</Value>
+      <Value>Отключено</Value>
     </Record>
     <Record>
       <Key>AirlockControlStatePressurizing</Key>
-      <Value>Pressurizing</Value>
+      <Value>Герметизация</Value>
     </Record>
     <Record>
       <Key>AirlockControlStatePressurized</Key>
-      <Value>Pressurized</Value>
+      <Value>Герметизировано</Value>
     </Record>
     <Record>
       <Key>AirlockControlStateDepressurizing</Key>
-      <Value>Depressurizing</Value>
+      <Value>Разгерметизация</Value>
     </Record>
     <Record>
       <Key>AirlockControlStateDepressurized</Key>
-      <Value>Depressurized</Value>
+      <Value>Разгерметизировано</Value>
     </Record>
     <Record>
       <Key>AirlockControlStateOverrideCount</Key>
@@ -27079,7 +28017,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>EntityUnconsious</Key>
-      <Value>Unconscious</Value>
+      <Value>Без сознания</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRequestingCharacter</Key>
@@ -27090,6 +28028,14 @@ Status: {LOCAL:StatusValue}</Value>
       <Value>В этом сохранении данные ландшафта повреждены или недействительны. Мир был модифицирован.</Value>
     </Record>
     <Record>
+      <Key>DifficultyStatisticMoodReduction</Key>
+      <Value>Снижение настроения</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticHygieneReduction</Key>
+      <Value>Снижение гигиены</Value>
+    </Record>
+    <Record>
       <Key>PressToExit</Key>
       <Value>Press {KEY:ExitKey} to exit</Value>
     </Record>
@@ -27098,21 +28044,565 @@ Status: {LOCAL:StatusValue}</Value>
       <Value>Вы покидаете игровую зону</Value>
     </Record>
     <Record>
-      <Key>DifficultyStatisticMoodReduction</Key>
-      <Value>Снижение настроения</Value>
+      <Key>ResetTerrainButton</Key>
+      <Value>Сбросить ландшафт</Value>
     </Record>
     <Record>
-      <Key>DifficultyStatisticHygieneReduction</Key>
-      <Value>Снижение гигиены</Value>
+      <Key>CancelLoadButton</Key>
+      <Value>Отмена</Value>
     </Record>
-	  <Record>
-		  <Key>ResetTerrainButton</Key>
-		  <Value>Сбросить ландшафт</Value>
-	  </Record>
-	  <Record>
-		  <Key>CancelLoadButton</Key>
-		  <Value>Отмена</Value>
-	  </Record>
+    <Record>
+      <Key>LandingGear</Key>
+      <Value>Landing Gear</Value>
+    </Record>
+    <Record>
+      <Key>Activate</Key>
+      <Value>Активировать</Value>
+    </Record>
+    <Record>
+      <Key>Deactivate</Key>
+      <Value>Дективировать</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionStackSize</Key>
+      <Value>Returns the stack size of the devices internal memory.</Value>
+    </Record>
+    <Record>
+      <Key>CantEquipThisBackpack</Key>
+      <Value>{LOCAL:InvalidItem} can not be equipped when wearing {LOCAL:CurrentlyEquipped}</Value>
+    </Record>
+    <Record>
+      <Key>ProportionalGainDescription</Key>
+      <Value>The proportional gain of the PID controller. This value determines how aggressively the controller responds to the error between the setpoint and the process variable. A higher value results in a faster response but may lead to overshoot or instability.</Value>
+    </Record>
+    <Record>
+      <Key>IntegralGainDescription</Key>
+      <Value>The integral gain of the PID controller. This value determines how much the controller responds to the accumulated error over time. A higher value can help eliminate steady-state errors but may also lead to oscillations or instability.</Value>
+    </Record>
+    <Record>
+      <Key>DerivativeGainDescription</Key>
+      <Value>The derivative gain of the PID controller. This value determines how much the controller responds to the rate of change of the error. A higher value can help dampen oscillations and improve stability, but may also lead to noise amplification.</Value>
+    </Record>
+    <Record>
+      <Key>ResetDescription</Key>
+      <Value>Resets the PID controller's internal state, clearing any accumulated error and resetting the output to zero. This is useful for starting fresh or recovering from an unstable state.</Value>
+    </Record>
+    <Record>
+      <Key>SetpointDescription</Key>
+      <Value>The desired value that the PID controller aims to achieve. This is the target value for the process variable, and the controller will adjust its output to minimize the difference between the setpoint and the process variable.</Value>
+    </Record>
+    <Record>
+      <Key>MinimumDescription</Key>
+      <Value>Minimum value for provided logic device.</Value>
+    </Record>
+    <Record>
+      <Key>NetworkFaultDescription</Key>
+      <Value>Attached network is experiencing a fault, such as a pipe burst or other failure.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionMaturityRatio</Key>
+      <Value>How far the plant is towards maturity represented as a fraction between 0 and 1, with 1 being mature and ready for harvest.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionSeedingRatio</Key>
+      <Value>How far the plant is towards seeding represented as a fraction between 0 and 1, with 1 being seeding and will supply seeds when harvested.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionBdnvl</Key>
+      <Value>Will branch to line a if the provided device not valid for a load instruction for the provided logic type.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionBdnvs</Key>
+      <Value>Will branch to line a if the provided device not valid for a store instruction for the provided logic type.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionPow</Key>
+      <Value>Stores the result of raising a to the power of b in the register. Follows IEEE-754 standard for floating point arithmetic.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionExt</Key>
+      <Value>Extracts a bit field from a, beginning at b for c length and placed in the provided register. Payload cannot exceed 53 bits in final length.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionIns</Key>
+      <Value>Inserts a bit field of a into the provided register, beginning at b for c length. Payload cannot exceed 53 bits in final length.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionLerp</Key>
+      <Value>Linearly interpolates between a and b by the ratio c, and places the result in the register provided. The ratio c will be clamped between 0 and 1.</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherState</Key>
+      <Value>Ice Crusher Status</Value>
+    </Record>
+    <Record>
+      <Key>InternalAtmosphere</Key>
+      <Value>Internal Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherSetting</Key>
+      <Value>Will Heat if below {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherHeater</Key>
+      <Value>Heating Element</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherHeating</Key>
+      <Value>Operation slowed while heating to {LOCAL:Temperature} target</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherIndicatorHeat</Key>
+      <Value>Heating</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherIndicatorIdle</Key>
+      <Value>Idle</Value>
+    </Record>
+    <Record>
+      <Key>IceCrusherAtmosFull</Key>
+      <Value>Internal Atmosphere is Full</Value>
+    </Record>
+    <Record>
+      <Key>BreathingAtmosphere</Key>
+      <Value>Атмосфера посетителя</Value>
+    </Record>
+    <Record>
+      <Key>CryogenicLiquid</Key>
+      <Value>Криогенная жидкость</Value>
+    </Record>
+    <Record>
+      <Key>NotPureLiquidNitrogen</Key>
+      <Value>Жидкость не является чистым жидким азотом</Value>
+    </Record>
+    <Record>
+      <Key>CryoLiquidVolumeTooLow</Key>
+      <Value>Объём криогенной жидкости должен быть больше {LOCAL:Volume}</Value>
+    </Record>
+    <Record>
+      <Key>CryoLiquidTemperatureTooHigh</Key>
+      <Value>Температура криогенной жидкости должна быть ниже {LOCAL:Temperature}</Value>
+    </Record>
+    <Record>
+      <Key>CryoWillRevive</Key>
+      <Value>Will regenerate deceased patients</Value>
+    </Record>
+    <Record>
+      <Key>CryoState</Key>
+      <Value>Криогенный статус</Value>
+    </Record>
+    <Record>
+      <Key>SleeperState</Key>
+      <Value>Статус спальника</Value>
+    </Record>
+    <Record>
+      <Key>SleeperMetabolicSuspension</Key>
+      <Value>Метаболизм приостановлен</Value>
+    </Record>
+    <Record>
+      <Key>SleeperDoorIsOpen</Key>
+      <Value>Работа приостановлена из-за открытой двери</Value>
+    </Record>
+    <Record>
+      <Key>CryoWillHeal</Key>
+      <Value>Will heal damaged patients</Value>
+    </Record>
+    <Record>
+      <Key>Vacuum</Key>
+      <Value>Вакуум</Value>
+    </Record>
+    <Record>
+      <Key>Null</Key>
+      <Value>Null</Value>
+    </Record>
+    <Record>
+      <Key>VehicleIsNotDamaged</Key>
+      <Value>{LOCAL:Rover} is not damaged</Value>
+    </Record>
+    <Record>
+      <Key>PatchingRecipe</Key>
+      <Value>{LOCAL:ModName} is patching recipe for {LOCAL:PrefabName}</Value>
+    </Record>
+    <Record>
+      <Key>UnknownMod</Key>
+      <Value>Unknown</Value>
+    </Record>
+    <Record>
+      <Key>ActionRepairRover</Key>
+      <Value>Repair Vehicle</Value>
+    </Record>
+    <Record>
+      <Key>SlotVacant</Key>
+      <Value>Пусто</Value>
+    </Record>
+    <Record>
+      <Key>SlotOccupant</Key>
+      <Value>Посетитель</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotForSpecies</Key>
+      <Value>Устройство не может быть занято {LOCAL:Species}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotConstructed</Key>
+      <Value>{LOCAL:Thing} has not been fully constructed</Value>
+    </Record>
+    <Record>
+      <Key>DevicePressureTooHigh</Key>
+      <Value>{LOCAL:Thing} exceeds its internal pressure rating</Value>
+    </Record>
+    <Record>
+      <Key>RocketGasCollectActionInfo</Key>
+      <Value>Collector: {LOCAL:OnOff}, Next Yield: {LOCAL:Yield}</Value>
+    </Record>
+    <Record>
+      <Key>CryoAtmosphereIsUnsafe</Key>
+      <Value>Атмосфера непригодна для дыхания</Value>
+    </Record>
+    <Record>
+      <Key>CryoNoAtmosphericInput</Key>
+      <Value>Не подключен газ для дыхания</Value>
+    </Record>
+    <Record>
+      <Key>CryoNoLiquidInput</Key>
+      <Value>Не подключена криогенная жидкость</Value>
+    </Record>
+    <Record>
+      <Key>TradeActionData</Key>
+      <Value>Includes {LOCAL:Value} of data</Value>
+    </Record>
+    <Record>
+      <Key>RegionName</Key>
+      <Value>Region: {LOCAL:Name}</Value>
+    </Record>
+    <Record>
+      <Key>OldSaveDetected</Key>
+      <Value>1 Old Save Detected</Value>
+    </Record>
+    <Record>
+      <Key>OldSavesDetected</Key>
+      <Value>{LOCAL:Count} Old Saves Detected</Value>
+    </Record>
+    <Record>
+      <Key>DeleteOldSave</Key>
+      <Value>Are you sure you want to delete 1 old save?</Value>
+    </Record>
+    <Record>
+      <Key>DeleteOldSaves</Key>
+      <Value>Are you sure you want to delete {LOCAL:Count} old saves?</Value>
+    </Record>
+    <Record>
+      <Key>SuitOperatingRangeText</Key>
+      <Value>{LOCAL:Minimum} to {LOCAL:Maximum}</Value>
+    </Record>
+    <Record>
+      <Key>RespawnHere</Key>
+      <Value>Spawn Point Set</Value>
+    </Record>
+    <Record>
+      <Key>Hydration</Key>
+      <Value>Обезвоживание</Value>
+    </Record>
+    <Record>
+      <Key>Nutrition</Key>
+      <Value>Насыщение</Value>
+    </Record>
+    <Record>
+      <Key>Oxygenation</Key>
+      <Value>Оксигенация</Value>
+    </Record>
+    <Record>
+      <Key>Stun</Key>
+      <Value>Stun</Value>
+    </Record>
+    <Record>
+      <Key>NextWeatherHashDescription</Key>
+      <Value>NextWeatherHash provides the hash value for the name of the next weather event as a 32 bit integer.</Value>
+    </Record>
+    <Record>
+      <Key>WeatherEventComing</Key>
+      <Value>A weather event is incoming</Value>
+    </Record>
+    <Record>
+      <Key>DeviceMustBeOutside</Key>
+      <Value>The {LOCAL:Device} will not function indoors</Value>
+    </Record>
+    <Record>
+      <Key>DeviceConfigMode</Key>
+      <Value>Set to Configure</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOperateMode</Key>
+      <Value>Set to Operate</Value>
+    </Record>
+    <Record>
+      <Key>SlotItemProvidesPower</Key>
+      <Value>{LOCAL:Item} даст {LOCAL:Power} энергии</Value>
+    </Record>
+    <Record>
+      <Key>CanReplaceFuselage</Key>
+      <Value>Can replace other fuselages when holding a {LOCAL:Tool}</Value>
+    </Record>
+    <Record>
+      <Key>ShowerWillClean</Key>
+      <Value>Will clean {LOCAL:Occupant}</Value>
+    </Record>
+    <Record>
+      <Key>ShowerNotInPosition</Key>
+      <Value>{LOCAL:Occupant} is not close enough to shower</Value>
+    </Record>
+    <Record>
+      <Key>ShowerCannotWhenWearing</Key>
+      <Value>Cannot shower wearing {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>NamedThingDamageIsAt</Key>
+      <Value>{LOCAL:Thing} {LOCAL:DamageType} is at {LOCAL:Percent}</Value>
+    </Record>
+    <Record>
+      <Key>CoolingAmount</Key>
+      <Value>Cooling {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>HeatingAmount</Key>
+      <Value>Heating {LOCAL:Value}</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionFreeSlots</Key>
+      <Value>The number of free slots available in this object.</Value>
+    </Record>
+    <Record>
+      <Key>LogicDescriptionTotalSlots</Key>
+      <Value>The total number of slots available in this object.</Value>
+    </Record>
+    <Record>
+      <Key>UnidentifiedPlayer</Key>
+      <Value>Unidentified player</Value>
+    </Record>
+    <Record>
+      <Key>PlayerHasAlreadyRespawned</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; уже &lt;color=yellow&gt;возрождён&lt;/color&gt; и не может быть оживлён.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerBodyBagDead</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; уже &lt;color=red&gt;мёртв&lt;/color&gt; и ждёт оживления.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerIsOnline</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; &lt;color=green&gt;онлайн&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerIsOffline</Key>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; &lt;color=yellow&gt;оффлайн&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>BodyBagName</Key>
+      <Value>Мешок для трупа (&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt;)</Value>
+    </Record>
+    <Record>
+      <Key>PlayerBelongings</Key>
+      <Value>Вещи</Value>
+    </Record>
+    <Record>
+      <Key>PlayerReviveInCryotube</Key>
+      <Value>Положите &lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; в &lt;color=green&gt;Криокапсулу&lt;/color&gt; для оживления.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerRequestHelpUnconscious</Key>
+      <Value>{LOCAL:UserName} is in trouble and needs help.</Value>
+    </Record>
+    <Record>
+      <Key>PlayerRequestHelpDead</Key>
+      <Value>{LOCAL:UserName} is dead. They have requested they be revived in a Cryotube.</Value>
+    </Record>
+    <Record>
+      <Key>FoodContainerDecayReduction</Key>
+      <Value>Decay reduced to {LOCAL:Percent} inside {LOCAL:Container}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotClosed</Key>
+      <Value>{LOCAL:Device} для работы должен быть закрыт</Value>
+    </Record>
+    <Record>
+      <Key>CannotInteract</Key>
+      <Value>Cannot interact</Value>
+    </Record>
+    <Record>
+      <Key>EnergyTransfer</Key>
+      <Value>Передача энергии</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangeArea</Key>
+      <Value>Площадь поверхности</Value>
+    </Record>
+    <Record>
+      <Key>HeatExchangeFromTo</Key>
+      <Value>Теплообмен от {LOCAL:Input1} к {LOCAL:Input2}</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNoPayload</Key>
+      <Value>{LOCAL:Thing} has no payload</Value>
+    </Record>
+    <Record>
+      <Key>EntityStarving</Key>
+      <Value>Starving</Value>
+    </Record>
+    <Record>
+      <Key>EntityRespawnStress</Key>
+      <Value>Fatigued from respawn</Value>
+    </Record>
+    <Record>
+      <Key>ConsumptionSpeed</Key>
+      <Value>Consumption Speed</Value>
+    </Record>
+    <Record>
+      <Key>ToolUseSpeed</Key>
+      <Value>Tool Speed</Value>
+    </Record>
+    <Record>
+      <Key>TradePenalty</Key>
+      <Value>Trade Penalty</Value>
+    </Record>
+    <Record>
+      <Key>DeviceIsNotOperable</Key>
+      <Value>Device is not operable</Value>
+    </Record>
+    <Record>
+      <Key>PumpIntoPad</Key>
+      <Value>Pump into landingpad</Value>
+    </Record>
+    <Record>
+      <Key>PumpIntoTank</Key>
+      <Value>Pump into tank</Value>
+    </Record>
+    <Record>
+      <Key>Inward</Key>
+      <Value>Внутрь</Value>
+    </Record>
+    <Record>
+      <Key>Outward</Key>
+      <Value>Наружу</Value>
+    </Record>
+    <Record>
+      <Key>Warning</Key>
+      <Value>Warning</Value>
+    </Record>
+    <Record>
+      <Key>Critical</Key>
+      <Value>Critical</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureO2</Key>
+      <Value>Парциальное давление кислорода</Value>
+    </Record>
+    <Record>
+      <Key>LungsEfficiency</Key>
+      <Value>Эффективность дыхания</Value>
+    </Record>
+    <Record>
+      <Key>ToxinDamage</Key>
+      <Value>Повреждение токсином</Value>
+    </Record>
+    <Record>
+      <Key>BurnDamage</Key>
+      <Value>Ожог</Value>
+    </Record>
+    <Record>
+      <Key>VacuumDamage</Key>
+      <Value>Повреждение вакуумом</Value>
+    </Record>
+    <Record>
+      <Key>DamageFromLackOfFood</Key>
+      <Value>Потеря здоровья из-за недостатка еды</Value>
+    </Record>
+    <Record>
+      <Key>DamageFromLackOfWater</Key>
+      <Value>Потеря здоровья из-за недостатка воды</Value>
+    </Record>
+    <Record>
+      <Key>RobotHasNoBattery</Key>
+      <Value>Battery missing</Value>
+    </Record>
+    <Record>
+      <Key>RobotBatteryNoCharge</Key>
+      <Value>Battery has no charge</Value>
+    </Record>
+    <Record>
+      <Key>PartialPressureN2O</Key>
+      <Value>Парциальное давление закиси азота</Value>
+    </Record>
+    <Record>
+      <Key>Refreshed</Key>
+      <Value>Refreshed</Value>
+    </Record>
+    <Record>
+      <Key>MovementSpeed</Key>
+      <Value>Скорость передвижения</Value>
+    </Record>
+    <Record>
+      <Key>Hygiene</Key>
+      <Value>Гигиена</Value>
+    </Record>
+    <Record>
+      <Key>UnviableEggNotice</Key>
+      <Value>The {LOCAL:Name} is unviable</Value>
+    </Record>
+    <Record>
+      <Key>WillHatchInto</Key>
+      <Value>Will hatch into a {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>ViableEggNotice</Key>
+      <Value>Incubation requires {LOCAL:MinTemp} to {LOCAL:MaxTemp}</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateMoodDecreasing</Key>
+      <Value>Mood is Decreasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateMoodIncreasing</Key>
+      <Value>Mood is Increasing</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateHygieneDecreasing</Key>
+      <Value>Гигена ухудшается</Value>
+    </Record>
+    <Record>
+      <Key>PlayerStateHygieneIncreasing</Key>
+      <Value>Гигена улучшается</Value>
+    </Record>
+    <Record>
+      <Key>EggIsTooCold</Key>
+      <Value>Egg is too cold</Value>
+    </Record>
+    <Record>
+      <Key>EggIsTooHot</Key>
+      <Value>Egg is too hot</Value>
+    </Record>
+    <Record>
+      <Key>FertilizedEggProcess</Key>
+      <Value>The {LOCAL:Thing} is {LOCAL:Percent} to hatching</Value>
+    </Record>
+    <Record>
+      <Key>ThisDeviceNotOpen</Key>
+      <Value>{LOCAL:Thing} must be open to operate</Value>
+    </Record>
+    <Record>
+      <Key>RocketLogDeploy</Key>
+      <Value>{LOCAL:DisplayName} has successfully deployed {LOCAL:Thing} to x: {LOCAL:X} z:{LOCAL:Z}</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployFailNotInLowOrbit</Key>
+      <Value>{LOCAL:Payload} Can only be deployed in Low Orbit</Value>
+    </Record>
+    <Record>
+      <Key>RocketDeployFailNoPayload</Key>
+      <Value>No payload to deploy</Value>
+    </Record>
+    <Record>
+      <Key>ConstructionBlockedByDynamic</Key>
+      <Value>Construction blocked by {LOCAL:Thing}</Value>
+    </Record>
   </GameStrings>
   <GameTip />
 </Language>
