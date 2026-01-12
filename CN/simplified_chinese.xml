@@ -844,7 +844,7 @@
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
       <Value>电路板(气闸控制)</Value>
-      <Description>传闻Exgress气闸控制电路板最初由一位不满的工程师在 {LINK:Norsec;Norsec} 的厕所墙面涂鸦设计而成, 其多功能性和易生产性使其成为 {LINK:Stationeers;Stationeers} 气闸协议首选. 进入设置模式需将电路板与数据磁盘插入 {THING:StructureConsole} , 此时可查看所有连接设备（门/灯/传感器/副控制台）, 选中设备（绿色高亮）将在取出数据磁盘后开始受控</Description>
+      <Description>要进入设置模式, 需要使用{THING: ItemScrewdriver} 拧 {THING:StructureConsole} 侧面的螺丝, 此时可查看所有连接设备（门/灯/传感器/副控制台）, 选中设备（绿色高亮）将在螺丝拧回到原位后开始接受控制</Description>
     </RecordThing>
     <RecordThing>
       <Key>ImGuiCircuitboardAirlockControl</Key>
@@ -2099,20 +2099,20 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureConsole</Key>
       <Value>控制台</Value>
-      <Description>这款 {LINK:Norsec;Norsec} 设计的控制台可管理 {THING:StructureActiveVent} 、 {THING:StructurePassiveVent} 、 {THING:StructureGasSensor} 和 {THING:StructureCompositeDoor} 等设备（具体取决于插入的 {LINK:LogicPage;电路板} 类型）, 配备复合数据/电源接口. 
-完整组装的控制台会显示当前电网所有连接设备. 与当前电路板无关的设备将显示为灰色且不可操作. 取出 {THING:ItemDataDisk} 后控制台将锁定</Description>
+      <Description>这款控制台可管理 {THING:StructureActiveVent} , {THING:StructureGasSensor} 和 {THING:StructureCompositeDoor} 等设备（具体取决于插入的 {LINK:LogicPage;电路板} 类型）, 配备复合数据/电源接口.
+完整组装的控制台会显示当前电网所有连接设备. 与当前电路板无关的设备将显示为灰色且不可操作. 要进入设置模式, 需要使用{THING: ItemScrewdriver} 拧 {THING:StructureConsole} 侧面的螺丝.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleDual</Key>
       <Value>控制台(双口)</Value>
-      <Description>这款 {LINK:Norsec;Norsec} 设计的控制台可管理 {THING:StructureActiveVent} 、 {THING:StructurePassiveVent} 、 {THING:StructureGasSensor} 和 {THING:StructureCompositeDoor} 等设备（具体取决于插入的 {LINK:LogicPage;电路板} 类型）, 配备独立数据和电源接口. 
-完整组装的控制台会显示当前电网所有连接设备. 与当前电路板无关的设备将显示为灰色且不可操作. 取出 {THING:ItemDataDisk} 后控制台将锁定</Description>
+      <Description>这款控制台可管理 {THING:StructureActiveVent} , {THING:StructureGasSensor} 和 {THING:StructureCompositeDoor} 等设备（具体取决于插入的 {LINK:LogicPage;电路板} 类型）, 配备独立数据和电源接口.
+完整组装的控制台会显示当前电网所有连接设备. 与当前电路板无关的设备将显示为灰色且不可操作. 要进入设置模式, 需要使用{THING: ItemScrewdriver} 拧 {THING:StructureConsole} 侧面的螺丝.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleMonitor</Key>
       <Value>显示器控制台</Value>
-      <Description>这款 {LINK:Norsec;Norsec} 设计的控制台可管理 {THING:StructureActiveVent} 、 {THING:StructurePassiveVent} 、 {THING:StructureGasSensor} 和 {THING:StructureCompositeDoor} 等设备（具体取决于插入的 {LINK:LogicPage;电路板} 类型）, 配备复合数据/电源接口. 
-完整组装的控制台会显示当前电网所有连接设备. 与当前电路板无关的设备将显示为灰色且不可操作. 取出 {THING:ItemDataDisk} 后控制台将锁定</Description>
+      <Description>这款控制台可管理 {THING:StructureActiveVent} , {THING:StructureGasSensor} 和 {THING:StructureCompositeDoor} 等设备（具体取决于插入的 {LINK:LogicPage;电路板} 类型）, 配备复合数据/电源接口.
+完整组装的控制台会显示当前电网所有连接设备. 与当前电路板无关的设备将显示为灰色且不可操作. 要进入设置模式, 需要使用{THING: ItemScrewdriver} 拧 {THING:StructureConsole} 侧面的螺丝.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureControlChair</Key>
@@ -2483,7 +2483,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     <RecordThing>
       <Key>StructureWallHeater</Key>
       <Value>壁挂式加热器</Value>
-      <Description>{LINK:Xigo;Xigo} 壁挂加热器是简易制热设备, 安装后连接电源即可运行. 功耗1010W, 可通过逻辑芯片设定触发温度</Description>
+      <Description>壁挂式加热器是简易制热设备, 安装后连接电源即可运行, 打开开关后, 它会开始加热周围的环境. 它每刻能将1000焦耳热量添加到环境中. 它只能在高于阿姆斯特朗极限(6.3kPa)的环境中工作, 并且最多加热环境温度到2500K.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallLight</Key>
@@ -5359,7 +5359,7 @@ AIMEe有7种模式:
       <Key>StructureBatteryLarge</Key>
       <Value>大型蓄电池</Value>
       <Description>{LINK:Sinotai;Sinotai} 「大电池」大型站用蓄电池能够提供比 {THING:StructureBattery} 更强大的储能, 是 {LINK:Stationeers;Stationeer} 的核心设备. 需注意电路设计（老手常言: 「电子会烹饪, 也会煎炸」）
- {HEADER:电力输出} 
+ {HEADER:电力输出}
 存能上限9000001瓦, 无输出功率限制. 
 建议使用 {THING:ItemCableCoilHeavy} 电缆, 并通过 {THING:StructureAreaPowerControl} 和 {THING:StructureTransformer} 隔离发电网络</Description>
     </RecordThing>
@@ -5497,8 +5497,7 @@ AIMEe有7种模式:
     <RecordThing>
       <Key>StructureUprightWindTurbine</Key>
       <Value>垂直轴风力发电机</Value>
-      <Description>Norsec基础风力涡轮机采用简便制造、快速部署的思路设计, 足以抵御最恶劣环境. 
-虽然优化了在低大气层星球（最高200W）的发电能力, 但在稠密大气环境中表现最佳. 其输出随风速变化, 风暴期间可能发生激增（最高800W）, 设计电网时需注意</Description>
+      <Description>优化了在稀薄大气层星球的发电能力(最高200W), 但在稠密大气环境中表现最佳. 其输出随风速变化, 风暴期间发电量可能激增(最高1000W), 设计电网时需注意这一点</Description>
     </RecordThing>
     <RecordThing>
       <Key>CrateMkII</Key>
@@ -5589,8 +5588,7 @@ AIMEe有7种模式:
     <RecordThing>
       <Key>StructureWindTurbine</Key>
       <Value>风力涡轮发电机</Value>
-      <Description>Norsec大气工程师设计的Stationeers风力涡轮机可在大气层气压极低的星球运行. 超轻叶片响应极低大气密度, 同时能在严苛环境下承受巨大压力. 
-虽然优化了在低大气层星球（最高500W）的发电能力, 但在稠密大气环境中表现最佳. 输出随风速变化, 风暴期间可能激增（最高10, 000W）, 设计电网时需注意</Description>
+      <Description>优化了在稀薄大气层星球的发电能力 (最高500W), 但在稠密大气环境中表现最佳. 其输出随风速变化, 风暴期间发电量可能激增 (最高20, 000W), 设计电网时需注意这一点</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindTurbine</Key>
@@ -6408,7 +6406,7 @@ AIMEe有7种模式:
     <RecordThing>
       <Key>StructurePipeHeater</Key>
       <Value>管道加热器</Value>
-      <Description>每tick为管道网络内容物增加1000焦耳热量</Description>
+      <Description>每刻将1000焦耳热量添加到管道网络中. 管道加热器只能在高于阿姆斯特朗极限(6.3kPa)的环境中工作, 并且最多加热温度到2500K.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeOneWayValve</Key>
@@ -6443,7 +6441,7 @@ AIMEe有7种模式:
     <RecordThing>
       <Key>StructureLiquidPipeHeater</Key>
       <Value>管道加热器(液体)</Value>
-      <Description>每tick为管道网络内容物增加1000焦耳热量</Description>
+      <Description>每刻将1000焦耳热量添加到管道网络中. 管道加热器只能在高于阿姆斯特朗极限(6.3kPa)的环境中工作, 并且最多加热温度到2500K.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTurboVolumePump</Key>
@@ -9418,6 +9416,11 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>ItemKitRocketLargePayloadBay</Key>
       <Value>(套件)大型载荷舱</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemDefibrillator</Key>
+      <Value>除颤器</Value>
+      <Description />
     </RecordThing>
   </Things>
   <Slots>
@@ -16282,8 +16285,8 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>火箭包括燃料和货物在内的总质量, 以千克为单位. 火箭质量越大, 移动到太空中的新地点所消耗的燃料越多</Value>
     </Record>
     <Record>
-      <Key>LogicTypeContactSlotIdHash</Key>
-      <Value>贸易商槽位id的哈希值.</Value>
+      <Key>LogicTypeContactSlotIndex</Key>
+      <Value>贸易商生成槽位的索引值. 该索引定义了贸易商的类别, 例如: 实用型, 小型, 中型等.</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
@@ -20157,7 +20160,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingInserDisk</Key>
-      <Value>将 {THING:ItemDataDisk} 插入 {THING:StructureConsole} 侧面的磁盘插槽以启用设置界面.</Value>
+      <Value>用你的 {THING:ItemScrewdriver} 转动 {THING:StructureConsole} 侧面的设置模式螺丝以启用设置界面.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingPressureSettingNote</Key>
@@ -20177,7 +20180,7 @@ Stationeers涵盖多重角色: 他们是宇航员、工程师兼探险家, 仅�
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingRemoveDisk</Key>
-      <Value>选择传感器后, 如果所有选择都已正确完成, 开关应为纯绿色且不再闪烁. 此时可以取出磁盘.</Value>
+      <Value>选择传感器后, 如果所有选择都已正确完成, 开关应为纯绿色且不再闪烁. 此时可以用 {THING:ItemScrewdriver} 转动螺丝来退出设置界面.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockName</Key>
