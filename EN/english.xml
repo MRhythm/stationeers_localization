@@ -845,9 +845,7 @@ Just bolt it to a {THING:StructureBench} using a {THING:ItemWrench} to power it,
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
       <Value>Airlock</Value>
-      <Description>Rumored to have been first sketched on a {LINK:Norsec;Norsec} toilet wall by a disgruntled engineer, the Exgress airlock control circuit board’s versatility and ease of fabrication has made it the {LINK:Stationeers;Stationeers} control system of choice for {THING:StructureAirlock} cycling protocols. 
-
-To enter setup mode, insert the board into a {THING:StructureConsole} along with a data disk. In this mode, you can see all data-accessible objects currently connected to the {THING:StructureConsole}. Doors, lights, gas sensors and slave consoles can be selected (highlighted green), and will be controlled once the data disk is removed.</Description>
+      <Description>To enter setup mode, use a {THING: Screwdriver} on the screw on the side of  {THING:StructureConsole}. In this mode, you can see all data-accessible objects currently connected to the {THING:StructureConsole}. Doors, lights, gas sensors and slave consoles can be selected (highlighted green), and will be controlled once the screw is turned back.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ImGuiCircuitboardAirlockControl</Key>
@@ -2117,19 +2115,19 @@ Chutes are fundamental components of chute networks, which allow the transport o
     <RecordThing>
       <Key>StructureConsole</Key>
       <Value>Console</Value>
-      <Description>This {LINK:Norsec;Norsec-designed} control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor} and {THING:StructureCompositeDoor}, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has a shared data/power port.
-A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
+      <Description>This control box manages devices such as the {THING:StructureActiveVent}, {THING:StructureGasSensor} and {THING:StructureCompositeDoor}, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has a shared data/power port.
+A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. To enter setup mode, use a {THING: Screwdriver} on the screw on the side of the {THING:StructureConsole}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleDual</Key>
       <Value>Console Dual</Value>
-      <Description>This {LINK:Norsec;Norsec-designed} control box manages devices such as the {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} and others, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has separate data and power ports.
+      <Description>This control box manages devices such as the {THING:StructureActiveVent}, {THING:StructureGasSensor}, {THING:StructureCompositeDoor} and others, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has separate data and power ports.
 A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureConsoleMonitor</Key>
       <Value>Console Monitor</Value>
-      <Description>This {LINK:Norsec;Norsec-designed} control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} and {THING:StructureCompositeDoor}, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has a shared data/power port, and a charming sloped interface.
+      <Description>This control box manages devices such as the {THING:StructureActiveVent}, {THING:StructurePassiveVent}, {THING:StructureGasSensor}, {THING:ItemSecurityCamera} and {THING:StructureCompositeDoor}, depending on which {LINK:LogicPage;circuitboard} is inserted into the unit. It has a shared data/power port, and a charming sloped interface.
 A completed console displays all devices connected to the current power network. Any devices not related to the installed circuitboard will be greyed-out and inoperable. Consoles are locked once a {THING:ItemDataDisk} is removed.</Description>
     </RecordThing>
     <RecordThing>
@@ -2510,7 +2508,7 @@ For more information about how to control temperatures, consult the {LINK:Temper
     <RecordThing>
       <Key>StructureWallHeater</Key>
       <Value>Wall Heater</Value>
-      <Description>The {LINK:Xigo;Xigo} wall heater is a simple device that can be installed on a wall or frame and connected to power. When switched on, it will start heating the surrounding environment. It consumes 1010W of power and can be controlled by logic chips to run when the temperature hits a certain level.</Description>
+      <Description>The wall heater is a simple device that can be installed on a wall or frame and connected to power. When switched on, it will start heating the surrounding environment. Adds 1000 joules of heat per tick to the contents of your pipe network. It will only operate when the pressure is above the armstrong limit (6.3kPa) and the temperature is below 2500 Kelvin.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallLight</Key>
@@ -5408,7 +5406,7 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     <RecordThing>
       <Key>StructureBatteryLarge</Key>
       <Value>Station Battery (Large)</Value>
-      <Description>Providing even better large-scale, reliable power storage than the {THING;StructureBattery}, the {LINK:Sinotai;Sinotai} 'Da Dianchi' large station battery is the heart of most {LINK:Stationeers;Stationeer} bases. 
+      <Description>Providing even better large-scale, reliable power storage than the {THING:StructureBattery}, the {LINK:Sinotai;Sinotai} 'Da Dianchi' large station battery is the heart of most {LINK:Stationeers;Stationeer} bases. 
 There are a variety of cautions to the design of electrical systems using batteries, and every experienced Stationeer has a story to tell, hence the Stationeer adage: 'Dianzi cooks, but it also frys.' 
 {HEADER:POWER OUTPUT}
 Able to store up to 9000001 watts of power, there are no practical limits to its throughput, hence it is wise to use {THING:ItemCableCoilHeavy}. Seasoned electrical engineers will also laugh in the face of those who fail to separate out their power generation networks using an {THING:StructureAreaPowerControl} and {THING:StructureTransformer}. </Description>
@@ -5547,8 +5545,7 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>StructureUprightWindTurbine</Key>
       <Value>Upright Wind Turbine</Value>
-      <Description>Norsec's basic wind turbine is an easily fabricated, rapidly deployed design that is strong enough to withstand the worst that environments can throw at it. 
-While the wind turbine is optimized to produce power even on low atmosphere worlds (up to 200W), it performs best in denser environments. Output varies with wind speed, and during storms, may increase dramatically (up to 800W), so be careful to design your power networks with that in mind.</Description>
+      <Description>The wind turbine is optimized to produce power even on low atmosphere worlds (up to 200W), it performs best in denser environments. Output varies with wind speed, and during storms, may increase dramatically (up to 1,000W), so be careful to design your power networks with that in mind.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CrateMkII</Key>
@@ -5639,8 +5636,9 @@ It can be automated using the {THING:StructureHarvie}. Note that unlike the {THI
     <RecordThing>
       <Key>StructureWindTurbine</Key>
       <Value>Wind Turbine</Value>
-      <Description>The Stationeers wind turbine was first designed by Norsec atmospheric engineers, looking to create a wind-driven power generation system that would operate even on exceedingly low atmosphere worlds. The ultra-light blades respond to exceedingly low atmospheric densities, while being strong enough to function even under huge strain in much more demanding environments.
-While the wind turbine is optimized to produce power (up to 500W) even on low atmosphere worlds, it performs best in denser environments. Output varies with wind speed and, during storms, may increase dramatically (up to 10,000W), so be careful to design your power networks with that in mind.</Description>
+      <Description>
+          The Wind Turbine is optimized to produce power (up to 500W) even on low atmosphere worlds, it performs best in denser environments. Output varies with wind speed and, during storms, may increase dramatically (up to 20,000W), so be careful to design your power networks with that in mind.
+      </Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitWindTurbine</Key>
@@ -6476,7 +6474,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>StructurePipeHeater</Key>
       <Value>Pipe Heater (Gas)</Value>
-      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network. The Pipe Heater will only operate when the pipe pressure is above the armstrong limit (6.3kPa) and the temperature is below 2500 Kelvin.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeOneWayValve</Key>
@@ -6512,7 +6510,7 @@ Note: the Cannifier will flash an error on its activation switch if you attempt 
     <RecordThing>
       <Key>StructureLiquidPipeHeater</Key>
       <Value>Pipe Heater (Liquid)</Value>
-      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network.</Description>
+      <Description>Adds 1000 joules of heat per tick to the contents of your pipe network. The Pipe Heater will only operate when the pipe pressure is above the armstrong limit (6.3kPa) and the temperature is below 2500 Kelvin.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTurboVolumePump</Key>
@@ -9499,6 +9497,11 @@ All the rack's pipes must be connected or the unit will show an error state, but
     <RecordThing>
       <Key>ItemKitRocketLargePayloadBay</Key>
       <Value>Kit (Payload Bay Large)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemDefibrillator</Key>
+      <Value>Defibrillator</Value>
+      <Description />
     </RecordThing>
   </Things>
   <Slots>
@@ -16415,8 +16418,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>The total Mass of the rocket in kilograms including fuel and cargo. The more massive the rocket the more fuel will be required to move to a new location in space.</Value>
     </Record>
     <Record>
-      <Key>LogicTypeContactSlotIdHash</Key>
-      <Value>The hash of the traders slot Id.</Value>
+      <Key>LogicTypeContactSlotIndex</Key>
+      <Value>The index of the slot in which the trader has spawned. This defines the class of the trader i.e. Utility, Small, Medium etc.</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
@@ -20295,7 +20298,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingInserDisk</Key>
-      <Value>Insert the {THING:ItemDataDisk} into the disk slot on the side of the {THING:StructureConsole} to enable the setup screen.</Value>
+      <Value>Use your {THING:ItemScrewdriver} on the setting screw on the side of the {THING:StructureConsole} to enable the setup screen.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingPressureSettingNote</Key>
@@ -20315,7 +20318,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingRemoveDisk</Key>
-      <Value>Once the sensor has been selected, if all selections have been made correctly, the switch should be solid green and no longer blinking. Remove the disk.</Value>
+      <Value>Once the sensor has been selected, if all selections have been made correctly, the switch should be solid green and no longer blinking. Use your {THING:ItemScrewdriver} to disable the setup screen.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockName</Key>
@@ -20688,7 +20691,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>ManufacturingTutorialModsInfo</Key>
-      <Value>Stationeers does not have a research mechanism, but it does have technology tiers that need to be unlocked by upgrading the printers to tier 2. Tier 2 printers have a slight increase in power use and slight decrease in speed. Theses values can be found in the Stationpedia {KEY:Help}. Only the 4 main printers have upgrades: {THING:StructureAutolathe}, {THING:StructureElectronicsPrinter}, {THING:StructureHydraulicPipeBender} and {THING:StructureToolManufactory}.</Value>
+      <Value>Stationeers does not have a research mechanism, but it does have technology tiers that need to be unlocked by upgrading the printers to tier 2. Tier 2 printers have a slight increase in power use and slight increase in speed. Theses values can be found in the Stationpedia {KEY:Help}. Only the 4 main printers have upgrades: {THING:StructureAutolathe}, {THING:StructureElectronicsPrinter}, {THING:StructureHydraulicPipeBender} and {THING:StructureToolManufactory}.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialModsNeedModToUpgrade</Key>
@@ -28472,7 +28475,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AirlockPressurize</Key>
-      <Value>PRESURIZE</Value>
+      <Value>PRESSURIZE</Value>
     </Record>
     <Record>
       <Key>AirlockDepressurize</Key>
