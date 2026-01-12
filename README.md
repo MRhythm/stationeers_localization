@@ -20,5 +20,5 @@ Overwrite the existing files when prompted.<br/>
 
 ### Maintenance:
 This repository synchronizes with game updates.<br/>
-Last updated: 2025/12/10<br/>
-Game version: 26682<br/>
+Last updated: 2026/01/13<br/>
+Game version: 0.2.6130.26793<br/>
