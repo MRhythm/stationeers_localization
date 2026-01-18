@@ -50,7 +50,7 @@
 		</StationpediaPage>
 		<StationpediaPage>
 			<Key>OrganicPage</Key>
-			<Title>Organiques</Title>
+			<Title>Plantes et aliments</Title>
 			<Text>{LIST_OF_ORGANICS}</Text>
 		</StationpediaPage>
 		<StationpediaPage>
@@ -664,11 +664,11 @@ L'{GAS:Water} se présente sous de nombreuses formes. Au moins une {THING:ItemWa
 		</StationpediaPage>
 		<StationpediaPage>
 			<Key>EVAPage</Key>
-			<Title>Combinaisons spatiales EVA</Title>
+			<Title>Combinaisons spatiales</Title>
 			<DisplayFilter>Guides</DisplayFilter>
 			<Text>Votre combinaison spatiale vous fournit une atmosphère portable, avec des réglages de pression et de climatisation (température) ajustables, ainsi qu'un système d'alerte qui vous avertit si l'atmosphère interne devient dangereuse. Elle fonctionne avec un casque approprié, ainsi qu’avec des cartouches de gaz et des filtres installés dans les différents emplacements de la combinaison. Ces éléments doivent être remplacés régulièrement et peuvent être rechargés (ou vidés) à l'aide d'un {THING:StructureSuitStorage}.
 
-Il existe plusieurs combinaisons, notamment la {THING:ItemEvaSuit} et la {THING:ItemHardSuit}, cette dernière offrant une meilleure résistance à la pression et à la température.
+Il existe plusieurs combinaisons, notamment la {THING:ItemEvaSuit} et la {THING:ItemHardSuit}, cette dernière offrant une résistance à la pression et à la température.
 
 Les différentes indications de votre combinaison apparaissent en bas à droite de l'écran. En appuyant sur la touche numérique appropriée (2 par exemple), un panneau s'affiche, montrant ses emplacements et ses réglages. Ceux-ci comprennent :
 - Climatisation : Activée / Désactivée
@@ -824,6 +824,9 @@ Ces commandes renvoient 1 (Vrai) ou 0 (Faux) :
 - &lt;color=yellow&gt;sdns&lt;/color&gt; &lt;color=#00aaff&gt;r?&lt;/color&gt; &lt;color=green&gt;d?&lt;/color&gt;/&lt;color=#00aaff&gt;r?&lt;/color&gt;/&lt;color=#22b2aa&gt;id&lt;/color&gt; : &lt;color=#00aaff&gt;registre&lt;/color&gt; = 1 si l'appareil n'est pas configuré, sinon 0.
 
 {HEADER:Sauts relatifs (décalage de X lignes)}
+&lt;b&gt;Attention :&lt;/b&gt; Comme l'exécution du programme passe naturellement à la ligne suivante (+1), un décalage de &lt;color=#22b2aa&gt;1&lt;/color&gt; désigne simplement la ligne suivante et ne "saute" donc aucune instruction !
+Pour réellement &lt;b&gt;ignorer la ligne suivante&lt;/b&gt;, il faut utiliser un décalage de &lt;color=#22b2aa&gt;2&lt;/color&gt;.
+
 - &lt;color=yellow&gt;jr&lt;/color&gt; décalage : Fait un saut relatif de décalage lignes (positif ou négatif).  
 - &lt;color=yellow&gt;brdse&lt;/color&gt; &lt;color=green&gt;d?&lt;/color&gt;/&lt;color=#00aaff&gt;r?&lt;/color&gt;/&lt;color=#22b2aa&gt;id&lt;/color&gt; décalage : Saut relatif si l'appareil est configuré.  
 - &lt;color=yellow&gt;brdns&lt;/color&gt; &lt;color=green&gt;d?&lt;/color&gt;/&lt;color=#00aaff&gt;r?&lt;/color&gt;/&lt;color=#22b2aa&gt;id&lt;/color&gt; décalage : Saut relatif si l'appareil n'est pas configuré. 
@@ -1271,15 +1274,26 @@ On utilise généralement :
 - &lt;color=yellow&gt;breqz&lt;/color&gt; (Branch Relative if Equal to Zero = Saut relatif si égal à 0).
 - &lt;color=yellow&gt;brnez&lt;/color&gt; (Branch Relative if Not Equal to Zero = Saut relatif si pas égal à 0).
 
-&lt;color=yellow&gt;breqz&lt;/color&gt; &lt;color=#00aaff&gt;r?&lt;/color&gt;/&lt;color=#22b2aa&gt;num&lt;/color&gt; &lt;color=#22b2aa&gt;offset&lt;/color&gt;
+&lt;color=yellow&gt;breqz&lt;/color&gt; &lt;color=#00aaff&gt;r?&lt;/color&gt;/&lt;color=#22b2aa&gt;num&lt;/color&gt; &lt;color=#22b2aa&gt;décalage&lt;/color&gt;
 - &lt;color=yellow&gt;breqz&lt;/color&gt; : L'instruction de saut relatif si égal à 0.
 - &lt;color=#00aaff&gt;r?&lt;/color&gt;/&lt;color=#22b2aa&gt;num&lt;/color&gt; : Le &lt;color=#00aaff&gt;registre&lt;/color&gt; ou la &lt;color=#22b2aa&gt;valeur&lt;/color&gt; à tester.
-- &lt;color=#22b2aa&gt;offset&lt;/color&gt; : Le nombre de lignes à sauter (positif pour descendre, négatif pour remonter).
+- &lt;color=#22b2aa&gt;décalage&lt;/color&gt; : Le nombre de lignes à sauter (positif pour descendre, négatif pour remonter).
 
-&lt;color=yellow&gt;brnez&lt;/color&gt; &lt;color=#00aaff&gt;r?&lt;/color&gt;/&lt;color=#22b2aa&gt;num&lt;/color&gt; &lt;color=#22b2aa&gt;offset&lt;/color&gt;
+&lt;color=yellow&gt;brnez&lt;/color&gt; &lt;color=#00aaff&gt;r?&lt;/color&gt;/&lt;color=#22b2aa&gt;num&lt;/color&gt; &lt;color=#22b2aa&gt;décalage&lt;/color&gt;
 - &lt;color=yellow&gt;brnez&lt;/color&gt; : L'instruction de saut relatif si différent de 0.
 - &lt;color=#00aaff&gt;r?&lt;/color&gt;/&lt;color=#22b2aa&gt;num&lt;/color&gt; : Le &lt;color=#00aaff&gt;registre&lt;/color&gt; ou la &lt;color=#22b2aa&gt;valeur&lt;/color&gt; à tester.
-- &lt;color=#22b2aa&gt;offset&lt;/color&gt; : Le nombre de lignes à sauter (positif pour descendre, négatif pour remonter).
+- &lt;color=#22b2aa&gt;décalage&lt;/color&gt; : Le nombre de lignes à sauter (positif pour descendre, négatif pour remonter).
+
+Le saut relatif déplace l'exécution du programme selon la formule : 
+&lt;color=#22b2aa&gt;Ligne de destination = Numéro de ligne actuelle + décalage&lt;/color&gt;
+
+&lt;b&gt;Attention :&lt;/b&gt; Comme l'exécution du programme passe naturellement à la ligne suivante (+1), un décalage de &lt;color=#22b2aa&gt;1&lt;/color&gt; désigne simplement la ligne suivante et ne "saute" donc aucune instruction !
+Pour réellement &lt;b&gt;ignorer la ligne suivante&lt;/b&gt;, il faut utiliser un décalage de &lt;color=#22b2aa&gt;2&lt;/color&gt;.
+- &lt;color=#22b2aa&gt;décalage = 2&lt;/color&gt; : Saute par-dessus la ligne suivante (Ligne actuelle + 2).
+- &lt;color=#22b2aa&gt;décalage = 1&lt;/color&gt; : Ne fait rien (Ligne actuelle + 1).
+- &lt;color=#22b2aa&gt;décalage = 0&lt;/color&gt; : Reste sur la ligne actuelle (crée une boucle infinie sur l'instruction).
+- &lt;color=#22b2aa&gt;décalage = -1&lt;/color&gt; : Remonte à la ligne précédente (Ligne actuelle - 1).
+- &lt;color=#22b2aa&gt;décalage = -2&lt;/color&gt; : Remonte de deux lignes (Ligne actuelle - 2).
 
 Exemple : Même exemple avec double saut relatif.
 &lt;color=#666666&gt;------------------------------------------------------------------------------------------------&lt;/color&gt;
@@ -1296,10 +1310,10 @@ Exemple : Même exemple avec double saut relatif.
 &lt;color=yellow&gt;l&lt;/color&gt; &lt;color=#00aaff&gt;r0&lt;/color&gt; CapteurGaz {LOGICTYPE:Pressure}
 &lt;color=yellow&gt;sgt&lt;/color&gt; &lt;color=#00aaff&gt;r1&lt;/color&gt; &lt;color=#00aaff&gt;r0&lt;/color&gt; 100 &lt;color=#666666&gt;# r1 = 1 si Danger, 0 si Nominal&lt;/color&gt;
 
-&lt;color=yellow&gt;brnez&lt;/color&gt; &lt;color=#00aaff&gt;r1&lt;/color&gt; 1 &lt;color=#666666&gt;# Si Danger (r1 != 0), sauter 1 ligne&lt;/color&gt;
+&lt;color=yellow&gt;brnez&lt;/color&gt; &lt;color=#00aaff&gt;r1&lt;/color&gt; 2 &lt;color=#666666&gt;# Si Danger (r1 != 0), saute la ligne suivante (Vert)&lt;/color&gt;
 &lt;color=yellow&gt;s&lt;/color&gt; LampeLED {LOGICTYPE:Color} 2 &lt;color=#666666&gt;# Vert (sauté si r1 != 0)&lt;/color&gt;
 
-&lt;color=yellow&gt;breqz&lt;/color&gt; &lt;color=#00aaff&gt;r1&lt;/color&gt; 1 &lt;color=#666666&gt;# Si Nominal (r1 = 0), sauter 1 ligne&lt;/color&gt;
+&lt;color=yellow&gt;breqz&lt;/color&gt; &lt;color=#00aaff&gt;r1&lt;/color&gt; 2 &lt;color=#666666&gt;# Si Nominal (r1 = 0), saute la ligne suivante (Rouge)&lt;/color&gt;
 &lt;color=yellow&gt;s&lt;/color&gt; LampeLED {LOGICTYPE:Color} 4 &lt;color=#666666&gt;# Rouge (sauté si r1 = 0)&lt;/color&gt;
 
 &lt;color=yellow&gt;yield&lt;/color&gt; &lt;color=#666666&gt;# Pause de 0,5 seconde indispensable pour une boucle&lt;/color&gt;
@@ -1307,7 +1321,7 @@ Exemple : Même exemple avec double saut relatif.
 &lt;color=#666666&gt;------------------------------------------------------------------------------------------------&lt;/color&gt;
 
 &lt;color=#999999&gt;{HEADER:Note technique :}
-L'{LINK:ODA;ODA} prévient : le saut relatif est sensible. Si vous insérez une nouvelle ligne de code entre le test et la cible, vous devrez manuellement modifier la valeur de l'&lt;color=#22b2aa&gt;offset&lt;/color&gt;.&lt;/color&gt;
+L'{LINK:ODA;ODA} prévient : le saut relatif est sensible. Si vous insérez une nouvelle ligne de code entre le test et la cible, vous devrez manuellement modifier la valeur de l'&lt;color=#22b2aa&gt;décalage&lt;/color&gt;.&lt;/color&gt;
 
 &lt;color=#999999&gt;{HEADER:1.4. Le Protocole d'Optimisation : L'instruction select}&lt;/color&gt;
 L'{LINK:ODA;ODA} met à disposition une commande avancée pour simplifier votre code : &lt;color=yellow&gt;select&lt;/color&gt;. Elle permet de choisir entre deux états en une seule ligne, remplaçant ainsi les sauts de lignes complexes.
@@ -1715,14 +1729,14 @@ Il est impératif de distinguer les logique par emplacements pour éviter des er
 - Pour une {THING:ItemBatteryCell} : Utilisez {LOGICSLOTTYPE:Charge} pour une valeur brute en Joules, ou {LOGICSLOTTYPE:ChargeRatio} pour obtenir un pourcentage de charge (de 1.0 à 0.0).
 &lt;/color&gt;
 
-{HEADER:4. Les Réactifs (lr)}
-Contrairement aux gaz atmosphériques, les composants solides (Fer, Charbon, Or, etc.) à l'intérieur d'appareils de transformation comme le {THING:StructureAdvancedFurnace} ne sont pas détectables via une lecture standard &lt;color=yellow&gt;l&lt;/color&gt;. L'{LINK:ODA;ODA} impose l'usage de l'instruction &lt;color=yellow&gt;lr&lt;/color&gt; (Load Reagent = lecture de réactif) pour analyser la quantité précise d'un mélange en fusion.
+{HEADER:4. Les {LINK:ReagentPage;réactifs} (lr)}
+Contrairement aux gaz atmosphériques, les composants solides (Fer, Charbon, Or, etc.) à l'intérieur d'appareils de transformation comme le {THING:StructureAdvancedFurnace} ne sont pas détectables via une lecture standard &lt;color=yellow&gt;l&lt;/color&gt;. L'{LINK:ODA;ODA} impose l'usage de l'instruction &lt;color=yellow&gt;lr&lt;/color&gt; (Load Reagent = lecture de {LINK:ReagentPage;réactif}) pour analyser la quantité précise d'un mélange en fusion.
 
 &lt;color=yellow&gt;lr&lt;/color&gt; &lt;color=#00aaff&gt;r?&lt;/color&gt; &lt;color=green&gt;d?&lt;/color&gt; &lt;color=#22b2aa&gt;reagentHash&lt;/color&gt; &lt;color=orange&gt;logicType&lt;/color&gt;
-- &lt;color=yellow&gt;lr&lt;/color&gt; : L'instruction de lecture de réactif.
+- &lt;color=yellow&gt;lr&lt;/color&gt; : L'instruction de lecture de {LINK:ReagentPage;réactif}.
 - &lt;color=#00aaff&gt;r?&lt;/color&gt; : Le registre de destination.
 - &lt;color=green&gt;d?&lt;/color&gt; : L'appareil source (ex: votre four).
-- &lt;color=orange&gt;reagentMode&lt;/color&gt; : Le mode de mesure du réactif :
+- &lt;color=orange&gt;reagentMode&lt;/color&gt; : Le mode de mesure du {LINK:ReagentPage;réactif} :
 0 ou Contents = (Contenu), 1 ou Required (Requis), 2 ou Recipe (Recette).
 - &lt;color=#22b2aa&gt;reagentHash&lt;/color&gt; : L'identifiant du minerai (ex: &lt;color=#22b2aa&gt;1724793494&lt;/color&gt; ou HASH("ItemCoalOre")).
 
@@ -1890,7 +1904,7 @@ Vous détenez désormais les clés pour transformer une coque de métal inerte e
 
 &lt;color=#999999&gt;{HEADER:SYNTHÈSE DES COMPÉTENCES}&lt;/color&gt;
 - Maîtrise Opérationnelle : Lecture/Écriture simple (&lt;color=yellow&gt;l&lt;/color&gt;, &lt;color=yellow&gt;s&lt;/color&gt;) des vis (&lt;color=green&gt;d0&lt;/color&gt; à &lt;color=green&gt;d5&lt;/color&gt;), logique binaire et lecture/écriture groupée (&lt;color=yellow&gt;sb&lt;/color&gt;, &lt;color=yellow&gt;lb&lt;/color&gt;).
-- Expertise Technique : Gestion des emplacements (&lt;color=yellow&gt;ls&lt;/color&gt;) et analyse des quantités de réactifs (&lt;color=yellow&gt;lr&lt;/color&gt;).
+- Expertise Technique : Gestion des emplacements (&lt;color=yellow&gt;ls&lt;/color&gt;) et analyse des quantités de {LINK:ReagentPage;réactifs} (&lt;color=yellow&gt;lr&lt;/color&gt;).
 - Architecture Avancée : Utilisation de la Pile (&lt;color=yellow&gt;push&lt;/color&gt;, &lt;color=yellow&gt;pop&lt;/color&gt;) et adressage indirect via le &lt;color=yellow&gt;sp&lt;/color&gt;.
 
 &lt;color=#999999&gt;{HEADER:DERNIÈRES DIRECTIVES DE SÉCURITÉ}
