@@ -930,25 +930,25 @@ Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit i
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicCrate</Key>
-			<Value>Caisse Nv1</Value>
+			<Value>Caisse</Value>
 			<Description>La modeste caisse est devenue un symbole de l'invention et de l'indépendance des {LINK:Stationeers;Stationeer}. Avec douze emplacements et des poignées à chaque extrémité pour faciliter le transport, elle est à la fois une fourniture standard et un équipement essentiel pour les cadets et commandants.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicCrateBuildingSupplies</Key>
-			<Value>Caisse Nv1 (Fournitures de construction)</Value>
+			<Value>Caisse (Fournitures de construction)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicCrateCableSupplies</Key>
-			<Value>Caisse Nv1 (Fournitures électriques)</Value>
+			<Value>Caisse (Fournitures électriques)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicCrateConveyorSupplies</Key>
-			<Value>Caisse Nv1 (Fournitures de convoyeur)</Value>
+			<Value>Caisse (Fournitures de convoyeur)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicCratePipeSupplies</Key>
-			<Value>Caisse Nv1 (Fournitures hydrauliques)</Value>
+			<Value>Caisse (Fournitures hydrauliques)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterAir</Key>
@@ -1200,7 +1200,7 @@ Si un oeuf a été fécondé et qu'il est maintenu entre 35 et 45°C, un {THING:
 		<RecordThing>
 			<Key>ItemEvaSuit</Key>
 			<Value>Combinaison spatiale EVA</Value>
-			<Description>La combinaison spatiale EVA est la protection de base dont les {LINK:Stationeers;Stationeers} ont besoin pour survivre dans l'environnement inhospitalier de l'espace. Pour plus d'informations sur les combinaisons EVA, consultez le guide de la {LINK:EVAPage;combinaison EVA}.</Description>
+			<Description>La combinaison spatiale EVA (Extra-Vehicular Activity) est la protection de base dont les {LINK:Stationeers;Stationeers} ont besoin pour survivre dans l'environnement inhospitalier de l'espace. Pour plus d'informations sur les combinaisons EVA, consultez le guide de la {LINK:EVAPage;combinaison EVA}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemFertilizedEgg</Key>
@@ -1289,32 +1289,80 @@ Faites attention à ne pas pressuriser au-delà de 10 MPa, sinon cela pourrait p
 		<RecordThing>
 			<Key>ItemGasFilterCarbonDioxide</Key>
 			<Value>Filtre de dioxyde de carbone (petit)</Value>
-			<Description>En raison de l'obsession de l'humanité pour l'exhalation du {GAS:CarbonDioxide}, tous les {LINK:Stationeers;Stationeers} reçoivent deux {SLOT:GasFilter} de {GAS:CarbonDioxide} {LINK:Sinotai;Sinotai} de base dans leur kit de déploiement standard. Ces filtres permettent le passage du {GAS:CarbonDioxide} dans la {THING:ItemGasCanisterEmpty} de déchets de la combinaison spatiale, mais ils sont également des composants essentiels du {THING:DynamicScrubber} et du {THING:StructureFiltration}. Les modèles {THING:ItemGasFilterCarbonDioxideM} et {THING:ItemGasFilterCarbonDioxideL} sont également disponibles.</Description>
-		</RecordThing>
-		<RecordThing>
-			<Key>ItemGasFilterPollutants</Key>
-			<Value>Filtre de polluants (petit)</Value>
-			<Description>Les filtres sont utilisés pour capturer divers gaz, tels que les émissions de déchets d'un {THING:StructureFurnace} ou d'un {THING:StructureArcFurnace}. Ajouter des filtres de {GAS:Pollutant} conçus par {LINK:Sinotai;Sinotai} à un {THING:ItemDynamicScrubber} vous permet d'isoler ce gaz, puis de l'ajouter à un réseau de tuyaux et d'utiliser ses excellentes propriétés de refroidissement dans un {THING:StructureWallCooler}. Essayez de ne pas inhaler.</Description>
-		</RecordThing>
-		<RecordThing>
-			<Key>ItemGasFilterNitrogen</Key>
-			<Value>Filtre d'azote (petit)</Value>
-			<Description>Les filtres sont utilisés pour capturer divers gaz, qui peuvent être éliminés ou utilisés ailleurs. L'{GAS:Nitrogen} est un sous-produit de la fonte de divers minerais, notamment la {THING:ItemNitrice}, qui peut être combiné avec l'{GAS:Oxygen} pour créer une atmosphère respirable - et considérablement moins inflammable.</Description>
+			<Description>En raison de l'obsession de l'humanité pour l'exhalation du {GAS:CarbonDioxide}, tous les {LINK:Stationeers;Stationeers} reçoivent deux {SLOT:GasFilter} de {GAS:CarbonDioxide} de base dans leur kit de déploiement. Essentiel pour la {THING:ItemGasCanisterEmpty} de déchets, le {THING:DynamicScrubber} et la {THING:StructureFiltration}.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterCarbonDioxide} : 2 heures
+- {THING:ItemGasFilterCarbonDioxideM} : 10 heures
+- {THING:ItemGasFilterCarbonDioxideL} : 40 heures
+- {THING:ItemGasFilterCarbonDioxideInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterOxygen</Key>
 			<Value>Filtre d'oxygène (petit)</Value>
-			<Description>{LINK:Sinotai;Sinotai} a dominé le marché de la conception de filtres. Leurs modèles protégés par des droits d'auteur sont simples à imprimer et très efficaces pour capturer divers gaz, qui peuvent être éliminés ou utilisés ailleurs. L'{GAS:Oxygen} est un sous-produit courant de la fonte de divers minerais, mais il doit être purifié de certaines impuretés telles que l'{GAS:Nitrogen} en utilisant ce filtre et divers appareils, tels que le {THING:ItemDynamicScrubber}.</Description>
+			<Description>{LINK:Sinotai;Sinotai} a dominé le marché de la conception de filtres. Leurs modèles sont très efficaces pour purifier l'{GAS:Oxygen} de ses impuretés. Essentiel pour le recyclage de l'air respirable via le {THING:ItemDynamicScrubber}.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterOxygen} : 2 heures
+- {THING:ItemGasFilterOxygenM} : 10 heures
+- {THING:ItemGasFilterOxygenL} : 40 heures
+- {THING:ItemGasFilterOxygenInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemGasFilterNitrogen</Key>
+			<Value>Filtre d'azote (petit)</Value>
+			<Description>Utilisé pour isoler l'{GAS:Nitrogen}, sous-produit de la fonte de la {THING:ItemNitrice}. L'azote est crucial pour créer des atmosphères moins inflammables et plus stables.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterNitrogen} : 2 heures
+- {THING:ItemGasFilterNitrogenM} : 10 heures
+- {THING:ItemGasFilterNitrogenL} : 40 heures
+- {THING:ItemGasFilterNitrogenInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemGasFilterPollutants</Key>
+			<Value>Filtre de polluants (petit)</Value>
+			<Description>Capture les émissions toxiques de fonderie. Indispensable pour purifier l'air ou isoler les polluants pour les utiliser dans un {THING:StructureWallCooler}.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterPollutants} : 2 heures
+- {THING:ItemGasFilterPollutantsM} : 10 heures
+- {THING:ItemGasFilterPollutantsL} : 40 heures
+- {THING:ItemGasFilterPollutantsInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterVolatiles</Key>
 			<Value>Filtre de volatils (petit)</Value>
-			<Description>Les filtres sont utilisés pour capturer divers gaz, qui peuvent être éliminés ou utilisés ailleurs. Les {GAS:Volatiles} sont créés en exposant la {THING:ItemVolatiles} à la chaleur. Le produit peut ensuite être collecté et combiné avec l'{GAS:Oxygen} pour créer du carburant, ou utilisé dans un {THING:StructureFurnace} pour fondre les minerais et créer des {LINK:IngotPage;alliages}.</Description>
+			<Description>Permet de collecter les {GAS:Volatiles} créés par la sublimation de la glace. Crucial pour la fabrication de carburant ou l'alimentation du {THING:StructureFurnace}.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterVolatiles} : 2 heures
+- {THING:ItemGasFilterVolatilesM} : 10 heures
+- {THING:ItemGasFilterVolatilesL} : 40 heures
+- {THING:ItemGasFilterVolatilesInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterWater</Key>
 			<Value>Filtre d'eau (petit)</Value>
-			<Description>Les filtres {LINK:Sinotai;Sinotai} sont utilisés pour capturer divers gaz, qui peuvent être éliminés ou utilisés ailleurs. L'{GAS:Water} peut être collectée en filtrant la {THING:ItemIce} fondue.</Description>
+			<Description>Capture l'{GAS:Water} lors du traitement des mélanges gazeux. Essentiel pour les systèmes d'hydratation et les cultures hydroponiques.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterWater} : 2 heures
+- {THING:ItemGasFilterWaterM} : 10 heures
+- {THING:ItemGasFilterWaterL} : 40 heures
+- {THING:ItemGasFilterWaterInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasTankStorage</Key>
@@ -1498,7 +1546,7 @@ Faites attention à ne pas pressuriser au-delà de 10 MPa, sinon cela pourrait p
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitSolarPanel</Key>
-			<Value>Kit (Panneau solaire)</Value>
+			<Value>Kit (Panneau solaire pivotant)</Value>
 			<Description>Ce kit produit un {THING:StructureSolarPanel} et plusieurs variantes.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -1553,7 +1601,7 @@ Faites attention à ne pas pressuriser au-delà de 10 MPa, sinon cela pourrait p
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMiningBelt</Key>
-			<Value>Ceinture de minage Nv1</Value>
+			<Value>Ceinture de minage</Value>
 			<Description>Initialement développée par {LINK:Recurso;Recurso Espaciais} pour l'exploitation minière d'astéroïdes, la ceinture de minage {LINK:Stationeers;Stationeers} peut contenir deux {LINK:ToolPage;outils} et huit piles de {LINK:OrePage;minerais}. En portant la ceinture de minage, le {LINK:OrePage;minerais} est automatiquement stocké lors de l'exploitation minière. Les éléments volatils et dépendant de la température restent stables dans l'unité contrôlée environnementalement.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -1710,7 +1758,7 @@ Elle réchauffe également son environnement.</Description>
 		<RecordThing>
 			<Key>ItemSpaceHelmet</Key>
 			<Value>Casque spatial EVA</Value>
-			<Description>Le casque spatial de base isole {LINK:Stationeers;Stationeers} de tout, du vide spatial aux étranges odeurs de cuisine. Fournissant une atmosphère respirable à pression contrôlée, il est équipé d'une lumière intégrée alimentée par votre {THING:ItemEvaSuit} {THING:ItemBatteryCell}.
+			<Description>Le casque spatial de base EVA (Extra-Vehicular Activity) isole les {LINK:Stationeers;Stationeers} de tout : du vide spatial aux étranges odeurs de cuisine. Fournissant une atmosphère respirable à pression contrôlée, il est équipé d'une lumière intégrée alimentée par votre {THING:ItemEvaSuit} {THING:ItemBatteryCell}.
 Il incorpore également une fonction de verrouillage/déverrouillage pour éviter une ouverture accidentelle, ainsi qu'une fonction de purge pour expulser et remplacer l'atmosphère interne. En cas de dommage, utilisez {THING:ItemDuctTape} pour le réparer, ou peignez-le de la couleur de votre choix à l'aide du {THING:AppliancePaintMixer}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -1719,11 +1767,12 @@ Il incorpore également une fonction de verrouillage/déverrouillage pour évite
 			<Description>Le propulseur dorsal avancé {LINK:CHAC;CHAC} n'est pas "techniquement" un réacteur à combustion dorsal, c'est un propulseur à gaz. Il peut être alimenté par n'importe quel gaz, tant que la pression interne de la {LINK:AtmosphericsPage;bouteille de gaz} est supérieure à la pression extérieure ambiante. Si la pression externe est plus élevée, le sac à dos spatial ne fonctionnera pas.
 Indispensable pour la construction, l'exploitation minière et les déplacements en général, il dispose de dix emplacements de stockage et permet aux {LINK:Stationeers;Stationeers} de voler à 5 m/s, par rapport au {THING:ItemJetpackBasic} limité à 3 m/s ou au {THING:ItemHardJetpack} limité à 8 m/s.
 Ajuster la valeur de poussée modifie votre taux d'accélération, tandis qu'activer le stabilisateur permet au sac à dos spatial de rester en vol stationnaire à une hauteur donnée.
+
 UTILISATION (touche par défaut) : 
-touche "J" pour activer ; 
-touche "espace" pour monter ; 
-touche "ctrl gauche" pour descendre ; 
-et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</Description>
+- &lt;color=yellow&gt;J&lt;/color&gt; pour activer ; 
+- &lt;color=yellow&gt;Espace&lt;/color&gt; pour monter ; 
+- &lt;color=yellow&gt;Ctrl gauche&lt;/color&gt; pour descendre ; 
+- &lt;color=yellow&gt;{KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right}&lt;/color&gt; pour se déplacer.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSprayCanBlack</Key>
@@ -1848,7 +1897,7 @@ Ce n'est peut-être pas élégant, mais la {THING:ItemOxite} et la {THING:ItemVo
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemToolBelt</Key>
-			<Value>Ceinture d'outils Nv1</Value>
+			<Value>Ceinture d'outils</Value>
 			<Description>Si un équipement incarne la vie {LINK:Stationeers;Stationeer} par excellence, c'est la modeste ceinture d'outils (Note de l'éditeur : une récente enquête {LINK:ODA;ODA} sur les équipements emblématiques des {LINK:Stationeers;Stationeers} a également très bien noté les ruines fumantes et toxiques d'un {THING:StructureFurnace} surpressurisé, gisant au milieu des restes calcinés de votre dernière base).
 Conçue pour respecter les normes de sécurité ODA les plus strictes, les huit emplacements de la ceinture d'outils ne contiennent qu'une chose : des outils, et {THING:ItemCableCoil}. Ne pas confondre avec la {THING:ItemMiningBelt}.</Description>
 		</RecordThing>
@@ -2199,7 +2248,7 @@ Les gaines sont des composants fondamentaux des réseaux de gaines, qui permette
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeWindow</Key>
-			<Value>Fenêtre composite</Value>
+			<Value>Mur composite (fenêtre)</Value>
 			<Description>Étanche à l'air et résistante aux températures extrêmes, la fenêtre composite existe en plusieurs charmantes variétés presque identiques - reflétant l'accent du concepteur sur la forme plutôt que sur la fonction.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -2209,14 +2258,14 @@ Les gaines sont des composants fondamentaux des réseaux de gaines, qui permette
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureConsole</Key>
-			<Value>Console (simple)</Value>
+			<Value>Console</Value>
 			<Description>Ce boîtier de contrôle {LINK:Norsec;Norsec} pilote des appareils tels que la {THING:StructureActiveVent}, le {THING:StructureGasSensor} et la {THING:StructureCompositeDoor}, en fonction du {LINK:LogicPage;circuit imprimé} inséré dans l'unité. Il dispose d'un port partagé pour les données et l'alimentation.
 Pour accéder au mode configuration, insérez un {LINK:LogicPage;circuit imprimé} dans une {THING:StructureConsole}, refermez avec une {THING:ItemGlassSheets}, puis utilisez un {THING:ItemScrewdriver} sur la vis.
 En mode configuration, vous pouvez visualiser tous les objets connectés à la {THING:StructureConsole} et accessibles aux données. Les appareils non associés au {LINK:LogicPage;circuit imprimé} installé apparaîtront en grisé et seront inactifs.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureConsoleDual</Key>
-			<Value>Console (double connexion)</Value>
+			<Value>Console (2 connexions)</Value>
 			<Description>Ce boîtier de contrôle {LINK:Norsec;Norsec} pilote des appareils tels que la {THING:StructureActiveVent}, le {THING:StructureGasSensor} et la {THING:StructureCompositeDoor}, en fonction du {LINK:LogicPage;circuit imprimé} inséré dans l'unité. Il dispose d'un port séparé pour les données et l'alimentation.
 Pour accéder au mode configuration, insérez un {LINK:LogicPage;circuit imprimé} dans une {THING:StructureConsoleDual}, refermez avec une {THING:ItemGlassSheets}, puis utilisez un {THING:ItemScrewdriver} sur la vis.
 En mode configuration, vous pouvez visualiser tous les objets connectés à la {THING:StructureConsoleDual} et accessibles aux données. Les appareils non associés au {LINK:LogicPage;circuit imprimé} installé apparaîtront en grisé et seront inactifs.</Description>
@@ -2281,7 +2330,7 @@ L’orientation du capteur influence les valeurs obtenues. Les systèmes de {LIN
   180° = le soleil est dessous du capteur.
 
 - Horizontal : mesure l’angle du soleil sur le plan horizontal (gauche/droite).  
-  L’angle peut être négatif (+90° ou -90° selon le côté).  
+  L’angle peut être négatif (-90° ou +90° selon le côté).  
   180° correspond à la direction de la prise de connexion du capteur.
 
 - Vertical : mesure l’angle du soleil sur l’axe vertical (haut/bas).  
@@ -2529,7 +2578,7 @@ Capable de gérer une pression maximale de plus de 20 000 kPa, il nécessite une
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSolarPanel</Key>
-			<Value>Panneau solaire</Value>
+			<Value>Panneau solaire pivotant</Value>
 			<Description>Les panneaux solaires standard de {LINK:Sinotai;Sinotai} sont utilisés pour générer de l'énergie à partir de la lumière du soleil. Ils peuvent être connectés à des systèmes {LINK:LogicPage;logique} pour suivre la lumière du soleil, mais leur rendement est réduit pendant les tempêtes et en cas de dégâts. Vous pouvez les réparer avec du bon vieux {THING:ItemDuctTape}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -3021,17 +3070,17 @@ Très sensible à la température, la glace d'oxyde commencera à fondre dès qu
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitEngineSmall</Key>
-			<Value>Kit (Fusée : moteur, petit)</Value>
+			<Value>Kit (Fusée : Moteur, petit)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitEngineMedium</Key>
-			<Value>Kit (Fusée : moteur, moyen)</Value>
+			<Value>Kit (Fusée : Moteur, moyen)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitEngineLarge</Key>
-			<Value>Kit (Fusée : moteur, grand)</Value>
+			<Value>Kit (Fusée : Moteur, grand)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -3313,7 +3362,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSolarPanelDual</Key>
-			<Value>Panneau solaire (double connexion)</Value>
+			<Value>Panneau solaire pivotant (2 connexions)</Value>
 			<Description>Les panneaux solaires doubles de {LINK:Sinotai;Sinotai} sont utilisés pour générer de l'électricité à partir de la lumière du soleil, avec des ports dédiés pour les données et l'alimentation. Ils peuvent être connectés à des systèmes {LINK:LogicPage;logiques} pour suivre la lumière du soleil, mais leur efficacité est réduite pendant les tempêtes et en cas de dégâts. Vous pouvez les réparer en utilisant du fidèle {THING:ItemDuctTape}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -3353,10 +3402,8 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		<RecordThing>
 			<Key>StructureRecycler</Key>
 			<Value>Recycleur</Value>
-			<Description>Un appareil pour collecter les ressources brutes tout en détruisant un objet. Produit des {THING:ItemReagentMix} contenant des paquets de réactifs. Passez-les à travers le {THING:StructureCentrifuge} pour récupérer les minerais d'origine. Les plantes et la matière organique passées à travers produiront de la matière organique, qui, lorsqu'elle est passée à travers le {THING:StructureCentrifuge}, produira de la {THING:ItemBiomass}.</Description>
-			<Description>Appareil permettant de récupérer les ressources brutes en détruisant un objet. Produit des {THING:ItemReagentMix}. Passez ces mélanges dans une {THING:StructureCentrifuge} pour récupérer les minerais d'origine.
-Les plantes et matières organiques transformées produiront de la biomasse, qui, une fois passée dans une {THING:StructureCentrifuge}, donnera des {THING:ItemBiomass}.
-  </Description>
+			<Description>Un appareil permettant de récupérer les ressources brutes en détruisant un objet. Il produit du {THING:ItemReagentMix} contenant des {LINK:ReagentPage;réactifs}, que l’on peut traiter dans la {THING:StructureCentrifuge} afin de récupérer les {LINK:OrePage;minerais} d’origine. 
+La {LINK:OrganicPage;nourriture} et autres {LINK:OrganicPage;éléments organiques} recyclés génèrent de la matière organique, qui, une fois passée dans la {THING:StructureCentrifuge}, produira de la {THING:ItemBiomass}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitRecycler</Key>
@@ -3515,16 +3562,17 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPotatoBaked</Key>
-			<Value>Pomme de terre au four</Value>
+			<Value>Pomme de terre cuite</Value>
+			<Description>Un aliment cuit riche en nutriments, qui peut être mis en conserve.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemTomatoSoup</Key>
-			<Value>Conserve de soupe de tomate</Value>
+			<Value>Soupe de tomate en conserve</Value>
 			<Description>Préparée à l'aide de {THING:ItemCookedTomato} et d'une {THING:ItemEmptyCan} dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSoyOil</Key>
-			<Value>Huile de Soja</Value>
+			<Value>Huile de soja</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemFries</Key>
@@ -3548,19 +3596,19 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableJunction5</Key>
-			<Value>Câble 5 kW  (5 jonctions)</Value>
+			<Value>Câble 5 kW (5 jonctions)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableCorner4</Key>
-			<Value>Câble 5 kW  (4 jonctions en coin)</Value>
+			<Value>Câble 5 kW (4 jonctions en coin)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableCorner4Burnt</Key>
-			<Value>Câble 5 kW  brûlé (4 jonctions en coin)</Value>
+			<Value>Câble 5 kW brûlé (4 jonctions en coin)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableJunction5Burnt</Key>
-			<Value>Câble 5 kW  brûlé (5 jonctions)</Value>
+			<Value>Câble 5 kW brûlé (5 jonctions)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableJunctionH5</Key>
@@ -3585,59 +3633,72 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		<RecordThing>
 			<Key>StructureCompositeCladdingAngled</Key>
 			<Value>Revêtement composite (incliné)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingAngledCorner</Key>
 			<Value>Revêtement composite (coin incliné)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingAngledCornerLong</Key>
 			<Value>Revêtement composite (long coin incliné)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingAngledLong</Key>
 			<Value>Revêtement composite (long incliné)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingCylindrical</Key>
 			<Value>Revêtement composite (cylindre)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingCylindricalPanel</Key>
 			<Value>Revêtement composite (panneau cylindrique)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingSphericalCorner</Key>
 			<Value>Revêtement composite (coin sphérique)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingSphericalCap</Key>
 			<Value>Revêtement composite (calotte sphérique)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingSpherical</Key>
 			<Value>Revêtement composite (sphérique)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingRoundedCorner</Key>
 			<Value>Revêtement composite (coin arrondi)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingRounded</Key>
 			<Value>Revêtement composite (arrondi)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingPanel</Key>
 			<Value>Revêtement composite (panneau)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitCompositeCladding</Key>
-			<Value>Kit (Revêtement)</Value>
+			<Value>Kit (Revêtement composite)</Value>
 			<Description>Un kit peu coûteux qui vous permet de placer une variété d'éléments structurels simples qui ne sont pas étanches à l'air. Ils peuvent être utilisés pour la décoration ou pour créer des chemins, des rampes, des ponts, etc. Certains des plus grands types de revêtement nécessitent deux kits à placer.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeCladdingAngledCornerLongR</Key>
 			<Value>Revêtement composite (coin long incliné en miroir)</Value>
+			<Description>Un panneau utilisé pour recouvrir les structures internes ou créer des cloisons légères non pressurisées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureDockPortSide</Key>
@@ -3680,7 +3741,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeWindowIron</Key>
-			<Value>Fenêtre (cadre en fer)</Value>
+			<Value>Mur en fer (fenêtre)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>CompositeFloorGrating1</Key>
@@ -4352,7 +4413,10 @@ Si l'{THING:StructureLogicMirror} n'est pas alimentée, elle ne renverra aucune 
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardHashDisplay</Key>
-			<Value>Circuit imprimé (Afficheur du Hash)</Value>
+			<Value>Circuit imprimé (Afficheur de Hash)</Value>
+			<Description>Lorsqu'il est inséré dans une {THING:StructureConsole}, ce circuit permet d'afficher l'icône graphique correspondant à une valeur de "Hash" spécifique.
+
+C'est un module purement informatif qui facilite l'identification visuelle immédiate d'un contenu (type de gaz, minerai ou objet) sur une {THING:StructureConsole}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureHydroponicsStation</Key>
@@ -4365,7 +4429,10 @@ Si l'{THING:StructureLogicMirror} n'est pas alimentée, elle ne renverra aucune 
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureDiodeSlide</Key>
-			<Value>Bargraphe à LED</Value>
+			<Value>Bargraphe LED</Value>
+			<Description>Un indicateur visuel linéaire composé d'une rangée de segments lumineux. Il permet de représenter graphiquement une valeur numérique comprise entre 0 et 1 provenant du {LINK:LogicUnitPage;réseau logique}.
+
+C'est l'outil de monitoring idéal pour surveiller la progression d'un remplissage, le niveau de charge d'une batterie ou la pression d'un réservoir d'un simple coup d'œil, sans nécessiter la lecture d'un afficheur numérique précis.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterSmart</Key>
@@ -4379,12 +4446,15 @@ Faites attention à ne pas pressuriser au-delà de 20 MPa, sinon cela pourrait p
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitCrate</Key>
-			<Value>Kit (Caisse Nv1)</Value>
+			<Value>Kit (Caisse)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardGraphDisplay</Key>
 			<Value>Circuit imprimé (Afficheur graphique)</Value>
+			<Description>Lorsqu'il est inséré dans une {THING:StructureConsole}, ce circuit permet de visualiser les variations d'une valeur logique sous la forme d'un graphique temporel.
+
+Il est particulièrement utile pour surveiller les tendances, comme la stabilisation d'une pression atmosphérique ou les cycles de décharge d'une batterie. Ce module transforme votre console en un véritable outil de diagnostic dynamique, facilitant l'observation des fluctuations sur une période donnée.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitMotherShipCore</Key>
@@ -4440,15 +4510,21 @@ Recipe = Recette</Description>
 		<RecordThing>
 			<Key>ItemHardSuit</Key>
 			<Value>Combinaison spatiale renforcée</Value>
+			<Description>La combinaison spatiale renforcée (Hardsuit) est une armure pressurisée de pointe conçue pour les conditions extrêmes. Elle offre une isolation thermique et une résistance structurelle bien supérieures à la {THING:ItemEvaSuit}.
+
+Dotée de systèmes de survie plus performants, elle est indispensable pour explorer des environnements hostiles tels que Vénus ou Vulcain.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemHardsuitHelmet</Key>
 			<Value>Casque spatial renforcé</Value>
 			<Description>Le casque spatial renforcé est similaire au {THING:ItemSpaceHelmet}, mais il peut supporter des températures et des pressions plus élevées. Il est parfait pour résister aux environnements hostiles tels que Vénus et Vulcain.</Description>
-		</RecordThing>
+					</RecordThing>
 		<RecordThing>
 			<Key>ItemWearLamp</Key>
 			<Value>Lampe frontale</Value>
+			<Description>La lampe frontale est un accessoire d'éclairage portatif qui se fixe directement sur l'emplacement de tête de votre personnage. Elle offre une source de lumière directionnelle puissante, idéale pour les travaux ou la maintenance dans des zones non éclairées de la base.
+
+Elle fonctionne avec une {THING:ItemBatteryCell} (ou supérieure) et constitue une excellente alternative au casque lorsque vous travaillez dans une atmosphère respirable. Elle permet de garder les mains libres pour manipuler vos outils tout en éclairant votre champ de vision.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemDebugHeadlamp</Key>
@@ -4525,22 +4601,30 @@ En mode configuration, vous pouvez visualiser tous les objets connectés à la {
 Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit imprimé} pour le réinitialiser.
 </Description>
 		</RecordThing>
-		<RecordThing>
+<RecordThing>
 			<Key>ItemKitPressurePlate</Key>
 			<Value>Kit (Plaque de déclenchement)</Value>
-			<Description/>
+			<Description>Ce kit permet de fabriquer différentes tailles de plaques de pression. Ces dispositifs logiques détectent la présence d'un poids (joueur ou objet) à leur surface pour envoyer un signal via le {LINK:LogicUnitPage;réseau logique}.
+
+Elles sont idéales pour automatiser l'ouverture des portes, activer l'éclairage à votre passage ou créer des systèmes de pesée pour vos cargaisons.</Description>
 		</RecordThing>
+		
 		<RecordThing>
 			<Key>StructurePressurePlateLarge</Key>
 			<Value>Plaque de déclenchement (grande)</Value>
+			<Description>La variante de grande taille, couvrant une zone étendue. Elle est parfaite pour détecter le passage de véhicules ou pour s'assurer qu'un signal est maintenu même si le sujet se déplace sur une large surface.</Description>
 		</RecordThing>
+		
 		<RecordThing>
 			<Key>StructurePressurePlateMedium</Key>
 			<Value>Plaque de déclenchement (moyenne)</Value>
+			<Description>Une plaque de taille intermédiaire offrant un excellent compromis entre encombrement et zone de détection.</Description>
 		</RecordThing>
+		
 		<RecordThing>
 			<Key>StructurePressurePlateSmall</Key>
 			<Value>Plaque de déclenchement (petite)</Value>
+			<Description>La version la plus compacte. Elle nécessite une activation précise et est idéale pour les espaces restreints ou comme interrupteur au sol discret dans votre base.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicCanister</Key>
@@ -4603,50 +4687,158 @@ Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit i
 		<RecordThing>
 			<Key>ItemGasFilterCarbonDioxideL</Key>
 			<Value>Filtre de dioxyde de carbone (grand)</Value>
+			<Description>Unité de filtration haute capacité conçue pour les systèmes de survie à haut débit. Offre une autonomie étendue pour la capture du {GAS:CarbonDioxide}.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterCarbonDioxide} : 2 heures
+- {THING:ItemGasFilterCarbonDioxideM} : 10 heures
+- {THING:ItemGasFilterCarbonDioxideL} : 40 heures
+- {THING:ItemGasFilterCarbonDioxideInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterCarbonDioxideM</Key>
 			<Value>Filtre de dioxyde de carbone (moyen)</Value>
+			<Description>Solution de filtration intermédiaire pour le {GAS:CarbonDioxide}. Équilibre optimal entre encombrement et longévité opérationnelle.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterCarbonDioxide} : 2 heures
+- {THING:ItemGasFilterCarbonDioxideM} : 10 heures
+- {THING:ItemGasFilterCarbonDioxideL} : 40 heures
+- {THING:ItemGasFilterCarbonDioxideInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrogenL</Key>
 			<Value>Filtre d'azote (grand)</Value>
+			<Description>Cartouche grand format optimisée pour le traitement industriel de l'{GAS:Nitrogen}. Recommandé pour la stabilisation des grands volumes atmosphériques.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterNitrogen} : 2 heures
+- {THING:ItemGasFilterNitrogenM} : 10 heures
+- {THING:ItemGasFilterNitrogenL} : 40 heures
+- {THING:ItemGasFilterNitrogenInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrogenM</Key>
 			<Value>Filtre d'azote (moyen)</Value>
+			<Description>Filtre de capacité moyenne destiné à l'isolation de l'{GAS:Nitrogen}. Adapté aux unités de filtration secondaires.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterNitrogen} : 2 heures
+- {THING:ItemGasFilterNitrogenM} : 10 heures
+- {THING:ItemGasFilterNitrogenL} : 40 heures
+- {THING:ItemGasFilterNitrogenInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterOxygenL</Key>
 			<Value>Filtre d'oxygène (grand)</Value>
+			<Description>Composant critique de grade industriel pour la purification massive d'{GAS:Oxygen}. Indispensable pour les colonies à forte densité de population.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterOxygen} : 2 heures
+- {THING:ItemGasFilterOxygenM} : 10 heures
+- {THING:ItemGasFilterOxygenL} : 40 heures
+- {THING:ItemGasFilterOxygenInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterOxygenM</Key>
 			<Value>Filtre d'oxygène (moyen)</Value>
+			<Description>Module de filtration moyen pour l'{GAS:Oxygen}. Assure une autonomie fiable pour les systèmes de recyclage d'air de secours.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterOxygen} : 2 heures
+- {THING:ItemGasFilterOxygenM} : 10 heures
+- {THING:ItemGasFilterOxygenL} : 40 heures
+- {THING:ItemGasFilterOxygenInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterPollutantsL</Key>
 			<Value>Filtre de polluants (grand)</Value>
+			<Description>Filtre de protection environnementale grand format. Conçu pour supporter les charges toxiques importantes des fonderies automatisées.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterPollutants} : 2 heures
+- {THING:ItemGasFilterPollutantsM} : 10 heures
+- {THING:ItemGasFilterPollutantsL} : 40 heures
+- {THING:ItemGasFilterPollutantsInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterPollutantsM</Key>
 			<Value>Filtre de polluants (moyen)</Value>
+			<Description>Capacité moyenne pour la gestion des gaz polluants. Idéal pour les petits ateliers de raffinage.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterPollutants} : 2 heures
+- {THING:ItemGasFilterPollutantsM} : 10 heures
+- {THING:ItemGasFilterPollutantsL} : 40 heures
+- {THING:ItemGasFilterPollutantsInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterVolatilesL</Key>
 			<Value>Filtre de volatils (grand)</Value>
+			<Description>Unité de capture massive pour les {GAS:Volatiles}. Maximise l'efficacité des stations de remplissage de carburant.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterVolatiles} : 2 heures
+- {THING:ItemGasFilterVolatilesM} : 10 heures
+- {THING:ItemGasFilterVolatilesL} : 40 heures
+- {THING:ItemGasFilterVolatilesInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterVolatilesM</Key>
 			<Value>Filtre de volatils (moyen)</Value>
+			<Description>Filtre de taille moyenne pour le traitement des {GAS:Volatiles}. Recommandé pour la gestion des réservoirs pressurisés de petite taille.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterVolatiles} : 2 heures
+- {THING:ItemGasFilterVolatilesM} : 10 heures
+- {THING:ItemGasFilterVolatilesL} : 40 heures
+- {THING:ItemGasFilterVolatilesInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterWaterL</Key>
 			<Value>Filtre d'eau (grand)</Value>
+			<Description>Extracteur d'humidité industriel haute performance. Garantit une récupération d'{GAS:Water} maximale sur les flux de gaz traités.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterWater} : 2 heures
+- {THING:ItemGasFilterWaterM} : 10 heures
+- {THING:ItemGasFilterWaterL} : 40 heures
+- {THING:ItemGasFilterWaterInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterWaterM</Key>
 			<Value>Filtre d'eau (moyen)</Value>
+			<Description>Module de récupération d'eau de taille moyenne. Idéal pour stabiliser l'hygrométrie des serres de culture.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterWater} : 2 heures
+- {THING:ItemGasFilterWaterM} : 10 heures
+- {THING:ItemGasFilterWaterL} : 40 heures
+- {THING:ItemGasFilterWaterInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMushroom</Key>
@@ -4677,11 +4869,12 @@ Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit i
 			<Value>Propulseur dorsal renforcé</Value>
 			<Description>Le propulseur dorsal {LINK:Norsec;Norsec} n'est pas du tout "techniquement" un réacteur à combustion dorsal, c'est un propulseur à gaz. Il peut être alimenté par n'importe quel gaz, tant que la pression interne de la {LINK:AtmosphericsPage;bouteille de gaz} est supérieure à la pression extérieure ambiante. Si la pression externe est plus élevée, le propulseur dorsal ne fonctionnera pas. Ajuster la valeur de poussée modifie votre taux d'accélération, tandis qu'activer le stabilisateur permet au propulseur dorsal de rester en vol stationnaire à une hauteur donnée.
 Le propulseur dorsal renforcé permet de voler à 8 m/s, par rapport au {THING:ItemJetpackBasic} limité à 3 m/s ou au {THING:ItemSpacepack} limité à 5 m/s. Indispensable pour la construction, l'exploitation minière et les déplacements en général, il dispose de quatorze emplacements de stockage.
+
 UTILISATION (touche par défaut) : 
-touche "J" pour activer ; 
-touche "espace" pour monter ; 
-touche "ctrl gauche" pour descendre ; 
-et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</Description>
+- &lt;color=yellow&gt;J&lt;/color&gt; pour activer ; 
+- &lt;color=yellow&gt;Espace&lt;/color&gt; pour monter ; 
+- &lt;color=yellow&gt;Ctrl gauche&lt;/color&gt; pour descendre ; 
+- &lt;color=yellow&gt;{KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right}&lt;/color&gt; pour se déplacer.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemDebugJetpack</Key>
@@ -4704,7 +4897,7 @@ et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitSpeaker</Key>
-			<Value>Kit (Haut Parleur)</Value>
+			<Value>Kit (Haut-parleur)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -4744,7 +4937,7 @@ Gris = {THING:ItemCoalOre}
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCircuitHousing</Key>
-			<Value>Support IC10 (double connexion)</Value>
+			<Value>Support IC10 (2 connexions)</Value>
 			<Description>Un support pour un {THING:ItemIntegratedCircuit10} pour exécuter un code logique complexe.
 L’indicateur en haut à droite du {THING:StructureCircuitHousingCompact} affiche l’activité de la pile :
 - il clignote en &lt;color=yellow&gt;jaune&lt;/color&gt; si la pile est modifiée (ex: &lt;color=yellow&gt;push&lt;/color&gt; ou &lt;color=yellow&gt;pop&lt;/color&gt;).
@@ -4781,14 +4974,41 @@ L’indicateur en haut à droite du {THING:StructureCircuitHousingCompact} affic
 		<RecordThing>
 			<Key>ItemGasFilterNitrousOxide</Key>
 			<Value>Filtre de protoxyde d'azote (petit)</Value>
+			<Description>Utilisé pour isoler le protoxyde d'azote (N2O). Ce gaz est un composant essentiel pour la création de carburants haute performance et certains mélanges atmosphériques spécialisés.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterNitrousOxide} : 2 heures
+- {THING:ItemGasFilterNitrousOxideM} : 10 heures
+- {THING:ItemGasFilterNitrousOxideL} : 40 heures
+- {THING:ItemGasFilterNitrousOxideInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrousOxideL</Key>
 			<Value>Filtre de protoxyde d'azote (grand)</Value>
+			<Description>Unité de filtration haute capacité pour le protoxyde d'azote (N2O). Conçue pour supporter les flux importants des installations de production de carburant avancées.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterNitrousOxide} : 2 heures
+- {THING:ItemGasFilterNitrousOxideM} : 10 heures
+- {THING:ItemGasFilterNitrousOxideL} : 40 heures
+- {THING:ItemGasFilterNitrousOxideInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrousOxideM</Key>
 			<Value>Filtre de protoxyde d'azote (moyen)</Value>
+			<Description>Filtre de capacité intermédiaire pour le protoxyde d'azote (N2O). Offre un excellent compromis pour les systèmes de propulsion de taille moyenne.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterNitrousOxide} : 2 heures
+- {THING:ItemGasFilterNitrousOxideM} : 10 heures
+- {THING:ItemGasFilterNitrousOxideL} : 40 heures
+- {THING:ItemGasFilterNitrousOxideInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasCanisterNitrousOxide</Key>
@@ -4867,14 +5087,17 @@ Lorsqu'elle est connectée à un {THING:StructureComputer} contenant une {THING:
 			<Key>DynamicPortal</Key>
 			<Value>Portail dynamique</Value>
 		</RecordThing>
-		<RecordThing>
+<RecordThing>
 			<Key>ItemArcWelder</Key>
 			<Value>Soudeur à arc</Value>
+			<Description>Le soudeur à arc est une alternative avancée au {THING:ItemWeldingTorch} conventionnel. Contrairement au modèle à combustion, il utilise une {THING:ItemBatteryCell} pour générer un arc électrique à haute intensité capable de fusionner les structures.
+
+L'absence de combustion élimine le besoin de gérer des mélanges de carburant. Cependant, sa consommation énergétique nécessite une gestion rigoureuse des batteries de rechange.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMiningDrillHeavy</Key>
 			<Value>Foreuse Nv3</Value>
-			<Description>Parfois, les expéditions minières nécessitent quelque chose de plus gros pour rapporter les marchandises. Cette version agrandie de la conception "Taupe" de {LINK:Recurso;Recurso} peut littéralement déplacer des montagnes. La foreuse Nv3 enlèvera plus de terre et extraira les {LINK:OrePage;minerais} plus rapidement que la foreuse minière standard. La foreuse de niveau 3 est également résistante à la température et à la pression. Ainsi, peu importe la planète ou les conditions météorologiques extrêmes présentes, la foreuse nv3 de Recurso accomplira la tâche.</Description>
+			<Description>Parfois, les expéditions minières nécessitent quelque chose de plus gros pour rapporter les marchandises. Cette version agrandie de la conception "Taupe" de {LINK:Recurso;Recurso} peut littéralement déplacer des montagnes. La foreuse Nv3 enlèvera plus de terre et extraira les {LINK:OrePage;minerais} plus rapidement que la foreuse minière standard. La foreuse de niveau 3 est également résistante à la température et à la pression. Ainsi, peu importe la planète ou les conditions météorologiques extrêmes présentes, la foreuse Nv3 de Recurso accomplira la tâche.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemLiquidVacuum</Key>
@@ -4887,7 +5110,7 @@ Lorsqu'elle est connectée à un {THING:StructureComputer} contenant une {THING:
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCreditCard</Key>
-			<Value>Carte de crédit</Value>
+			<Value>Carte bancaire</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureRover</Key>
@@ -4949,7 +5172,7 @@ Lorsqu'elle est connectée à un {THING:StructureComputer} contenant une {THING:
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSolarPanelFused</Key>
-			<Value>Panneau solaire</Value>
+			<Value>Panneau solaire pivotant</Value>
 			<Description>Utilisé pour générer de l'électricité à partir de la lumière du soleil. L'efficacité est réduite pendant les tempêtes et en cas de dégâts. Vous pouvez le réparer en utilisant du fidèle {THING:ItemDuctTape}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -5106,11 +5329,12 @@ Notez que les transformateurs agissent également comme des isolateurs de donné
 			<Description>Le propulseur dorsal basique {LINK:CHAC;CHAC} n'est pas "techniquement" un réacteur à combustion dorsal, c'est un propulseur à gaz. Il peut être alimenté par n'importe quel gaz, tant que la pression interne de la {LINK:AtmosphericsPage;bouteille de gaz} est supérieure à la pression extérieure ambiante. Si la pression externe est plus élevée, le propulseur dorsal ne fonctionnera pas.
 Indispensable pour la construction, l'exploitation minière et les déplacements en général, il dispose de dix emplacements de stockage et permet aux {LINK:Stationeers;Stationeers} de voler à 3 m/s, comparé au {THING:ItemSpacepack} limité à 5 m/s ou au {THING:ItemHardJetpack} limité à 8 m/s. Cependant c'est celui qui consomme le moins de gaz. 
 Ajuster la valeur de poussée modifie votre taux d'accélération, tandis qu'activer le stabilisateur permet au propulseur dorsal de rester en vol stationnaire à une hauteur donnée.
+
 UTILISATION (touche par défaut) : 
-touche "J" pour activer ; 
-touche "espace" pour monter ; 
-touche "ctrl gauche" pour descendre ; 
-et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</Description>
+- &lt;color=yellow&gt;J&lt;/color&gt; pour activer ; 
+- &lt;color=yellow&gt;Espace&lt;/color&gt; pour monter ; 
+- &lt;color=yellow&gt;Ctrl gauche&lt;/color&gt; pour descendre ; 
+- &lt;color=yellow&gt;{KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right}&lt;/color&gt; pour se déplacer.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureRTGSurvival</Key>
@@ -5119,50 +5343,73 @@ et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</
 		<RecordThing>
 			<Key>ItemEmergencyHelmet</Key>
 			<Value>Casque de secours</Value>
+			<Description>Un casque rudimentaire fourni par le protocole de récupération d'urgence. Bien que fonctionnel, son isolation est médiocre et il ne doit être utilisé que le temps de retrouver un équipement standard.</Description>
 		</RecordThing>
+
 		<RecordThing>
 			<Key>ItemEmergencyArcWelder</Key>
-			<Value>Chalumeau de secours</Value>
+			<Value>Soudeur à arc de secours</Value>
+			<Description>Un dispositif de soudure bas de gamme issu des stocks de surplus. Sa fiabilité à long terme est douteuse, mais il suffira pour vos premières réparations critiques après un déploiement d'urgence.</Description>
 		</RecordThing>
+
 		<RecordThing>
 			<Key>ItemEmergencyDrill</Key>
 			<Value>Perceuse de secours</Value>
+			<Description>Une perceuse d'entrée de gamme, légère et peu puissante. Utilisée pour le montage de base des structures de survie immédiate.</Description>
 		</RecordThing>
+
 		<RecordThing>
 			<Key>ItemEmergencyAngleGrinder</Key>
 			<Value>Meuleuse de secours</Value>
+			<Description>Outil de découpe minimaliste. Sa vitesse de rotation instable rappelle constamment à l'utilisateur qu'il s'agit d'un matériel de dernier recours.</Description>
 		</RecordThing>
+
 		<RecordThing>
 			<Key>ItemEmergencyCrowbar</Key>
 			<Value>Pied de biche de secours</Value>
+			<Description>Un levier en acier de basse qualité. Lourd et mal équilibré, mais essentiel pour débloquer les accès forcés lors d'une réinitialisation de mission.</Description>
 		</RecordThing>
+
 		<RecordThing>
 			<Key>ItemEmergencyPickaxe</Key>
 			<Value>Pioche de secours</Value>
+			<Description>Une simple pioche manuelle pour l'extraction de minerai de fortune. Demande un effort physique considérable comparé aux modèles motorisés.</Description>
 		</RecordThing>
+
 		<RecordThing>
 			<Key>ItemEmergencyWrench</Key>
 			<Value>Clé à molette de secours</Value>
+			<Description>Une clé à molette basique sujette au jeu mécanique. Remplissez vos objectifs de construction rapidement pour passer à un outillage professionnel.</Description>
 		</RecordThing>
+
 		<RecordThing>
 			<Key>ItemEmergencyWireCutters</Key>
 			<Value>Pince coupante de secours</Value>
+			<Description>Outil de coupe rudimentaire. Convient pour le câblage de fortune et les réparations électriques de base.</Description>
 		</RecordThing>
+
 		<RecordThing>
 			<Key>ItemEmergencyScrewdriver</Key>
 			<Value>Tournevis de secours</Value>
+			<Description>Un tournevis standard sans options de confort. Indispensable pour ajuster les paramètres de vos premières unités logiques après une perte d'équipement.</Description>
 		</RecordThing>
+
 		<RecordThing>
 			<Key>ItemEmergencyEvaSuit</Key>
 			<Value>Combinaison spatiale de secours</Value>
+			<Description>Une combinaison de survie à usage limité. Son autonomie thermique et sa capacité de pressurisation sont minimales ; la prudence est de mise tant qu'un modèle standard n'est pas acquis.</Description>
 		</RecordThing>
+
 		<RecordThing>
 			<Key>ItemEmergencySpaceHelmet</Key>
 			<Value>Casque spatial de secours</Value>
+			<Description>Un casque rudimentaire fourni par le protocole de récupération d'urgence. Bien que fonctionnel, son isolation est médiocre et il ne doit être utilisé que le temps de retrouver un équipement standard.</Description>
 		</RecordThing>
+
 		<RecordThing>
 			<Key>ItemEmergencyToolBelt</Key>
 			<Value>Ceinture d'outils de secours</Value>
+			<Description>Une ceinture simplifiée pour transporter votre outillage de survie.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemElectronicParts</Key>
@@ -5190,75 +5437,75 @@ et touches {KEY:Forward}{KEY:Backward}{KEY:Left}{KEY:Right} pour se déplacer.</
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThinMountLandscapeLarge</Key>
-			<Value>Cadre photo (Paysage, cadre fin, bordure blanche, grande taille)</Value>
+			<Value>Cadre photo (Paysage, cadre fin, bordure blanche, grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThinMountLandscapeSmall</Key>
-			<Value>Cadre photo (Paysage, cadre fin, bordure blanche, petite taille)</Value>
+			<Value>Cadre photo (Paysage, cadre fin, bordure blanche, petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThinMountPortraitLarge</Key>
-			<Value>Cadre photo (Portrait, cadre fin, bordure blanche, grande taille)</Value>
+			<Value>Cadre photo (Portrait, cadre fin, bordure blanche, grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThinMountPortraitSmall</Key>
-			<Value>Cadre photo (Portrait, cadre fin, bordure blanche, petite taille)</Value>
+			<Value>Cadre photo (Portrait, cadre fin, bordure blanche, petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThinPortraitSmall</Key>
-			<Value>Cadre photo (Portrait, cadre fin, sans bordure, petite taille)</Value>
+			<Value>Cadre photo (Portrait, cadre fin, sans bordure, petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThinLandscapeSmall</Key>
-			<Value>Cadre photo (Paysage, cadre fin, sans bordure, petite taille)</Value>
+			<Value>Cadre photo (Paysage, cadre fin, sans bordure, petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThinLandscapeLarge</Key>
-			<Value>Cadre photo (Paysage, cadre fin, sans bordure, grande taille)</Value>
+			<Value>Cadre photo (Paysage, cadre fin, sans bordure, grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThickPortraitSmall</Key>
-			<Value>Cadre photo (Portrait, cadre épais, sans bordure, petite taille)</Value>
+			<Value>Cadre photo (Portrait, cadre épais, sans bordure, petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThickMountPortraitSmall</Key>
-			<Value>Cadre photo (Portrait, cadre épais, bordure blanche, petite taille)</Value>
+			<Value>Cadre photo (Portrait, cadre épais, bordure blanche, petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThickMountPortraitLarge</Key>
-			<Value>Cadre photo (Portrait, cadre épais, bordure blanche, grande taille)</Value>
+			<Value>Cadre photo (Portrait, cadre épais, bordure blanche, grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThickMountLandscapeSmall</Key>
-			<Value>Cadre photo (Paysage, cadre épais, bordure blanche, petite taille)</Value>
+			<Value>Cadre photo (Paysage, cadre épais, bordure blanche, petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThickMountLandscapeLarge</Key>
-			<Value>Cadre photo (Paysage, cadre épais, bordure blanche, grande taille)</Value>
+			<Value>Cadre photo (Paysage, cadre épais, bordure blanche, grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThickLandscapeSmall</Key>
-			<Value>Cadre photo (Paysage, cadre épais, sans bordure, petite taille)</Value>
+			<Value>Cadre photo (Paysage, cadre épais, sans bordure, petit)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThickLandscapeLarge</Key>
-			<Value>Cadre photo (Paysage, cadre épais, sans bordure, grande taille)</Value>
+			<Value>Cadre photo (Paysage, cadre épais, sans bordure, grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThickPortraitLarge</Key>
-			<Value>Cadre photo (Portrait, cadre épais, sans bordure, grande taille)</Value>
+			<Value>Cadre photo (Portrait, cadre épais, sans bordure, grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePictureFrameThinPortraitLarge</Key>
-			<Value>Cadre photo (Portrait, cadre fin, sans bordure, grande taille)</Value>
+			<Value>Cadre photo (Portrait, cadre fin, sans bordure, grand)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ApplianceDeskLampLeft</Key>
-			<Value>Applique de bureau (lampe à gauche)</Value>
+			<Value>Lampe de bureau (gauche)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ApplianceDeskLampRight</Key>
-			<Value>Applique de bureau (lampe à droite)</Value>
+			<Value>Lampe de bureau (droite)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>QuarryDrillBitBasic</Key>
@@ -5439,7 +5686,7 @@ Avec un {THING:ItemIntegratedCircuit10} dans l'emplacement {SLOT:ProgrammableChi
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeWallWindow</Key>
-			<Value>Fenêtre composite</Value>
+			<Value>Mur composite (fenêtre)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>RailingElegant01</Key>
@@ -5551,7 +5798,7 @@ Avec un {THING:ItemIntegratedCircuit10} dans l'emplacement {SLOT:ProgrammableChi
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSensorProcessingUnitOreScanner</Key>
-			<Value>Carte pour lunettes RA (scanner de minerais)</Value>
+			<Value>Carte pour lunettes RA (Scanner de minerais)</Value>
 			<Description>La carte pour lunettes de Réalité Augmentée (scanner de minerais) peut être insérée dans les {THING:ItemSensorLenses} pour révéler les minerais souterrains sur un affichage de réalité augmentée.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -5569,17 +5816,17 @@ Avec un {THING:ItemIntegratedCircuit10} dans l'emplacement {SLOT:ProgrammableChi
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSolarPanelFlat</Key>
-			<Value>Panneau solaire basique (à plat)</Value>
-			<Description>Les panneaux solaires basiques de {LINK:Sinotai;Sinotai} génèrent de l'électricité à partir de la lumière du soleil. Ils sont posés à plat sur le sol, et leur efficacité est réduite pendant les tempêtes et en cas de dégâts. Vous pouvez les réparer en utilisant un peu de {THING:ItemDuctTape} fiable.</Description>
+			<Value>Panneau solaire statique (plat)</Value>
+			<Description>Les panneaux solaires statiques de {LINK:Sinotai;Sinotai} génèrent de l'électricité à partir de la lumière du soleil. Ils sont posés à plat sur le sol, et leur efficacité est réduite pendant les tempêtes et en cas de dégâts. Vous pouvez les réparer en utilisant un peu de {THING:ItemDuctTape} fiable.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSolarPanel45</Key>
-			<Value>Panneau solaire basique (incliné)</Value>
-			<Description>Les panneaux solaires basiques de {LINK:Sinotai;Sinotai} génèrent de l'électricité à partir de la lumière du soleil, étant inclinés à 45 degrés par rapport au sol. Leur efficacité est réduite pendant les tempêtes et en cas de dégâts. Vous pouvez les réparer en utilisant un peu de {THING:ItemDuctTape} fiable.</Description>
+			<Value>Panneau solaire statique (incliné)</Value>
+			<Description>Les panneaux solaires statiques de {LINK:Sinotai;Sinotai} génèrent de l'électricité à partir de la lumière du soleil, étant inclinés à 45 degrés par rapport au sol. Leur efficacité est réduite pendant les tempêtes et en cas de dégâts. Vous pouvez les réparer en utilisant un peu de {THING:ItemDuctTape} fiable.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitSolarPanelBasic</Key>
-			<Value>Kit (Panneau solaire basique)</Value>
+			<Value>Kit (Panneau solaire statique)</Value>
 			<Description>Ce kit crée un panneau solaire.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -5843,9 +6090,9 @@ Capable de stocker jusqu'à 9 000 001 watts d'énergie, il n'y a pas de limites 
 		</RecordThing>
 		<RecordThing>
 			<Key>Rover_MkI</Key>
-			<Value>Rover Nv1</Value>
-			<Description>Un cousin éloigné de la jeep, le rover électrique Nv1 de {LINK:Sinotai;Sinotai} est l'un des véhicules légers les plus simples et durables de l'univers connu. Capable de transporter deux passagers et de la cargaison tel que le {THING:DynamicGasCanisterAir} ou la {THING:DynamicCrate}, il est alimenté par jusqu'à trois batteries, acceptant tout, y compris la {THING:ItemBatteryCellNuclear}.
-Un groupe de quatre moteurs électriques montés sur le moyeu propulse le châssis en aluminium renforcé sur la plupart des terrains et modestes obstacles. Bien que le Nv1 soit conçu pour la stabilité dans des circonstances de faible horizontalité, s'il se renverse, essayez d'utiliser votre {THING:ItemCrowbar} pour le remettre à l'endroit.</Description>
+			<Value>Rover</Value>
+			<Description>Un cousin éloigné de la jeep, le rover électrique de {LINK:Sinotai;Sinotai} est l'un des véhicules légers les plus simples et durables de l'univers connu. Capable de transporter deux passagers et de la cargaison tel que le {THING:DynamicGasCanisterAir} ou la {THING:DynamicCrate}, il est alimenté par jusqu'à trois batteries, acceptant tout, y compris la {THING:ItemBatteryCellNuclear}.
+Un groupe de quatre moteurs électriques montés sur le moyeu propulse le châssis en aluminium renforcé sur la plupart des terrains et modestes obstacles. Bien que le rover électrique soit conçu pour la stabilité dans des circonstances de faible horizontalité, s'il se renverse, essayez d'utiliser votre {THING:ItemCrowbar} pour le remettre à l'endroit.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSpawnPoint</Key>
@@ -5894,12 +6141,12 @@ Un groupe de quatre moteurs électriques montés sur le moyeu propulse le châss
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitRoverMKI</Key>
-			<Value>Kit (Rover Nv1)</Value>
+			<Value>Kit (Rover)</Value>
 			<Description>Crée un {THING:Rover_MkI}</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>Rover_MkI_build_states</Key>
-			<Value>Rover Nv1</Value>
+			<Value>Rover</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -5950,23 +6197,23 @@ Bien qu'optimisée pour produire de l'énergie même sur des mondes à faible at
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPumpkinSoup</Key>
-			<Value>Conserve de soupe de citrouille</Value>
-			<Description>Préparée en utilisant {THING:ItemCookedPumpkin} et une {THING:ItemEmptyCan} dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}. Relativement riche en nutriments, la nourriture en conserve ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Value>Soupe de citrouille en conserve</Value>
+			<Description>Préparée en utilisant des {THING:ItemCookedPumpkin} et une {THING:ItemEmptyCan} dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}. Relativement riche en nutriments, la nourriture en conserve ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCornSoup</Key>
-			<Value>Conserve de soupe de maïs</Value>
-			<Description>Préparée en utilisant {THING:ItemCookedCorn} et une {THING:ItemEmptyCan} dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}. Relativement riche en nutriments, la nourriture en conserve ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Value>Soupe de maïs en conserve</Value>
+			<Description>Préparée en utilisant des {THING:ItemCookedCorn} et une {THING:ItemEmptyCan} dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}. Relativement riche en nutriments, la nourriture en conserve ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemBreadLoaf</Key>
-			<Value>Miche de pain</Value>
+			<Value>Pain</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemBiomass</Key>
 			<Value>Matière organique</Value>
-			<Description>Matière organique coupée en dés qui est obtenue lorsque la nourriture et la matière organique sont passées par le {THING:StructureRecycler} et la {THING:StructureCentrifuge}. Peut être brûlé dans un {THING:StructureFurnace} pour obtenir du {THING:ItemCharcoal} à utiliser dans le {THING:StructureSolidFuelGenerator}.</Description>
+			<Description>Matière organique coupée en dés est obtenue lorsque la {LINK:NutritionPage;nourriture} et autres éléments {LINK:OrganicPage;organiques} sont passées par le {THING:StructureRecycler} et la {THING:StructureCentrifuge}. Peut être brûlé dans un {THING:StructureFurnace} pour obtenir du {THING:ItemCharcoal} à utiliser dans le {THING:StructureSolidFuelGenerator}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureHydroponicsTrayData</Key>
@@ -5981,32 +6228,32 @@ Il peut être automatisé en utilisant le {THING:StructureHarvie}. Notez que con
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitSolarPanelReinforced</Key>
-			<Value>Kit (Panneau solaire renforcé)</Value>
+			<Value>Kit (Panneau solaire pivotant renforcé)</Value>
 			<Description>Ce kit produit des panneaux solaires robustes résistants aux dégâts des tempêtes.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitSolarPanelBasicReinforced</Key>
-			<Value>Kit (Panneau solaire basique renforcé)</Value>
+			<Value>Kit (Panneau solaire statique renforcé)</Value>
 			<Description>Ce panneau solaire est résistant aux dégâts des tempêtes.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSolarPanel45Reinforced</Key>
-			<Value>Panneau solaire basique renforcé (incliné)</Value>
+			<Value>Panneau solaire statique renforcé (incliné)</Value>
 			<Description>Ce panneau solaire est résistant aux dégâts des tempêtes.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSolarPanelDualReinforced</Key>
-			<Value>Panneau solaire renforcé (double connexion)</Value>
+			<Value>Panneau solaire pivotant renforcé (2 connexions)</Value>
 			<Description>Ce panneau solaire est résistant aux dégâts des tempêtes.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSolarPanelFlatReinforced</Key>
-			<Value>Panneau solaire basique renforcé (plat)</Value>
+			<Value>Panneau solaire statique renforcé (plat)</Value>
 			<Description>Ce panneau solaire est résistant aux dégâts des tempêtes.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSolarPanelReinforced</Key>
-			<Value>Panneau solaire renforcé</Value>
+			<Value>Panneau solaire pivotant renforcé</Value>
 			<Description>Ce panneau solaire est résistant aux dégâts des tempêtes.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -6189,45 +6436,58 @@ La vitesse de gain ou de perte de chaleur dépendra du liquide en question. Ajou
 			<Key>ItemMKIIScrewdriver</Key>
 			<Value>Tournevis Nv2</Value>
 			<Description>Cet ajusteur d'adhérence par friction standard est un modèle bi-rotationnel de pointe avec une prise uni-colonne. Ce n'est certainement pas seulement un tournevis. Utilisez-le pour la construction et la déconstruction de certains kits, et pour régler les valeurs sur les unités de {LINK:LogicUnitPage;logique}.
+
 Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMKIIAngleGrinder</Key>
 			<Value>Meuleuse Nv2</Value>
 			<Description>Ah, les angles ne font pas le poids avec cette fidèle meuleuse d'angle. 
+
 Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMKIICrowbar</Key>
 			<Value>Pied de biche Nv2</Value>
 			<Description>Le pied de biche d'entrée de gamme de {LINK:Recurso;Recurso} est utile dans une variété de paramètres {LINK:Stationeers;Stationeer} quotidiens, de l'ouverture des {THING:StructureAreaPowerControl} et des {THING:StructureAirlock} non alimentés, à l'écrasement de têtes de crabes dimensionnels, si nécessaire. 
+
 Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
-		<RecordThing>
+<RecordThing>
 			<Key>ItemMKIIArcWelder</Key>
 			<Value>Soudeur à arc Nv2</Value>
-			<Description/>
+			<Description>Cette itération renforcée du {THING:ItemArcWelder} a été spécifiquement conçue pour l'ingénierie en conditions hostiles. Le châssis intègre des alliages thermorésistants et des joints pressurisés de haute qualité.
+
+Le modèle Nv2 offre une résistance exceptionnelle aux températures extrêmes et aux hautes pressions atmosphériques, garantissant une intégrité structurelle là où les outils standards feraient défaut. Un choix indispensable pour les opérations sur des environnements tels que Vénus.
+
+Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMKIIDrill</Key>
 			<Value>Perceuse Nv2</Value>
-			<Description>La perceuse manuelle Off-whirled de {LINK:ExMin;ExMin} accompagne les {LINK:Stationeers;Stationeers} depuis des décennies. Essentielle pour assembler et démonter divers objets et structures, indépendamment de la gravité, de la pression ou de la température.</Description>
+			<Description>La perceuse manuelle Off-whirled de {LINK:ExMin;ExMin} accompagne les {LINK:Stationeers;Stationeers} depuis des décennies. Essentielle pour assembler et démonter divers objets et structures, indépendamment de la gravité, de la pression ou de la température.
+			
+Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMKIIMiningDrill</Key>
 			<Value>Foreuse Nv2</Value>
 			<Description>La foreuse minière rotative Nv2 trois cônes "Taupe" à main a été conçue pour une chose : creuser rapidement. Modélisée sur un design classique sans gravité de {LINK:Recurso;Recurso}, elle fonctionne aussi bien dans le vide que dans l'atmosphère, avec des embouts en carbure cémenté pour augmenter la résilience et la durée de vie des roulements, et réduire l'écaillage. Comme le disait Jenk Murtons, "La Taupe ne s'arrête pas."
+
 Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMKIIWireCutters</Key>
 			<Value>Pince coupante Nv2</Value>
-			<Description>Les pinces coupantes vous permettent de démonter diverses {LINK:StructurePage;structures}, ainsi que de couper des câbles croisés lorsque vous les tenez dans votre main inactive, et de désamorcer des explosifs si nécessaire. Les pinces coupantes sont rangées dans la {THING:ItemToolBelt}, avec d'autres {LINK:ToolPage;outils} essentiels.</Description>
+			<Description>Les pinces coupantes vous permettent de démonter diverses {LINK:StructurePage;structures}, ainsi que de couper des câbles croisés lorsque vous les tenez dans votre main inactive, et de désamorcer des explosifs si nécessaire. Les pinces coupantes sont rangées dans la {THING:ItemToolBelt}, avec d'autres {LINK:ToolPage;outils} essentiels.
+
+Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMKIIWrench</Key>
 			<Value>Clé à molette Nv2</Value>
 			<Description>L'une des contributions durables de l'humanité à l'univers, la clé à molette représente l'essence de notre espèce. Un outil simple, efficace et dénué d'âme, utilisez-le pour construire et déconstruire diverses {LINK:StructurePage;structures}.
+
 Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -6426,7 +6686,7 @@ Au coeur de ce passe-temps se trouve le séquenceur pas à pas, qui permet aux {
 
 - TEMPÉRATURE - La réfrigération ralentira la décomposition, mais de nombreux aliments seront endommagés par une exposition à une pression extrêmement basse ainsi qu'à une chaleur extrême. La température optimale est de 0 kelvin (-272 °C).
 
-- TYPE D'ALIMENT - Chaque type d'{LINK:OrganicPage;aliments} a ses propres propriétés de décomposition. Par exemple, {THING:ItemTomatoSoup} dure beaucoup plus longtemps qu'une {THING:ItemTomato}.
+- TYPE D'ALIMENT - Chaque type d'{LINK:OrganicPage;aliments} a ses propres propriétés de décomposition. Par exemple, la {THING:ItemTomatoSoup} dure beaucoup plus longtemps qu'une {THING:ItemTomato}.
 
 - PRESSION - Les aliments se décomposent plus rapidement lorsque la pression tombe en dessous d'une atmosphère (101 kPa). La décomposition se produit de manière exponentiellement plus rapide à mesure que l'atmosphère approche le vide parfait. Il n'y a aucun effet des pressions plus élevées.
 
@@ -6567,7 +6827,7 @@ L'effet de ces ingrédients dépend de leurs proportions respectives dans le com
 			<Key>StructureAdvancedComposter</Key>
 			<Value>Composteur avancé</Value>
 			<Description>Le composteur avancé transforme la matière organique en {THING:Fertilizer}. Il accepte les {LINK:OrganicPage;aliments}, les {THING:DecayedFood} ou la {THING:ItemBiomass}. Il nécessite de l'{GAS:Water} et de l'énergie pour fonctionner, accélérant ainsi le processus de compostage naturel.
-Lors du traitement, il libère de l'azote et des volatils, ainsi qu'une petite quantité de chaleur.
+Lors du traitement, il libère de l'{GAS:Nitrogen} et des {GAS:Volatiles}, ainsi qu'une petite quantité de chaleur.
 
 {HEADER:Compost composition}
 Le fertilisant est produit selon un rapport de 1:3 en termes de fertilisant par rapport aux ingrédients. Les effets du fertilisant sur les plantes varieront en fonction des proportions respectives de ses ingrédients.
@@ -6601,7 +6861,7 @@ Le fertilisant est produit selon un rapport de 1:3 en termes de fertilisant par 
 			<Key>PortableComposter</Key>
 			<Value>Composteur Portable</Value>
 			<Description>Un appareil de compostage simple, le composteur de base transforme la matière organique en {THING:Fertilizer}. Il accepte les {LINK:OrganicPage;aliments}, les {THING:DecayedFood} ou la {THING:ItemBiomass}. Il nécessite une {THING:ItemLiquidCanisterEmpty} complete et une batterie pour fonctionner, accélérant ainsi le processus de compostage naturel.
-Lors du traitement, il libère de l'azote et des volatils, ainsi qu'une petite quantité de chaleur.
+Lors du traitement, il libère de l'azote et des {GAS:Volatiles}, ainsi qu'une petite quantité de chaleur.
 
 {HEADER:Compost composition}
 Le fertilisant est produit selon un rapport de 1:3 en termes de fertilisant par rapport aux ingrédients. Les effets du fertilisant sur les plantes varieront en fonction des proportions respectives de ses ingrédients.
@@ -6647,8 +6907,8 @@ Remarque : l'emballeur basique affichera une erreur sur son interrupteur d'activ
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCannedMushroom</Key>
-			<Value>Conserve de champignons</Value>
-			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine} à partir de 5 {THING:ItemCookedMushroom}, de l'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve de soupe de champignons est nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Value>Champignons en conserve</Value>
+			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine} à partir de 5 {THING:ItemCookedMushroom}, de l'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}. Relativement riche en nutriments, la nourriture en conserve ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPowderedeggs</Key>
@@ -6662,34 +6922,33 @@ Remarque : l'emballeur basique affichera une erreur sur son interrupteur d'activ
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemFrenchFries</Key>
-			<Value>Conserve de frites</Value>
-			<Description>Parce que l'espace ne serait pas aussi croquant sans elles. Fabriquées dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine} à partir de {THING:ItemPotatoBaked}, d'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve de frites est assez nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Value>Frites en conserve</Value>
+			<Description>Parce que l’espace ne serait pas aussi croquant sans elles. Fabriquées dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir de {THING:ItemPotatoBaked}, d'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}. Relativement riche en nutriments, la nourriture en conserve ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCannedRicePudding</Key>
-			<Value>Conserve de riz au lait</Value>
-			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir de {THING:ItemCookedRice}, de l'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve de riz au lait est une gourmandise sucrée, nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Value>Riz au lait en conserve</Value>
+			<Description>Fabriqué dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir de {THING:ItemCookedRice}, de l'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}. Relativement riche en nutriments, la nourriture en conserve ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCannedCondensedMilk</Key>
-			<Value>Conserve de lait concentré</Value>
-			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir de {THING:ItemCookedCondensedMilk} et d'une {THING:ItemEmptyCan}, la conserve de lait concentré est nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Value>Lait en conserve</Value>
+			<Description>Fabriqué dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir de {THING:ItemCookedCondensedMilk} et d'une {THING:ItemEmptyCan}. Relativement riche en nutriments, la nourriture en conserve ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCannedEdamame</Key>
-			<Value>Conserve de soja</Value>
-			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir de {THING:ItemCookedSoybean}, de l'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve de soja est nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Value>Soja en conserve</Value>
+			<Description>Fabriqué dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir de {THING:ItemCookedSoybean}, de l'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}. Relativement riche en nutriments, la nourriture en conserve ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCannedPowderedEggs</Key>
-			<Value>Conserve d'oeufs en poudre</Value>
-			<Description>Fabriquée dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir d'{THING:ItemCookedPowderedEggs}, de l'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}, la conserve d'oeufs en poudre est nutritive et ne {LINK:DecayPage;se détériore} pas.</Description>
+			<Value>Oeufs en conserve</Value>
+			<Description> Fabriqués dans un {THING:AppliancePackagingMachine} ou un {THING:StructureAdvancedPackagingMachine}, à partir d'{THING:ItemCookedPowderedEggs}, de l'{THING:ItemSoyOil} et d'une {THING:ItemEmptyCan}. Relativement riche en nutriments, la nourriture en conserve ne {LINK:DecayPage;se détériore} pas.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureAdvancedPackagingMachine</Key>
 			<Value>Emballeur automatisé</Value>
-			<Description>L'emballeur automatisé {LINK:Xigo;Xigo} Multi-Plus Pro est une machine d'emballage automatisable qui utilise des {THING:ItemEmptyCan} et des {LINK:OrganicPage;aliments} cuits pour créer des aliments en conserve qui ne se détériorent pas. Notez que l'emballeur automatisé n'accepte que les aliments cuits et les
-  {THING:ItemEmptyCan}.</Description>
+			<Description>L'emballeur automatisé {LINK:Xigo;Xigo} Multi-Plus Pro est une machine d'emballage automatisable qui utilise des {THING:ItemEmptyCan} et des {LINK:OrganicPage;aliments} cuits pour créer des aliments en conserve qui ne se détériorent pas. Notez que l'emballeur automatisé n'accepte que les aliments cuits et les {THING:ItemEmptyCan}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitAdvancedPackagingMachine</Key>
@@ -6728,12 +6987,12 @@ Remarque : l'emballeur basique affichera une erreur sur son interrupteur d'activ
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCookedPowderedEggs</Key>
-			<Value>Oeufs en poudre cuits</Value>
+			<Value>Oeufs cuits</Value>
 			<Description>Un aliment cuit riche en nutriments, qui peut être mis en conserve.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemCookedCondensedMilk</Key>
-			<Value>Lait concentré cuit</Value>
+			<Value>Lait cuit</Value>
 			<Description>Un aliment cuit riche en nutriments, qui peut être mis en conserve.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -7176,13 +7435,13 @@ Le transmetteur doit être aligné avec la station de base pour transmettre de l
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitPowerTransmitterOmni</Key>
-			<Value>Kit (Transmetteur d'énergie par induction Omni)</Value>
+			<Value>Kit (Chargeur de batterie sans fil, Omni)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePowerTransmitterOmni</Key>
-			<Value>Transmetteur d'énergie par induction Omni</Value>
-			<Description>Le sommet de la commodité énergétique. Contrairement aux émetteurs directionnels, le modèle Omni projette un champ d'induction sphérique constant, alimentant toute {THING:Battery_Wireless_cell}, {THING:Battery_Wireless_cell_Big} et {THING:ItemWirelessBatteryCellExtraLarge} dans son rayon d'action. Bien que son efficacité diminue avec la distance, il permet une liberté de mouvement totale à l'intérieur de la base sans jamais avoir à manipuler de chargeure.
+			<Value>Chargeur de batterie sans fil (Omni)</Value>
+			<Description>Le sommet de la commodité énergétique. Le chargeur de batterie sans fil (Omni) projette un champ d'induction sphérique constant, alimentant toute {THING:Battery_Wireless_cell}, {THING:Battery_Wireless_cell_Big} et {THING:ItemWirelessBatteryCellExtraLarge} dans son rayon d'action. Bien que son efficacité diminue avec la distance, il permet une liberté de mouvement totale à l'intérieur de la base sans jamais avoir à manipuler de chargeure.
 
 {HEADER:GESTION RÉSEAU}
 Le transmetteur consomme une quantité de puissance proportionnelle au nombre d'appareils qu'il alimente simultanément.</Description>
@@ -7285,7 +7544,7 @@ Très sensible à la température, la glace azotée commencera à fondre dès qu
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemMiningBackPack</Key>
-			<Value>Sac à dos de mineur Nv1</Value>
+			<Value>Sac à dos de mineur</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -7296,7 +7555,7 @@ Très sensible à la température, la glace azotée commencera à fondre dès qu
 		<RecordThing>
 			<Key>StructureH2Combustor</Key>
 			<Value>Générateur d'eau</Value>
-			<Description>Légèrement adapté de son design d'origine {LINK:Recurso;Recurso}, le générateur d'eau fait exactement ce que son nom suggère - il brûle un mélange de {GAS:Volatiles} et d'{GAS:Oxygen} pour créer de l'eau. Extrêmement utile dans des environnements chauds ou arides, les utilisateurs doivent être conscients que le générateur d'eau produit une quantité considérable de chaleur résiduelle. L'appareil n'est pas non plus parfaitement efficace, ce qui entraîne l'auto-inflammation des volatils dans la chambre, et la production de gaz résiduels qui doivent être traités.</Description>
+			<Description>Légèrement adapté de son design d'origine {LINK:Recurso;Recurso}, le générateur d'eau fait exactement ce que son nom suggère - il brûle un mélange de {GAS:Volatiles} et d'{GAS:Oxygen} pour créer de l'eau. Extrêmement utile dans des environnements chauds ou arides, les utilisateurs doivent être conscients que le générateur d'eau produit une quantité considérable de chaleur résiduelle. L'appareil n'est pas non plus parfaitement efficace, ce qui entraîne l'auto-inflammation des {GAS:Volatiles} dans la chambre, et la production de gaz résiduels qui doivent être traités.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeRadiatorFlat</Key>
@@ -7486,7 +7745,7 @@ Pour commencer la spécialisation, placez une plante ou une graine dans l'emplac
 		<RecordThing>
 			<Key>ApplianceSeedTray</Key>
 			<Value>Plateau à graines</Value>
-			<Description>Le plateau à graines peut contenir jusqu'à douze plantes ou graines et peut être utilisé pour faciliter une expérimentation et un test rapides de la génétique des plantes.</Description>
+			<Description>Ce plateau peut accueillir jusqu’à douze plantes ou graines, facilitant des tests rapides ainsi que des expérimentations génétiques.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>Landingpad_CenterPiece01</Key>
@@ -7646,37 +7905,93 @@ La batterie sans fil (nucléaire) stocke jusqu'à 144 000 Watts.</Description>
 		<RecordThing>
 			<Key>ItemGasFilterCarbonDioxideInfinite</Key>
 			<Value>Filtre de dioxyde de carbone (catalytique)</Value>
-			<Description>Un filtre qui cible sélectivement le dioxyde de carbone. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui donnant une longue durée de vie.</Description>
+			<Description>Un filtre qui cible sélectivement le {GAS:CarbonDioxide}. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui offrant une autonomie supérieure.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterCarbonDioxide} : 2 heures
+- {THING:ItemGasFilterCarbonDioxideM} : 10 heures
+- {THING:ItemGasFilterCarbonDioxideL} : 40 heures
+- {THING:ItemGasFilterCarbonDioxideInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterOxygenInfinite</Key>
 			<Value>Filtre d'oxygène (catalytique)</Value>
-			<Description>Un filtre qui cible sélectivement l'oxygène. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui donnant une longue durée de vie.</Description>
+			<Description>Un filtre qui cible sélectivement l'{GAS:Oxygen}. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui offrant une autonomie supérieure.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterOxygen} : 2 heures
+- {THING:ItemGasFilterOxygenM} : 10 heures
+- {THING:ItemGasFilterOxygenL} : 40 heures
+- {THING:ItemGasFilterOxygenInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrousOxideInfinite</Key>
 			<Value>Filtre de protoxyde d'azote (catalytique)</Value>
-			<Description>Un filtre qui cible sélectivement le protoxyde d'azote. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui donnant une longue durée de vie.</Description>
+			<Description>Un filtre qui cible sélectivement le protoxyde d'azote (N2O). Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui offrant une autonomie supérieure pour les mélanges de carburant avancés.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterNitrousOxide} : 2 heures
+- {THING:ItemGasFilterNitrousOxideM} : 10 heures
+- {THING:ItemGasFilterNitrousOxideL} : 40 heures
+- {THING:ItemGasFilterNitrousOxideInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterNitrogenInfinite</Key>
 			<Value>Filtre d'azote (catalytique)</Value>
-			<Description>Un filtre qui cible sélectivement l'azote. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui donnant une longue durée de vie.</Description>
+			<Description>Un filtre qui cible sélectivement l'{GAS:Nitrogen}. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui offrant une autonomie supérieure.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterNitrogen} : 2 heures
+- {THING:ItemGasFilterNitrogenM} : 10 heures
+- {THING:ItemGasFilterNitrogenL} : 40 heures
+- {THING:ItemGasFilterNitrogenInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterPollutantsInfinite</Key>
 			<Value>Filtre de polluants (catalytique)</Value>
-			<Description>Un filtre qui cible sélectivement les polluants. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui donnant une longue durée de vie.</Description>
+			<Description>Un filtre qui cible sélectivement les polluants. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui offrant une autonomie supérieure.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterPollutants} : 2 heures
+- {THING:ItemGasFilterPollutantsM} : 10 heures
+- {THING:ItemGasFilterPollutantsL} : 40 heures
+- {THING:ItemGasFilterPollutantsInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterVolatilesInfinite</Key>
 			<Value>Filtre de volatils (catalytique)</Value>
-			<Description>Un filtre qui cible sélectivement les volatils. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui donnant une longue durée de vie.</Description>
+			<Description>Un filtre qui cible sélectivement les {GAS:Volatiles}. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui offrant une autonomie supérieure.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterVolatiles} : 2 heures
+- {THING:ItemGasFilterVolatilesM} : 10 heures
+- {THING:ItemGasFilterVolatilesL} : 40 heures
+- {THING:ItemGasFilterVolatilesInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemGasFilterWaterInfinite</Key>
 			<Value>Filtre d'eau (catalytique)</Value>
-			<Description>Un filtre qui cible sélectivement l'eau. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui donnant une longue durée de vie.</Description>
+			<Description>Un filtre qui cible sélectivement l'{GAS:Water}. Il utilise des différentiels de pression internes pour régénérer un catalyseur à changement de phase unique, lui offrant une autonomie supérieure.
+
+Spécifications opérationnelles : L'usure du média filtrant ne survient que lors de l'extraction effective du gaz ciblé.
+
+Filtres disponibles :
+- {THING:ItemGasFilterWater} : 2 heures
+- {THING:ItemGasFilterWaterM} : 10 heures
+- {THING:ItemGasFilterWaterL} : 40 heures
+- {THING:ItemGasFilterWaterInfinite} : 160 heures (Via {LINK:TradingPage;commerçants})</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSolidFuel</Key>
@@ -7758,7 +8073,7 @@ Capable de stocker jusqu'à 3 600 000 Watts d'énergie.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitRockets</Key>
-			<Value>Kit (Fusées)</Value>
+			<Value>Kit (Fusée)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -8030,12 +8345,12 @@ Associé à une {THING:StructureEvaporationChamber}, les {LINK:Stationeers;Stati
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPureIceLiquidPollutant</Key>
-			<Value>Glace pure de polluants liquide</Value>
+			<Value>Glace pure de polluants liquides</Value>
 			<Description>Un morceau gelé de {GAS:LiquidPollutant}</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPureIceLiquidVolatiles</Key>
-			<Value>Glace pure de volatils liquide</Value>
+			<Value>Glace pure de volatils liquides</Value>
 			<Description>Un morceau gelé de {GAS:LiquidVolatiles}</Description>
 		</RecordThing>
 		<RecordThing>
@@ -8085,7 +8400,7 @@ Associé à une {THING:StructureEvaporationChamber}, les {LINK:Stationeers;Stati
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemClothingBagOveralls_EU</Key>
-			<Value>Uniforme (UE)</Value>
+			<Value>Uniforme (Union européenne)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -8277,7 +8592,7 @@ Mode 5 : Cartographier
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureBench2</Key>
-			<Value>Établi (ondulée)</Value>
+			<Value>Établi (ondulé)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -8948,12 +9263,9 @@ Notez que les transformateurs agissent comme des isolateurs de données, empêch
 		<RecordThing>
 			<Key>ItemMiningDrillPneumatic</Key>
 			<Value>Foreuse pneumatique</Value>
-			<Description>Parfois, les expéditions minières nécessitent quelque chose de plus gros pour rapporter les marchandises. Cette version agrandie de la conception "Taupe" de {LINK:Recurso;Recurso} peut littéralement déplacer des montagnes. La foreuse Nv3 enlèvera plus de terre et extraira les {LINK:OrePage;minerais} plus rapidement que la foreuse minière standard. La foreuse de niveau 3 est également résistante à la température et à la pression. Ainsi, peu importe la planète ou les conditions météorologiques extrêmes présentes, la foreuse nv3 de Recurso accomplira la tâche.
-			
-			
-			Cette foreuse pneumatique utilise l'énergie du gaz pour l'exploitation minière, au lieu de batteries comme les autres. La vitesse d'exploitation de la foreuse est une fonction du différentiel de pression, ce qui signifie qu'elle ralentira à mesure que vous épuisez sa {THING:ItemGasCanisterNitrogen}.
+			<Description>Cette foreuse pneumatique utilise l'énergie du gaz pour l'exploitation minière, au lieu de batteries comme les autres. La vitesse d'exploitation de la foreuse est une fonction du différentiel de pression, ce qui signifie qu'elle ralentira à mesure que vous épuisez sa {THING:ItemGasCanisterNitrogen}.
 
-Vous pouvez l'améliorer en utilisant la {THING:DynamicGasCanisterNitrogen} pour obtenir un différentiel de pression beaucoup plus élevé.</Description>
+Vous pouvez l'améliorer en utilisant la {THING:ItemGasCanisterSmart} pour obtenir un différentiel de pression beaucoup plus élevé.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemRocketMiningDrillHeadIce</Key>
@@ -8972,7 +9284,7 @@ Vous pouvez l'améliorer en utilisant la {THING:DynamicGasCanisterNitrogen} pour
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemRocketMiningDrillHeadLongTerm</Key>
-			<Value>Tête de foreuse (trés résistante)</Value>
+			<Value>Tête de foreuse (très résistante)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -9007,7 +9319,7 @@ Vous pouvez l'améliorer en utilisant la {THING:DynamicGasCanisterNitrogen} pour
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSensorProcessingUnitMesonScanner</Key>
-			<Value>Carte pour lunettes RA (scanner à rayons T)</Value>
+			<Value>Carte pour lunettes RA (Scanner à rayons T)</Value>
 			<Description>La carte pour lunettes de Réalité Augmentée (scanner à rayons Térahertz) peut être insérée dans les {THING:ItemSensorLenses} pour afficher un superposition des tuyaux et câbles. Cela peut être utile lors de la construction derrière des murs ou d'autres structures.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -9022,7 +9334,7 @@ Vous pouvez l'améliorer en utilisant la {THING:DynamicGasCanisterNitrogen} pour
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemSensorProcessingUnitCelestialScanner</Key>
-			<Value>Carte pour lunettes RA (scanner céleste)</Value>
+			<Value>Carte pour lunettes RA (Scanner céleste)</Value>
 			<Description>La carte pour lunettes de Réalité Augmentée (scanner céleste) peut être insérée dans les {THING:ItemSensorLenses}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -9037,7 +9349,7 @@ Vous pouvez l'améliorer en utilisant la {THING:DynamicGasCanisterNitrogen} pour
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureElevatorShaftIndustrial</Key>
-			<Value>Ascenseur (cage industriel)</Value>
+			<Value>Ascenseur (cage industrielle)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -9444,8 +9756,14 @@ Appuyer sur le bouton d'activation lorsque le robot LArRE est à son quai d'orig
 		<RecordThing>
 			<Key>ItemGasMask</Key>
 			<Value>Masque à gaz</Value>
-			<Description>Ce masque se mélange à l'atmosphère ambiante, mais filtre les gaz en fonction des filtres placés dans ses deux emplacements.</Description>
+			<Description>Le masque à gaz est un dispositif de protection respiratoire semi-ouvert conçu pour opérer dans des environnements atmosphériques mixtes. Contrairement à une combinaison pressurisée, il traite l'air ambiant en temps réel.
+
+Équipé de deux emplacements pour {SLOT:GasFilter}, il permet d'isoler et de retirer les composants toxiques d'une atmosphère tout en laissant passer les gaz respirables. C'est l'outil idéal pour intervenir dans des zones contaminées ou des serres sans puiser dans vos réserves d'oxygène portables.
+
+Attention : Ce dispositif ne fournit pas d'oxygène de manière autonome. Une pression atmosphérique suffisante et une concentration adéquate en {GAS:Oxygen} dans l'air ambiant sont nécessaires pour garantir la survie de l'utilisateur.</Description>
 		</RecordThing>
+		
+		
 		<RecordThing>
 			<Key>StructureGasMaskStorage</Key>
 			<Value>Rangement pour masque à gaz</Value>
@@ -9577,11 +9895,11 @@ Le "N Flow-P" possède quatre connexions, vous permettant de faire passer deux r
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureIndustrialFiltration</Key>
-			<Value>Filtration industrielle</Value>
+			<Value>Filtreur industriel</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureIndustrialFiltrationExtension1</Key>
-			<Value>Extension de filtration industrielle</Value>
+			<Value>Extension de filtreur industriel</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureRocketSpotCamera</Key>
@@ -9646,7 +9964,7 @@ C'est l'outil parfait pour stabiliser un four ou un système de gaz sans que les
 		</RecordThing>
 		<RecordThing>
 			<Key>MotherboardMap</Key>
-			<Value>Carte mère (cartographie)</Value>
+			<Value>Carte mère (Cartographie)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -10205,27 +10523,27 @@ Il existe également la {THING:ItemCableCoil} et la {THING:ItemCableCoilHeavy}.<
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageLightLongAngled2</Key>
-			<Value>Débris de Lampe (inclinée)</Value>
+			<Value>Débris de lampe (inclinée)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageLightLongWide1</Key>
-			<Value>Fragment de Lampe (large)</Value>
+			<Value>Fragment de lampe (large)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageLightLongWide2</Key>
-			<Value>Débris de Lampe (large)</Value>
+			<Value>Débris de lampe (large)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageWallLightBatteryPowered1</Key>
-			<Value>Fragment de Lampe (batterie)</Value>
+			<Value>Fragment de lampe (batterie)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageWallLightBatteryPowered2</Key>
-			<Value>Débris de Lampe (batterie)</Value>
+			<Value>Débris de lampe (batterie)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -11030,7 +11348,7 @@ Le module doit être connecté à un module de stockage de ressources de fusée 
 		</Record>
 		<Record>
 			<Key>CreditCard</Key>
-			<Value>Carte de crédit</Value>
+			<Value>Carte bancaire</Value>
 		</Record>
 		<Record>
 			<Key>Cartridge2</Key>
@@ -16608,7 +16926,7 @@ Ne soyez simplement pas triste lorsque vous vous réduirez en minuscules petits 
 		</Record>
 		<Record>
 			<Key>SomethingWentWrongTrading2</Key>
-			<Value>Quelque chose s'est mal déroulé durant la transaction, vous n'avez pas de carte de crédit !</Value>
+			<Value>Quelque chose s'est mal déroulé durant la transaction, vous n'avez pas de carte bancaire !</Value>
 		</Record>
 		<Record>
 			<Key>TraderErrorNoGasSpace</Key>
@@ -17962,7 +18280,7 @@ C'est une loi universelle inébranlable que tout ce qui dépasse 11 sera violet.
 25 : Bouteille 
 26 : Puce programmable 
 27 : Lunettes 
-28 : Carte de crédit
+28 : Carte bancaire
 29 : Réservoir de terre 
 30 : Carte pour lunettes RA 
 31 : Réservoir de liquide 
@@ -19071,7 +19389,7 @@ Vous risquez de perdre votre progression si vous ne sauvegardez pas maintenant.<
 		</Record>
 		<Record>
 			<Key>ScriptCommandL</Key>
-			<Value>Registre = la valeur logique (logicType) lue en utilisant la référence d'un appareil qui est defini soit par : 
+			<Value>Registre = la valeur logique (logicType) lue en utilisant la référence d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -19107,7 +19425,7 @@ Le mode peut être spécifié soit par son chiffre, soit par son nom en anglais.
 		</Record>
 		<Record>
 			<Key>ScriptCommandS</Key>
-			<Value>Stocke la valeur du registre dans la valeur logique (logicType) d'un appareil qui est defini soit par : 
+			<Value>Stocke la valeur du registre dans la valeur logique (logicType) d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -19119,7 +19437,7 @@ Le mode peut être spécifié soit par son chiffre, soit par son nom en anglais.
 		</Record>
 		<Record>
 			<Key>ScriptCommandSS</Key>
-			<Value>Stocke la valeur du registre dans la valeur "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l'emplacement" (slotIndex) d'un appareil qui est defini soit par : 
+			<Value>Stocke la valeur du registre dans la valeur "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l'emplacement" (slotIndex) d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -19134,7 +19452,7 @@ Le mode peut être spécifié soit par son chiffre, soit par son nom en anglais.
 		</Record>
 		<Record>
 			<Key>ScriptCommandLS</Key>
-			<Value>Registre = le type de "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l'emplacement" (slotIndex) d'un appareil qui est defini soit par : 
+			<Value>Registre = le type de "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l'emplacement" (slotIndex) d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -19176,7 +19494,7 @@ L'appareil est definie soit par :
 		<Record>
 			<Key>ScriptCommandSdse</Key>
 			<Value>Registre = 1 si l'appareil est configuré, sinon 0
-L'appareil est defini soit par : 
+L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -19184,7 +19502,7 @@ L'appareil est defini soit par :
 		<Record>
 			<Key>ScriptCommandSdns</Key>
 			<Value>Registre = 1 si l'appareil n'est pas configuré, sinon 0
-L'appareil est defini soit par : 
+L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -19306,7 +19624,7 @@ Condition utilisée : abs(a) &gt; float.epsilon * 8
 		<Record>
 			<Key>ScriptCommandBdse</Key>
 			<Value>Saute à la ligne a si l'appareil est configuré.
-L'appareil est defini soit par : 
+L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -19314,7 +19632,7 @@ L'appareil est defini soit par :
 		<Record>
 			<Key>ScriptCommandBdns</Key>
 			<Value>Saute à la ligne a si l'appareil n'est pas configuré.
-L'appareil est defini soit par : 
+L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -19322,15 +19640,15 @@ L'appareil est defini soit par :
 		<Record>
 			<Key>ScriptCommandBdnvl</Key>
 			<Value>Saute à la ligne a si l'appareil fourni n'est pas valide pour une instruction de chargement pour valeur logique (logicTvpe) fourni.
-L'appareil est defini soit par : 
+L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBdnvs</Key>
-			<Value>Saute à la ligne a si l'appareil fourni n'est pas valide pour une instruction de stockage pour valeur logique (logicTvpe) fourni.
-L'appareil est defini soit par : 
+			<Value>Saute à la ligne a si l'appareil fourni n'est pas valide pour une instruction de stockage pour valeur logique (logicType) fourni.
+L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -19419,101 +19737,114 @@ Condition utilisée : abs(a) &gt; float.epsilon * 8
 		</Record>
 		<Record>
 			<Key>ScriptCommandJr</Key>
-			<Value>Fait un saut relatif de a lignes</Value>
-		</Record>
-		<Record>
-			<Key>ScriptCommandJr</Key>
-			<Value>Fait un saut relatif de a lignes</Value>
+			<Value>Fait un saut relatif de a lignes
+Ligne de destination = Numéro de ligne actuelle + a (avec a != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrdse</Key>
 			<Value>Fait un saut relatif de a lignes si l'appareil est configuré
-L'appareil est defini soit par : 
+L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).
+Ligne de destination = Numéro de ligne actuelle + a (avec a != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrdns</Key>
 			<Value>Fait un saut relatif de a lignes si l'appareil n'est pas configuré
-L'appareil est defini soit par : 
+L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).
+Ligne de destination = Numéro de ligne actuelle + a (avec a != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrlt</Key>
-			<Value>Fait un saut relatif de c lignes si a &lt; b</Value>
+			<Value>Fait un saut relatif de c lignes si a &lt; b
+Ligne de destination = Numéro de ligne actuelle + c (avec c != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrgt</Key>
-			<Value>Fait un saut relatif de c lignes si a &gt; b</Value>
+			<Value>Fait un saut relatif de c lignes si a &gt; b
+Ligne de destination = Numéro de ligne actuelle + c (avec c != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrle</Key>
-			<Value>Fait un saut relatif de c lignes si a &lt;= b</Value>
+			<Value>Fait un saut relatif de c lignes si a &lt;= b
+Ligne de destination = Numéro de ligne actuelle + c (avec c != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrge</Key>
-			<Value>Fait un saut relatif de c lignes si a &gt;= b</Value>
+			<Value>Fait un saut relatif de c lignes si a &gt;= b
+Ligne de destination = Numéro de ligne actuelle + c (avec c != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBreq</Key>
-			<Value>Fait un saut relatif de c lignes si a == b</Value>
+			<Value>Fait un saut relatif de c lignes si a == b
+Ligne de destination = Numéro de ligne actuelle + c (avec c != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrne</Key>
-			<Value>Fait un saut relatif de c lignes si a != b</Value>
+			<Value>Fait un saut relatif de c lignes si a != b
+Ligne de destination = Numéro de ligne actuelle + c (avec c != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrap</Key>
 			<Value>Fait un saut relatif de d lignes si a ~ b avec une tolérance de c.
 Condition utilisée : abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)
 (float.epsilon représente la plus petite différence détectable entre deux nombres flottants. C’est la précision minimale au-delà de laquelle deux valeurs sont considérées comme distinctes.)
-    </Value>
+Ligne de destination = Numéro de ligne actuelle + d (avec d != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrna</Key>
 			<Value>Fait un saut relatif de d lignes si a !~ b avec une tolérance de c.
 Condition utilisée : abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)
 (float.epsilon représente la plus petite différence détectable entre deux nombres flottants. C’est la précision minimale au-delà de laquelle deux valeurs sont considérées comme distinctes.)
-    </Value>
+Ligne de destination = Numéro de ligne actuelle + d (avec d != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrltz</Key>
-			<Value>Fait un saut relatif de b lignes si a &lt; 0</Value>
+			<Value>Fait un saut relatif de b lignes si a &lt; 0
+Ligne de destination = Numéro de ligne actuelle + b (avec b != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrgez</Key>
-			<Value>Fait un saut relatif de b lignes si a &gt;= 0</Value>
+			<Value>Fait un saut relatif de b lignes si a &gt;= 0
+Ligne de destination = Numéro de ligne actuelle + b (avec b != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrlez</Key>
-			<Value>Fait un saut relatif de b lignes si a &lt;= 0</Value>
+			<Value>Fait un saut relatif de b lignes si a &lt;= 0
+Ligne de destination = Numéro de ligne actuelle + b (avec b != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrgtz</Key>
-			<Value>Fait un saut relatif de b lignes si a &gt; 0</Value>
+			<Value>Fait un saut relatif de b lignes si a &gt; 0
+Ligne de destination = Numéro de ligne actuelle + b (avec b != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBreqz</Key>
-			<Value>Fait un saut relatif de b lignes si a == 0</Value>
+			<Value>Fait un saut relatif de b lignes si a == 0
+Ligne de destination = Numéro de ligne actuelle + b (avec b != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrnez</Key>
-			<Value>Fait un saut relatif de b lignes si a != 0</Value>
+			<Value>Fait un saut relatif de b lignes si a != 0
+Ligne de destination = Numéro de ligne actuelle + b (avec b != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrapz</Key>
 			<Value>Fait un saut relatif de c lignes si a ~ 0.
 Condition utilisée : abs(a) &lt;= float.epsilon * 8
-(float.epsilon représente la plus petite différence détectable entre deux nombres flottants. C’est la précision minimale au-delà de laquelle deux valeurs sont considérées comme distinctes.)</Value>
+(float.epsilon représente la plus petite différence détectable entre deux nombres flottants. C’est la précision minimale au-delà de laquelle deux valeurs sont considérées comme distinctes.)
+Ligne de destination = Numéro de ligne actuelle + c (avec c != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBrnaz</Key>
 			<Value>Fait un saut relatif de c lignes si a !~ 0.
 Condition utilisée : abs(a) &gt; float.epsilon * 8
-(float.epsilon représente la plus petite différence détectable entre deux nombres flottants. C’est la précision minimale au-delà de laquelle deux valeurs sont considérées comme distinctes.)</Value>
+(float.epsilon représente la plus petite différence détectable entre deux nombres flottants. C’est la précision minimale au-delà de laquelle deux valeurs sont considérées comme distinctes.)
+Ligne de destination = Numéro de ligne actuelle + c (avec c != 0 et != 1)</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandJal</Key>
@@ -19522,7 +19853,7 @@ Condition utilisée : abs(a) &gt; float.epsilon * 8
 		<Record>
 			<Key>ScriptCommandBdseal</Key>
 			<Value>Saute à la ligne a si l'appareil est configuré et stocke le numéro de la ligne suivante dans ra.
-L'appareil est defini soit par : 
+L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -19530,7 +19861,7 @@ L'appareil est defini soit par :
 		<Record>
 			<Key>ScriptCommandBdnsal</Key>
 			<Value>Saute à la ligne a si l'appareil n'est pas configuré et stocke le numéro de la ligne suivante dans ra.
-L'appareil est defini soit par : 
+L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -20947,7 +21278,7 @@ Un {THING:StructureWaterPurifier} peut être utilisé pour la reconvertir de nou
 		</Record>
 		<Record>
 			<Key>MoleNitrousOxideDescription</Key>
-			<Value>Le protoxyde d'azote est un gaz réactif qui rendra les {LINK:Stationeers;Stationeers} inconscients s'ils l'inhalent. Il agit comme un oxydant pour la combustion et permet aux volatils de brûler de manière significativement plus chaude, plus rapide et à une température d'auto-inflammation plus basse (50°C) :
+			<Value>Le protoxyde d'azote est un gaz réactif qui rendra les {LINK:Stationeers;Stationeers} inconscients s'ils l'inhalent. Il agit comme un oxydant pour la combustion et permet aux {GAS:Volatiles} de brûler de manière significativement plus chaude, plus rapide et à une température d'auto-inflammation plus basse (50°C) :
 			
 1 {GAS:Volatiles} + 1 {GAS:NitrousOxide} -&gt; 2 {GAS:Nitrogen} + 2 {GAS:CarbonDioxide} + chaleur (~5 757°C).
 
@@ -21195,7 +21526,7 @@ L'{GAS:LiquidHydrogen} introduit dans l'atmosphère s'évaporera rapidement en {
 		<Record>
 			<Key>StationpediaPrefabName</Key>
 			<Value>Nom du préfabriqué :
-</Value>
+ </Value>
 		</Record>
 		<Record>
 			<Key>StationpediaTypeHash</Key>
@@ -21331,7 +21662,7 @@ L'{GAS:LiquidHydrogen} introduit dans l'atmosphère s'évaporera rapidement en {
 		</Record>
 		<Record>
 			<Key>StationpediaRocketMassContribution</Key>
-			<Value>Contribution à la masse de la fusée :</Value>
+			<Value>Masse ajoutée à la fusée :</Value>
 		</Record>
 		<Record>
 			<Key>StationpediaRocketMaxThrust</Key>
@@ -21671,11 +22002,11 @@ L'{GAS:LiquidHydrogen} introduit dans l'atmosphère s'évaporera rapidement en {
 		</Record>
 		<Record>
 			<Key>WorldObjectiveResolveContact</Key>
-			<Value>Connectez une antenne parabolique et établir une connexion avec un commerçant</Value>
+			<Value>Connectez une antenne parabolique et établissez une connexion avec un commerçant</Value>
 		</Record>
 		<Record>
 			<Key>WorldObjectiveContactLand</Key>
-			<Value>Établir une connexion avec un commerçant et l'appeler pour qu'il atterrisse</Value>
+			<Value>Établissez une connexion avec un commerçant et l'appelez pour qu'il atterrisse</Value>
 		</Record>
 		<Record>
 			<Key>WorldObjectiveBuildPowerInfo</Key>
@@ -21687,7 +22018,7 @@ L'{GAS:LiquidHydrogen} introduit dans l'atmosphère s'évaporera rapidement en {
 		</Record>
 		<Record>
 			<Key>WorldObjectiveDeepMinersInfo</Key>
-			<Value>Une {THING:StructureDeepMiner} peut être utilisé pour récolter un flux constant de ressources. Une {THING:StructureRocketManufactory} peut imprimer les pièces nécessaires pour construire une fusée minière pour collecter du minerai et des glaces des astéroïdes voisins</Value>
+			<Value>Une {THING:StructureDeepMiner} peut être utilisée pour récolter un flux constant de ressources. Une {THING:StructureRocketManufactory} peut imprimer les pièces nécessaires pour construire une fusée minière pour collecter du minerai et des glaces des astéroïdes voisins</Value>
 		</Record>
 		<Record>
 			<Key>WorldObjectiveBuildStackerInfo</Key>
@@ -23293,7 +23624,7 @@ Fabrication</Value>
 		</Record>
 		<Record>
 			<Key>CircuitboardHashDisplayConfigTitle</Key>
-			<Value>CONFIGURATION DE L'AFFICHEUR DU HASH</Value>
+			<Value>CONFIGURATION DE L'AFFICHEUR DE HASH</Value>
 		</Record>
 		<Record>
 			<Key>CircuitboardGraphDisplayConfigTitle</Key>
@@ -23543,7 +23874,7 @@ DU SAS</Value>
 		</Record>
 		<Record>
 			<Key>BuyDataHardsuitPackage</Key>
-			<Value>Colis de combinaison rigide</Value>
+			<Value>Colis de combinaison spatiale renforcée</Value>
 		</Record>
 		<Record>
 			<Key>SellDataRubbishCollection</Key>
@@ -27333,7 +27664,7 @@ Vous essayez de vendre plus que ce que le commerçant veut.</Value>
 		<Record>
 			<Key>TransactionFailCreditCard</Key>
 			<Value>Impossible de terminer la transaction :
-Aucune carte de crédit trouvée. La carte de crédit doit être en main ou dans l'emplacement de carte de crédit de votre uniforme.</Value>
+Aucune carte bancaire trouvée. La carte bancaire doit être en main ou dans l'emplacement de carte bancaire de votre uniforme.</Value>
 		</Record>
 		<Record>
 			<Key>TransactionFailInsufficientAvailable</Key>
@@ -28338,7 +28669,7 @@ Doit être comprise entre 25 km et 120 km.</Value>
 		</Record>
 		<Record>
 			<Key>LogicDescriptionCurrentCode</Key>
-			<Value>L'adresse sur la carte spatiale de la cible actuel de la fusée.</Value>
+			<Value>L'adresse sur la carte spatiale de la cible actuelle de la fusée.</Value>
 		</Record>
 		<Record>
 			<Key>LogicDescriptionDestinationCode</Key>
@@ -28412,11 +28743,11 @@ Exprimé sous forme de ratio entre 0 et 1.</Value>
 		</Record>
 		<Record>
 			<Key>LogicDescriptionReferenceId</Key>
-			<Value>Identifiant de référence unique pour cet objet en particuler, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale.</Value>
+			<Value>Identifiant de référence unique pour cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale.</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionGet</Key>
-			<Value>Registre = valeur du tableau à l'adresse fournie d'un appareil qui est defini soit par : 
+			<Value>Registre = valeur du tableau à l'adresse fournie d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -28432,14 +28763,14 @@ Exprimé sous forme de ratio entre 0 et 1.</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionPut</Key>
-			<Value>Stocke la valeur dans le tableau à l'adresse fournie d'un appareil qui est defini soit par : 
+			<Value>Stocke la valeur dans le tableau à l'adresse fournie d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionGetD</Key>
-			<Value>Registre = valeur du tableau à l'adresse fournie d'un appareil qui est defini soit par : 
+			<Value>Registre = valeur du tableau à l'adresse fournie d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
 - la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
@@ -30536,12 +30867,22 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>AirlockPressurize</Key>
-			<Value>&lt;size=90%&gt;PRESSURISA-
+			<Value>&lt;size=80%&gt;PRESSURISA-
 TION&lt;/size&gt;</Value>
 		</Record>
 		<Record>
 			<Key>AirlockDepressurize</Key>
-			<Value>&lt;size=90%&gt;DÉPRESSURISA-
+			<Value>&lt;size=80%&gt;DÉPRESSURISA-
+TION&lt;/size&gt;</Value>
+		</Record>
+		<Record>
+			<Key>AirlockPresurize</Key>
+			<Value>&lt;size=80%&gt;PRESSURISA-
+TION&lt;/size&gt;</Value>
+		</Record>
+		<Record>
+			<Key>AirlockDepresurize</Key>
+			<Value>&lt;size=80%&gt;DÉPRESSURISA-
 TION&lt;/size&gt;</Value>
 		</Record>
 		<Record>
