@@ -2459,6 +2459,10 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>Small Tank</Value>
     </RecordThing>
     <RecordThing>
+        <Key>StructureTankSmallInLine</Key>
+        <Value>Small Tank</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureTankSmallAir</Key>
       <Value>Small Tank (Air)</Value>
     </RecordThing>
@@ -3137,6 +3141,10 @@ Note that transformers operate as data isolators, preventing data flowing into a
     <RecordThing>
       <Key>StructureTankBig</Key>
       <Value>Large Tank</Value>
+    </RecordThing>
+    <RecordThing>
+        <Key>StructureTankBigInLine</Key>
+        <Value>Large Tank</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemPotato</Key>
@@ -5226,6 +5234,15 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
       <Value>Tank Big (Insulated)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>StructureTankSmallInsulatedInLine</Key>
+      <Value>Tank Small (Insulated)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureTankBigInsulatedInLine</Key>
+      <Value>Tank Big (Insulated)</Value>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitTankInsulated</Key>
       <Value>Kit (Insulated Tank)</Value>
       <Description />
@@ -5860,6 +5877,16 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
       <Description />
     </RecordThing>
     <RecordThing>
+       <Key>StructureLiquidTankBigInLine</Key>
+       <Value>Liquid Tank Big</Value>
+       <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLiquidTankSmallInLine</Key>
+      <Value>Liquid Tank Small</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitLiquidTank</Key>
       <Value>Kit (Liquid Tank)</Value>
       <Description />
@@ -5878,6 +5905,16 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
       <Key>StructureLiquidTankSmallInsulated</Key>
       <Value>Liquid Tank Small (Insulated)</Value>
       <Description />
+    </RecordThing>
+    <RecordThing>
+        <Key>StructureLiquidTankBigInsulatedInLine</Key>
+        <Value>Liquid Tank Big (Insulated)</Value>
+        <Description />
+    </RecordThing>
+    <RecordThing>
+        <Key>StructureLiquidTankSmallInsulatedInLine</Key>
+        <Value>Liquid Tank Small (Insulated)</Value>
+        <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemWaterPipeMeter</Key>
@@ -6939,8 +6976,18 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     <RecordThing>
       <Key>StructureDeepMiner</Key>
       <Value>Deep Miner</Value>
-      <Description>Drills through terrain until it hits bedrock. Once inside bedrock {THING:ItemDirtyOre} is produced roughly every 90s</Description>
+      <Description>Drills through terrain until it hits bedrock. Once inside bedrock {THING:ItemDirtyOre} is produced roughly every 90s. The type of ore mined will vary by location, you can read the make-up of ore mined at any position using the {THING:CartridgeDeepMiner}</Description>
     </RecordThing>
+      <RecordThing>
+        <Key>StructureCombustionDeepMiner</Key>
+        <Value>Combustion Deep Miner</Value>
+          <Description>The Combustion Deep Miner is a gas fuel powered version of the {THING:StructureDeepMiner}. The machine's RPMs must be controlled via the throttle and combustion limiter levers. If the Combustion Deep Miner gains, or loses, RPMs too fast it will experience stress, and eventually grind to a halt. 
+Higher RPMs directly result in faster mining speeds. 
+The throttle lever controls the amount of fuel being pulled into the machine, increasing the temperature inside the engine, and leading to an increase in RPM. 
+The limiter lever influences the speed of the combustion, and how much uncombusted gas is in the exhaust. 
+Turning the machine off will reduce RPMs in a controlled manner.
+          </Description>
+      </RecordThing>
     <RecordThing>
       <Key>StructureSleeperVertical</Key>
       <Value>Sleeper Vertical</Value>
@@ -6971,10 +7018,15 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
       <Value>Kit (Deep Miner)</Value>
       <Description />
     </RecordThing>
+      <RecordThing>
+          <Key>ItemKitCombustionDeepMiner</Key>
+          <Value>Kit (Combustion Deep Miner)</Value>
+          <Description />
+      </RecordThing>
     <RecordThing>
       <Key>ItemDirtyOre</Key>
       <Value>Dirty Ore</Value>
-      <Description>Ore mined from bedrock via the {THING:StructureDeepMiner} which then can be used in the {THING:StructureCentrifuge}, or {THING:StructureCombustionCentrifuge}. Once processed, it produces ore in a ratio similar to the average found on the planet's surface. </Description>
+      <Description>Ore mined from bedrock via the {THING:StructureDeepMiner} which then can be processed in the {THING:StructureCentrifuge}, or {THING:StructureCombustionCentrifuge}. The type of ore created once processed will vary depending on the area in which the deep ore was mined. To found out what minerals can be mined in any area use the {Thing:CartridgeDeepMiner}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteFlipFlopSplitter</Key>
@@ -6989,7 +7041,7 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
     <RecordThing>
       <Key>StructureCombustionCentrifuge</Key>
       <Value>Combustion Centrifuge</Value>
-      <Description>The Combustion Centrifuge is a gas powered version of the {THING:StructureCentrifuge}. If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs {LINK:ReagentPage;reagent} mixture rather than the desired {LINK:IngotPage;ingots}, a centrifuge allows you to reclaim the raw {LINK:OrePage;ore}.
+      <Description>The Combustion Centrifuge is a gas fuel powered version of the {THING:StructureCentrifuge}. If a {THING:StructureRecycler} or unbalanced {THING:StructureFurnace} outputs {LINK:ReagentPage;reagent} mixture rather than the desired {LINK:IngotPage;ingots}, a centrifuge allows you to reclaim the raw {LINK:OrePage;ore}.
         It also refines {THING:ItemDirtyOre} produced from the {THING:StructureDeepMiner} and {THING:ItemSpaceOre} produced from the {THING:StructureRocketMiner}. A combustible fuel mix should be supplied to the gas input, and waste gasses should be vented from the output. 
         The machine's RPMs must be controlled via the throttle and combustion limiter levers. If the Combustion Centrifuge gains, or loses, RPMs too fast it will experience stress, and eventually grind to a halt.  Higher RPMs directly result in faster processing speeds. 
         The throttle lever controls the amount of fuel being pulled into the machine, increasing the temperature inside the engine, and leading to an increase in RPM. The limiter lever influences the speed of the combustion, and how much uncombusted gas is in the exhaust. 
@@ -9114,7 +9166,7 @@ It is liquid cooled for superb thermal performance and boasts superior resistanc
     <RecordThing>
       <Key>CartridgeDeepMiner</Key>
       <Value>Cartridge (Deep Miner)</Value>
-      <Description />
+        <Description>Displays the makeup of ore mined at this location using a {THING:StructureDeepMiner}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCircuitHousingCompact</Key>
