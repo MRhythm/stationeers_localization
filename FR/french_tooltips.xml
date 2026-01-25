@@ -21,7 +21,7 @@
 		</Record>
 		<Record>
 			<Key>StatusIconHydrationDesc</Key>
-			<Value>Le niveau d’hydratation est faible</Value>
+			<Value>Le niveau d'hydratation est faible</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconHydrationKey</Key>
@@ -77,7 +77,7 @@
 		</Record>
 		<Record>
 			<Key>StatusIconTemperatureDesc</Key>
-			<Value>Température à l’intérieur de votre combinaison</Value>
+			<Value>Température à l'intérieur de votre combinaison</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconTempuratureWarning</Key>
@@ -93,6 +93,10 @@
 		</Record>
 		<Record>
 			<Key>StatusIconLeakingDesc</Key>
+			<Value>La combinaison est percée, réparez-la avec du ruban adhésif</Value>
+		</Record>
+		<Record>
+			<Key>StatuclconLeakingDesc</Key>
 			<Value>La combinaison est percée, réparez-la avec du ruban adhésif</Value>
 		</Record>
 		<Record>
@@ -129,7 +133,7 @@
 		</Record>
 		<Record>
 			<Key>StatusIconInSlotName</Key>
-			<Value>Vous êtes à l’intérieur d’un emplacement</Value>
+			<Value>Vous êtes à l'intérieur d'un emplacement</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconInSlotDesc</Key>
@@ -157,11 +161,11 @@
 		</Record>
 		<Record>
 			<Key>StatusIconStunName</Key>
-			<Value>Pourcentage d’étourdissements</Value>
+			<Value>Pourcentage d'étourdissements</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconStunDesc</Key>
-			<Value>Le niveau d’étourdissement est élevé</Value>
+			<Value>Le niveau d'étourdissement est élevé</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconStunKey</Key>
@@ -169,11 +173,11 @@
 		</Record>
 		<Record>
 			<Key>StunCaution</Key>
-			<Value>Attention : Niveau d’étourdissement élevé</Value>
+			<Value>Attention : Niveau d'étourdissement élevé</Value>
 		</Record>
 		<Record>
 			<Key>StunCritical</Key>
-			<Value>État d’étourdissement critique</Value>
+			<Value>État d'étourdissement critique</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconAirTankName</Key>
@@ -193,7 +197,7 @@
 		</Record>
 		<Record>
 			<Key>StatusIconFilterName</Key>
-			<Value>Capacité de filtre</Value>
+			<Value>Capacité des filtres</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconFilterDesc</Key>
@@ -249,7 +253,8 @@
 		</Record>
 		<Record>
 			<Key>DeconstructCanisterFull</Key>
-			<Value>Impossible de déconstruire. Le réservoir doit être vide</Value>
+			<Value>Impossible de déconstruire :
+Le réservoir doit être vide</Value>
 		</Record>
 		<Record>
 			<Key>StatusIconLeavingAreaName</Key>
