@@ -898,7 +898,7 @@ Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit i
 		<RecordThing>
 			<Key>CircuitboardPowerControl</Key>
 			<Value>Circuit imprimé (Contrôleur d'alimentation)</Value>
-			<Description>Sous des soleils lointains et des environnements exigeants, les systèmes {LINK:Stationeers;Stationeer} doivent conjuguer fiabilité, résilience et polyvalence. Ce circuit imprimé permet d'activer et de désactiver à distance les appareils sélectionnés, en désactivant le fonctionnement manuel.
+			<Description>Sous des soleils lointains et des environnements exigeants, les systèmes {LINK:Stationeers;Stationeers} doivent conjuguer fiabilité, résilience et polyvalence. Ce circuit imprimé permet d'activer et de désactiver à distance les appareils sélectionnés, en désactivant le fonctionnement manuel.
 
 Le circuit imprimé a deux modes: 
 - "Liaison" allume ou éteint tous les appareils 
@@ -931,7 +931,7 @@ Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit i
 		<RecordThing>
 			<Key>DynamicCrate</Key>
 			<Value>Caisse</Value>
-			<Description>La modeste caisse est devenue un symbole de l'invention et de l'indépendance des {LINK:Stationeers;Stationeer}. Avec douze emplacements et des poignées à chaque extrémité pour faciliter le transport, elle est à la fois une fourniture standard et un équipement essentiel pour les cadets et commandants.</Description>
+			<Description>La modeste caisse est devenue un symbole de l'invention et de l'indépendance des {LINK:Stationeers;Stationeers}. Avec douze emplacements et des poignées à chaque extrémité pour faciliter le transport, elle est à la fois une fourniture standard et un équipement essentiel pour les cadets et commandants.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicCrateBuildingSupplies</Key>
@@ -952,50 +952,50 @@ Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit i
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterAir</Key>
-			<Value>Réservoir portable de gaz (Air)</Value>
+			<Value>Réservoir de gaz portable (Air)</Value>
 			<Description>Les réservoirs portables de gaz ont une seule fonction : stocker du gaz. Mais il y a beaucoup de choses à faire avec eux. Pour remplir le réservoir, fixez-le à un {THING:ItemTankConnector}, puis connectez-le à un réseau de tuyaux. Essayez d'éviter de dépasser 10 MPa, sinon des choses fâcheuses peuvent arriver. Une fois qu'il est plein, vous pouvez remplir une {THING:ItemGasCanisterOxygen} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ventiler la vanne à débit variable du réservoir dans une pièce et créer une atmosphère. Ils peuvent également être attachés à des rovers et des fusées. Comme alternative, renversez-le et entraînez-vous à faire des roulades. Les possibilités sont infinies.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterCarbonDioxide</Key>
-			<Value>Réservoir portable de gaz (Dioxyde de carbone)</Value>
+			<Value>Réservoir de gaz portable (Dioxyde de carbone)</Value>
 			<Description>Les réservoirs portables de gaz ont une seule fonction : stocker du gaz. Pour remplir le réservoir, fixez-le à un {THING:ItemTankConnector}, puis connectez-le à un réseau de tuyaux. Essayez d'éviter de dépasser 10 MPa, sinon... boom. Une fois qu'il est plein, vous pouvez remplir une {THING:ItemGasCanisterCarbonDioxide} en l'attachant à la section rayée du réservoir. Vous pouvez également ventiler la vanne à débit variable du réservoir dans une pièce et créer une atmosphère... D'un certain genre.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterEmpty</Key>
-			<Value>Réservoir portable de gaz</Value>
+			<Value>Réservoir de gaz portable</Value>
 			<Description>Les réservoirs portables de gaz stockent du gaz. Pour en recharger un, fixez-le à un {THING:ItemTankConnector} en utilisant une {THING:ItemWrench}, puis connectez-le à un réseau de tuyaux. Essayez d'éviter de dépasser 10 MPa, sinon... boum. Une fois plein, vous pouvez recharger une {THING:ItemGasCanisterEmpty} en la fixant à la section rayée du réservoir. Vous pouvez également ventiler la vanne à débit variable du réservoir dans une pièce pour créer une atmosphère.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterFuel</Key>
-			<Value>Réservoir portable de gaz (Carburant)</Value>
+			<Value>Réservoir de gaz portable (Carburant)</Value>
 			<Description>Les réservoirs portables de gaz stockent du gaz. Pour en recharger un, fixez-le à un {THING:ItemTankConnector} en utilisant une {THING:ItemWrench}, puis connectez-le à un réseau de tuyaux. Essayez d'éviter de dépasser 10 MPa, sinon... boum. Vous pouvez recharger une {THING:ItemGasCanisterFuel} en la fixant à la section rayée du réservoir. Vous pouvez aussi utiliser une {THING:ItemWrench} pour le boulonner à un rover ou à une fusée pour plus tard. C'est vraiment à vous de décider.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterNitrogen</Key>
-			<Value>Réservoir portable de gaz (Azote)</Value>
+			<Value>Réservoir de gaz portable (Azote)</Value>
 			<Description>Les réservoirs portables de gaz stockent du gaz. Pour en recharger un, fixez-le à un {THING:ItemTankConnector} en utilisant une {THING:ItemWrench}, puis connectez-le à un réseau de tuyaux. Essayez d'éviter de dépasser 10 MPa, sinon... boum. Vous pouvez recharger une {THING:ItemGasCanisterNitrogen} en la fixant à la section rayée du réservoir. Vous pouvez aussi utiliser une {THING:ItemWrench} pour le boulonner à un rover ou à une fusée pour plus tard. C'est vraiment à vous de décider.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterOxygen</Key>
-			<Value>Réservoir portable de gaz (Oxygène)</Value>
+			<Value>Réservoir de gaz portable (Oxygène)</Value>
 			<Description>Les réservoirs portables de gaz stockent du gaz. Si vous devez remplir un réservoir, fixez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de tuyaux. Essayez d'éviter de dépasser 10 MPa, ramasser des éclats de réservoir sur votre visage. Vous pouvez remplir une {THING:ItemGasCanisterOxygen} en l'attachant à la section rayée du réservoir. Ou vous pouvez le ventiler dans une pièce scellée pour créer une atmosphère. Ou même le peindre en rose, l'appeler Steve et combler cet espace triste dans votre coeur.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterVolatiles</Key>
-			<Value>Réservoir portable de gaz (Volatils)</Value>
+			<Value>Réservoir de gaz portable (Volatils)</Value>
 			<Description>Les réservoirs portables de gaz stockent du gaz. Pour en recharger un, fixez-le à un {THING:ItemTankConnector} en utilisant une {THING:ItemWrench}, puis connectez-le à un réseau de tuyaux. Essayez d'éviter de dépasser 10 MPa, à moins que vous ne soyez du genre à adorer les urgences compliquées et inflammables. Vous pouvez recharger une {THING:ItemGasCanisterVolatiles} en la fixant à la section rayée du réservoir. Vous pouvez aussi utiliser une {THING:ItemWrench} pour le boulonner à une fusée et la faire voyager dans le système solaire.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterWater</Key>
-			<Value>Réservoir portable de liquide (Eau)</Value>
+			<Value>Réservoir de liquide portable (Eau)</Value>
 			<Description>Les réservoirs portables de liquide stockent des liquides, et uniquement des liquides. Vous n'avez plus qu'à le remplir. Pour ce faire, boulonnez-en un à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un {THING:StructurePipeLiquidStraight} pour alimenter un réseau en liquide.
-Essayez de ne pas dépasser 10 MPa, sinon vous finirez mouillé, blessé et désolé, sans même vous amuser.
-Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la section rayée du réservoir. Ou vous pouvez utiliser une {THING:ItemWrench} pour l'attacher à une fusée et l'emmener dans un endroit éloigné et sec, puis vous sentir bien dans votre peau.</Description>
+Essayez de ne pas dépasser 10 MPa, sinon vous finirez mouillé, blessé et déçu, sans aucun plaisir.
+Vous pouvez recharger une {THING:ItemGasCanisterWater} en l'attachant à la section rayée du réservoir. Ou vous pouvez utiliser une {THING:ItemWrench} pour l'attacher à une fusée et l'emmener vers des contrées arides et contempler votre réussite.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicLiquidCanisterEmpty</Key>
-			<Value>Réservoir portable de liquide</Value>
-			<Description>Les réservoirs portables de liquide stockent des liquides, et uniquement des liquides. Vous pouvez le boulonner à un {THING:ItemTankConnectorLiquid} en utilisant une {THING:ItemWrench}, puis le connecter à un réseau de tuyaux pour le remplir. Vous pouvez remplir une {THING:ItemGasCanisterWater} en la fixant à la section rayée du réservoir. Ou vous pourriez l'attacher à une fusée à l'aide d'une {THING:ItemWrench} et l'emmener quelque part éloigné et sec, puis vous sentir bien avec vous-même.</Description>
+			<Value>Réservoir de liquide portable</Value>
+			<Description>Les réservoirs portables de liquide stockent des liquides, et uniquement des liquides. Vous pouvez le boulonner à un {THING:ItemTankConnectorLiquid} en utilisant une {THING:ItemWrench}, puis le connecter à un réseau de tuyaux pour le remplir. Vous pouvez remplir une {THING:ItemGasCanisterWater} en la fixant à la section rayée du réservoir. Ou vous pourriez l'attacher à une fusée à l'aide d'une {THING:ItemWrench} et l'emmener vers des contrées arides et contempler votre réussite.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGenerator</Key>
@@ -1152,7 +1152,7 @@ La bobine de câble normal supporte une puissance maximale de 5 kW. Pour des app
 		<RecordThing>
 			<Key>ItemCrowbar</Key>
 			<Value>Pied de biche</Value>
-			<Description>Le pied de biche d'entrée de gamme de {LINK:Recurso;Recurso} est utile dans une variété de tâches du quotidien des {LINK:Stationeers;Stationeer}, de l'ouverture des {THING:StructureAreaPowerControl} et des {THING:StructureAirlock} non alimentés, à l'écrasement des crabes de tête interdimensionnels, si le besoin se présente.</Description>
+			<Description>Le pied de biche d'entrée de gamme de {LINK:Recurso;Recurso} est utile dans une variété de tâches du quotidien des {LINK:Stationeers;Stationeers}, de l'ouverture des {THING:StructureAreaPowerControl} et des {THING:StructureAirlock} non alimentés, à l'écrasement des crabes de tête interdimensionnels, si le besoin se présente.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemDataDisk</Key>
@@ -1566,7 +1566,7 @@ Filtres disponibles :
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitTank</Key>
-			<Value>Kit (Réservoir)</Value>
+			<Value>Kit (Réservoir de gaz)</Value>
 			<Description>Ce kit produit soit un {THING:StructureTankBig}, soit un {THING:StructureTankSmall}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -1887,12 +1887,12 @@ Ce n'est peut-être pas élégant, mais la {THING:ItemOxite} et la {THING:ItemVo
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemTankConnector</Key>
-			<Value>Kit (Connecteur de réservoir portable de gaz)</Value>
+			<Value>Kit (Connecteur de réservoir de gaz portable)</Value>
 			<Description>Ce kit crée un {THING:StructureTankConnector}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemTankConnectorLiquid</Key>
-			<Value>Kit (Connecteur de réservoir portable de liquide)</Value>
+			<Value>Kit (Connecteur de réservoir de liquide portable)</Value>
 			<Description>Ce kit crée un {THING:StructureTankConnectorLiquid}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -2070,7 +2070,7 @@ Deux variantes de contrôleur d'alimentation existent, chacune permettant au cou
 		<RecordThing>
 			<Key>StructureBattery</Key>
 			<Value>Batterie de station (petite)</Value>
-			<Description>Offrant un stockage d'énergie fiable à grande échelle, la batterie de station (petite) de {LINK:Sinotai;Sinotai} surnommée "Batterie" est le coeur de la plupart des bases {LINK:Stationeers;Stationeer}.
+			<Description>Offrant un stockage d'énergie fiable à grande échelle, la batterie de station (petite) de {LINK:Sinotai;Sinotai} surnommée "Batterie" est le coeur de la plupart des bases {LINK:Stationeers;Stationeers}.
 Il existe diverses précautions pour la conception de systèmes électriques utilisant des batteries, et chaque stationnaire expérimenté a une histoire à raconter, d'où l'adage des stationnaires : "La batterie chauffe, mais elle peut aussi cramer." 
 
 {HEADER:PUISSANCE DE SORTIE}
@@ -2095,37 +2095,37 @@ Capable de stocker jusqu'à 3 600 000 Watts d'énergie, il n'y a pas de limites 
 		<RecordThing>
 			<Key>StructureCableCorner</Key>
 			<Value>Câble 5 kW (coin)</Value>
-			<Description>Transportant à la fois l'énergie et les données. La bobine de câble 5 kW est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
+			<Description>Transportant à la fois l'énergie et les données. La bobine de câble 5 kW est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeers}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
 La bobine normale a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableCorner3</Key>
 			<Value>Câble 5 kW (3 jonctions en coin)</Value>
-			<Description>Transportant à la fois l'énergie et les données. La bobine de câble 5 kW est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
+			<Description>Transportant à la fois l'énergie et les données. La bobine de câble 5 kW est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeers}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
 La bobine normale a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableJunction</Key>
 			<Value>Câble 5 kW (3 jonctions en T)</Value>
-			<Description>Transportant à la fois l'énergie et les données. La bobine de câble 5 kW est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
+			<Description>Transportant à la fois l'énergie et les données. La bobine de câble 5 kW est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeers}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
 La bobine normale a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableJunction4</Key>
 			<Value>Câble 5 kW (4 jonctions en croix)</Value>
-			<Description>Transportant à la fois l'énergie et les données. La bobine de câble 5 kW est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
+			<Description>Transportant à la fois l'énergie et les données. La bobine de câble 5 kW est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeers}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
 La bobine normale a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableJunction6</Key>
 			<Value>Câble 5 kW (6 jonctions)</Value>
-			<Description>Transportant à la fois l'énergie et les données. La bobine de câble 5 kW est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
+			<Description>Transportant à la fois l'énergie et les données. La bobine de câble 5 kW est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeers}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
 La bobine normale a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCableStraight</Key>
 			<Value>Câble 5 kW (droit)</Value>
-			<Description>Transportant à la fois l'énergie et les données. La bobine de câble 5 kW est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeer}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
+			<Description>Transportant à la fois l'énergie et les données. La bobine de câble 5 kW est devenue le symbole de l'innovation, de l'indépendance et de la flexibilité de la vie des {LINK:Stationeers;Stationeers}. Elle est tellement essentielle que l'{LINK:ODA;ODA} l'a désignée comme un outil officiel lors de la 3ème conférence solaire décennale des {LINK:Stationeers;Stationeers}.
 La bobine normale a une puissance maximale de 5 kW. Pour des applications à courant plus élevé, utilisez la {THING:ItemCableCoilHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -2157,53 +2157,53 @@ Comme la plupart des systèmes conçus par {LINK:Recurso;Recurso}, les bacs de g
 			<Key>StructureChuteCorner</Key>
 			<Value>Gaine (coin)</Value>
 			<Description>Les gaines servent de tuyaux pour les objets. Utilisez-les pour connecter différents équipements {LINK:ImportExportPage;import/export} tels que le {THING:StructureVendingMachine} et les imprimantes comme l'{THING:StructureAutolathe}.
-	L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
+	L'objectif de tout {LINK:Stationeers;Stationeers} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
 Les coins de gaine sont des composants fondamentaux des réseaux de gaines, qui permettent le transport d'objets entre des machines dotées de fentes {LINK:ImportExportPage;import/export}, comme le {THING:StructureFurnace} et d'autres structures automatisables.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureChuteInlet</Key>
 			<Value>Gaine (entrée)</Value>
-			<Description>L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
+			<Description>L'objectif de tout {LINK:Stationeers;Stationeers} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
 L'entrée de la gaine est une ouverture par laquelle les objets peuvent être introduits dans les réseaux {LINK:ImportExportPage;import/export}. Notez que ses origines dans l'extraction minière en apesanteur signifient que les entrées de gaine ne sont pas alimentées en énergie et sont en permanence ouvertes, plutôt qu'interactives, ce qui permet de jeter des objets. Elles peuvent être connectées à des systèmes de {LINK:LogicUnitPage;logique} pour surveiller le débit.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureChuteJunction</Key>
 			<Value>Gaine (jonction)</Value>
-			<Description>L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
+			<Description>L'objectif de tout {LINK:Stationeers;Stationeers} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
 Les jonctions de gaines sont des composants fondamentaux des réseaux de gaines, permettant la fusion ou la séparation de ces réseaux. Lorsqu'elles sont combinées avec un {THING:StructureSorter} programmé, les objets peuvent être dirigés vers différents chemins vers diverses machines avec des emplacements {LINK:ImportExportPage;import/export}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureChuteOutlet</Key>
 			<Value>Gaine (sortie)</Value>
-			<Description>L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
+			<Description>L'objectif de tout {LINK:Stationeers;Stationeers} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
 La sortie de gaine est une ouverture pour faire sortir les objets des réseaux {LINK:ImportExportPage;import/export}. Notez que l'origine de la sortie dans l'exploitation minière en gravité zéro signifie qu'elles sont en permanence ouvertes, plutôt qu'interactives, mais elles peuvent être connectées à des systèmes de {LINK:LogicUnitPage;logique} pour surveiller le débit.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureChuteStraight</Key>
 			<Value>Gaine (droite)</Value>
 			<Description>Les gaines agissent comme des tuyaux pour les objets. Utilisez-les pour connecter différents équipements {LINK:ImportExportPage;import/export} ensemble, comme le {THING:StructureVendingMachine} et les imprimantes comme l'{THING:StructureAutolathe}.
-L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
+L'objectif de tout {LINK:Stationeers;Stationeers} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
 Les gaines sont des composants fondamentaux des réseaux de gaines, qui permettent le transport d'objets entre n'importe quelle machine ou appareil avec un emplacement {LINK:ImportExportPage;import/export}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureChuteStraight3</Key>
 			<Value>Gaine (droite x3)</Value>
 			<Description>Les gaines agissent comme des tuyaux pour les objets. Utilisez-les pour connecter différents équipements {LINK:ImportExportPage;import/export} ensemble, comme le {THING:StructureVendingMachine} et les imprimantes comme l'{THING:StructureAutolathe}.
-    L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
+    L'objectif de tout {LINK:Stationeers;Stationeers} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
     Les gaines sont des composants fondamentaux des réseaux de gaines, qui permettent le transport d'objets entre n'importe quelle machine ou appareil avec un emplacement {LINK:ImportExportPage;import/export}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureChuteStraight5</Key>
 			<Value>Gaine (droite x5)</Value>
 			<Description>Les gaines agissent comme des tuyaux pour les objets. Utilisez-les pour connecter différents équipements {LINK:ImportExportPage;import/export} ensemble, comme le {THING:StructureVendingMachine} et les imprimantes comme l'{THING:StructureAutolathe}.
-    L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
+    L'objectif de tout {LINK:Stationeers;Stationeers} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
     Les gaines sont des composants fondamentaux des réseaux de gaines, qui permettent le transport d'objets entre n'importe quelle machine ou appareil avec un emplacement {LINK:ImportExportPage;import/export}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureChuteStraight10</Key>
 			<Value>Gaine (droite x10)</Value>
 			<Description>Les gaines agissent comme des tuyaux pour les objets. Utilisez-les pour connecter différents équipements {LINK:ImportExportPage;import/export} ensemble, comme le {THING:StructureVendingMachine} et les imprimantes comme l'{THING:StructureAutolathe}.
-    L'objectif de tout {LINK:Stationeers;Stationeer} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
+    L'objectif de tout {LINK:Stationeers;Stationeers} est de rendre la survie extraterrestre moins difficile pour eux-mêmes et pour ceux qui suivront leurs traces.
     Les gaines sont des composants fondamentaux des réseaux de gaines, qui permettent le transport d'objets entre n'importe quelle machine ou appareil avec un emplacement {LINK:ImportExportPage;import/export}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -2214,7 +2214,7 @@ Les gaines sont des composants fondamentaux des réseaux de gaines, qui permette
 		<RecordThing>
 			<Key>StructureCompositeFloorGrating</Key>
 			<Value>Caillebotis (rectangulaire)</Value>
-			<Description>Alors que l'esthétique occupe une place basse sur l'échelle des préoccupations des {LINK:Stationeers;Stationeer}, les grilles des caillebotis composites permettent de dissimuler les câbles disgracieux sur les sols, les murs et les plafonds.</Description>
+			<Description>Alors que l'esthétique occupe une place basse sur l'échelle des préoccupations des {LINK:Stationeers;Stationeers}, les grilles des caillebotis composites permettent de dissimuler les câbles disgracieux sur les sols, les murs et les plafonds.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCompositeWall</Key>
@@ -2510,8 +2510,8 @@ Affichant la pression interne des réseaux de tuyaux, il lit également la temp�
 		<RecordThing>
 			<Key>StructurePipeRadiator</Key>
 			<Value>Radiateur à convection (petit - gaz)</Value>
-			<Description>Un échangeur de chaleur simple, les radiateurs de tuyaux peuvent être placés sur des tuyaux pour dissiper ou gagner de la chaleur, en fonction de la température de l'atmosphère environnante. Si l'atmosphère est plus chaude, de la chaleur sera ajoutée au gaz dans le réseau de tuyaux, et vice versa si elle est plus froide. Dans le vide, la chaleur sera rayonnée.
-La vitesse de gain ou de perte de chaleur dépendra du gaz en question. L'ajout de plusieurs radiateurs accélérera le transfert de chaleur.</Description>
+			<Description>Les radiateurs à tuyaux sont de simples échangeurs de chaleur que l’on place sur un réseau de tuyaux pour perdre ou gagner de la chaleur selon la température de l’atmosphère environnante. Si l’atmosphère est plus chaude, de la chaleur sera transférée au gaz dans le réseau, et inversement si elle est plus froide. Dans le vide, la chaleur est rayonnée.
+La vitesse de transfert dépend du gaz utilisé. L’ajout de plusieurs radiateurs augmente l’efficacité du transfert.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeStraight</Key>
@@ -2681,7 +2681,12 @@ Pour plus d'informations sur la manière de contrôler les températures, consul
 		<RecordThing>
 			<Key>StructureWallHeater</Key>
 			<Value>Chauffage électrique</Value>
-			<Description>Le chauffage électrique {LINK:Xigo;Xigo} est un appareil simple qui peut être installé sur un mur ou un cadre et connecté à l'alimentation électrique. Lorsqu'il est allumé, il commencera à chauffer l'environnement environnant. Il consomme 1 010 W d'énergie et peut être contrôlé par des puces logiques pour fonctionner lorsque la température atteint un certain niveau.</Description>
+			<Description>Le chauffage électrique {LINK:Xigo;Xigo} est un appareil simple qui peut être installé sur un {THING:StructureWallIron} ou un {THING:StructureFrameIron} et connecté à l'alimentation électrique. Une fois activé, il chauffe l'atmosphère environnante en ajoutant 1000 joules de chaleur par tick (0,5 seconde).
+Conditions de fonctionnement :
+- Pression supérieure à la limite d'Armstrong (6,3 kPa).
+- Température inférieure à 2 500 K (soit environ 2 227°C).
+
+Il consomme 1 010 W d'énergie et peut être contrôlé par des {LINK:LogicUnitPage;réseau logique} pour fonctionner lorsque la température atteint un certain niveau.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWallLight</Key>
@@ -3427,8 +3432,8 @@ La {LINK:OrganicPage;nourriture} et autres {LINK:OrganicPage;éléments organiqu
 			<Key>StructureConsoleLED1x2</Key>
 			<Value>Afficheur LED (moyen)</Value>
 			<Description>Cet afficheur LED affiche par défaut la valeur numérique brute. 
-Son mode {LOGICTYPE:Setting} peut être modifié :
-En activant le mode "String" (texte), il interprète cette valeur comme une séquence de jusqu'à six caractères ASCII. Chaque caractère est stocké sur un octet (8 bits) grâce à des opérations de décalage et/ou de combinaison logique, puis affiché sous forme de texte lisible.
+Son {LOGICTYPE:Mode} peut être modifié :
+En activant le mode 10 (Chaîne de texte), il interprète cette valeur comme une séquence de jusqu'à six caractères ASCII. Chaque caractère est stocké sur un octet (8 bits) grâce à des opérations de décalage et/ou de combinaison logique, puis affiché sous forme de texte lisible.
 Les autres modes permettent de visualiser cette même valeur sous des formes alternatives :
  0 : Par défaut (valeur numérique brute)
  1 : Pourcentage (%)
@@ -3436,22 +3441,24 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
  3 : Kelvin (K)
  4 : Celsius (°C)
  5 : Mètres (m)
- 6 : Crédits ($)
+ 6 : Crédits (€)
  7 : Secondes (s)
  8 : Minutes (min)
  9 : Jours (j)
-10 : Chaîne (texte)
+10 : Chaîne (Texte) utilisez : STR("Texte") via IC10 (6 caractères max)
 11 : Fahrenheit (°F)
 12 : Litres (L)
 13 : Mole (mol)
-14 : Pascal (Pa)</Description>
+14 : Pascal (Pa)
+15 : Newtons (N)
+16 : Angles (°)</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureConsoleLED1x3</Key>
 			<Value>Afficheur LED (grand)</Value>
 			<Description>Cet afficheur LED affiche par défaut la valeur numérique brute. 
-Son mode {LOGICTYPE:Setting} peut être modifié :
-En activant le mode "String" (texte), il interprète cette valeur comme une séquence de jusqu'à six caractères ASCII. Chaque caractère est stocké sur un octet (8 bits) grâce à des opérations de décalage et/ou de combinaison logique, puis affiché sous forme de texte lisible.
+Son {LOGICTYPE:Mode} peut être modifié :
+En activant le mode 10 (Chaîne de texte), il interprète cette valeur comme une séquence de jusqu'à six caractères ASCII. Chaque caractère est stocké sur un octet (8 bits) grâce à des opérations de décalage et/ou de combinaison logique, puis affiché sous forme de texte lisible.
 Les autres modes permettent de visualiser cette même valeur sous des formes alternatives :
  0 : Par défaut (valeur numérique brute)
  1 : Pourcentage (%)
@@ -3459,15 +3466,17 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
  3 : Kelvin (K)
  4 : Celsius (°C)
  5 : Mètres (m)
- 6 : Crédits ($)
+ 6 : Crédits (€)
  7 : Secondes (s)
  8 : Minutes (min)
  9 : Jours (j)
-10 : Chaîne (texte)
+10 : Chaîne (Texte) utilisez : STR("Texte") via IC10 (6 caractères max)
 11 : Fahrenheit (°F)
 12 : Litres (L)
 13 : Mole (mol)
-14 : Pascal (Pa)</Description>
+14 : Pascal (Pa)
+15 : Newtons (N)
+16 : Angles (°)</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>NpcChick</Key>
@@ -4341,7 +4350,7 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		<RecordThing>
 			<Key>StructureSecurityPrinter</Key>
 			<Value>Imprimante de sécurité</Value>
-			<Description>Tout {LINK:Stationeer;Stationeer} soucieux de la sécurité a besoin de l'imprimante de sécurité Vigilant-E conçue par {LINK:Harkwell;Harkwell-designed}. Utilisez le Vigilant-E pour créer une {THING:CartridgeAccessController}, afin de restreindre l'accès à différentes parties de votre base grâce à des cartes d'accès comme la {THING:AccessCardBlue}. L'imprimante fabrique également une variété d'armes et de munitions pour défendre votre base contre toute entité hostile, agressive ou simplement un peu impolie que vous pourriez rencontrer en explorant le système solaire.
+			<Description>Tout {LINK:Stationeer;Stationeers} soucieux de la sécurité a besoin de l'imprimante de sécurité Vigilant-E conçue par {LINK:Harkwell;Harkwell-designed}. Utilisez le Vigilant-E pour créer une {THING:CartridgeAccessController}, afin de restreindre l'accès à différentes parties de votre base grâce à des cartes d'accès comme la {THING:AccessCardBlue}. L'imprimante fabrique également une variété d'armes et de munitions pour défendre votre base contre toute entité hostile, agressive ou simplement un peu impolie que vous pourriez rencontrer en explorant le système solaire.
 </Description>
 		</RecordThing>
 		<RecordThing>
@@ -4518,7 +4527,7 @@ Dotée de systèmes de survie plus performants, elle est indispensable pour expl
 			<Key>ItemHardsuitHelmet</Key>
 			<Value>Casque spatial renforcé</Value>
 			<Description>Le casque spatial renforcé est similaire au {THING:ItemSpaceHelmet}, mais il peut supporter des températures et des pressions plus élevées. Il est parfait pour résister aux environnements hostiles tels que Vénus et Vulcain.</Description>
-					</RecordThing>
+		</RecordThing>
 		<RecordThing>
 			<Key>ItemWearLamp</Key>
 			<Value>Lampe frontale</Value>
@@ -4601,26 +4610,23 @@ En mode configuration, vous pouvez visualiser tous les objets connectés à la {
 Utilisez un {THING:ItemScrewdriver} directement sur le {LINK:LogicPage;circuit imprimé} pour le réinitialiser.
 </Description>
 		</RecordThing>
-<RecordThing>
+		<RecordThing>
 			<Key>ItemKitPressurePlate</Key>
 			<Value>Kit (Plaque de déclenchement)</Value>
 			<Description>Ce kit permet de fabriquer différentes tailles de plaques de pression. Ces dispositifs logiques détectent la présence d'un poids (joueur ou objet) à leur surface pour envoyer un signal via le {LINK:LogicUnitPage;réseau logique}.
 
 Elles sont idéales pour automatiser l'ouverture des portes, activer l'éclairage à votre passage ou créer des systèmes de pesée pour vos cargaisons.</Description>
 		</RecordThing>
-		
 		<RecordThing>
 			<Key>StructurePressurePlateLarge</Key>
 			<Value>Plaque de déclenchement (grande)</Value>
 			<Description>La variante de grande taille, couvrant une zone étendue. Elle est parfaite pour détecter le passage de véhicules ou pour s'assurer qu'un signal est maintenu même si le sujet se déplace sur une large surface.</Description>
 		</RecordThing>
-		
 		<RecordThing>
 			<Key>StructurePressurePlateMedium</Key>
 			<Value>Plaque de déclenchement (moyenne)</Value>
 			<Description>Une plaque de taille intermédiaire offrant un excellent compromis entre encombrement et zone de détection.</Description>
 		</RecordThing>
-		
 		<RecordThing>
 			<Key>StructurePressurePlateSmall</Key>
 			<Value>Plaque de déclenchement (petite)</Value>
@@ -4628,12 +4634,12 @@ Elles sont idéales pour automatiser l'ouverture des portes, activer l'éclairag
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicCanister</Key>
-			<Value>Kit (Réservoir portable de gaz)</Value>
+			<Value>Kit (Réservoir de gaz portable)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicLiquidCanister</Key>
-			<Value>Kit (Réservoir portable de liquide)</Value>
+			<Value>Kit (Réservoir de liquide portable)</Value>
 			<Description>Ce kit produit un {THING:DynamicLiquidCanisterEmpty}.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -5087,7 +5093,7 @@ Lorsqu'elle est connectée à un {THING:StructureComputer} contenant une {THING:
 			<Key>DynamicPortal</Key>
 			<Value>Portail dynamique</Value>
 		</RecordThing>
-<RecordThing>
+		<RecordThing>
 			<Key>ItemArcWelder</Key>
 			<Value>Soudeur à arc</Value>
 			<Description>Le soudeur à arc est une alternative avancée au {THING:ItemWeldingTorch} conventionnel. Contrairement au modèle à combustion, il utilise une {THING:ItemBatteryCell} pour générer un arc électrique à haute intensité capable de fusionner les structures.
@@ -5148,11 +5154,11 @@ L'absence de combustion élimine le besoin de gérer des mélanges de carburant.
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterNitrousOxide</Key>
-			<Value>Réservoir portable de gaz (Protoxyde d'azote)</Value>
+			<Value>Réservoir de gaz portable (Protoxyde d'azote)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterPollutants</Key>
-			<Value>Réservoir portable de gaz (Polluants)</Value>
+			<Value>Réservoir de gaz portable (Polluants)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>Lander</Key>
@@ -5345,67 +5351,56 @@ UTILISATION (touche par défaut) :
 			<Value>Casque de secours</Value>
 			<Description>Un casque rudimentaire fourni par le protocole de récupération d'urgence. Bien que fonctionnel, son isolation est médiocre et il ne doit être utilisé que le temps de retrouver un équipement standard.</Description>
 		</RecordThing>
-
 		<RecordThing>
 			<Key>ItemEmergencyArcWelder</Key>
 			<Value>Soudeur à arc de secours</Value>
 			<Description>Un dispositif de soudure bas de gamme issu des stocks de surplus. Sa fiabilité à long terme est douteuse, mais il suffira pour vos premières réparations critiques après un déploiement d'urgence.</Description>
 		</RecordThing>
-
 		<RecordThing>
 			<Key>ItemEmergencyDrill</Key>
 			<Value>Perceuse de secours</Value>
 			<Description>Une perceuse d'entrée de gamme, légère et peu puissante. Utilisée pour le montage de base des structures de survie immédiate.</Description>
 		</RecordThing>
-
 		<RecordThing>
 			<Key>ItemEmergencyAngleGrinder</Key>
 			<Value>Meuleuse de secours</Value>
 			<Description>Outil de découpe minimaliste. Sa vitesse de rotation instable rappelle constamment à l'utilisateur qu'il s'agit d'un matériel de dernier recours.</Description>
 		</RecordThing>
-
 		<RecordThing>
 			<Key>ItemEmergencyCrowbar</Key>
 			<Value>Pied de biche de secours</Value>
 			<Description>Un levier en acier de basse qualité. Lourd et mal équilibré, mais essentiel pour débloquer les accès forcés lors d'une réinitialisation de mission.</Description>
 		</RecordThing>
-
 		<RecordThing>
 			<Key>ItemEmergencyPickaxe</Key>
 			<Value>Pioche de secours</Value>
 			<Description>Une simple pioche manuelle pour l'extraction de minerai de fortune. Demande un effort physique considérable comparé aux modèles motorisés.</Description>
 		</RecordThing>
-
 		<RecordThing>
 			<Key>ItemEmergencyWrench</Key>
 			<Value>Clé à molette de secours</Value>
 			<Description>Une clé à molette basique sujette au jeu mécanique. Remplissez vos objectifs de construction rapidement pour passer à un outillage professionnel.</Description>
 		</RecordThing>
-
 		<RecordThing>
 			<Key>ItemEmergencyWireCutters</Key>
 			<Value>Pince coupante de secours</Value>
 			<Description>Outil de coupe rudimentaire. Convient pour le câblage de fortune et les réparations électriques de base.</Description>
 		</RecordThing>
-
 		<RecordThing>
 			<Key>ItemEmergencyScrewdriver</Key>
 			<Value>Tournevis de secours</Value>
 			<Description>Un tournevis standard sans options de confort. Indispensable pour ajuster les paramètres de vos premières unités logiques après une perte d'équipement.</Description>
 		</RecordThing>
-
 		<RecordThing>
 			<Key>ItemEmergencyEvaSuit</Key>
 			<Value>Combinaison spatiale de secours</Value>
 			<Description>Une combinaison de survie à usage limité. Son autonomie thermique et sa capacité de pressurisation sont minimales ; la prudence est de mise tant qu'un modèle standard n'est pas acquis.</Description>
 		</RecordThing>
-
 		<RecordThing>
 			<Key>ItemEmergencySpaceHelmet</Key>
 			<Value>Casque spatial de secours</Value>
 			<Description>Un casque rudimentaire fourni par le protocole de récupération d'urgence. Bien que fonctionnel, son isolation est médiocre et il ne doit être utilisé que le temps de retrouver un équipement standard.</Description>
 		</RecordThing>
-
 		<RecordThing>
 			<Key>ItemEmergencyToolBelt</Key>
 			<Value>Ceinture d'outils de secours</Value>
@@ -5786,7 +5781,7 @@ Avec un {THING:ItemIntegratedCircuit10} dans l'emplacement {SLOT:ProgrammableChi
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasCanisterRocketFuel</Key>
-			<Value>Réservoir portable de gaz (carburant fusée)</Value>
+			<Value>Réservoir de gaz portable (carburant fusée)</Value>
 		</RecordThing>
 		<RecordThing>
 			<Key>ModularRocketCommand01Lander</Key>
@@ -6037,7 +6032,7 @@ Avec un {THING:ItemIntegratedCircuit10} dans l'emplacement {SLOT:ProgrammableChi
 		<RecordThing>
 			<Key>StructureBatteryLarge</Key>
 			<Value>Batterie de station (grande)</Value>
-			<Description>Offrant un stockage d'énergie fiable à grande échelle, encore meilleure que la {THING:StructureBattery}, la batterie de station (grande) de {LINK:Sinotai;Sinotai} surnommée "Grande Batterie" est le coeur de la plupart des bases {LINK:Stationeers;Stationeer}.
+			<Description>Offrant un stockage d'énergie fiable à grande échelle, encore meilleure que la {THING:StructureBattery}, la batterie de station (grande) de {LINK:Sinotai;Sinotai} surnommée "Grande Batterie" est le coeur de la plupart des bases {LINK:Stationeers;Stationeers}.
 Il existe diverses précautions pour la conception de systèmes électriques utilisant des batteries, et chaque stationnaire expérimenté a une histoire à raconter, d'où l'adage des stationnaires : "La Grande Batterie chauffe, mais elle peut aussi cramer." 
 
 {HEADER:PUISSANCE DE SORTIE}
@@ -6075,12 +6070,12 @@ Capable de stocker jusqu'à 9 000 001 watts d'énergie, il n'y a pas de limites 
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasTankAdvanced</Key>
-			<Value>Réservoir portable de gaz Nv2</Value>
+			<Value>Réservoir de gaz portable Nv2</Value>
 			<Description>Les réservoirs de gaz portables Nv2 sont isolés. Pour en remplir un, boulonnez-le à un {THING:ItemTankConnector} à l'aide d'une {THING:ItemWrench}, puis connectez-le à un réseau de canalisations. Essayez d'éviter de le pousser au-dessus de 20 MPa, ou vous aurez des surprises. Une fois qu'il est plein, vous pouvez recharger une {THING:ItemGasCanisterEmpty} en l'attachant à la section rayée du réservoir. Vous pouvez aussi ouvrir/fermer la vanne à débit variable du réservoir dans une pièce et créer une atmosphère.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicGasTankAdvanced</Key>
-			<Value>Kit (Réservoir portable de gaz Nv2)</Value>
+			<Value>Kit (Réservoir de gaz portable Nv2)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -6367,20 +6362,19 @@ Si le Broyeur de glace est plein, il n'acceptera pas d'autre glace tant que le c
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasTankAdvancedOxygen</Key>
-			<Value>Réservoir portable de gaz Nv2 (Oxygène)</Value>
+			<Value>Réservoir de gaz portableNv2 (Oxygène)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicGasTankAdvancedWater</Key>
-			<Value>Réservoir portable de liquide Nv2 (Eau)</Value>
+			<Value>Réservoir de liquide portable Nv2 (Eau)</Value>
 			<Description>Une version isolée du {THING:DynamicMKIILiquidCanisterWater}, vous pouvez stocker de l'eau dans l'emplacement {SLOT:GasCanister} sans qu'elle ne gagne ni ne perde de température.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidPipeRadiator</Key>
 			<Value>Radiateur à convection (petit - liquide)</Value>
-			<Description>Les radiateurs à tuyaux sont de simples échangeurs de chaleur qui peuvent être placés sur des tuyaux
-  pour perdre ou gagner de la chaleur, en fonction de la température de l'atmosphère environnante. Si l'atmosphère est plus chaude, de la chaleur sera ajoutée au liquide à l'intérieur du réseau de tuyaux, et vice versa si elle est plus froide. Dans le vide, la chaleur sera rayonnée.
-La vitesse de gain ou de perte de chaleur dépendra du liquide en question. Ajouter plusieurs radiateurs accélérera le transfert de chaleur.</Description>
+			<Description>Les radiateurs à tuyaux sont de simples échangeurs de chaleur que l’on place sur un réseau de tuyaux pour perdre ou gagner de la chaleur selon la température de l’atmosphère environnante. Si l’atmosphère est plus chaude, de la chaleur sera transférée au liquide dans le réseau, et inversement si elle est plus froide. Dans le vide, la chaleur est rayonnée. 
+La vitesse de transfert dépend du liquide utilisé. L’ajout de plusieurs radiateurs augmente l’efficacité du transfert.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPipeLiquidRadiator</Key>
@@ -6389,17 +6383,17 @@ La vitesse de gain ou de perte de chaleur dépendra du liquide en question. Ajou
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicMKIILiquidCanisterEmpty</Key>
-			<Value>Réservoir portable de liquide Nv2</Value>
-			<Description>Réservoir portable de liquide isolé vide.</Description>
+			<Value>Réservoir de liquide portable Nv2</Value>
+			<Description>Ce réservoir portable permet de stocker du liquide et est entièrement isolé. Vous pouvez en boulonner un à un {THING:StructurePortablesConnector} à l'aide d'une {THING:ItemWrench}, puis le raccorder à un réseau de tuyaux pour le remplir. Vous pouvez remplir une {THING:ItemLiquidCanisterEmpty} en la fixant à la section rayée du réservoir.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitDynamicMKIILiquidCanister</Key>
-			<Value>Kit (Réservoir portable de liquide Nv2)</Value>
+			<Value>Kit (Réservoir de liquide portable Nv2)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>DynamicMKIILiquidCanisterWater</Key>
-			<Value>Réservoir portable de liquide Nv2 (Eau)</Value>
+			<Value>Réservoir de liquide portable Nv2 (Eau)</Value>
 			<Description>Une version isolée du {THING:DynamicMKIILiquidCanisterWater}, pour stocker des liquides sans qu'ils ne gagnent ni ne perdent de température.</Description>
 		</RecordThing>
 		<RecordThing>
@@ -6449,11 +6443,11 @@ Le Nv2 est simplement plus résistant à la température et à la pression.</Des
 		<RecordThing>
 			<Key>ItemMKIICrowbar</Key>
 			<Value>Pied de biche Nv2</Value>
-			<Description>Le pied de biche d'entrée de gamme de {LINK:Recurso;Recurso} est utile dans une variété de paramètres {LINK:Stationeers;Stationeer} quotidiens, de l'ouverture des {THING:StructureAreaPowerControl} et des {THING:StructureAirlock} non alimentés, à l'écrasement de têtes de crabes dimensionnels, si nécessaire. 
+			<Description>Le pied de biche d'entrée de gamme de {LINK:Recurso;Recurso} est utile dans une variété de paramètres {LINK:Stationeers;Stationeers} quotidiens, de l'ouverture des {THING:StructureAreaPowerControl} et des {THING:StructureAirlock} non alimentés, à l'écrasement de têtes de crabes dimensionnels, si nécessaire. 
 
 Le Nv2 est simplement plus résistant à la température et à la pression.</Description>
 		</RecordThing>
-<RecordThing>
+		<RecordThing>
 			<Key>ItemMKIIArcWelder</Key>
 			<Value>Soudeur à arc Nv2</Value>
 			<Description>Cette itération renforcée du {THING:ItemArcWelder} a été spécifiquement conçue pour l'ingénierie en conditions hostiles. Le châssis intègre des alliages thermorésistants et des joints pressurisés de haute qualité.
@@ -6666,7 +6660,7 @@ Au coeur de ce passe-temps se trouve le séquenceur pas à pas, qui permet aux {
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureInsulatedTankConnector</Key>
-			<Value>Connecteur de réservoir de gaz isolé</Value>
+			<Value>Connecteur de réservoir de gaz isolé (OBSOLÈTE)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -6676,7 +6670,7 @@ Au coeur de ce passe-temps se trouve le séquenceur pas à pas, qui permet aux {
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureInsulatedTankConnectorLiquid</Key>
-			<Value>Connecteur de réservoir de liquide isolé </Value>
+			<Value>Connecteur de réservoir de liquide isolé (OBSOLÈTE)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -7128,7 +7122,11 @@ Remarque : l'emballeur basique affichera une erreur sur son interrupteur d'activ
 		<RecordThing>
 			<Key>StructurePipeHeater</Key>
 			<Value>Chauffe tuyau (gaz)</Value>
-			<Description>Ajoute 1000 joules de chaleur par tic aux contenus de votre réseau de tuyaux.</Description>
+			<Description>Ajoute 1000 joules de chaleur par tic (0,5 seconde) aux contenus de votre réseau de tuyaux.
+Conditions de fonctionnement :
+- Pression supérieure à la limite d'Armstrong (6,3 kPa).
+- Température inférieure à 2 500 K (soit environ 2 227°C).
+</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeOneWayValve</Key>
@@ -7164,7 +7162,10 @@ Remarque : l'emballeur basique affichera une erreur sur son interrupteur d'activ
 		<RecordThing>
 			<Key>StructureLiquidPipeHeater</Key>
 			<Value>Chauffe tuyau (liquide)</Value>
-			<Description>Ajoute 1000 joules de chaleur par tic aux contenus de votre réseau de tuyaux.</Description>
+			<Description>Ajoute 1000 joules de chaleur par tic (0,5 seconde) aux contenus de votre réseau de tuyaux.
+Conditions de fonctionnement :
+- Pression supérieure à la limite d'Armstrong (6,3 kPa).
+- Température inférieure à 2 500 K (soit environ 2 227°C).</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTurboVolumePump</Key>
@@ -7475,7 +7476,7 @@ La batterie sans fil (grande) stocke jusqu'à 72 000 Watts.</Description>
 		<RecordThing>
 			<Key>StructureLargeExtendableRadiator</Key>
 			<Value>Radiateur à rayonnement extensible (grand)</Value>
-			<Description>Optimisé pour rayonner de la chaleur dans des environnements à vide et basse pression. S'il est pointé vers le soleil, il chauffe rapidement son contenu par chauffage solaire. Les panneaux peuvent être repliés pour arrêter toute radiation de chaleur / chauffage solaire et les protéger des tempêtes.</Description>
+			<Description>Optimisé pour dissiper la chaleur dans des environnements à vide ou à très basse pression. Orienté vers le soleil, il chauffe rapidement son contenu par absorption du rayonnement solaire. S’il n’est pas orienté vers le soleil, il agit comme un radiateur et refroidit son contenu par rayonnement thermique. Les panneaux peuvent être repliés pour stopper toute dissipation ou chauffage solaire, et pour les protéger des tempêtes.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureWaterBottleFillerPoweredBottom</Key>
@@ -7560,17 +7561,19 @@ Très sensible à la température, la glace azotée commencera à fondre dès qu
 		<RecordThing>
 			<Key>StructurePipeRadiatorFlat</Key>
 			<Value>Radiateur à rayonnement (petit - gaz)</Value>
-			<Description>Un radiateur à tuyaux de gaz monté, optimisé pour rayonner la chaleur dans le vide.</Description>
+			<Description>Un échangeur de chaleur simple, les radiateurs de tuyaux peuvent être placés sur un réseau de tuyaux pour dissiper la chaleur du gaz dans le vide, grâce au rayonnement thermique. Contrairement aux radiateurs à convection, ils ne dépendent pas de la température de l’atmosphère environnante et ne fonctionnent efficacement que sans atmosphère.
+La vitesse de dissipation dépendra du gaz en question. L’ajout de plusieurs radiateurs accélérera le transfert de chaleur.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePipeRadiatorFlatLiquid</Key>
 			<Value>Radiateur à rayonnement (petit - liquide)</Value>
-			<Description>Un radiateur à tuyaux de liquides monté, optimisé pour rayonner la chaleur dans le vide.</Description>
+			<Description>Un échangeur de chaleur simple, les radiateurs de tuyaux peuvent être placés sur un réseau de tuyaux pour dissiper la chaleur du liquide dans le vide, grâce au rayonnement thermique. Contrairement aux radiateurs à convection, ils ne dépendent pas de la température de l’atmosphère environnante et ne fonctionnent efficacement que sans atmosphère.
+La vitesse de dissipation dépendra du liquide en question. L’ajout de plusieurs radiateurs accélérera le transfert de chaleur.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureMediumConvectionRadiator</Key>
 			<Value>Radiateur à convection (moyen - gaz)</Value>
-			<Description>Une unité de radiateur autonome, optimisée pour échanger de la chaleur avec son environnement ambiant.</Description>
+			<Description>Une unité de radiateur autonome, optimisée pour échanger de la chaleur avec l'atmosphère ambiant.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureMediumRadiator</Key>
@@ -7585,7 +7588,7 @@ Très sensible à la température, la glace azotée commencera à fondre dès qu
 		<RecordThing>
 			<Key>StructureMediumConvectionRadiatorLiquid</Key>
 			<Value>Radiateur à convection (moyen - liquide)</Value>
-			<Description>Une unité de radiateur liquide autonome, optimisée pour échanger de la chaleur avec son environnement ambiant.</Description>
+			<Description>Une unité de radiateur liquide autonome, optimisée pour échanger de la chaleur avec l'atmosphère ambiant.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitPipeRadiator</Key>
@@ -8801,7 +8804,7 @@ Mode 5 : Cartographier
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitRocketLiquidFuelTank</Key>
-			<Value>Kit (Réservoir de carburant liquide de fusée)</Value>
+			<Value>Kit (Réservoir de carburant de fusée - liquide)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -8856,7 +8859,7 @@ Mode 5 : Cartographier
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitRocketGasFuelTank</Key>
-			<Value>Kit (Réservoir de carburant gaz de fusée)</Value>
+			<Value>Kit (Réservoir de carburant de fusée - gaz)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -9762,8 +9765,6 @@ Appuyer sur le bouton d'activation lorsque le robot LArRE est à son quai d'orig
 
 Attention : Ce dispositif ne fournit pas d'oxygène de manière autonome. Une pression atmosphérique suffisante et une concentration adéquate en {GAS:Oxygen} dans l'air ambiant sont nécessaires pour garantir la survie de l'utilisateur.</Description>
 		</RecordThing>
-		
-		
 		<RecordThing>
 			<Key>StructureGasMaskStorage</Key>
 			<Value>Rangement pour masque à gaz</Value>
@@ -10282,6 +10283,42 @@ Il existe également la {THING:ItemCableCoil} et la {THING:ItemCableCoilHeavy}.<
 			<Key>StructureDrinkingFountain2x1</Key>
 			<Value>Fontaine à boire</Value>
 			<Description>La fontaine à boire peut être utilisée directement pour augmenter l'hydratation. Elle nécessite un apport en {GAS:Water}.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemKitLiquidFiltration</Key>
+			<Value>Kit (Filtreur - liquide)</Value>
+			<Description>Un kit permettant d’installer filtreur de liquide destiné à séparer les liquides circulant dans un réseau de tuyaux.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureFiltrationLiquid</Key>
+			<Value>Filtreur (liquide)</Value>
+			<Description>Un filtreur de liquide conçu pour séparer les liquides circulant dans un réseau de tuyaux.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>DynamicPayloadDeliveryContainer</Key>
+			<Value>Conteneur de largage</Value>
+			<Description>Lorsqu’il est fixé à une {THING:StructureRocketLargePayloadBay}, le {THING:DynamicPayloadDeliveryContainer} peut être déployé en orbite basse pour larguer des fournitures à n’importe quel emplacement de la carte.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemKitPayloadDeliveryContainer</Key>
+			<Value>Kit (Conteneur de largage)</Value>
+			<Description>Un kit permettant d’assembler une soute de largage destiné au déploiement orbital de fournitures.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureRocketLargePayloadBay</Key>
+			<Value>Soute de largage (grande)</Value>
+			<Description>La {THING:StructureRocketLargePayloadBay} sert de point d’attache pour le {THING:DynamicPayloadDeliveryContainer}.
+Définissez la zone de largage en réglant les variables logiques PositionX et PositionZ. Utilisez l’action de largage sur le panneau de commande de la fusée pour déployer une cargaison attachée. La variable logique Open doit être réglée sur 1 pour lancer le largage.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemKitRocketLargePayloadBay</Key>
+			<Value>Kit (Soute de largage grande)</Value>
+			<Description>Un kit permettant d’assembler une soute de largage de grande capacité pour fusée.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemDefibrillator</Key>
+			<Value>Défibrillateur</Value>
+			<Description>Un appareil médical portable utilisé pour réanimer un {LINK:Stationeers;Stationeer} en arrêt cardiaque en délivrant une décharge électrique contrôlée.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageConstructor</Key>
@@ -18518,6 +18555,10 @@ C'est une loi universelle inébranlable que tout ce qui dépasse 11 sera violet.
 			<Value>La masse totale de la fusée en kilogrammes, incluant le carburant et la cargaison. Plus la fusée est massive, plus il faudra de carburant pour se déplacer vers une nouvelle destination dans l'espace.</Value>
 		</Record>
 		<Record>
+			<Key>LogicTypeContactSlotIndex</Key>
+			<Value>Index de l’emplacement dans lequel le commerçant a été généré. Cet index détermine la catégorie du commerçant, par exemple Utilitaire, Petit, Moyen, etc.</Value>
+		</Record>
+		<Record>
 			<Key>AppearanceButtonRandomize</Key>
 			<Value>Aléatoire</Value>
 		</Record>
@@ -19392,12 +19433,12 @@ Vous risquez de perdre votre progression si vous ne sauvegardez pas maintenant.<
 			<Value>Registre = la valeur logique (logicType) lue en utilisant la référence d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandLD</Key>
 			<Value>Registre = la valeur logique (logicType) lue en utilisant la référence directe à l'id 
-(IDentifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+(IDentifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandLB</Key>
@@ -19428,19 +19469,19 @@ Le mode peut être spécifié soit par son chiffre, soit par son nom en anglais.
 			<Value>Stocke la valeur du registre dans la valeur logique (logicType) d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandSD</Key>
 			<Value>Stocke la valeur du registre dans la valeur logique (logicType) de l'appareil en utilisant sa référence directe à l'id
-(IDentifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+(IDentifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandSS</Key>
 			<Value>Stocke la valeur du registre dans la valeur "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l'emplacement" (slotIndex) d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandSBS</Key>
@@ -19455,7 +19496,7 @@ Le mode peut être spécifié soit par son chiffre, soit par son nom en anglais.
 			<Value>Registre = le type de "logique par emplacements" (logicSlotType) depuis le "numéro d'index de l'emplacement" (slotIndex) d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandLR</Key>
@@ -19469,7 +19510,7 @@ int = HASH du reactif solide ex : -1301215609 ou HASH("ItemIronIngot")
 L'appareil est definie soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandAlias</Key>
@@ -19497,7 +19538,7 @@ L'appareil est definie soit par :
 L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandSdns</Key>
@@ -19505,7 +19546,7 @@ L'appareil est défini soit par :
 L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandSlt</Key>
@@ -19627,7 +19668,7 @@ Condition utilisée : abs(a) &gt; float.epsilon * 8
 L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBdns</Key>
@@ -19635,7 +19676,7 @@ L'appareil est défini soit par :
 L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBdnvl</Key>
@@ -19643,7 +19684,7 @@ L'appareil est défini soit par :
 L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBdnvs</Key>
@@ -19651,7 +19692,7 @@ L'appareil est défini soit par :
 L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBlt</Key>
@@ -19746,7 +19787,7 @@ Ligne de destination = Numéro de ligne actuelle + a (avec a != 0 et != 1)</Valu
 L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).
+- la référence directe à l'id (identifiant unique de cet objet en particulier).
 Ligne de destination = Numéro de ligne actuelle + a (avec a != 0 et != 1)</Value>
 		</Record>
 		<Record>
@@ -19755,7 +19796,7 @@ Ligne de destination = Numéro de ligne actuelle + a (avec a != 0 et != 1)</Valu
 L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).
+- la référence directe à l'id (identifiant unique de cet objet en particulier).
 Ligne de destination = Numéro de ligne actuelle + a (avec a != 0 et != 1)</Value>
 		</Record>
 		<Record>
@@ -19856,7 +19897,7 @@ Ligne de destination = Numéro de ligne actuelle + c (avec c != 0 et != 1)</Valu
 L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBdnsal</Key>
@@ -19864,7 +19905,7 @@ L'appareil est défini soit par :
 L'appareil est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptCommandBltal</Key>
@@ -22992,7 +23033,7 @@ Fabrication</Value>
 		</Record>
 		<Record>
 			<Key>ManufacturingTutorialModsInfo</Key>
-			<Value>Stationeers n'a pas de mécanisme de recherche, mais il possède des niveaux technologiques qui doivent être débloqués en améliorant les imprimantes au niveau 2. Les imprimantes de niveau 2 consomment légèrement plus d'énergie et sont légèrement plus lentes. Ces valeurs peuvent être consultées dans la Stationpedia {KEY:Help}. Seules les 4 imprimantes principales peuvent être améliorées : l'{THING:StructureAutolathe}, l'{THING:StructureElectronicsPrinter}, l'{THING:StructureHydraulicPipeBender} et l'{THING:StructureToolManufactory}.</Value>
+			<Value>Stationeers n'a pas de mécanisme de recherche, mais il possède des niveaux technologiques qui doivent être débloqués en améliorant les imprimantes au niveau 2. Les imprimantes de niveau 2 consomment légèrement d'énergie et impriment plus rapidement. Ces valeurs peuvent être consultées dans la Stationpedia {KEY:Help}. Seules les 4 imprimantes principales peuvent être améliorées : l'{THING:StructureAutolathe}, l'{THING:StructureElectronicsPrinter}, l'{THING:StructureHydraulicPipeBender} et l'{THING:StructureToolManufactory}.</Value>
 		</Record>
 		<Record>
 			<Key>ManufacturingTutorialModsNeedModToUpgrade</Key>
@@ -23448,31 +23489,31 @@ Fabrication</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataFuelTank</Key>
-			<Value>Réservoir portable de gaz (Carburant)</Value>
+			<Value>Réservoir de gaz portable (Carburant)</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataOxygenTank</Key>
-			<Value>Réservoir portable de gaz (Oxygène)</Value>
+			<Value>Réservoir de gaz portable (Oxygène)</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataNitrogenTank</Key>
-			<Value>Réservoir portable de gaz (Azote)</Value>
+			<Value>Réservoir de gaz portable (Azote)</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataLiquidNitrogenTank</Key>
-			<Value>Réservoir portable de liquide (Azote)</Value>
+			<Value>Réservoir de liquide portable (Azote)</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataLiquidOxygenTank</Key>
-			<Value>Réservoir portable de liquide (Oxygène)</Value>
+			<Value>Réservoir de liquide portable (Oxygène)</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataLiquidVolatilesTank</Key>
-			<Value>Réservoir portable de liquide (Volatils)</Value>
+			<Value>Réservoir de liquide portable (Volatils)</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataWaterTank</Key>
-			<Value>Réservoir portable de liquide (Eau)</Value>
+			<Value>Réservoir de liquide portable (Eau)</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataLanderCapsule</Key>
@@ -28743,14 +28784,14 @@ Exprimé sous forme de ratio entre 0 et 1.</Value>
 		</Record>
 		<Record>
 			<Key>LogicDescriptionReferenceId</Key>
-			<Value>Identifiant de référence unique pour cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale.</Value>
+			<Value>Identifiant de référence unique pour cet objet en particulier.</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionGet</Key>
 			<Value>Registre = valeur du tableau à l'adresse fournie d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionClr</Key>
@@ -28759,26 +28800,26 @@ Exprimé sous forme de ratio entre 0 et 1.</Value>
 		<Record>
 			<Key>ScriptDescriptionClrD</Key>
 			<Value>Efface la mémoire du tableau de l'appareil en utilisant directement l'id.
-(IDentifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+(IDentifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionPut</Key>
 			<Value>Stocke la valeur dans le tableau à l'adresse fournie d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionGetD</Key>
 			<Value>Registre = valeur du tableau à l'adresse fournie d'un appareil qui est défini soit par : 
 - la valeur d'index du support IC10 (d?) 
 - un registre (r?) 
-- la référence directe à l'id (identifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+- la référence directe à l'id (identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionPutD</Key>
 			<Value>Stocke la valeur dans le tableau à l'adresse fournie de l'appareil en utilisant directement l'id.
-(IDentifiant unique de cet objet en particulier, qui commence par "&lt;b&gt;$&lt;/b&gt;" suivi d’une valeur hexadécimale).</Value>
+(identifiant unique de cet objet en particulier).</Value>
 		</Record>
 		<Record>
 			<Key>ScriptDescriptionPoke</Key>
@@ -31999,6 +32040,26 @@ Veuillez patienter, ou utiliser un terminal de communication séparé</Value>
 		<Record>
 			<Key>TransactionFailStorage</Key>
 			<Value>Vous n'avez pas assez d'espace de stockage pour acheter tous les objets.</Value>
+		</Record>
+		<Record>
+			<Key>ThisDeviceNotOpen</Key>
+			<Value>{LOCAL:Thing} doit être ouvert pour fonctionner</Value>
+		</Record>
+		<Record>
+			<Key>RocketLogDeploy</Key>
+			<Value>{LOCAL:DisplayName} a correctement largué {LOCAL:Thing} aux coordonnées X : {LOCAL:X} Z : {LOCAL:Z}</Value>
+		</Record>
+		<Record>
+			<Key>RocketDeployFailNotInLowOrbit</Key>
+			<Value>{LOCAL:Payload} ne peut être largué qu’en orbite basse</Value>
+		</Record>
+		<Record>
+			<Key>RocketDeployFailNoPayload</Key>
+			<Value>Aucune cargaison à larguer</Value>
+		</Record>
+		<Record>
+			<Key>ConstructionBlockedByDynamic</Key>
+			<Value>Construction bloquée par {LOCAL:Thing}</Value>
 		</Record>
 	</GameStrings>
 	<GameTip/>
