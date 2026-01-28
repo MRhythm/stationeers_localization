@@ -706,7 +706,7 @@ Les scripts IC10 utilisent des références d'appareils (&lt;color=green&gt;d?&l
 - &lt;color=green&gt;d0&lt;/color&gt; à &lt;color=green&gt;d5&lt;/color&gt; : appareils connectés physiquement au {THING:StructureCircuitHousingCompact}, dans l'ordre des 6 vis.  
 - &lt;color=green&gt;db&lt;/color&gt; : Fait référence à l'appareil hôte (Device Base) dans lequel le {THING:ItemIntegratedCircuit10} est physiquement inséré. Il permet d'afficher une valeur sur le {THING:StructureCircuitHousingCompact} grâce à {LOGICTYPE:Setting} pour le débogage ou pour être lu par d'autres {LINK:LogicPage;unités logiques}. Il permet également le contrôle direct de la machine qui contient la puce (ex: {THING:StructureFiltration}, {THING:StructureAirConditioner}, etc.) sans utiliser de vis (&lt;color=green&gt;d0&lt;/color&gt; ou &lt;color=green&gt;d1&lt;/color&gt;).
 
-- &lt;color=#22b2aa&gt;id&lt;/color&gt; : identifiant unique d'un appareil (référence directe, commence par "&lt;color=#22b2aa&gt;$&lt;/color&gt;" suivi d’une valeur hexadécimale).  
+- &lt;color=#22b2aa&gt;id&lt;/color&gt; : identifiant unique de cet objet en particulier.  
 - &lt;color=#22b2aa&gt;deviceHash&lt;/color&gt; : identifiant numérique représentant un type d'appareil (par exemple un type de lampe, de capteur, etc.). Il faut écrire par exemple : HASH("StructureLightRound")  
 
 - &lt;color=#00aaff&gt;r0&lt;/color&gt; à &lt;color=#00aaff&gt;r15&lt;/color&gt; : registres internes du {THING:ItemIntegratedCircuit10}. On les note souvent avec des alias lisibles (par exemple a, b, c) définis via &lt;color=yellow&gt;alias&lt;/color&gt;. 
@@ -752,7 +752,7 @@ Les scripts IC10 utilisent des références d'appareils (&lt;color=green&gt;d?&l
 - &lt;color=yellow&gt;ss&lt;/color&gt; &lt;color=green&gt;d?&lt;/color&gt;/&lt;color=#00aaff&gt;r?&lt;/color&gt;/&lt;color=#22b2aa&gt;id&lt;/color&gt; &lt;color=orange&gt;slotIndex&lt;/color&gt; &lt;color=orange&gt;logicSlotType&lt;/color&gt; &lt;color=#00aaff&gt;r?&lt;/color&gt; : Stocke la valeur du &lt;color=#00aaff&gt;registre&lt;/color&gt; dans &lt;color=orange&gt;logicSlotType&lt;/color&gt; à &lt;color=orange&gt;slotIndex&lt;/color&gt; d'un appareil (&lt;color=green&gt;d?&lt;/color&gt;, &lt;color=#00aaff&gt;r?&lt;/color&gt; ou &lt;color=#22b2aa&gt;id&lt;/color&gt;).  
 
 &lt;color=#999999&gt;{HEADER:Note Technique (Mise à jour Décembre 2025)}
-Bien que les récentes révisions du compilateur IC10 visent à unifier les instructions &lt;color=yellow&gt;l&lt;/color&gt; et &lt;color=yellow&gt;s&lt;/color&gt; pour qu'elles acceptent nativement les identifiants uniques (&lt;color=#22b2aa&gt;id&lt;/color&gt; : commençant par "&lt;color=#22b2aa&gt;$&lt;/color&gt;" suivi d’une valeur hexadécimale) en remplacement de &lt;color=yellow&gt;ld&lt;/color&gt; et &lt;color=yellow&gt;sd&lt;/color&gt;, cette fonctionnalité est actuellement défectueuse.
+Bien que les récentes révisions du compilateur IC10 visent à unifier les instructions &lt;color=yellow&gt;l&lt;/color&gt; et &lt;color=yellow&gt;s&lt;/color&gt; pour qu'elles acceptent nativement les identifiants uniques (&lt;color=#22b2aa&gt;id&lt;/color&gt;) en remplacement de &lt;color=yellow&gt;ld&lt;/color&gt; et &lt;color=yellow&gt;sd&lt;/color&gt;, cette fonctionnalité est actuellement défectueuse.
 Pour garantir le fonctionnement de vos programmes, il est impératif de continuer à utiliser les commandes &lt;color=yellow&gt;ld&lt;/color&gt; (Load Direct) et &lt;color=yellow&gt;sd&lt;/color&gt; (Store Direct) pour tout adressage par &lt;color=#22b2aa&gt;id&lt;/color&gt;. Notez que même si ces instructions apparaissent comme barrées dans l'éditeur, elles demeurent les seules capables d'exécuter ces opérations correctement pour le moment.&lt;/color&gt;
 
 {HEADER:Manipuler les registres (&lt;color=#00aaff&gt;r?&lt;/color&gt;) et la pile}
@@ -899,8 +899,43 @@ Pour réellement &lt;b&gt;ignorer la ligne suivante&lt;/b&gt;, il faut utiliser 
 - &lt;color=yellow&gt;bapzal&lt;/color&gt; a ligne : Saute à la ligne si a ~ 0 et stocke la ligne suivante dans &lt;color=#00aaff&gt;ra&lt;/color&gt;.  
 - &lt;color=yellow&gt;bnazal&lt;/color&gt; a ligne : Saute à la ligne si a !~ 0 et stocke la ligne suivante dans &lt;color=#00aaff&gt;ra&lt;/color&gt;.
 
+&lt;color=orange&gt;------------------------------------------------------------------------------------------------&lt;/color&gt;
+{HEADER:MÉMOIRE INTERNE}
+
+{HEADER:Opérations binaires (bitwise)}
+- &lt;color=yellow&gt;and&lt;/color&gt; r? a b : ET logique bit à bit. Le bit de résultat est 1 si les deux bits correspondants sont à 1, sinon 0.
+- &lt;color=yellow&gt;or&lt;/color&gt; r? a b : OU logique bit à bit. Le bit de résultat est 1 si au moins un des deux bits est à 1.
+- &lt;color=yellow&gt;xor&lt;/color&gt; r? a b : OU exclusif bit à bit. Le bit de résultat est 1 si les bits comparés sont différents.
+- &lt;color=yellow&gt;nor&lt;/color&gt; r? a b : NON-OU logique bit à bit. Le bit de résultat est 1 si les deux bits sont à 0.
+- &lt;color=yellow&gt;not&lt;/color&gt; r? a : NON logique bit à bit. Inverse chaque bit (le 1 devient 0 et inversement).
+- &lt;color=yellow&gt;sll&lt;/color&gt; r? a b : Décalage logique à gauche. Décale les bits de &lt;b&gt;a&lt;/b&gt; vers la gauche de &lt;b&gt;b&lt;/b&gt; positions, remplit par des zéros.
+- &lt;color=yellow&gt;srl&lt;/color&gt; r? a b : Décalage logique à droite. Décale les bits de &lt;b&gt;a&lt;/b&gt; vers la droite de &lt;b&gt;b&lt;/b&gt; positions, remplit par des zéros.
+- &lt;color=yellow&gt;sla&lt;/color&gt; r? a b : Décalage arithmétique à gauche. Décale vers la gauche en conservant une copie du bit de signe.
+- &lt;color=yellow&gt;sra&lt;/color&gt; r? a b : Décalage arithmétique à droite. Décale vers la droite en conservant une copie du bit de signe.
+- &lt;color=yellow&gt;ext&lt;/color&gt; r? a b c : Extraction de bits. Extrait un champ de bits de &lt;b&gt;a&lt;/b&gt;, commençant à &lt;b&gt;b&lt;/b&gt; sur une longueur &lt;b&gt;c&lt;/b&gt; (Max 53 bits).
+- &lt;color=yellow&gt;ins&lt;/color&gt; r? a b c : Insertion de bits. Insère un champ de bits de &lt;b&gt;a&lt;/b&gt; dans le registre, commençant à &lt;b&gt;b&lt;/b&gt; sur une longueur &lt;b&gt;c&lt;/b&gt;.
+
+{HEADER:Gestion de la pile (stack)}
+- &lt;color=yellow&gt;get&lt;/color&gt; r? d? addr : Lecture Pile. Lit la valeur à l'adresse &lt;b&gt;addr&lt;/b&gt; de la pile de l'appareil &lt;color=green&gt;d?&lt;/color&gt;.
+- &lt;color=yellow&gt;put&lt;/color&gt; d? addr value : Écriture Pile. Écrit &lt;b&gt;value&lt;/b&gt; à l'adresse &lt;b&gt;addr&lt;/b&gt; de la pile de l'appareil.
+- &lt;color=yellow&gt;getd&lt;/color&gt; r? deviceID addr : Lecture Pile Directe. Recherche l'appareil via son &lt;color=#22b2aa&gt;id&lt;/color&gt; unique et lit la valeur en pile à l'adresse &lt;b&gt;addr&lt;/b&gt;.
+- &lt;color=yellow&gt;putd&lt;/color&gt; deviceID addr value : Écriture Pile Directe. Recherche l'appareil via son &lt;color=#22b2aa&gt;id&lt;/color&gt; unique et écrit &lt;b&gt;value&lt;/b&gt; à l'adresse &lt;b&gt;addr&lt;/b&gt;.
+- &lt;color=yellow&gt;clr&lt;/color&gt; d? : Effacer Pile. Réinitialise la mémoire de la pile de l'appareil spécifié.
+- &lt;color=yellow&gt;clrd&lt;/color&gt; deviceID : Effacer Pile Directe. Recherche par &lt;color=#22b2aa&gt;id&lt;/color&gt; unique et efface la mémoire de la pile.
+- &lt;color=yellow&gt;poke&lt;/color&gt; addr value : Écriture Pile Interne. Stocke &lt;b&gt;value&lt;/b&gt; à l'adresse &lt;b&gt;addr&lt;/b&gt; dans la pile interne du circuit IC10.
+
+{HEADER:Mathématiques et fonctions avancées}
+- &lt;color=yellow&gt;pow&lt;/color&gt; r? a b : Puissance. Calcule &lt;b&gt;a&lt;/b&gt; élevé à la puissance &lt;b&gt;b&lt;/b&gt; (norme IEEE-754).
+- &lt;color=yellow&gt;lerp&lt;/color&gt; r? a b c : Interpolation linéaire entre &lt;b&gt;a&lt;/b&gt; et &lt;b&gt;b&lt;/b&gt; selon le ratio &lt;b&gt;c&lt;/b&gt; (clampé entre 0 et 1).
+- &lt;color=yellow&gt;rmap&lt;/color&gt; r? hash : Mappage de réactif. Convertit un hash de réactif en hash de l'objet requis (ex: Fer -> lingot de fer).
+
+- &lt;color=yellow&gt;sbn&lt;/color&gt; type name logic value : Écriture groupée nommée. Stocke &lt;b&gt;value&lt;/b&gt; dans le &lt;color=orange&gt;logicType&lt;/color&gt; de tous les appareils du réseau filtrés par Type et Nom.
+- &lt;color=yellow&gt;bdnvl&lt;/color&gt; d? logic line : Saut si invalide (Lecture). Saute à la ligne si l'appareil n'est pas valide pour lire le type logique fourni.
+- &lt;color=yellow&gt;bdnvs&lt;/color&gt; d? logic line : Saut si invalide (Écriture). Saute à la ligne si l'appareil n'est pas valide pour écrire le type logique fourni.
+
 &lt;align=center&gt;&lt;color=#5bc0de&gt;* Ce guide et la traduction intégrale du jeu sont l'œuvre de &lt;b&gt;Cedric.DX&lt;/b&gt;.&lt;/color&gt;
 &lt;color=#999999&gt;&lt;size=55%&gt;Retrouvez-moi sur &lt;color=white&gt;Steam&lt;/color&gt; via le mod de traduction FR pour échanger ou accéder à des mises à jour plus régulières.&lt;/size&gt;&lt;/color&gt;&lt;/align&gt;
+
 
 </Text>
 		</StationpediaPage>
@@ -957,9 +992,9 @@ Un résumé simplifié des commandes IC10 les plus utiles :
 - &lt;color=yellow&gt;lbns&lt;/color&gt; : Lit un emplacement sur tous les appareils d'un type + nom.
 - &lt;color=yellow&gt;lr&lt;/color&gt; : Lit la quantité du réactif (contenu, requis ou de recette) dans l'appareil spécifié.
 
-- &lt;color=yellow&gt;ld&lt;/color&gt; : Lit une valeur via l'identifiant unique (&lt;color=#22b2aa&gt;id&lt;/color&gt;) d'un appareil (commence par &lt;color=#22b2aa&gt;$&lt;/color&gt; suivi d’une valeur hexadécimale).
+- &lt;color=yellow&gt;ld&lt;/color&gt; : Lit une valeur via l'identifiant unique (&lt;color=#22b2aa&gt;id&lt;/color&gt;) d'un appareil.
 &lt;color=#999999&gt;{HEADER:Note Technique (Mise à jour Décembre 2025)}
-Bien que les récentes révisions du compilateur IC10 visent à unifier les instructions &lt;color=yellow&gt;l&lt;/color&gt; et &lt;color=yellow&gt;s&lt;/color&gt; pour qu'elles acceptent nativement les identifiants uniques (&lt;color=#22b2aa&gt;id&lt;/color&gt; : commençant par "&lt;color=#22b2aa&gt;$&lt;/color&gt;" suivi d’une valeur hexadécimale) en remplacement de &lt;color=yellow&gt;ld&lt;/color&gt; et &lt;color=yellow&gt;sd&lt;/color&gt;, cette fonctionnalité est actuellement défectueuse.
+Bien que les récentes révisions du compilateur IC10 visent à unifier les instructions &lt;color=yellow&gt;l&lt;/color&gt; et &lt;color=yellow&gt;s&lt;/color&gt; pour qu'elles acceptent nativement les identifiants uniques (&lt;color=#22b2aa&gt;id&lt;/color&gt;) en remplacement de &lt;color=yellow&gt;ld&lt;/color&gt; et &lt;color=yellow&gt;sd&lt;/color&gt;, cette fonctionnalité est actuellement défectueuse.
 Pour garantir le fonctionnement de vos programmes, il est impératif de continuer à utiliser les commandes &lt;color=yellow&gt;ld&lt;/color&gt; (Load Direct) et &lt;color=yellow&gt;sd&lt;/color&gt; (Store Direct) pour tout adressage par &lt;color=#22b2aa&gt;id&lt;/color&gt;. Notez que même si ces instructions apparaissent comme barrées dans l'éditeur, elles demeurent les seules capables d'exécuter ces opérations correctement pour le moment.&lt;/color&gt;
 
 {HEADER:Écriture (Envoyer des ordres)}
@@ -968,9 +1003,9 @@ Pour garantir le fonctionnement de vos programmes, il est impératif de continue
 - &lt;color=yellow&gt;ss&lt;/color&gt; : Écrit dans l'emplacement d'un appareil précis (ex: recette).
 - &lt;color=yellow&gt;sbs&lt;/color&gt; : Écrit dans l'emplacement de tous les appareils d'un type.
 
-- &lt;color=yellow&gt;sd&lt;/color&gt; : Écrit une valeur via l'identifiant unique (&lt;color=#22b2aa&gt;id&lt;/color&gt;) d'un appareil (commence par &lt;color=#22b2aa&gt;$&lt;/color&gt; suivi d’une valeur hexadécimale).
+- &lt;color=yellow&gt;sd&lt;/color&gt; : Écrit une valeur via l'identifiant unique (&lt;color=#22b2aa&gt;id&lt;/color&gt;) d'un appareil.
 &lt;color=#999999&gt;{HEADER:Note Technique (Mise à jour Décembre 2025)}
-Bien que les récentes révisions du compilateur IC10 visent à unifier les instructions &lt;color=yellow&gt;l&lt;/color&gt; et &lt;color=yellow&gt;s&lt;/color&gt; pour qu'elles acceptent nativement les identifiants uniques (&lt;color=#22b2aa&gt;id&lt;/color&gt; : commençant par "&lt;color=#22b2aa&gt;$&lt;/color&gt;" suivi d’une valeur hexadécimale) en remplacement de &lt;color=yellow&gt;ld&lt;/color&gt; et &lt;color=yellow&gt;sd&lt;/color&gt;, cette fonctionnalité est actuellement défectueuse.
+Bien que les récentes révisions du compilateur IC10 visent à unifier les instructions &lt;color=yellow&gt;l&lt;/color&gt; et &lt;color=yellow&gt;s&lt;/color&gt; pour qu'elles acceptent nativement les identifiants uniques (&lt;color=#22b2aa&gt;id&lt;/color&gt;) en remplacement de &lt;color=yellow&gt;ld&lt;/color&gt; et &lt;color=yellow&gt;sd&lt;/color&gt;, cette fonctionnalité est actuellement défectueuse.
 Pour garantir le fonctionnement de vos programmes, il est impératif de continuer à utiliser les commandes &lt;color=yellow&gt;ld&lt;/color&gt; (Load Direct) et &lt;color=yellow&gt;sd&lt;/color&gt; (Store Direct) pour tout adressage par &lt;color=#22b2aa&gt;id&lt;/color&gt;. Notez que même si ces instructions apparaissent comme barrées dans l'éditeur, elles demeurent les seules capables d'exécuter ces opérations correctement pour le moment.&lt;/color&gt;
 
 {HEADER:Rappel des Modes Batch (&lt;color=orange&gt;batchMode&lt;/color&gt;)}
@@ -1078,7 +1113,7 @@ Un code bien nommé est un code qui ne vous explose pas au visage.
 - attribuer un nom à un registre (une variable de &lt;color=#00aaff&gt;r0&lt;/color&gt; à &lt;color=#00aaff&gt;r15&lt;/color&gt;) afin de savoir quelle donnée il contient.
 &lt;color=yellow&gt;define&lt;/color&gt; : sert à nommer une valeur fixe (une constante qui ne changera jamais durant l'exécution) :
 - un seuil de pression (ex: &lt;color=#22b2aa&gt;100&lt;/color&gt;).
-- un identifiant d'appareil (&lt;color=#22b2aa&gt;id&lt;/color&gt; : commence par "&lt;color=#22b2aa&gt;$&lt;/color&gt;" suivi d’une valeur hexadécimale)
+- un identifiant d'appareil (&lt;color=#22b2aa&gt;id&lt;/color&gt;)
 - un identifiant unique pour un type d'appareil (&lt;color=#22b2aa&gt;HASH&lt;/color&gt;)
 
 &lt;color=yellow&gt;alias&lt;/color&gt; name &lt;color=green&gt;d?&lt;/color&gt;/&lt;color=#00aaff&gt;r?&lt;/color&gt;
@@ -1141,7 +1176,7 @@ Un {THING:ItemIntegratedCircuit10} ne perçoit pas son environnement de manière
 &lt;color=#666666&gt;------------------------------------------------------------------------------------------------&lt;/color&gt;
 
 &lt;color=#999999&gt;{HEADER:Note Technique (Mise à jour Décembre 2025)}
-Bien que les récentes révisions du compilateur IC10 visent à unifier les instructions &lt;color=yellow&gt;l&lt;/color&gt; et &lt;color=yellow&gt;s&lt;/color&gt; pour qu'elles acceptent nativement les identifiants uniques (&lt;color=#22b2aa&gt;id&lt;/color&gt; : commençant par "&lt;color=#22b2aa&gt;$&lt;/color&gt;" suivi d’une valeur hexadécimale) en remplacement de &lt;color=yellow&gt;ld&lt;/color&gt; et &lt;color=yellow&gt;sd&lt;/color&gt;, cette fonctionnalité est actuellement défectueuse.
+Bien que les récentes révisions du compilateur IC10 visent à unifier les instructions &lt;color=yellow&gt;l&lt;/color&gt; et &lt;color=yellow&gt;s&lt;/color&gt; pour qu'elles acceptent nativement les identifiants uniques (&lt;color=#22b2aa&gt;id&lt;/color&gt;) en remplacement de &lt;color=yellow&gt;ld&lt;/color&gt; et &lt;color=yellow&gt;sd&lt;/color&gt;, cette fonctionnalité est actuellement défectueuse.
 Pour garantir le fonctionnement de vos programmes, il est impératif de continuer à utiliser les commandes &lt;color=yellow&gt;ld&lt;/color&gt; (Load Direct) et &lt;color=yellow&gt;sd&lt;/color&gt; (Store Direct) pour tout adressage par &lt;color=#22b2aa&gt;id&lt;/color&gt;. Notez que même si ces instructions apparaissent comme barrées dans l'éditeur, elles demeurent les seules capables d'exécuter ces opérations correctement pour le moment.&lt;/color&gt;
 
 
@@ -1868,15 +1903,16 @@ Ce script configure le trieur pour envoyer TOUS les minerais de base vers la voi
 
 &lt;color=#8120cb&gt;debutBoucle:&lt;/color&gt;
 &lt;color=yellow&gt;yield&lt;/color&gt; &lt;color=#666666&gt;# Pause de 0,5 seconde indispensable pour une boucle&lt;/color&gt;
-&lt;color=yellow&gt;ls&lt;/color&gt; &lt;color=#00aaff&gt;r0&lt;/color&gt; Trieur 0 {LOGICSLOTTYPE:PrefabHash}
+&lt;color=yellow&gt;ls&lt;/color&gt; &lt;color=#00aaff&gt;r0&lt;/color&gt; Trieur 0 {LOGICSLOTTYPE:OccupantHash}
 &lt;color=yellow&gt;beqz&lt;/color&gt; &lt;color=#00aaff&gt;r0&lt;/color&gt; &lt;color=#8120cb&gt;debutBoucle&lt;/color&gt;
 
 &lt;color=#666666&gt;# 2. Comparaison avec la pile&lt;/color&gt;
 &lt;color=yellow&gt;move&lt;/color&gt; &lt;color=#00aaff&gt;sp&lt;/color&gt; &lt;color=#00aaff&gt;r15&lt;/color&gt; &lt;color=#666666&gt;# On réinitialise sp au sommet&lt;/color&gt;
 
 &lt;color=#8120cb&gt;boucleTri:&lt;/color&gt;
-&lt;color=yellow&gt;pop&lt;/color&gt; &lt;color=#00aaff&gt;r1&lt;/color&gt;
+&lt;color=yellow&gt;peek&lt;/color&gt; &lt;color=#00aaff&gt;r1&lt;/color&gt;
 &lt;color=yellow&gt;beq&lt;/color&gt; &lt;color=#00aaff&gt;r0&lt;/color&gt; &lt;color=#00aaff&gt;r1&lt;/color&gt; &lt;color=#8120cb&gt;trouve&lt;/color&gt;
+&lt;color=yellow&gt;sub&lt;/color&gt; &lt;color=#00aaff&gt;sp&lt;/color&gt; &lt;color=#00aaff&gt;sp&lt;/color&gt; 1 &lt;color=#666666&gt;# On descend manuellement dans la pile&lt;/color&gt;
 &lt;color=yellow&gt;bgt&lt;/color&gt; &lt;color=#00aaff&gt;sp&lt;/color&gt; 0 &lt;color=#8120cb&gt;boucleTri&lt;/color&gt;
 
 &lt;color=#666666&gt;# 3. Action : Si non trouvé, on éjecte voie 0&lt;/color&gt;
@@ -1915,6 +1951,59 @@ Vous détenez désormais les clés pour transformer une coque de métal inerte e
 La maîtrise de ces concepts permet une gestion optimale des ressources dans les environnements hostiles.
 
 Bonne chance, {LINK:Stationeers;Stationeers} !
+
+&lt;align=center&gt;&lt;color=#5bc0de&gt;* Ce guide et la traduction intégrale du jeu sont l'œuvre de &lt;b&gt;Cedric.DX&lt;/b&gt;.&lt;/color&gt;
+&lt;color=#999999&gt;&lt;size=55%&gt;Retrouvez-moi sur &lt;color=white&gt;Steam&lt;/color&gt; via le mod de traduction FR pour échanger ou accéder à des mises à jour plus régulières.&lt;/size&gt;&lt;/color&gt;&lt;/align&gt;
+</Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>GuideIC10_Expert_Complet</Key>
+			<Title>Programmation des circuits intégrés IC10 : Mémoire interne</Title>
+			<!--<DisplayFilter>Guides</DisplayFilter> -->
+			<Text>&lt;align=center&gt;&lt;color=#5bc0de&gt;{HEADER:GUIDE COMMUNAUTAIRE*}&lt;/color&gt;&lt;/align&gt;
+			
+{HEADER:COMMANDES AVANCÉES ET LOGIQUE BINAIRE}
+Ce guide détaille l'utilisation des instructions de manipulation de bits et de gestion de mémoire directe, essentielles pour l'automatisation des systèmes complexes comme les {THING:StructureLogicSorter} ou les {THING:StructureAutolathe}.
+
+{HEADER:1. Logique Binaire et Masquage}
+En IC10, les nombres sont traités sur 64 bits. Les opérateurs logiques comparent chaque bit de deux valeurs (&lt;b&gt;a&lt;/b&gt; et &lt;b&gt;b&lt;/b&gt;) pour produire un résultat.
+- &lt;color=yellow&gt;and&lt;/color&gt; : Résultat 1 si les deux bits sont à 1 (Utile pour isoler une donnée).
+- &lt;color=yellow&gt;or&lt;/color&gt; : Résultat 1 si au moins un des deux bits est à 1.
+- &lt;color=yellow&gt;xor&lt;/color&gt; : Résultat 1 si les bits sont différents (Idéal pour inverser un état/Toggle).
+- &lt;color=yellow&gt;not&lt;/color&gt; : Inverse tous les bits d'une valeur.
+- &lt;color=yellow&gt;nor&lt;/color&gt; : Résultat 1 si les deux bits sont à 0.
+
+{HEADER:2. Décalages (Shifts) et Précision}
+Le décalage permet de déplacer les bits vers la gauche ou la droite.
+- &lt;color=yellow&gt;sll&lt;/color&gt; / &lt;color=yellow&gt;srl&lt;/color&gt; : Décalage Logique. Remplit les vides par des &lt;b&gt;0&lt;/b&gt;.
+- &lt;color=yellow&gt;sla&lt;/color&gt; / &lt;color=yellow&gt;sra&lt;/color&gt; : Décalage Arithmétique. Préserve le &lt;b&gt;bit de signe&lt;/b&gt; (le bit le plus à gauche). Indispensable pour maintenir la valeur négative d'un nombre après décalage.
+
+{HEADER:3. Structure de Commande (OpCode, Index, Unused)}
+Pour les appareils comme le Trieur, plusieurs informations doivent tenir dans un seul nombre. On utilise alors l'instruction &lt;color=yellow&gt;ins&lt;/color&gt; (Insertion) :
+&lt;color=yellow&gt;ins&lt;/color&gt; &lt;color=#00aaff&gt;r0&lt;/color&gt; &lt;color=#22b2aa&gt;8 32&lt;/color&gt; &lt;color=#00aaff&gt;valeur&lt;/color&gt;
+- &lt;color=yellow&gt;OP CODE&lt;/color&gt; (Bits 0-7) : L'instruction (ex: FilterPrefabHashEquals).
+- &lt;color=yellow&gt;INDEX&lt;/color&gt; (Bits 8-39) : La donnée associée (ex: le Hash de l'objet).
+- &lt;color=yellow&gt;UNUSED&lt;/color&gt; (Bits 40-63) : Espace vide réservé au système.
+
+{HEADER:4. Adressage Direct et Pile (Stack)}
+L'adressage direct utilise l'identifiant unique à un appareil (&lt;color=#22b2aa&gt;id&lt;/color&gt;) au lieu des ports d0-d5.
+- &lt;color=yellow&gt;putd&lt;/color&gt; / &lt;color=yellow&gt;getd&lt;/color&gt; : Écrit ou lit dans la pile (Stack) d'un appareil distant via son &lt;color=#22b2aa&gt;id&lt;/color&gt;.
+- &lt;color=yellow&gt;clrd&lt;/color&gt; : Efface la pile d'un appareil distant. Crucial avant d'envoyer une nouvelle configuration.
+- &lt;color=yellow&gt;poke&lt;/color&gt; : Écrit directement dans la pile interne de la puce IC10 (512 emplacements).
+
+&lt;color=#666666&gt;------------------------------------------------------------------------------------------------&lt;/color&gt;
+&lt;color=#666666&gt;# EXEMPLE : Configurer un Trieur à distance pour le Charbon&lt;/color&gt;
+&lt;color=yellow&gt;alias&lt;/color&gt; SorterID &lt;color=#00aaff&gt;r10&lt;/color&gt;
+&lt;color=yellow&gt;move&lt;/color&gt; &lt;color=#00aaff&gt;r0&lt;/color&gt; &lt;color=orange&gt;SorterInstruction.FilterPrefabHashEquals&lt;/color&gt; &lt;color=#666666&gt;# OP CODE&lt;/color&gt;
+&lt;color=yellow&gt;ins&lt;/color&gt; &lt;color=#00aaff&gt;r0&lt;/color&gt; &lt;color=#22b2aa&gt;8 32&lt;/color&gt; HASH("ItemCoalOre") &lt;color=#666666&gt;# Insertion INDEX&lt;/color&gt;
+&lt;color=yellow&gt;clrd&lt;/color&gt; SorterID &lt;color=#666666&gt;# Reset de la mémoire du trieur&lt;/color&gt;
+&lt;color=yellow&gt;putd&lt;/color&gt; SorterID &lt;color=#22b2aa&gt;0&lt;/color&gt; &lt;color=#00aaff&gt;r0&lt;/color&gt; &lt;color=#666666&gt;# Envoi de la commande à l'adresse 0&lt;/color&gt;
+&lt;color=#666666&gt;------------------------------------------------------------------------------------------------&lt;/color&gt;
+
+{HEADER:5. Fonctions Spéciales}
+- &lt;color=yellow&gt;lerp&lt;/color&gt; r? a b c : Calcule une transition fluide entre &lt;b&gt;a&lt;/b&gt; et &lt;b&gt;b&lt;/b&gt; selon le ratio &lt;b&gt;c&lt;/b&gt;.
+- &lt;color=yellow&gt;rmap&lt;/color&gt; r? hash : Convertit le hash d'un réactif en hash d'objet (ex: Minerai -> Lingot).
+- &lt;color=yellow&gt;bdnvl&lt;/color&gt; / &lt;color=yellow&gt;bdnvs&lt;/color&gt; : Branchement sécurisé. Saute à une ligne si l'appareil cible est invalide pour le &lt;color=orange&gt;LogicType&lt;/color&gt; spécifié, évitant ainsi l'arrêt du script par une erreur "Device Not Found".
 
 &lt;align=center&gt;&lt;color=#5bc0de&gt;* Ce guide et la traduction intégrale du jeu sont l'œuvre de &lt;b&gt;Cedric.DX&lt;/b&gt;.&lt;/color&gt;
 &lt;color=#999999&gt;&lt;size=55%&gt;Retrouvez-moi sur &lt;color=white&gt;Steam&lt;/color&gt; via le mod de traduction FR pour échanger ou accéder à des mises à jour plus régulières.&lt;/size&gt;&lt;/color&gt;&lt;/align&gt;
