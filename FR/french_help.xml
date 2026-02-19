@@ -207,7 +207,7 @@ Au cœur de ce passe-temps se trouve le séquenceur pas à pas, un outil permett
 
 NOTE : Il existe de nombreuses méthodes de contrôle thermique, dont certaines n'utilisent aucun des appareils ci-dessus. Ici, nous présentons les bases.
 
-Avant d’installer un système de contrôle de température, il est essentiel de comprendre votre environnement. Le volume de gaz ou de liquide joue un rôle majeur dans la vitesse de variation de la température. Par exemple, un {THING:StructureTankSmall} peut contenir jusqu’à 6 000 L, tandis qu’un {THING:StructureTankBig} peut contenir jusqu’à 50 000 L : à quantité égale, le {THING:StructureTankSmall} réagira donc beaucoup plus vite aux variations thermiques. Une pièce fonctionne de la même manière : plus son volume est important, plus elle mettra de temps à changer de température.
+Avant d’installer un système de contrôle de température, il est essentiel de comprendre votre environnement. Le volume de gaz ou de liquide joue un rôle majeur dans la vitesse de variation de la température. Par exemple, un {THING:StructureTankSmallInLine} peut contenir jusqu’à 6 000 L, tandis qu’un {THING:StructureTankBigInLine} peut contenir jusqu’à 50 000 L : à quantité égale, le {THING:StructureTankSmallInLine} réagira donc beaucoup plus vite aux variations thermiques. Une pièce fonctionne de la même manière : plus son volume est important, plus elle mettra de temps à changer de température.
 
 {HEADER:RÉSEAUX DE TUYAUX}
 Un réseau de tuyaux est constitué d’un ou plusieurs segments reliés sans aucune séparation. Il partage une atmosphère unique sur toute sa longueur, quelle que soit sa taille. Modifier la température ou la pression à un point du réseau affecte instantanément l’ensemble du réseau.
@@ -607,7 +607,7 @@ Tous les systèmes hydroponiques nécessitent de l'{GAS:Water}, de la lumière s
 Votre installation dépendra des ressources disponibles et du temps dont vous disposez, mais un système agricole bien conçu peut être presque entièrement automatisé avec suffisamment de préparation.
 
 {HEADER:RÉCOLTE}
-La plupart des plantes traversent plusieurs stades de croissance. Les premières phases correspondent au développement général de la plante. Durant la troisième phase, vous pouvez récolter des graines. À la quatrième phase, la plante produit des fruits. Ensuite, sauf si elle est retirée, elle finira par mourir.
+La plupart des plantes possèdent plusieurs stades de croissance. Les premiers stades correspondent au développement de la plante tout au long de son cycle de vie. Durant l'avant-dernière phase, la plante produit des fruits mais pas de graines. Lors de la phase finale, les graines et les fruits peuvent être récoltés. Après cela, à moins d'être enlevée, la plante finira par mourir.
 
 {HEADER:ENGRAIS}
 Les engrais modifient les processus de croissance des plantes. Ils sont créés à l’aide du {THING:PortableComposter} ou du {THING:StructureAdvancedComposter}, en utilisant de la matière {LINK:OrganicPage;organique}.
