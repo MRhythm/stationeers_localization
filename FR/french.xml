@@ -839,10 +839,11 @@ Il suffit de le boulonner à un {THING:StructureBench} avec une {THING:ItemWrenc
 		</RecordThing>
 		<RecordThing>
 			<Key>CircuitboardAirControl</Key>
-			<Value>Circuit imprimé (Contrôleur atmosphérique)</Value>
-			<Description>Lorsqu'il est intégré dans une {THING:StructureConsole}, ce circuit permet de régler le fonctionnement d'une {THING:StructureActiveVent}. Comme les petits chiens et 83% des gens, ce circuit n'a que trois modes : Pression, Circulation et Hors ligne. 
-- En mode Pression, la {THING:StructureActiveVent} maintient une atmosphère à 100 kPa, ajustant le flux d'air de la ventilation active entre aspiration et expulsion jusqu'à atteindre la pression cible. 
-- Le mode Circulation permet de relier plusieurs {THING:StructureActiveVent} pour faire circuler l'air. 
+			<Value>Circuit imprimé (Contrôleur d'air)</Value>
+			<Description>Lorsqu'il est intégré dans une {THING:StructureConsole}, ce circuit permet de régler le fonctionnement d'une {THING:StructureActiveVent}.
+Ce circuit dispose de trois modes : Pression fixe, Courant d'air et Hors ligne :
+- En mode Pression fixe, la {THING:StructureActiveVent} maintient une atmosphère à 100 kPa, ajustant le flux d'air entre aspiration et expulsion selon les besoins, puis s’arrête automatiquement une fois la pression cible atteinte.
+- Le mode Courant d'air cherche également à maintenir 100 kPa, mais ne s’arrête jamais : la {THING:StructureActiveVent} alterne continuellement entre flux entrant et sortant afin de faire circuler le gaz entre la pièce et le réseau de tuyaux.
 - Enfin, le mode Hors ligne désactive la {THING:StructureActiveVent}.
 
 Utilisez un {THING:ItemScrewdriver} sur le circuit imprimé pour le réinitialiser.
@@ -1567,7 +1568,7 @@ Filtres disponibles :
 		<RecordThing>
 			<Key>ItemKitTank</Key>
 			<Value>Kit (Réservoir de gaz)</Value>
-			<Description>Ce kit produit soit un {THING:StructureTankBig}, soit un {THING:StructureTankSmall}.</Description>
+			<Description>Ce kit produit soit un {THING:StructureTankBigInsulatedInLine}, soit un {THING:StructureTankSmallInLine}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitTorpedoTube</Key>
@@ -2626,18 +2627,23 @@ Tous les tuyaux du rangement doivent être connectés, sinon l'unité affichera 
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankSmall</Key>
+			<Value>Réservoir de gaz (petit) (OBSOLÈTE)</Value>
+			<Description>Un {THING:StructureTankSmallInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureTankSmallInLine</Key>
 			<Value>Réservoir de gaz (petit)</Value>
-			<Description>Un {THING:StructureTankSmall} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBig} peut contenir jusqu'à 50 000 L.</Description>
+			<Description>Un {THING:StructureTankSmallInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankSmallAir</Key>
 			<Value>Réservoir de gaz (petit - Air)</Value>
-			<Description>Un {THING:StructureTankSmall} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBig} peut contenir jusqu'à 50 000 L.</Description>
+			<Description>Un {THING:StructureTankSmallInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankSmallFuel</Key>
 			<Value>Réservoir de gaz (petit - Carburant)</Value>
-			<Description>Un {THING:StructureTankSmall} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBig} peut contenir jusqu'à 50 000 L.</Description>
+			<Description>Un {THING:StructureTankSmallInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTorpedoRack</Key>
@@ -3500,8 +3506,13 @@ Les autres modes permettent de visualiser cette même valeur sous des formes alt
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankBig</Key>
+			<Value>Réservoir de gaz (grand) (OBSOLÈTE)</Value>
+			<Description>Un {THING:StructureTankSmallInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureTankBigInLine</Key>
 			<Value>Réservoir de gaz (grand)</Value>
-			<Description>Un {THING:StructureTankSmall} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBig} peut contenir jusqu'à 50 000 L.</Description>
+			<Description>Un {THING:StructureTankSmallInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemPotato</Key>
@@ -4521,7 +4532,8 @@ Recipe = Recette</Description>
 			<Value>Combinaison spatiale renforcée</Value>
 			<Description>La combinaison spatiale renforcée (Hardsuit) est une armure pressurisée de pointe conçue pour les conditions extrêmes. Elle offre une isolation thermique et une résistance structurelle bien supérieures à la {THING:ItemEvaSuit}.
 
-Dotée de systèmes de survie plus performants, elle est indispensable pour explorer des environnements hostiles tels que Vénus ou Vulcain.</Description>
+Dotée de systèmes de survie plus performants, elle est indispensable pour explorer des environnements hostiles tels que Vénus ou Vulcain.
+</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemHardsuitHelmet</Key>
@@ -5849,12 +5861,24 @@ Avec un {THING:ItemIntegratedCircuit10} dans l'emplacement {SLOT:ProgrammableChi
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankSmallInsulated</Key>
-			<Value>Réservoir de gaz isolé (petit)</Value>
-			<Description/>
+			<Value>Réservoir de gaz isolé (petit) (OBSOLÈTE)</Value>
+			<Description>Un {THING:StructureTankSmallInsulatedInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureTankBigInsulated</Key>
+			<Value>Réservoir de gaz isolé (grand) (OBSOLÈTE)</Value>
+			<Description>Un {THING:StructureTankSmallInsulatedInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureTankSmallInsulatedInLine</Key>
+			<Value>Réservoir de gaz isolé (petit)</Value>
+			<Description>Un {THING:StructureTankSmallInsulatedInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
+			<Description/>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureTankBigInsulatedInLine</Key>
 			<Value>Réservoir de gaz isolé (grand)</Value>
+			<Description>Un {THING:StructureTankSmallInsulatedInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitTankInsulated</Key>
@@ -6497,13 +6521,23 @@ Pour l'utiliser sur soi-même : mettez du ruban adhésif dans votre main active,
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidTankBig</Key>
-			<Value>Réservoir de liquide (grand)</Value>
-			<Description/>
+			<Value>Réservoir de liquide (grand) (OBSOLÈTE)</Value>
+			<Description>Un {THING:StructureLiquidTankSmallInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureLiquidTankBigInLine} peut contenir jusqu'à 50 000 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidTankSmall</Key>
+			<Value>Réservoir de liquide (petit) (OBSOLÈTE)</Value>
+			<Description>Un {THING:StructureLiquidTankSmallInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureLiquidTankBigInLine} peut contenir jusqu'à 50 000 L.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureLiquidTankBigInLine</Key>
+			<Value>Réservoir de liquide (grand)</Value>
+			<Description>Un {THING:StructureLiquidTankSmallInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureLiquidTankBigInLine} peut contenir jusqu'à 50 000 L.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureLiquidTankSmallInLine</Key>
 			<Value>Réservoir de liquide (petit)</Value>
-			<Description/>
+			<Description>Un {THING:StructureLiquidTankSmallInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureLiquidTankBigInLine} peut contenir jusqu'à 50 000 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitLiquidTank</Key>
@@ -6517,13 +6551,23 @@ Pour l'utiliser sur soi-même : mettez du ruban adhésif dans votre main active,
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidTankBigInsulated</Key>
-			<Value>Réservoir de liquide isolé (grand)</Value>
-			<Description/>
+			<Value>Réservoir de liquide isolé (grand) (OBSOLÈTE)</Value>
+			<Description>Un {THING:StructureLiquidTankSmallInsulatedInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureLiquidTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureLiquidTankSmallInsulated</Key>
+			<Value>Réservoir de liquide isolé (petit) (OBSOLÈTE)</Value>
+			<Description>Un {THING:StructureLiquidTankSmallInsulatedInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureLiquidTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureLiquidTankBigInsulatedInLine</Key>
+			<Value>Réservoir de liquide isolé (grand)</Value>
+			<Description>Un {THING:StructureLiquidTankSmallInsulatedInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureLiquidTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureLiquidTankSmallInsulatedInLine</Key>
 			<Value>Réservoir de liquide isolé (petit)</Value>
-			<Description/>
+			<Description>Un {THING:StructureLiquidTankSmallInsulatedInLine} peut contenir jusqu'à 6000 L, tandis qu'un {THING:StructureLiquidTankBigInsulatedInLine} peut contenir jusqu'à 50 000 L.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWaterPipeMeter</Key>
@@ -7615,7 +7659,12 @@ Aucun équipement ne peut être porté lors de l'entrée dans l'appareil.</Descr
 		<RecordThing>
 			<Key>StructureDeepMiner</Key>
 			<Value>Foreuse profonde</Value>
-			<Description>Fore à travers le terrain jusqu'au socle rocheux. Une fois le socle atteint, le {THING:ItemDirtyOre} est extrait environ toutes les 90 secondes.</Description>
+			<Description>Fore le terrain jusqu’à atteindre le socle rocheux. Une fois ancrée dans le socle rocheux, elle produit un {THING:ItemDirtyOre} environ toutes les 90 secondes. Le type de minerai extrait dépend de l’emplacement. Vous pouvez analyser la composition du minerai extrait à une position donnée à l’aide de la {THING:CartridgeDeepMiner}.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureCombustionDeepMiner</Key>
+			<Value>Foreuse profonde à combustion</Value>
+			<Description>La foreuse profonde à combustion est une version alimentée au gaz combustible de la {THING:StructureDeepMiner}. Son régime moteur doit être contrôlé à l’aide des leviers d’accélération et de limitation de combustion. Si la foreuse gagne ou perd trop rapidement des tours/minute, elle subit des contraintes mécaniques et finit par s’arrêter. Des régimes plus élevés permettent une vitesse d’extraction accrue. Le levier d’accélération règle la quantité de carburant aspirée dans le moteur, augmentant la température interne et donc le régime. Le levier de limitation de combustion influence la vitesse de combustion et la quantité de gaz non brûlé dans les gaz d’échappement. Éteindre la machine réduit progressivement le régime de manière contrôlée.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureSleeperVertical</Key>
@@ -7648,9 +7697,14 @@ Aucun équipement ne peut être porté lors de l'entrée dans l'appareil.</Descr
 			<Description>Crée une {THING:StructureDeepMiner} qui peut forer à travers le terrain jusqu'au socle rocheux pour extraire du {THING:ItemDirtyOre}.</Description>
 		</RecordThing>
 		<RecordThing>
+			<Key>ItemKitCombustionDeepMiner</Key>
+			<Value>Kit (Foreuse profonde à combustion)</Value>
+			<Description>Un kit permettant d’assembler une foreuse profonde à combustion qui peut forer à travers le terrain jusqu'au socle rocheux pour extraire du {THING:ItemDirtyOre}. C'est une version alimentée au gaz de la {THING:StructureDeepMiner} standard.</Description>
+		</RecordThing>
+		<RecordThing>
 			<Key>ItemDirtyOre</Key>
 			<Value>Minerai impur</Value>
-			<Description>Minerai extrait du socle rocheux via la {THING:StructureDeepMiner}, qui peut ensuite être utilisé dans le {THING:StructureCentrifuge} ou le {THING:StructureCombustionCentrifuge}. Une fois traité, il produit du minerai dans un ratio similaire à celui trouvé en moyenne à la surface de la planète.</Description>
+			<Description>Minerai extrait du socle rocheux par la {THING:StructureDeepMiner}. Il peut ensuite être traité dans une {THING:StructureCentrifuge} ou une {THING:StructureCombustionCentrifuge}. Le type de minerai obtenu après traitement dépend de la zone où l’extraction a été effectuée. Pour connaître les minerais disponibles dans une région donnée, utilisez la {THING:CartridgeDeepMiner}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureChuteFlipFlopSplitter</Key>
@@ -7665,7 +7719,7 @@ Aucun équipement ne peut être porté lors de l'entrée dans l'appareil.</Descr
 		<RecordThing>
 			<Key>StructureCombustionCentrifuge</Key>
 			<Value>Centrifugeuse à combustion</Value>
-			<Description>La centrifugeuse à combustion est une version alimentée au gaz de la {THING:StructureCentrifuge}. Si un {THING:StructureRecycler} ou un {THING:StructureFurnace} déséquilibré produit un {THING:ItemReagentMix} plutôt que les {LINK:IngotPage;lingots} souhaités, une centrifugeuse permet de récupérer les {LINK:OrePage;minerai} brutes. 
+			<Description>La centrifugeuse à combustion est une version alimentée au gaz combustible de la {THING:StructureCentrifuge}. Si un {THING:StructureRecycler} ou un {THING:StructureFurnace} déséquilibré produit un {THING:ItemReagentMix} plutôt que les {LINK:IngotPage;lingots} souhaités, une centrifugeuse permet de récupérer les {LINK:OrePage;minerai} brutes. 
 Elle raffine également le {THING:ItemDirtyOre} produit par la {THING:StructureDeepMiner} et le {THING:ItemSpaceOre} produit par la {THING:StructureRocketMiner}. Un mélange de combustible doit être fourni à l'entrée de gaz, et les gaz résiduels doivent être évacués par la sortie.
 Les tours par minute (RPM) de la machine doivent être contrôlés via les leviers de l'accélérateur et du limiteur de combustion. Si la centrifugeuse à combustion gagne ou perd des tr/min (RPM) trop rapidement, elle subira des contraintes et finira par s'arrêter. Des tr/min (RPM) plus élevés se traduisent directement par des vitesses de traitement plus rapides.
 Le levier de l'accélérateur contrôle la quantité de carburant aspirée dans la machine, augmentant la température à l'intérieur du moteur, et entraînant une augmentation des tr/min (RPM). Le levier limiteur influence la vitesse de combustion, et la quantité de gaz non brûlé dans les gaz d'échappement.
@@ -9909,7 +9963,7 @@ Le "N Flow-P" possède quatre connexions, vous permettant de faire passer deux r
 		<RecordThing>
 			<Key>CartridgeDeepMiner</Key>
 			<Value>Carte (Scanner de foreuse profonde)</Value>
-			<Description/>
+			<Description>Affiche la composition des minerais pouvant être extraits à cet emplacement à l’aide d’une {THING:StructureDeepMiner} ou {THING:StructureCombustionDeepMiner}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCircuitHousingCompact</Key>
@@ -10319,6 +10373,26 @@ Définissez la zone de largage en réglant les variables logiques PositionX et P
 			<Key>ItemDefibrillator</Key>
 			<Value>Défibrillateur</Value>
 			<Description>Un appareil médical portable utilisé pour réanimer un {LINK:Stationeers;Stationeer} en arrêt cardiaque en délivrant une décharge électrique contrôlée.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureCrewModule</Key>
+			<Value>Module d’équipage</Value>
+			<Description>Un module pressurisé conçu pour accueillir un membre d’équipage.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureCrewModuleCableConnectorA</Key>
+			<Value>Connecteur de câbles (Module d’équipage A)</Value>
+			<Description>Point de connexion électrique du module d’équipage.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureCrewModuleCableConnectorB</Key>
+			<Value>Connecteur de câbles (Module d’équipage B)</Value>
+			<Description>Point de connexion électrique du module d’équipage.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureCrewUmbilical</Key>
+			<Value>Omibilical (Équipage)</Value>
+			<Description>Interface reliant un module d’équipage à une structure externe.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageConstructor</Key>
@@ -21274,13 +21348,16 @@ Le programme {LINK:Stationeers;Stationeers}, qui est fondamentalement ouvert à 
 		</Record>
 		<Record>
 			<Key>MoleOxygenDescription</Key>
-			<Value>Le "dioxygène" de formule "O2", est appelée communément "oxygène". Il fournit de l'énergie lorsqu'il est libéré lors de la combustion, et se lie également à l'hydrogène pour créer de l'{GAS:Water}. Il est créé par les {LINK:OrganicPage;plantes}, ainsi que par le traitement de la {THING:ItemOxite}. Il est hautement inflammable à basse température et ça température d'auto-inflammation est de 300°C :
+			<Value>Le dioxygène (O2) est communément appelé "oxygène". Il fournit de l'énergie thermique lors de la combustion avec du {GAS:Volatiles}. Il est produit par des {LINK:OrganicPage;plantes}, ainsi que par la fonte de la {THING:ItemOxite}. Il est hautement réactif et sa température d'auto-inflammation est de 300 °C.
 			
-2 {GAS:Volatiles} + 1 {GAS:Oxygen} -&gt; 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + chaleur (~2 143°C).</Value>
+Contrairement à l’hydrogène, les {GAS:Volatiles} ne génèrent pas d’{GAS:Water} lorsqu’ils brûlent avec de l’oxygène, sauf en présence d’un catalyseur présent dans le {THING:H2Combustor}. Seuls, ils produisent des {GAS:Pollutant} et du {GAS:CarbonDioxide} selon la réaction suivante :
+
+2 {GAS:Volatiles} + 1 {GAS:Oxygen} -&gt; 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + chaleur (~2 143 °C).
+</Value>
 		</Record>
 		<Record>
 			<Key>MoleNitrogenDescription</Key>
-			<Value>L'{GAS:Nitrogen} peut être mélangé avec l'{GAS:Oxygen} pour stabiliser son inflammabilité et éviter la toxicité d'{GAS:Oxygen}, et c'est aussi une ressource à part entière, utile pour créer une atmosphère respirable (à environ 3:1 d'{GAS:Nitrogen} et d'{GAS:Oxygen}). La source la plus efficace d'{GAS:Nitrogen} provient des gisements de {THING:ItemNitrice} trouvés dans tout le système solaire. Vous pouvez condenser l'{GAS:Nitrogen} en {GAS:LiquidNitrogen} en abaissant sa température en dessous de son point d'ébullition.</Value>
+			<Value>L'{GAS:Nitrogen} peut être mélangé avec l'{GAS:Oxygen} pour stabiliser son inflammabilité. La source la plus efficace d'{GAS:Nitrogen} provient des gisements de la {THING:ItemNitrice} trouvés dans le système solaire. Vous pouvez condenser l'{GAS:Nitrogen} en {GAS:LiquidNitrogen} en abaissant sa température en dessous de son point d'ébullition.</Value>
 		</Record>
 		<Record>
 			<Key>MoleCarbonDioxideDescription</Key>
@@ -21292,18 +21369,19 @@ Le {GAS:CarbonDioxide} a une chaleur spécifique modérément élevée, ce qui e
 			<Key>MoleVolatilesDescription</Key>
 			<Value>Les volatils sont des molécules organiques extrêmement réactives et complexes, qui peuvent être utilisées en conjonction avec l'{GAS:Oxygen} comme combustible. Ils sont raffinés à partir de la {THING:ItemVolatiles}.
  
-En raison de réglementations obscures et largement oubliées de l'{LINK:ODA;ODA}, les {GAS:Volatiles} sont parfois étiquetés "H2" par divers éléments de technologie. Cependant, bien qu'ils soient similaires à l'hydrogène, ils ne sont pas "réellement" de l'hydrogène. Le {GAS:Volatiles} ne produira pas de l'{GAS:Water} lorsqu'il est brûlé, sans un catalyseur (voir le {THING:H2Combustor}). Seuls, ils créent des {GAS:Pollutant} et du {GAS:CarbonDioxide} lorsqu'ils sont brûlés dans le rapport suivant :
+En raison de réglementations obscures et largement oubliées de l'{LINK:ODA;ODA}, les {GAS:Volatiles} sont parfois étiquetés "H2" par divers éléments de technologie. Cependant, bien qu'ils soient similaires à l'hydrogène, ils ne sont pas "réellement" de l'hydrogène. Le {GAS:Volatiles} ne produira pas de l'{GAS:Water} lorsqu'il est brûlé, sans un catalyseur présent dans le {THING:H2Combustor}. Seuls, ils créent des {GAS:Pollutant} et du {GAS:CarbonDioxide} lorsqu'ils sont brûlés dans le rapport suivant :
  
-2 {GAS:Volatiles} + 1 {GAS:Oxygen} -&gt; 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + chaleur (~2 143°C)
+2 {GAS:Volatiles} + 1 {GAS:Oxygen} -&gt; 3 {GAS:Pollutant} + 6 {GAS:CarbonDioxide} + chaleur (~2 143 °C)
 (Température d'auto-inflammation : 300°C).
 
 Il existe aussi du supercarburant (NOS):
-1 {GAS:Volatiles} + 1 {GAS:NitrousOxide} -&gt; 2 {GAS:Nitrogen} + 2 {GAS:CarbonDioxide} + chaleur (~5 757°C)
-(Température d'auto-inflammation : 50°C).</Value>
+1 {GAS:Volatiles} + 1 {GAS:NitrousOxide} -&gt; 2 {GAS:Nitrogen} + 2 {GAS:CarbonDioxide} + chaleur (~5 757 °C)
+(Température d'auto-inflammation : 50°C).
+</Value>
 		</Record>
 		<Record>
 			<Key>MolePollutantDescription</Key>
-			<Value>Aussi connu sous le nom de "X", le {GAS:Pollutant} est créé lors de la fonte de certains métaux. Une concentration de 0,1 mol ou plus provoquera un avertissement de votre combinaison concernant le poison dans l'atmosphère.
+			<Value>Aussi connu sous le nom de "X", le {GAS:Pollutant} est créé lors de la fonte de certains métaux. Une concentration de 0,1 mol ou plus provoquera un avertissement de votre combinaison concernant du pollutant dans l'atmosphère.
  
 Le {GAS:Pollutant} a une chaleur spécifique élevée, ce qui en fait un excellent agent de refroidissement. Malheureusement, il est extrêmement nocif pour les êtres organiques et endommagera gravement les poumons de la plupart des organismes à base de carbone.</Value>
 		</Record>
@@ -21323,7 +21401,8 @@ Un {THING:StructureWaterPurifier} peut être utilisé pour la reconvertir de nou
 			
 1 {GAS:Volatiles} + 1 {GAS:NitrousOxide} -&gt; 2 {GAS:Nitrogen} + 2 {GAS:CarbonDioxide} + chaleur (~5 757°C).
 
-Le protoxyde d'azote peut être produit dans un processus énergivore à l'intérieur d'un {THING:StructureNitrolyzer}.</Value>
+Le protoxyde d'azote peut être produit dans un processus énergivore à l'intérieur d'un {THING:StructureNitrolyzer}.
+</Value>
 		</Record>
 		<Record>
 			<Key>MoleLiquidNitrogenDescription</Key>
@@ -24697,6 +24776,10 @@ Merci de votre compréhension et nous avons hâte que vous découvriez toutes le
 		<Record>
 			<Key>StationpediaCryogenicRegenerationDesc</Key>
 			<Value>Lorsqu'il est alimenté, cet appareil répare tous types de dommages aux tissus et aux organes, et régénère également les occupants décédés.</Value>
+		</Record>
+		<Record>
+			<Key>ButtonLink</Key>
+			<Value>Lier</Value>
 		</Record>
 		<Record>
 			<Key>StationpediaCryogenicRegeneration</Key>
@@ -30815,7 +30898,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>AirControlStatusPressure</Key>
-			<Value>PRESSION</Value>
+			<Value>PRESSION FIXE</Value>
 		</Record>
 		<Record>
 			<Key>AirControlStatusDraught</Key>
@@ -30848,7 +30931,7 @@ L'objet échangé est invalide.</Value>
 		</Record>
 		<Record>
 			<Key>AirControlModePressure</Key>
-			<Value>Pression</Value>
+			<Value>Pression fixe</Value>
 		</Record>
 		<Record>
 			<Key>CircuitboardMasterLabel</Key>
