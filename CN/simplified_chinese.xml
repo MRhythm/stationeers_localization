@@ -9119,8 +9119,8 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_LargeTank</Key>
-      <Value>着陆场燃料舱(大型)</Value>
-      <Description>增加着陆平台气体存储容量, 可用于与星际贸易商进行气体交易</Description>
+      <Value>着陆场储罐(大型)</Value>
+      <Description>增加着陆场气体存储容量, 可用于与星际贸易商进行气体交易</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlockWide</Key>
