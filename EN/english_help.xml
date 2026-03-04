@@ -631,7 +631,7 @@ Your system will depend on available resources and time, but a well-designed far
 
 {HEADER:HARVESTING}
 
-Most plants have several growth stages. The first stages are the plant growing through its lifecycle. During the third phase, seeds may be harvested from the plant. In the fourth phase, the plant will yield fruit. After that, unless cleared, the plant will die.
+Most plants have several growth stages. The first stages are the plant growing through its lifecycle. During the second-to-last phase, the plant will yield fruit but no seeds. In the final phase, seeds and fruit may be harvested from the plant. After that, unless cleared, the plant will die.
 
 {HEADER:FERTILIZER}
 
@@ -643,7 +643,7 @@ Fertilizer's affects depend on its ingredients:
 - {THING:DecayedFood} increases plant GROWTH SPEED up to 3 times
 - {THING:ItemBiomass} increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for to a maximum of 5
 
-The effect of these ingredients depends on their respective proportions in the composter when processing is activated. Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. When processing, {GAS:Nitrogen} and {GAS:Volatiles} is released, as well a small amount of heat.
+The effect of these ingredients depends on their respective proportions in the composter when processing is activated. Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. When processing, {GAS:Nitrogen} and {GAS:Methane} is released, as well a small amount of heat.
 </Text>
     </StationpediaPage>
 
@@ -664,7 +664,7 @@ The effect of these ingredients depends on their respective proportions in the c
 > {GAS:Oxygen} x 1.3
 > {GAS:Nitrogen} x 0.6
 > {GAS:CarbonDioxide} x 0.8
-> {GAS:Volatiles} x 1
+> {GAS:Methane} x 1
 > {GAS:Pollutant} x 3
 > {GAS:NitrousOxide} x 1.5
 > {GAS:Water} x 2
