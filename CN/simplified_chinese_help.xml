@@ -147,7 +147,7 @@
     <StationpediaPage>
       <Key>ReagentPage</Key>
       <Title>原料</Title>
-      <Text>这些是特定类型的化学物质含量.
+      <Text>下列是特定类型的化学物质.
       {LIST_OF_REAGENTS}
       </Text>
     </StationpediaPage>
@@ -258,7 +258,7 @@
     <StationpediaPage>
       <Key>GasPage</Key>
       <Title>气体</Title>
-      <Text>这些是特定类型的化学气体含量.{LIST_OF_GASES}
+      <Text>下列是各种类型的化学气体.{LIST_OF_GASES}
       </Text>
     </StationpediaPage>
 
@@ -296,7 +296,7 @@
     <StationpediaPage>
       <Key>ToolPage</Key>
       <Title>工具</Title>
-      <Text>这些是可放入专用工具槽位的物品, 用于 {LINK:ConstructionPage;建造} 及其他任务.
+      <Text>下列是可放入专用工具槽位的物品, 用于 {LINK:ConstructionPage;建造} 及其他任务.
 
 {LIST_OF_TOOLS}
       </Text>
@@ -305,7 +305,7 @@
     <StationpediaPage>
       <Key>ResourcePage</Key>
       <Title>资源</Title>
-      <Text>这些是在 {LINK:ConstructionPage;建造} 及其他任务中消耗的物品.
+      <Text>下列是在 {LINK:ConstructionPage;建造} 及其他任务中消耗的物品.
 {LIST_OF_RESOURCES}
       </Text>
     </StationpediaPage>
@@ -313,7 +313,7 @@
     <StationpediaPage>
       <Key>KitPage</Key>
       <Title>套件</Title>
-      <Text>这些是在 {LINK:ConstructionPage;建造} 及其他任务中消耗的套件.
+      <Text>下列是在 {LINK:ConstructionPage;建造} 及其他任务中消耗的套件.
 {LIST_OF_KITS}
 </Text>
     </StationpediaPage>
@@ -351,7 +351,7 @@
     <StationpediaPage>
       <Key>FoodPage</Key>
       <Title>食物</Title>
-      <Text>这些是能够提供营养的消耗品.
+      <Text>下列是能够提供营养的消耗品.
         {LIST_OF_FOOD}
       </Text>
     </StationpediaPage>
@@ -359,7 +359,7 @@
     <StationpediaPage>
       <Key>ClothingPage</Key>
       <Title>服装</Title>
-      <Text>这些是可穿戴物品, 可供角色进行装备.
+      <Text>下列是可穿戴物品, 可供角色进行装备.
 {LIST_OF_CLOTHING}
       </Text>
     </StationpediaPage>
@@ -367,7 +367,7 @@
     <StationpediaPage>
       <Key>AppliancePage</Key>
       <Title>电器</Title>
-      <Text>这些是可放置在工作台上的电器设备. 需使用扳手将其固定至工作台.
+      <Text>下列是可放置在工作台上的电器设备. 需使用扳手将其固定至工作台.
 {LIST_OF_APPLIANCES}
       </Text>
     </StationpediaPage>
@@ -632,7 +632,7 @@ Stationeer最终会感到饥饿, 但并非所有食物都能提供同等效果. 
 
 {HEADER:收获}
 
-多数植物具有多个生长阶段: 前两阶段为生命周期生长, 第三阶段可收获种子, 第四阶段产出果实. 此后若未清理, 植株将会死亡.
+多数植物具有多个生长阶段: 第一阶段为生长阶段, 从第二阶段开始可以收获果实, 最终阶段会产出种子. 此后若未清理, 植株将会死亡.
 
 {HEADER:施肥}
 
@@ -644,7 +644,7 @@ Stationeer最终会感到饥饿, 但并非所有食物都能提供同等效果. 
 · {THING:DecayedFood} 最高提升3倍生长速度
 · {THING:ItemBiomass} 将肥料持续生效周期数提升至最多5次
 
-具体效果取决于启动堆肥时各成分比例. 肥料与原料按1:3比例产出, 处理过程中会释放 {GAS:Nitrogen} 、 {GAS:Volatiles} 及少量热量
+具体效果取决于启动堆肥时各成分比例. 肥料与原料按1:3比例产出, 处理过程中会释放 {GAS:Nitrogen} 、 {GAS:Methane} 及少量热量
 </Text>
     </StationpediaPage>
 
@@ -665,7 +665,7 @@ Stationeer最终会感到饥饿, 但并非所有食物都能提供同等效果. 
 > {GAS:Oxygen} × 1.3
 > {GAS:Nitrogen} × 0.6
 > {GAS:CarbonDioxide} × 0.8
-> {GAS:Volatiles} × 1
+> {GAS:Methane} × 1
 > {GAS:Pollutant} × 3
 > {GAS:NitrousOxide} × 1.5
 > {GAS:Water} × 2
