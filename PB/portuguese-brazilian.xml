@@ -1914,7 +1914,7 @@ Por fim, um APC carrega baterias, que podem fornecer energia de reserva à sub-r
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
       <Value>Regulador de Contrapressão</Value>
-      <Description>Diferente do {THING:StructurePressureRegulator}, que se fecha quando a pressão de entrada excede um determinado valor, o regulador de contrapressão se abre quando a pressão de entrada atinge o valor definido.</Description>
+      <Description>Diferente do {THING:StructurePressureRegulator}, serve para controlar a pressão na entrada, liberando o excesso quando a pressão fica muito alta. Ele transfere gás do tubo de entrada para a saída (geralmente um sistema de descarte ou exaustão) apenas quando a pressão na entrada é maior que a configurada. Funciona para evitar que uma máquina (como a fornalha) sobrecarregue a tubulação, ou para manter uma sala com uma pressão constante. Coloque o regulador na rede. O holograma mostra uma seta indicando o sentido (Entrada -> Saída). Reguladores de pressão no Stationeers funcionam ativamente e precisam de energia elétrica (100W) para funcionar. Clique com o botão direito no dial (mostrador) do regulador para definir a pressão alvo (kPa). Use manômetros em ambos os lados para monitorar se a pressão de entrada e saída está se comportando como desejado.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePurgeValve</Key>
@@ -2391,7 +2391,7 @@ A velocidade da troca de calor dependerá do tipo de gás envolvido. A adição 
     <RecordThing>
       <Key>StructurePressureRegulator</Key>
       <Value>Regulador de Pressão</Value>
-      <Description>Controlando o fluxo de gás entre duas redes de tubos, os reguladores de pressão transferem gás até que a pressão definida no lado de saída seja atingida, ou até que o suprimento de gás se esgote. O {THING:StructureBackPressureRegulator}, por outro lado, só opera quando a pressão no lado de entrada excede o valor definido. Com uma pressão máxima superior a 20.000 kPa, ele requer energia para funcionar.</Description>
+      <Description>Serve para limitar a pressão na saída, impedindo que ela exceda um valor configurado. Ele transfere gás do tubo de entrada para o tubo de saída apenas até que a pressão na Sáida atinja o valor definido no dial. Coloque-o antes de tanques de armazenamento para encher cilindros sem estourá-los. O {THING:StructureBackPressureRegulator}, por outro lado, só opera quando a pressão no lado de entrada excede o valor definido. Com uma pressão máxima superior a 20.000 kPa, ele requer energia para funcionar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRailing</Key>
@@ -2408,7 +2408,7 @@ A velocidade da troca de calor dependerá do tipo de gás envolvido. A adição 
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketEngineTiny</Key>
-      <Value>Motor de Foguete (Minúsculo)</Value>
+      <Value>Motor de Foguete Minúsculo</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureRTG</Key>
@@ -3278,7 +3278,7 @@ Observe que os transformadores também atuam como isoladores de dados, impedindo
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH5</Key>
-      <Value>Cabo Pesado Junção 5 Vias</Value>
+      <Value>Cabo Pesado Conexão 5 Vias</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunctionH5Burnt</Key>
@@ -7006,18 +7006,18 @@ Desligar a máquina reduzirá a rotação de forma controlada.
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeperVertical</Key>
-      <Value>Berço Vertical</Value>
-      <Description>A variante vertical do berço. Mantém os jogadores hidratados e alimentados enquanto estão desconectados — desde que uma atmosfera respirável seja fornecida.</Description>
+      <Value>Cápsula de Dormir Vertical</Value>
+      <Description>A variante vertical da Cápsula de Dormir. Mantém os jogadores hidratados e alimentados enquanto estão desconectados — desde que uma atmosfera respirável seja fornecida.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeperLeft</Key>
-      <Value>Berço Esquerdo</Value>
-      <Description>Uma variante horizontal do berço. Mantém os jogadores hidratados e alimentados enquanto estão desconectados — desde que uma atmosfera respirável seja fornecida.</Description>
+      <Value>Cápsula de Dormir (Esquerda)</Value>
+      <Description>Uma variante horizontal da Cápsula de Dormir. Mantém os jogadores hidratados e alimentados enquanto estão desconectados — desde que uma atmosfera respirável seja fornecida.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeperRight</Key>
-      <Value>Berço Direito</Value>
-      <Description>Uma variante horizontal do berço. Mantém os jogadores hidratados e alimentados enquanto estão desconectados — desde que uma atmosfera respirável seja fornecida.</Description>
+      <Value>Cápsula de Dormir (Direita)</Value>
+      <Description>Uma variante horizontal da Cápsula de Dormir. Mantém os jogadores hidratados e alimentados enquanto estão desconectados — desde que uma atmosfera respirável seja fornecida.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureProximitySensor</Key>
@@ -7057,12 +7057,12 @@ Desligar a máquina reduzirá a rotação de forma controlada.
     <RecordThing>
       <Key>StructureCombustionCentrifuge</Key>
       <Value>Centrífuga de Combustão</Value>
-      <Description>A Centrífuga de Combustão é uma versão movida a gás da {THING:StructureCentrifuge}. Se um {THING:StructureRecycler} ou um {THING:StructureFurnace} desbalanceado produzir uma mistura de {LINK:ReagentPage;reagentes} em vez dos {LINK:IngotPage;ingotes} desejados, a centrífuga permite recuperar o {LINK:OrePage;minério} bruto.  
+      <Description>A Centrífuga de Combustão é uma versão movida a gás da {THING:StructureCentrifuge}. Se um {THING:StructureRecycler} ou um {THING:StructureFurnace} desbalanceado produzir uma mistura de {LINK:ReagentPage;reagentes} em vez dos {LINK:IngotPage;Lingotes} desejados, a centrífuga permite recuperar o {LINK:OrePage;minério} bruto.  
 Também refina {THING:ItemDirtyOre} produzido pela {THING:StructureDeepMiner} e {THING:ItemSpaceOre} produzido pela {THING:StructureRocketMiner}. Uma mistura de combustível deve ser fornecida à entrada de gás, e os gases residuais devem ser liberados pela saída.  
-As RPMs da máquina devem ser controladas pelas alavancas de aceleração e de limitação de combustão. Se a Centrífuga de Combustão ganhar ou perder RPMs muito rápido, sofrerá estresse e eventualmente parará. RPMs mais altos resultam diretamente em velocidades de processamento mais rápidas.  
-- A alavanca do acelerador controla a quantidade de combustível puxada para dentro da máquina, aumentando a temperatura interna e, consequentemente, as RPMs.  
+O RPM da máquina devem ser controladas pelas alavancas de aceleração e de limitação de combustão. Se a Centrífuga de Combustão ganhar ou perder RPMs muito rápido, sofrerá estresse e eventualmente parará. RPMs mais altos resultam diretamente em velocidades de processamento mais rápidas.  
+- A alavanca do acelerador controla a quantidade de combustível puxada para dentro da máquina, aumentando a temperatura interna e, consequentemente, os RPMs.  
 - A alavanca do limitador influencia a velocidade da combustão e a quantidade de gás não queimado no escapamento. 
-Ejetar minério da Centrífuga de Combustão enquanto estiver em alta rotação resultará em acúmulo adicional de estresse. Se for desligada enquanto não estiver sob estresse, a máquina começará automaticamente a frear e reduzir as RPMs de maneira controlada
+Ejetar minério da Centrífuga de Combustão enquanto estiver em alta rotação resultará em acúmulo adicional de estresse. Se for desligada enquanto não estiver sob estresse, a máquina começará automaticamente a frear e reduzir os RPMs de maneira controlada
 	  </Description>
     </RecordThing>
     <RecordThing>
@@ -7118,13 +7118,13 @@ Para faixas de temperatura e pressão, quatro genes aparecem no mesmo widget. Os
     </RecordThing>
     <RecordThing>
       <Key>CartridgePlantAnalyser</Key>
-      <Value>Cartucho (Analisador de Plantas)</Value>
+      <Value>Cartucho Analisador de Plantas</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>AppliancePlantGeneticStabilizer</Key>
       <Value>Estabilizador Genético de Plantas</Value>
-      <Description>O Estabilizador Genético pode ser usado para manipular a estabilidade dos genes em {LINK:OrganicPage;Plants} ou {LINK:OrganicPage;Seeds}. Ele possui dois modos: Estabilizar e Desestabilizar.
+      <Description>O Estabilizador Genético pode ser usado para manipular a estabilidade dos genes em {LINK:OrganicPage;Plantas} ou {LINK:OrganicPage;Sementes}. Ele possui dois modos: Estabilizar e Desestabilizar.
 Estabilizar: aumenta a estabilidade de todos os genes em 50%.
 Desestabilizar: reduz a estabilidade de todos os genes em 10%, exceto de um gene escolhido, cuja estabilidade será reduzida em 50%.
       </Description>
@@ -7168,7 +7168,7 @@ Para iniciar o processo, coloque uma planta ou saco de sementes no slot da esque
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Switchgrass</Key>
-      <Value>Saco de Sementes de Capim Switchgrass</Value>
+      <Value>Semente de Capim Switchgrass</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7183,18 +7183,18 @@ Para iniciar o processo, coloque uma planta ou saco de sementes no slot da esque
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasCylinderTankPiece</Key>
-      <Value>Pista de Pouso Cilindro de Gás (Pequeno)</Value>
+      <Value>Pista de Pouso Cilindro de Gás Pequeno</Value>
       <Description>Aumenta o volume da capacidade de armazenamento de gás da pista de pouso. Este volume é usado para comprar e vender gás com comerciantes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasConnectorOutwardPiece</Key>
-      <Value>Pista de Pouso Saída de Gás</Value>
+      <Value>Pista de Pouso Conector de Gás Saída</Value>
       <Description>Bombeia o gás comprado de um comerciante para fora da pista de pouso. Você pode aumentar a capacidade de armazenamento de gás adicionando mais {THING:Landingpad_GasCylinderTankPiece} à pista de pouso.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_LiquidConnectorOutwardPiece</Key>
-      <Value>Pista de Pouso Saída de Líquido</Value>
-      <Description>Bombeia o líquido comprado de um comerciante para fora da pista de pouso. Você pode aumentar a capacidade de armazenamento de líquidos adicionando mais {THING:Landingpad_GasCylinderTankPiece} à pista de pouso.</Description> <!-- No original, ele cita 'GasCylinderTankPiece' até para líquidos. Mantive igual ao jogo para consistência. -->
+      <Value>Pista de Pouso Conector de Líquido Saída</Value>
+      <Description>Bombeia o líquido comprado de um comerciante para fora da pista de pouso. Você pode aumentar a capacidade de armazenamento de líquidos adicionando mais {THING:Landingpad_LiquidConnectorOutwardPiece} à pista de pouso.</Description> <!-- No original, ele cita 'GasCylinderTankPiece' até para líquidos. Mantive igual ao jogo para consistência. -->
     </RecordThing>
     <RecordThing>
       <Key>StructureSmallSatelliteDish</Key>
@@ -7222,12 +7222,12 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasConnectorInwardPiece</Key>
-      <Value>Pista de Pouso Conector de Gás (Entrada)</Value>
+      <Value>Pista de Pouso Conector de Gás Entrada</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_LiquidConnectorInwardPiece</Key>
-      <Value>Pista de Pouso Conector de Líquido (Entrada)</Value>
+      <Value>Pista de Pouso Conector de Líquido Entrada</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7277,8 +7277,8 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>StructureSleeperVerticalDroid</Key>
-      <Value>Berço de Recarga Vertical de Droid</Value>
-      <Description>O Berço de Recarga para Droid recarregará baterias de robôs e, se presentes, as baterias do traje equipado. Esta variante de berço é segura apenas para robôs. Entrar com um personagem não robô causará danos.</Description>
+      <Value>Cápsula de Dormir Vertical de Droid</Value>
+      <Description>A Cápsula de Dormir com Recarga para Droid recarregará baterias de robôs e, se presentes, as baterias do traje equipado. Esta variante de Cápsula de Dormir é segura apenas para robôs. Entrar com um personagem não robô causará danos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHighVolumeGasCanisterEmpty</Key>
@@ -7292,42 +7292,42 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideInfinite</Key>
-      <Value>Filtro Catalítico (Dióxido de Carbono)</Value>
+      <Value>Filtro Catalítico Dióxido de Carbono</Value>
       <Description>Um filtro que remove seletivamente o Dióxido de Carbono. Ele utiliza diferenciais de pressão internos para regenerar um catalisador de mudança de fase exclusivo, conferindo-lhe um ciclo de vida ilimitado.</Description> <!-- Mantive 'infinito' como 'ciclo de vida ilimitado' para soar natural em PT-BR. -->
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygenInfinite</Key>
-      <Value>Filtro Catalítico (Oxigênio)</Value>
+      <Value>Filtro Catalítico Oxigênio</Value>
       <Description>Um filtro que remove seletivamente o Oxigênio. Ele utiliza diferenciais de pressão internos para regenerar um catalisador de mudança de fase exclusivo, conferindo-lhe um ciclo de vida ilimitado.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideInfinite</Key>
-      <Value>Filtro Catalítico (Óxido Nitroso)</Value>
+      <Value>Filtro Catalítico Óxido Nitroso</Value>
       <Description>Um filtro que remove seletivamente o Óxido Nitroso. Ele utiliza diferenciais de pressão internos para regenerar um catalisador de mudança de fase exclusivo, conferindo-lhe um ciclo de vida ilimitado.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogenInfinite</Key>
-      <Value>Filtro Catalítico (Nitrogênio)</Value>
+      <Value>Filtro Catalítico Nitrogênio</Value>
       <Description>Um filtro que remove seletivamente o Nitrogênio. Ele utiliza diferenciais de pressão internos para regenerar um catalisador de mudança de fase exclusivo, conferindo-lhe um ciclo de vida ilimitado.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutantsInfinite</Key>
-      <Value>Filtro Catalítico (Poluentes)</Value>
+      <Value>Filtro Catalítico Poluentes</Value>
       <Description>Um filtro que remove seletivamente Poluentes. Ele utiliza diferenciais de pressão internos para regenerar um catalisador de mudança de fase exclusivo, conferindo-lhe um ciclo de vida ilimitado.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatilesInfinite</Key>
-      <Value>Filtro Catalítico (Voláteis)</Value>
+      <Value>Filtro Catalítico Voláteis</Value>
       <Description>Um filtro que remove seletivamente {GAS:Volatiles}. Ele utiliza diferenciais de pressão internos para regenerar um catalisador de mudança de fase exclusivo, conferindo-lhe um ciclo de vida ilimitado.</Description> <!-- Preservei {GAS:Volatiles} exatamente como no original. -->
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWaterInfinite</Key>
-      <Value>Filtro Catalítico (Água)</Value>
+      <Value>Filtro Catalítico Água</Value>
       <Description>Um filtro que remove seletivamente Água. Ele utiliza diferenciais de pressão internos para regenerar um catalisador de mudança de fase exclusivo, conferindo-lhe um ciclo de vida ilimitado.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSolidFuel</Key>
-      <Value>Combustível Sólido (Hidrocarboneto)</Value>
+      <Value>Combustível Sólido Hidrocarboneto</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7337,7 +7337,7 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>StructureWallSmallPanelsOpen</Key>
-      <Value>Parede (Painéis Pequenos Abertos)</Value>
+      <Value>Parede Painéis Pequenos com Abertura</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7347,7 +7347,7 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeFloorGratingOpenRotated</Key>
-      <Value>Piso Gradeado Composto Aberto Girado</Value>
+      <Value>Piso Gradeado Composto Aberto Invertido</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7357,12 +7357,12 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCowl</Key>
-      <Value>Ventilação Passiva (Terminal de Tubo)</Value>
+      <Value>Ventilação Passiva Terminal para Tubo</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureWallVent</Key>
-      <Value>Ventilação Passiva (Parede de Passagem)</Value>
+      <Value>Ventilação Passiva Passagem de Parede</Value>
       <Description>Usado para misturar atmosferas passivamente entre duas paredes.</Description>
     </RecordThing>
     <RecordThing>
@@ -7378,7 +7378,7 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     <RecordThing>
       <Key>ItemSprayGun</Key>
       <Value>Pistola de Pintura</Value>
-      <Description>Use com latas de spray no {SLOT:SprayCan} para pintar estruturas, cabos e tubos. Muito mais eficiente e rápido do que fazer com latas de spray individuais.</Description>
+      <Description>Use com latas de spray no {SLOT:ItemSprayGun} para pintar estruturas, cabos e tubos. Muito mais eficiente e rápido do que fazer com latas de spray individuais.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselage1x1</Key>
@@ -7397,7 +7397,7 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryMedium</Key>
-      <Value>Bateria (Média)</Value>
+      <Value>Bateria Média</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7407,42 +7407,42 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCorner</Key>
-      <Value>Tubo de Baixo Volume de Líquido (Canto)</Value>
+      <Value>Tubo de Baixo Volume de Líquido Curvo</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCrossJunction</Key>
-      <Value>Tubo de Baixo Volume de Líquido (Cruzado)</Value>
+      <Value>Tubo de Baixo Volume de Líquido Cruzado</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCrossJunction3</Key>
-      <Value>Tubo de Baixo Volume de Líquido (Junta em 3 Vias)</Value>
+      <Value>Tubo de Baixo Volume de Líquido Junta em 3 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCrossJunction4</Key>
-      <Value>Tubo de Baixo Volume de Líquido (Junta em 4 Vias)</Value>
+      <Value>Tubo de Baixo Volume de Líquido Junta em 4 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCrossJunction5</Key>
-      <Value>Tubo de Baixo Volume de Líquido (Junta em 5 Vias)</Value>
+      <Value>Tubo de Baixo Volume de Líquido Junta em 5 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeCrossJunction6</Key>
-      <Value>Tubo de Baixo Volume de Líquido (Junta em 6 Vias)</Value>
+      <Value>Tubo de Baixo Volume de Líquido Junta em 6 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeStraight</Key>
-      <Value>Tubo de Baixo Volume de Líquido (Reto)</Value>
+      <Value>Tubo de Baixo Volume de Líquido Reto</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumeLiquidPipeTJunction</Key>
-      <Value>Tubo de Baixo Volume de Líquido (Junta em T)</Value>
+      <Value>Tubo de Baixo Volume de Líquido Junta em T</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7452,42 +7452,42 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCorner</Key>
-      <Value>Tubo de Baixo Volume (Canto)</Value>
+      <Value>Tubo de Baixo Volume Curvo</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCrossJunction</Key>
-      <Value>Tubo de Baixo Volume (Cruzado)</Value>
+      <Value>Tubo de Baixo Volume Cruzado</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCrossJunction3</Key>
-      <Value>Tubo de Baixo Volume (Junta em 3 Vias)</Value>
+      <Value>Tubo de Baixo Volume Junta em 3 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCrossJunction4</Key>
-      <Value>Tubo de Baixo Volume (Junta em 4 Vias)</Value>
+      <Value>Tubo de Baixo Volume Junta em 4 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCrossJunction5</Key>
-      <Value>Tubo de Baixo Volume (Junta em 5 Vias)</Value>
+      <Value>Tubo de Baixo Volume Junta em 5 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeCrossJunction6</Key>
-      <Value>Tubo de Baixo Volume (Junta em 6 Vias)</Value>
+      <Value>Tubo de Baixo Volume Junta em 6 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeStraight</Key>
-      <Value>Tubo de Baixo Volume (Reto)</Value>
+      <Value>Tubo de Baixo Volume Reto</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLowVolumePipeTJunction</Key>
-      <Value>Tubo de Baixo Volume (Junta em T)</Value>
+      <Value>Tubo de Baixo Volume Junta em T</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7517,7 +7517,7 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>StructureDuctCorner</Key>
-      <Value>Duto de Canto</Value>
+      <Value>Duto Curvo</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7840,7 +7840,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructurePoweredVentLarge</Key>
       <Value>Ventilação Motorizada Grande</Value>
-      <Description>Projetada para sistemas de antecâmaras em larga escala e hangares pressurizados, é uma versão maior e mais robusta da {THING:StructurePoweredVent}, capaz de puxar eficientemente o ar de grandes ambientes para criar vácuo.</Description>
+      <Description>Projetada para sistemas de antecâmaras em larga escala e hangares pressurizados, é uma versão maior e mais robusta que a {THING:StructurePoweredVent}, capaz de puxar eficientemente o ar de grandes ambientes para criar vácuo.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPoweredVent</Key>
@@ -7929,42 +7929,42 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureGasUmbilicalFemale</Key>
-      <Value>Conector Umbilical (Gás)</Value>
+      <Value>Conector Umbilical Gás</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureGasUmbilicalFemaleSide</Key>
-      <Value>Conector Umbilical Angular (Gás)</Value>
+      <Value>Conector Umbilical Angular Gás</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureGasUmbilicalMale</Key>
-      <Value>Umbilical (Gás)</Value>
+      <Value>Umbilical Gás</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidUmbilicalFemale</Key>
-      <Value>Conector Umbilical (Líquido)</Value>
+      <Value>Conector Umbilical Líquido</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidUmbilicalFemaleSide</Key>
-      <Value>Conector Umbilical Angular (Líquido)</Value>
+      <Value>Conector Umbilical Angular Líquido</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidUmbilicalMale</Key>
-      <Value>Umbilical (Líquido)</Value>
+      <Value>Umbilical Líquido</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteUmbilicalMale</Key>
-      <Value>Umbilical (Esteira)</Value>
+      <Value>Umbilical Esteira</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteUmbilicalFemaleSide</Key>
-      <Value>Conector Umbilical Angular (Esteira)</Value>
+      <Value>Conector Umbilical Angular Esteira</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7974,17 +7974,17 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerUmbilicalFemaleSide</Key>
-      <Value>Conector Umbilical Angular (Energia)</Value>
+      <Value>Conector Umbilical Angular Energia</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerUmbilicalMale</Key>
-      <Value>Umbilical (Energia)</Value>
+      <Value>Umbilical Energia</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>GasRocketEngineBasic</Key>
-      <Value>Motor de Foguete a Gás (Básico)</Value>
+      <Value>Motor de Foguete a Gás Básico</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7994,7 +7994,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellBackLeft</Key>
-      <Value>Escadaria (Traseira Esquerda)</Value>
+      <Value>Escadaria Traseira Esquerda</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8004,32 +8004,32 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellBackPassthrough</Key>
-      <Value>Escadaria (Passagem Traseira)</Value>
+      <Value>Escadaria Passagem Traseira</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellBackRight</Key>
-      <Value>Escadaria (Traseira Direita)</Value>
+      <Value>Escadaria Traseira Direita</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellFrontLeft</Key>
-      <Value>Escadaria (Frontal Esquerda)</Value>
+      <Value>Escadaria Frontal Esquerda</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellFrontPassthrough</Key>
-      <Value>Escadaria (Passagem Frontal)</Value>
+      <Value>Escadaria Passagem Frontal</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellFrontRight</Key>
-      <Value>Escadaria (Frente Direita)</Value>
+      <Value>Escadaria Frente Direita</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureStairwellNoDoors</Key>
-      <Value>Escadaria (Sem Portas)</Value>
+      <Value>Escadaria Sem Portas</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8049,12 +8049,12 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureCargoBayFuselage</Key>
-      <Value>Fuselagem (Compartimento de Carga)</Value>
+      <Value>Fuselagem Compartimento de Carga</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCargoStorageSmall</Key>
-      <Value>Armazenamento de Carga (Pequeno)</Value>
+      <Value>Armazenamento de Carga Pequeno</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8064,22 +8064,22 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteUmbilicalFemale</Key>
-      <Value>Soquete Umbilical (Esteira)</Value>
+      <Value>Soquete Umbilical Esteira</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerUmbilicalFemale</Key>
-      <Value>Soquete Umbilical (Energia)</Value>
+      <Value>Soquete Umbilical Energia</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketMiner</Key>
-      <Value>Foguete Minerador</Value>
+      <Value>Minerador do Foguete</Value>
       <Description>Coleta recursos disponíveis na localização espacial atual do foguete. A mineração também gera uma pequena quantidade de pontos de prospecção no local.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHead</Key>
-      <Value>Cabeçote de Broca de Mineração (Básico)</Value>
+      <Value>Cabeçote de Broca de Mineração Básico</Value>
       <Description>Cabeçote de broca substituível para {THING:StructureRocketMiner}</Description>
     </RecordThing>
     <RecordThing>
@@ -8103,7 +8103,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketScanner</Key>
-      <Value>Scanner de Foguete</Value>
+      <Value>Scanner do Foguete</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8113,17 +8113,17 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketFuelTanks</Key>
-      <Value>Kit (Tanques de Combustível de Foguete)</Value>
+      <Value>Kit (Tanques de Combustível do Foguete)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketLiquidFuelTank</Key>
-      <Value>Kit (Tanque de Combustível Líquido de Foguete)</Value>
+      <Value>Kit (Tanque de Combustível Líquido do Foguete)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketDatalink</Key>
-      <Value>Kit (Datalink de Foguete)</Value>
+      <Value>Kit (Datalink do Foguete)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8138,7 +8138,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketMiner</Key>
-      <Value>Kit (Minerador de Foguete)</Value>
+      <Value>Kit (Minerador do Foguete)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8203,7 +8203,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureCargoStorageMedium</Key>
-      <Value>Armazenamento de Carga (Médio)</Value>
+      <Value>Armazenamento de Carga Médio</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8229,7 +8229,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructurePressureFedGasEngine</Key>
       <Value>Motor a Gás por Pressão</Value>
-      <Description>  Ineficiente, mas muito potente, o Motor a Gás por Pressão move o gás de cada uma de suas duas entradas com base na pressão dos tubos de entrada. controle a proporção de mistura dos combustíveis ajustando as pressões de entrada para atingir a proporção de 2:1 de {GAS:Volatiles} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em empuxes ainda maiores.</Description>
+      <Description>Ineficiente, mas muito potente, o Motor a Gás por Pressão move o gás de cada uma de suas duas entradas com base na pressão dos tubos de entrada. Controle a proporção de mistura dos combustíveis ajustando as pressões de entrada para atingir a proporção de 2:1 de {GAS:Volatiles} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em empuxes ainda maiores.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngine</Key>
@@ -8249,7 +8249,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructurePressureFedGasEngineHeavy</Key>
       <Value>Motor a gás alimentado por alta pressão</Value>
-      <Description>Uma variante maior e mais potente do {THING:StructurePressureFedGasEngine}. Ela sacrifica um pouco de eficiência em troca de um empuxo muito maior. Motores a gás alimentados por pressão movem o gás de cada uma de suas entradas com base na pressão dos tubos de entrada. Controle a proporção da mistura de combustíveis ajustando as pressões de entrada para atingir uma mistura de 2:1 de {GAS:Volatiles} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em um empuxo ainda maior..</Description>
+      <Description>Uma variante maior e mais potente do {THING:StructurePressureFedGasEngine}. Ela sacrifica um pouco de eficiência em troca de um empuxo muito maior. Motores a gás alimentados por pressão movem o gás de cada uma de suas entradas com base na pressão dos tubos de entrada. Controle a proporção da mistura de combustíveis ajustando as pressões de entrada para atingir uma mistura de 2:1 de {GAS:Volatiles} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em um empuxo ainda maior.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngineHeavy</Key>
@@ -8263,227 +8263,227 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeA1</Key>
-      <Value>Fuselagem (Tipo A1)</Value>
+      <Value>Fuselagem Tipo A1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeA2</Key>
-      <Value>Fuselagem (Tipo A2)</Value>
+      <Value>Fuselagem Tipo A2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeA3</Key>
-      <Value>Fuselagem (Tipo A3)</Value>
+      <Value>Fuselagem Tipo A3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeA4</Key>
-      <Value>Fuselagem (Tipo A4)</Value>
+      <Value>Fuselagem Tipo A4</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeB1</Key>
-      <Value>Fuselagem (Tipo B1)</Value>
+      <Value>Fuselagem Tipo B1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeB2</Key>
-      <Value>Fuselagem (Tipo B2)</Value>
+      <Value>Fuselagem Tipo B2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeB3</Key>
-      <Value>Fuselagem (Tipo B3)</Value>
+      <Value>Fuselagem Tipo B3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeB4</Key>
-      <Value>Fuselagem (Tipo B4)</Value>
+      <Value>Fuselagem Tipo B4</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeC1</Key>
-      <Value>Fuselagem (Tipo C1)</Value>
+      <Value>Fuselagem Tipo C1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeC2</Key>
-      <Value>Fuselagem (Tipo C2)</Value>
+      <Value>Fuselagem Tipo C2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeC3</Key>
-      <Value>Fuselagem (Tipo C3)</Value>
+      <Value>Fuselagem Tipo C3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeC4</Key>
-      <Value>Fuselagem (Tipo C4)</Value>
+      <Value>Fuselagem Tipo C4</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeC5</Key>
-      <Value>Fuselagem (Tipo C5)</Value>
+      <Value>Fuselagem Tipo C5</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeC6</Key>
-      <Value>Fuselagem (Tipo C6)</Value>
+      <Value>Fuselagem Tipo C6</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeD1</Key>
-      <Value>Fuselagem (Tipo D1)</Value>
+      <Value>Fuselagem Tipo D1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeD2</Key>
-      <Value>Fuselagem (Tipo D2)</Value>
+      <Value>Fuselagem Tipo D2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeD3</Key>
-      <Value>Fuselagem (Tipo D3)</Value>
+      <Value>Fuselagem Tipo D3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeD4</Key>
-      <Value>Fuselagem (Tipo D4)</Value>
+      <Value>Fuselagem Tipo D4</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeD5</Key>
-      <Value>Fuselagem (Tipo D5)</Value>
+      <Value>Fuselagem Tipo D5</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeD6</Key>
-      <Value>Fuselagem (Tipo D6)</Value>
+      <Value>Fuselagem Tipo D6</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeA1</Key>
-      <Value>Suporte de Motor (Tipo A1)</Value>
+      <Value>Suporte de Motor Tipo A1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeA2</Key>
-      <Value>Suporte de Motor (Tipo A2)</Value>
+      <Value>Suporte de Motor Tipo A2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeA3</Key>
-      <Value>Suporte de Motor (Tipo A3)</Value>
+      <Value>Suporte de Motor Tipo A3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeA4</Key>
-      <Value>Suporte de Motor (Tipo A4)</Value>
+      <Value>Suporte de Motor Tipo A4</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeA1</Key>
-      <Value>Carenagem (Tipo A1)</Value>
+      <Value>Carenagem Tipo A1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeA2</Key>
-      <Value>Carenagem (Tipo A2)</Value>
+      <Value>Carenagem Tipo A2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeA3</Key>
-      <Value>Carenagem (Tipo A3)</Value>
+      <Value>Carenagem Tipo A3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeB1</Key>
-      <Value>Suporte de Motor (Tipo B1)</Value>
+      <Value>Suporte de Motor Tipo B1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeB2</Key>
-      <Value>Suporte de Motor (Tipo B2)</Value>
+      <Value>Suporte de Motor Tipo B2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeB3</Key>
-      <Value>Suporte de Motor (Tipo B3)</Value>
+      <Value>Suporte de Motor Tipo B3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeB4</Key>
-      <Value>Suporte de Motor (Tipo B4)</Value>
+      <Value>Suporte de Motor Tipo B4</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeB1</Key>
-      <Value>Carenagem (Tipo B1)</Value>
+      <Value>Carenagem Tipo B1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeB2</Key>
-      <Value>Carenagem (Tipo B2)</Value>
+      <Value>Carenagem Tipo B2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeC1</Key>
-      <Value>Suporte de Motor (Tipo C1)</Value>
+      <Value>Suporte de Motor Tipo C1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeC2</Key>
-      <Value>Suporte de Motor (Tipo C2)</Value>
+      <Value>Suporte de Motor Tipo C2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeC3</Key>
-      <Value>Suporte de Motor (Tipo C3)</Value>
+      <Value>Suporte de Motor Tipo C3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeC4</Key>
-      <Value>Suporte de Motor (Tipo C4)</Value>
+      <Value>Suporte de Motor Tipo C4</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeC1</Key>
-      <Value>Carenagem (Tipo C1)</Value>
+      <Value>Carenagem Tipo C1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeC2</Key>
-      <Value>Carenagem (Tipo C2)</Value>
+      <Value>Carenagem Tipo C2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeD1</Key>
-      <Value>Suporte de Motor (Tipo D1)</Value>
+      <Value>Suporte de Motor Tipo D1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeD2</Key>
-      <Value>Suporte de Motor (Tipo D2)</Value>
+      <Value>Suporte de Motor Tipo D2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeD3</Key>
-      <Value>Suporte de Motor (Tipo D3)</Value>
+      <Value>Suporte de Motor Tipo D3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureEngineMountTypeD4</Key>
-      <Value>Suporte de Motor (Tipo D4)</Value>
+      <Value>Suporte de Motor Tipo D4</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeD1</Key>
-      <Value>Carenagem (Tipo D1)</Value>
+      <Value>Carenagem Tipo D1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureFairingTypeD2</Key>
-      <Value>Carenagem (Tipo D2)</Value>
+      <Value>Carenagem Tipo D2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8518,22 +8518,22 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketScanner</Key>
-      <Value>Kit (Scanner de Foguete)</Value>
+      <Value>Kit (Scanner do Foguete)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketScanningHead</Key>
-      <Value>Cabeçote de Scanner de Foguet</Value>
+      <Value>Cabeçote de Scanner do Foguet</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePortablesConnector</Key>
-      <Value>Conector de Portáteis</Value>
+      <Value>Conector de Tanques Portáteis</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPortablesConnector</Key>
-      <Value>Kit (Conector de Portáteis)</Value>
+      <Value>Kit (Conector de Tanques Portáteis)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8543,12 +8543,12 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketCircuitHousing</Key>
-      <Value>Gabinete de Circuito de Foguete</Value>
+      <Value>Gabinete de Circuito do Foguete</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketCircuitHousing</Key>
-      <Value>Kit (Gabinete de Circuito de Foguete)</Value>
+      <Value>Kit (Gabinete de Circuito do Foguete)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8568,12 +8568,12 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketTransformerSmall</Key>
-      <Value>Transformador Pequeno (Foguete)</Value>
+      <Value>Transformador Pequeno para Foguete</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketTransformerSmall</Key>
-      <Value>Kit (Transformador Pequeno (Foguete))</Value>
+      <Value>Kit (Transformador Pequeno para Foguete)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8583,32 +8583,32 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadIce</Key>
-      <Value>Broca de Mineração de Foguete (Gelo)</Value>
+      <Value>Broca de Mineração do Foguete para Gelo</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadMineral</Key>
-      <Value>Broca de Mineração de Foguete (Mineral)</Value>
+      <Value>Broca de Mineração do Foguete para Mineral</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadDurable</Key>
-      <Value>Broca de Mineração de Foguete (Durável)</Value>
+      <Value>Broca de Mineração do Foguete Durável</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadLongTerm</Key>
-      <Value>Broca de Mineração de Foguete (Longa Duração)</Value>
+      <Value>Broca de Mineração do Foguete Longa Duração</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadHighSpeedIce</Key>
-      <Value>Broca de Mineração de Foguete (Alta Velocidade - Gelo)</Value>
+      <Value>Broca de Mineração do Foguete Alta Velocidade para Gelo</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketMiningDrillHeadHighSpeedMineral</Key>
-      <Value>Broca de Mineração de Foguete (Alta Velocidade - Mineral)</Value>
+      <Value>Broca de Mineração do Foguete Alta Velocidade para Mineral</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8633,13 +8633,13 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorProcessingUnitMesonScanner</Key>
-      <Value>Unidade de Processamento de Sensor (Scanner T-Ray)</Value>
+      <Value>Unidade de Processamento Sensor Scanner T-Ray</Value>
       <Description>A Unidade de Processamento de Sensor com Scanner T-Ray pode ser inserida no {THING:ItemSensorLenses} para mostrar uma sobreposição de tubos e cabos. Isso pode ser útil ao construir atrás de paredes ou outras estruturas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRocketCelestialTracker</Key>
       <Value>Rastreador Celestial de Foguete</Value>
-      <Description> O Rastreador Celestial pode ser colocado em foguetes e, quando ligado, fornecerá dados que podem ser usados para orientar dispositivos como o {THING:StructureGroundBasedTelescope}. A saída horizontal e vertical é localizada em relação à orientação do rastreador. Você pode calibrar seu alinhamento comparando o resultado para o corpo primário com a saída do {THING:StructureDaylightSensor}. A funcionalidade completa só estará disponível em órbita, mas é possível configurar usando o corpo primário. Para alinhar com o telescópio, mantenha a placa frontal virada para cima e os cabos apontando na mesma direção do telescópio, e os valores de saída estarão alinhados.</Description>    </RecordThing>
+      <Description>O Rastreador Celestial pode ser colocado em foguetes e, quando ligado, fornecerá dados que podem ser usados para orientar dispositivos como o {THING:StructureGroundBasedTelescope}. A saída horizontal e vertical é localizada em relação à orientação do rastreador. Você pode calibrar seu alinhamento comparando o resultado para o corpo primário com a saída do {THING:StructureDaylightSensor}. A funcionalidade completa só estará disponível em órbita, mas é possível configurar usando o corpo primário. Para alinhar com o telescópio, mantenha a placa frontal virada para cima e os cabos apontando na mesma direção do telescópio, e os valores de saída estarão alinhados.</Description>    </RecordThing>
     <RecordThing>
       <Key>ItemKitRocketCelestialTracker</Key>
       <Value>Kit (Rastreador Celestial de Foguete)</Value>
@@ -8647,7 +8647,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemSensorProcessingUnitCelestialScanner</Key>
-      <Value>Unidade de Processamento de Sensor (Scanner Celestial)</Value>
+      <Value>Unidade de Processamento Sensor Scanner Celestial</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8662,12 +8662,12 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureElevatorShaftIndustrial</Key>
-      <Value>Poço de Elevador</Value>
+      <Value>Poço do Elevador</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureElevatorLevelIndustrial</Key>
-      <Value>Nível de Elevador</Value>
+      <Value>Nível do Elevador</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8698,7 +8698,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructureShower</Key>
       <Value>Chuveiro</Value>
-      <Description>A forma mais rápida de remover baixa higiene. Você deve remover seu {THING:UniformOrangeJumpSuit} e {THING:ItemEvaSuit} ao usar o {THING:StructureShower}. Ele gera {GAS:PollutedWater} quando em uso. O {GAS:PollutedWater} interfere em muitos outros sistemas de {GAS:Water}, então certifique-se de coletá-lo e tratá-lo usando um {THING:StructureWaterPurifier} ou descartá-lo.</Description>
+      <Description>A forma mais rápida de melhorar sua higiene é tomando um banho. Você deve remover seu {THING:UniformOrangeJumpSuit} e {THING:ItemEvaSuit} ao usar o {THING:StructureShower}. Ele gera {GAS:PollutedWater} quando em uso. O {GAS:PollutedWater} interfere em muitos outros sistemas de {GAS:Water}, então certifique-se de coletá-lo e tratá-lo usando um {THING:StructureWaterPurifier} ou descartá-la.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemHandSanitizer</Key>
@@ -8707,13 +8707,13 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemReusableFireExtinguisher</Key>
-      <Value>Extintor de Incêndio (Recarregável)</Value>
+      <Value>Extintor de Incêndio Recarregável</Value>
       <Description>Requer um cilindro cheio com qualquer líquido inerte para operar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureShowerPowered</Key>
-      <Value>Chuveiro (Com Energia)</Value>
-      <Description> A forma mais rápida de remover baixa higiene. Você deve remover seu {THING:UniformOrangeJumpSuit} e {THING:ItemEvaSuit} ao usar o {THING:StructureShowerPowered}. Ele gera {GAS:PollutedWater} quando em uso. O {GAS:PollutedWater} interfere em muitos outros sistemas de {GAS:Water}, então certifique-se de coletá-lo e tratá-lo usando um {THING:StructureWaterPurifier} ou descartá-lo.</Description>
+      <Value>Chuveiro Com Energia</Value>
+      <Description>A forma mais rápida de melhorar sua higiene é tomando um banho. Você deve remover seu {THING:UniformOrangeJumpSuit} e {THING:ItemEvaSuit} ao usar o {THING:StructureShowerPowered}. Ele gera {GAS:PollutedWater} quando em uso. O {GAS:PollutedWater} interfere em muitos outros sistemas de {GAS:Water}, então certifique-se de coletá-lo e tratá-lo usando um {THING:StructureWaterPurifier} ou descartá-lo.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemFlashlight</Key>
@@ -8737,22 +8737,22 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x1</Key>
-      <Value>Tanque em Linha Pequeno de Gás (Isolado)</Value>
+      <Value>Tanque em Linha Pequeno de Gás Isolado</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x2</Key>
-      <Value>Tanque em Linha de Gás (Isolado)</Value>
+      <Value>Tanque em Linha de Gás Isolado</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x1</Key>
-      <Value>Tanque em Linha de Líquido (Isolado)</Value>
+      <Value>Tanque em Linha de Líquido Isolado</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x2</Key>
-      <Value>Tanque em Linha de Líquido (Isolado) 1x2</Value>
+      <Value>Tanque em Linha de Líquido Isolado 1x2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8857,7 +8857,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>LanderCapsuleSmallDoor</Key>
-      <Value>Porta de Cápsula de Pouso Pequena</Value>
+      <Value>Porta da Cápsula de Pouso Pequena</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8902,8 +8902,8 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureRoboticArmRailCornerStop</Key>
-      <Value>Estação de Curva de Trilho Linear</Value>
-      <Description>Um componente de uma rede de trilhos lineares usado em conjunto com as docas LArRE. A estação de curva cria um ponto de parada para os braços LArRE ao longo do trilho.</Description>
+      <Value>Estação em Curva de Trilho Linear</Value>
+      <Description>Um componente de uma rede de trilhos lineares usado em conjunto com as docas LArRE. A estação em curva cria um ponto de parada para os braços LArRE ao longo do trilho.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRoboticArmRailStraight</Key>
@@ -8947,12 +8947,12 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeOneWayValveLever</Key>
-      <Value>Válvula Unidirecional (Gás)</Value>
+      <Value>Válvula Unidirecional para Gás</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidOneWayValveLever</Key>
-      <Value>Válvula Unidirecional (Líquido)</Value>
+      <Value>Válvula Unidirecional para Líquidos</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8997,12 +8997,12 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockBypass</Key>
-      <Value>Doca LArRE (Desvio)</Value>
-      <Description> A doca de desvio permite que braços LArRE saiam do trilho principal para que outros possam passar. Pressionar o botão de ativar em uma doca enquanto seu braço está em um desvio fará com que o braço se mova para a posição fora do trilho do desvio.</Description>
+      <Value>Doca LArRE Desvio</Value>
+      <Description>A doca de desvio permite que braços LArRE saiam do trilho principal para que outros possam passar. Pressionar o botão de ativar em uma doca enquanto seu braço está em um desvio fará com que o braço se mova para a posição fora do trilho do desvio.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockAtmos</Key>
-      <Value>Doca LArRE (Atmos)</Value>
+      <Value>Doca LArRE Atmos</Value>
       <Description>A LArRE atmosférica pode bombear gás para dentro e para fora de seu recipiente de armazenamento. Quando abaixada sobre um {THING:StructurePassiveVent}, a LArRE atmosférica se conectará a ele e bombeará gás para dentro e para fora da rede de tubos conectada.
 
 Pressionar o botão de ativar enquanto o braço da LArRE está em sua doca inicial moverá o braço para fora do trilho principal. Isso permite que outros braços no mesmo trilho passem. 
@@ -9011,33 +9011,33 @@ Os valores lógicos atmosféricos de base apontam para o armazenamento interno d
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockCargo</Key>
-      <Value>Doca LArRE (Carga)</Value>
-      <Description> A LArRE de carga pode retirar itens de slots de dispositivos e colocar itens nesses slots. O seletor no painel frontal indica qual slot do dispositivo será manipulado. As variáveis do item no slot alvo podem ser lidas usando o Índice de Slot Proxy (255).
+      <Value>Doca LArRE Carga</Value>
+      <Description>A LArRE de carga pode retirar itens de slots de dispositivos e colocar itens nesses slots. O seletor no painel frontal indica qual slot do dispositivo será manipulado. As variáveis do item no slot alvo podem ser lidas usando o Índice de Slot Proxy (255).
 
 Pressionar o botão de ativar enquanto o braço da LArRE está em sua doca inicial moverá o braço para fora do trilho principal. Isso permite que outros braços no mesmo trilho passem.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockCollector</Key>
-      <Value>Doca LArRE (Coletora)</Value>
+      <Value>Doca LArRE Coletora</Value>
       <Description>A LArRE coletora pode sugar itens soltos próximos quando seu modo está definido como entrada e ejetar itens armazenados quando seu modo está definido como saída. Quando configurada para sugar itens, a LArRE coletora parará automaticamente e se retrairá quando estiver cheia.
 
 Pressionar o botão de ativar enquanto o braço da LArRE está em sua doca inicial moverá o braço para fora do trilho principal.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLarreDockHydroponics</Key>
-      <Value>Doca LArRE(Hidroponia)</Value>
+      <Value>Doca LArRE Hidroponia</Value>
       <Description>A LArRE de hidroponia pode plantar e colher plantas, bem como adicionar fertilizante em bandejas de cultivo. Possui um slot adicional de funil que alimenta itens no slot "mão" quando este está vazio. Colher uma planta diferente enquanto o slot de mão está cheio será possível se o slot do funil estiver vazio. 
 Nesse caso, a planta no slot de mão será movida para o slot do funil e a nova planta será colhida no slot de mão. As variáveis de slot de uma planta na bandeja de cultivo abaixo podem ser lidas usando o Índice de Slot Proxy (255). Pressionar o botão de ativar enquanto o braço da LArRE está em sua doca inicial moverá o braço para fora do trilho principal. 
 Isso permite que outros braços no mesmo trilho passem.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureComputerUpright</Key>
-      <Value>Computador (Retrô)</Value>
+      <Value>Computador Retrô</Value>
       <Description>Esta unidade opera com uma ampla variedade de {LINK:LogicUnitPage;placas-mãe}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ApplianceBobbleHeadMarine</Key>
-      <Value>Cabeça de Boneco (Fuzileiro)</Value>
+      <Value>Cabeça de Boneco Fuzileiro</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9063,7 +9063,7 @@ Isso permite que outros braços no mesmo trilho passem.</Description>
     <RecordThing>
       <Key>ItemGasMask</Key>
       <Value>Máscara de Gás</Value>
-      <Description>Esta máscara mistura-se com a atmosfera do ambiente, mas filtra os gases com base nos filtros em seus dois slots.</Description>
+      <Description>Esta máscara utiliza a atmosfera do ambiente, filtrando os gases de acordo com os filtros instalados em seus dois compartimentos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasMaskStorage</Key>
@@ -9117,11 +9117,11 @@ Ele possui resfriamento líquido para um desempenho térmico excepcional e ofere
     </RecordThing>
     <RecordThing>
       <Key>StructureCarbonSequesterTopExtension</Key>
-      <Value>Sequestrador de Carbono (Extensão Superior)</Value>
+      <Value>Sequestrador de Carbono Extensão Superior</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCarbonSequesterVentExtension</Key>
-      <Value>Sequestrador de Carbono (Extensão de Ventilação)</Value>
+      <Value>Sequestrador de Carbono Extensão de Ventilação</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureDispersalTower</Key>
@@ -9129,19 +9129,19 @@ Ele possui resfriamento líquido para um desempenho térmico excepcional e ofere
     </RecordThing>
     <RecordThing>
       <Key>StructureDispersalTowerChimneyExtension</Key>
-      <Value>Torre de Dispersão (Extensão de Chaminé)</Value>
+      <Value>Torre de Dispersão Extensão de Chaminé</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangeLiquidtoGas</Key>
-      <Value>Trocador de Calor (Líquido para Gás)</Value>
+      <Value>Trocador de Calor Líquido para Gás</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangerGastoGas</Key>
-      <Value>Trocador de Calor (Gás para Gás)</Value>
+      <Value>Trocador de Calor Gás para Gás</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureHeatExchangerLiquidtoLiquid</Key>
-      <Value>Trocador de Calor (Líquido para Líquido)</Value>
+      <Value>Trocador de Calor Líquido para Líquido</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureIndustrialBurner</Key>
@@ -9149,7 +9149,7 @@ Ele possui resfriamento líquido para um desempenho térmico excepcional e ofere
     </RecordThing>
     <RecordThing>
       <Key>StructureIndustrialBurnerChimneyExtension</Key>
-      <Value>Queimador Industrial (Extensão de Chaminé)</Value>
+      <Value>Queimador Industrial Extensão de Chaminé</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureIndustrialBurnerHeatExchangerExtension</Key>
@@ -9181,17 +9181,17 @@ Ele possui resfriamento líquido para um desempenho térmico excepcional e ofere
     </RecordThing>
     <RecordThing>
       <Key>CartridgeDeepMiner</Key>
-      <Value>Cartucho (Minerador Profundo)</Value>
+      <Value>Cartucho Minerador Profundo</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCircuitHousingCompact</Key>
-      <Value>Gabinete de CI (Compacto)</Value>
+      <Value>Compartimento de Circuito Integrado Compacto</Value>
       <Description>Usado para alojar um {THING:ItemIntegratedCircuit10} e executar código lógico complexo.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitShuttleMKII</Key>
-      <Value>Kit Ônibus Espacial MKII</Value>
+      <Value>Kit (Ônibus Espacial MKII)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9252,7 +9252,7 @@ Ele possui resfriamento líquido para um desempenho térmico excepcional e ofere
     <RecordThing>
       <Key>StructureRocketGasCollector</Key>
       <Value>Coletor de Gases do Foguete</Value>
-	<Description>Quando instalado em um foguete, este dispositivo permite a coleta de atmosferas gasosas de vários planetoides..</Description>
+	<Description>Quando instalado em um foguete, este dispositivo permite a coleta de atmosferas gasosas de vários planetoides.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemRocketDeepScanningHead</Key>
@@ -9261,12 +9261,12 @@ Ele possui resfriamento líquido para um desempenho térmico excepcional e ofere
     </RecordThing>
     <RecordThing>
       <Key>StructureComputerBigScreenWallMounted</Key>
-      <Value>Computador (Tela Grande de Parede)</Value>
+      <Value>Computador Tela Grande de Parede</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureComputerBigScreen</Key>
-      <Value>Computador (Tela Grande)</Value>
+      <Value>Computador Tela Grande</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9276,31 +9276,31 @@ Ele possui resfriamento líquido para um desempenho térmico excepcional e ofere
     </RecordThing>
     <RecordThing>
       <Key>StructureVendingMachineSmall1</Key>
-      <Value>Máquina de Venda Automática Pequena1</Value>
+      <Value>Máquina de Venda Automática Pequena 1</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureSuitStorageFrame</Key>
-      <Value>Estrutura de armazenamento do Traje</Value>
-      <Description>Organizado e útil, o suporte para o traje comporta um {THING:ItemEvaSuit}, um {THING:ItemSpaceHelmet} e um {THING:ItemJetpackBasic}.
-Quando ligado e conectado a {GAS:Oxygen} e {GAS:Nitrogen}, ele recarregará as baterias do traje, reabastecerá o {THING:ItemGasCanisterOxygen} e o seu {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. O tanque de resíduos será esvaziado pelo cano conectado à saída de resíduos.
+      <Value>Estação de Traje EVA</Value>
+      <Description>Organizado e útil, a estação para o traje comporta um {THING:ItemEvaSuit}, um {THING:ItemSpaceHelmet} e um {THING:ItemJetpackBasic}.
+Quando ligado a energia e conectado a {GAS:Oxygen} e {GAS:Nitrogen}, ele recarregará as baterias do traje, reabastecerá o {THING:ItemGasCanisterOxygen} e o seu {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. O tanque de resíduos será esvaziado pelo cano conectado à saída de resíduos.
 Todos os canos do suporte devem estar conectados, caso contrário, a unidade exibirá um estado de erro, mas ainda assim carregará a bateria.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSuitStorageLocker</Key>
       <Value>Armário de armazenamento do Traje</Value>
-      <Description>Organizado e útil, o suporte para o traje comporta um {THING:ItemEvaSuit}, um {THING:ItemSpaceHelmet} e um {THING:ItemJetpackBasic}.
-Quando ligado e conectado a {GAS:Oxygen} e {GAS:Nitrogen}, ele recarregará as baterias do traje, reabastecerá o {THING:ItemGasCanisterOxygen} e o seu {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. O tanque de resíduos será esvaziado pelo cano conectado à saída de resíduos.
+      <Description>Organizado e útil, o amário para o traje comporta um {THING:ItemEvaSuit}, um {THING:ItemSpaceHelmet} e um {THING:ItemJetpackBasic}.
+Quando ligado a energia e conectado a {GAS:Oxygen} e {GAS:Nitrogen}, ele recarregará as baterias do traje, reabastecerá o {THING:ItemGasCanisterOxygen} e o seu {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister}. O tanque de resíduos será esvaziado pelo cano conectado à saída de resíduos.
 Todos os canos do suporte devem estar conectados, caso contrário, a unidade exibirá um estado de erro, mas ainda assim carregará a bateria.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasTankConnectorPiece</Key>
-      <Value>Conector de tanque de plataforma de pouso (gás)</Value>
+      <Value>Conector de tanque de plataforma de pouso gás</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_LiquidTankConnectorPiece</Key>
-      <Value>Conector de tanque de plataforma de pouso (líquido)</Value>
+      <Value>Conector de tanque de plataforma de pouso líquido</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9315,133 +9315,133 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x3</Key>
-      <Value>Tanque de gás em linha 1x3 (isolado)</Value>
+      <Value>Tanque de gás em linha 1x3 isolado</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x3</Key>
-      <Value>Tanque de líquido em linha 1x3 (isolado)</Value>
+      <Value>Tanque de líquido em linha 1x3 isolado</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyCorner</Key>
-      <Value>Cabo super-resistente (canto)</Value>
+      <Value>Cabo Super-Pesado Curvo</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyCorner3</Key>
-      <Value>Cabo Super-Reforçado (Canto 3)</Value>
+      <Value>Cabo Super-Pesado Canto 3 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyCorner3Burnt</Key>
-      <Value>Cabo super-resistente queimado (canto 3)</Value>
+      <Value>Cabo Super-Pesado queimado Canto 3 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyCorner4</Key>
-      <Value>Cabo Super-Reforçado (Canto 4)</Value>
+      <Value>Cabo Super-Pesado Canto 4 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyCorner4Burnt</Key>
-      <Value>Cabo super-resistente queimado (canto 4)</Value>
+      <Value>Cabo Super-Pesado queimado Canto 4 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyCornerBurnt</Key>
-      <Value>Cabo super-resistente queimado (canto)</Value>
+      <Value>Cabo Super-Pesado queimado Curvo</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction</Key>
-      <Value>Cabo Super-Reforçado (Junção)</Value>
+      <Value>Cabo Super-Pesado Junção</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction4</Key>
-      <Value>Cabo Super-Reforçado (Junção 4)</Value>
+      <Value>Cabo Super-Pesado Junção 4 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction4Burnt</Key>
-      <Value>Cabo super-resistente queimado (Junção 4)</Value>
+      <Value>Cabo Super-Pesado queimado Junção 4 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction5</Key>
-      <Value>Cabo Super-Reforçado (Junção 5)</Value>
+      <Value>Cabo Super-Pesado Junção 5 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction5Burnt</Key>
-      <Value>Cabo super-resistente queimado (Junção 5)</Value>
+      <Value>Cabo Super-Pesado queimado Junção 5 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction6</Key>
-      <Value>Cabo Super-Reforçado (Junção 6)</Value>
+      <Value>Cabo Super-Pesado Junção 6 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunction6Burnt</Key>
-      <Value>Cabo super-resistente queimado (Junção 6)</Value>
+      <Value>Cabo Super-Pesado queimado Junção 6 Vias</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyJunctionBurnt</Key>
-      <Value>Cabo super-resistente queimado (junção)</Value>
+      <Value>Cabo Super-Pesado queimado Junção</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight</Key>
-      <Value>Cabo super-reforçado (reto)</Value>
+      <Value>Cabo Super-Pesado reto</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight3</Key>
-      <Value>Cabo Super-Reforçado (Reto 3)</Value>
+      <Value>Cabo Super-Pesado Reto 3 unidades</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight3Burnt</Key>
-      <Value>Cabo Super-Reforçado Queimado (Reto 3)</Value>
+      <Value>Cabo Super-Pesado Queimado Reto 3 unidades</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight5</Key>
-      <Value>Cabo Super-Reforçado (Reto 5)</Value>
+      <Value>Cabo Super-Pesado Reto 5 unidades</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight5Burnt</Key>
-      <Value>Cabo Super-Pesado Queimado (Reto 5)</Value>
+      <Value>Cabo Super-Pesado Queimado Reto 5 unidades</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight10</Key>
-      <Value>Cabo super-reforçado (reto 10)</Value>
+      <Value>Cabo Super-Pesado reto 10 unidades</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraight10Burnt</Key>
-      <Value>Cabo super-resistente queimado (reto 10)</Value>
+      <Value>Cabo Super-Pesado queimado reto 10 unidades</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureCableSuperHeavyStraightBurnt</Key>
-      <Value>Cabo super-resistente queimado (reto)</Value>
+      <Value>Cabo Super-Pesado queimado reto</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemCableCoilSuperHeavy</Key>
-      <Value>Bobina de cabo (superpesada)</Value>
+      <Value>Bobina de cabo Super-Pesada</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePacker</Key>
       <Value>Carregador</Value>
-      <Description>O carregador pegará objetos do seu compartimento esquerdo e os colocará nos compartimentos disponíveis do objeto inserido no compartimento direito. Os compartimentos serão preenchidos em ordem, do primeiro ao último. Se nenhum compartimento disponível for encontrado, o objeto do compartimento esquerdo será ejetado. O objeto do compartimento direito será ejetado automaticamente quando estiver cheio ou se a alavanca for acionada.</Description>
+      <Description>O Carregador retira objetos do slot esquerdo e os coloca nos slots disponíveis do objeto inserido no slot direito. Os slots serão preenchidos em ordem, do primeiro ao último. Se nenhum slot disponível for encontrado, o objeto do slot esquerdo será ejetado. O objeto do slot direito será ejetado automaticamente quando estiver cheio ou se a alavanca for acionada.</Description>
     </RecordThing>
     <RecordThing>
       <Key>CardboardBoxLarge</Key>
@@ -9450,12 +9450,12 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </RecordThing>
     <RecordThing>
       <Key>DynamicAFrameStripes</Key>
-      <Value>Placa portátil em formato de A (listrada)</Value>
+      <Value>Placa portátil em formato de A listrada</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicAFrameWIP</Key>
-      <Value>Placa portátil em formato de A (em desenvolvimento)</Value>
+      <Value>Placa portátil em formato de A</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9465,17 +9465,17 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicAFrameStripes</Key>
-      <Value>Kit de cavalete portátil (listrado)</Value>
+      <Value>Kit (Cavalete portátil listrado)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicAFrameWIP1</Key>
-      <Value>Kit para cavalete portátil (em desenvolvimento)</Value>
+      <Value>Kit (Cavalete portátil)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicBarrier</Key>
-      <Value>Kit Barreira Portátil</Value>
+      <Value>Kit (Barreira Portátil)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9485,7 +9485,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicWorkCone</Key>
-      <Value>Kit Cone de Trabalho Portátil</Value>
+      <Value>Kit (Cone de Trabalho Portátil)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9510,22 +9510,22 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </RecordThing>
     <RecordThing>
       <Key>StructureCableFuse500k</Key>
-      <Value>Fusível de cabo (500kW)</Value>
+      <Value>Fusível (500kW)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureSuperLargeDirectHeatExchangeGastoGas</Key>
-      <Value>Trocador de calor direto supergrande (gases)</Value>
+      <Value>Trocador de calor direto supergrande Gás para Gás</Value>
       <Description>Os trocadores de calor diretos equalizam a temperatura das duas redes de entrada.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSuperLargeDirectHeatExchangeGastoLiquid</Key>
-      <Value>Trocador de calor direto supergrande (gás para líquido)</Value>
+      <Value>Trocador de calor direto supergrande gás para líquido</Value>
       <Description>Os trocadores de calor diretos equalizam a temperatura das duas redes de entrada.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSuperLargeDirectHeatExchangeLiquidToLiquid</Key>
-      <Value>Trocador de calor direto supergrande (líquidos)</Value>
+      <Value>Trocador de calor direto supergrande líquidos para líquidos</Value>
       <Description>Os trocadores de calor diretos equalizam a temperatura das duas redes de entrada.</Description>
     </RecordThing>
     <RecordThing>
@@ -9588,7 +9588,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </RecordThing>
     <RecordThing>
       <Key>StructureCrewUmbilical</Key>
-      <Value>Umbilical (Conector)</Value>
+      <Value>Umbilical Conector</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -9611,7 +9611,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>Input</Key>
-      <Value>Saída</Value>
+      <Value>Entrada</Value>
     </Record>
     <Record>
       <Key>LeftHand</Key>
@@ -9759,11 +9759,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>BurgerSlot</Key>
-      <Value>Hambúrguer</Value>
+      <Value>Slot de Hambúrguer</Value>
     </Record>
     <Record>
       <Key>FriesSlot</Key>
-      <Value>Batatas Fritas</Value>
+      <Value>Slot de Batatas Fritas</Value>
     </Record>
     <Record>
       <Key>DrillSlot</Key>
