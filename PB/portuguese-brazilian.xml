@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português (Brasil)</Name>
-  <Code>PB</Code>  <!--Traducao Marcelo 22/02/2026 versao 26943-->
+  <Code>PB</Code>  <!--Tradução Marcelo 10/03/2026 v0.2.6182.26959-->
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -1101,7 +1101,7 @@ A bobina normal suporta até 5 kW. Para aplicações de maior corrente, utilize 
 	</RecordThing>
     <RecordThing>
       <Key>ItemCoalOre</Key>
-      <Value>Minério (Carvão)</Value>
+      <Value>Minério Carvão</Value>
 	  <Description>A humanidade não teria chegado ao espaço sem o humilde e combustível carvão. Queime-o em um {THING:StructureSolidFuelGenerator}, funda-o no {THING:StructureFurnace} para criar {LINK:AlloysPage;ligas}, ou use-o no {THING:ApplianceReagentProcessor} para fazer {THING:ItemSprayCanBlack}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1235,7 +1235,7 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterEmpty</Key>
-      <Value>Cilindo de Líquido (Vazio)</Value>
+      <Value>Cilindro de Líquido (Vazio)</Value>
       <Description />
     </RecordThing>
 
@@ -10519,7 +10519,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionFumaroleSteppeName</Key>
-      <Value>Estepe Fumarólica</Value>
+      <Value>Estepe de Fumarolas</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionFumaroleSteppeDescription</Key>
@@ -10543,7 +10543,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionCythereanPlainName</Key>
-      <Value>Planície Citereia</Value>
+      <Value>Planície Citeriana</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionCythereanPlainDescription</Key>
@@ -10551,7 +10551,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionVesperaPansName</Key>
-      <Value>Depressão Véspera</Value>
+      <Value>Bacias de Vespera</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionVesperaPansDescription</Key>
@@ -10567,7 +10567,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionHephaestianFlatsName</Key>
-      <Value>Planícies de Hefesto</Value>
+      <Value>Planícies Hefésticas</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionHephaestianFlatsDescription</Key>
@@ -10583,7 +10583,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionPyriteTablelandName</Key>
-      <Value>Chapadão de Pirita</Value>
+      <Value>Planalto de Pirita</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionPyriteTablelandDescription</Key>
@@ -10591,7 +10591,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionThiolBasinName</Key>
-      <Value>Bacia de Tióis</Value>
+      <Value>Bacia de Tiol</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionThiolBasinDescription</Key>
@@ -10607,7 +10607,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionYellowMesaName</Key>
-      <Value>Mesa Amarela</Value>
+      <Value>Meseta Amarela</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionYellowMesaDescription</Key>
@@ -10631,7 +10631,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionCalderaSheetName</Key>
-      <Value>Planalto da Caldeira</Value>
+      <Value>Manto de Caldeira</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionCalderaSheetDescription</Key>
@@ -10639,7 +10639,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionGalenaPansName</Key>
-      <Value>Depressões de Galena</Value>
+      <Value>Bacias de Galena</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionGalenaPansDescription</Key>
@@ -10647,7 +10647,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionOrpimentPanName</Key>
-      <Value>Depressão de Orpimento</Value>
+      <Value>Bacia de Orpimento</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionOrpimentPanDescription</Key>
@@ -10655,7 +10655,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionRealgarPanName</Key>
-      <Value>Depressão de Realgar</Value>
+      <Value>Bacia de Realgar</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionRealgarPanDescription</Key>
@@ -10663,7 +10663,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionCinnabarPanName</Key>
-      <Value>Depressão de Cinábrio</Value>
+      <Value>Bacia de Cinábrio</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionCinnabarPanDescription</Key>
@@ -10687,7 +10687,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionSulfurSaltPanName</Key>
-      <Value>Depressão Salina de Enxofre</Value>
+      <Value>Bacia Salina de Enxofre</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionSulfurSaltPanDescription</Key>
@@ -10703,7 +10703,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusPoiRegionPaleBrimstonePlainName</Key>
-      <Value>Planície Pálida de Enxofre</Value>
+      <Value>Planície de Enxofre Pálido</Value>
     </Record>
     <Record>
       <Key>VenusPoiRegionPaleBrimstonePlainDescription</Key>
@@ -10711,7 +10711,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaPoiCallanishPeakName</Key>
-      <Value>Monte Callanish</Value>
+      <Value>Pico Callanish</Value>
     </Record>
     <Record>
       <Key>EuropaPoiCallanishPeakDescription</Key>
@@ -10727,7 +10727,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaPoiBalgatanRidgeName</Key>
-      <Value>Serra Balgatan</Value>
+      <Value>Cordilheira Balgatan</Value>
     </Record>
     <Record>
       <Key>EuropaPoiBalgatanRidgeDescription</Key>
@@ -10751,7 +10751,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaPoiMorensFellName</Key>
-      <Value>Colina de Moren</Value>
+      <Value>Monte de Moren</Value>
     </Record>
     <Record>
       <Key>EuropaPoiMorensFellDescription</Key>
@@ -10763,7 +10763,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaPoiRegionBluePeakDescription</Key>
-      <Value>Um pico de média altura com vista para vales glaciais e dunas de neve</Value>
+      <Value>Pico de altura média com vista para vales glaciais e dunas de neve</Value>
     </Record>
     <Record>
       <Key>EuropaPoiRegionAncientLakeName</Key>
@@ -10787,7 +10787,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaPoiRegionHighMountainDescription</Key>
-      <Value>Um pico muito alto situado entre as cadeias montanhosas</Value>
+      <Value>Um pico muito alto situado entre as cordilheiras</Value>
     </Record>
     <Record>
       <Key>EuropaPoiRegionErodedChasmName</Key>
@@ -10795,7 +10795,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaPoiRegionErodedChasmDescription</Key>
-      <Value>Um vale estreito e erodido com vista para as grandes planícies de neve</Value>
+      <Value>Um vale estreito erodido com vista para as grandes planícies de neve</Value>
     </Record>
     <Record>
       <Key>EuropaPoiRegionNeedlePeakName</Key>
@@ -10803,7 +10803,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaPoiRegionNeedlePeakDescription</Key>
-      <Value>Um pico de montanha extremamente agudo que perfura o céu</Value>
+      <Value>Um pico de montanha extremamente pontiagudo que perfura o céu</Value>
     </Record>
     <Record>
       <Key>EuropaPoiRegionGlacialTrackName</Key>
@@ -10811,7 +10811,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaPoiRegionGlacialTrackDescription</Key>
-      <Value>Uma vasta trilha glacial que se estende em direção às planícies de neve</Value>
+      <Value>Uma vasta trilha glacial que se estende até as planícies de neve.</Value>
     </Record>
     <Record>
       <Key>EuropaPoiRegionPlainsSentinelName</Key>
@@ -10819,15 +10819,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaPoiRegionPlainsSentinelDescription</Key>
-      <Value>Um pico solitário erguido em meio às grandes planícies</Value>
+      <Value>Um pico solitário erguendo-se no meio das grandes planícies.</Value>
     </Record>
     <Record>
       <Key>EuropaPoiRegionSharpOverlookName</Key>
-      <Value>Mirante Afiado</Value>
+      <Value>Mirante Íngreme</Value>
     </Record>
     <Record>
       <Key>EuropaPoiRegionSharpOverlookDescription</Key>
-      <Value>Um pico agudo com vista para a vasta extensão glacial abaixo</Value>
+      <Value>Um pico íngreme com vista para a vasta extensão glacial abaixo.</Value>
     </Record>
     <Record>
       <Key>EuropaPoiRegionDuneFieldName</Key>
@@ -10843,7 +10843,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>MimasPoiMarsdenCraterDescription</Key>
-      <Value>Cratera rasa das Terras Baixas</Value>
+      <Value>Cratera rasa nas terras baixas</Value>
     </Record>
     <Record>
       <Key>MimasPoiDesolationName</Key>
@@ -10851,7 +10851,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>MimasPoiDesolationDescription</Key>
-      <Value>Cratera profunda e empoeirada</Value>
+      <Value>Cratera profunda e poeirenta</Value>
     </Record>
     <Record>
       <Key>MimasPoiDustBowlName</Key>
@@ -10879,19 +10879,19 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>MimasPoiShelteredCraterViewName</Key>
-      <Value>Vista da Cratera Protegida</Value>
+      <Value>Mirante da Cratera Abrigada</Value>
     </Record>
     <Record>
       <Key>MimasPoiShelteredCraterViewDescription</Key>
-      <Value>Vista sobre a imensa cratera central</Value>
+      <Value>Mirante sobre a imensa cratera central</Value>
     </Record>
     <Record>
       <Key>MimasPoiCentralMesaCraterName</Key>
-      <Value>Cratera da Planlto Central</Value>
+      <Value>Cratera do Planalto Central</Value>
     </Record>
     <Record>
       <Key>MimasPoiCentralMesaCraterDescription</Key>
-      <Value>Cratera dentro de uma cratera dentro de uma cratera</Value>
+      <Value>Uma cratera dentro de outra cratera</Value>
     </Record>
     <Record>
       <Key>MimasNamedRegionCressidasPointName</Key>
@@ -10931,7 +10931,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>MimasNamedRegionCrumbsWatchName</Key>
-      <Value>Vigia de Crumb</Value>
+      <Value>Vigília de Crumb</Value>
     </Record>
     <Record>
       <Key>MimasNamedRegionNorthernEscarpmentName</Key>
@@ -10959,7 +10959,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>MimasNamedRegionHarrietsDitchName</Key>
-      <Value>Valeta de Harriet</Value>
+      <Value>Vala de Harriet</Value>
     </Record>
     <Record>
       <Key>MimasNamedRegionHarrietCraterName</Key>
@@ -11083,7 +11083,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>MimasSpawnCraterFieldDescription</Key>
-      <Value>Essa região é marcada por crateras de encostas íngremes e tem vista para a enorme inclinação da supercratera.</Value>
+      <Value>Esta região é marcada por crateras de encostas íngremes e domina a enorme encosta da supercratera.</Value>
     </Record>
     <Record>
       <Key>MimasSpawnDustBowlName</Key>
@@ -11091,11 +11091,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>MimasSpawnDustBowlDescription</Key>
-      <Value>Essa cratera nas terras áridas médias é marcada por várias crateras de impacto.</Value>
+      <Value>Esta cratera nas terras médias áridas é marcada por crateras de impacto.</Value>
     </Record>
     <Record>
       <Key>EuropaNamedRegionTyreSlopeName</Key>
-      <Value>Encosta de Tiro</Value>
+      <Value>Encosta Tyre</Value>
     </Record>
     <Record>
       <Key>EuropaNamedRegionIceDesertName</Key>
@@ -11107,7 +11107,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaNamedRegionNorthernTroughName</Key>
-      <Value>Depressão do Norte</Value>
+      <Value>Depressão Norte</Value>
     </Record>
     <Record>
       <Key>EuropaNamedRegionNorthRangeName</Key>
@@ -11119,7 +11119,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaNamedRegionTheDitchName</Key>
-      <Value>A Valeta</Value>
+      <Value>A Vala</Value>
     </Record>
     <Record>
       <Key>EuropaNamedRegionBasinViewName</Key>
@@ -11187,7 +11187,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaNamedRegionTyreValleyName</Key>
-      <Value>Vale de Tiro</Value>
+      <Value>Vale de Tyre</Value>
     </Record>
     <Record>
       <Key>EuropaNamedRegionMorensCrossingName</Key>
@@ -11227,7 +11227,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaNamedRegionHeavensVaultName</Key>
-      <Value>Abóbada dos Céus</Value>
+      <Value>Abóbada Celestial</Value>
     </Record>
     <Record>
       <Key>EuropaNamedRegionBalgatanPassName</Key>
@@ -11259,7 +11259,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaSpawnIcyBasinDescription</Key>
-      <Value>A grande superfície plana de uma bacia gelada.</Value>
+      <Value>A ampla planície de uma bacia coberta de gelo.</Value>
     </Record>
     <Record>
       <Key>EuropaSpawnGlacialChannelName</Key>
@@ -11275,7 +11275,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaSpawnBalgatanPassDescription</Key>
-      <Value>Uma ampla passagem que atravessa cadeias íngremes.</Value>
+      <Value>Uma ampla passagem que atravessa cordilheiras íngremes.</Value>
     </Record>
     <Record>
       <Key>EuropaSpawnFrigidHighlandsName</Key>
@@ -11283,11 +11283,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>EuropaSpawnFrigidHighlandsDescription</Key>
-      <Value>Uma região montanhosa em alta altitude.</Value>
+      <Value>Uma região montanhosa em grande altitude.</Value>
     </Record>
     <Record>
       <Key>EuropaSpawnTyreValleyName</Key>
-      <Value>Vale de Tiro</Value>
+      <Value>Vale de Tyre</Value>
     </Record>
     <Record>
       <Key>EuropaSpawnTyreValleyDescription</Key>
@@ -11299,15 +11299,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusSpawnGaiaValleyDescription</Key>
-      <Value>Um vale relativamente grande e aberto, com planícies de enxofre</Value>
+      <Value>Um vale relativamente grande e aberto, com planícies de enxofre.</Value>
     </Record>
     <Record>
       <Key>VenusSpawnDaisyValleyName</Key>
-      <Value>Vale das Margaridas</Value>
+      <Value>Vale de Daisy</Value>
     </Record>
     <Record>
       <Key>VenusSpawnDaisyValleyDescription</Key>
-      <Value>Situado em um pequeno vale, próximo à maior planície de enxofre da região</Value>
+      <Value>Aninhado em um pequeno vale, próximo à maior planície de enxofre da região.</Value>
     </Record>
     <Record>
       <Key>VenusSpawnFaithValleyName</Key>
@@ -11315,7 +11315,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusSpawnFaithValleyDescription</Key>
-      <Value>Um vale opressivo, encoberto pela sombra durante grande parte do dia</Value>
+      <Value>Um vale opressivo envolto em sombra durante grande parte do dia.</Value>
     </Record>
     <Record>
       <Key>VenusSpawnDuskValleyName</Key>
@@ -11323,7 +11323,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusSpawnDuskValleyDescription</Key>
-      <Value>Escondido em um longo vale sinuoso, com picos imponentes em ambos os lados</Value>
+      <Value>Situado em um longo vale sinuoso com picos imponentes de ambos os lados.</Value>
     </Record>
     <Record>
       <Key>LunarPoiRichOreCraterName</Key>
@@ -11407,7 +11407,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>MarsNamedRegionShelteredFlatName</Key>
-      <Value>Planície Protegida</Value>
+      <Value>Planície Abrigada</Value>
     </Record>
     <Record>
       <Key>MarsNamedRegionHesperianStripName</Key>
@@ -11619,11 +11619,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>MarsSpawnCanyonOverlookName</Key>
-      <Value>Mirante do Desfiladeiro</Value>
+      <Value>Mirante do Cânion</Value>
     </Record>
     <Record>
       <Key>MarsSpawnCanyonOverlookDescription</Key>
-      <Value>A beira de um alto planalto que dá vista para o vasto Desfiladeiro dos Exploradores</Value>
+      <Value>A borda de um planalto elevado que domina o vasto Cânion Finder.</Value>
     </Record>
     <Record>
       <Key>MarsSpawnButchersFlatName</Key>
@@ -11703,11 +11703,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusNamedRegionLunaValleyName</Key>
-      <Value>Vale da Luna</Value>
+      <Value>Vale de Luna</Value>
     </Record>
     <Record>
       <Key>VenusNamedRegionPhoebeValleyName</Key>
-      <Value>Vale de Febe</Value>
+      <Value>Vale de Phoebe</Value>
     </Record>
     <Record>
       <Key>VenusNamedRegionRhiannonValleyName</Key>
@@ -11991,15 +11991,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusNamedRegionRowanValleyName</Key>
-      <Value>Vale das Sorveiras</Value>
+      <Value>Vale de Rowan</Value>
     </Record>
     <Record>
       <Key>VenusNamedRegionHollyValleyName</Key>
-      <Value>Vale dos Azevinhos</Value>
+      <Value>Vale dos Holly</Value>
     </Record>
     <Record>
       <Key>VenusNamedRegionHeatherValleyName</Key>
-      <Value>Vale das Urzes</Value>
+      <Value>Vale das Heather</Value>
     </Record>
     <Record>
       <Key>VenusNamedRegionVioletValleyName</Key>
@@ -12007,7 +12007,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusNamedRegionDaisyValleyName</Key>
-      <Value>Vale das Margaridas</Value>
+      <Value>Vale de Daisy</Value>
     </Record>
     <Record>
       <Key>VenusNamedRegionCloverValleyName</Key>
@@ -12039,7 +12039,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VenusNamedRegionThemisValleyName</Key>
-      <Value>Vale de Têmis</Value>
+      <Value>Vale de Themis</Value>
     </Record>
     <Record>
       <Key>VenusNamedRegionNikeValleyName</Key>
@@ -12383,7 +12383,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanNamedRegionKalimarPlateauEastName</Key>
-      <Value>Platô Kalimar Leste</Value>
+      <Value>Planalto Kalimar Leste</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionDustersOutcropName</Key>
@@ -12391,11 +12391,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanNamedRegionDustersPlateauNorthName</Key>
-      <Value>Platô Dusters Norte</Value>
+      <Value>Planalto Dusters Norte</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionDustersPlateauSouthName</Key>
-      <Value>Platô Dusters Sul</Value>
+      <Value>Planalto Dusters Sul</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionSerpentRiseName</Key>
@@ -12427,7 +12427,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanNamedRegionJanosPlateauName</Key>
-      <Value>Platô Janos</Value>
+      <Value>Planalto de Janos</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionJanosSlopeName</Key>
@@ -12435,7 +12435,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanNamedRegionBreakersViewName</Key>
-      <Value>Vista do Quebrador</Value>
+      <Value>Vista dos Quebradores</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionCrescentOutcropName</Key>
@@ -12451,7 +12451,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanNamedRegionBurningSaddleName</Key>
-      <Value>Sela em Chamas</Value>
+      <Value>Sela Ardente</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionTwinsViewName</Key>
@@ -12495,19 +12495,19 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanNamedRegionBrokenPlateauName</Key>
-      <Value>Platô Quebrado</Value>
+      <Value>Planalto Quebrado</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionKalimarPlateauName</Key>
-      <Value>Platô Kalimar</Value>
+      <Value>Planalto Kalimar</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionTalonHeightsWestName</Key>
-      <Value>Talon Heights West</Value>
+      <Value>Altos de Talon Oeste</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionTalonHeightsName</Key>
-      <Value>Alturas Talon</Value>
+      <Value>Altos de Talon</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionSorinsDescentName</Key>
@@ -12535,11 +12535,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanNamedRegionTalonRiseName</Key>
-      <Value>Elevação Talon</Value>
+      <Value>Elevação de Talon</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionAshRiseName</Key>
-      <Value>Elevação das Cinzas</Value>
+      <Value>Elevação de Cinzas</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionSpearValleyName</Key>
@@ -12691,7 +12691,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanNamedRegionIronValleyName</Key>
-      <Value>Vale de Ferro</Value>
+      <Value>Vale do Ferro</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionPepperGullyName</Key>
@@ -12711,7 +12711,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanNamedRegionDogsheadName</Key>
-      <Value>Dogshead</Value>
+      <Value>Cabeça do Cão</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionTalonPeakName</Key>
@@ -12739,11 +12739,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanPoiDogsheadCraterName</Key>
-      <Value>Cratera Dogshead</Value>
+      <Value>Cratera Cabeça do Cão</Value>
     </Record>
     <Record>
       <Key>VulcanPoiDogsheadCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterName</Key>
@@ -12751,7 +12751,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterName</Key>
@@ -12759,15 +12759,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterName</Key>
-      <Value>Cratera Cinder</Value>
+      <Value>Cratera de Cinzas</Value>
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterName</Key>
@@ -12775,7 +12775,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterName</Key>
@@ -12783,7 +12783,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterName</Key>
@@ -12791,7 +12791,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterName</Key>
@@ -12799,7 +12799,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterName</Key>
@@ -12807,7 +12807,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterDescription</Key>
-      <Value> </Value>
+      <Value>Nova Localização</Value>
     </Record>
     <Record>
       <Key>VulcanPoiDogsheadPassageSouthDescription</Key>
@@ -13179,7 +13179,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanSpawnVestaValleyDescription</Key>
-      <Value>Um vale vulcânico profundo, esculpido por antigos fluxos de lava e cercado por penhascos imponentes</Value>
+      <Value>Um profundo vale vulcânico, esculpido por antigos fluxos de lava e cercado por penhascos imponentes.</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnEtnasFuryName</Key>
@@ -13187,15 +13187,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanSpawnEtnasFuryDescription</Key>
-      <Value>Uma planície rachada e plana acima de túneis de lava, com vista para vulcões distantes</Value>
+      <Value>Uma planície plana e rachada sobre túneis de lava, com vista para vulcões distantes.</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnIxionsDemiseName</Key>
-      <Value>Ruína de Ixion's</Value>
+      <Value>Queda de Ixion</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnIxionsDemiseDescription</Key>
-      <Value>Um deserto implacável de rochas pontiagudas e câmaras de magma colapsadas.</Value>
+      <Value>Um deserto implacável de rochas irregulares e câmaras de magma colapsadas.</Value>
     </Record>
     <Record>
       <Key>SpawnRoundRobin</Key>
@@ -13203,7 +13203,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>SpawnRoundRobinDescription</Key>
-      <Value>Cada jogador começará o jogo em uma localização separada.</Value>		
+      <Value>Cada jogador iniciará o jogo em um local diferente.</Value>		
     </Record>
     <Record>
       <Key>VulcanSpawnTitusReachName</Key>
@@ -13211,7 +13211,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanSpawnTitusReachDescription</Key>
-      <Value>Um planalto médio e plano com vista para lagos de lava e vulcões.</Value>
+      <Value>Um planalto plano de altitude média com vista para lagos de lava e vulcões.</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnSerpentPlateauName</Key>
@@ -13239,11 +13239,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanSpawnCinderPeakName</Key>
-      <Value>Monte Cinder</Value>
+      <Value>Pico de Cinzas</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnCinderPeakDescription</Key>
-      <Value>Um vale profundo ao pé do Monte Dogsfoot.</Value>
+      <Value>Um vale profundo ao pé do Monte Pé de Cão.</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnRedJunctionName</Key>
@@ -13251,7 +13251,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanSpawnRedJunctionDescription</Key>
-      <Value>Às margens do Lago Junction e do Lago Calamidade.</Value>
+      <Value>Às margens do Lago Encruzilhada e do Lago Calamidade.</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnOrensTrackName</Key>
@@ -13263,11 +13263,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanSpawnDogsfootName</Key>
-      <Value>Pé de Cão</Value>
+      <Value>Pata de Cão</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnDogsfootDescription</Key>
-      <Value>Uma formação basáltica bifurcada que se assemelha a uma pata, oferecendo abrigo raro contra tempestades de cinzas.</Value>
+      <Value>Uma formação de basalto bifurcada que lembra uma pata, oferecendo raro abrigo contra tempestades de cinzas.</Value>
     </Record>
     <Record>
       <Key>VulcanSpawnKalimarOutlookName</Key>
@@ -13275,7 +13275,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>VulcanSpawnKalimarOutlookDescription</Key>
-      <Value>Um rio de lava serpenteia pelo vale abaixo, sob o olhar severo do Ventil Kalimar</Value>
+      <Value>Um rio de lava serpenteia pelo vale abaixo, sob o olhar implacável da Chaminé Kalimar.</Value>
     </Record>
     <Record>
       <Key>OkayConfirmation</Key>
@@ -13307,7 +13307,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>InterrogationProgress</Key>
-      <Value>Progresso da Interrogação do Comerciant</Value>
+      <Value>Progresso da Interrogação do Comerciante</Value>
     </Record>
     <Record>
       <Key>RespawnConditionEasy</Key>
@@ -13379,7 +13379,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ChairTableCategory</Key>
-      <Value>Cadeiras</Value>
+      <Value>Cadeiras e Bancadas</Value>
     </Record>
     <Record>
       <Key>PersonalSuits</Key>
@@ -13427,7 +13427,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>OreHeader</Key>
-      <Value>Minérios	</Value>
+      <Value>Minérios</Value>
     </Record>
     <Record>
       <Key>ReagentsHeader</Key>
@@ -13539,7 +13539,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>TraderErrorConnectWires</Key>
-      <Value>O comerciante não conseguiu concluir a troca, verifique se há quebras nos cabos!</Value>
+      <Value>O comerciante não conseguiu concluir a negociação. Verifique se há cabos rompidos!</Value>
     </Record>
     <Record>
       <Key>TraderErrorMissingMotherboard</Key>
@@ -13763,7 +13763,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LoulanShortDesc</Key>
-      <Value>Loulan, ao chegar você notará uma atmosfera respirável, com pressão suficiente para sustentar a vida — mas com severa ausência dela. Este gigante arenoso está localizado no Sistema Gargantuan, aproximando-se a cada dia do buraco negro situado no centro. Embora abandonado e já não seja mais verde e cheio de {GAS:Water}, este planeta ainda possui uma atmosfera funcional e sua tarefa será explorar o deserto inóspito para adquirir os materiais e recursos necessários para sobreviver neste deserto eterno.</Value>
+      <Value>Loulan — ao chegar, você notará uma atmosfera respirável, com pressão suficiente para sustentar a vida — mas com uma grave escassez dela. Este gigante arenoso está situado no Sistema Gargantuan, aproximando-se a cada dia do buraco negro localizado em seu centro. Embora abandonado e já não seja mais verde nem repleto de {GAS:Water}, este planeta ainda possui uma atmosfera funcional, e você tem a tarefa de vasculhar o deserto devastado em busca dos materiais e recursos necessários para sobreviver neste deserto eterno.</Value>
     </Record>
     <Record>
       <Key>NewWorldAreaVenus</Key>
@@ -14155,7 +14155,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>SaveLocationBroken</Key>
-      <Value>Não foi possível acessar o local dos arquivos de salvamento, você está usando um caractere inválido? Tente alterar o diretório de salvamento em Configurações.</Value>
+      <Value>Não foi possível acessar o local dos arquivos de salvamento. Você está usando um caractere inválido? Tente alterar o diretório de salvamento nas Configurações.</Value>
     </Record>
     <Record>
       <Key>PlayerIsConnecting</Key>
@@ -14332,13 +14332,13 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     <Record>
       <Key>MulticonstructorItem</Key>
       <Value>
-        &lt;color=yellow&gt;Constructing option {0} of {1}
+        &lt;color=yellow&gt;Opção de construção {0} de {1}
         Scroll &lt;color=red&gt;Roda do Mouse para mais opções.
       </Value>
     </Record>
     <Record>
       <Key>UnableToConstruct</Key>
-      <Value>&lt;color=red&gt;Não é possível construir.</Value>
+      <Value>&lt;color=red&gt;Não foi possível construir.</Value>
     </Record>
     <Record>
       <Key>PortableConnectionFailure</Key>
@@ -14346,15 +14346,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>TooltipRotateLeftRight</Key>
-      <Value>Rotacionar para a esquerda e direita = {KEY:RotateLeft} e {KEY:RotateRight}.</Value>
+      <Value>Girar para a esquerda e direita = {KEY:RotateLeft} e {KEY:RotateRight}.</Value>
     </Record>
     <Record>
       <Key>TooltipRotateUpDown</Key>
-      <Value>Rotacionar para cima e para baixo = {KEY:RotateUp} e {KEY:RotateDown}.</Value>
+      <Value>Girar para cima e para baixo = {KEY:RotateUp} e {KEY:RotateDown}.</Value>
     </Record>
     <Record>
       <Key>TooltipRollLeftRight</Key>
-      <Value>Girar para a esquerda e direita = {KEY:RotateRollLeft} e {KEY:RotateRollRight}.</Value>
+      <Value>Inclinar para a esquerda e direita = {KEY:RotateRollLeft} e {KEY:RotateRollRight}.</Value>
     </Record>
     <Record>
       <Key>SettingsExtendedTooltips</Key>
@@ -14362,43 +14362,43 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>TooltipUpgrade2</Key>
-      <Value>Uma vez colocado, use {0} e {1} para atualizar.</Value>
+      <Value>Após colocado, use {0} e {1} para melhorar.</Value>
     </Record>
     <Record>
       <Key>TooltipUpgrade</Key>
-      <Value>Uma vez colocado, use {0} para melhorar.</Value>
+      <Value>Após colocado, use {0} para melhorar.</Value>
     </Record>
     <Record>
       <Key>TooltipAllowsMounting</Key>
-      <Value>Permite a montagem de dispositivos fixados na parede. Faça um upgrade para permitir uma melhor área de colocação.</Value>
+      <Value>Permite a instalação de dispositivos montados na parede. Melhore para permitir uma área de posicionamento maior.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapGrid</Key>
-      <Value>A colocação é alinhada à grade.</Value>
+      <Value>O posicionamento é ajustado à grade.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFace</Key>
-      <Value>A colocação é alinhada às faces da grade.</Value>
+      <Value>O posicionamento é ajustado às faces da grade.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMount</Key>
-      <Value>A colocação é alinhada à grade pequena.</Value>
+      <Value>O posicionamento é ajustado à grade pequena.</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingFrame</Key>
-      <Value>A colocação só é permitida em  {THING:StructureFrameIron} e {THING:StructureFrame}</Value>
+      <Value>O posicionamento só é permitido em  {THING:StructureFrameIron} e {THING:StructureFrame}</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountMissingSupport</Key>
-      <Value>A colocação requer suporte</Value>
+      <Value>O posicionamento requer suporte</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountBlockedDynamic</Key>
-      <Value>Colocação bloqueada por #VAR1#</Value>
+      <Value>Posicionamento bloqueado por #VAR1#</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceMountBlockedFallback</Key>
-      <Value>Colocação bloqueada</Value>
+      <Value>Posicionamento bloqueado</Value>
     </Record>
     <Record>
       <Key>TooltipPlacementSnapFaceNotMountableDynamic</Key>
@@ -14478,7 +14478,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>WaitingBody</Key>
-      <Value>Ainda salvando os dados do mundo. Por favor, tente novamente quando o processo terminar.</Value>
+      <Value>Os dados do mundo ainda estão sendo salvos. Tente novamente quando o processo terminar.</Value>
     </Record>
     <Record>
       <Key>PromptQuitTitle</Key>
@@ -14506,15 +14506,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>PromptOverwriteTitle</Key>
-      <Value>Sobrescrever</Value>
+      <Value>Substituir</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteBody</Key>
-      <Value>Tem certeza de que deseja sobrescrever este script com os dados que estão na tela do computador? Isso substituirá o que está na sua biblioteca de código-fonte.</Value>
+      <Value>Tem certeza de que deseja substituir este script pelos dados que estão na tela do computador? Isso substituirá o que está na sua biblioteca de código-fonte.</Value>
     </Record>
     <Record>
       <Key>PromptOverwriteConfirm</Key>
-      <Value>Sobrescrever</Value>
+      <Value>Substituir</Value>
     </Record>
     <Record>
       <Key>PromptPublishTitle</Key>
@@ -14542,7 +14542,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>PromptDebugLoadTitle</Key>
-      <Value>Carregar em Debug</Value>
+      <Value>Carregamento de Depuração</Value>
     </Record>
     <Record>
       <Key>PromptDebugLoadBody</Key>
@@ -14550,7 +14550,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>PromptDebugLoadConfirm</Key>
-      <Value>Carregar em Debug</Value>
+      <Value>Carregar em Depuração</Value>
     </Record>
     <Record>
       <Key>PromptRespawnTitle</Key>
@@ -14582,7 +14582,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>UnconsciousPromptMessage</Key>
-      <Value>Você está inconsciente, mas não morto. O que deseja fazer?</Value>
+      <Value>Você está inconsciente, mas não está morto. O que deseja fazer?</Value>
     </Record>
     <Record>
       <Key>UnconsciousPromptOptionWaitForHelp</Key>
@@ -14642,7 +14642,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>AlertInvalidIP</Key>
-      <Value>Endereço IP inválido {0} \nVerifique se o endereço IP ou URL é válido</Value>
+      <Value>Endereço IP inválido {0} Verifique se o endereço IP ou URL é válido</Value>
     </Record>
     <Record>
       <Key>AlertNoBackups</Key>
@@ -14654,7 +14654,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>AlertVersionMismatch</Key>
-      <Value>Versão do jogo incompatível com o servidor.</Value>
+      <Value>A versão do jogo não corresponde à do servidor.</Value>
     </Record>
     <Record>
       <Key>AlertNoResponse</Key>
@@ -14681,7 +14681,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>AlertBlankSaveName</Key>
-      <Value>Você deve inserir um nome de mundo para salvar.</Value>
+      <Value>Você deve informar um nome para o mundo antes de salvar.</Value>
     </Record>
     <Record>
       <Key>AlertTitleAttention</Key>
@@ -14697,7 +14697,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>JoinMenuSearchPlaceholder</Key>
-      <Value>Pesquisar por Nome do Servidor</Value>
+      <Value>Pesquisar pelo Nome do Servidor</Value>
     </Record>
     <Record>
       <Key>JoinMenuAddressPlaceholder</Key>
@@ -14916,7 +14916,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
       <Value>
         Então você ficou preso na Lua, mas nem tudo é tão ruim. Claro, é frio, hostil e bem monótono, mas pelo menos o sol está brilhando. O painel solar vai ser útil, e o controlador de energia... e provavelmente o forno de arco também.
                                               Ainda há um pouco de comida e oxigênio nas outras caixas, embora definitivamente não vá durar para sempre. Nem a sua bateria.
-                                              É melhor você começar a pensar em como vai sobreviver. Quão difícil pode ser improvisar uma escotilha? Um gerador? Talvez até fundir algum minério e construir sua própria base?
+                                              É melhor você começar a pensar em como vai sobreviver. Quão difícil pode ser montar uma câmara de descompressão? Um gerador? Talvez até fundir algum minério e construir sua própria base?
         Parece que você vai ficar por aqui um bom tempo.
       </Value>
     </Record>
@@ -14959,15 +14959,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>TradingNoMoneyHash</Key>
-      <Value>Dinheiro insuficiente para completar esta transação. Verifique se você e o comerciante possuem fundos suficientes.</Value>
+      <Value>Dinheiro insuficiente para completar esta transação. Certifique-se de que você e o comerciante têm dinheiro suficiente para finalizar a negociação.</Value>
     </Record>
     <Record>
       <Key>SomethingWentWrongTrading</Key>
-      <Value>Algo deu errado ao processar a troca. Será que algum item saiu do vendedor?</Value>
+      <Value>Algo deu errado ao processar a negociação. Será que algum item saiu do vendedor?</Value>
     </Record>
     <Record>
       <Key>SomethingWentWrongTrading2</Key>
-      <Value>Algo deu errado ao processar a troca. Você não possui um cartão de crédito!</Value>
+      <Value>Algo deu errado ao processar a negociação. Você não possui um cartão de crédito!</Value>
     </Record>
     <Record>
       <Key>TraderErrorNoGasSpace</Key>
@@ -14987,7 +14987,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>SettingsSunOrbitPeriod</Key>
-      <Value>Período Orbital do Sol</Value>
+      <Value>Período da Órbita do Sol</Value>
     </Record>
     <Record>
       <Key>SettingsExtendedTerrain</Key>
@@ -15138,19 +15138,19 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>NewWorldAlienWorldShortDesc</Key>
-      <Value>Para teste do novo sistema de terreno</Value>
+      <Value>Para testar o novo sistema de terreno</Value>
     </Record>
     <Record>
       <Key>NewWorldMoon1kShortDesc</Key>
-      <Value>Mapa de teste lunar 1 km por 1 km</Value>
+      <Value>Mapa de teste da Lua 1 km por 1 km</Value>
     </Record>
     <Record>
       <Key>NewWorldMoon2kShortDesc</Key>
-      <Value>Mapa de teste lunar 1 km por 1 km</Value>
+      <Value>Mapa de teste da Lua de 2 km por 2 km</Value>
     </Record>
     <Record>
       <Key>NewWorldMoon4kShortDesc</Key>
-      <Value>4km por 4km</Value>
+      <Value>Mapa de teste da Lua de 4km por 4km</Value>
     </Record>
     <Record>
       <Key>NewWorldMoonShortDesc</Key>
@@ -15166,11 +15166,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>NewWorldVenusShortDesc</Key>
-      <Value>Temperaturas extremas constantes e pressões altíssimas tornam Vênus um lugar para poucos corajosos. Somente os Stationeers mais experientes sobreviverão em nosso antigo planeta-irmão, agora uma rocha árida. Cave fundo ou volte para casa.</Value>
+      <Value>Temperaturas extremas constantes e pressões altíssimas tornam Vênus um lugar para poucos corajosos. Apenas os Stationeers mais experientes sobreviverão em nosso antigo planeta irmão, agora uma rocha estéril. Cave fundo ou volte para casa.</Value>
     </Record>
     <Record>
       <Key>NewWorldEuropaShortDesc</Key>
-      <Value>O gelo derretendo neste mundo gelado gerou uma fina atmosfera, mas seu ambiente extremamente frio apresenta um sério desafio para os Stationeers. O frio extremo fará com que as baterias percam energia rapidamente, portanto obter uma fonte de energia estável e um local aquecido deve ser sua prioridade.</Value>
+      <Value>O gelo derretido neste mundo frio criou uma atmosfera fina, mas seu ambiente extremamente frio apresenta um sério desafio para os Stationeers. O frio extremo fará com que as baterias percam energia rapidamente, portanto obter uma fonte de energia estável e um local aquecido deve ser sua prioridade.</Value>
     </Record>
     <Record>
       <Key>NewWorldVulcanShortDesc</Key>
@@ -15182,7 +15182,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>NewWorldMimasShortDesc</Key>
-      <Value>Uma rocha árida sob os anéis de Saturno, Mimas possui gravidade extremamente baixa e uma superfície repleta de crateras de impacto. Sua distância do Sol limita o uso de energia solar. Até pequenos movimentos podem lançá-lo longe e rapidamente..</Value>
+      <Value>Uma rocha estéril sob os anéis de Saturno, Mimas possui gravidade extremamente baixa e uma superfície marcada por crateras de impacto. Sua distância do Sol significa que a energia solar é limitada. Até pequenos movimentos podem fazer você ser lançado para longe e rapidamente.</Value>
     </Record>
     <Record>
       <Key>EuropaWorldDescriptionShort</Key>
@@ -15190,19 +15190,19 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LunarWorldDescriptionShort</Key>
-      <Value>Sem atmosfera, a superfície árida e cheia de crateras da Lua oferece um ambiente estável para operações lunares.</Value>
+      <Value>Sem atmosfera, a superfície árida e marcada por crateras da Lua oferece um ambiente estável para operações lunares.</Value>
     </Record>
     <Record>
       <Key>MarsWorldDescriptionShort</Key>
-      <Value>Esta região é marcada por grandes cânions e crateras ocasionais. A atmosfera é imprópria para respiração e tempestades de poeira são frequentes.</Value>
+      <Value>Esta região é marcada por grandes cânions e crateras. A atmosfera é imprópria para respiração e tempestades de poeira são frequentes.</Value>
     </Record>
     <Record>
       <Key>MimasWorldDescriptionShort</Key>
-      <Value>>A gravidade extremamente baixa de Mimas permite a formação das vastas falésias e crateras encontradas nesta paisagem dramática.</Value>
+      <Value>A gravidade extremamente baixa de Mimas permite a formação das vastas falésias e crateras encontradas nesta paisagem impressionante.</Value>
     </Record>
     <Record>
       <Key>VenusWorldDescriptionShort</Key>
-      <Value>Este mundo sufoca em uma atmosfera espessa e tóxica. Calor incessante e pressão esmagadora aguardam neste planeta hostil.</Value>
+      <Value>Este mundo sufoca sob uma espessa atmosfera tóxica. Calor incessante e pressão esmagadora aguardam neste planeta hostil.</Value>
     </Record>
     <Record>
       <Key>VulcanWorldDescriptionShort</Key>
@@ -15242,7 +15242,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LunarSpawnMonsArcanusDescription</Key>
-      <Value>Um local protegido, aninhado entre os penhascos do alto planalto.</Value>
+      <Value>Um local protegido, situado entre os penhascos do planalto elevado.</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarDorsumCaradus</Key>
@@ -15306,11 +15306,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>GeoNameLunarCraterVesper</Key>
-      <Value>Crater Vesper</Value>
+      <Value>Cratera Vesper</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarPlanitiaSolstitia</Key>
-      <Value>Planitia Solstitia</Value> <!-- Observação: Os nomes latinos de formações lunares (Palus, Mons, Crater, Sinus, Planitia, Montes, Vallis, Dorsum, Lacus etc.) são tratados como nomes próprios oficiais ou estilizados no jogo e não devem ser traduzidos. -->
+      <Value>Planície Solstitia</Value> <!-- Observação: Os nomes latinos de formações lunares (Palus, Mons, Crater, Sinus, Planitia, Montes, Vallis, Dorsum, Lacus etc.) são tratados como nomes próprios oficiais ou estilizados no jogo e não devem ser traduzidos. -->
     </Record>
     <Record>
       <Key>GeoNameLunarMontesFulgur</Key>
@@ -15318,19 +15318,19 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>GeoNameLunarVallisCineris</Key>
-      <Value>Vallis Cineris</Value>
+      <Value>Vale Cineris</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarDorsumBorealis</Key>
-      <Value>Dorsum Borealis</Value>
+      <Value>Dorsal  Borealis</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarLacusGelidus</Key>
-      <Value>Lacus Gelidus</Value>
+      <Value>Lago Gelidus</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarPromontoriumZenith</Key>
-      <Value>Promontorium Zenith</Value>
+      <Value>Promontório Zenith</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarTerraFerruginea</Key>
@@ -15342,7 +15342,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>GeoNameLunarMareSomnii</Key>
-      <Value>Mare Somnii</Value>
+      <Value>Mar Somnii</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarRimaSerpentis</Key>
@@ -15350,27 +15350,27 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>GeoNameLunarLacusBellus</Key>
-      <Value>Lacus Bellus</Value>
+      <Value>Lago Bellus</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarVallisOblivionis</Key>
-      <Value>Vallis Oblivionis</Value>
+      <Value>Vale Oblivionis</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterNox</Key>
-      <Value>Crater Nox</Value>
+      <Value>Cratera Nox</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterSolaris</Key>
-      <Value>Crater Solaris</Value>
+      <Value>Cratera Solaris</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterNovus</Key>
-      <Value>Crater Novus</Value>
+      <Value>Cratera Novus</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarRupesMagna</Key>
-      <Value>Rupes Magna</Value>
+      <Value>Escarpa Magna</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarSpeculaObservans</Key>
@@ -15526,7 +15526,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>WarningControlConflictDescription</Key>
-      <Value>Por favor, acesse a janela de atribuição de controles e limpe os conflitos</Value>
+      <Value>Por favor, acesse a janela de atribuição de controles e resolva os conflitos</Value>
     </Record>
     <Record>
       <Key>NewWorldGameMode</Key>
@@ -15566,7 +15566,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypePower</Key>
-      <Value>Pode ser lido para retornar se o dispositivo está corretamente energizado ou não; definido pelo sistema de energia, retorna 1 se energizado e 0 se não</Value>
+      <Value>Pode ser lido para indicar se o dispositivo está corretamente energizado ou não; definido pelo sistema de energia, retorna 1 se estiver energizado e 0 caso contrário.</Value>
     </Record>
     <Record>
       <Key>LogicTypeOpen</Key>
@@ -15574,11 +15574,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeMode</Key>
-      <Value>Inteiro para o estado do modo; diferentes dispositivos terão diferentes estados de modo disponíveis</Value>
+      <Value>Valor inteiro que indica o estado do modo; diferentes dispositivos terão diferentes estados de modo disponíveis.</Value>
     </Record>
     <Record>
       <Key>LogicTypeError</Key>
-      <Value>>1 se o dispositivo estiver em estado de erro, caso contrário 0</Value>
+      <Value>1 se o dispositivo estiver em estado de erro, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>LogicTypeFlush</Key>
@@ -15594,7 +15594,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeLock</Key>
-      <Value>1 se o dispositivo estiver travado, caso contrário 0; pode ser definido na maioria dos dispositivos e impede o usuário de acessar os valores</Value>
+      <Value>1 se o dispositivo estiver bloqueado, caso contrário 0; pode ser definido na maioria dos dispositivos e impede o usuário de acessar os valores</Value>
     </Record>
     <Record>
       <Key>LogicTypePressure</Key>
@@ -15626,7 +15626,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeTargetPadIndex</Key>
-      <Value>O índice da plataforma de pouso de comerciante na rede de dados deste dispositivo que ele tentará chamar para pousar</Value>
+      <Value>O índice da plataforma de pouso de comerciantes nesta rede de dados do dispositivo que será usado para chamar um comerciante para pousar</Value>
     </Record>
     <Record>
       <Key>LogicTypeInterrogationProgress</Key>
@@ -15634,15 +15634,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeSizeX</Key>
-      <Value>Tamanho no eixo X (direita) do objeto em grandes grades (uma grande grade equivale a 2 metros)</Value>
+      <Value>Tamanho no eixo X (direita) do objeto em largeGrids (um largeGrid equivale a 2 metros)</Value>
     </Record>
     <Record>
       <Key>LogicTypeSizeY</Key>
-      <Value>Tamanho no eixo Y (cima) do objeto em grandes grades (uma grande grade equivale a 2 metros)</Value>
+      <Value>Tamanho no eixo Y (cima) do objeto em largeGrids (um largeGrids equivale a 2 metros)</Value>
     </Record>
     <Record>
       <Key>LogicTypeSizeZ</Key>
-      <Value>Tamanho no eixo Z (frente) do objeto em grandes grades (uma grande grade equivale a 2 metros)</Value>
+      <Value>Tamanho no eixo Z (frente) do objeto em largeGrids (um largeGrids equivale a 2 metros)</Value>
     </Record>
     <Record>
       <Key>LogicTypeMinWattsToContact</Key>
@@ -15654,7 +15654,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeLineNumber</Key>
-      <Value>O número da linha da execução atual de um circuito integrado rodando neste dispositivo. Embora esse número possa ser escrito, use com cautela</Value>
+      <Value>O número da linha da execução atual de um circuito integrado rodando neste dispositivo. Embora esse número possa ser alterado, use com cautela</Value>
     </Record>
     <Record>
       <Key>LogicTypeTemperatureOutput</Key>
@@ -15670,11 +15670,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypePressureExternal</Key>
-      <Value>Configuração de segurança da pressão externa, em KPa. Representa a pressão-alvo da atmosfera externa.</Value>
+      <Value>Configuração de segurança da pressão externa, em KPa. Representa a pressão alvo da atmosfera externa.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureInternal</Key>
-      <Value>Configuração de segurança da pressão interna, em KPa. Representa a pressão-alvo da atmosfera dentro da rede de tubos conectada.</Value>
+      <Value>Configuração de segurança da pressão interna, em KPa. Representa a pressão alvo da atmosfera dentro da rede de tubulação conectada.</Value>
     </Record>
     <Record>
       <Key>LogicTypeActivate</Key>
@@ -15682,7 +15682,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeCharge</Key>
-      <Value>A carga atual que o dispositivo possui</Value>
+      <Value>A carga atual do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeSetting</Key>
@@ -15730,7 +15730,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeCombustion</Key>
-      <Value>A atmosfera avaliada está em chamas. Retorna 1 se a atmosfera estiver em chamas, 0 caso contrário.</Value>
+      <Value>A atmosfera analisada está em combustão. Retorna 1 se a atmosfera estiver em chamas, 0 caso contrário.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygenInput</Key>
@@ -15766,43 +15766,43 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeCombustionInput</Key>
-      <Value>A atmosfera avaliada está em chamas. Retorna 1 se a rede de Entrada do dispositivo estiver em chamas, 0 caso contrário.</Value>
+      <Value>A atmosfera analisada está em combustão. Retorna 1 se a rede de Entrada do dispositivo estiver em chamas, 0 caso contrário.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygenInput2</Key>
-      <Value>A proporção de oxigênio na rede de Entrada2 do dispositivo</Value>
+      <Value>A proporção de oxigênio na rede de Entrada 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioCarbonDioxideInput2</Key>
-      <Value>A proporção de {GAS:CarbonDioxide} na rede de Entrada2 do dispositivo</Value>
+      <Value>A proporção de {GAS:CarbonDioxide} na rede de Entrada 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrogenInput2</Key>
-      <Value>A proporção de nitrogênio na rede de Entrada2 do dispositivo</Value>
+      <Value>A proporção de nitrogênio na rede de Entrada 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutantInput2</Key>
-      <Value>A proporção de poluentes na rede de Entrada2 do dispositiv</Value>
+      <Value>A proporção de poluentes na rede de Entrada 2 do dispositiv</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioVolatilesInput2</Key>
-      <Value>A proporção de voláteis na rede de Entrada2 do dispositivo</Value>
+      <Value>A proporção de voláteis na rede de Entrada 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterInput2</Key>
-      <Value>A proporção de água na rede de Entrada2 do dispositivo</Value>
+      <Value>A proporção de água na rede de Entrada 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrousOxideInput2</Key>
-      <Value>A proporção de {GAS:NitrousOxide} na rede de Entrada2 do dispositivo</Value>
+      <Value>A proporção de {GAS:NitrousOxide} na rede de Entrada 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioLiquidNitrogenInput2</Key>
-      <Value>A proporção de {GAS:LiquidNitrogen} na rede de Entrada2 do dispositivo</Value>
+      <Value>A proporção de {GAS:LiquidNitrogen} na rede de Entrada 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustionInput2</Key>
-      <Value>A atmosfera avaliada está em chamas. Retorna 1 se a rede de Entrada2 do dispositivo estiver em chamas, 0 caso contrário.</Value>
+      <Value>A atmosfera analisada está em combustão. Retorna 1 se a rede de Entrada 2 do dispositivo estiver em chamas, 0 caso contrário.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygenOutput</Key>
@@ -15838,43 +15838,43 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeCombustionOutput</Key>
-      <Value>A atmosfera avaliada está em chamas. Retorna 1 se a rede de Saída do dispositivo estiver em chamas, 0 caso contrário.</Value>
+      <Value>>A atmosfera analisada está em combustão. Retorna 1 se a rede de Saída do dispositivo estiver em chamas, 0 caso contrário.</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioOxygenOutput2</Key>
-      <Value>A proporção de oxigênio na rede de Saída2 do dispositivo</Value>
+      <Value>A proporção de oxigênio na rede de Saída 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioCarbonDioxideOutput2</Key>
-      <Value>A proporção de {GAS:CarbonDioxide} na rede de Saída2 do dispositivo</Value>
+      <Value>A proporção de {GAS:CarbonDioxide} na rede de Saída 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrogenOutput2</Key>
-      <Value>A proporção de nitrogênio na rede de Saída2 do dispositivo</Value>
+      <Value>A proporção de nitrogênio na rede de Saída 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioPollutantOutput2</Key>
-      <Value>A proporção de poluentes na rede de Saída2 do dispositivo</Value>
+      <Value>A proporção de poluentes na rede de Saída 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioVolatilesOutput2</Key>
-      <Value>A proporção de voláteis na rede de Saída2 do dispositivo</Value>
+      <Value>A proporção de voláteis na rede de Saída 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterOutput2</Key>
-      <Value>A proporção de água na rede de Saída2 do dispositivo</Value>
+      <Value>A proporção de água na rede de Saída 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioNitrousOxideOutput2</Key>
-      <Value>A proporção de {GAS:NitrousOxide} na rede de Saída2 do dispositivo</Value>
+      <Value>A proporção de {GAS:NitrousOxide} na rede de Saída 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioLiquidNitrogenOutput2</Key>
-      <Value>A proporção de {GAS:LiquidNitrogen} na rede de Saída2 do dispositivo</Value>
+      <Value>A proporção de {GAS:LiquidNitrogen} na rede de Saída 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustionOutput2</Key>
-      <Value>A atmosfera avaliada está em chamas. Retorna 1 se a rede de Saída2 do dispositivo estiver em chamas, 0 caso contrário.</Value>
+      <Value>A atmosfera analisada está em combustão. Retorna 1 se a rede de Saída 2 do dispositivo estiver em chamas, 0 caso contrário.</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontal</Key>
@@ -15898,15 +15898,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeRatio</Key>
-      <Value>Valor específico do contexto dependendo do dispositivo, baseado em proporção de 0 a 1</Value>
+      <Value>Valor específico do contexto dependendo do dispositivo, proporção baseada em valores de 0 a 1</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerPotential</Key>
-      <Value>Quanta energia o dispositivo ou a rede pode potencialmente fornecer</Value>
+      <Value>Quantidade de energia que o dispositivo ou rede pode potencialmente fornecer</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerActual</Key>
-      <Value>Quanta energia o dispositivo ou a rede está realmente utilizando</Value>
+      <Value>Quantidade de energia que o dispositivo ou rede está realmente utilizando</Value>
     </Record>
     <Record>
       <Key>LogicTypeQuantity</Key>
@@ -15934,7 +15934,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeRequiredPower</Key>
-      <Value>Quantidade de energia de operação em repouso, não inclui necessariamente a demanda extra de energia</Value>
+      <Value>Quantidade de energia necessária para operação em repouso, podendo não incluir demandas adicionais de energia</Value>
     </Record>
     <Record>
       <Key>LogicTypeHorizontalRatio</Key>
@@ -15970,7 +15970,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
 10: Rosa
 11: Roxo
 
-        É uma lei universal inabalável que qualquer valor acima de 11 será Roxo. O {LINK:ODA;ODA} é impotente para mudar isso. Da mesma forma, qualquer valor abaixo de 0 será Azul.
+        É uma lei universal imutável que qualquer valor acima de 11 será Roxo. A {LINK:ODA;ODA} é incapaz de mudar isso. Da mesma forma, qualquer valor abaixo de 0 será Azul.
       </Value>
     </Record>
     <Record>
@@ -16059,23 +16059,23 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeRequestHash</Key>
-      <Value>Quando definido com o identificador único, solicita um item do tipo fornecido ao dispositivo</Value>
+      <Value>Quando definido com o identificador único, solicita ao dispositivo um item do tipo especificado</Value>
     </Record>
     <Record>
       <Key>LogicTypeCompletionRatio</Key>
-      <Value>Quão completa está a produção atual deste dispositivo, entre 0 e 1</Value>
+      <Value>O nível de conclusão da produção atual deste dispositivo, entre 0 e 1</Value>
     </Record>
     <Record>
       <Key>LogicTypeClearMemory</Key>
-      <Value>Quando definido como 1, limpa a memória do contador (ex.: Exportar Contagem). Retorna automaticamente para 0 após a execução</Value>
+      <Value>Quando definido como 1, limpa a memória dos contadores (ex.: Exportar Contagem). O valor volta automaticamente para 0 após a execução</Value>
     </Record>
     <Record>
       <Key>LogicTypeExportCount</Key>
-      <Value>Quantos itens foram exportados desde a última limpeza de memória</Value>
+      <Value>Quantidade de itens exportados desde a última limpeza de memória</Value>
     </Record>
     <Record>
       <Key>LogicTypeImportCount</Key>
-      <Value>Quantos itens foram importados desde a última limpeza de memória</Value>
+      <Value>Quantidade de itens importados desde a última limpeza de memória</Value>
     </Record>
     <Record>
       <Key>LogicTypePowerGeneration</Key>
@@ -16087,19 +16087,19 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeTotalMolesInput</Key>
-      <Value>Retorna o total de mols da Rede de Entrada do dispositivo</Value>
+      <Value>Retorna o total de mols na Rede de Entrada do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeTotalMolesInput2</Key>
-      <Value>Retorna o total de mols da Rede de Entrada2 do dispositivo</Value>
+      <Value>Retorna o total de mols da Rede de Entrada 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeTotalMolesOutput</Key>
-      <Value>Retorna o total de mols da Rede de Saída do dispositivo</Value>
+      <Value>Retorna o total de mols na Rede de Saída do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeTotalMolesOutput2</Key>
-      <Value>Retorna o total de mols da Rede de Saída2 do dispositivo</Value>
+      <Value>Retorna o total de mols na Rede de Saída 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeVolume</Key>
@@ -16107,15 +16107,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypePlant</Key>
-      <Value>Executa a ação de plantio em qualquer maquinário voltado para plantas</Value>
+      <Value>Executa a ação de plantar para qualquer máquina baseada em plantas</Value>
     </Record>
     <Record>
       <Key>LogicTypeHarvest</Key>
-      <Value>Executa a ação de colheita em qualquer maquinário voltado para plantas</Value>
+      <Value>Executa a ação de colheita para qualquer máquina baseada em plantas</Value>
     </Record>
     <Record>
       <Key>LogicTypeOutput</Key>
-      <Value>A operação de saída para um dispositivo de manipulação de pilhas, como um empilhador ou classificador; no modo lógico o dispositivo executará apenas uma repetição quando configurado em zero ou acima, retornando então a -1 e aguardando novas instruções</Value>
+      <Value>Operação de saída para um dispositivo de manipulação e classificação, como um empilhador ou classificador. Quando em modo lógico, o dispositivo executará apenas uma repetição quando definido como zero ou maior, retornando então para -1 e aguardando novas instruções.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureSetting</Key>
@@ -16131,23 +16131,23 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeFiltration</Key>
-      <Value>O estado atual do sistema de filtração; por exemplo, Filtration = 1 em um Traje Espacial define a filtração como Ativa</Value>
+      <Value>O estado atual do sistema de filtração; por exemplo, Filtration = 1 em um Traje Espacial define a filtragem como ativada</Value>
     </Record>
     <Record>
       <Key>LogicTypeAirRelease</Key>
-      <Value>O estado atual do sistema de liberação de ar; por exemplo, AirRelease = 1 em um Traje Espacial define a Liberação de Ar como Ativa</Value>
+      <Value>O estado atual do sistema de liberação de ar; por exemplo, AirRelease = 1 em um Traje Espacial define a liberação de ar como ativada</Value>
     </Record>
     <Record>
       <Key>LogicTypePositionX</Key>
-      <Value>A posição atual no eixo X em coordenadas mundiais</Value>
+      <Value>A posição atual no eixo X nas coordenadas do mundo</Value>
     </Record>
     <Record>
       <Key>LogicTypePositionY</Key>
-      <Value>A posição atual no eixo Y em coordenadas mundiais</Value>
+      <Value>A posição atual no eixo Y nas coordenadas do mundo</Value>
     </Record>
     <Record>
       <Key>LogicTypePositionZ</Key>
-      <Value>A posição atual no eixo Z em coordenadas mundiais</Value>
+      <Value>A posição atual no eixo Z nas coordenadas do mundo</Value>
     </Record>
     <Record>
       <Key>LogicTypeVelocityMagnitude</Key>
@@ -16155,15 +16155,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeVelocityRelativeX</Key>
-      <Value>A velocidade atual em X relativa ao vetor frontal deste objeto</Value>
+      <Value>A velocidade atual no eixo X relativa ao vetor frontal deste dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeVelocityRelativeY</Key>
-      <Value>A velocidade atual em Y relativa ao vetor frontal deste objeto</Value>
+      <Value>A velocidade atual no eixo Y relativa ao vetor frontal deste dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeVelocityRelativeZ</Key>
-      <Value>A velocidade atual em Z relativa ao vetor frontal deste objeto</Value>
+      <Value>A velocidade atual no eixo Z relativa ao vetor frontal deste dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypePrefabHash</Key>
@@ -16179,7 +16179,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeSignalID</Key>
-      <Value>Retorna o ID de contato do sinal mais forte deste Satélite</Value>
+      <Value>Retorna o ID do contato do sinal mais forte deste Satélite</Value>
     </Record>
     <Record>
       <Key>LogicTypeOperationalTemperatureEfficiency</Key>
@@ -16187,23 +16187,23 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeTemperatureDifferentialEfficiency</Key>
-      <Value>Como a diferença entre as temperaturas do tubo de entrada e do tubo de resíduos afeta a eficiência da máquina</Value>
+      <Value>Como a diferença de temperatura entre o tubo de entrada e o tubo de resíduos afeta a eficiência da máquina</Value>
     </Record>
     <Record>
       <Key>LogicTypeCombustionLimiter</Key>
-      <Value>Reduz a taxa de combustão dentro da máquina (intervalo: 0-100), sendo 0 a taxa mais lenta e 100 a mais rápida</Value>
+      <Value>Limita a taxa de combustão dentro da máquina (intervalo: 0–100), sendo 0 a taxa mais lenta de combustão e 100 a mais rápida</Value>
     </Record>
     <Record>
       <Key>LogicTypeThrottle</Key>
-      <Value>Aumenta a taxa de operação da máquina (intervalo: 0-100)</Value>
+      <Value>Aumenta a taxa de funcionamento da máquina (intervalo: 0–100)</Value>
     </Record>
     <Record>
       <Key>LogicTypeRpm</Key>
-      <Value>O número de rotações por minuto que o mecanismo de rotação do dispositivo está realizando</Value>
+      <Value>O número de rotações por minuto que o mecanismo giratório do dispositivo está realizando</Value>
     </Record>
     <Record>
       <Key>LogicTypeStress</Key>
-      <Value>As máquinas ficam sobrecarregadas quando trabalham em excesso. Quando o estresse atinge 100, a máquina será desligada automaticamente</Value>
+      <Value>As máquinas sofrem estresse quando trabalham intensamente. Quando o estresse atinge 100, a máquina será desligada automaticamente</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureEfficiency</Key>
@@ -16247,11 +16247,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicSlotTypeMature</Key>
-      <Value>Retorna 1 se a planta neste slot estiver madura, 0 se não estiver</Value>
+      <Value>Retorna 1 se a planta neste slot estiver madura, 0 caso contrário</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeSeeding</Key>
-      <Value>Indica se a planta está produzindo sementes (pronta para colher sementes). Retorna 1 se sim, ou 0 se não.</Value>
+      <Value>Indica se a planta está produzindo sementes (pronta para colher sementes). Retorna 1 se estiver produzindo sementes ou 0 caso contrário.</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeHarvestedHash</Key>
@@ -16267,19 +16267,19 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicSlotTypePressure</Key>
-      <Value>Retorna a pressão da atmosfera interna dos ocupantes do slot</Value>
+      <Value>Retorna a pressão da atmosfera interna do ocupante do slot</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeTemperature</Key>
-      <Value>Retorna a temperatura da atmosfera interna dos ocupantes do slot</Value>
+      <Value>Retorna a temperatura da atmosfera interna do ocupante do slot</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeCharge</Key>
-      <Value>Retorna a carga de energia atual que o ocupante do slot está armazenando</Value>
+      <Value>Retorna a carga de energia atual que o ocupante do slot possui</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeChargeRatio</Key>
-      <Value>Retorna a carga de energia atual que o ocupante do slot está armazenando como uma proporção entre 0 e 1 do seu máximo</Value>
+      <Value>Retorna a carga de energia atual que o ocupante do slot possui como uma proporção entre 0 e 1 de sua capacidade máxima</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypeClass</Key>
@@ -16311,7 +16311,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>CollectableGoods</Key>
-      <Value>Retorna 0 ou 1 com base em o sistema atual do foguete ter ou não a capacidade de coletar recursos no planeta.</Value>
+      <Value>Retorna 0 ou 1 dependendo se o sistema atual do foguete tem a capacidade de coletar recursos no planeta.</Value>
     </Record>
     <Record>
       <Key>LogicSlotTypePrefabHash</Key>
@@ -16455,7 +16455,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeProgress</Key>
-      <Value>Progresso do foguete até o próximo nó no mapa, expresso como um valor entre 0-1.</Value>
+      <Value>Progresso do foguete até o próximo nó no mapa, expresso como um valor entre 0 e 1.</Value>
     </Record>
     <Record>
       <Key>LogicTypeDestinationCode</Key>
@@ -16463,31 +16463,31 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeAcceleration</Key>
-      <Value>Mudança na velocidade. Foguetes que estão desacelerando durante o pouso mostrarão isso como um valor negativo.</Value>
+      <Value>Variação na velocidade. Foguetes que estão desacelerando durante o pouso mostrarão este valor como negativo.</Value>
     </Record>
     <Record>
       <Key>LogicTypeAutoShutOff</Key>
-      <Value>Desliga todos os dispositivos do foguete ao chegar no destino</Value>
+      <Value>Desliga todos os dispositivos do foguete ao alcançar o destino</Value>
     </Record>
     <Record>
       <Key>LogicTypeThrust</Key>
-      <Value>Empuxo total atual de todos os motores do foguete em Newtons.</Value>
+      <Value>Propulsão total atual de todos os motores do foguete, em Newtons.</Value>
     </Record>
     <Record>
       <Key>LogicTypeThrustToWeight</Key>
-      <Value>Relação entre empuxo e peso do foguete. O peso é afetado pela gravidade do corpo local. Um foguete com baixa relação empuxo/peso consumirá mais combustível durante o lançamento e o pouso.</Value>
+      <Value>Proporção entre propulsão e peso do foguete. O peso é afetado pela gravidade local. Um foguete com baixa proporção de propulsão em relação ao peso consumirá mais combustível durante a decolagem e o pouso.</Value>
     </Record>
     <Record>
       <Key>LogicTypeWeight</Key>
-      <Value>Peso do foguete em Newtons (incluindo combustível e carga). O peso é afetado pela gravidade do corpo local.</Value>
+      <Value>Peso do foguete em Newtons (incluindo combustível e carga). O peso é afetado pela gravidade do corpo celeste local.</Value>
     </Record>
     <Record>
       <Key>LogicTypeOverShootTarget</Key>
-      <Value>O quanto o foguete em pouso vai ultrapassar seu alvo de pouso no empuxo atual. Expresso como um valor negativo em metros. Garanta que esteja em zero antes do pouso ou haverá risco de perda total do foguete.</Value>
+      <Value>O quanto o foguete em pouso irá ultrapassar o alvo de pouso no propulsão atual. Expresso como um valor negativo em metros. Garanta que este valor esteja em zero no momento do pouso ou haverá risco de perda total do foguete.</Value>
     </Record>
     <Record>
       <Key>LogicTypeTimeToDestination</Key>
-      <Value>Tempo estimado em segundos até o foguete chegar ao destino alvo.</Value>
+      <Value>Tempo estimado em segundos até o foguete chegar ao destino.</Value>
     </Record>
     <Record>
       <Key>LogicTypeBurnTimeRemaining</Key>
@@ -16495,19 +16495,19 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LogicTypeAutoLand</Key>
-      <Value>Ativa o algoritmo de pouso automático. O foguete irá automaticamente controlar o empuxo e ligar ou desligar seus motores para realizar um pouso suave.</Value>
+      <Value>Ativa o algoritmo de pouso automático. O foguete ajustará automaticamente a potência e ligará ou desligará os motores para realizar um pouso suave.</Value>
     </Record>
     <Record>
       <Key>LogicTypeDryMass</Key>
-      <Value>A massa em quilogramas do foguete, excluindo o combustível. Quanto mais massivo o foguete, mais combustível será necessário para se mover para um novo local no espaço.</Value>
+      <Value>A massa do foguete em quilogramas excluindo o combustível. Quanto maior a massa do foguete, mais combustível será necessário para movê-lo para uma nova posição no espaço.</Value>
     </Record>
     <Record>
       <Key>LogicTypeMass</Key>
-      <Value>A massa total do foguete em quilogramas, incluindo combustível e carga. Quanto mais massivo o foguete, mais combustível será necessário para se mover para um novo local no espaço.</Value>
+      <Value>A massa total do foguete em quilogramas, incluindo combustível e carga. Quanto maior a massa do foguete, mais combustível será necessário para movê-lo para uma nova posição no espaço.</Value>
    </Record>
     <Record>
       <Key>LogicTypeContactSlotIndex</Key>
-      <Value>O índice do slot em que o comerciante surgiu. Isso define a classe do comerciante, ou seja, Utilidade, Pequeno, Médio etc.</Value>
+      <Value>O índice do slot no qual o comerciante apareceu. Isso define a classe do comerciante, ou seja, Utilidade, Pequeno, Médio etc.</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
@@ -16519,7 +16519,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>SettingsP2PHostNote</Key>
-      <Value>Se o P2PHost estiver ativado, o Stationeers usará o retransmissor de pacotes da Steam para que você possa jogar com seu amigo sob NAT ou VPN. Não é compatível com TCP/IP e impede que o servidor seja anunciado.</Value>
+      <Value>Se o P2PHost estiver ativado, o Stationeers usará o retransmissor de pacotes da Steam para que você possa jogar com seu amigo mesmo usando NAT ou VPN. Não é compatível com TCP/IP e impede que o servidor seja anunciado.</Value>
     </Record>
     <Record>
       <Key>SettingsSavePath</Key>
@@ -16599,7 +16599,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ContactLandingRequestFailStorm</Key>
-      <Value>O comerciante não pode viajar durante esta tempestade.</Value>
+      <Value>O comerciante não consegue viajar durante esta tempestade.</Value>
     </Record>
     <Record>
       <Key>InputTextTradingTitle</Key>
@@ -16611,11 +16611,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>TraderElectronics</Key>
-      <Value>TechTree Eletrônicos</Value>
+      <Value>Árvore Tecnológica - Eletrônicos</Value>
     </Record>
     <Record>
       <Key>TraderOrganics</Key>
-      <Value>Organicon</Value>
+      <Value>Orgânicos</Value>
     </Record>
     <Record>
       <Key>TraderBasic</Key>
@@ -16635,7 +16635,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>TraderChemistry</Key>
-      <Value>Lab Químico</Value>
+      <Value>Laboratório Químico</Value>
     </Record>
     <Record>
       <Key>TraderExotics</Key>
@@ -16687,7 +16687,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>RoomControlTickSpeed</Key>
-      <Value>Velocidade de Atualização do Controle de Sala</Value>
+      <Value>Velocidade de Atualização do Controle de Ambiente</Value>
     </Record>
     <Record>
       <Key>LogicTypeTargetX</Key>
@@ -16735,7 +16735,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>PromptPauseBody</Key>
-      <Value>Jogo em pausa</Value>
+      <Value>Jogo pausado</Value>
     </Record>
     <Record>
       <Key>PromptButtonLeave</Key>
@@ -16747,15 +16747,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>BuildTimeMultiplier</Key>
-      <Value>Multiplicador do Tempo de Construção</Value>
+      <Value>Multiplicador de Tempo de Construção</Value>
     </Record>
     <Record>
       <Key>MaterialCostMultiplier</Key>
-      <Value>Multiplicador do Custo de Materiais</Value>
+      <Value>Multiplicador de Custo de Materiais</Value>
     </Record>
     <Record>
       <Key>EnergyCostMultiplier</Key>
-      <Value>Multiplicador do Custo de Energia</Value>
+      <Value>Multiplicador de Custo de Energia</Value>
     </Record>
     <Record>
       <Key>CreationMultiplier</Key>
@@ -16775,7 +16775,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>TravelMenuTitle</Key>
-      <Value>Viajar para Mundo</Value>
+      <Value>Viajar pelo Mundo</Value>
     </Record>
     <Record>
       <Key>TravelMenuListTitle</Key>
@@ -16783,11 +16783,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>TravelMenuButtonTravel</Key>
-      <Value>Viajar para Mundo</Value>
+      <Value>Viajar para o Mundo</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonTravel</Key>
-      <Value>Viajar para Mundo</Value>
+      <Value>Viajar para o Mundo</Value>
     </Record>
     <Record>
       <Key>PromptTravelBody</Key>
@@ -16851,7 +16851,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>HVSValues</Key>
-      <Value>Valores HSV</Value>
+      <Value>Valores HVS</Value>
     </Record>
     <Record>
       <Key>ColourSelecter</Key>
@@ -16887,7 +16887,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>RespawnConditionsField</Key>
-      <Value>Condição de Reaparecimento</Value>
+      <Value>Condição de Ressurgimento</Value>
     </Record>
     <Record>
       <Key>DifficultyField</Key>
@@ -16895,7 +16895,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>HasLODField</Key>
-      <Value>Possui LOD</Value>
+      <Value>Possui LOD</Value> <!-- LOD (Level of Detail) é um termo técnico de gráficos 3D, normalmente mantido como sigla. -->
     </Record>
     <Record>
       <Key>SolarScaleField</Key>
@@ -16919,7 +16919,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>PreviewAtmosphereField</Key>
-      <Value>Pré-visualização da Atmosfera</Value>
+      <Value>Pré-visualizar Atmosfera</Value>
     </Record>
     <Record>
       <Key>HasCustomTemperatureField</Key>
@@ -16975,7 +16975,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserConvectedTitle</Key>
-      <Value>CONVECÇÃO</Value>
+      <Value>CONVECTADO</Value>
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserLiquidTitle</Key>
@@ -16999,7 +16999,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>DialogConfirmLastSaveIsAutoSave</Key>
-      <Value>TEM CERTEZA? O último salvamento foi um autosave. Você pode perder seu progresso se não salvar agora.</Value>
+      <Value>TEM CERTEZA? O último salvamento que você possui é um salvamento automático. Você pode perder seu progresso se não salvar agora.</Value>
     </Record>
     <Record>
       <Key>GameMenuButtonCancel</Key>
@@ -17039,7 +17039,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ElectronicReaderOxite</Key>
-      <Value>Oxita</Value>
+      <Value>Oxite</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderNitrice</Key>
@@ -17131,23 +17131,23 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ElectronicReaderColorRed</Key>
-      <Value>Corante Vermelho</Value>
+      <Value>Coloração Vermelha</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorBlue</Key>
-      <Value>Corante Azul</Value>
+      <Value>Coloração Azul</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorYellow</Key>
-      <Value>Corante Amarelo</Value>
+      <Value>Coloração Amarela</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorOrange</Key>
-      <Value>Corante Laranja</Value>
+      <Value>Coloração Laranja</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderColorGreen</Key>
-      <Value>Corante Verde</Value>
+      <Value>Coloração Verde</Value>
     </Record>
     <Record>
       <Key>ElectronicReaderMilk</Key>
@@ -17267,7 +17267,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ResetInventoryDescription</Key>
-      <Value>Isto irá redefinir todas as janelas de inventário desacopladas.</Value>
+      <Value>Isto redefinirá todas as janelas de inventário desacopladas.</Value>
     </Record>
     <Record>
       <Key>ConfirmReset</Key>
@@ -17303,7 +17303,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>Misc Crate</Key>
-      <Value>Caixa Diversa</Value>
+      <Value>Caixa Diversos</Value>
     </Record>
     <Record>
       <Key>Communications Crate</Key>
@@ -17319,7 +17319,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ManualGetResearchPodsRequired</Key>
-      <Value>Define o tipo de cápsula a ser buscado ao desmontar cápsulas.</Value>
+      <Value>Define o tipo de cápsula a ser procurado ao desmontar uma cápsula.</Value>
     </Record>
     <Record>
       <Key>CurrentResearchPodType</Key>
@@ -17327,15 +17327,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>MineablesInVicinity</Key>
-      <Value>Retorna a quantidade de recursos mineráveis em uma área ampliada ao redor da AIMEe.</Value>
+      <Value>Retorna a quantidade de recursos mineráveis em potencial em uma área estendida ao redor da AIMEe.</Value>
     </Record>
     <Record>
       <Key>MineablesInQueue</Key>
-      <Value>Retorna a quantidade de recursos mineráveis que a AIMEe tem na fila para minerar.</Value>
+      <Value>Retorna a quantidade de recursos mineráveis que a AIMEe tem na fila para minerar.</Value> <!-- No original existe um erro de ortografia em "reserach", o correto seria "research". -->
     </Record>
     <Record>
       <Key>NextWeatherEventTime</Key>
-      <Value>Retorna, em segundos, quando o próximo evento climático ocorrerá.</Value>
+      <Value>Retorna em segundos quando o próximo evento climático ocorrerá.</Value>
     </Record>
     <Record>
       <Key>ResearchFilter</Key>
@@ -17363,7 +17363,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ScriptCommandLD</Key>
-      <Value>Carrega o LogicType do dispositivo para o registrador por referência direta ao ID..</Value>
+      <Value>Carrega o LogicType do dispositivo para o registrador usando referência direta ao ID.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLB</Key>
@@ -17371,7 +17371,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ScriptCommandLBN</Key>
-      <Value>Carrega o LogicType de todos os dispositivos de saída da rede com os hashes de tipo e nome fornecidos, usando o modo em lote especificado. Média (0), Soma (1), Mínimo (2), Máximo (3). Pode usar tanto a palavra quanto o número..</Value>
+      <Value>Carrega o LogicType de todos os dispositivos de saída da rede com os hashes de tipo e nome fornecidos, usando o modo em lote especificado. Média (0), Soma (1), Mínimo (2), Máximo (3). Pode usar tanto a palavra quanto o número.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLBS</Key>
@@ -17383,11 +17383,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ScriptCommandS</Key>
-      <Value>Armazena o valor do registrador em LogicType no dispositivo pelo valor do índice da unidade.</Value>
+      <Value>Armazena o valor do registrador no LogicType do dispositivo pelo valor do índice da unidade.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSD</Key>
-      <Value>Armazena o valor do registrador em LogicType no dispositivo por referência direta ao ID.</Value>
+      <Value>Armazena o valor do registrador no LogicType no dispositivo usando referência direta de ID.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSS</Key>
@@ -17395,15 +17395,15 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ScriptCommandSBS</Key>
-      <Value>Armazena o valor do registrador em LogicSlotType em todos os dispositivos de saída da rede com o hash de tipo fornecido no slot especificado.</Value>
+      <Value>Armazena o valor do registrador no LogicSlotType em todos os dispositivos de saída da rede com o hash de tipo fornecido no slot especificado.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSB</Key>
-      <Value>Armazena o valor do registrador em LogicType em todos os dispositivos de saída da rede com o hash de tipo fornecido.</Value>
+      <Value>Armazena o valor do registrador no LogicType em todos os dispositivos de saída da rede com o hash de tipo fornecido.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLS</Key>
-      <Value>Carrega o slot LogicSlotType do dispositivo para o registrador.</Value>
+      <Value>Carrega o LogicSlotType do slot do dispositivo para o registrador.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLR</Key>
@@ -17411,7 +17411,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ScriptCommandAlias</Key>
-      <Value>Rotula um registrador ou referência de dispositivo com um nome; referências de dispositivo também afetam o que aparece nos parafusos da base do CI.</Value>
+      <Value>Define um nome (alias) para um registrador ou referência de dispositivo. As referências de dispositivo também afetam o que aparece nos parafusos na base do IC.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandDefine</Key>
@@ -17419,403 +17419,403 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ScriptCommandMove</Key>
-      <Value>Registra = número fornecido ou valor do registrador.</Value>
+      <Value>Registrador = número fornecido ou valor de outro registrador.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAdd</Key>
-      <Value>Registra = a + b.</Value>
+      <Value>Registrador = a + b.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSub</Key>
-      <Value>Registra = a - b.</Value>
+      <Value>Registrador = a - b.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSdse</Key>
-      <Value>Registra = 1 se o dispositivo estiver configurado, caso contrário 0.</Value>
+      <Value>Registrador = 1 se o dispositivo estiver definido, caso contrário 0.</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSdns</Key>
-      <Value>Registra = 1 se o dispositivo não estiver configurado, caso contrário 0</Value>
+      <Value>Registrador = 1 se o dispositivo não estiver definido, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSlt</Key>
-      <Value>Registra = 1 se a &lt; b, caso contrário 0</Value>
+      <Value>Registrador = 1 se a &lt; b, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgt</Key>
-      <Value>Registra = 1 se a &gt; b, caso contrário 0</Value>
+      <Value>Registrador = 1 se a &gt; b, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSle</Key>
-      <Value>Registra = 1 se a &lt;= b, caso contrário 0</Value>
+      <Value>Registrador = 1 se a &lt;= b, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSge</Key>
-      <Value>Registra = 1 se a &gt;= b, caso contrário 0</Value>
+      <Value>Registrador = 1 se a &gt;= b, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSeq</Key>
-      <Value>Registra = 1 se a == b, caso contrário 0</Value>
+      <Value>Registrador = 1 se a == b, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSnan</Key>
-      <Value>Registra = 1 se a for NaN, caso contrário 0</Value>
+      <Value>Registrador = 1 se a for NaN, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSnanz</Key>
-      <Value>Registra = 0 se a for NaN, caso contrário 1</Value>
+      <Value>Registrador = 0 se a for NaN, caso contrário 1</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSne</Key>
-      <Value>Registra = 1 se a != b, caso contrário 0</Value>
+      <Value>Registrador = 1 se a != b, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSap</Key>
-      <Value>Registra = 1 se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), caso contrário 0</Value>
+      <Value>Registrador = 1 se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8), caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSna</Key>
-      <Value>Registra = 1 se abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8), caso contrário 0</Value>
+      <Value>Registrador = 1 se abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8), caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSltz</Key>
-      <Value>Registra = 1 se a &lt; 0, caso contrário 0</Value>
+      <Value>Registrador = 1 se a &lt; 0, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgtz</Key>
-      <Value>Registra = 1 se a &gt; 0, caso contrário 0</Value>
+      <Value>Registrador = 1 se a &gt; 0, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSlez</Key>
-      <Value>Registra = 1 se a &lt;= 0, caso contrário 0</Value>
+      <Value>Registrador = 1 se a &lt;= 0, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSgez</Key>
-      <Value>Registra = 1 se a &gt;= 0, caso contrário 0</Value>
+      <Value>Registrador = 1 se a &gt;= 0, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSeqz</Key>
-      <Value>>Registra = 1 se a == 0, caso contrário 0</Value>
+      <Value>>Registrador = 1 se a == 0, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSnez</Key>
-      <Value>Registra = 1 se a != 0, caso contrário 0</Value>
+      <Value>Registrador = 1 se a != 0, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSapz</Key>
-      <Value>Registra = 1 se |a| &lt;= float.epsilon * 8, caso contrário 0</Value>
+      <Value>Registrador = 1 se |a| &lt;= float.epsilon * 8, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSnaz</Key>
-      <Value>Registra = 1 se |a| &gt; float.epsilon, caso contrário 0</Value>
+      <Value>Registrador = 1 se |a| &gt; float.epsilon, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAnd</Key>
-      <Value>Registra = 1 se a e b forem diferentes de zero, caso contrário 0</Value>
+      <Value>Registrador = 1 se a e b não forem zero, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandOr</Key>
-      <Value>Registra = 1 se a e/ou b forem diferentes de, caso contrário 0</Value>
+      <Value>Registrador = 1 se a e/ou b não forem 0, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandXor</Key>
-      <Value>Registra = 1 se apenas a ou b forem diferentes de 0, caso contrário 0</Value>
+      <Value>Registrador = 1 se apenas um entre a ou b não for 0, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandNor</Key>
-      <Value>Registra = 1 se a e b forem 0, caso contrário 0</Value>
+      <Value>Registrador = 1 se a e b forem 0, caso contrário 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandMul</Key>
-      <Value>Registra = a * b</Value>
+      <Value>Registrador = a * b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandDiv</Key>
-      <Value>Registra = a / b</Value>
+      <Value>Registrador = a / b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandMod</Key>
-      <Value>Registra = a mod b (nota: NÃO é a % b)</Value>
+      <Value>Registrador = a mod b (nota: NÃO é a % b)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandJ</Key>
-      <Value>Pula a execução para a linha a</Value>
+      <Value>Salta a execução para a linha a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBdse</Key>
-      <Value>Desvia para a linha a se o dispositivo d estiver configurado</Value>
+      <Value>Salta para a linha a se o dispositivo d estiver definido</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBdns</Key>
-      <Value>Desvia para a linha a se o dispositivo d não estiver configurado</Value>
+      <Value>Salta para a linha a se o dispositivo d não estiver definido</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBlt</Key>
-      <Value>Desvia para a linha c se a &lt; b</Value>
+      <Value>Salta para a linha c se a &lt; b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgt</Key>
-      <Value>Desvio para a linha c se a &gt; b</Value>
+      <Value>Salta para a linha c se a &gt; b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBle</Key>
-      <Value>Desvio para a linha c se a &lt;= b</Value>
+      <Value>Salta para a linha c se a &lt;= b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBge</Key>
-      <Value>Desvio para a linha c se a &gt;= b</Value>
+      <Value>Salta para a linha c se a &gt;= b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBeq</Key>
-      <Value>Desvio para a linha c se a == b</Value>
+      <Value>Salta para a linha c se a == b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBnan</Key>
-      <Value>Desvio para a linha b se a não for um número (NaN)</Value>
+      <Value>Salta para a linha b se a for NaN (não é um número)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrnan</Key>
-      <Value>Desvio relativo para a linha b se a não for um número (NaN)</Value>
+      <Value>Salto relativo para a linha b se a for NaN (não é um número)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBne</Key>
-      <Value>Desvio para a linha c se a != b</Value>
+      <Value>Salta para a linha c se a != b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBap</Key>
-      <Value>Desvio para a linha d se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+      <Value>Salta para a linha d se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBna</Key>
-      <Value>Desvio para a linha d se abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+      <Value>Salta para a linha d se abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBltz</Key>
-      <Value>Desvio para a linha b se a &lt; 0</Value>
+      <Value>Salta para a linha b se a &lt; 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgez</Key>
-      <Value>Desvio para a linha b se a &gt;= 0</Value>
+      <Value>Salta para a linha b se a &gt;= 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBlez</Key>
-      <Value>Desvio para a linha b se a &lt;= 0</Value>
+      <Value>Salta para a linha b se a &lt;= 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgtz</Key>
-      <Value>Desvio para a linha b se a &gt; 0</Value>
+      <Value>Salta para a linha b se a &gt; 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBeqz</Key>
-      <Value>Desvio para a linha b se a == 0</Value>
+      <Value>Salta para a linha b se a == 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBnez</Key>
-      <Value>Desvio para a linha b se a != 0</Value>
+      <Value>Salta para a linha b se a != 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBapz</Key>
-      <Value>Desvio para a linha c se abs(a) &lt;= float.epsilon * 8</Value>
+      <Value>Salta para a linha c se abs(a) &lt;= float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBnaz</Key>
-      <Value>Desvio para a linha c se abs(a) &gt; float.epsilon * 8</Value>
+      <Value>Salta para a linha c se abs(a) &gt; float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandJr</Key>
-      <Value>Pulo relativo para a linha a</Value>
+      <Value>Salto relativo para a linha a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrdse</Key>
-      <Value>Pulo relativo para a linha a se o dispositivo estiver configurado</Value>
+      <Value>Salto relativo para a linha a se o dispositivo estiver definido</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrdns</Key>
-      <Value>Pulo relativo para a linha a se o dispositivo não estiver configurado</Value>
+      <Value>Salto relativo para a linha a se o dispositivo não estiver definido</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrlt</Key>
-      <Value>Pulo relativo para a linha c se a &lt; b</Value>
+      <Value>Salto relativo para a linha c se a &lt; b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrgt</Key>
-      <Value>Pulo relativo para a linha c se a &gt; b</Value>
+      <Value>Salto relativo para a linha c se a &gt; b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrle</Key>
-      <Value>Pulo relativo para a linha c se a &lt;= b</Value>
+      <Value>Salto relativo para a linha c se a &lt;= b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrge</Key>
-      <Value>Pulo relativo para a linha c se a &gt;= b</Value>
+      <Value>Salto relativo para a linha c se a &gt;= b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBreq</Key>
-      <Value>RDesvio relativo para a linha c se a == b</Value>
+      <Value>Salto relativo para a linha c se a == b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrne</Key>
-      <Value>Desvio relativo para a linha c se a != b</Value>
+      <Value>Salto relativo para a linha c se a != b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrap</Key>
-      <Value>Desvio relativo para a linha d se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+      <Value>Salto relativo para a linha d se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrna</Key>
-      <Value>Desvio relativo para a linha d se abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
+      <Value>Salto relativo para a linha d se abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrltz</Key>
-      <Value>Desvio relativo para a linha b se a &lt; 0</Value>
+      <Value>Salto relativo para a linha b se a &lt; 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrgez</Key>
-      <Value>Desvio relativo para a linha b se a &gt;= 0</Value>
+      <Value>Salto relativo para a linha b se a &gt;= 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrlez</Key>
-      <Value>Desvio relativo para a linha b se a &lt;= 0</Value>
+      <Value>Salto relativo para a linha b se a &lt;= 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrgtz</Key>
-      <Value>Desvio relativo para a linha b se a &gt; 0</Value>
+      <Value>Salto relativo para a linha b se a &gt; 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBreqz</Key>
-      <Value>Desvio relativo para a linha b se a == 0</Value>
+      <Value>Salto relativo para a linha b se a == 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrnez</Key>
-      <Value>Desvio relativo para a linha b se a != 0</Value>
+      <Value>Salto relativo para a linha b se a != 0</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrapz</Key>
-      <Value>Desvio relativo para a linha c se abs(a) &lt;= float.epsilon * 8</Value>
+      <Value>Salto relativo para a linha c se abs(a) &lt;= float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBrnaz</Key>
-      <Value>Desvio relativo para a linha c se abs(a) &gt; float.epsilon * 8</Value>
+      <Value>Salto relativo para a linha c se abs(a) &gt; float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandJal</Key>
-      <Value>Pula a execução para a linha a e armazena o número da próxima linha em ra</Value>
+      <Value>Salta a execução para a linha a e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBdseal</Key>
-      <Value>Pula a execução para a linha a e armazena o número da próxima linha se o dispositivo estiver configurado</Value>
+      <Value>Salta a execução para a linha a e armazena o número da próxima linha se o dispositivo estiver definido</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBdnsal</Key>
-      <Value>Pula a execução para a linha a e armazena o número da próxima linha se o dispositivo não estiver configurado</Value>
+      <Value>Salta a execução para a linha a e armazena o número da próxima linha se o dispositivo não estiver definido</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBltal</Key>
-      <Value>Desvia para a linha c se a &lt; b e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha c se a &lt; b e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgtal</Key>
-      <Value>Desvia para a linha c se a &gt; b e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha c se a &gt; b e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBleal</Key>
-      <Value>Desvia para a linha c se a &lt;= b e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha c se a &lt;= b e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgeal</Key>
-      <Value>Desvia para a linha c se a &gt;= b e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha c se a &gt;= b e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBeqal</Key>
-      <Value>Desvia para a linha c se a == b e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha c se a == b e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBneal</Key>
-      <Value>Desvia para a linha c se a != b e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha c se a != b e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBapal</Key>
-      <Value>Desvia para a linha d se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha d se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBnaal</Key>
-      <Value>Desvia para a linha d se abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha d se abs(a - b) &gt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBltzal</Key>
-      <Value>Desvia para a linha b se a &lt; 0 e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha b se a &lt; 0 e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgezal</Key>
-      <Value>Desvia para a linha b se a &gt;= 0 e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha b se a &gt;= 0 e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBlezal</Key>
-      <Value>Desvia para a linha b se a &lt;= 0 e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha b se a &lt;= 0 e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBgtzal</Key>
-      <Value>Desvia para a linha b se a &gt; 0 e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha b se a &gt; 0 e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBeqzal</Key>
-      <Value>Desvia para a linha b se a == 0 e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha b se a == 0 e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBnezal</Key>
-      <Value>Desvia para a linha b se a != 0 e armazena o número da próxima linha em ra</Value>
+      <Value>Salta para a linha b se a != 0 e armazena o número da próxima linha em ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBapzal</Key>
-      <Value>Desvia para a linha c se abs(a) &lt;= float.epsilon * 8</Value>
+      <Value>Salta para a linha c se abs(a) &lt;= float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBnazal</Key>
-      <Value>Desvia para a linha c se abs(a) &gt; float.epsilon * 8</Value>
+      <Value>Salta para a linha c se abs(a) &gt; float.epsilon * 8</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSqrt</Key>
-      <Value>Registra = raiz quadrada de a</Value>
+      <Value>Registrador = raiz quadrada de a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandRound</Key>
-      <Value>Registra = a arredondado para o inteiro mais próximo</Value>
+      <Value>Registrador = a arredondado para o inteiro mais próximo</Value>
     </Record>
     <Record>
       <Key>ScriptCommandTrunc</Key>
-      <Value>Registra = a com a parte fracionária removida</Value>
+      <Value>Registrador = a com a parte fracionária removida</Value>
     </Record>
     <Record>
       <Key>ScriptCommandCeil</Key>
-      <Value>Registra = o menor inteiro maior que a</Value>
+      <Value>Registrador = menor inteiro maior que a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandFloor</Key>
-      <Value>Registra = o maior inteiro menor que a</Value>
+      <Value>Registrador = maior inteiro menor que a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandMax</Key>
-      <Value>Registra = o máximo entre a ou b</Value>
+      <Value>Registrador = máximo entre a e b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandMin</Key>
-      <Value>Registra = o mínimo entre a ou b</Value>
+      <Value>Registrador = mínimo entre a e b</Value>
     </Record>
     <Record>
       <Key>ScriptCommandAbs</Key>
-      <Value>Registra = o valor absoluto de a</Value>
+      <Value>Registrador = valor absoluto de a</Value>
     </Record>
     <Record>
       <Key>ScriptCommandLog</Key>
-      <Value>Registra = log(a)</Value>
+      <Value>Registrador = log(a)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandExp</Key>
-      <Value>Registra  = exp(a)</Value>
+      <Value>Registrador = exp(a)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandRand</Key>
-      <Value>Registra = um valor aleatório x com  0 &lt;= x &lt; 1</Value>
+      <Value>Registrador = um valor aleatório x com 0 &lt;= x &lt; 1</Value>
     </Record>
     <Record>
       <Key>ScriptCommandYield</Key>
@@ -17827,27 +17827,27 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ScriptCommandPeek</Key>
-      <Value>Registra = o valor no topo da pilha</Value>
+      <Value>Registrador = valor no topo da pilha</Value>
     </Record>
     <Record>
       <Key>ScriptCommandPush</Key>
-      <Value>Empurra o valor de a para a pilha em sp e incrementa sp</Value>
+      <Value>Empilha o valor de a na pilha em sp e incrementa sp</Value>
     </Record>
     <Record>
       <Key>ScriptCommandPop</Key>
-      <Value>Registra = o valor no topo da pilha e decrementa sp</Value>
+      <Value>Registrador = valor no topo da pilha e decrementa sp</Value>
     </Record>
     <Record>
       <Key>ScriptCommandHcf</Key>
-      <Value>Parar e Causar Falha Crítica</Value>
+      <Value>Interrompe a execução e entra em estado de falha</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSelect</Key>
-      <Value>Registra = b se a for diferente de zero, caso contrário c</Value>
+      <Value>Registrador = b se a for diferente de zero, caso contrário c</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSleep</Key>
-      <Value>Pausa a execução no IC por alguns segundos</Value>
+      <Value>Pausa a execução no IC por a segundos</Value>
     </Record>
     <Record>
       <Key>ScriptCommandSin</Key>
@@ -17875,11 +17875,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ScriptCommandATan2</Key>
-      <Value>Retorna o ângulo (radianos) cuja tangente é o quociente de dois valores especificados: a (y) e (x)</Value>
+      <Value>Retorna o ângulo (radianos) cuja tangente é o quociente entre dois valores especificados: a (y) e b (x)</Value>
     </Record>
     <Record>
       <Key>ScriptCommandCommand</Key>
-      <Value>comando</Value>
+      <Value>Comando</Value>
     </Record>
     <Record>
       <Key>BluePodType</Key>
@@ -17899,11 +17899,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>SettingsResearch</Key>
-      <Value>Seleção de Pool de Pesquisa</Value>
+      <Value>Seleção de Área de Pesquisa</Value>
     </Record>
     <Record>
       <Key>DialogConfirmResearchUnlock</Key>
-      <Value>Você deseja desbloquear esta pesquisa?</Value>
+      <Value>Deseja desbloquear esta pesquisa?</Value>
     </Record>
     <Record>
       <Key>ResearchRequirementTitle</Key>
@@ -17947,11 +17947,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ResearchShowLocked</Key>
-      <Value>Mostrar Bloqueado</Value>
+      <Value>Mostrar Bloqueados</Value>
     </Record>
     <Record>
       <Key>ResearchCantAfford</Key>
-      <Value>Você não pode pagar para desbloquear essa pesquisa.</Value>
+      <Value>Você não pode desbloquear esta pesquisa.</Value>
     </Record>
     <Record>
       <Key>ResearchRequirementNotMet</Key>
@@ -17959,11 +17959,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ResearchUnlockConfirm</Key>
-      <Value>Você deseja desbloquear esta pesquisa?</Value>
+      <Value>Deseja desbloquear esta pesquisa?</Value>
     </Record>
     <Record>
       <Key>WarningSavePathNotWritableDescription</Key>
-      <Value>Não foi possível gravar no caminho de salvamento. O caminho foi redefinido para o padrão.</Value>
+      <Value>Não foi possível gravar no caminho de salvamento. Ele foi redefinido para o padrão.</Value>
     </Record>
     <Record>
       <Key>WarningSavePathNotWritable</Key>
@@ -17979,11 +17979,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>LaunchRocketAlert</Key>
-      <Value>Você quer lançar este foguete?</Value>
+      <Value>Deseja lançar este foguete?</Value>
     </Record>
     <Record>
       <Key>StatusWindowVitals</Key>
-      <Value>Vitais</Value>
+      <Value>Sinais Vitais</Value>
     </Record>
     <Record>
       <Key>StatusWindowJetpack</Key>
@@ -18007,11 +18007,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>TutorialSelectKey</Key>
-      <Value>Seleção do Tutorial</Value>
+      <Value>Selecionar Tutorial</Value>
     </Record>
     <Record>
       <Key>ScenarioSelectKey</Key>
-      <Value>Seleção de Cenário</Value>
+      <Value>Selecionar Cenário</Value>
     </Record>
     <Record>
       <Key>TankPressure</Key>
@@ -18071,11 +18071,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>Stage1Contains</Key>
-      <Value>Contém {0} em {2}Etapa {1}{3}</Value>
+      <Value>Contém {0} em {2}Estágio {1}{3}</Value>
     </Record>
     <Record>
       <Key>PlantWillCreate</Key>
-      <Value>Isso criará {2}{0}{3} x {1}</Value>
+      <Value>Isso produzirá {2}{0}{3} x {1}</Value>
     </Record>
     <Record>
       <Key>PlantGrowing</Key>
@@ -18087,11 +18087,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>PlantHydrate</Key>
-      <Value>A {0} está sem {1}hidratação{2}</Value>
+      <Value>A {0} está com falta de {1}hidratação{2}</Value>
     </Record>
     <Record>
       <Key>NoAtmos</Key>
-      <Value>A {0} não tem {1}atmosfera{2}</Value>
+      <Value>A {0} não possui {1}atmosfera{2}</Value>
     </Record>
     <Record>
       <Key>PlantTemperature</Key>
@@ -18099,7 +18099,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>PlantNoSunlight</Key>
-      <Value>A {0} não tem a {1}luz solar{2} necessária</Value>
+      <Value>A {0} não possui a {1}luz solar{2} necessária</Value>
     </Record>
     <Record>
       <Key>PlantToxic</Key>
@@ -18115,7 +18115,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>PipeLiquid</Key>
-      <Value>Tubo Líquido</Value>
+      <Value>Tubo de Líquido</Value>
     </Record>
     <Record>
       <Key>Power</Key>
@@ -18147,11 +18147,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>SettingsDoubleClickDelay</Key>
-      <Value>Atraso de Duplo Clique</Value>
+      <Value>Atraso do Clique Duplo</Value>
     </Record>
     <Record>
       <Key>SettingsServerAdminPassword</Key>
-      <Value>Senha de Admin do Servidor</Value>
+      <Value>Senha do Administrador do Servidor</Value>
     </Record>
     <Record>
       <Key>ScoreboardPlayer</Key>
@@ -18199,7 +18199,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>SetSpawnMessage</Key>
-      <Value>Use para definir o ponto de spawn</Value>
+      <Value>Usar para definir o ponto de spawn</Value>
     </Record>
     <Record>
       <Key>SetSpawnTitle</Key>
@@ -18235,7 +18235,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ControlHoldPrimaryClickHarvestDisc</Key>
-      <Value>Cultivar</Value>
+      <Value>Colher</Value>
     </Record>
     <Record>
       <Key>ControlPlayerMovement</Key>
@@ -18251,11 +18251,11 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ControlSwapHandsDisc</Key>
-      <Value>Trocar as mãos</Value>
+      <Value>Trocar de Mão</Value>
     </Record>
     <Record>
       <Key>ActivateExplosiveKey</Key>
-      <Value>Ativar a contagem regressiva</Value>
+      <Value>Ativar contagem regressiva</Value>
     </Record>
     <Record>
       <Key>ActivateExplosiveTooltipKey1</Key>
@@ -18263,131 +18263,131 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>ActivateExplosiveTooltipKey2</Key>
-      <Value>segundo temporizador. Cuidado é recomendado.</Value>
+      <Value>Segundos de temporizador. Recomenda-se cautela.</Value>
     </Record>
     <Record>
       <Key>CommandSave</Key>
-      <Value>Salva o jogo e o nomeia conforme o parâmetro fornecido. Uso: "/save nome_do_salvamento"</Value>
+      <Value>Salva o jogo e o nomeia conforme o parâmetro informado. Uso: "/save nome_do_save"</Value>
     </Record>
     <Record>
       <Key>CommandShutdown</Key>
-      <Value>Desliga o servidor do jogo e retorna o jogador ao lobby, podendo adicionar um temporizador e mensagem. Uso: "/shutdown"</Value>
+      <Value>Desliga o servidor do jogo e retorna o jogador ao lobby.É possível adicionar um temporizador e uma mensagem. Uso: "/shutdown"</Value>
     </Record>
     <Record>
       <Key>CommandNotice</Key>
-      <Value>Envia uma mensagem para os jogadores de um servidor. Uso: "/notice a mensagem que você deseja enviar"</Value>
+      <Value>Envia uma mensagem aos jogadores do servidor. Uso: "/notice a mensagem que você deseja enviar"</Value>
     </Record>
     <Record>
       <Key>CommandStatus</Key>
-      <Value>Exibe o status atual do servidor e quem está atualmente no servidor: "/status"</Value>
+      <Value>Exibe o status atual do servidor e quem está conectado no momento. uso: "/status"</Value>
     </Record>
     <Record>
       <Key>CommandBan</Key>
-      <Value>Banea um ID Steam específico do servidor: "/ban 102039237390"</Value>
+      <Value>Bane do servidor o Steam ID informado. uso: "/ban 102039237390"</Value>
     </Record>
     <Record>
       <Key>CommandUnBan</Key>
-      <Value>Revoga o banimento de um ID Steam específico do servidor: "/unban 102039237390"</Value>
+      <Value>Remove o banimento do Steam ID informado no servidor. uso: "/unban 102039237390"</Value>
     </Record>
     <Record>
       <Key>CommandKick</Key>
-      <Value>Expulsa um jogador com um ID Steam específico do servidor: "/kick 102039237390"</Value>
+      <Value>Expulsa do servidor o jogador com o Steam ID informado. uso: "/kick 102039237390"</Value>
     </Record>
     <Record>
       <Key>CommandClearAll</Key>
-      <Value>Remove todos os jogadores desconectados do servidor: "/clearall"</Value>
+      <Value>Remove do servidor todos os jogadores desconectados. uso: "/clearall"</Value>
     </Record>
     <Record>
       <Key>CommandThreadStatus</Key>
-      <Value>Exibe o status atual das threads do jogo.: "/threadstatus"</Value>
+      <Value>Mostra o status atual das threads do jogo. uso: "/threadstatus"</Value>
     </Record>
     <Record>
       <Key>CommandResetThread</Key>
-      <Value>Reinicia uma thread específica. : "/resetthread atmospherics"</Value>
+      <Value>Reinicia uma thread específica. uso: "/resetthread atmospherics"</Value>
     </Record>
     <Record>
       <Key>CommandSetHunger</Key>
-      <Value>Define a taxa de fome. : "/hungerrate 0.25"</Value>
+      <Value>Define a taxa de fome. uso: "/hungerrate 0.25"</Value>
     </Record>
     <Record>
       <Key>CommandPause</Key>
-      <Value>Pausa o jogo para todos os jogadores conectados. : "/pause"</Value>
+      <Value>Pausa o jogo para todos os jogadores conectados. uso: "/pause"</Value>
     </Record>
     <Record>
       <Key>CommandResume</Key>
-      <Value>Retoma o jogo para todos os jogadores conectados. : "/resume"</Value>
+      <Value>Retoma o jogo para todos os jogadores conectados. uso: "/resume"</Value>
     </Record>
     <Record>
       <Key>CommandToggleGod</Key>
-      <Value>Alterna a invencibilidade do jogador, incluindo o traje. : "/tg"</Value>
+      <Value>Alterna a invencibilidade do jogador, incluindo o traje. uso: "/tg"</Value>
     </Record>
     <Record>
       <Key>CommandToggleInfinitePower</Key>
-      <Value>Ativa ou desativa a energia infinita para um jogador ou em todo o servidor. : "/tgp"</Value>
+      <Value>Alterna energia infinita para um jogador ou para todo o servidor. uso: "/tgp"</Value>
     </Record>
     <Record>
       <Key>CommandToggleGameMode</Key>
-      <Value>Alterna o modo de jogo entre Sobrevivência e Criativo. : "/tgm"</Value>
+      <Value>Alterna o modo de jogo entre Sobrevivência e Criativo. uso: "/tgm"</Value>
     </Record>
     <Record>
       <Key>CommandSetTime</Key>
-      <Value>Define o deslocamento do sol, alterando efetivamente o horário do dia. : "/settime 0.25"</Value>
+      <Value>Define o deslocamento do sol, alterando efetivamente a hora do dia. uso: "/settime 0.25"</Value>
     </Record>
     <Record>
       <Key>CommandToggleInstaGrow</Key>
-      <Value>Alterna o crescimento instantâneo das plantas no servidor ou jogo. : "/tgrow"</Value>
+      <Value>Alterna o crescimento instantâneo das plantas no servidor ou no jogo. uso: "/tgrow"</Value>
     </Record>
     <Record>
       <Key>CommandStopWeather</Key>
-      <Value>Para a tempestade instantaneamente. : "/stopweather"</Value>
+      <Value>Interrompe uma tempestade imediatamente. uso: "/stopweather"</Value>
     </Record>
     <Record>
       <Key>CommandStartWeather</Key>
-      <Value>Inicia uma nova tempestade instantaneamente. : "/startweather"</Value>
+      <Value>Inicia uma nova tempestade imediatamente. uso: "/startweather"</Value>
     </Record>
     <Record>
       <Key>CommandToggleNoClip</Key>
-      <Value>Alterna as colisões do jogador. : "/tnc"</Value>
+      <Value>Alterna a colisão do jogador. uso: "/tnc"</Value>
     </Record>
     <Record>
       <Key>CommandSkipStage</Key>
-      <Value>Avança para a próxima etapa da missão. : "/skipstage"</Value>
+      <Value>Pula a etapa atual da missão. uso: "/skipstage"</Value>
     </Record>
     <Record>
       <Key>CommandSetStage</Key>
-      <Value>Define a etapa atual da missão. : "/setstage"</Value>
+      <Value>Define a etapa atual da missão. uso: "/setstage"</Value>
     </Record>
     <Record>
       <Key>CommandShowStage</Key>
-      <Value>Exibe a etapa atual da missão e quantas etapas há na missão. : "/showstage"</Value>
+      <Value>Exibe a etapa atual da missão e quantas etapas existem na missão. uso: "/showstage"</Value>
     </Record>
     <Record>
       <Key>CommandFillNeeds</Key>
-      <Value>Preenche a fome e a hidratação de um jogador. : "/fillneeds"</Value>
+      <Value>Preenche a fome e a hidratação de um jogador. uso: "/fillneeds"</Value>
     </Record>
     <Record>
       <Key>CommandFillHealth</Key>
-      <Value>Cura um jogador. : "/fillhealth"</Value>
+      <Value>Cura um jogador. uso: "/fillhealth"</Value>
     </Record>
     <Record>
       <Key>CommandAddGas</Key>
-      <Value>Adiciona gases ou líquidos a um tanque ou rede de tubos. : "/addgas [refID] [gasType 1-8] [molecount]"</Value>
+      <Value>Adiciona gases ou líquidos a um tanque ou rede de tubulação específica. uso: "/addgas [refID] [gasType 1-8] [molecount]"</Value>
     </Record>
     <Record>
       <Key>CommandCount</Key>
-      <Value>Conta todas as coisas do tipo especificado no salvamento. : "/count [AllThings / Structures / DynamicThings / AnimatorThings / Pipes / Cables / Atmospheres / CableNetworks]"</Value>
+      <Value>Conta todos os objetos do tipo especificado no salvamento. uso: "/count [AllThings / Structures / DynamicThings / AnimatorThings / Pipes / Cables / Atmospheres / CableNetworks]"</Value>
     </Record>
     <Record>
       <Key>CommandSetDecay</Key>
-      <Value>Define o multiplicador global de decomposição de alimentos. : "/setdecay 2"</Value>
+      <Value>Define o multiplicador global de deterioração dos alimentos. uso: "/setdecay 2"</Value>
     </Record>
     <Record>
       <Key>CommandSetContact</Key>
-      <Value>Define a quantidade de sinal necessária para contatar um comerciante. : "/setcontact 10"</Value>
+      <Value>Define a quantidade de sinal necessária para contatar um comerciante. uso: "/setcontact 10"</Value>
     </Record>
     <Record>
       <Key>CommandHelp</Key>
-      <Value>Exibe a lista de comandos. : "/help"</Value>
+      <Value>Exibe a lista de comandos. uso: "/help"</Value>
     </Record>
     <Record>
       <Key>Seedsstring</Key>
@@ -18399,9 +18399,9 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </Record>
     <Record>
       <Key>AgrizeroDesc</Key>
-      <Value>A Agrizero é uma empresa de biotecnologia agrícola focada em pesquisar e implantar tecnologias agrícolas fora do planeta. O objetivo da empresa é fornecer uma rede de 'biofábricas' autossustentáveis e autossuficientes, que, em última instância, alimentarão cerca de 1 milhão de humanos no espaço.
-Emergindo dos desastres ambientais do final do século 21, a empresa tem raízes nas iniciativas chinesas de agricultura artificial voltadas para salvar o mundo, e agora se expandiu para instalações no Cinturão de Asteroides, onde o fornecimento de asteroides de gelo torna a agricultura vertical e a agricultura em ambientes controlados extremamente promissoras.
-Embora muitas de suas instalações ainda estejam em construção, a Agrizero já é um dos principais fornecedores de grupos fora do planeta, como {LINK:ODA;ODA}, {LINK:Sinotai;Sinotai} e {LINK:ExMin;ExMin}, por meio da sempre crescente Rede de Comerciantes.
+      <Value>A Agrizero é uma empresa de biotecnologia agrícola focada em pesquisar e implantar tecnologias de cultivo fora da Terra. O objetivo da empresa é fornecer uma rede de 'biofábricas' autossustentáveis e autônomas que, no futuro, irão alimentar cerca de 1 milhão de humanos no espaço.
+Surgida após os desastres ambientais do final do século XXI, a empresa tem suas origens nas iniciativas chinesas de agricultura artificial para salvar o planeta, e atualmente expandiu suas operações para instalações no Cinturão de Asteroides, onde o grande suprimento de asteroides de gelo torna a agricultura vertical e o cultivo em ambientes controlados extremamente promissores.
+Embora muitas de suas instalações ainda estejam em construção, a Agrizero já é um dos principais fornecedores de grupos fora do planeta, como {LINK:ODA;ODA}, {LINK:Sinotai;Sinotai} e {LINK:ExMin;ExMin}, por meio da crescente Rede de Comerciantes.
       </Value>
     </Record>
     <Record>
@@ -18410,10 +18410,10 @@ Embora muitas de suas instalações ainda estejam em construção, a Agrizero j�
     </Record>
     <Record>
       <Key>AsuraDesc</Key>
-      <Value>A Asura Biomedia foi fundada no início do século 22 pelo trilionário de Mumbai, Ashan Gurwaja. Oficialmente focada em 'biotecnologia', a empresa sempre teve uma noção 'elástica' do que isso realmente significava: tudo, desde produtos farmacêuticos até ração para animais de estimação.
-O histórico de Gurwaja em empresas de bioengenharia colocou a empresa no mais alto escalão das indústrias de biociência desde o início, e ela cresceu exatamente como seu fundador planejou: de forma rápida e confiável, estruturada especificamente para engolir qualquer empresa menor em seu caminho.
-Perto da metade do século, as ambições da Asura evoluíram para abraçar sistemas de saúde inteiros – hoje, é a maior fornecedora de serviços de saúde na Terra, integrando hospitais e cuidados primários com suprimentos médicos, produção e venda de medicamentos, cuidados residenciais e serviços funerários.
-Até 2150, os negócios da Asura eram uma proposição simples, como capturado em seu famoso – se não infame – slogan publicitário: 'Estamos em você'.
+      <Value>A Asura Biomedia foi fundada no início do século XXII pelo trilionário Ashan Gurwaja, baseado em Mumbai. Embora nominalmente focada em 'biotecnologia', a empresa sempre teve uma noção bastante 'flexível' do que exatamente isso significava: desde produtos farmacêuticos até ração para animais de estimação.
+A experiência de Gurwaja em empresas de bioengenharia colocou a companhia no mais alto escalão das indústrias de biociência desde o início, e ela cresceu exatamente como seu fundador pretendia: de forma rápida e confiável, estruturada especificamente para absorver quaisquer empresas menores que cruzassem seu caminho.
+Por volta da metade do século, as ambições da Asura evoluíram para abranger sistemas de saúde inteiros – hoje é a maior fornecedora de serviços de saúde da Terra, integrando hospitais e atenção primária com suprimentos médicos, produção farmacêutica e varejo, cuidados residenciais e serviços funerários.
+Em 2150, o modelo de negócios da Asura era uma proposta simples, capturada em seu famoso – se não infame – slogan publicitário: 'Estamos em você'.
       </Value>
     </Record>
     <Record>
@@ -18423,8 +18423,8 @@ Até 2150, os negócios da Asura eram uma proposição simples, como capturado e
     <Record>
       <Key>CHACDesc</Key>
       <Value>Fundada em 2085 para produzir armas para as forças espaciais da {LINK:Sinotai;Sinotai}, a empresa é conhecida por fabricar armas altamente confiáveis e acessíveis para uso fora do planeta.
-Sua abordagem pragmática é refletida no foco em designs adequados para impressão 3D e produção em massa, além de um alto reaproveitamento de componentes em diferentes modelos e classes de armas.
-Como resultado, embora as armas da CHAC não se destaquem em nenhuma categoria específica e certamente nunca tenham sido acusadas de grandeza, elas não possuem falhas significativas e apresentam desempenho suficiente, de acordo com a maioria das medidas conhecidas, para que seus designers recebam o título informal de 'armador do Sistema Solar'.
+Sua abordagem pragmática é refletida no foco em projetos adequados para impressão 3D e produção em massa, bem como no alto reaproveitamento de componentes entre diferentes modelos e classes de armas.
+Como resultado, embora as armas da CHAC não se destaquem em nenhuma categoria específica e certamente nunca tenham sido acusadas de grandeza, elas também não apresentam falhas significativas e têm desempenho suficientemente bom, segundo a maioria das métricas conhecidas, para que seus projetistas recebam o título informal de 'armeiro do Sistema Solar'.
       </Value>
     </Record>
     <Record>
@@ -18433,9 +18433,9 @@ Como resultado, embora as armas da CHAC não se destaquem em nenhuma categoria e
     </Record>
     <Record>
       <Key>ExMinDesc</Key>
-      <Value>Após o desastre de Sisyphus em Marte, em 2079, a relocação de asteroides foi oficialmente proibida pela {LINK:ODA;ODA}. Essa mudança drástica forçou a nascente indústria de mineração espacial a reconsiderar suas estratégias, mas até a abertura do Elevador Espacial de Manaus, as economias marginais significavam que a extração de recursos fora do planeta era efetivamente impossível.
-Formada em 2095 por um conglomerado suíço-alemão de mineração e um consórcio de outros interesses, a ExMin foi mais uma ideia do que uma realidade comercial por várias décadas. Criada com a certeza de que um elevador espacial eventualmente chegaria, a ExMin foi uma das primeiras a explorar o acesso que ele ofereceu. Posteriormente, tornou-se uma das entidades comerciais mais poderosas do Sistema Solar.
-Com o acesso ao espaço garantido, a ExMin se tornou um jogador central no fluxo de recursos para o Sistema Interno. Ela tem concorrência, principalmente do gigante de mineração brasileiro {LINK:Recurso;Recurso}, mas a empresa nunca perdeu completamente sua liderança na mineração fora do planeta. Sinônimo de metais raros e pioneirismo na extração de recursos fora do planeta, está na vanguarda do desenvolvimento em todo o Sistema Solar.
+      <Value>Após o desastre de Sísifo em Marte, em 2079, o deslocamento de asteroides foi oficialmente proibido pela {LINK:ODA;ODA}. Essa mudança radical forçou a nascente indústria de mineração espacial a reconsiderar suas estratégias, mas até a inauguração do Elevador Espacial de Manaus, a economia marginal tornava a extração de recursos fora da Terra praticamente impossível.
+Formada em 2095 por um antigo conglomerado de mineração suíço-alemão e um consórcio de outros interesses, a ExMin foi mais uma ideia do que uma realidade comercial por várias décadas. Criada com a certeza de que um elevador espacial eventualmente surgiria, a ExMin foi uma das primeiras a explorar o acesso que ele proporcionou. Desde então, tornou-se uma das entidades comerciais mais poderosas do Sistema Solar.
+Com o acesso ao espaço garantido, a ExMin tornou-se uma peça central no fluxo de recursos para o Sistema Interior. Possui concorrência, principalmente da gigante brasileira de mineração {LINK:Recurso;Recurso}, mas a empresa nunca perdeu completamente sua liderança na mineração fora da Terra. Sinônimo de metais de terras raras e pioneira na extração de recursos fora do planeta, ela está na vanguarda do desenvolvimento em todo o Sistema Solar.
       </Value>
     </Record>
     <Record>
@@ -18444,9 +18444,9 @@ Com o acesso ao espaço garantido, a ExMin se tornou um jogador central no fluxo
     </Record>
     <Record>
       <Key>GeFabrikDesc</Key>
-      <Value>Oficialmente conhecida como Gewehrfabrik GmbH, a GeFabrik é uma das fabricantes de armamentos mais antigas e respeitadas do mundo, conhecida por produzir armas de fogo de altíssima precisão e de alta qualidade.
-Após o colapso da fabricação de armas na Europa nos anos 2030, um grupo de funcionários desempregados da indústria de armamentos fundou a GeFabrik. Dedicada a renovar os princípios de design originais, a empresa é lendária pelos testes extensivos, que às vezes duram até 10 anos, a fim de produzir formatos de armas ‘ganz’.
-A GeFabrik é amplamente considerada responsável por salvar a reputação da fabricação na Alemanha, embora tenha feito nada pelo seu senso de humor.
+      <Value>Oficialmente conhecida como Gewehrfabrik GmbH, a GeFabrik é uma das empresas de armamentos mais antigas e respeitadas do mundo, conhecida por produzir armas de fogo de alta precisão e alto padrão.
+Após o colapso da indústria europeia de fabricação de armamentos na década de 2030, um grupo de profissionais desempregados do setor fundou a GeFabrik. Dedicada a renovar princípios de design originais, a empresa tornou-se lendária por seus extensos testes, que às vezes duram até 10 anos, para produzir formatos de armas ‘ganz’.
+A GeFabrik é amplamente considerada como responsável por, praticamente sozinha, restaurar a reputação da manufatura alemã — embora não tenha feito nada pelo senso de humor deles.
       </Value>
     </Record>
     <Record>
@@ -18455,8 +18455,8 @@ A GeFabrik é amplamente considerada responsável por salvar a reputação da fa
     </Record>
     <Record>
       <Key>HiiragiDesc</Key>
-      <Value>Fundada por Noboru Hiiragi após a bolha econômica dos anos 2110, a Hiiragi Communications absorveu vários ativos importantes de fora do planeta, rapidamente tornando-se a rede de comunicações mais amplamente utilizada no Sistema Solar.
-Se você se comunicou com amigos e familiares fora do planeta recentemente, provavelmente foi através da rede Hiiragi, mesmo que tenha sido sob uma de suas muitas empresas filhas. A Hiiragi também é a vendedora número um de PCDs (Dispositivos de Comunicação Pessoal), além de ser um investidor profundo, embora difícil de avaliar, nas redes de telecomunicações terrestres.
+      <Value>Fundada por Noboru Hiiragi após a bolha econômica da década de 2110, a Hiiragi Communications absorveu diversos ativos importantes fora da Terra, tornando-se rapidamente a rede de comunicações mais utilizada em todo o Sistema Solar.
+Se você se comunicou recentemente com amigos ou familiares fora do planeta, provavelmente foi através da rede Hiiragi, mesmo que o serviço estivesse sob a marca de uma de suas muitas empresas subsidiárias. A Hiiragi também é a principal vendedora de PCDs (Dispositivos Pessoais de Comunicação), além de ser uma investidora relevante — embora difícil de avaliar — em redes de telecomunicações terrestres.
       </Value>
     </Record>
     <Record>
@@ -18465,9 +18465,9 @@ Se você se comunicou com amigos e familiares fora do planeta recentemente, prov
     </Record>
     <Record>
       <Key>NorsecDesc</Key>
-      <Value>Com suas raízes na indústria de defesa do início do século XX, a Norsec (também conhecida como Northern Security Systems) foi uma das pioneiras na mineração de asteroides – um de seus rebocadores esteve envolvido no infame incidente de Sisyphus contra a colônia marciana nascente em Sanders.
-A Norsec foi oficialmente inocentada de qualquer irregularidade, mas quando a {LINK:ODA;ODA} proibiu a relocação de asteroides, a empresa redirecionou seu foco para infraestrutura e manufatura.
-A divisão de Sistemas Espaciais, baseada em órbita, da Norsec é responsável pelo design e produção dos sistemas de transporte principais da {LINK:ODA;ODA}, além de ser rumorizada por manter um grande interesse na {LINK:ExMin;ExMin}. A empresa também é conhecida por sua disposição em investir em tecnologias robóticas experimentais.
+      <Value>Com raízes na indústria de defesa do início do século XX, a Norsec (também conhecida como Northern Security Systems) foi uma das primeiras empresas a adotar a mineração de asteroides — um de seus rebocadores esteve envolvido no infame Impacto de Sísifo contra a então recém-estabelecida colônia marciana em Sanders.
+A Norsec foi oficialmente inocentada de qualquer irregularidade, mas quando a {LINK:ODA;ODA} proibiu o deslocamento de asteroides, a empresa passou a concentrar seus esforços em infraestrutura e manufatura.
+A Divisão de Sistemas Espaciais da Norsec, baseada em órbita, é responsável pelo projeto e pela produção dos principais sistemas de transporte da {LINK:ODA;ODA}, além de, segundo rumores, possuir uma participação significativa na {LINK:ExMin;ExMin}. A empresa também é conhecida por sua disposição em investir em tecnologias robóticas experimentais.
       </Value>
     </Record>
     <Record>
@@ -18477,9 +18477,9 @@ A divisão de Sistemas Espaciais, baseada em órbita, da Norsec é responsável 
     <Record>
       <Key>ODADesc</Key>
       <Value>
-        Após a Crise na Terra, o foco da humanidade no espaço diminuiu. No entanto, muitos sentiram que, sem ambições além do nosso planeta natal, nossa espécie poderia vacilar.
-Criada em 2070 d.C. por uma recém-reformada Organização das Nações Unidas, a Agência de Desenvolvimento Extraterrestre (ODA) recebeu um objetivo muito específico - orientar e incentivar a exploração espacial humana em um momento em que o cosmos estava se afastando da mente pública.
-Foi inaugurado o Programa {LINK:Stationeers;Stationeer} em 2095. Entendendo que o financiamento seria difícil de obter, a ODA concebeu o programa como uma iniciativa espacial de baixo custo e de longo prazo. Enquanto alguns ridicularizavam os Stationeers como 'descartados cósmicos de baixo custo', o sucesso do programa é um testemunho da sabedoria e pragmatismo da visão da ODA.
+        Após a Crise da Terra, o foco da humanidade no espaço diminuiu. Ainda assim, muitos acreditavam que, sem ambições além do nosso planeta natal, nossa espécie poderia enfraquecer.
+Criada em 2070 EC por uma recém-reformulada Organização das Nações Unidas, a Offworld Development Agency recebeu um objetivo muito específico — orientar e incentivar a exploração espacial humana em um momento em que o cosmos estava desaparecendo da atenção pública.
+Ela inaugurou o Programa {LINK:Stationeers;Stationeer} em 2095. Compreendendo que o financiamento seria difícil de obter, a ODA concebeu o programa como uma iniciativa espacial gradual e de baixo custo. Embora alguns tenham ridicularizado os Stationeers como 'náufragos cósmicos de baixo orçamento', o sucesso do programa é prova da sabedoria e do pragmatismo da visão da ODA.
       </Value>
     </Record>
     <Record>
@@ -18488,10 +18488,10 @@ Foi inaugurado o Programa {LINK:Stationeers;Stationeer} em 2095. Entendendo que 
     </Record>
     <Record>
       <Key>RecursoDesc</Key>
-      <Value>Este grupo de mineração brasileiro de longa data se expandiu para o espaço no final do século 21.
-Focado principalmente em minerais e metais em grande quantidade, a empresa é talvez melhor entendida como uma extensão do governo brasileiro – muito poucas figuras políticas de alto escalão no Brasil moderno não estão implicadas em algum braço ou outro desse gigante industrial.
-O entrelaçamento com a política sul-americana deu à empresa grande influência sobre o elevador espacial de Manaus. Esse controle do “estado profundo” levou outros grupos – a {LINK:ODA;ODA} incluída – a exercer uma certa ‘flexibilidade’ em relação à Recurso.
-Acusações de relocação ilegal de asteroides, violações de segurança e inúmeras infrações comerciais mal tocaram a empresa. Enquanto isso, defensores apontam que muito pouco foi provado em tribunal, e a Recurso não está sozinha – daí o ditado: 'No espaço, todos nós vivemos em casas de vidro.'
+      <Value>Este tradicional grupo brasileiro de mineração expandiu suas operações para o espaço no final do século XXI.
+Focada principalmente em minerais e metais em grande volume, a empresa talvez seja melhor compreendida como uma extensão do governo brasileiro — muito poucas figuras políticas de alto escalão no Brasil moderno não estão implicadas, de alguma forma, em um ou outro braço desse gigantesco conglomerado industrial.
+Seu forte envolvimento com a política sul-americana concedeu à empresa grande influência sobre o elevador espacial de Manaus. Esse profundo controle estatal levou outros grupos — incluindo a {LINK:ODA;ODA} — a exercer certa ‘flexibilidade’ em relação à Recurso.
+Acusações de deslocamento ilegal de asteroides, violações de segurança e diversas infrações comerciais mal chegaram a afetá-la. Enquanto isso, seus defensores apontam que muito pouco foi realmente provado em tribunal, e que a Recurso está longe de ser a única — daí o conhecido ditado: 'No espaço, todos vivemos em casas de vidro.'
       </Value>
     </Record>
     <Record>
@@ -18500,9 +18500,9 @@ Acusações de relocação ilegal de asteroides, violações de segurança e in�
     </Record>
     <Record>
       <Key>SinotaiDesc</Key>
-      <Value>A única entidade ‘tradicional’ estatal a sobreviver à política fora da Terra, o alcance e poder da Sinotai só são superados pela {LINK:ODA;ODA} em si. Em muitos aspectos, uma relíquia – uma subagência de uma burocracia corporativa extremamente complexa da Terra – sua estrutura permitiu que a Sinotai alcançasse coisas incríveis.
-Provando seu valor no início do século 21 ao colocar os primeiros humanos em Marte, estabelecer o primeiro sistema de energia de gigawatts fora da Terra, e a primeira refinaria de combustível no espaço, poucas organizações espaciais não têm algum grau de relacionamento com a Sinotai. Uma piada comum diz que é impossível fazer qualquer coisa no espaço sem eles.
-Independentemente da verdade, a abordagem da Sinotai para o desenvolvimento fora da Terra envolveu uma abordagem de ‘poder suave’, desde MOU’s com {LINK:Recurso;Recurso} (dando-lhes acesso preferencial ao elevador espacial de Manaus) até alianças mais nebulosas de conveniência com diversos grupos de Comerciantes.
+      <Value>A única entidade estatal 'tradicional' a sobreviver à política fora da Terra, o alcance e o poder da Sinotai ficam atrás apenas da própria {LINK:ODA;ODA}. Em muitos aspectos um relicto — uma subagência de uma incrivelmente complexa burocracia corporativa baseada na Terra — sua estrutura permitiu que a Sinotai alcançasse feitos extraordinários.
+Demonstrando sua capacidade já no início do século XXI ao colocar os primeiros humanos em Marte, estabelecer o primeiro sistema de energia de gigawatts fora da Terra e a primeira refinaria de combustível espacial, poucas organizações espaciais deixam de manter algum tipo de relação com a Sinotai. Uma piada comum diz que é impossível fazer qualquer coisa no espaço sem eles.
+Independentemente de quanto disso seja verdade, a abordagem da Sinotai para o desenvolvimento fora da Terra tem envolvido uma estratégia de 'soft power', desde memorandos de entendimento (MOU) com a {LINK:Recurso;Recurso} — concedendo a ela acesso preferencial ao elevador espacial de Manaus — até alianças de conveniência mais obscuras com diversos grupos de comerciantes.
       </Value>
     </Record>
     <Record>
@@ -18511,8 +18511,8 @@ Independentemente da verdade, a abordagem da Sinotai para o desenvolvimento fora
     </Record>
     <Record>
       <Key>TKDesc</Key>
-      <Value>Originalmente um contratante de defesa especializado em armamentos de alta potência e força bruta, a Tanzanian Kinetic Systems executou uma mudança de grande escala, em tempos de paz, para se tornar a principal projetista de transportadores de alta velocidade da Assembleia Africana.
-Agora produzindo uma variedade de projetos e componentes para redes de chutes, a TK tem uma forte presença fora da Terra como resultado das parcerias Afro-Sino no final do século 21. Com sede no distrito ‘reconstruído’ de Kigamboni, em Dar E Salaam, a empresa entra regularmente em parcerias de desenvolvimento com {LINK:CHAC;} e, como resultado, muitos de seus produtos apresentam semelhanças distintas.
+      <Value>Originalmente uma contratante de defesa especializada em armamentos de grande potência e força bruta, a Tanzanian Kinetic Systems realizou uma grande mudança estratégica em tempos de paz para se tornar a principal projetista de transportadores de mercadorias de alta velocidade da Assembleia Africana.
+Agora produzindo uma variedade de projetos e componentes para redes de esteiras de transporte, a TK possui uma forte presença fora da Terra como resultado das parcerias afro-sino estabelecidas no final do século XXI. Com sede no distrito ‘reconstruído’ de Kigamboni, em Dar es Salaam, a empresa frequentemente firma parcerias de desenvolvimento com {LINK:CHAC;CHAC} e, como resultado, muitos de seus produtos apresentam claras semelhanças.
 Afinal, o que é uma arma senão um ‘transportador de mercadorias de alta velocidade’.
       </Value>
     </Record>
@@ -18522,10 +18522,10 @@ Afinal, o que é uma arma senão um ‘transportador de mercadorias de alta velo
     </Record>
     <Record>
       <Key>XigoDesc</Key>
-      <Value>Uma pesquisa de 2150 d.C. revelou o 'X' da Xigo como um dos símbolos mais reconhecidos no mundo. No entanto, poucos participantes conseguiram descrever claramente o escopo real da empresa.
-Precisamente onde a empresa começa e termina tem sido o tema de teorias intermináveis, estudos financeiros e processos judiciais – originalmente um site para comparações de preços, o conglomerado se expandiu para abraçar dados, depois distribuição e finalmente produção.
-Foi uma expansão aparentemente indiscriminada, focada não em uma indústria, mas em todas elas – abrangendo tantos campos que os analistas de negócios, em grande parte, rejeitaram a ideia da Xigo como uma única entidade. Em vez disso, é um agrupamento conceitual para um ramo da atividade humana. E embora tais estatísticas sejam – por sua própria natureza – difíceis de confirmar, estimativas recentes sugerem que a Xigo emprega mais de 1,5% de toda a raça humana.
-Basta dizer que ela produz quase tudo.
+      <Value>Uma pesquisa realizada em 2150 EC revelou que o 'X' da Xigo é um dos símbolos mais reconhecidos do mundo. Ainda assim, poucos participantes conseguiram descrever claramente o real alcance da empresa.
+Onde exatamente a empresa começa e termina tem sido objeto de inúmeras teorias, estudos financeiros e processos judiciais — originalmente um site de comparação de preços, o conglomerado expandiu-se para abranger dados, depois distribuição e, por fim, produção.
+Foi uma expansão aparentemente indiscriminada, não focada em um único setor, mas em todos eles — abrangendo tantos campos que analistas de mercado passaram a rejeitar a ideia de que a Xigo seja uma única entidade. Em vez disso, ela é vista como um agrupamento conceitual de um ramo da atividade humana. E embora estatísticas desse tipo sejam — por sua própria natureza — difíceis de confirmar, estimativas recentes sugerem que a Xigo emprega mais de 1,5% de toda a raça humana.
+Basta dizer que ela produz praticamente tudo.
       </Value>
     </Record>
     <Record>
@@ -18534,12 +18534,12 @@ Basta dizer que ela produz quase tudo.
     </Record>
     <Record>
       <Key>StationeersDesc</Key>
-      <Value>No início do século 22, a Terra estava emergindo de um cataclismo. Seus recursos se esgotaram, nossa população foi reduzida, e a reconstrução foi o espírito da era.
-Iniciado pela {LINK:ODA;Agência de Desenvolvimento Extraterrestre} (ODA) em 2095 d.C., o Programa Stationeers foi dedicado a um único ideal: manter a humanidade voltada para as estrelas.
-Stationeers são tudo: astronautas, engenheiros e exploradores, enviados com equipamentos e ferramentas limitadas, treinados para fazer mais com menos. Transformando o ambiente a seu favor, seu trabalho é fornecer infraestrutura para os seres humanos no espaço, a uma fração do custo dos programas espaciais tradicionais.
-Capazes de construir e manter bases em qualquer lugar, desde a Lua até Mimas e além, os Stationeers são nossa vanguarda no cosmos. Treinados em sobrevivência fora da Terra, técnicas de mineração e construção, metalurgia básica, eletrônica, foguetes, hidroponia e mais ciências ‘arcanas’, os Stationeers fazem o que é necessário para sobreviver e prosperar.
-Reconhecidos por não ter critérios de entrada, não existe um ‘Stationeer típico’. A profilagem psicológica sugere que os Cadetes bem-sucedidos apresentam um ‘pragmatismo’ e uma determinação inabalável, mas alguns dos Stationeers mais famosos não possuem nenhuma dessas qualidades.
-Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciais, desenvolvimento de software, grupos de mineração, bem como de campos científicos e até ordens religiosas, o Programa Stationeers é – fundamentalmente – aberto a toda a humanidade.
+      <Value>No início do século XXII, a Terra estava emergindo de um cataclisma. Seus recursos haviam sido esgotados, nossa população reduzida, e a reconstrução era o espírito da época.
+Iniciado pela {LINK:ODA;Offworld Development Agency} (ODA) em 2095 EC, o Programa Stationeers foi dedicado a um único ideal: manter a humanidade voltada para as estrelas.
+Os Stationeers são tudo ao mesmo tempo: astronautas, engenheiros e exploradores, enviados com equipamentos e ferramentas limitados, treinados para fazer mais com menos. Transformando o ambiente ao seu favor, seu trabalho é fornecer infraestrutura para a presença humana no espaço, a uma fração do custo dos programas espaciais tradicionais.
+Capazes de construir e manter bases em qualquer lugar, da Lua até Mimas e além, os Stationeers são nossa vanguarda no cosmos. Treinados em sobrevivência fora da Terra, mineração e técnicas de construção, metalurgia básica, eletrônica, foguetes, hidroponia e outras ciências mais ‘arcanas’, os Stationeers fazem o que for necessário para sobreviver — e prosperar.
+Famosos por não possuírem critérios de entrada rígidos, não existe algo como um ‘Stationeer típico’. Perfis psicológicos sugerem que cadetes bem-sucedidos apresentam um pragmatismo básico e grande determinação, mas alguns dos Stationeers mais famosos não possuem nenhuma dessas qualidades.
+Recrutando pessoas com formação em engenharia civil, das indústrias militar e aeroespacial, desenvolvimento de software, grupos de mineração, bem como de áreas científicas e até ordens religiosas, o Programa Stationeers é — fundamentalmente — aberto a toda a humanidade.
       </Value>
     </Record>
     <Record>
@@ -18552,7 +18552,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>ControlMouseDrag</Key>
-      <Value>Segure e Arraste {KEY:PrimaryAction}</Value>
+      <Value>Segurar e Arrastar {KEY:PrimaryAction}</Value>
     </Record>
     <Record>
       <Key>ControlMouseDragDisc</Key>
@@ -18656,7 +18656,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>NextTutoiralButtonFail</Key>
-      <Value>Não foi possível carregar o próximo tutorial. Por favor, volte ao menu.</Value>
+      <Value>Não foi possível carregar o próximo tutorial. Por favor, retorne ao menu.</Value>
     </Record>
     <Record>
       <Key>ImportExportCategoryKey</Key>
@@ -18732,7 +18732,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>FabricatorCategoryKey</Key>
-      <Value>Fabricação</Value>
+      <Value>Fabricadores</Value>
     </Record>
     <Record>
       <Key>IngotsCategoryKey</Key>
@@ -18752,7 +18752,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>CableMaxPowerSPDA</Key>
-      <Value>Potência Máxima (W):</Value>
+      <Value>Potência Máxima:</Value>
     </Record>
     <Record>
       <Key>StationpediaTitle</Key>
@@ -18812,7 +18812,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>StationpediaShatterHeader</Key>
-      <Value>Quebra:</Value>
+      <Value>Estilhaçamento:</Value>
     </Record>
     <Record>
       <Key>StationpediaFlashpointHeader</Key>
@@ -18840,7 +18840,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>StationpediaConstructedFrom</Key>
-      <Value>Construído A Partir De</Value>
+      <Value>Construído a Partir de</Value>
     </Record>
     <Record>
       <Key>StationpediaSlotsHeader</Key>
@@ -18864,7 +18864,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>StationpediaResoucesHeader</Key>
-      <Value>Recursos Usados</Value>
+      <Value>Recursos Utilizados</Value>
     </Record>
     <Record>
       <Key>StationpediaUsedIn</Key>
@@ -18876,7 +18876,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>StationpediaFoundIn</Key>
-      <Value>Encontrado Em</Value>
+      <Value>Encontrado em</Value>
     </Record>
     <Record>
       <Key>StationpediaConstructionOptions</Key>
@@ -18930,7 +18930,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>HydrationCaution</Key>
-      <Value>Atenção com Hidratação</Value>
+      <Value>Atenção em Hidratação</Value>
     </Record>
     <Record>
       <Key>HydrationCritical</Key>
@@ -18974,11 +18974,11 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>LogicTypeChannel</Key>
-      <Value>Canais em uma rede de cabos que devem ser considerados voláteis</Value>
+      <Value>Canal em uma rede de cabos que deve ser considerado volátil</Value>
     </Record>
     <Record>
       <Key>LogicTypeUnknown</Key>
-      <Value>Sem descrição disponível</Value>
+      <Value>Nenhuma descrição disponível</Value>
     </Record>
     <Record>
       <Key>LogicTypeTime</Key>
@@ -18986,19 +18986,19 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>LogicTypeBpm</Key>
-      <Value>Bpm</Value>
+      <Value>BPM</Value>
     </Record>
     <Record>
       <Key>LogicTypeEnvironmentEfficiency</Key>
-      <Value>A Eficiência Ambiental reportada pela máquina, como um valor entre 0 e 1</Value>
+      <Value>A eficiência do ambiente reportada pela máquina, como um valor decimal entre 0 e 1</Value>
     </Record>
     <Record>
       <Key>LogicTypeWorkingGasEfficiency</Key>
-      <Value>A Eficiência do Gás de Trabalho reportada pela máquina, como um valor entre 0 e 1</Value>
+      <Value>A eficiência do gás de trabalho reportada pela máquina, como um valor decimal entre 0 e 1</Value>
     </Record>
     <Record>
       <Key>Pitch</Key>
-      <Value>Timbre</Value>
+      <Value>Tom</Value>
     </Record>
     <Record>
       <Key>Volume</Key>
@@ -19006,7 +19006,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>NoAudioReceiverDevices</Key>
-      <Value>Sem Dispositivos de Recepção de Áudio</Value>
+      <Value>Nenhum Dispositivo Receptor de Áudio</Value>
     </Record>
     <Record>
       <Key>Speed</Key>
@@ -19014,7 +19014,7 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>Attack</Key>
-      <Value>Atacar</Value>
+      <Value>Ataque</Value>
     </Record>
     <Record>
       <Key>Release</Key>
@@ -19026,11 +19026,11 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>NoSoundCartridge</Key>
-      <Value>Sem Cartucho de Som</Value>
+      <Value>Nenhum Cartucho de Som</Value>
     </Record>
     <Record>
       <Key>NoNote</Key>
-      <Value>Sem Nota</Value>
+      <Value>Nenhuma Nota</Value>
     </Record>
     <Record>
       <Key>Intensity</Key>
@@ -19074,22 +19074,22 @@ Recrutando de áreas como engenharia civil, indústrias militares e aeroespaciai
     </Record>
     <Record>
       <Key>MoleOxygenDescription</Key>
-      <Value>O oxigênio fornece energia quando liberado na combustão, e também se combina com o hidrogênio para criar {GAS:Water}. É criado por {LINK:OrganicPage;plantas}, assim como a partir do processamento de {THING:ItemOxite}. É altamente inflamável em temperaturas baixas.</Value>
+      <Value>O oxigênio fornece energia quando liberado na combustão, e também se combina com o hidrogênio para criar {GAS:Water}. Ele é produzido por {LINK:OrganicPage;plantas}, assim como a partir do processamento de {THING:ItemOxite}. É altamente inflamável em temperaturas baixas.</Value>
     </Record>
     <Record>
       <Key>MoleNitrogenDescription</Key>
-      <Value>{GAS:Nitrogen} pode ser misturado com {GAS:Oxygen} para estabilizar sua inflamabilidade e evitar a toxicidade do {GAS:Oxygen}, e é um recurso por si só, útil para criar uma atmosfera respirável (em uma proporção de aproximadamente 3:1 de {GAS:Nitrogen} e {GAS:Oxygen}). A fonte mais eficiente de {GAS:Nitrogen} vem dos depósitos de {THING:ItemNitrice} encontrados ao redor do Sistema Solar. Você pode condensar {GAS:Nitrogen} em {GAS:LiquidNitrogen} abaixando sua temperatura abaixo do ponto de ebulição.</Value>
+      <Value>{GAS:Nitrogen} pode ser misturado com {GAS:Oxygen} para estabilizar sua inflamabilidade e evitar a toxicidade do {GAS:Oxygen}, além de ser um recurso por si só, útil para criar uma atmosfera respirável (aproximadamente 3:1 de {GAS:Nitrogen} e {GAS:Oxygen}). A fonte mais eficiente de {GAS:Nitrogen} é o processamento de depósitos de {THING:ItemNitrice} encontrados pelo Sistema Solar. Você pode condensar {GAS:Nitrogen} em {GAS:LiquidNitrogen} reduzindo sua temperatura abaixo do ponto de ebulição.</Value>
     </Record>
     <Record>
       <Key>MoleCarbonDioxideDescription</Key>
-      <Value>Você o exala, {LINK:OrganicPage;plantas} o absorvem. Elas não crescem sem ele. Você pode usar itens colocados nos slots {SLOT:GasFilter} para removê-lo da atmosfera. 
+      <Value>Você o expira, {LINK:OrganicPage;plantas} o absorvem. Elas não crescem sem ele. Você pode usar itens colocados nos slots {SLOT:GasFilter} para removê-lo da atmosfera. 
 
-{GAS:CarbonDioxide} tem um calor específico moderadamente alto, o que o torna um bom refrigerante para dispositivos como o {THING:StructureWallCooler}. 
+{GAS:CarbonDioxide} tem um calor específico moderadamente alto, o que significa que é um bom refrigerante para dispositivos como o {THING:StructureWallCooler}. 
 {GAS:Water} é melhor, mas geralmente tem usos mais importantes.</Value>
     </Record>
     <Record>
       <Key>MoleVolatilesDescription</Key>
-      <Value>Voláteis é um combustível combustível. É refinado de {THING:ItemVolatiles}</Value>
+      <Value>Voláteis é um combustível inflamável. É refinado a partir de {THING:ItemVolatiles}</Value>
     </Record>
     <Record>
       <Key>MolePollutantDescription</Key>
