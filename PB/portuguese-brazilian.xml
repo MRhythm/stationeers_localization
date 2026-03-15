@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português (Brasil)</Name>
-  <Code>PB</Code>  <!--Tradução Marcelo 10/03/2026 v0.2.6182.26959-->
+  <Code>PB</Code>  <!--Tradução Marcelo 14/03/2026 v0.2.6182.26959-->
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -19093,49 +19093,49 @@ Recrutando pessoas com formação em engenharia civil, das indústrias militar e
     </Record>
     <Record>
       <Key>MolePollutantDescription</Key>
-      <Value>Também conhecido como 'X', {GAS:Pollutant} é criado ao fundir certos metais. Uma concentração de 0,1 mol ou mais fará com que seu traje avise sobre o veneno na atmosfera. O poluente tem um alto calor específico, o que o torna um excelente refrigerante. Infelizmente, é extremamente prejudicial para seres orgânicos, e causará danos severos aos pulmões da maioria dos organismos à base de {REAGENT:Carbon}.</Value>
+      <Value>Também conhecido como 'X', {GAS:Pollutant} é gerado ao fundir certos metais. Uma concentração de 0,1 mol ou mais fará com que seu traje avise sobre o veneno na atmosfera. O poluente possui alto calor específico, o que o torna um excelente refrigerante. Infelizmente, é extremamente prejudicial para seres orgânicos, e causará danos severos aos pulmões da maioria dos organismos baseados em {REAGENT:Carbon}.</Value>
     </Record>
     <Record>
       <Key>MoleWaterDescription</Key>
-      <Value>Você pode obter água fundindo ou triturando {THING:ItemIce} usando um {THING:StructureFurnace} ou um {THING:StructureIceCrusher}. {GAS:Water} é crítico para que {LINK:OrganicPage;plantas} fiquem vivas e cresçam {LINK:NutritionPage;alimentos}. 
-Também é um excelente refrigerante com uma capacidade de calor específico muito alta. {GAS:Water} evaporará para {GAS:Steam} se sua temperatura for elevada acima do seu ponto de ebulição.</Value>
+      <Value>Você pode obter água fundindo ou triturando {THING:ItemIce} usando um {THING:StructureFurnace} ou um {THING:StructureIceCrusher}. {GAS:Water} é essencial para que {LINK:OrganicPage;plantas} permaneçam vivas e produzam {LINK:NutritionPage;alimentos}. 
+Ela também é um excelente refrigerante, com uma capacidade de calor específico muito alta. {GAS:Water} evaporará para {GAS:Steam} se sua temperatura for elevada acima do seu ponto de ebulição.</Value>
     </Record>
     <Record>
       <Key>MolePollutedWaterDescription</Key>
-      <Value>Água poluída é um subproduto do uso de {GAS:Water} em certos dispositivos. Ela congelará em {THING:ItemPureIcePollutedWater}, mas ferverá em {GAS:Steam}. 
+      <Value>A água poluída é um subproduto do uso de {GAS:Water} em certos dispositivos. Ela congelará em {THING:ItemPureIcePollutedWater}, mas ferverá em {GAS:Steam}. 
 Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {GAS:Water}.</Value>
     </Record>
     <Record>
       <Key>MoleNitrousOxideDescription</Key>
-      <Value>Óxido nitroso é um gás reativo que desmaia os jogadores se inalado. Ele atua como um oxidante para a combustão e permite que os voláteis queimem de forma significativamente mais quente, mais rápida e a uma temperatura de autoignição mais baixa. Pode ser produzido em um processo intensivo em energia dentro de um {THING:StructureNitrolyzer}.</Value>
+      <Value>O óxido nitroso é um gás reativo que fará os jogadores desmaiarem se inalado. Ele atua como um oxidante para a combustão, permitindo que os voláteis queimem significativamente mais quentes, mais rápido e a uma temperatura de autoignição mais baixa. Pode ser produzido em um processo de alto consumo de energia dentro de um {THING:StructureNitrolyzer}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidNitrogenDescription</Key>
-      <Value>{GAS:Nitrogen} em sua forma líquida. Pode ser criado abaixando a temperatura do gás {GAS:Nitrogen} abaixo do seu ponto de ebulição. Isso pode ser feito usando um {THING:StructureHeatExchangerGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidNitrogen} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Nitrogen}.</Value>
+      <Value>{GAS:Nitrogen} em sua forma líquida. Pode ser criado reduzindo a temperatura do gás {GAS:Nitrogen} abaixo do seu ponto de ebulição. Isso pode ser alcançado usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidNitrogen} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Nitrogen}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidOxygenDescription</Key>
-      <Value>{GAS:Oxygen} em sua forma líquida. Pode ser criado abaixando a temperatura do gás {GAS:Oxygen} abaixo do seu ponto de ebulição. Isso pode ser feito usando um {THING:StructureHeatExchangerGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidOxygen} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Oxygen}.</Value>
+      <Value>{GAS:Oxygen} em sua forma líquida. Pode ser criado reduzindo a temperatura do gás {GAS:Oxygen} abaixo do seu ponto de ebulição. Isso pode ser alcançado usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidOxygen} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Oxygen}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidVolatilesDescription</Key>
-      <Value>{GAS:Volatiles} em sua forma líquida. Pode ser criado abaixando a temperatura do gás {GAS:Volatiles} abaixo do seu ponto de ebulição. Isso pode ser feito usando um {THING:StructureHeatExchangerGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidVolatiles} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Volatiles}.</Value>
+      <Value>{GAS:Volatiles} em sua forma líquida. Pode ser criado reduzindo a temperatura do gás {GAS:Volatiles} abaixo do seu ponto de ebulição. Isso pode ser alcançado usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidVolatiles} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Volatiles}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidCarbonDioxideDescription</Key>
-      <Value>{GAS:CarbonDioxide} em sua forma líquida. Pode ser criado abaixando a temperatura do gás {GAS:CarbonDioxide} abaixo do seu ponto de ebulição. Isso pode ser feito usando um {THING:StructureHeatExchangerGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidCarbonDioxide} introduzido na atmosfera evaporará rapidamente de volta para {GAS:CarbonDioxide}.</Value>
+      <Value>{GAS:CarbonDioxide} em sua forma líquida. Pode ser criado reduzindo a temperatura do gás {GAS:CarbonDioxide} abaixo do seu ponto de ebulição. Isso pode ser alcançado usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidCarbonDioxide} introduzido na atmosfera evaporará rapidamente de volta para {GAS:CarbonDioxide}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidPollutantDescription</Key>
-      <Value>{GAS:Pollutant} em sua forma líquida. Pode ser criado abaixando a temperatura do gás {GAS:Pollutant} abaixo do seu ponto de ebulição. Isso pode ser feito usando um {THING:StructureHeatExchangerGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidPollutant} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Pollutant}.</Value>
+      <Value>{GAS:Pollutant} em sua forma líquida. Pode ser criado reduzindo a temperatura do gás {GAS:Pollutant} abaixo do seu ponto de ebulição. Isso pode ser alcançado usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidPollutant} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Pollutant}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidNitrousOxideDescription</Key>
-      <Value>{GAS:NitrousOxide} em sua forma líquida. Pode ser criado abaixando a temperatura do gás {GAS:NitrousOxide} abaixo do seu ponto de ebulição. Isso pode ser feito usando um {THING:StructureHeatExchangerGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidNitrousOxide} introduzido na atmosfera evaporará rapidamente de volta para {GAS:NitrousOxide}.</Value>
+      <Value>{GAS:NitrousOxide} em sua forma líquida. Pode ser criado reduzindo a temperatura do gás {GAS:NitrousOxide} abaixo do seu ponto de ebulição. Isso pode ser alcançado usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidNitrousOxide} introduzido na atmosfera evaporará rapidamente de volta para {GAS:NitrousOxide}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidHydrogenDescription</Key>
-      <Value>{GAS:Hydrogen} em sua forma líquida. Pode ser criado abaixando a temperatura do gás {GAS:Hydrogen} abaixo do seu ponto de ebulição. Isso pode ser feito usando um {THING:StructureHeatExchangerGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidHydrogen} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Hydrogen}</Value>
+      <Value>{GAS:Hydrogen} em sua forma líquida. Pode ser criado reduzindo a temperatura do gás {GAS:Hydrogen} abaixo do seu ponto de ebulição. Isso pode ser feito usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidHydrogen} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Hydrogen}</Value>
     </Record>
     <Record>
       <Key>MoleHydrogenDescription</Key>
@@ -19143,7 +19143,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>MoleSteamDescription</Key>
-      <Value>{GAS:Water} evaporado. Pode ser criado aumentando a temperatura de {GAS:Water} até seu ponto de ebulição. Quando introduzido em um tubo, {GAS:Steam} se condensará de volta em {GAS:Water} se sua temperatura estiver abaixo do ponto de ebulição. O vapor pode ser criado pela combustão de {GAS:Volatiles} e oxigênio usando o {THING:H2Combustor}</Value>
+      <Value>{GAS:Water} evaporada. Pode ser criada aumentando a temperatura da {GAS:Water} até seu ponto de ebulição. Quando introduzido em um tubo,o {GAS:Steam} se condensará de volta em {GAS:Water} se sua temperatura estiver abaixo do ponto de ebulição. O vapor pode ser criado pela combustão de {GAS:Volatiles} e oxigênio usando o {THING:H2Combustor}</Value>
     </Record>
     <Record>
       <Key>SettingsSmoothTerrain</Key>
@@ -19156,7 +19156,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SettingsStartLocalHost</Key>
-      <Value>Iniciar LocalHost</Value>
+      <Value>Iniciar Host Local</Value>
     </Record>
     <Record>
       <Key>MainMenuChangeAppearance</Key>
@@ -19208,7 +19208,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
    </Record>
     <Record>
       <Key>StationpediaCoolantTemperatureOperatingRange</Key>
-      <Value>Refrigerante:</Value>
+      <Value>Fluido de Resfriamento:</Value>
     </Record>
     <Record>
       <Key>StationpediaThermalConductivityConvection</Key>
@@ -19244,19 +19244,19 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TradeErrorNoMotherboardInsertedTitle</Key>
-      <Value>Não é possível negociar</Value>
+      <Value>Não foi possível realizar a troca</Value>
     </Record>
     <Record>
       <Key>TradeErrorNoMotherboardInsertedMessage</Key>
-      <Value>O computador conectado precisa de uma placa-mãe de comunicação inserida para poder negociar.</Value>
+      <Value>O computador conectado requer uma placa-mãe de comunicação instalada para realizar trocas.</Value>
     </Record>
     <Record>
       <Key>TradeErrorPadError</Key>
-      <Value>A Plataforma de Pouso está em estado de erro. Restaure a plataforma para operação normal antes que a negociação possa continuar.</Value>
+      <Value>A Plataforma de Pouso está em estado de erro. Restaure a operação normal da plataforma antes de continuar a troca.</Value>
     </Record>
     <Record>
       <Key>TradeErrorPadOff</Key>
-      <Value>A Plataforma de Pouso está sem energia. Restaure a plataforma para operação normal antes que a negociação possa continuar.</Value>
+      <Value>A Plataforma de Pouso está sem energia. Restaure a operação normal da plataforma antes de continuar a troca.</Value>
     </Record>
     <Record>
       <Key>CartridgePlantAnalyserTitle</Key>
@@ -19324,7 +19324,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>PixelLightCount</Key>
-      <Value>Contagem de Luzes de Pixel</Value>
+      <Value>Quantidade de Luzes de Pixel</Value>
     </Record>
     <Record>
       <Key>SaveVersionWarning</Key>
@@ -19332,11 +19332,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StateChangePopup</Key>
-      <Value>Alteração de Estado: Você gostaria que o Stationeers tentasse modificar o conteúdo das redes atmosféricas no jogo carregado para evitar explosões imediatas e eventos de sobrepressão devido à mudança de estado líquido-gás-sólido?</Value>
+      <Value>Mudança de Estado: Você gostaria que o Stationeers tentasse modificar o conteúdo das redes atmosféricas no jogo carregado para evitar explosões imediatas e eventos de sobrepressão devido à mudança de estado líquido-gás-sólido?</Value>
     </Record>
     <Record>
       <Key>PipeVolumeChangePopup</Key>
-      <Value>Alteração de Volume do Tubo: Você gostaria que o Stationeers tentasse modificar o conteúdo de todas as redes de tubos para evitar que os tubos estourassem?</Value>
+      <Value>Mudança no Volume dos Tubos: Você gostaria que o Stationeers tentasse modificar o conteúdo de todas as redes de tubos para evitar que os tubos estourem?</Value>
     </Record>
     <Record>
       <Key>AttemptToFix</Key>
@@ -19356,17 +19356,17 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>PhaseChangeLogScale</Key>
-      <Value>Escala Logarítmica</Value>
+      <Value>Esc.Logarítmica</Value>
     </Record>
     <Record>
       <Key>PhaseDiagramTemperatureDisplay</Key>
       <Value>Temperatura:
-</Value>
+	  </Value>
     </Record>
     <Record>
       <Key>PhaseDiagramPressuredisplay</Key>
       <Value>Pressão:
-</Value>
+	  </Value>
     </Record>
     <Record>
       <Key>PhaseChangeCelsius</Key>
@@ -19390,7 +19390,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TabSiteDiscovery</Key>
-      <Value>Descoberta de Local</Value>
+      <Value>Descoberta de Locais</Value>
     </Record>
     <Record>
       <Key>TabNavPoints</Key>
@@ -19410,11 +19410,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>ButtonChart</Key>
-      <Value>Gráfico</Value>
+      <Value>Mapear</Value>
     </Record>
     <Record>
       <Key>ButtonSurvey</Key>
-      <Value>Pesquisas</Value>
+      <Value>Examinar</Value>
     </Record>
     <Record>
       <Key>ButtonIdle</Key>
@@ -19438,7 +19438,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>NewWorldYearLength</Key>
-      <Value>Período Sidéreo</Value>
+      <Value>Período Sideral</Value>
     </Record>
     <Record>
       <Key>StationpediaGrowthParameters</Key>
@@ -19454,7 +19454,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StationpediaRocketMassContribution</Key>
-      <Value>Contribuição da Massa do Foguete:</Value>
+      <Value>Contribuição de Massa do Foguete:</Value>
     </Record>
     <Record>
       <Key>StationpediaRocketMaxThrust</Key>
@@ -19466,7 +19466,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StationpediaRocketExhaustVelocity</Key>
-      <Value>Velocidade dos Gases de Escape:</Value>
+      <Value>Velocidade de Exaustão:</Value>
     </Record>
     <Record>
       <Key>NewWorldInformation</Key>
@@ -19482,15 +19482,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>RemoveNodeButton</Key>
-      <Value>Deletar Localização</Value>
+      <Value>Excluir Localização</Value>
     </Record>
     <Record>
       <Key>RemoveNodeText</Key>
-      <Value>Você tem certeza de que deseja deletar esta localização?</Value>
+      <Value>Tem certeza de que deseja excluir esta localização?</Value>
     </Record>
     <Record>
       <Key>RemoveNodeConfirm</Key>
-      <Value>Deletar</Value>
+      <Value>Excluir</Value>
     </Record>
     <Record>
       <Key>RemoveNodeCancel</Key>
@@ -19506,7 +19506,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StationpediaPowerMultiplierTitle</Key>
-      <Value>Uso de Energia:</Value>
+      <Value>Consumo de Energia:</Value>
     </Record>
     <Record>
       <Key>StationpediaReagentYieldMultiplierTitle</Key>
@@ -19526,7 +19526,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>PhaseChangeCompareTo</Key>
-      <Value>Comparar com:</Value>
+      <Value>Comparar c/:</Value>
     </Record>
     <Record>
       <Key>StationpediaLogicInstructions</Key>
@@ -19558,7 +19558,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>DefaultStartConditionDescription</Key>
-      <Value>Você começará com o básico necessário para estabelecer uma base remota, organizada sistematicamente em uma cápsula de pouso abastecida com caixas e pacotes.</Value>
+      <Value>Você começará com o básico necessário para estabelecer uma base remota, organizada sistematicamente em um módulo de pouso abastecido com caixas e pacotes.</Value>
     </Record>
     <Record>
       <Key>TerrainEditStartCondition</Key>
@@ -19574,11 +19574,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>DefaultStartConditionDescription</Key>
-      <Value>Você começará com o básico necessário para estabelecer uma base remota, organizado de forma sistemática em um módulo de pouso abastecido com caixas e pacotes.</Value>
+      <Value>Você começará com o básico necessário para estabelecer uma base remota, organizado sistematicamente em um módulo de pouso abastecido com caixas e pacotes.</Value>
     </Record>
     <Record>
       <Key>DefaultScenarioStartCondition</Key>
-      <Value>Somente kit do jogador</Value>
+      <Value>Apenas kit do jogador</Value>
     </Record>
     <Record>
       <Key>DefaultStartConditionVulcan</Key>
@@ -19598,7 +19598,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>DefaultCommunityStartCondition</Key>
-      <Value>Comunidade Padrão</Value>
+      <Value>Padrão da Comunidade</Value>
     </Record>
     <Record>
       <Key>DefaultCommunityStartConditionDescription</Key>
@@ -19606,19 +19606,19 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>DefaultCommunityStartConditionVulcan</Key>
-      <Value>Comunidade Padrão (Vulcan)</Value>
+      <Value>Padrão da Comunidade (Vulcan)</Value>
     </Record>
     <Record>
       <Key>DefaultCommunityStartConditionEuropa</Key>
-      <Value>Comunidade Padrão (Europa)</Value>
+      <Value>Padrão da Comunidade (Europa)</Value>
     </Record>
     <Record>
       <Key>DefaultCommunityStartConditionMimas</Key>
-      <Value>Comunidade Padrão (Mimas)</Value>
+      <Value>Padrão da Comunidade (Mimas)</Value>
     </Record>
     <Record>
       <Key>DefaultCommunityStartConditionVenus</Key>
-      <Value>Comunidade Padrão (Venus)</Value>
+      <Value>Padrão da Comunidade (Venus)</Value>
     </Record>
     <Record>
       <Key>BrutalStartCondition</Key>
@@ -19634,23 +19634,23 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>BrutalCommunityStartCondition</Key>
-      <Value>Comunidade Brutal</Value>
+      <Value>Brutal da Comunidade</Value>
     </Record>
     <Record>
       <Key>BrutalCommunityStartConditionEuropa</Key>
-      <Value>Comunidade Brutal (Europa)</Value>
+      <Value>Brutal da Comunidade (Europa)</Value>
     </Record>
     <Record>
       <Key>BrutalCommunityStartConditionMimas</Key>
-      <Value>Comunidade Brutal (Mimas)</Value>
+      <Value>Brutal da Comunidade (Mimas)</Value>
     </Record>
     <Record>
       <Key>BrutalCommunityStartConditionVulcan</Key>
-      <Value>Comunidade Brutal (Planeta Quente)</Value>
+      <Value>Brutal da Comunidade (Planeta Quente)</Value>
     </Record>
     <Record>
       <Key>BrutalCommunityStartConditionDescription</Key>
-      <Value>Cada Stationeer começará com seu próprio conjunto de suprimentos minimalistas.</Value>
+      <Value>Cada Stationeer começará com seu próprio conjunto de suprimentos mínimos.</Value>
     </Record>
     <Record>
       <Key>BrutalStartConditionVulcan</Key>
@@ -19658,19 +19658,19 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>BrutalStartConditionDescription</Key>
-      <Value>Você terá muito pouco para sobreviver. Não vou dizer suas chances... mas... você tem a minha simpatia.</Value>
+      <Value>Você terá muito pouco para sobreviver. Não vou dizer quais são suas chances... mas... você tem a minha simpatia.</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildPower</Key>
-      <Value>Construir uma configuração básica de energia</Value>
+      <Value>Construa um sistema básico de energia</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildFramePlatform</Key>
-      <Value>Construir uma plataforma 2x3 com estruturas</Value>
+      <Value>Construa uma plataforma 2x3 com estruturas</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuild6Frames</Key>
-      <Value>Construa uma plataforma 2x3 com {THING:StructureFrameIron}. As estruturas fornecem um ponto de fixação para a maioria dos dispositivos grandes.</Value>
+      <Value>Construa uma plataforma 2x3 com {THING:StructureFrameIron}. Estruturas fornecem um ponto de montagem para a maioria dos dispositivos grandes.</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveWeldFrames</Key>
@@ -19678,35 +19678,35 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveBuildArcFurnace</Key>
-      <Value>Construir e fornecer energia para o Torno Automático e o Forno de Arco</Value>
+      <Value>Construa e forneça energia ao Torno Automático e ao Forno de Arco</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveSmeltIron</Key>
-      <Value>Fundir Ferro no Forno de Arco</Value>
+      <Value>Funda Ferro no Forno de Arco</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildPrinters</Key>
-      <Value>Construir mais impressoras</Value>
+      <Value>Construa mais impressoras</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildStacker</Key>
-      <Value>Construir um Empilhador</Value>
+      <Value>Construa um Empilhador</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveSmeltSteel</Key>
-      <Value>Fundir um pouco de Aço</Value>
+      <Value>Funda um pouco de Aço</Value>
     </Record>
     <Record>
       <Key>SmeltSteelVulcanInfo</Key>
-      <Value>A atmosfera de Vulcan ao meio-dia é quente o suficiente para fundir aço</Value>
+      <Value>O ar de Vulcan ao meio-dia é quente o suficiente para fundir aço</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveVacuumRoom</Key>
-      <Value>Remover  o quarto</Value>
+      <Value>Remova o ar da sala</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveVacuumRoomInfo</Key>
-      <Value>Remover todo o gás da sala usando um {THING:StructureActiveVent}</Value>
+      <Value>Remova todo o gás da sala usando um {THING:StructureActiveVent}</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveCombustion</Key>
@@ -19714,15 +19714,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveCombustionInfo</Key>
-      <Value>Durante o dia, qualquer oxigênio liberado na atmosfera vulcânica irá imediatamente se combustionar</Value>
+      <Value>Durante o dia, qualquer oxigênio liberado na atmosfera de Vulcan entrará imediatamente em combustão</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveUpgradeElectronicsPrinter</Key>
-      <Value>Atualizar a Impressora de Eletrônicos</Value>
+      <Value>Atualize a Impressora de Eletrônicos</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveUpgradeManufacturing</Key>
-      <Value>Atualizar a Manufatura</Value>
+      <Value>Atualize os Fabricadores</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildFurnace</Key>
@@ -19730,7 +19730,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveBuildCentrifuge</Key>
-      <Value>onstrua um Reciclador e uma Centrífuga</Value>
+      <Value>Construa um Reciclador e uma Centrífuga</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveDeepMiners</Key>
@@ -19742,15 +19742,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveFillOxygen</Key>
-      <Value>Preencha uma sala com Oxigênio</Value>
+      <Value>Encha uma sala com Oxigênio</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveGrowFood</Key>
-      <Value>Cultive plantas para Oxigênio e Comida</Value>
+      <Value>Cultive plantas para Oxigênio e Alimento</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveRefillBottle</Key>
-      <Value>Reabastecer a Garrafa de Água</Value>
+      <Value>Reabasteça a Garrafa de Água</Value>
     </Record>
     <Record>
       <Key>WorldObjectivePlantsLight</Key>
@@ -19770,7 +19770,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveAcknowledgeAndDismiss</Key>
-      <Value>Rejeitar para Reconhecer</Value>
+      <Value>Dispensar para confirmar</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveOfflinePlayers</Key>
@@ -19778,15 +19778,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveFiltration</Key>
-      <Value>Faça a atmosfera da sua sala segura para respirar</Value>
+      <Value>Torne a atmosfera da sua sala segura para respirar</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveManageTemperature</Key>
-      <Value>Gerenciar a temperatura da sala</Value>
+      <Value>Gerencie a temperatura da sala</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildPad</Key>
-      <Value>Construa e forneça energia para uma plataforma de pouso comercial 3x3</Value>
+      <Value>Construa e forneça energia a uma plataforma de pouso de comércio 3x3</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveConnectPad</Key>
@@ -19794,11 +19794,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveResolveContact</Key>
-      <Value>Conecte uma Antena e Resolva um contato comercial</Value>
+      <Value>Conecte uma Antena e estabeleça um contato comercial</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveContactLand</Key>
-      <Value>Interrogue um Contato Comecial e chame-os para aterrissar</Value>
+      <Value>Interrogue um Contato Comecial e chame-o para pousar</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildPowerInfo</Key>
@@ -19806,15 +19806,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveBuildFurnaceInfo</Key>
-      <Value>Um Forno Avançado é necessário para fundir super ligas</Value>
+      <Value>Um Forno Avançado é necessário para fundir superligas</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveDeepMinersInfo</Key>
-      <Value>{THING:StructureDeepMiner} pode ser usado para colher um fluxo constante de recursos. {THING:StructureRocketManufactory} pode imprimir as peças para construir um foguete de mineração para coletar minérios e gelos de asteroides próximos.</Value>
+      <Value>{THING:StructureDeepMiner} pode ser usado para extrair um fluxo constante de recursos. {THING:StructureRocketManufactory} pode fabricar as peças para construir um foguete de mineração para coletar minérios e gelos de asteroides próximos.</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildStackerInfo</Key>
-      <Value>Conecte à saída do seu {THING:StructureAutolathe} com {THING:StructureChuteStraight}</Value>
+      <Value>Conecte à saída do seu {THING:StructureAutolathe} usando {THING:StructureChuteStraight}</Value>
     </Record>
     <Record>
       <Key>HelperHints</Key>
@@ -19822,11 +19822,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveCanisters</Key>
-      <Value>Reabastecer o Cilindro de Oxigênio</Value>
+      <Value>Reabasteça o Cilindro de Oxigênio</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveCanistersInfo</Key>
-      <Value>{THING:ItemGasCanisterEmpty} pode ser reabastecido inserindo-o em um {THING:DynamicGasCanisterEmpty} ou em um {THING:StructureGasTankStorage}</Value>
+      <Value>{THING:ItemGasCanisterEmpty} pode ser recarregado inserindo-o em um {THING:DynamicGasCanisterEmpty} ou em um {THING:StructureGasTankStorage}</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveOfflinePlayersInfo</Key>
@@ -19834,31 +19834,31 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveCablesBurn</Key>
-      <Value>Uma rede de energia sobrecarregada! Substitua o cabo queimado</Value>
+      <Value>Rede elétrica sobrecarregada! Substitua o cabo queimado</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveCablesBurnInfo</Key>
-      <Value>Cabos de energia podem queimar se sobrecarregados ou se uma bateria for em curto. Use um {THING:StructureCableFuse5k} para isolar falhas. Limite o fluxo de energia com um {THING:StructureTransformerSmall} ou atualize redes de alta potência para {THING:ItemCableCoilHeavy}</Value>
+      <Value>Cabos de energia podem queimar se estiverem sobrecarregados ou se uma bateria entrar em curto. Use um {THING:StructureCableFuse5k} para isolar falhas. Limite o fluxo de energia com um {THING:StructureTransformerSmall} ou atualize redes de alta potência para {THING:ItemCableCoilHeavy}</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveSmeltIce</Key>
-      <Value>Mine Ice para Gases</Value>
+      <Value>Mine gelo para obter gases</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveSmeltIceInfo</Key>
-      <Value>Gelos podem ser derretidos para obter gases e líquidos úteis. Coloque em um {THING:StructureIceCrusher} ou simplesmente use luz solar direta ou ar quente acima de 6kPa.</Value>
+      <Value>Gelos podem ser derretidos para obter gases e líquidos úteis. Coloque-os em um {THING:StructureIceCrusher} ou utilize luz solar direta ou ar quente acima de 6kPa.</Value>
     </Record>
     <Record>
       <Key>DismissCompletedButton</Key>
-      <Value>Rejeitar Concluídos</Value>
+      <Value>Dispensar Concluídos</Value>
     </Record>
     <Record>
       <Key>ShowDismissedButton</Key>
-      <Value>Mostrar Rejeitados</Value>
+      <Value>Mostrar Dispensados</Value>
     </Record>
     <Record>
       <Key>RenderDistanceMultiplierSetting</Key>
-      <Value>Multiplicador de Distância de Renderização</Value>
+      <Value>Multiplicador da Distância de Renderização</Value>
     </Record>
     <Record>
       <Key>SelectTutorialTitle</Key>
@@ -19902,7 +19902,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut1PlaceWall</Key>
-      <Value>Com as paredes na sua mão ativa, use {KEY:SecondaryAction} para entrar no modo de colocação. Use a &lt;color=#FBB03B&gt;Roda do Mouse&lt;/color&gt; para selecionar {THING:StructureWallIron} e segure {KEY:PrimaryAction} para colocar. Use {KEY:QuantityModifier} para girar.</Value>
+      <Value>Com as paredes na sua mão ativa, use {KEY:SecondaryAction} para entrar no modo de posicionamento. Use a &lt;color=#FBB03B&gt;Roda do Mouse&lt;/color&gt; para selecionar {THING:StructureWallIron} e segure {KEY:PrimaryAction} para posicionar. Use {KEY:QuantityModifier} para girar.</Value>
     </Record>
     <Record>
       <Key>Tutorial1CompleteWallHeading</Key>
@@ -19922,7 +19922,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut1IntroFrame</Key>
-      <Value>Um {THING:StructureFrameIron} bloqueará completamente uma grade.</Value>
+      <Value>Uma {THING:StructureFrameIron} bloqueará completamente um bloco da grade.</Value>
     </Record>
     <Record>
       <Key>Tut1PlaceFrame</Key>
@@ -19930,15 +19930,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut1CompleteFrame</Key>
-      <Value>Um {THING:StructureFrameIron} é finalizado usando um {THING:ItemWeldingTorch} na sua mão ativa e {THING:ItemIronSheets} na outra mão.</Value>
+      <Value>Uma {THING:StructureFrameIron} é finalizado usando um {THING:ItemWeldingTorch} na sua mão ativa e {THING:ItemIronSheets} na outra mão.</Value>
     </Record>
     <Record>
       <Key>Tut1UseWeldingTorch</Key>
-      <Value>Equipe o {THING:ItemWeldingTorch} no seu cinto de ferramentas, ligue-o com {KEY:SecondaryAction} ou pressionando {KEY:ToggleHandPower}.</Value>
+      <Value>Equipe o {THING:ItemWeldingTorch} no seu cinto de ferramentas e ligue-o com {KEY:SecondaryAction} ou pressionando {KEY:ToggleHandPower}.</Value>
     </Record>
     <Record>
       <Key>Tutorial1PlaceDoorHeading</Key>
-      <Value>Coloque uma porta entre os cabos posicionados</Value>
+      <Value>Coloque uma porta entre os cabos instalados</Value>
     </Record>
     <Record>
       <Key>Tut1GetDoorKit</Key>
@@ -19946,7 +19946,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut1PlaceDoor</Key>
-      <Value>Com o {THING:ItemKitDoor} na sua mão ativa, use {KEY:SecondaryAction} para entrar no modo de colocação. Use a &lt;color=#FBB03B&gt;Roda do Mouse&lt;/color&gt; para selecionar {THING:StructureGlassDoor} e segure {KEY:PrimaryAction} para colocar. Use {KEY:QuantityModifier} para girar.</Value>
+      <Value>Com o {THING:ItemKitDoor} na sua mão ativa, use {KEY:SecondaryAction} para entrar no modo de posicionamento. Use a &lt;color=#FBB03B&gt;Roda do Mouse&lt;/color&gt; para selecionar {THING:StructureGlassDoor} e segure {KEY:PrimaryAction} para posicionar. Use {KEY:QuantityModifier} para girar.</Value>
     </Record>
     <Record>
       <Key>Tutorial1CompleteDoorHeading</Key>
@@ -19954,11 +19954,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut1MaterialRequirements</Key>
-      <Value>Vários dispositivos têm estados de construção que exigem mais do que chapas de ferro.</Value>
+      <Value>Muitos dispositivos possuem etapas de construção que exigem mais do que chapas de ferro.</Value>
     </Record>
     <Record>
       <Key>Tut1RequirementTooltips</Key>
-      <Value>Olhe para um dispositivo com uma ferramenta incompatível para receber uma dica sobre qual ferramenta e material usar.</Value>
+      <Value>Olhe para um dispositivo com uma ferramenta incompatível para ver uma dica sobre qual ferramenta e material usar.</Value>
     </Record>
     <Record>
       <Key>Tut1FinishDoor</Key>
@@ -19966,15 +19966,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tutorial1FinishRoomHeading</Key>
-      <Value>Complete o restante da sala</Value>
+      <Value>Finalize o restante da sala</Value>
     </Record>
     <Record>
       <Key>Tut1RoomCreation</Key>
-      <Value>Um espaço totalmente fechado por paredes, quadros ou portas criará uma sala.</Value>
+      <Value>Um espaço completamente fechado por paredes, estruturas ou portas criará uma sala.</Value>
     </Record>
     <Record>
       <Key>Tut1FinishRoom</Key>
-      <Value>Construa paredes e quadros nos locais apropriados para completar a sala.</Value>
+      <Value>Construa paredes e estruturas nos locais apropriados para completar a sala.</Value>
     </Record>
     <Record>
       <Key>Tutorial2Title</Key>
@@ -19986,15 +19986,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tutorial2SuitUpHeading</Key>
-      <Value>Equipe o traje do armário</Value>
+      <Value>Equipe os equipamentos do armário</Value>
     </Record>
     <Record>
       <Key>Tut2NeedASuit</Key>
-      <Value>Um traje e capacete funcionais fornecem uma atmosfera respirável.</Value>
+      <Value>Um traje e capacete funcionando fornecem uma atmosfera respirável para você.</Value>
     </Record>
     <Record>
       <Key>Tut2SuitConfigured</Key>
-      <Value>Este traje está pré-configurado para energia, oxigênio e filtragem de ar.</Value>
+      <Value>Este traje já está configurado para energia, oxigênio e filtragem de ar.</Value>
     </Record>
     <Record>
       <Key>Tutorial2EatAndDrinkHeading</Key>
@@ -20002,11 +20002,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut2HungerUi</Key>
-      <Value>Sua fome está no canto inferior direito da tela.</Value>
+      <Value>Sua fome aparece no canto inferior direito da tela.</Value>
     </Record>
     <Record>
       <Key>Tut2OpenHelmet</Key>
-      <Value>Com o capacete fechado, você não pode comer. Pressionar {KEY:Internals} abrirá seu capacete.</Value>
+      <Value>Com o capacete fechado você não pode comer. Pressionar {KEY:Internals} abrirá seu capacete.</Value>
     </Record>
     <Record>
       <Key>Tut2EatFood</Key>
@@ -20018,7 +20018,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut2OutsideAtmospheres</Key>
-      <Value>As atmosferas externas não são respiráveis de forma segura.</Value>
+      <Value>Atmosferas externas não são seguras para respirar.</Value>
     </Record>
     <Record>
       <Key>Tut2CloseHelmet</Key>
@@ -20026,27 +20026,27 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tutorial2GoOutsideHeading</Key>
-      <Value>Vá para fora</Value>
+      <Value>Saia para o exterior</Value>
     </Record>
     <Record>
       <Key>Tut2DoorsLeadOutside</Key>
-      <Value>As portas de vidro levam para fora.</Value>
+      <Value>As portas de vidro levam para o exterior.</Value>
     </Record>
     <Record>
       <Key>Tut2CloseDoors</Key>
-      <Value>Feche as portas atrás de você para manter o ar na sala.</Value>
+      <Value>Feche as portas atrás de você para manter o ar dentro da sala.</Value>
     </Record>
     <Record>
       <Key>Tutorial2ConnectGeneratorHeading</Key>
-      <Value>Conecte o gerador verde ao lado esquerdo do controle de energia da área verde (apc)</Value>
+      <Value>Conecte o gerador verde ao lado esquerdo do controlador de energia da área verde (APC)</Value>
     </Record>
     <Record>
       <Key>Tut2CablesInLocker</Key>
-      <Value>As pilhas de {THING:ItemCableCoil} podem ser encontradas no armário.</Value>
+      <Value>Pilhas de {THING:ItemCableCoil} podem ser encontradas no armário.</Value>
     </Record>
     <Record>
       <Key>Tut2PlaceCables</Key>
-      <Value>Use {KEY:SecondaryAction} para entrar no modo de colocação, use {KEY:PrimaryAction} para colocar.</Value>
+      <Value>Use {KEY:SecondaryAction} para entrar no modo de posicionamento e {KEY:PrimaryAction} para posicionar.</Value>
     </Record>
     <Record>
       <Key>Tut2CableVariants</Key>
@@ -20054,15 +20054,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut2RemovingCables</Key>
-      <Value>Os {THING:ItemWireCutters} no seu cinto de ferramentas podem remover cabos colocados.</Value>
+      <Value>O {THING:ItemWireCutters} no seu cinto de ferramentas podem remover cabos instalados.</Value>
     </Record>
     <Record>
       <Key>Tutorial2ApcHeading</Key>
-      <Value>Abra o APC, insira a bateria carregada e ligue o APC</Value>
+      <Value>Abra o APC, insira uma bateria carregada e ligue o APC</Value>
     </Record>
     <Record>
       <Key>Tut2PryOpenApc</Key>
-      <Value>A {THING:ItemCrowbar} no seu cinto de ferramentas pode forçar a abertura do {THING:StructureAreaPowerControl}.</Value>
+      <Value>O {THING:ItemCrowbar} no seu cinto de ferramentas pode abrir o {THING:StructureAreaPowerControl}.</Value>
     </Record>
     <Record>
       <Key>Tut2ApcBattery</Key>
@@ -20070,7 +20070,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut2PlaceBatteryInApc</Key>
-      <Value>Coloque uma {THING:ItemBatteryCellLarge} carregada do armário no {THING:StructureAreaPowerControl} e ligue-o para fornecer energia aos dispositivos.</Value>
+      <Value>Coloque uma {THING:ItemBatteryCellLarge} carregada do armário no {THING:StructureAreaPowerControl} e ligue-o para que ele possa fornecer energia aos dispositivos.</Value>
     </Record>
     <Record>
       <Key>Tutorial2ConnectApcToDoorHeading</Key>
@@ -20082,7 +20082,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut2MergingCables</Key>
-      <Value>Sobrepor cabos com a {THING:ItemWireCutters} na sua mão secundária substituirá o cabo existente pela variante combinada.</Value>
+      <Value>Sobrepor cabos com o {THING:ItemWireCutters} na sua mão secundária substituirá o cabo existente pela variante combinada.</Value>
     </Record>
     <Record>
       <Key>Tutorial2WrenchTankHeading</Key>
@@ -20094,7 +20094,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut2DropTank</Key>
-      <Value>Uma vez na posição, solte o tanque com {KEY:Drop}.</Value>
+      <Value>Quando estiver na posição correta, solte o tanque com {KEY:Drop}.</Value>
     </Record>
     <Record>
       <Key>Tut2WrenchTank</Key>
@@ -20110,7 +20110,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut2PlacePipes</Key>
-      <Value>Use {KEY:SecondaryAction} para entrar no modo de colocação, use {KEY:PrimaryAction} para colocar.</Value>
+      <Value>Use {KEY:SecondaryAction} para entrar no modo de posicionamento e {KEY:PrimaryAction} para colocar.</Value>
     </Record>
     <Record>
       <Key>Tut2PipeVariants</Key>
@@ -20130,15 +20130,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tut2TurnOnGenerator</Key>
-      <Value>Ligue o {THING:StructureSolidFuelGenerator} com o interruptor de energia.</Value>
+      <Value>Ligue o {THING:StructureSolidFuelGenerator} usando o interruptor de energia.</Value>
     </Record>
     <Record>
       <Key>Tutorial3Title</Key>
-      <Value>Tutorial 3: Atmosférica</Value>
+      <Value>Tutorial 3: Atmosfera</Value>
     </Record>
     <Record>
       <Key>Tutorial3Summary</Key>
-      <Value>Aprenda a recarregar cilindros e mover gás pelo ambiente</Value>
+      <Value>Aprenda como recarregar cilindros e mover gases pelo ambiente</Value>
     </Record>
     <Record>
       <Key>Tutorial3RefillOxygenTankHeading</Key>
@@ -20146,31 +20146,31 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tutorial3SuitInventory</Key>
-      <Value>O seu {THING:ItemEvaSuit} possui um inventário, assim como uma Mochila ou Cinto de Ferramentas.</Value>
+      <Value>O seu {THING:ItemEvaSuit} possui um inventário assim como uma mochila ou um cinto de ferramentas.</Value>
     </Record>
     <Record>
       <Key>Tutorial3OxygenTankLow</Key>
-      <Value>O seu {THING:ItemGasCanisterEmpty} de Oxigênio está com pressão baixa.</Value>
+      <Value>Seu cilindro de oxigênio {THING:ItemGasCanisterEmpty} está com baixa pressão.</Value>
     </Record>
     <Record>
       <Key>Tutorial3SuitWarning</Key>
-      <Value>O {THING:ItemEvaSuit} emitirá um aviso quando o Oxigênio {THING:ItemGasCanisterEmpty} for removido.</Value>
+      <Value>O {THING:ItemEvaSuit} emitirá um aviso quando o cilindro de Oxigênio {THING:ItemGasCanisterEmpty} for removido.</Value>
     </Record>
     <Record>
       <Key>Tutorial3CanisterSlot</Key>
-      <Value>O slot de {THING:DynamicGasCanisterEmpty} recarrega os cilindros.</Value>
+      <Value>O slot de listas prestas e amarelas de {THING:DynamicGasCanisterEmpty} recarrega os cilindros.</Value>
     </Record>
     <Record>
       <Key>Tutorial3EmptyWasteHeading</Key>
-      <Value>Esvaziar o cilindro de resíduos do traje</Value>
+      <Value>Esvazie o cilindro de resíduos do traje</Value>
     </Record>
     <Record>
       <Key>Tutorial3WasteTankFillsUp</Key>
-      <Value>O {THING:ItemGasCanisterEmpty} amarelo no seu traje se enche com o CO2 expirado.</Value>
+      <Value>O cilindro amarelo de resíduos {THING:ItemGasCanisterEmpty} no seu traje se enche com o CO2 expirado.</Value>
     </Record>
     <Record>
       <Key>Tutorial3WasteTankNeedsEmptying</Key>
-      <Value>O {THING:ItemGasCanisterEmpty} de resíduos deve ser esvaziado quando estiver cheio.</Value>
+      <Value>O cilindro de resíduos {THING:ItemGasCanisterEmpty} deve ser esvaziado quando estiver cheio.</Value>
     </Record>
     <Record>
       <Key>Tutorial3ClickToEmptyWaste</Key>
@@ -20182,23 +20182,23 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tutorial3TabletInBackpack</Key>
-      <Value>Seu {THING:ItemHardBackpack} contém um {THING:ItemTablet}.</Value>
+      <Value>Sua {THING:ItemHardBackpack} contém um {THING:ItemTablet}.</Value>
     </Record>
     <Record>
       <Key>Tutorial3InsertCartridge</Key>
-      <Value>O {THING:ItemTablet} possui um inventário que aceita um {THING:CartridgeAtmosAnalyser}.</Value>
+      <Value>O {THING:ItemTablet} possui um inventário que aceita um {THING:CartridgeAtmosAnalyser}. Clique com o botão esquedo do Mouse no Tablet e abrirá seu invéntario.</Value>
     </Record>
     <Record>
       <Key>Tutorial3AtmosAnalyserInfo</Key>
-      <Value>Ligação do {THING:ItemTablet} clicando com o &lt;color=#FBB03B&gt;Botão Direito do Mouse&lt;/color&gt;. O {THING:CartridgeAtmosAnalyser} exibirá a pressão e a temperatura do gás.</Value>
+      <Value>Ligue o {THING:ItemTablet} clicando com o &lt;color=#FBB03B&gt;Botão Direito do Mouse&lt;/color&gt;. O {THING:CartridgeAtmosAnalyser} exibirá a pressão e a temperatura do gás.</Value>
     </Record>
     <Record>
       <Key>Tutorial3AtmosAnalyserInfo2</Key>
-      <Value>O {THING:CartridgeAtmosAnalyser} exibe a atmosfera da sala ou o gás dentro do item que você está analisando.</Value>
+      <Value>O {THING:CartridgeAtmosAnalyser} mostra a atmosfera do ambiente ou o gás dentro do item que você está observando.</Value>
     </Record>
     <Record>
       <Key>Tutorial3FillPipeHeading</Key>
-      <Value>Preencha a rede de tubos com oxigênio</Value>
+      <Value>Encha a rede de tubulação com oxigênio</Value>
     </Record>
     <Record>
       <Key>Tutorial3DragCanister</Key>
@@ -20210,39 +20210,39 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tutorial3AnalyzePipeNetworkHeading</Key>
-      <Value>Olhe para o Medidor de Tubo branco</Value>
+      <Value>Olhe para o medidor de tubulação branco</Value>
     </Record>
     <Record>
       <Key>Tutorial3NoticePressure</Key>
-      <Value>Assim como o {THING:CartridgeAtmosAnalyser}, o {THING:StructurePipeMeter} é outra maneira de ler a pressão e a temperatura do gás em um tubo.</Value>
+      <Value>Assim como o {THING:CartridgeAtmosAnalyser}, o {THING:StructurePipeMeter} é outra forma de ler a pressão e a temperatura do gás em uma tubulação.</Value>
     </Record>
     <Record>
       <Key>Tutorial3AddGasTankStorageHeading</Key>
-      <Value>Conectar um tanque de armazenamento de gás</Value>
+      <Value>Conecte um tanque de armazenamento de gás</Value>
     </Record>
     <Record>
       <Key>Tutorial3ConstructValveBluePipe</Key>
-      <Value>Construa uma {THING:StructureValve} para conectar o tubo azul ao tubo branco.</Value>
+      <Value>Construa uma {THING:StructureValve} para conectar a tubulação azul à tubulação branca.</Value>
     </Record>
     <Record>
       <Key>Tutorial3ConstructGasTankStorage</Key>
-      <Value>Construa um {THING:StructureGasTankStorage} conectado ao tubo azul usando o {THING:ItemKitPipeUtility} no armário.</Value>
+      <Value>Construa um {THING:StructureGasTankStorage} conectado à tubulação azul usando o {THING:ItemKitPipeUtility} no armário.</Value>
     </Record>
     <Record>
       <Key>Tutorial3ScrollToChangeBlueprint</Key>
-      <Value>O {THING:ItemKitPipeUtility} pode construir vários dispositivos. Use o &lt;color=#FBB03B&gt;Roda de Rolagem do Mouse&lt;/color&gt; para selecionar o blueprint do {THING:StructureGasTankStorage}.</Value>
+      <Value>O {THING:ItemKitPipeUtility} pode construir vários dispositivos. Use o &lt;color=#FBB03B&gt;Roda de Rolagem do Mouse&lt;/color&gt; para selecionar o projeto do {THING:StructureGasTankStorage}.</Value>
     </Record>
     <Record>
       <Key>Tutorial3FillCanisterHeading</Key>
-      <Value>Encha um cilindro vazio</Value>
+      <Value>Encha um cilindro de gás vazio</Value>
     </Record>
     <Record>
       <Key>Tutorial3InsertCanisterFromLocker</Key>
-      <Value>Pegue um {THING:ItemGasCanisterEmpty} branco do armário e insira-o no {THING:StructureGasTankStorage}.</Value>
+      <Value>Pegue um {THING:ItemGasCanisterEmpty} branco no armário e insira-o no {THING:StructureGasTankStorage}.</Value>
     </Record>
     <Record>
       <Key>Tutorial3OpenTheCanisterValve</Key>
-      <Value>A {THING:StructureValve} permite a mistura entre duas redes de tubos, gire a alavanca para abrir a {THING:StructureValve}.</Value>
+      <Value>A {THING:StructureValve} permite a mistura entre duas redes de tubulação, gire a alavanca para abrir a {THING:StructureValve}.</Value>
     </Record>
     <Record>
       <Key>Tutorial3AnalyzeCanisterHeading</Key>
@@ -20254,15 +20254,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>Tutorial3PassiveVents</Key>
-      <Value>A {THING:StructurePassiveVent} permite que o gás se misture entre o tubo conectado e o ambiente.</Value>
+      <Value>A {THING:StructurePassiveVent} permite que o gás se misture entre a tubulação conectada e o ambiente.</Value>
     </Record>
     <Record>
       <Key>Tutorial3ConstructOrangeValve</Key>
-      <Value>Construa uma {THING:StructureValve} no espaço entre os tubos branco e laranja.</Value>
+      <Value>Construa uma {THING:StructureValve} no espaço entre a tubulação branca e a tubulação laranja.</Value>
     </Record>
     <Record>
       <Key>Tutorial3PressurizeRoomHeading</Key>
-      <Value>Pressurizando a sala</Value>
+      <Value>Pressurize a sala</Value>
     </Record>
     <Record>
       <Key>Tutorial3OpenTheRoomValve</Key>
@@ -20274,11 +20274,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TutorialAirlockWorldName</Key>
-      <Value>Guia da Comunidade: Antecâmaras</Value>
+      <Value>Guia da Comunidade: Câmaras de Descompressão (Airlock)</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockDescription</Key>
-      <Value>Aprenda o básico da criação de uma Antecâmara.</Value>
+      <Value>Aprenda os conceitos básicos para criar uma câmara de descompressão (Airlock).</Value>
     </Record>
     <Record>
       <Key>CommunityTutorialBigFootMSR</Key>
@@ -20286,11 +20286,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TutorialAirlockPowerName</Key>
-      <Value>Configurando Energia para a Antecâmara</Value>
+      <Value>Configurando a energia da câmara de descompressão (Airlock)</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockPowerInfo</Key>
-      <Value>Usar um {THING:StructureAreaPowerControl} em uma antecâmara funcionará como um backup de bateria e isolará a antecâmara de comandos lógicos incorretos.</Value>
+      <Value>Usar um {THING:StructureAreaPowerControl} em uma câmara de descompressão funcionará como uma bateria de reserva e isolará a câmara de descompressão de comandos lógicos incorretos.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockPowerPlaceAPC</Key>
@@ -20298,7 +20298,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TutorialAirlockAPCName</Key>
-      <Value>Fornecendo Energia para a Antecâmara</Value>
+      <Value>Forneça energia para a câmara de descompressão</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockAPCPryOpen</Key>
@@ -20314,19 +20314,19 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TutorialAirlockInformationName</Key>
-      <Value>Componentes comuns da Antecâmara</Value>
+      <Value>Componentes comuns da câmara de descompressão</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInformationInfo</Key>
-      <Value>A maioria das antecâmaras terá componentes comuns, como um {THING:StructureConsole} e um {THING:StructureGasSensor}.</Value>
+      <Value>A maioria das câmaras de descompressão possuem componentes comuns, como um {THING:StructureConsole} e um {THING:StructureGasSensor}.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInformationPlaceConsole</Key>
-      <Value>Coloque um {THING:StructureConsole} no meio da estrutura, abaixo da {THING:StructureLightRound}, no corredor entre as duas salas.</Value>
+      <Value>Coloque um {THING:StructureConsole} no centro da estrutura, abaixo da {THING:StructureLightRound}, no corredor entre as duas salas.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInformationPlaceSensor</Key>
-      <Value>Coloque um {THING:StructureGasSensor} na outra extremidade do cabo, ao lado dele.</Value>
+      <Value>Coloque um {THING:StructureGasSensor} na outra extremidade do cabo ao lado dele.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInsertCardName</Key>
@@ -20334,7 +20334,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TutorialAirlockInsertCardInfo</Key>
-      <Value>As antecâmaras avançadas são usadas quando há atmosfera em ambos os lados, enquanto o cartão de antecâmara é usado quando há vácuo em um dos lados da antecâmara.</Value>
+      <Value>Câmaras de descompressão (Airlock) avançadas são usadas quando há atmosfera em ambos os lados, enquanto a placa da Câmaras de descompressão (Airlock) Simples é usada quando há vácuo em um dos lados da câmara de descompressão.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInsertCardPutAdvAirlock</Key>
@@ -20342,23 +20342,23 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TutorialAirlockInsertCardInstallGlass</Key>
-      <Value>Conclua o console com uma {THING:ItemGlassSheets} e ligue-o.</Value>
+      <Value>Finalize o console com uma {THING:ItemGlassSheets} e ligue-o.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockVentilationName</Key>
-      <Value>Colocando Ventilações Ativas</Value>
+      <Value>Instale saídas de ventilação ativas</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockVentilationInfo</Key>
-      <Value>As antecâmaras avançadas exigem uma {THING:StructureActiveVent} para cada lado da antecâmara. Existem vários tipos de ventilação no jogo, como a mais potente {THING:StructurePoweredVent} e a {THING:StructurePoweredVentLarge}, adequada para antecâmaras realmente grandes.</Value>
+      <Value>Câmaras de descompressão avançadas requerem uma {THING:StructureActiveVent} para cada lado da câmara. Existem vários tipos de ventilação no jogo, como os maiores e mais potentes {THING:StructurePoweredVent} e a {THING:StructurePoweredVentLarge}, para câmaras de descompressão realmente grandes.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockVentilationPlaceVents</Key>
-      <Value>Coloque duas {THING:StructureActiveVent} no teto, conectadas ao tubo e ao cabo amarelos.</Value>
+      <Value>Coloque duas {THING:StructureActiveVent} no teto conectadas à tubulação amarela e ao cabo de energia.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockBuildDoorsName</Key>
-      <Value>Conclua as 2 portas</Value>
+      <Value>Complete as 2 portas</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockBuildDoorsInfo</Key>
@@ -20366,15 +20366,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TutorialAirlockBuildDoorsFinish</Key>
-      <Value>Conclua a construção das duas {THING:StructureGlassDoor} da antecâmara utilizando os suprimentos do Armário.</Value>
+      <Value>Finalize a construção das duas {THING:StructureGlassDoor} da câmara de descompressão com os suprimentos no armário.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockBuildDoorsWelderReminder</Key>
-      <Value>Lembre-se de desligar a sua Soldadora quando não estiver em uso.</Value>
+      <Value>Lembre-se de desligar o Maçarico quando não estiver em uso.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingName</Key>
-      <Value>Programando a Antecâmara</Value>
+      <Value>Programando a câmara de descompressão</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingInfo</Key>
@@ -20382,67 +20382,67 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingUseLabeller</Key>
-      <Value>Rotule a {THING:StructureGlassDoor} e a {THING:StructureActiveVent} de um lado da antecâmara com algo fácil de lembrar, como 'Externa' ou 'Interna'. Em seguida, rotule o outro lado como o oposto.</Value>
+      <Value>Rotule a {THING:StructureGlassDoor} e a {THING:StructureActiveVent} de um lado da câmara de descompressão com algo fácil de lembrar, como 'Exterior' ou 'Interior'. Em seguida, rotule o outro lado com o oposto.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingInserDisk</Key>
-      <Value>Insira o {THING:ItemDataDisk} no slot de disco na lateral do {THING:StructureConsole} para habilitar a tela de configuração.</Value>
+      <Value>Use sua {THING:ItemScrewdriver} no parafuso de configuração na lateral do  {THING:StructureConsole} para habilitar a tela de configuração.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingPressureSettingNote</Key>
-      <Value>A Antecâmara Avançada oferece a opção de definir a pressão de cada lado da antecâmara, que ela tentará pressurizar. Você deve ajustar isso para coincidir com a pressão de cada lado da antecâmara. Observe que o cartão de Antecâmara comum não permite esse recurso.</Value>
+      <Value>A Câmara de Descompressão Avançada permite definir a pressão de cada lado da câmara que ela tentará pressurizar. Você deve configurar isso para corresponder à pressão de cada lado da câmara de descompressão. Observe que a placa de controle de Airlock comum não permite esse recurso.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingChooseExteriorDoors</Key>
-      <Value>Escolha a porta externa clicando nela com o mouse. Observe que o texto Verde de externa muda para interna na outra porta, para indicar qual será qual.</Value>
+      <Value>Escolha a porta externa clicando nela com o mouse. Observe que o texto verde "Exterior" muda para "Interior" na outra porta para indicar qual porta será qual.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingRepeatForVents</Key>
-      <Value>Repita o mesmo passo de configuração para as Válvulas de Ventilação, escolhendo primeiro a válvula externa e depois a válvula interna.</Value>
+      <Value>Repita o mesmo passo de configuração para as saídas de ventilação, primeiro escolhendo a ventilação externa e depois a ventilação interna.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingChooseSensor</Key>
-      <Value>Por fim, selecione o Sensor da antecâmara.</Value>
+      <Value>Por fim, selecione o sensor da câmara de descompressão.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingRemoveDisk</Key>
-      <Value>Uma vez que o sensor tenha sido selecionado, se todas as seleções tiverem sido feitas corretamente, o interruptor deverá ficar verde sólido e parar de piscar. Remova o disco.</Value>
+      <Value>Depois que o sensor for selecionado, se todas as seleções tiverem sido feitas corretamente, o interruptor deverá ficar verde sólido e parar de piscar. Use sua {THING:ItemScrewdriver} para desativar a tela de configuração.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockName</Key>
-      <Value>Ative a Antecâmara</Value>
+      <Value>Ative a câmara de descompressão (Airlock)</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockInfo</Key>
-      <Value>A vida no espaço é uma aventura. Para chegar lá, é preciso primeiro usar uma antecâmara. - BigfootMSR</Value>
+      <Value>A vida no espaço é uma aventura. Para chegar lá, primeiro é preciso usar uma câmara de descompressão. - BigfootMSR</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockOperatingInfo</Key>
-      <Value>A antecâmara primeiro despressurizará a câmara e depois a repressorizará até a pressão selecionada na parte superior da Tela de Configuração da Antecâmara.</Value>
+      <Value>A câmara de descompressão primeiro despressurizará a câmara e depois a pressurizará novamente até a pressão selecionada na parte superior da tela de configuração da câmara de descompressão.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockHowToIncreaseSpeed</Key>
-      <Value>Você pode aumentar a velocidade da antecâmara ampliando o tamanho da rede de tubos ou o volume. É possível adicionar mais Tubos ou Tanques em linha para aumentar o volume.</Value>
+      <Value>Você pode aumentar a velocidade da câmara de descompressão aumentando o tamanho da rede de tubulação, ou seja, o volume. Você pode adicionar mais tubulações ou tanques em linha para aumentar o volume.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockCancellButton</Key>
-      <Value>Se a antecâmara estiver demorando muito para completar o ciclo, você pode pressionar o botão Cancelar na tela do console para avançar para a próxima etapa.</Value>
+      <Value>Se a câmara de descompressão estiver demorando muito para completar o ciclo, você pode pressionar o botão cancelar na tela do console para avançar para a próxima etapa.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockProgramYourOwn</Key>
-      <Value>É possível criar suas próprias antecâmaras utilizando a programação IC10 dentro do jogo.</Value>
+      <Value>É possível criar suas próprias câmaras de descompressão usando a programação IC10 do jogo.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockCycleAirlock</Key>
-      <Value>Acione o ciclo da antecâmara</Value>
+      <Value>Execute o ciclo da câmara de descompressão</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialName</Key>
-      <Value>Guia da Comunidade: Fundição Básica</Value>
+      <Value>Guia da Comunidade: Fundamentos do Forno</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialDescription</Key>
-      <Value>Aprenda o básico da fundição.</Value>
+      <Value>Aprenda os fundamentos da fundição.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingIntro</Key>
@@ -20450,72 +20450,71 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingInfo</Key>
-      <Value>O {LINK:OrePage;minério} bruto que foi extraído precisa ser processado em {LINK:IngotPage;barras} para uso nas Impressoras. Isso pode ser feito em uma {THING:StructureArcFurnace}, em uma {THING:StructureFurnace} ou na {THING:StructureAdvancedFurnace}.</Value>
+      <Value>O {LINK:OrePage;Minério} bruto que foi minerado precisa ser processado em {LINK:IngotPage;Lingotes} para uso nas Impressoras. Isso pode ser feito em um {THING:StructureArcFurnace}, em um {THING:StructureFurnace} ou no {THING:StructureAdvancedFurnace}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingPlaceArcFurnace</Key>
-      <Value>Coloque a {THING:StructureArcFurnace} do {THING:StructureStorageLocker} sobre a Estrutura Amarela conectada ao Cabo de Energia.</Value>
+      <Value>Coloque o {THING:StructureArcFurnace} do {THING:StructureStorageLocker} na estrutura amarela conectada ao cabo de energia.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingTurnOnArcFurnace</Key>
-      <Value>Ligue a {THING:StructureArcFurnace}.</Value>
+      <Value>Ligue o {THING:StructureArcFurnace}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialArcFurnaceName</Key>
-      <Value>Fornalha de Arco</Value>
+      <Value>Forno de Arco</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialArcFurnaceInfo</Key>
-      <Value>Diferentes Minérios exigem diferentes quantidades de energia para serem processados, sendo o {THING:ItemGoldOre} o mais exigente em consumo. Mais tarde, pode ser necessário proteger seus circuitos ao usar uma Fornalha de Arco para fundição.</Value>
+      <Value>Diferentes Minérios exigem diferentes quantidades de energia para serem processados. {THING:ItemGoldOre} é o que mais consome energia. Mais adiante você pode precisar proteger seus circuitos ao usar um Forno de Arco para fundição.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialArcFurnaceTakeBackpack</Key>
-      <Value>Pegue a {THING:ItemMiningBackPack} laranja do Armário, abra-a com {KEY:ActiveHandSlot} e arraste um {THING:ItemIronOre} para o slot 
-	    {SLOT:Import} do {THING:StructureArcFurnace}.</Value>
+      <Value>Pegue a {THING:ItemMiningBackPack} laranja no Armário, abra-a com {KEY:ActiveHandSlot} e arraste um {THING:ItemIronOre} para o slot {SLOT:Import} do {THING:StructureArcFurnace}.</Value>
 	</Record>
     <Record>
       <Key>FurnaceTutorialArcFurnacePressButton</Key>
-      <Value>Pressione o Botão Vermelho na {THING:StructureArcFurnace} para ativá-la. Em seguida, aguarde um pouco para que o minério seja processado e saia pela parte traseira. Você pode pressionar o botão novamente para pará-la.</Value>
+      <Value>Pressione o Botão Vermelho no {THING:StructureArcFurnace} para ativá-lo. Em seguida, aguarde um pouco para que o minério seja processado e saia pela parte traseira. Você pode pressionar o botão novamente para pará-lo.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFurnaceName</Key>
-      <Value>A Fornalha Básica</Value>
+      <Value>Forno Básico</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFurnaceInfo</Key>
-      <Value>Alguns minérios extraídos podem conter gases que serão liberados durante o processo de fundição. Parte desses Gases pode ser valiosa ou usada como fonte de combustível. Você pode verificar quais gases estão em cada minério pesquisando-os na Stationpedia {KEY:Help}.</Value>
+      <Value>Alguns minérios extraídos podem conter gases que serão liberados durante o processo de fundição. Alguns desses gases podem ser valiosos e/ou utilizados como fonte de combustível. Você pode verificar quais gases estão presentes em cada minério pesquisando por eles na Stationpedia {KEY:Help}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFurnacePlaceFurnace</Key>
-      <Value>Retire a {THING:StructureFurnace} do Armário e coloque-a sobre a Estrutura Verde. É recomendado posicioná-la de lado para facilitar o acesso ao Slot de Entrada superior e evitar que a saída atravesse o chão. Gire a orientação de posicionamento com {KEY:RotateLeft}/{KEY:RotateRight}, {KEY:RotateUp}/{KEY:RotateDown}, {KEY:RotateRollLeft}/{KEY:RotateRollRight}.</Value>
+      <Value>Retire o {THING:StructureFurnace} do armário e coloque-o acima da estrutura verde. É recomendado colocá-lo de lado para facilitar o acesso ao slot de entrada superior e evitar que a saída atravesse o chão. Gire a orientação de posicionamento com {KEY:RotateLeft}/{KEY:RotateRight}, {KEY:RotateUp}/{KEY:RotateDown}, {KEY:RotateRollLeft}/{KEY:RotateRollRight}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFurnaceBuildFurnace</Key>
-      <Value>Conclua a construção da {THING:StructureFurnace}.</Value>
+      <Value>Finalize a construção do {THING:StructureFurnace}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFurnacePlaceGasValve</Key>
-      <Value>Coloque uma {THING:StructureValve} acima do Cabo Vermelho na parede conectada ao Tubo Amarelo.</Value>
+      <Value>Coloque uma {THING:StructureValve} acima do cabo vermelho na parede conectado à tubulação amarela.</Value>
     </Record>
 	<Record>
 	  <Key>FurnaceTutorialPlumbingName</Key>
-	  <Value>Conectando a Fornalha</Value>
+	  <Value>Conectando a tubulação do forno</Value>
 	</Record>
     <Record>
       <Key>FurnaceTutorialPlumbingInfo</Key>
-      <Value>A {THING:StructureFurnace} possui duas conexões de tubo e uma conexão de cabo. A conexão de tubo de Entrada tem uma válvula de retenção unidirecional para evitar que o gás retorne pelo tubo. A pressão de Entrada deve ser maior que a Pressão da Fornalha para injetar mais combustível. A conexão de Saída não possui válvula, portanto o gás pode fluir livremente entre a fornalha e o tubo de Saída. Você pode apontar o mouse para uma porta para ver qual é.</Value>
+      <Value>O {THING:StructureFurnace} possui duas conexões de tubulação e uma conexão de cabo. A conexão de entrada de tubulação possui uma válvula de retenção unidirecional para evitar que o gás retorne para a tubulação. A pressão de entrada deve ser maior que a pressão do forno para injetar mais combustível. A conexão de saída não possui válvula, portanto o gás pode fluir livremente entre o forno e a tubulação de saída. Você pode apontar o mouse para uma porta para ver qual é.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialPlumbingConnectOutputPipe</Key>
-      <Value>Conecte a Porta de Saída da {THING:StructureFurnace} à Válvula com um Tubo.</Value>
+      <Value>Conecte a porta de saída do {THING:StructureFurnace} à válvula com uma tubulação.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnaceName</Key>
-      <Value>Acendendo a Fornalha.</Value>
+      <Value>Acenda o forno.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnaceInfo</Key>
-      <Value>O gelo irá derreter quando exposto a temperaturas acima de 0 °C ou quando em luz solar direta na Lua. A {THING:StructureFurnace} não pode começar a processar minérios sem um pouco de gás em seu interior. NÃO coloque uma pilha completa de gelo na {THING:StructureFurnace}.</Value>
+      <Value>O gelo derreterá quando exposto a temperaturas acima de 0°C ou quando estiver sob luz solar direta da Lua. O {THING:StructureFurnace} não pode começar a processar minérios sem um pouco de gás dentro do {THING:StructureFurnace}. NÃO coloque uma pilha completa de gelo no {THING:StructureFurnace}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnaceTakeWhiteBackpack</Key>
@@ -20523,55 +20522,55 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnacePutInOxite</Key>
-      <Value>Coloque o {THING:ItemOxite} no Slot de Entrada da {THING:StructureFurnace}. Em seguida, pressione o Botão de Ativação Vermelho para derreter o gelo na {THING:StructureFurnace} até que a porta se abra novamente.</Value>
+      <Value>Coloque o {THING:ItemOxite} no Slot de Entrada do {THING:StructureFurnace}. Em seguida, pressione o Botão de Ativação Vermelho para derreter o gelo no {THING:StructureFurnace} até que a porta se abra novamente.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnaceSplitVolatiles</Key>
-      <Value>Faça o mesmo com o {THING:ItemVolatiles} na Mochila Vermelha e separe 2 {THING:ItemVolatiles}.</Value>
+      <Value>Faça o mesmo com {THING:ItemVolatiles} na Mochila Vermelha e separe 2 {THING:ItemVolatiles}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnacePlaceVolatilesPressStart</Key>
-      <Value>Coloque o {THING:ItemVolatiles} na Fornalha. Desta vez, ao pressionar o Botão de Ativação, a {THING:StructureFurnace} irá acender. Monitore o manômetro de pressão na parte frontal.</Value>
+      <Value>Coloque o {THING:ItemVolatiles} no forno. Desta vez, quando pressionar o botão de ativação, o {THING:StructureFurnace} irá se incendiar. Monitore o medidor de pressão na parte frontal.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreName</Key>
-      <Value>Fundição de Minérios</Value>
+      <Value>Fundindo Minérios</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreInfo</Key>
-      <Value>A {THING:StructureFurnace} agora está pronta para carregar Minérios. Observe que, ao iniciar a fundição dos Minérios colocados na {THING:StructureFurnace}, a Temperatura cairá e a Pressão aumentará devido ao gás liberado pelo Minério. Cada Minério só pode liberar gás uma vez.</Value>
+      <Value>O {THING:StructureFurnace} agora está pronto para receber minérios. Observe que, ao começar a fundir minérios colocados no {THING:StructureFurnace}, a Temperatura cairá e a Pressão aumentará devido ao gás liberado pelo Minério. Cada Minério só pode liberar gás uma vez.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOrePlaceCopperOre</Key>
-      <Value>Coloque uma pilha de {THING:ItemCopperOre} no Slot de Entrada da Fornalha a partir da {THING:ItemMiningBackPack} Laranja.</Value>
+      <Value>Coloque uma pilha de {THING:ItemCopperOre} no slot de entrada do forno a partir da {THING:ItemMiningBackPack} Laranja.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreObserveProcessWindow</Key>
-      <Value>Aponte o Cursor do Mouse para a área Retangular da Fornalha para monitorar o processo de fundição.</Value>
+      <Value>Aponte o cursor do mouse para a área retangular do forno para monitorar o processo de fundição.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreProcessWindowInformation</Key>
-      <Value>Quando a Fornalha mostrar 'Produzirá Barra de Cobre' e o Botão de Ativação ficar Verde, abra a Alavanca para ejetar a {THING:ItemCopperIngot}.</Value>
+      <Value>Quando o forno mostrar 'Produzirá Lingote de Cobre' e o botão de ativação ficar verde, abra a alavanca para ejetar o {THING:ItemCopperIngot}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreCloseHandle</Key>
-      <Value>Certifique-se de fechar a Alavanca novamente, ou qualquer coisa nova colocada na Fornalha apenas passará direto após o processamento.</Value>
+      <Value>Certifique-se de fechar a alavanca novamente, ou qualquer novo item colocado no forno apenas passará direto após o processamento.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysName</Key>
-      <Value>Introdução à Produção de Ligas</Value>
+      <Value>Introdução às Ligas</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysInfo</Key>
-      <Value>Todas as Barras e Ligas possuem um intervalo mínimo e máximo de Pressão e Temperatura. Use a Stationpedia pressionando {KEY:Help} e pesquisando pela Barra. Se os valores de Pressão e Temperatura da Fornalha estiverem fora da especificação, ou muito frios, abra a Válvula para liberar a maior parte do gás da Fornalha e reiniciá-la.</Value>
+      <Value>Todos os lingotes e ligas possuem uma faixa mínima e máxima de pressão e temperatura. Use a Stationpedia pressionando {KEY:Help} e pesquisando pelo lingote. Se as faixas de pressão e temperatura do forno estiverem fora da especificação, ou muito altas, abra a válvula para liberar a maior parte do gás do forno e reiniciá-lo.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysPrepareAlloyMix</Key>
-      <Value>Enquanto o {THING:StructureFurnace} ainda está quente da fundição anterior, podemos preparar algum minério para criar uma liga.</Value>
+      <Value>Enquanto o {THING:StructureFurnace} ainda estiver quente da fundição anterior, podemos preparar alguns minérios para fazer uma liga.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysOpenHandleIfFull</Key>
-      <Value>Primeiro, verifique se não há nada carregado no {THING:StructureFurnace} que possa atrapalhar a mistura da liga, observando a Janela Retangular na frente do Forno. Abra a Alavanca se houver algo, para ejetá-lo.</Value>
+      <Value>Primeiro, certifique-se de que não há nada carregado no {THING:StructureFurnace} que possa prejudicar a mistura da liga, observando a janela retangular na parte frontal do forno. Abra a alavanca se houver algo dentro para ejetá-lo.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysLoadSteelMix</Key>
@@ -20587,23 +20586,23 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>FurnaceTutorialResetInfo</Key>
-      <Value>O {THING:StructureFurnace} está frio demais neste ponto para criar nossa liga devido à radiação da energia térmica para o vácuo da Lua e à liberação de gases do Minério. Vamos reiniciar o Forno.</Value>
+      <Value>O {THING:StructureFurnace} está frio demais neste ponto para criar nossa liga devido à radiação da energia térmica para o vácuo da Lua e à liberação de gases do minério. Vamos reiniciar o forno.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialResetEjectContents</Key>
-      <Value>Ejetar o conteúdo do {THING:StructureFurnace}. Isso criará bolinhas de {THING:ItemReagentMix} que serão colocadas de volta no Forno mais tarde.</Value>
+      <Value>Ejetar o conteúdo do {THING:StructureFurnace}. Isso criará bolas de {THING:ItemReagentMix} que depois serão colocadas novamente no forno.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialResetOpenValveDrainFurnace</Key>
-      <Value>Abra o {THING:StructureValve} na parede para liberar a maior parte do gás do {THING:StructureFurnace}. Libere o gás até que esteja abaixo de 500 kPa. Em seguida, feche o {THING:StructureValve}.</Value>
+      <Value>Abra a {THING:StructureValve} na parede para liberar a maior parte do gás do {THING:StructureFurnace}. Libere o gás até que esteja abaixo de 500 kPa. Em seguida, feche a {THING:StructureValve}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialResetCloseFurnaceHandle</Key>
-      <Value>Certifique-se de fechar novamente a Alavanca do {THING:StructureFurnace}.</Value>
+      <Value>Certifique-se de fechar novamente a alavanca do {THING:StructureFurnace}.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialResetNotAlwaysNecessary</Key>
-      <Value>Nem sempre é necessário ejetar o conteúdo do {THING:StructureFurnace} para reiniciá-lo, entretanto, para este tutorial, faremos isso.</Value>
+      <Value>Nem sempre é necessário ejetar o conteúdo do {THING:StructureFurnace} para reiniciá-lo, porém neste tutorial iremos fazê-lo.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialReHeatingName</Key>
@@ -20611,43 +20610,43 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>FurnaceTutorialReHeatingInfo</Key>
-      <Value>Uma mistura 2:1 de combustível {GAS:Volatiles}:{GAS:Oxygen} é a fonte de combustível mais comum e acende automaticamente a 300°C, enquanto uma mistura 50:50 de {GAS:Volatiles}:{GAS:NitrousOxide} acende automaticamente a 50°C, mas queima muito mais quente.</Value>
+      <Value>Uma mistura 2:1 de {GAS:Volatiles}:{GAS:Oxygen} é a fonte de combustível mais comum e entra em autoignição a 300°C, enquanto uma mistura 50:50 de {GAS:Volatiles}:{GAS:NitrousOxide} entra em autoignição a 50°C, porém queimará muito mais quente.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialReHeatingInsertMoreFuel</Key>
-      <Value>Adicione mais gelo de {THING:ItemVolatiles} e {THING:ItemOxite} no {THING:StructureFurnace} e acenda-o como antes.</Value>
+      <Value>Insira mais gelo de {THING:ItemVolatiles} e {THING:ItemOxite} no {THING:StructureFurnace} e acenda-o como antes.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadName</Key>
-      <Value>Insira a mistura de Aço {THING:ItemReagentMix}</Value>
+      <Value>Insira a mistura de aço {THING:ItemReagentMix}</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadInfo</Key>
-      <Value>O Forno é o coração pulsante da base de todo Stationeer. Ele vem derretendo minério e corações há séculos. -BigfootMSR</Value>
+      <Value>O forno é o coração pulsante da base de todo Stationeer. Ele tem derretido minérios e corações por séculos. -BigfootMSR</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadInsertReagentMix</Key>
-      <Value>Agora que o {THING:StructureFurnace} está quente o suficiente, insira as bolinhas de {THING:ItemReagentMix} que criamos anteriormente no Forno e aguarde o processamento.</Value>
+      <Value>Agora que o {THING:StructureFurnace} está quente o suficiente, insira as bolas de {THING:ItemReagentMix} que criamos anteriormente no forno e aguarde que sejam processadas.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadObserveTempPressure</Key>
-      <Value>>Observe que, ao adicionar o {THING:ItemReagentMix}, a Temperatura e a Pressão não mudam, exceto pela radiação de energia térmica para o Vácuo da Lua, porque a mistura foi desgasificada.</Value>
+      <Value>Observe que ao inserir o {THING:ItemReagentMix}, a temperatura e a pressão não mudam, exceto pela radiação de energia térmica para o vácuo da Lua, pois a mistura já foi desgaseificada.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadObserveProcessWindow</Key>
-      <Value>Monitore o processamento do Aço observando a Janela Retangular.</Value>
+      <Value>Monitore o processamento do aço observando a janela retangular.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialEjectSteelIngot</Key>
-      <Value>Quando o {THING:StructureFurnace} estiver pronto para produzir o {THING:ItemSteelIngot}, o Botão do Forno ficará Verde. Abra a Alavanca enquanto o Botão estiver Verde para ejetar o Lingote de Aço.</Value>
+      <Value>Quando o {THING:StructureFurnace} estiver pronto para produzir o {THING:ItemSteelIngot}, o botão do forno ficará verde. Abra a alavanca enquanto o botão estiver verde para ejetar o lingote de aço.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialPutThatAwayName</Key>
-      <Value>Guarde-o</Value>
+      <Value>Guarde isso</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialPutThatAwayInfo</Key>
-      <Value>Deixar um forno exposto aos elementos desperdiça muito calor devido à convecção e radiação. Você deve considerar enclausurar o Forno em uma pequena caixa preenchida com cerca de 150 kPa de gás quente para impedir efetivamente a perda de calor e economizar combustível.</Value>
+      <Value>Manter um forno exposto ao ambiente desperdiça muito calor devido à convecção e à radiação. Você deve considerar colocar o forno dentro de uma pequena estrutura contendo cerca de 150 kPa de gás quente para reduzir efetivamente a perda de calor e economizar combustível.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialPutThatAwayPlaceIngotInLocker</Key>
@@ -20655,35 +20654,35 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>ManufacturingTutorialName</Key>
-      <Value>Guia da Comunidade: Fabricação</Value>
+      <Value>Guia da Comunidade: Manufatura</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialDescription</Key>
-      <Value>Aprenda o básico de Fabricação e quais impressoras estão disponíveis.</Value>
+      <Value>Aprenda os fundamentos da manufatura e quais impressoras estão disponíveis.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialManufacturingIntroName</Key>
-      <Value>Introdução à Fabricação</Value>
+      <Value>Introdução à Manufatura</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialManufacturingIntroInfo</Key>
-      <Value>Atualmente, existem 6 Impressoras em Stationeers de tipos variados. Vamos analisá-las uma de cada vez.</Value>
+      <Value>Atualmente existem 6 impressoras no Stationeers de diferentes tipos. Vamos passar por elas uma de cada vez.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialManufacturingIntroAutolatheInfo</Key>
-      <Value>O {THING:StructureAutolathe} é a mais essencial de todas as impressoras; sem ele, você não poderá fabricar as outras. É onde a maioria dos seus itens de construção será produzida.</Value>
+      <Value>O {THING:StructureAutolathe} é o mais essencial de todas as impressoras; sem ele você não pode fabricar as outras. É nele que a maioria dos seus itens de construção será produzida.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialManufacturingIntroPrintersUseIngots</Key>
-      <Value>Todas as Impressoras funcionam com {LINK:IngotPage;lingotes}, que devem primeiro ser processados a partir de {LINK:OrePage;minério} em um {THING:StructureFurnace}.</Value>
+      <Value>Todas as impressoras operam com {LINK:IngotPage;lingotes} que primeiro precisam ser processados a partir de {LINK:OrePage;minério} em um {THING:StructureFurnace}.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialManufacturingIntroLookThroughPrintersInfo</Key>
-      <Value>Sinta-se à vontade para dar uma olhada na lista de itens que cada impressora contém antes de continuar para o próximo passo.</Value>
+      <Value>Sinta-se à vontade para examinar a lista de itens que cada impressora contém antes de continuar para a próxima etapa.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialManufacturingIntroPlaceAutolathe</Key>
-      <Value>Coloque o {THING:StructureAutolathe} e finalize a construção com os materiais do Armário, depois ligue-o.</Value>
+      <Value>Coloque o {THING:StructureAutolathe} e finalize a construção com os suprimentos do armário, depois ligue-o.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupElectronicsPrinterName</Key>
@@ -20691,43 +20690,43 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupElectronicsPrinterInfo</Key>
-      <Value>Como o nome sugere, a {THING:StructureElectronicsPrinter} é onde você encontrará a maioria dos dispositivos eletrônicos, componentes lógicos, luzes, eletrodomésticos, e é muito mais rápida na impressão de Cabos do que o {THING:StructureAutolathe}.</Value>
+      <Value>Como o nome sugere, a {THING:StructureElectronicsPrinter} é onde você encontrará a maioria dos dispositivos eletrônicos, componentes lógicos, luzes e aparelhos, além de imprimir cabos muito mais rápido que o {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupElectronicsPrinterLoadIngotsInAutolathe</Key>
-      <Value>Carregue os Lingotes retangulares básicos do Armário no {THING:StructureAutolathe}.</Value>
+      <Value>Carregue os lingotes retangulares básicos do armário no {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupElectronicsPrinterPrintRequiredComponents</Key>
-      <Value>Para nossos propósitos aqui hoje, seria sensato imprimir 6 {THING:ItemIronSheets}, 10 {THING:ItemPlasticSheets} e 4 {THING:ItemSteelSheets}. Você já possui o {THING:ItemCableCoil} necessário em seu {THING:ItemToolBelt}.</Value>
+      <Value>Para o nosso objetivo aqui hoje, é recomendável imprimir 6 {THING:ItemIronSheets}, 10 {THING:ItemPlasticSheets} e 4 {THING:ItemSteelSheets}. Você já possui o {THING:ItemCableCoil} necessário no seu {THING:ItemToolBelt}.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupElectronicsPrinterUseOfPrinterButtons</Key>
-      <Value>Use o Botão Amarelo da Lupa no {THING:StructureAutolathe} para buscar as peças que você precisa. Ao selecioná-la na tela pop-up, ela será escolhida e a janela desaparecerá. Ao passar o cursor sobre o Botão Verde, entre as Setas, você verá qual item está selecionado e, durante a impressão, o progresso será mostrado em uma dica de ferramenta. Pressionar o Botão Verde iniciará a impressão.</Value>
+      <Value>Use o botão da Lupa Amarela no {THING:StructureAutolathe} para procurar as peças que você precisa. Ao selecioná-la na janela que aparecer, ela será escolhida e a janela desaparecerá. Passar o cursor sobre o botão verde, entre as setas, mostrará qual item está selecionado no momento e, durante a impressão, exibirá o progresso por meio de uma dica de ferramenta. Pressionar o botão verde iniciará a impressão.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupElectronicsPrinterHowToEjectIngots</Key>
-      <Value>Se por algum motivo você precisar ejetar os Lingotes de uma Impressora, você pode fazê-lo puxando a Alavanca na frente da máquina.</Value>
+      <Value>Se por algum motivo você precisar ejetar os lingotes de uma impressora, pode fazer isso puxando a alavanca na parte frontal da máquina.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupElectronicsPrinterBuildElectronicsPrinter</Key>
-      <Value>Finalize a construção da {THING:StructureElectronicsPrinter} imprimindo os materiais necessários no Torno Automático.</Value>
+      <Value>Finalize a construção da {THING:StructureElectronicsPrinter} imprimindo os suprimentos necessários no Torno Automático.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupPipeBenderName</Key>
-      <Value>Configurar o Dobrador de Tubos</Value>
+      <Value>Configurar o Dobrador Hidráulico de Tubos</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupPipeBenderInfo</Key>
-      <Value>As 3 principais impressoras que você utilizará são a {THING:StructureAutolathe}, a {THING:StructureElectronicsPrinter} e a {THING:StructureHydraulicPipeBender}. As outras impressoras são mais especializadas e não são necessárias nas primeiras fases de uma Estação.</Value>
+      <Value>As 3 principais impressoras que você utilizará são o {THING:StructureAutolathe}, a {THING:StructureElectronicsPrinter} e o {THING:StructureHydraulicPipeBender}. As outras impressoras são mais especializadas e não são necessárias nos estágios iniciais de uma estação.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupPipeBenderWhatsInside</Key>
-      <Value>O {THING:StructureHydraulicPipeBender} é onde você encontrará a maioria dos itens Atmosféricos, como Filtros, {THING:ItemKitAtmospherics}, Dutos, e é muito mais rápido na impressão de Tubos do que o {THING:StructureAutolathe}.</Value>
+      <Value>O {THING:StructureHydraulicPipeBender} é onde você encontrará a maioria dos itens Atmosféricos, como Filtros, {THING:ItemKitAtmospherics}, saídas de ventilação, e também imprime tubulações muito mais rápido que o {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupPipeBenderConstructIt</Key>
-      <Value>Finalize a construção do {THING:StructureHydraulicPipeBender} usando os materiais do {THING:StructureAutolathe} para terminá-lo.</Value>
+      <Value>Finalize a construção do {THING:StructureHydraulicPipeBender} usando os suprimentos fabricados no {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupToolPrinterName</Key>
@@ -20735,27 +20734,27 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupToolPrinterInfo</Key>
-      <Value>A {THING:StructureToolManufactory} contém muitos upgrades de ferramentas e traje que melhoram a qualidade de vida.</Value>
+      <Value>A {THING:StructureToolManufactory} contém muitas ferramentas e melhorias de traje que facilitam a jogabilidade.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupToolPrinterConstructIt</Key>
-      <Value>Finalize a construção da {THING:StructureToolManufactory} usando os materiais do {THING:StructureAutolathe} para terminá-la.</Value>
+      <Value>Finalize a construção da {THING:StructureToolManufactory} usando os suprimentos fabricados no {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupSecurityPrinterName</Key>
-      <Value>Configurar Segurança</Value>
+      <Value>Configurar a Impressora de Segurança</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupSecurityPrinterInfo</Key>
-      <Value>A {THING:StructureSecurityPrinter} oferece acesso ao sistema de Cartões de Segurança, {THING:CartridgeAccessController}, permitindo que os Stationeers limitem o acesso a Portas, máquinas, Armários e outros itens.</Value>
+      <Value>A {THING:StructureSecurityPrinter} concede acesso ao sistema de Cartões de Segurança, {THING:CartridgeAccessController}, permitindo que os Stationeers limitem o acesso a portas, máquinas, armários e outros itens.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupSecurityPrinterCheapExplosives</Key>
-      <Value>A {THING:StructureSecurityPrinter} tem explosivos baratos.</Value>
+      <Value>A {THING:StructureSecurityPrinter} possui explosivos baratos.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupSecurityPrinterConstructIt</Key>
-      <Value>Finalize a construção da {THING:StructureSecurityPrinter} usando os materiais do {THING:StructureAutolathe} para terminá-la.</Value>
+      <Value>Finalize a construção da {THING:StructureSecurityPrinter} usando os suprimentos fabricados no {THING:StructureAutolathe}.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupRocketPrinterName</Key>
@@ -20763,15 +20762,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupRocketPrinterInfo</Key>
-      <Value>A {THING:StructureRocketManufactory} lhe dará acesso a tudo relacionado à Astronáutica.</Value>
+      <Value>A {THING:StructureRocketManufactory} concederá acesso a tudo relacionado à engenharia de foguetes.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupRocketPrinterRocketryForResources</Key>
-      <Value>A Astronáutica é uma ótima maneira de obter muito Gelo e Minério que você pode estar faltando no seu planeta.</Value>
+      <Value>A engenharia de foguetes é uma ótima maneira de obter grandes quantidades de gelo e minério que podem estar em falta no seu planeta.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialSetupRocketPrinterConstructIt</Key>
-      <Value>Finalize a construção da {THING:StructureRocketManufactory} usando os materiais do Torno Automático para terminá-la.</Value>
+      <Value>Finalize a construção da {THING:StructureRocketManufactory} usando os suprimentos fabricados no Torno Automático.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialModsName</Key>
@@ -20779,7 +20778,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>ManufacturingTutorialModsInfo</Key>
-      <Value>Stationeers não possui um mecanismo de pesquisa, mas possui níveis de tecnologia que precisam ser desbloqueados ao atualizar as impressoras para o nível 2. Impressoras de nível 2 têm um pequeno aumento no uso de energia e uma leve diminuição na velocidade. Esses valores podem ser encontrados no Stationpedia {KEY:Help}. Somente as 4 impressoras principais possuem upgrades: {THING:StructureAutolathe}, {THING:StructureElectronicsPrinter}, {THING:StructureHydraulicPipeBender} e {THING:StructureToolManufactory}.</Value>
+      <Value>Stationeers não possui um sistema de pesquisa, mas possui níveis de tecnologia que precisam ser desbloqueados atualizando as impressoras para o nível 2. Impressoras de nível 2 têm um pequeno aumento no consumo de energia e um leve aumento na velocidade. Esses valores podem ser encontrados na Stationpedia {KEY:Help}. Apenas as 4 impressoras principais possuem melhorias: {THING:StructureAutolathe}, {THING:StructureElectronicsPrinter}, {THING:StructureHydraulicPipeBender} e {THING:StructureToolManufactory}.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialModsNeedModToUpgrade</Key>
@@ -20787,23 +20786,23 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>ManufacturingTutorialModsModsRequireAlloys</Key>
-      <Value>Os mods requerem ligas que você precisa criar primeiro em um forno, como {THING:ItemSolderIngot}, {THING:ItemElectrumIngot}, {THING:ItemSteelIngot}, e {THING:ItemConstantanIngot}.</Value>
+      <Value>Os Mods requerem ligas que primeiro precisam ser criadas em um forno, como {THING:ItemSolderIngot}, {THING:ItemElectrumIngot}, {THING:ItemSteelIngot}, e {THING:ItemConstantanIngot}.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialModsPrintModInElecPrinter</Key>
-      <Value>Imprima um {THING:ElectronicPrinterMod} usando a {THING:StructureElectronicsPrinter}. Procure por 'Mod'. Os Mods podem demorar um pouco para imprimir, então verifique se seus sistemas de energia estão adequados.</Value>
+      <Value>Imprima um {THING:ElectronicPrinterMod} usando a {THING:StructureElectronicsPrinter}. Procure por "Mod". Os Mods podem levar algum tempo para serem impressos, então certifique-se de que seus sistemas de energia estejam adequados.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialModsModsProvidedForTimeSake</Key>
-      <Value>Por uma questão de tempo, os Mods foram fornecidos para você no armário.</Value>
+      <Value>Para economizar tempo, os Mods foram fornecidos para você no armário.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialModsUpgradeElecPrintertoTier2</Key>
-      <Value>Faça o upgrade da {THING:StructureElectronicsPrinter} para o nível 2 segurando o {THING:ElectronicPrinterMod} em uma mão e usando um {THING:ItemScrewdriver} na outra.</Value>
+      <Value>Atualize a {THING:StructureElectronicsPrinter} para o nível 2 segurando o {THING:ElectronicPrinterMod} em uma mão e usando uma {THING:ItemScrewdriver} na outra.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialModsEjectIngotsIfRequired</Key>
-      <Value>Você pode precisar ejetar os Lingotes do Torno Automático e movê-los para a Impressora de Eletrônicos puxando a Alavanca de Ejeção do Torno Automático.</Value>
+      <Value>Você pode precisar ejetar os lingotes do Torno Automático e movê-los para a Impressora de Eletrônicos puxando a alavanca de ejeção do Torno Automático.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialFinishingUpName</Key>
@@ -20811,11 +20810,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>ManufacturingTutorialFinishingUpInfo</Key>
-      <Value>Stationeers possui 2 outros Fabricadores que não visitamos aqui hoje. O {THING:StructureAutomatedOven}, e o {THING:StructureAdvancedPackagingMachine}. Eles funcionam de forma semelhante às impressoras que vimos aqui, mas são usados para itens alimentícios. 'Só se pode imprimir o caminho para o sucesso, ou não' -BigfootMSR</Value>
+      <Value>Stationeers possui outros 2 Fabricadores que não visitamos hoje: o {THING:StructureAutomatedOven}, e a {THING:StructureAdvancedPackagingMachine}. Eles funcionam de forma semelhante às impressoras que vimos aqui, porém são usados para itens alimentícios. "Pode-se apenas imprimir o caminho para o sucesso, ou não" -BigfootMSR</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialFinishingUpInstallRemainingMods</Key>
-      <Value>Instale todos os Mods restantes nas Impressoras apropriadas para finalizar este Tutorial.</Value>
+      <Value>Instale todos os Mods restantes nas impressoras apropriadas para concluir este tutorial.</Value>
     </Record>
     <Record>
       <Key>AutoExpandToggle</Key>
@@ -20823,7 +20822,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>ButtonHostServer</Key>
-      <Value>Servidor Host</Value>
+      <Value>Hospedar Servidor</Value>
     </Record>
     <Record>
       <Key>CartridgeAtmosAnalyserSelected</Key>
@@ -20839,7 +20838,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SettingsMineableDistance</Key>
-      <Value>Distância Mineirável</Value>
+      <Value>Distância Minerável</Value>
     </Record>
     <Record>
       <Key>SettingsChunkDistance</Key>
@@ -20883,7 +20882,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StatusCriticalJetPackCritical</Key>
-      <Value>Propulsão Crítica</Value>
+      <Value>Propulsão Jetpack Crítica</Value>
     </Record>
     <Record>
       <Key>StatusCriticalMoodCritical</Key>
@@ -20911,7 +20910,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StatusCriticalToxinCritical</Key>
-      <Value>Tóxico Crítico</Value>
+      <Value>Toxinas Críticas</Value>
     </Record>
     <Record>
       <Key>StatusCriticalWasteTankCritical</Key>
@@ -20919,7 +20918,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StatusWarningAirTankLow</Key>
-      <Value>Tanque de Ar com Pouca Carga</Value>
+      <Value>Tanque de Ar Baixo</Value>
     </Record>
     <Record>
       <Key>StatusWarningCognitionLow</Key>
@@ -20927,11 +20926,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StatusWarningCoolantTankCaution</Key>
-      <Value>Atenção: Tanque de Resfriamento</Value>
+      <Value>Tanque de Refrigeração em Atenção</Value>
     </Record>
     <Record>
       <Key>StatusWarningFilterLow</Key>
-      <Value>Filtro com Pouca Carga</Value>
+      <Value>Filtro Baixo</Value>
     </Record>
     <Record>
       <Key>StatusWarningHealthLow</Key>
@@ -20943,11 +20942,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StatusWarningHungerCaution</Key>
-      <Value>Atenção: Fome</Value>
+      <Value>Fome em Atenção</Value>
     </Record>
     <Record>
       <Key>StatusWarningHydrationCaution</Key>
-      <Value>Atenção: Hidratação</Value>
+      <Value>Hidratação em Atenção</Value>
     </Record>
     <Record>
       <Key>StatusWarningHygieneLow</Key>
@@ -20963,7 +20962,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StatusWarningMoodLow</Key>
-      <Value>Ânimo Baixo</Value>
+      <Value>Humor Baixo</Value>
     </Record>
     <Record>
       <Key>StatusWarningOxygenLow</Key>
@@ -20975,7 +20974,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StatusWarningSuitDamage</Key>
-      <Value>Traje Danificado</Value>
+      <Value>Dano no Traje</Value>
     </Record>
     <Record>
       <Key>StatusWarningTemperatureHigh</Key>
@@ -20991,7 +20990,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StatusWarningWasteTankCaution</Key>
-      <Value>Atenção: Tanque de Resíduos</Value>
+      <Value>Tanque de Resíduos em Atenção</Value>
     </Record>
     <Record>
       <Key>StatusWarningZeroGee</Key>
@@ -20999,11 +20998,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>StatusNoticeActiveHandOff</Key>
-      <Value>Mão Ativa Desabilitada</Value>
+      <Value>Mão Ativa Desativada</Value>
     </Record>
     <Record>
       <Key>StatusNoticeActiveHandOn</Key>
-      <Value>Mão Ativa habilitada</Value>
+      <Value>Mão Ativa Ativada</Value>
     </Record>
     <Record>
       <Key>StatusNoticeHelmetClosed</Key>
