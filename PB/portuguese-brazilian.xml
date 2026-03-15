@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português (Brasil)</Name>
-  <Code>PB</Code>  <!--Tradução Marcelo 14/03/2026 v0.2.6182.26959-->
+  <Code>PB</Code>  <!--Tradução Marcelo 15/03/2026 v0.2.6182.26959-->
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -21038,7 +21038,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>DifficultyDescriptionCreative</Key>
-      <Value>Acesse funções de geração de itens e jogue sem consumo de recursos. Você sobreviverá para sempre em ambientes tóxicos. Renascer não será um problema.</Value>
+      <Value>Acesso às funções de geração de itens e sem consumo de recursos. Você sobreviverá para sempre em ambientes tóxicos. Renascer não será um problema.</Value>
     </Record>
     <Record>
       <Key>DifficultyDescriptionEasy</Key>
@@ -21046,11 +21046,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>DifficultyDescriptionNormal</Key>
-      <Value>Você precisará se esforçar muito para se manter vivo. Planejar com antecedência é essencial para a sobrevivência, já que comida, água e oxigênio podem estar em falta. Ao renascer, você terá apenas equipamentos limitados.</Value>
+      <Value>Você precisará trabalhar duro para se manter vivo. Planejar o futuro é essencial para sobreviver, pois comida, água e oxigênio podem ser escassos. Ao renascer você receberá apenas equipamentos limitados.</Value>
     </Record>
     <Record>
       <Key>DifficultyDescriptionStationeer</Key>
-      <Value>Uma experiência desafiadora. Você precisará de extensos sistemas de suporte de vida e de hidroponia para sobreviver. Uma respiração errada pode ser fatal. Você renascerá sem traje e sem equipamentos.</Value>
+      <Value>Uma experiência desafiadora. Você precisará de sistemas avançados de suporte à vida e hidroponia para se manter vivo. Um único respiro errado pode matá-lo. Você renasce sem traje e sem equipamentos.</Value>
     </Record>
     <Record>
       <Key>DifficultyCreative</Key>
@@ -21102,7 +21102,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>CelestialBodyJupiter</Key>
-      <Value>Jupiter</Value>
+      <Value>Júpiter</Value>
     </Record>
     <Record>
       <Key>CelestialBodySaturn</Key>
@@ -21114,7 +21114,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>CelestialBodyVenus</Key>
-      <Value>Venus</Value>
+      <Value>Vênus</Value>
     </Record>
     <Record>
       <Key>CelestialBodyMars</Key>
@@ -21134,7 +21134,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>CelestialBodyGanymede</Key>
-      <Value>Ganymede</Value>
+      <Value>Ganimedes</Value>
     </Record>
     <Record>
       <Key>CelestialBodyCallisto</Key>
@@ -21142,7 +21142,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>CelestialBodyHimalia</Key>
-      <Value>Hamilia</Value>
+      <Value>Himália</Value>
     </Record>
     <Record>
       <Key>CelestialBodyMimas</Key>
@@ -21166,11 +21166,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>CelestialBodyTitan</Key>
-      <Value>Titan</Value>
+      <Value>Titã</Value>
     </Record>
     <Record>
       <Key>CelestialBodyHyperion</Key>
-      <Value>Hyperion</Value>
+      <Value>Hipérion</Value>
     </Record>
     <Record>
       <Key>CelestialBodyIapetus</Key>
@@ -21274,15 +21274,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SpawnDataStirlingEngineGas</Key>
-      <Value>Gás do Motor Stirling</Value>
+      <Value>Gás para Motor Stirling</Value>
     </Record>
     <Record>
       <Key>SpawnDataAirlockSupplies</Key>
-      <Value>Suprimentos para Airlock</Value>
+      <Value>Suprimentos para Câmara Airlock</Value>
     </Record>
     <Record>
       <Key>SpawnDataAdvancedAirlockSupplies</Key>
-      <Value>Suprimentos Avançados para Airlock</Value>
+      <Value>Suprimentos para Câmara Airlock Avançada</Value>
     </Record>
     <Record>
       <Key>SpawnDataSurvivalSupplies</Key>
@@ -21318,7 +21318,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SpawnDataRocketSupplies</Key>
-      <Value>Suprimentos para Foguete</Value>
+      <Value>Suprimentos de Foguete</Value>
     </Record>
     <Record>
       <Key>SpawnDataIngots</Key>
@@ -21362,7 +21362,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SpawnDataCoolantCanister</Key>
-      <Value>Cilindro de Refrigerante</Value>
+      <Value>Cilindro de Fluido Refrigerante</Value>
     </Record>
     <Record>
       <Key>SpawnDataEggCartonFertilized</Key>
@@ -21382,7 +21382,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SpawnDataRocketManufactoryPackage</Key>
-      <Value>Kit de Fabricação de Foguete</Value>
+      <Value>Kit de Manufatura de Foguetes</Value>
     </Record>
     <Record>
       <Key>SpawnDataPropellentCanister</Key>
@@ -21402,11 +21402,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>CircuitboardHashDisplayConfigTitle</Key>
-      <Value>CONFIGURAÇÃO DE EXIBIÇÃO DE HASH</Value>
+      <Value>CONFIGURAÇÃO DO VISOR DE HASH</Value>
     </Record>
     <Record>
       <Key>CircuitboardGraphDisplayConfigTitle</Key>
-      <Value>CONFIGURAÇÃO DE EXIBIÇÃO DE GRÁFICO</Value>
+      <Value>CONFIGURAÇÃO DO VISOR DE GRÁFICOS</Value>
     </Record>
     <Record>
       <Key>CircuitboardAdvAirlockConfigTitle</Key>
@@ -21418,23 +21418,23 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>CircuitboardDoorControlConfigTitle</Key>
-      <Value>CONFIGURAÇÃO DE CONTROLE DE PORTA</Value>
+      <Value>CONFIGURAÇÃO DO CONTROLE DE PORTA</Value>
     </Record>
     <Record>
       <Key>CircuitboardGasDisplayConfigTitle</Key>
-      <Value>CONFIGURAÇÃO DE EXIBIÇÃO DE GÁS</Value>
+      <Value>CONFIGURAÇÃO DO VISOR DE GASES</Value>
     </Record>
     <Record>
       <Key>CircuitboardModeControlConfigTitle</Key>
-      <Value>CONFIGURAÇÃO DE CONTROLE DE MODO</Value>
+      <Value>CONFIGURAÇÃO DO CONTROLE DE MODO</Value>
     </Record>
     <Record>
       <Key>CircuitboardPowerControlConfigTitle</Key>
-      <Value>CONFIGURAÇÃO DE CONTROLE DE ENERGIA</Value>
+      <Value>CONFIGURAÇÃO DO CONTROLE DE ENERGIA</Value>
     </Record>
     <Record>
       <Key>CircuitboardSolarControlConfigTitle</Key>
-      <Value>CONFIGURAÇÃO DE CONTROLE SOLAR</Value>
+      <Value>CONFIGURAÇÃO DO CONTROLE SOLAR</Value>
     </Record>
     <Record>
       <Key>CircuitboardSolarControlTitle</Key>
@@ -21450,11 +21450,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>CircuitboardSolarControlGenerated</Key>
-      <Value>Gerado</Value>
+      <Value>GERADO</Value>
     </Record>
     <Record>
       <Key>CircuitboardSolarControlConnected</Key>
-      <Value>Conectado</Value>
+      <Value>CONECTADO</Value>
     </Record>
     <Record>
       <Key>DustStorm</Key>
@@ -21502,15 +21502,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>PlantAnalyserTitleGrowthEfficiency</Key>
-      <Value>Eficiência do Crescimento</Value>
+      <Value>Eficiência de Crescimento</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleBreathingEfficiency</Key>
-      <Value>Eficiência da Respiração</Value>
+      <Value>Eficiência de Respiração</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleTemperatureEfficiency</Key>
-      <Value>Eficiência da Temperatura</Value>
+      <Value>Eficiência de Temperatura</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleMinIdealTemperature</Key>
@@ -21526,7 +21526,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>PlantAnalyserTitlePressureEfficiency</Key>
-      <Value>Eficiência da Pressão</Value>
+      <Value>Eficiência de Pressão</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleMinIdealPressure</Key>
@@ -21566,11 +21566,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>PlantAnalyserTitleGasRequired</Key>
-      <Value>Requerido:</Value>
+      <Value>Necessário:</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleGasPresent</Key>
-      <Value>Atuais:</Value>
+      <Value>Presente:</Value>
     </Record>
     <Record>
       <Key>PlantAnalyserTitleGasLimit</Key>
@@ -21610,7 +21610,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>BuyDataChocolateCakeInBox</Key>
-      <Value>Bolo de Chocolate na Caixa</Value>
+      <Value>Bolo de Chocolate em Caixa</Value>
     </Record>
     <Record>
       <Key>BuyDataBoxOfTomatoSoup</Key>
@@ -21618,7 +21618,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>BuyDataBoxOfRicePudding</Key>
-      <Value>Caixa de Pudim de Arroz</Value>
+      <Value>Caixa de Arroz Doce</Value>
     </Record>
     <Record>
       <Key>BuyDataBoxOfCannedEdamame</Key>
@@ -21626,15 +21626,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>BuyDataWaterReplenishment</Key>
-      <Value>Reposição de Água</Value>
+      <Value>Reabastecimento de Água</Value>
     </Record>
     <Record>
       <Key>BuyDataShipRefuel</Key>
-      <Value>Reabastecer Nave</Value>
+      <Value>Reabastecimento da Nave</Value>
     </Record>
     <Record>
       <Key>BuyDataFoodPackage</Key>
-      <Value>Pacote de Comida</Value>
+      <Value>Pacote de Alimentos</Value>
     </Record>
     <Record>
       <Key>BuyDataConsumablesPackage</Key>
@@ -21642,7 +21642,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>BuyDataMarineClothingPackage</Key>
-      <Value>Kit de Roupas Marinhas</Value>
+      <Value>Pacote de Vestuário Marinho</Value>
     </Record>
     <Record>
       <Key>BuyDataShipRepairPackage</Key>
@@ -21670,15 +21670,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>BuyDataRegularFuelMix</Key>
-      <Value>Mistura de Combustível Comum</Value>
+      <Value>Mistura de Combustível Padrão</Value>
     </Record>
     <Record>
       <Key>BuyDataBulkCarbonDioxide</Key>
-      <Value>Dióxido de carbono a granel</Value>
+      <Value>Dióxido de Carbono a Granel</Value>
     </Record>
     <Record>
       <Key>BuyDataBulkWater</Key>
-      <Value>Água a granel</Value>
+      <Value>Água a Granel</Value>
     </Record>
     <Record>
       <Key>SellDataFernSeedPack</Key>
@@ -21750,7 +21750,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SellDataResilientFern</Key>
-      <Value>Samambaia Resiliente</Value>
+      <Value>Samambaia Resistente</Value>
     </Record>
     <Record>
       <Key>BuyDataBulkVolatiles</Key>
@@ -21874,7 +21874,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SellDataBoxofChemlights</Key>
-      <Value>Caixa de Luminárias Químicas</Value>
+      <Value>Caixa de Bastões Luminosos</Value>
     </Record>
     <Record>
       <Key>SellDataAutolatheConstructionKit</Key>
@@ -21882,299 +21882,299 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TraderMoreOreLess</Key>
-      <Value>Mais Minério, Menos Preço</Value>
+      <Value>More Ore Less</Value>
     </Record>
     <Record>
       <Key>TraderAsteroidAssayers</Key>
-      <Value>Avaliadores de Asteroides</Value>
+      <Value>Asteroid Assayers</Value>
     </Record>
     <Record>
       <Key>TraderCosmicCrush</Key>
-      <Value>Triturado Cósmico</Value>
+      <Value>Cosmic Crush</Value>
     </Record>
     <Record>
       <Key>TraderGalacticGravels</Key>
-      <Value>Britas Galácticas</Value>
+      <Value>Galactic Gravels</Value>
     </Record>
     <Record>
       <Key>TraderNebulaNuggets</Key>
-      <Value>Pepitas da Nebulosa</Value>
+      <Value>Nebula Nuggets</Value>
     </Record>
     <Record>
       <Key>TraderOrbitOreOasis</Key>
-      <Value>Oásis de Minérios Orbitais</Value>
+      <Value>Orbit Ore Oasis</Value>
     </Record>
     <Record>
       <Key>TraderStellarStoneSupply</Key>
-      <Value>Suprimentos de Pedras Estelares</Value>
+      <Value>Stellar Stone Supply</Value>
     </Record>
     <Record>
       <Key>TraderInterstellarExcavators</Key>
-      <Value>Escavadores Interestelares</Value>
+      <Value>Interstellar Excavators</Value>
     </Record>
     <Record>
       <Key>TraderVoidVeinVendors</Key>
-      <Value>Fornecedores de Veios do Vazio</Value>
+      <Value>Void Vein Vendors</Value>
     </Record>
     <Record>
       <Key>TraderPlanetaryPebbles</Key>
-      <Value>Seixos Planetários</Value>
+      <Value>Planetary Pebbles</Value>
     </Record>
     <Record>
       <Key>TraderAllAlloys</Key>
-      <Value>Todas as Ligas</Value>
+      <Value>All Alloys</Value>
     </Record>
     <Record>
       <Key>TraderMetalMavens</Key>
-      <Value>Especialistas em Metais</Value>
+      <Value>Metal Mavens</Value>
     </Record>
     <Record>
       <Key>TraderAstroAlloyEmporium</Key>
-      <Value>Empório de Ligas Astro</Value>
+      <Value>AstroAlloy Emporium</Value>
     </Record>
     <Record>
       <Key>TraderCosmicForge</Key>
-      <Value>Forja Cósmica</Value>
+      <Value>Cosmic Forge</Value>
     </Record>
     <Record>
       <Key>TraderGalacticMetallurgy</Key>
-      <Value>Metalurgia Galáctica</Value>
+      <Value>Galactic Metallurgy</Value>
     </Record>
     <Record>
       <Key>TraderOrbitOreOutfitters</Key>
-      <Value>Fornecedores de Minérios Orbitais</Value>
+      <Value>OrbitOre Outfitters</Value>
     </Record>
     <Record>
       <Key>TraderStellarSmelter</Key>
-      <Value>Fundição Estelar</Value>
+      <Value>Stellar Smelter</Value>
     </Record>
     <Record>
       <Key>TraderInterstellarIngots</Key>
-      <Value>Lingotes Interestelares</Value>
+      <Value>Interstellar Ingots</Value>
     </Record>
     <Record>
       <Key>TraderNebulaNucleus</Key>
-      <Value>Núcleo da Nebulosa</Value>
+      <Value>Nebula Nucleus</Value>
     </Record>
     <Record>
       <Key>TraderSpaceAlloySpecialists</Key>
-      <Value>Especialistas em Ligas Espaciais</Value>
+      <Value>Space Alloy Specialists</Value>
     </Record>
     <Record>
       <Key>TraderStarSmelter</Key>
-      <Value>Fundição Estelar</Value>
+      <Value>Star Smelter</Value>
     </Record>
     <Record>
       <Key>TraderStarlightSuppers</Key>
-      <Value>Jantares à Luz das Estrelas</Value>
+      <Value>Starlight Suppers</Value>
     </Record>
     <Record>
       <Key>TraderGalacticGroceries</Key>
-      <Value>Mercearias Galácticas</Value>
+      <Value>Galactic Groceries</Value>
     </Record>
     <Record>
       <Key>TraderOrbitingOrganics</Key>
-      <Value>Orgânicos Orbitantes</Value>
+      <Value>Orbiting Organics</Value>
     </Record>
     <Record>
       <Key>TraderCosmicCuisine</Key>
-      <Value>Culinária Cósmica</Value>
+      <Value>Cosmic Cuisine</Value>
     </Record>
     <Record>
       <Key>TraderAsteroidEats</Key>
-      <Value>Comidas de Asteroide</Value>
+      <Value>Asteroid Eats</Value>
     </Record>
     <Record>
       <Key>TraderNebulaNibbles</Key>
-      <Value>Lanchinhos Nebulares</Value>
+      <Value>Nebula Nibbles</Value>
     </Record>
     <Record>
       <Key>TraderStellarSnacks</Key>
-      <Value>Petiscos Estelares</Value>
+      <Value>Stellar Snacks</Value>
     </Record>
     <Record>
       <Key>TraderInterstellarIngredients</Key>
-      <Value>Ingredientes Interestelares</Value>
+      <Value>Interstellar Ingredients</Value>
     </Record>
     <Record>
       <Key>TraderSpaceSpices</Key>
-      <Value>Temperos Espaciais</Value>
+      <Value>Space Spices</Value>
     </Record>
     <Record>
       <Key>TraderVoidVegetables</Key>
-      <Value>Hortaliças Cósmicas</Value>
+      <Value>Void Vegetables</Value>
     </Record>
     <Record>
       <Key>TraderPlanetaryProduce</Key>
-      <Value>Produtos Planetários</Value>
+      <Value>Planetary Produce</Value>
     </Record>
     <Record>
       <Key>TraderGreenFutures</Key>
-      <Value>Futuros Verdes</Value>
+      <Value>Green Futures</Value>
     </Record>
     <Record>
       <Key>TraderAstroAgronomics</Key>
-      <Value>AstroAgronomia</Value>
+      <Value>AstroAgronomics</Value>
     </Record>
     <Record>
       <Key>TraderStellarSprouts</Key>
-      <Value>Mudas Estelares</Value>
+      <Value>Stellar Sprouts</Value>
     </Record>
     <Record>
       <Key>TraderHydroHarvestHaven</Key>
-      <Value>Refúgio da Colheita Hídrica</Value>
+      <Value>HydroHarvest Haven</Value>
     </Record>
     <Record>
       <Key>TraderOrbitingOrchards</Key>
-      <Value>Pomares Orbitantes</Value>
+      <Value>Orbiting Orchards</Value>
     </Record>
     <Record>
       <Key>TraderGalacticGrowers</Key>
-      <Value>Cultivadores Galácticos</Value>
+      <Value>Galactic Growers</Value>
     </Record>
     <Record>
       <Key>TraderCosmoCropConnect</Key>
-      <Value>Conexão CosmoCultivo</Value>
+      <Value>CosmoCrop Connect</Value>
     </Record>
     <Record>
       <Key>TraderSpaceSproutSuppliers</Key>
-      <Value>Fornecedores de Brotos Espaciais</Value>
+      <Value>Space Sprout Suppliers</Value>
     </Record>
     <Record>
       <Key>TraderNebulaNurturers</Key>
-      <Value>Cultivadores da Nebulosa</Value>
+      <Value>Nebula Nurturers</Value>
     </Record>
     <Record>
       <Key>TraderStarSeedlings</Key>
-      <Value>Sementes Estelares</Value>
+      <Value>Star Seedlings</Value>
     </Record>
     <Record>
       <Key>TraderEcoSphereEssentials</Key>
-      <Value>Essenciais da EcoEsfera</Value>
+      <Value>EcoSphere Essentials</Value>
     </Record>
     <Record>
       <Key>TraderInterstellarIrrigation</Key>
-      <Value>Irrigação Interestelar</Value>
+      <Value>Interstellar Irrigation</Value>
     </Record>
     <Record>
       <Key>TraderGasForLess</Key>
-      <Value>Gás Econômico</Value>
+      <Value>GasForLess</Value>
     </Record>
     <Record>
       <Key>TraderAstroAether</Key>
-      <Value>Éter Astral</Value>
+      <Value>AstroAether</Value>
     </Record>
     <Record>
       <Key>TraderCosmicClouds</Key>
-      <Value>Nuvens Cósmicas</Value>
+      <Value>Cosmic Clouds</Value>
     </Record>
     <Record>
       <Key>TraderNebulaNectars</Key>
-      <Value>Néctares da Nebulosa</Value>
+      <Value>Nebula Nectars</Value>
     </Record>
     <Record>
       <Key>TraderOrbitingOxygens</Key>
-      <Value>Oxigênios Orbitantes</Value>
+      <Value>Orbiting Oxygens</Value>
     </Record>
     <Record>
       <Key>TraderGalacticGases</Key>
-      <Value>Gases Galácticos</Value>
+      <Value>Galactic Gases</Value>
     </Record>
     <Record>
       <Key>TraderStellarSteam</Key>
-      <Value>Vapor Estelar</Value>
+      <Value>Stellar Steam</Value>
     </Record>
     <Record>
       <Key>TraderInterstellarInhalants</Key>
-      <Value>Inalantes Interestelares</Value>
+      <Value>Interstellar Inhalants</Value>
     </Record>
     <Record>
       <Key>TraderVoidVapors</Key>
-      <Value>Vapores Cósmicos</Value>
+      <Value>Void Vapors</Value>
     </Record>
     <Record>
       <Key>TraderSpaceGasStation</Key>
-      <Value>Posto Espacial</Value>
+      <Value>Space Gas Station</Value>
     </Record>
     <Record>
       <Key>TraderBuildINC</Key>
-      <Value>Construtora INC</Value>
+      <Value>Build INC</Value>
     </Record>
     <Record>
       <Key>TraderPaylessLiquids</Key>
-      <Value>Líquidos Econômicos</Value>
+      <Value>Payless Liquids</Value>
     </Record>
     <Record>
       <Key>TraderFrostyBarrels</Key>
-      <Value>Barris Gelados</Value>
+      <Value>Frosty Barrels</Value>
     </Record>
     <Record>
       <Key>TraderCosmicConcoctions</Key>
-      <Value>Poções Cósmicas</Value>
+      <Value>Cosmic Concoctions</Value>
     </Record>
     <Record>
       <Key>TraderGalacticGush</Key>
-      <Value>Jorro Galáctico</Value>
+      <Value>Galactic Gush</Value>
     </Record>
     <Record>
       <Key>TraderOrbitalOceans</Key>
-      <Value>Oceanos Orbitais</Value>
+      <Value>Orbital Oceans</Value>
     </Record>
     <Record>
       <Key>TraderStellarStreams</Key>
-      <Value>Correntes Estelares</Value>
+      <Value>Stellar Streams</Value>
     </Record>
     <Record>
       <Key>TraderInterstellarIcicles</Key>
-      <Value>Pingentes Interestelares</Value>
+      <Value>Interstellar Icicles</Value>
     </Record>
     <Record>
       <Key>TraderVoidVessels</Key>
-      <Value>Naves do Vazio</Value>
+      <Value>Void Vessels</Value>
     </Record>
     <Record>
       <Key>TraderSpaceSprings</Key>
-      <Value>Molas Espaciais</Value>
+      <Value>Space Springs</Value>
     </Record>
     <Record>
       <Key>TraderStarSippers</Key>
-      <Value>Bebedores Estelares</Value>
+      <Value>Star Sippers</Value>
     </Record>
     <Record>
       <Key>TraderCosmicToolsAndMore</Key>
-      <Value>Ferramentas Cósmicas e Mais</Value>
+      <Value>Cosmic Tools and More</Value>
     </Record>
     <Record>
       <Key>TraderGalacticGearworks</Key>
-      <Value>Oficina Galáctica</Value>
+      <Value>Galactic Gearworks</Value>
     </Record>
     <Record>
       <Key>TraderStellarSupplies</Key>
-      <Value>Suprimentos Estelares</Value>
+      <Value>Stellar Supplies</Value>
     </Record>
     <Record>
       <Key>TraderOrbitOpsHardware</Key>
-      <Value>Hardware OrbitOps</Value>
+      <Value>OrbitOps Hardware</Value>
     </Record>
     <Record>
       <Key>TraderInterstellarImplements</Key>
-      <Value>Implementos Interestelares</Value>
+      <Value>Interstellar Implements</Value>
     </Record>
     <Record>
       <Key>TraderVoidVentures</Key>
-      <Value>Empreendimentos do Vazio</Value>
+      <Value>Void Ventures</Value>
     </Record>
     <Record>
       <Key>TraderAsteroidArtisans</Key>
-      <Value>Artesãos do Asteroide</Value>
+      <Value>Asteroid Artisans</Value>
     </Record>
     <Record>
       <Key>TraderSpaceSpanners</Key>
-      <Value>Chaves Espaciais</Value>
+      <Value>Space Spanners</Value>
     </Record>
     <Record>
       <Key>TraderMeteorMechanics</Key>
-      <Value>Mecânica Meteorítica</Value>
+      <Value>Meteor Mechanics</Value>
     </Record>
     <Record>
       <Key>TraderAstroMart</Key>
@@ -22182,63 +22182,63 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TraderCosmosConvenience</Key>
-      <Value>Conveniência do Cosmo</Value>
+      <Value>Cosmo's Convenience</Value>
     </Record>
     <Record>
       <Key>TraderStarStop</Key>
-      <Value>Parada Estelar</Value>
+      <Value>StarStop</Value>
     </Record>
     <Record>
       <Key>TraderNebulaNecessities</Key>
-      <Value>Necessidades da Nebulosa</Value>
+      <Value>Nebula Necessities</Value>
     </Record>
     <Record>
       <Key>TraderInterstellarEssentials</Key>
-      <Value>Essenciais Interestelares</Value>
+      <Value>Interstellar Essentials</Value>
     </Record>
     <Record>
       <Key>TraderVoidVending</Key>
-      <Value>Venda do Vazio</Value>
+      <Value>Void Vending</Value>
     </Record>
     <Record>
       <Key>TraderMeteorMunchies</Key>
-      <Value>Lanches Meteóricos</Value>
+      <Value>Meteor Munchies</Value>
     </Record>
     <Record>
       <Key>TraderGalacticGadgets</Key>
-      <Value>Gadgets Galácticos</Value>
+      <Value>Galactic Gadgets</Value>
     </Record>
     <Record>
       <Key>TraderOrbitronAppliances</Key>
-      <Value>Aparelhos Orbitron</Value>
+      <Value>Orbitron Appliances</Value>
     </Record>
     <Record>
       <Key>TraderStellarSystemsStore</Key>
-      <Value>Loja de Sistemas Estelares</Value>
+      <Value>Stellar Systems Store</Value>
     </Record>
     <Record>
       <Key>TraderSpaceSavvySolutions</Key>
-      <Value>Soluções Espaciais Inteligentes</Value>
+      <Value>Space Savvy Solutions</Value>
     </Record>
     <Record>
       <Key>TraderInterstellarInnovations</Key>
-      <Value>Inovações Interestelares</Value>
+      <Value>Interstellar Innovations</Value>
     </Record>
     <Record>
       <Key>TraderVoidVisions</Key>
-      <Value>Visões do Vazio</Value>
+      <Value>Void Visions</Value>
     </Record>
     <Record>
       <Key>TraderAsteroidAppliances</Key>
-      <Value>Aparelhos de Asteroide</Value>
-	</Record>
+      <Value>Asteroid Appliances</Value>
+    </Record>
     <Record>
       <Key>TraderGenetics</Key>
-      <Value>Engenharia Genética</Value>
+      <Value>Genetic Engineering</Value>
     </Record>
     <Record>
       <Key>TraderRareItems</Key>
-      <Value>Curiosidades Cósmicas</Value>			 
+      <Value>Cosmic Curiosities</Value>
     </Record>
     <Record>
       <Key>TradeError</Key>
@@ -22298,11 +22298,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SurveyTarget200</Key>
-      <Value>Aumento de Mineração 200% (10%)</Value>
+      <Value>200% Bônus de Mineração (10%)</Value>
     </Record>
     <Record>
       <Key>SurveyTarget1000</Key>
-      <Value>Aumento de Mineração 1000% (25%)</Value>
+      <Value>1000% Bônus de Mineração (25%)</Value>
     </Record>
     <Record>
       <Key>MotherboardRocketControlTitle</Key>
@@ -22322,7 +22322,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>NewWorldLunarShortDesc</Key>
-      <Value>Localizado na borda de um mare lunar, onde antigas planícies de lava encontram os acidentados planaltos, o terreno é uma mistura de áreas planas abertas e cristas fragmentadas, moldadas por impactos e história vulcânica. Sem atmosfera, oferece um ambiente austero, porém estável, para operações lunares.</Value>
+      <Value>Localizado na fronteira de um mare lunar, onde antigas planícies de lava encontram as terras altas irregulares, o terreno é uma mistura de áreas planas abertas e cristas fraturadas, moldadas por impactos e pela história vulcânica. Sem atmosfera, oferece um ambiente austero, porém estável, para operações lunares.</Value>
     </Record>
     <Record>
       <Key>WorldMimasHerschel</Key>
@@ -22330,7 +22330,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>NewWorldMimasHerschelShortDesc</Key>
-      <Value>Uma rocha desolada situada sob a espetacular asa dos anéis de Saturno. A pequena estatura de Mimas se reflete em sua gravidade extremamente baixa, e a superfície mimanteana está saturada de crateras de impacto de ocupantes errantes dos anéis. Sua distância do Sol fornece pouca energia para dispositivos solares. Tenha muito cuidado ao caminhar ou pular, pois você pode percorrer grandes distâncias e ganhar muita velocidade devido à gravidade extremamente baixa.</Value>
+      <Value>Uma rocha estéril situada sob a imponente presença dos espetaculares anéis de Saturno. O tamanho diminuto de Mimas se reflete em sua gravidade extremamente baixa, e a superfície mimanteana é saturada de crateras de impacto deixadas por detritos errantes dos anéis. Sua distância do Sol fornece pouca energia para dispositivos solares. Tenha muito cuidado ao caminhar ou saltar, pois você pode percorrer grandes distâncias e ganhar muita velocidade devido à gravidade extremamente baixa.</Value>
     </Record>
     <Record>
       <Key>MultiplayerCouldNotConnect</Key>
@@ -22342,7 +22342,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>MultiplayerRejected</Key>
-      <Value>Rejeitado pelo servidor</Value>
+      <Value>Conexão recusada pelo servidor</Value>
     </Record>
     <Record>
       <Key>MultiplayerBanned</Key>
@@ -22362,7 +22362,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SteamP2PWarningMessage</Key>
-      <Value>O Steam P2P não suportará os requisitos de largura de banda de bases grandes. Sempre que possível, use TCP para uma experiência muito mais estável.</Value>
+      <Value>O Steam P2P não consegue lidar com os requisitos de largura de banda de bases grandes. Sempre que possível, utilize TCP para uma experiência muito mais estável.</Value>
     </Record>
     <Record>
       <Key>FailedToLoadGameMessageTitle</Key>
@@ -22370,7 +22370,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>FailedToLoadGameMessageText</Key>
-      <Value>Ocorreu um erro ao carregar o jogo. Verifique o console (F3) para ver o log completo.</Value>
+      <Value>Ocorreu um erro ao carregar o jogo. Verifique o console (F3) para ver o registro completo.</Value>
     </Record>
     <Record>
       <Key>FailedToStartGameMessageTitle</Key>
@@ -22378,7 +22378,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>FailedToStartGameMessageText</Key>
-      <Value>Ocorreu um erro ao iniciar o jogo. Verifique o console (F3) para ver o log completo.</Value>
+      <Value>Ocorreu um erro ao iniciar o jogo. Verifique o console (F3) para ver o registro completo.</Value>
     </Record>
     <Record>
       <Key>SiteInfoTypeTitle</Key>
@@ -22394,8 +22394,8 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
         <Key>OldSavesDetectedMessage</Key>
-        <Value>O sistema de salvamento foi reescrito do zero e os salvamentos antigos não são mais compatíveis.
-Existem algumas ferramentas criadas pela comunidade que você pode usar para converter salvamentos antigos. Nesse caso, certifique-se de fazer um backup da pasta de salvamentos antes de tentar a conversão.</Value>
+        <Value>O sistema de salvamento foi reescrito do zero e os salvamentos antigos não são mais suportados.
+Existem algumas ferramentas da comunidade que podem ser usadas para converter salvamentos antigos. Nesse caso, certifique-se de fazer um backup da pasta de salvamentos antes de tentar a conversão.</Value>
     </Record>
     <Record>
       <Key>MajorUpdateTitle</Key>
@@ -22404,13 +22404,13 @@ Existem algumas ferramentas criadas pela comunidade que você pode usar para con
     <Record>
       <Key>MajorUpdateDescription</Key>
       <Value>Esta é a &lt;b&gt;maior atualização que já lançamos para o Stationeers&lt;/b&gt;.
-Ela traz mudanças enormes para o jogo, incluindo uma &lt;b&gt;reescrita completa do terreno&lt;/b&gt;, um &lt;b&gt;sistema de salvar/carregar reescrito&lt;/b&gt;, melhorias significativas no multiplayer e atualizações gerais de desempenho e estabilidade.
+Ela traz grandes mudanças para o jogo, incluindo uma &lt;b&gt;reescrita completa do terreno&lt;/b&gt;, um &lt;b&gt;sistema de salvar/carregar totalmente refeito&lt;/b&gt;, melhorias significativas no multiplayer e aprimoramentos gerais de desempenho e estabilidade.
 
-Devido a essas mudanças, &lt;b&gt;salvamentos antigos não são compatíveis&lt;/b&gt; e &lt;b&gt;não faremos compatibilidade retroativa&lt;/b&gt;.
-Se você quiser tentar converter seus salvamentos, a comunidade criou ferramentas que podem ajudar — visite nosso &lt;color=#00AAFF&gt;&lt;b&gt;Discord&lt;/b&gt;&lt;/color&gt; para obter conselhos e assistência de outros jogadores.
+Devido a essas mudanças, &lt;b&gt;salvamentos antigos não são compatíveis&lt;/b&gt; e &lt;b&gt;não serão tornados retrocompatíveis&lt;/b&gt;.
+Se você quiser tentar converter seus salvamentos, a comunidade criou ferramentas que podem ajudar — visite nosso &lt;color=#00AAFF&gt;&lt;b&gt;Discord&lt;/b&gt;&lt;/color&gt; para obter orientações e ajuda de outros jogadores.
 
-Sabemos que perder salvamentos é frustrante, mas essa reescrita estabelece a base para o futuro do Stationeers.
-Obrigado pela sua compreensão, e mal podemos esperar para que você experimente as novidades.
+Sabemos que perder salvamentos pode ser frustrante, mas essa reformulação estabelece a base para o futuro de Stationeers.
+Agradecemos sua compreensão e mal podemos esperar para que você experimente as novidades.
         </Value>
     </Record>
     <Record>
@@ -22419,7 +22419,7 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
     </Record>
     <Record>
       <Key>StationpediaPowerGeneration</Key>
-      <Value>Geração de Energia Base:</Value>
+      <Value>Geração Base de Energia:</Value>
     </Record>
     <Record>
       <Key>StationpediaMetabolicSuspension</Key>
@@ -22427,11 +22427,11 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
     </Record>
     <Record>
       <Key>StationpediaMetabolicSuspensionDesc</Key>
-      <Value>Quando ligado, este dispositivo suspenderá o metabolismo do ocupante, garantindo que ele(a) não consuma mais comida ou água.</Value>
+      <Value>Quando energizado, este dispositivo suspende o metabolismo do ocupante, garantindo que ele não consuma mais comida ou água.</Value>
     </Record>
     <Record>
       <Key>StationpediaCryogenicRegenerationDesc</Key>
-      <Value>Quando ligado, este dispositivo irá reparar todos os tipos de danos a tecidos e órgãos, além de regenerar ocupantes mortos.</Value>
+      <Value>Quando energizado, este dispositivo repara todos os tipos de danos em tecidos e órgãos, além de regenerar ocupantes mortos.</Value>
     </Record>
     <Record>
       <Key>StationpediaCryogenicRegeneration</Key>
@@ -22439,7 +22439,7 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
    </Record>
     <Record>
       <Key>ButtonLink</Key>
-      <Value>Link</Value>			 
+      <Value>Vincular</Value>			 
     </Record>
   </Interface>
   <Colors>
@@ -22547,7 +22547,7 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
     </Record>
     <Record>
       <Key>Ampersand</Key>
-      <Value>e Comercial</Value> <!-- Símbolo "&" (e comercial) -->
+      <Value>E Comercial</Value> <!-- Símbolo "&" (e comercial) -->
     </Record>
     <Record>
       <Key>Quote</Key>
@@ -22675,7 +22675,7 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
     </Record>
     <Record>
       <Key>BackQuote</Key>
-      <Value>Acento grave</Value> <!-- Também conhecido como crase (`) -->
+      <Value>Acento Crase</Value> <!-- Também conhecido como crase (`) -->
     </Record>
     <Record>
       <Key>A</Key>
@@ -22783,7 +22783,7 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
     </Record>
     <Record>
       <Key>LeftCurlyBracket</Key>
-      <Value>Colchete esquerdo</Value> <!-- "Left Curly Bracket" refere-se ao caractere { -->
+      <Value>Chave Esquerda</Value> <!-- "Left Curly Bracket" refere-se ao caractere { -->
     </Record>
     <Record>
       <Key>Pipe</Key>
@@ -22791,7 +22791,7 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
     </Record>
     <Record>
       <Key>RightCurlyBracket</Key>
-      <Value>Colchete direito</Value> <!-- "Right Curly Bracket" refere-se ao caractere } -->
+      <Value>Chave Direita</Value> <!-- "Right Curly Bracket" refere-se ao caractere } -->
     </Record>
     <Record>
       <Key>Tilde</Key>
@@ -22979,27 +22979,27 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
     </Record>
     <Record>
       <Key>RightShift</Key>
-      <Value>Shift direito</Value>
+      <Value>Shift Direito</Value>
     </Record>
     <Record>
       <Key>LeftShift</Key>
-      <Value>Shift esquerdo</Value>
+      <Value>Shift Esquerdo</Value>
     </Record>
     <Record>
       <Key>RightControl</Key>
-      <Value>Control direito</Value>
+      <Value>Control Direito</Value>
     </Record>
     <Record>
       <Key>LeftControl</Key>
-      <Value>Control esquerdo</Value>
+      <Value>Control Esquerdo</Value>
     </Record>
     <Record>
       <Key>RightAlt</Key>
-      <Value>Alt direito</Value>
+      <Value>Alt Direito</Value>
     </Record>
     <Record>
       <Key>LeftAlt</Key>
-      <Value>Alt esquerdo</Value>
+      <Value>Alt Esquerdo</Value>
     </Record>
     <Record>
       <Key>RightApple</Key>
@@ -23007,11 +23007,11 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
     </Record>
     <Record>
       <Key>RightCommand</Key>
-      <Value>Command direita</Value>
+      <Value>Command direito</Value>
     </Record>
     <Record>
       <Key>LeftCommand</Key>
-      <Value>Command esquerda</Value>
+      <Value>Command esquerdo</Value>
     </Record>
     <Record>
       <Key>LeftApple</Key>
@@ -23863,7 +23863,7 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
   <GameStrings>
     <Record>
       <Key>ToolRequiredToDeconstruct</Key>
-      <Value>É necessário{LOCAL:Tool} para &lt;color=red&gt;deconstruct&lt;/color&gt;</Value>
+      <Value>{LOCAL:Tool} necessário para &lt;color=red&gt;desmontar&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>FurnaceCurrentlySmelting</Key>
@@ -23875,7 +23875,7 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
     </Record>
     <Record>
       <Key>DeviceAlreadyExporting</Key>
-      <Value>Exportando {LOCAL:ItemName}</Value>
+      <Value>Já exportando {LOCAL:ItemName}</Value>
     </Record>
     <Record>
       <Key>SuitContextAirConState</Key>
@@ -23891,7 +23891,7 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
     </Record>
     <Record>
       <Key>SaveButtonGameString</Key>
-      <Value>Salvar  &lt;i&gt;{LOCAL:WorldName}&lt;/i&gt;</Value>
+      <Value>Salvar &lt;i&gt;{LOCAL:WorldName}&lt;/i&gt;</Value>
     </Record>
     <Record>
       <Key>SaveAsButtonGameString</Key>
@@ -23919,13 +23919,13 @@ Obrigado pela sua compreensão, e mal podemos esperar para que você experimente
     </Record>
     <Record>
       <Key>DeleteSavePrompt</Key>
-      <Value>Tem certeza de que deseja apagar:
+      <Value>Tem certeza de que deseja excluir:
 &lt;color=red&gt;{LOCAL:WorldSaveName}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeleteBackSavePrompt</Key>
       <Value>Tem certeza?
-Isso irá &lt;color=red&gt;apagar apenas o backup {LOCAL:WorldSaveName}&lt;/color&gt;.</Value>
+Isto irá &lt;color=red&gt;excluir apenas o backup de {LOCAL:WorldSaveName}&lt;/color&gt;.</Value>
     </Record>
     <Record>
       <Key>DaysPassedPlayerMessage</Key>
@@ -23945,12 +23945,12 @@ Isso irá &lt;color=red&gt;apagar apenas o backup {LOCAL:WorldSaveName}&lt;/colo
     </Record>
     <Record>
       <Key>RatioTooltip</Key>
-      <Value>Relação &lt;color=green&gt;{LOCAL:RatioValue1}:{LOCAL:RatioValue2}&lt;/color&gt;</Value>
+      <Value>Proporção &lt;color=green&gt;{LOCAL:RatioValue1}:{LOCAL:RatioValue2}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>QuantityAndRatioTooltip</Key>
       <Value>Quantidade &lt;color=green&gt;{LOCAL:QuantityValue}
-&lt;color=white&gt;Modo  &lt;color=green&gt;{LOCAL:RatioValue1}:{LOCAL:RatioValue2}</Value>
+&lt;color=white&gt;Modo &lt;color=green&gt;{LOCAL:RatioValue1}:{LOCAL:RatioValue2}</Value>
     </Record>
     <Record>
       <Key>ToggleMode</Key>
@@ -23958,7 +23958,7 @@ Isso irá &lt;color=red&gt;apagar apenas o backup {LOCAL:WorldSaveName}&lt;/colo
     </Record>
     <Record>
       <Key>Ratio</Key>
-      <Value>Relação</Value>
+      <Value>Proporção</Value>
     </Record>
     <Record>
       <Key>CloseThreshold</Key>
@@ -23970,7 +23970,7 @@ Isso irá &lt;color=red&gt;apagar apenas o backup {LOCAL:WorldSaveName}&lt;/colo
     </Record>
     <Record>
       <Key>CryoN2OPressureOk</Key>
-      <Value>&lt;color=green&gt;N2O pressão OK&lt;/color&gt;</Value>
+      <Value>&lt;color=green&gt;Pressão de N2O OK&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CryoN2OPressureTooLow</Key>
@@ -23990,7 +23990,7 @@ Isso irá &lt;color=red&gt;apagar apenas o backup {LOCAL:WorldSaveName}&lt;/colo
     </Record>
     <Record>
       <Key>CryoReviving</Key>
-      <Value>Revivendo</Value>
+      <Value>Reanimando</Value>
     </Record>
     <Record>
       <Key>CryoStandby</Key>
@@ -24004,11 +24004,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeChunks</Key>
-      <Value>Carregando Blocos</Value>
+      <Value>Carregando blocos do mundo</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingAtmospherics</Key>
-      <Value>Carregando Atmosféricos</Value>
+      <Value>Carregando sistema atmosférico</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeCableNetworks</Key>
@@ -24020,11 +24020,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenClientJoining</Key>
-      <Value>Cliente Entrando</Value>
+      <Value>Cliente entrando</Value>
     </Record>
     <Record>
       <Key>LoadingScreenReceivingJoinData</Key>
-      <Value>Recebendo Dados de Entrada</Value>
+      <Value>Recebendo dados de conexão</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRegisteringPrefabs</Key>
@@ -24048,11 +24048,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingChuteNetworks</Key>
-      <Value>Carregando Redes de Transportadores</Value>
+      <Value>Carregando redes de esteiras</Value>
     </Record>
     <Record>
       <Key>LoadingScreenProcessingThings</Key>
-      <Value>Processando Itens</Value>
+      <Value>Processando objetos</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingNetworks</Key>
@@ -24060,7 +24060,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingPipeNetworks</Key>
-      <Value>Carregando Redes de Tubulação</Value>
+      <Value>Carregando redes de tubos</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeRocketNetworks</Key>
@@ -24080,7 +24080,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializingChunks</Key>
-      <Value>Inicializando Blocos</Value>
+      <Value>Inicializando blocos do mundo</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingChunks</Key>
@@ -24104,7 +24104,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingRooms</Key>
-      <Value>Carregando Salas</Value>
+      <Value>Carregando ambientes</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingAtmosphers</Key>
@@ -24116,11 +24116,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenPopulatingInventory</Key>
-      <Value>Populando Inventário</Value>
+      <Value>Preenchendo inventário</Value>
     </Record>
     <Record>
       <Key>LoadingScreenSpawningThings</Key>
-      <Value>Gerando Itens</Value>
+      <Value>Gerando objetos</Value>
     </Record>
     <Record>
       <Key>LoadingScreenInitializingDevices</Key>
@@ -24136,7 +24136,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingThings</Key>
-      <Value>Carregando Itens ({LOCAL:ThingCount})</Value>
+      <Value>Carregando objetos ({LOCAL:ThingCount})</Value>
     </Record>
     <Record>
       <Key>LoadingScreenCleaningUpPrefabs</Key>
@@ -24164,7 +24164,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ActionClearPlant</Key>
-      <Value>Limpar {LOCAL:Plant}</Value>
+      <Value>Remover {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>ActionHarvestPlant</Key>
@@ -24176,23 +24176,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AlreadyFertalised</Key>
-      <Value>O compartimento já está fertilizado</Value>
+      <Value>O recipiente já está fertilizado</Value>
     </Record>
     <Record>
       <Key>NotPlantable</Key>
-      <Value>Um {0} não pode ser plantado</Value>
+      <Value>{0} não pode ser plantado</Value>
     </Record>
     <Record>
       <Key>AddSeedsToSlot</Key>
-      <Value>Isso adicionará um {0} ao recipiente</Value>
+      <Value>Isso adicionará uma {0} ao recipiente</Value>
     </Record>
     <Record>
       <Key>ClearFertiliser</Key>
-      <Value>Fertilizador Limpar</Value>
+      <Value>Remover fertilizante</Value>
     </Record>
     <Record>
       <Key>NothingToSample</Key>
-      <Value>Nada para coletar</Value>
+      <Value>Nada para amostrar</Value>
     </Record>
     <Record>
       <Key>NoPlantToLabel</Key>
@@ -24204,27 +24204,27 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AlreadyFullOfWater</Key>
-      <Value>Já cheio de água</Value>
+      <Value>Já está cheio de água</Value>
     </Record>
     <Record>
       <Key>WaterPlantWith</Key>
-      <Value>Planta aquática com {LOCAL:InHand}</Value>
+      <Value>Regar planta com {LOCAL:InHand}</Value>
     </Record>
     <Record>
       <Key>CanOnlyUseLiquidOnPlants</Key>
-      <Value>Você só pode usar botijões de gás líquido para regar plantas</Value>
+      <Value>Você só pode usar cilindros de gás líquidos para regar plantas</Value>
     </Record>
     <Record>
       <Key>CantHoldAnyMore</Key>
-      <Value>Não aguento mais</Value>
+      <Value>Não pode conter mais</Value>
     </Record>
     <Record>
       <Key>SomethingPlantedHere</Key>
-      <Value>Já tem algo plantado aqui</Value>
+      <Value>Já há algo plantado aqui</Value>
     </Record>
     <Record>
       <Key>SomethingInThisSlot</Key>
-      <Value>Já existe algo neste slot</Value>
+      <Value>Já há algo neste slot</Value>
     </Record>
     <Record>
       <Key>Fertiliser</Key>
@@ -24232,7 +24232,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AddFertiliserToSlot</Key>
-      <Value>Adicione fertilizante ao slot</Value>
+      <Value>Adicionar fertilizante ao slot</Value>
     </Record>
     <Record>
       <Key>GrowthTemperatureRange</Key>
@@ -24260,7 +24260,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>WaterUsage</Key>
-      <Value>Uso de água</Value>
+      <Value>Consumo de água</Value>
     </Record>
     <Record>
       <Key>UndesiredGasResistance</Key>
@@ -24268,27 +24268,27 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TimeUntilDehydrationDamage</Key>
-      <Value>Tempo até os danos da seca</Value>
+      <Value>Tempo até dano por desidratação</Value>
     </Record>
     <Record>
       <Key>TimeUntilUndesiredGasDamage</Key>
-      <Value>Tempo até o dano da toxina</Value>
+      <Value>Tempo até dano por toxinas</Value>
     </Record>
     <Record>
       <Key>TimeUntilFrozenDamage</Key>
-      <Value>Tempo até o dano congelado</Value>
+      <Value>Tempo até dano por congelamento</Value>
     </Record>
     <Record>
       <Key>TimeUntilOverheatDamage</Key>
-      <Value>Tempo até o dano por superaquecimento</Value>
+      <Value>Tempo até dano por superaquecimento</Value>
     </Record>
     <Record>
       <Key>TimeUntilSuffocateDamage</Key>
-      <Value>Tempo até sufocar o dano</Value>
+      <Value>Tempo até dano por asfixia</Value>
     </Record>
     <Record>
       <Key>TimeUntilLowPressureDamage</Key>
-      <Value>Tempo até o dano por baixa pressão</Value>
+      <Value>Tempo até dano por baixa pressão</Value>
     </Record>
     <Record>
       <Key>TimeUntilHighPressureDamage</Key>
@@ -24300,7 +24300,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TimeUntilDarknessDamage</Key>
-      <Value>Tempo até sofrer danos por escuridão</Value>
+      <Value>Tempo até dano por escuridão</Value>
     </Record>
     <Record>
       <Key>MinGrowTemperature</Key>
@@ -24348,7 +24348,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionGrowthSpeedMultiplier</Key>
-      <Value>Aumenta a velocidade de crescimento da planta. Plantas com um multiplicador de velocidade de crescimento maior levarão menos tempo para crescer.</Value>
+      <Value>Aumenta a velocidade de crescimento da planta. Plantas com um multiplicador de velocidade de crescimento maior levam menos tempo para crescer.</Value>
     </Record>
     <Record>
       <Key>GeneDarkPerDay</Key>
@@ -24356,7 +24356,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionDarkPerDay</Key>
-      <Value>O tempo que uma planta precisa permanecer na escuridão em cada ciclo diário para prosperar. O ciclo diário padrão é de 20 minutos.</Value>
+      <Value>Tempo que uma planta precisa permanecer na escuridão a cada ciclo diário para se desenvolver. A duração padrão de um ciclo diário é de 20 minutos.</Value>
     </Record>
     <Record>
       <Key>GeneLightPerDay</Key>
@@ -24364,7 +24364,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLightPerDay</Key>
-      <Value>O tempo que uma planta precisa ser iluminada pelo sol ou por uma luz de cultivo em cada ciclo diário para prosperar. O ciclo diário padrão é de 20 minutos.</Value>
+      <Value>Tempo que uma planta precisa receber luz do sol ou de uma lâmpada de cultivo a cada ciclo diário para se desenvolver. A duração padrão de um ciclo diário é de 20 minutos.</Value>
     </Record>
     <Record>
       <Key>GeneDroughtTolerance</Key>
@@ -24372,7 +24372,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionDroughtTolerance</Key>
-      <Value>O tempo que uma planta pode ficar desidratada antes de começar a sofrer danos.</Value>
+      <Value>Tempo que uma planta pode permanecer desidratada antes de começar a sofrer dano.</Value>
     </Record>
     <Record>
       <Key>GeneWaterUsage</Key>
@@ -24380,7 +24380,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionWaterUsage</Key>
-      <Value>A quantidade de água que esta planta consome.</Value>
+      <Value>Quantidade de água que esta planta consome.</Value>
     </Record>
     <Record>
       <Key>GeneGasProduction</Key>
@@ -24388,15 +24388,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionGasProduction</Key>
-      <Value>A quantidade de gás que a planta inala e exala.</Value>
+      <Value>Quantidade de gás que a planta inala e exala.</Value>
     </Record>
     <Record>
       <Key>GeneSuffocationTolerance</Key>
-      <Value>Tolerância à sufocação</Value>
+      <Value>Tolerância à asfixia</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionSuffocationTolerance</Key>
-      <Value>O tempo que uma planta pode ficar sem os gases necessários à sua respiração antes de começar a sofrer danos.</Value>
+      <Value>Tempo que uma planta pode ficar sem os gases necessários para respiração antes de começar a sofrer dano.</Value>
     </Record>
     <Record>
       <Key>GeneLowPressureResistance</Key>
@@ -24404,7 +24404,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLowPressureResistance</Key>
-      <Value>O limite mínimo de pressão em que a planta consegue crescer.</Value>
+      <Value>Limite mínimo de pressão em que a planta consegue crescer.</Value>
     </Record>
     <Record>
       <Key>GeneLowPressureTolerance</Key>
@@ -24412,23 +24412,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLowPressureTolerance</Key>
-      <Value>O tempo que uma planta pode permanecer abaixo do seu limite de baixa pressão antes de começar a sofrer danos.</Value>
+      <Value>Tempo que uma planta pode permanecer abaixo de seu limite de baixa pressão antes de começar a sofrer dano.</Value>
     </Record>
     <Record>
       <Key>GeneLowTemperatureResistance</Key>
-      <Value>Resistência a baixas temperaturas</Value>
+      <Value>Resistência a baixa temperatura</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLowTemperatureResistance</Key>
-      <Value>O limite mínimo de temperatura em que a planta consegue crescer.</Value>
+      <Value>Limite mínimo de temperatura em que a planta consegue crescer.</Value>
     </Record>
     <Record>
       <Key>GeneLowTemperatureTolerance</Key>
-      <Value>Tolerância a baixas temperaturas</Value>
+      <Value>Tolerância a baixa temperatura</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLowTemperatureTolerance</Key>
-      <Value>O tempo que uma planta pode permanecer abaixo do seu limite de baixa temperatura antes de começar a sofrer danos.</Value>
+      <Value>Tempo que uma planta pode permanecer abaixo de seu limite de baixa temperatura antes de começar a sofrer dano.</Value>
     </Record>
     <Record>
       <Key>GeneUndesiredGasResistance</Key>
@@ -24436,7 +24436,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionUndesiredGasResistance</Key>
-      <Value>O limite de pressão parcial de gases tóxicos em que a planta consegue crescer.</Value>
+      <Value>Limite de pressão parcial de gases tóxicos em que a planta consegue crescer.</Value>
     </Record>
     <Record>
       <Key>GeneUndesiredGasTolerance</Key>
@@ -24444,39 +24444,39 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionUndesiredGasTolerance</Key>
-      <Value>O tempo que uma planta pode permanecer acima do seu limite de resistência a toxinas antes de começar a sofrer danos.</Value>
+      <Value>Tempo que uma planta pode permanecer acima de seu limite de resistência a toxinas antes de sofrer dano.</Value>
     </Record>
     <Record>
       <Key>GeneHighPressureResistance</Key>
-      <Value>Resistência à alta pressão</Value>
+      <Value>Resistência a alta pressão</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionHighPressureResistance</Key>
-      <Value>O limite máximo de pressão em que a planta consegue crescer.</Value>
+      <Value>Limite máximo de pressão em que a planta consegue crescer.</Value>
     </Record>
     <Record>
       <Key>GeneHighPressureTolerance</Key>
-      <Value>Tolerância à alta pressão</Value>
+      <Value>Tolerância a alta pressão</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionHighPressureTolerance</Key>
-      <Value>O tempo que uma planta pode permanecer acima do seu limite de alta pressão antes de começar a sofrer danos.</Value>
+      <Value>Tempo que uma planta pode permanecer acima de seu limite de alta pressão antes de começar a sofrer dano.</Value>
     </Record>
     <Record>
       <Key>GeneHighTemperatureResistance</Key>
-      <Value>Resistência a altas temperaturas</Value>
+      <Value>Resistência a alta temperatura</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionHighTemperatureResistance</Key>
-      <Value>O limite máximo de temperatura em que a planta consegue crescer.</Value>
+      <Value>Limite máximo de temperatura em que a planta consegue crescer.</Value>
     </Record>
     <Record>
       <Key>GeneHighTemperatureTolerance</Key>
-      <Value>Tolerância a altas temperaturas</Value>
+      <Value>Tolerância a alta temperatura</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionHighTemperatureTolerance</Key>
-      <Value>O tempo que uma planta pode permanecer acima do seu limite de alta temperatura antes de começar a sofrer danos.</Value>
+      <Value>Tempo que uma planta pode permanecer acima de seu limite de alta temperatura antes de começar a sofrer dano.</Value>
     </Record>
     <Record>
       <Key>GeneLightTolerance</Key>
@@ -24484,7 +24484,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionLightTolerance</Key>
-      <Value>O tempo que uma planta pode permanecer à luz antes de começar a sofrer danos.</Value>
+      <Value>Tempo que uma planta pode permanecer exposta à luz antes de começar a sofrer dano.</Value>
     </Record>
     <Record>
       <Key>GeneDarknessTolerance</Key>
@@ -24492,7 +24492,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDescriptionDarknessTolerance</Key>
-      <Value>O tempo que uma planta pode permanecer na escuridão antes de começar a sofrer danos.</Value>
+      <Value>Tempo que uma planta pode permanecer na escuridão antes de começar a sofrer dano.</Value>
     </Record>
     <Record>
       <Key>GeneCurrentSelected</Key>
@@ -24500,15 +24500,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GeneDestabilisingOnly</Key>
-      <Value>Apenas Desestabilizar</Value>
+      <Value>Apenas desestabilizante</Value>
     </Record>
     <Record>
       <Key>GlobalAttack</Key>
-      <Value>Atacar &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Ataque &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalRelease</Key>
-      <Value>Liberar &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Liberação &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalSpeed</Key>
@@ -24524,7 +24524,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GlobalThrottle</Key>
-      <Value>Acelerador &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Aceleração &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalCombustionLimiter</Key>
@@ -24532,15 +24532,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GlobalCurrentInstrument</Key>
-      <Value>Instrumento Atual &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Instrumento atual &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalChangeSettingTo</Key>
-      <Value>Alternar par {0}</Value>
+      <Value>Alternar para {0}</Value>
     </Record>
     <Record>
       <Key>GlobalChangeSettingToAll</Key>
-      <Value>Alternar para Todos {0}</Value>
+      <Value>Alternar todos para {0}</Value>
     </Record>
     <Record>
       <Key>GlobalChangeSettingToFor</Key>
@@ -24592,7 +24592,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GlobalMaxMode</Key>
-      <Value>Máx. &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Máx &lt;color=green&gt;{0}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>GlobalValue</Key>
@@ -24600,7 +24600,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GlobalPitch</Key>
-      <Value>Inclinação &lt;color=green&gt;{0}&lt;/color&gt;</Value>
+      <Value>Tom &lt;color=green&gt;{0}&lt;/color&gt;</Value>  <!-- antes inclinação -->
     </Record>
     <Record>
       <Key>GlobalVolume</Key>
@@ -24616,7 +24616,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GlobalAlreadyInUse</Key>
-      <Value>Já em uso</Value>
+      <Value>Já está em uso</Value>
     </Record>
     <Record>
       <Key>Pressure</Key>
@@ -24668,7 +24668,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StackerWillForceChangeFromLogicToAutomatic</Key>
-      <Value>Forçará a mudança do modo &lt;color=yellow&gt;Logic&lt;/color&gt; para &lt;color=yellow&gt;Automático&lt;/color&gt;</Value>
+      <Value>Irá forçar a mudança do modo &lt;color=yellow&gt;Lógica&lt;/color&gt; para &lt;color=yellow&gt;Automático&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>StackerContainsQuantity</Key>
@@ -24676,11 +24676,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StackableNotEnoughInStackOf</Key>
-      <Value>Não há o suficiente na pilha de {LOCAL:Item} para completar, &lt;color=yellow&gt;{LOCAL:Quantity0}&lt;/color&gt;/&lt;color=yellow&gt;{LOCAL:Quantity1}&lt;/color&gt;</Value>
+      <Value>Quantidade insuficiente na pilha de {LOCAL:Item} para completar, &lt;color=yellow&gt;{LOCAL:Quantity0}&lt;/color&gt;/&lt;color=yellow&gt;{LOCAL:Quantity1}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>StackableNotEnoughInStack</Key>
-      <Value>Não há o suficiente na pilha!</Value>
+      <Value>Quantidade insuficiente na pilha!</Value>
     </Record>
     <Record>
       <Key>InventoryStackIsFull</Key>
@@ -24692,7 +24692,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>InteractCantClose</Key>
-      <Value>Algo está impedindo isto de fechar</Value>
+      <Value>Algo está impedindo que isto seja fechado</Value>
     </Record>
     <Record>
       <Key>ThingMoveToWorld</Key>
@@ -24704,23 +24704,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingCanNotInsertInteractionsDisabled</Key>
-      <Value>Não é possível inserir {LOCAL:Thing0} interações estão desativadas em {LOCAL:Thing1}</Value>
+      <Value>Não é possível inserir {LOCAL:Thing0}, as interações estão desativadas em {LOCAL:Thing1}</Value>
     </Record>
     <Record>
       <Key>ThingCanNotInsertAlreadyContains</Key>
-      <Value>Não é possível inserir {LOCAL:Thing0} pois já contém {LOCAL:Thing1}</Value>
+      <Value>Não é possível inserir {LOCAL:Thing0}, pois já contém {LOCAL:Thing1}</Value>
     </Record>
     <Record>
       <Key>ThingCanNotSwap</Key>
-      <Value>Você não pode trocar {LOCAL:Thing0} por {LOCAL:Thing1}</Value>
+      <Value>Você não pode trocar {LOCAL:Thing0} com {LOCAL:Thing1}</Value>
     </Record>
     <Record>
       <Key>ThingCurrentlyNotInteractable</Key>
-      <Value>{LOCAL:Thing} atualmente não pode ser interagido</Value>
+      <Value>{LOCAL:Thing} não pode ser interagido no momento</Value>
     </Record>
     <Record>
       <Key>ThingCanNotPickUp</Key>
-      <Value>Você não pode pegar o {LOCAL:Thing}</Value>
+      <Value>Você não pode pegar {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ThingIsNotType</Key>
@@ -24732,7 +24732,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingCurrentlyFlashingError</Key>
-      <Value>Atualmente piscando um erro</Value>
+      <Value>Exibindo erro no momento</Value>
     </Record>
     <Record>
       <Key>ThingCycleTo</Key>
@@ -24760,11 +24760,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingToFarAwayForDrag</Key>
-      <Value>{LOCAL:Thing} está muito distante para ser arrastado</Value>
+      <Value>{LOCAL:Thing} está muito longe para ser arrastado</Value>
     </Record>
     <Record>
       <Key>ThingCanNotBeDraggedWithSomethingIn</Key>
-      <Value>Não pode ser arrastado com algo dentro {LOCAL:Thing}</Value>
+      <Value>Não pode ser arrastado com algo dentro de {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ThingAlreadyDraggedBy</Key>
@@ -24772,27 +24772,27 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingModeDoesNotSupportLinking</Key>
-      <Value>O modo não suporta vinculação</Value>
+      <Value>Este modo não suporta vinculação</Value>
     </Record>
     <Record>
       <Key>ThingWillDecayInHours</Key>
-      <Value>Decairá em {0} horas.</Value>
+      <Value>Isto irá deteriorar em {0} horas.</Value>
     </Record>
     <Record>
       <Key>ThingWillDecayInMinutes</Key>
-      <Value>Decairá em {0} minutos.</Value>
+      <Value>Isto irá deteriorar em {0} minutos.</Value>
     </Record>
     <Record>
       <Key>ThingWillDecayInSeconds</Key>
-      <Value>Decairá em {0} segundos.</Value>
+      <Value>Isto irá deteriorar em {0} segundos.</Value>
     </Record>
     <Record>
       <Key>StructureYouRequireToCompleteTask</Key>
-      <Value>Você precisa de {0} em {1} para completar esta tarefa</Value>
+      <Value>Você precisa de {0} em {1} para concluir esta tarefa</Value>
     </Record>
     <Record>
       <Key>StructureDeconstructionFailed</Key>
-      <Value>Desconstrução falhou</Value>
+      <Value>Falha ao desmontar</Value>
     </Record>
     <Record>
       <Key>StructureIsNotDamaged</Key>
@@ -24824,11 +24824,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HarvesterBusyDoing</Key>
-      <Value>Atualmente ocupado fazendo {0}</Value>
+      <Value>Ocupado no momento com {0}</Value>
     </Record>
     <Record>
       <Key>MicrowaveOpenFailure</Key>
-      <Value>Algo está impedindo isto de fechar</Value>
+      <Value>Algo está impedindo que isto seja fechado</Value>
     </Record>
     <Record>
       <Key>MicrowaveAddUnitsOf</Key>
@@ -24848,11 +24848,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ComposterCurrentlyProcessing</Key>
-      <Value>Atualmente processando...</Value>
+      <Value>Processando no momento...</Value>
     </Record>
     <Record>
       <Key>ComposterCurrentlyNotProcessing</Key>
-      <Value>Atualmente não processando...</Value>
+      <Value>Não está processando no momento...</Value>
     </Record>
     <Record>
       <Key>Processing</Key>
@@ -24880,7 +24880,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ActionPatchSolarPanels</Key>
-      <Value>Reparo</Value>
+      <Value>Remendar</Value>
     </Record>
     <Record>
       <Key>DeviceNoPower</Key>
@@ -24908,23 +24908,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceNoUseAbleIngredients</Key>
-      <Value>&lt;color=red&gt;Não há ingredientes utilizáveis neste item para adicionar&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Não há ingredientes utilizáveis aqui para adicionar&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeviceLocked</Key>
-      <Value>Não é possível interagir, pois o dispositivo está atualmente bloqueado</Value>
+      <Value>Não é possível interagir, pois o dispositivo está bloqueado</Value>
     </Record>
     <Record>
       <Key>DeviceBroken</Key>
-      <Value>Dispositivo totalmente quebrado — não é possível interagir</Value>
+      <Value>Não é possível interagir, pois o dispositivo está completamente quebrado</Value>
     </Record>
     <Record>
       <Key>DeviceEmpty</Key>
-      <Value>Esvazia todos os reagentes do dispositivo</Value>
+      <Value>Isto esvazia o dispositivo de todos os reagentes</Value>
     </Record>
     <Record>
       <Key>DeviceWillProduce</Key>
-      <Value>Produzirá {LOCAL:Device}</Value>
+      <Value>Irá produzir {LOCAL:Device}</Value>
     </Record>
     <Record>
       <Key>DeviceAddReagents</Key>
@@ -24936,7 +24936,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceOnlyCookedItems</Key>
-      <Value>&lt;color=red&gt;Este dispositivo só aceita itens cozidos e latas vazias&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Este dispositivo aceita apenas itens cozidos e latas vazias&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>DeviceNoFuel</Key>
@@ -24944,15 +24944,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceNotHotEnough</Key>
-      <Value>O dispositivo não está quente o suficiente para funcionar</Value>
+      <Value>O dispositivo não está quente o suficiente para operar</Value>
     </Record>
     <Record>
       <Key>DevicePortableConnectionFailureUnknown</Key>
-      <Value>Só é possível conectar Desconhecido a isto {LOCAL:Thing}</Value>
+      <Value>Só é possível conectar Desconhecido a este {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>DevicePortableConnectionFailureGas</Key>
-      <Value>Apenas Gás pode ser conectado a isto {LOCAL:Thing}</Value>
+      <Value>Só é possível conectar Gás a este {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>DevicePortableConnectionFailureGasLiquid</Key>
@@ -24960,11 +24960,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceCannotDragCollision</Key>
-      <Value>Não é possível arrastar, isso resultaria em colisão com estruturas</Value>
+      <Value>Não é possível arrastar, pois causará colisão com estruturas</Value>
     </Record>
     <Record>
       <Key>DeviceManualInputWindow</Key>
-      <Value>Abrirá uma janela de entrada manual para você inserir uma nova configuração</Value>
+      <Value>Irá abrir uma janela de entrada manual para inserir uma nova configuração</Value>
     </Record>
     <Record>
       <Key>DeviceNothingToChangeTo</Key>
@@ -24976,7 +24976,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeepMinerSomethingInTheWay</Key>
-      <Value>Algo está bloqueando {LOCAL:Thing}</Value>
+      <Value>Algo está no caminho {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>TorpedoTubeNothingLoadedInto</Key>
@@ -24984,7 +24984,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TorpedoTubeNothingInThe</Key>
-      <Value>Nada no {LOCAL:Slot}</Value>
+      <Value>Nada em {LOCAL:Slot}</Value>
     </Record>
     <Record>
       <Key>TorpedoTubeCanNotWhileExteriorDoorIsClosed</Key>
@@ -24992,7 +24992,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TorpedoTubeCurrentlyObscuring</Key>
-      <Value>{LOCAL:Slot0} está atualmente obscurecendo {LOCAL:Slot1}</Value>
+      <Value>{LOCAL:Slot0} está bloqueando {LOCAL:Slot1}</Value>
     </Record>
     <Record>
       <Key>LogicNoDevice</Key>
@@ -25000,11 +25000,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LogicNoSetting</Key>
-      <Value>&lt;color=red&gt;Sem configuração&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Nenhuma configuração&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoSlot</Key>
-      <Value>&lt;color=red&gt;Sem slot&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Nenhum slot&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>LogicNoAvailableSlots</Key>
@@ -25020,7 +25020,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LogicNoAdditionalSlotsFor</Key>
-      <Value>&lt;color=red&gt;Não há slots adicionais para&lt;/color&gt; {LOCAL:Thing}</Value>
+      <Value>&lt;color=red&gt;Nenhum slot adicional para&lt;/color&gt; {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>LogicNoReadableDevices</Key>
@@ -25036,7 +25036,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AirLockIsCurrently</Key>
-      <Value>O {LOCAL:Airlock} está atualmente &lt;color=yellow&gt;{LOCAL:AirLockState}&lt;/color&gt;</Value>
+      <Value>{LOCAL:Airlock} está atualmente &lt;color=yellow&gt;{LOCAL:AirLockState}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriver</Key>
