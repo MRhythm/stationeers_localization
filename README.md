@@ -10,15 +10,14 @@ Overwrite the existing files when prompted.<br/>
 
 ### Contribution:
 
-|      Code     |       Language       |        Contributor         |
-| ------------- | -------------------- | -------------------------- |
-| CN            | Simplefied Chinese   | MRhythm                    |
-| RU            | Russian              | AlexusYT                   |
-| FR            | French               | CedricDx                   |
+|      Code     |       Language       |     Main Contributors      |   Last Update    |    Game Version    |
+| ------------- | -------------------- | -------------------------- | ---YYYY-MM-DD----|  ---------------   |
+| CN            | Simplefied Chinese   | MRhythm                    |    2026-03-05    |   0.2.6193.26986   |
+| RU            | Russian              | AlexusYT                   |                  |                    |
+| FR            | French               | CedricDx                   |    2026-02-19    |   0.2.6175.26943   |
+| PB            | Portuguese Brazilian | Chelo-BR                   |    2026-03-17    |                    |
 
 
 
 ### Maintenance:
 This repository synchronizes with game updates.<br/>
-Last updated: 2026/01/13<br/>
-Game version: 0.2.6130.26793<br/>
