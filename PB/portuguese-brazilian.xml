@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português (Brasil)</Name>
-  <Code>PB</Code>  <!--Tradução Marcelo 15/03/2026 v0.2.6182.26959-->
+  <Code>PB</Code>  <!--Tradução Marcelo 16/03/2026 v0.2.6182.26959-->
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -25044,7 +25044,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RequiresScrewdriverOrLabeler</Key>
-      <Value>É necessário uma Chave de Fenda ou um Rotulador para alterar as configurações</Value>
+      <Value>Você precisa de uma Chave de Fenda ou Rotulador para alterar as configurações</Value>
     </Record>
     <Record>
       <Key>NoAudioReceiverDevices</Key>
@@ -25060,7 +25060,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ToolDoesNotHaveEnoughCharge</Key>
-      <Value>{LOCAL:Tool} não possui carga suficiente de {LOCAL:Battery}.</Value>
+      <Value>{LOCAL:Tool} não possui carga suficiente em {LOCAL:Battery}.</Value>
     </Record>
     <Record>
       <Key>ToolCanNotCompleteTask</Key>
@@ -25068,7 +25068,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ToolNotCurrentlyOperableForTask</Key>
-      <Value>{LOCAL:Tool} não está operável no momento para esta tarefa</Value>
+      <Value>{LOCAL:Tool} não pode ser operado no momento para esta tarefa</Value>
     </Record>
     <Record>
       <Key>VolumeChangeDirection</Key>
@@ -25088,7 +25088,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlantViewSampleInfo</Key>
-      <Value>&lt;color=green&gt;Clique esquerdo&lt;/color&gt; para ver as informações da amostra concluída</Value>
+      <Value>&lt;color=green&gt;Clique com o botão esquerdo&lt;/color&gt; para visualizar as informações da amostra concluída</Value>
     </Record>
     <Record>
       <Key>PlantHoldToClear</Key>
@@ -25096,23 +25096,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlantNotGrowingMature</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;não está crescendo&lt;/color&gt; e nunca dará frutos</Value>
+      <Value>A {LOCAL:Plant} &lt;color=red&gt;não está crescendo&lt;/color&gt; e nunca produzirá frutos</Value>
     </Record>
     <Record>
       <Key>PlantBarelyGrowingMature</Key>
-      <Value>A {LOCAL:Plant} está crescendo muito pouco rumo à frutificação</Value>
+      <Value>A {LOCAL:Plant} está crescendo muito pouco em direção à frutificação</Value>
     </Record>
     <Record>
       <Key>PlantGrowingPoorlyMature</Key>
-      <Value>A {LOCAL:Plant} está crescendo mal rumo à frutificação</Value>
+      <Value>A {LOCAL:Plant} está crescendo mal em direção à frutificação</Value>
     </Record>
     <Record>
       <Key>PlantGrowingModeratelyMature</Key>
-      <Value>A {LOCAL:Plant} está crescendo de forma moderada rumo à frutificação</Value>
+      <Value>A {LOCAL:Plant} está crescendo moderadamente bem em direção à frutificação</Value>
     </Record>
     <Record>
       <Key>PlantThrivingMature</Key>
-      <Value>A {LOCAL:Plant} está se desenvolvendo bem rumo à frutificação</Value>
+      <Value>A {LOCAL:Plant} está prosperando em direção à frutificação</Value>
     </Record>
     <Record>
       <Key>PlantNotGrowingSeed</Key>
@@ -25120,19 +25120,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlantBarelyGrowingSeed</Key>
-      <Value>A {LOCAL:Plant} está crescendo muito pouco rumo à floração</Value>
+      <Value>A {LOCAL:Plant} está crescendo muito pouco em direção à produção de sementes</Value>
     </Record>
     <Record>
       <Key>PlantGrowingPoorlySeed</Key>
-      <Value>A {LOCAL:Plant} está crescendo mal rumo à floração</Value>
+      <Value>A {LOCAL:Plant} está crescendo mal em direção à produção de sementes</Value>
     </Record>
     <Record>
       <Key>PlantGrowingModeratelySeed</Key>
-      <Value>A {LOCAL:Plant} está crescendo de forma moderada rumo à floração</Value>
+      <Value>A {LOCAL:Plant} está crescendo moderadamente bem em direção à produção de sementes</Value>
     </Record>
     <Record>
       <Key>PlantThrivingSeed</Key>
-      <Value>A {LOCAL:Plant} está se desenvolvendo bem rumo à floração</Value>
+      <Value>A {LOCAL:Plant} está prosperando em direção à produção de sementes</Value>
     </Record>
     <Record>
       <Key>PlantNotEnoughLight</Key>
@@ -25140,19 +25140,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlantAtmosphereTooHot</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;atmosfera está muito quente&lt;/color&gt;</Value>
+      <Value>A atmosfera da {LOCAL:Plant} &lt;color=red&gt;está muito quente&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantAtmosphereTooCold</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;atmosfera está muito fria&lt;/color&gt;</Value>
+      <Value>A atmosfera da {LOCAL:Plant} &lt;color=red&gt;está muito fria&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterTooHot</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;a água está muito quente&lt;/color&gt;</Value>
+      <Value>A água da {LOCAL:Plant} &lt;color=red&gt;está muito quente&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterTooCold</Key>
-      <Value>A {LOCAL:Plant} &lt;color=red&gt;a água está muito fria&lt;/color&gt;</Value>
+      <Value>A água da {LOCAL:Plant} &lt;color=red&gt;está muito fria&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlantWaterNeeds</Key>
@@ -25188,27 +25188,27 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlantCreateSeeds</Key>
-      <Value>Isso criará &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; x sementes de {LOCAL:Plant}</Value>
+      <Value>Isto criará &lt;color=yellow&gt;{LOCAL:Count}&lt;/color&gt; x sementes de {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>OreNoMiningBelt</Key>
-      <Value>Não há correia de mineração para armazenar</Value>
+      <Value>Nenhum cinto de mineração para armazenar</Value>
     </Record>
     <Record>
       <Key>OreNoSlotInMiningBelt</Key>
-      <Value>Nenhum slot disponível na correia de mineração</Value>
+      <Value>Nenhum slot disponível no cinto de mineração</Value>
     </Record>
     <Record>
       <Key>ApcUnableToMoveLocked</Key>
-      <Value>Não é possível mover, pois a unidade está travada</Value>
+      <Value>Não é possível mover pois a unidade está bloqueada</Value>
     </Record>
     <Record>
       <Key>ApcUnableToMoveTool</Key>
-      <Value>Não é possível mover, pois a ferramenta não está em condições de uso</Value>
+      <Value>Não é possível mover pois a ferramenta não está em condição operacional</Value>
     </Record>
     <Record>
       <Key>ElevatorUnableToForceOpenLocked</Key>
-      <Value>Não é possível forçar a abertura, {LOCAL:Elevator} está travado</Value>
+      <Value>Não é possível forçar a abertura, {LOCAL:Elevator} está bloqueado</Value>
     </Record>
     <Record>
       <Key>ElevatorUnableToForceOpenPowered</Key>
@@ -25216,15 +25216,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DoorUnableToForceOpenLocked</Key>
-      <Value>Não é possível arrombar, os ferrolhos da porta estão travados</Value>
+      <Value>Não é possível forçar a abertura, os ferrolhos da porta estão travados</Value>
     </Record>
     <Record>
       <Key>DoorUnableToForceOpenPowered</Key>
-      <Value>Não é possível arrombar, a porta está energizada no momento</Value>
+      <Value>Não é possível forçar a abertura, a porta está energizada no momento</Value>
     </Record>
     <Record>
       <Key>ActivateExplosive</Key>
-      <Value>Ativa um temporizador de {0} segundos. O temporizador não pode ser desligado. Atenção é recomendada.</Value>
+      <Value>Ativa um temporizador de {0} segundos. O temporizador não pode ser desligado. Recomenda-se cautela.</Value>
     </Record>
     <Record>
       <Key>RocketCanNotEnterCommand</Key>
@@ -25232,11 +25232,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerToggleModeToStabilize</Key>
-      <Value>Definir estabilização</Value>
+      <Value>Definir estabilizar</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerToggleModeToDestabilize</Key>
-      <Value>Definir desestabilização</Value>
+      <Value>Definir desestabilizar</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerStabilizeMode</Key>
@@ -25248,11 +25248,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerStabilizePlant</Key>
-      <Value>Estabilizar todos os genes na {LOCAL:Plant}</Value>
+      <Value>Estabilizar todos os genes de {LOCAL:Plant}</Value>
     </Record>
     <Record>
       <Key>PlantStabilizerDestabilizePlant</Key>
-      <Value>Desestabilizar o gene &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt; na {LOCAL:Plant} </Value>
+      <Value>Desestabilizar o gene &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt; de {LOCAL:Plant} </Value>
     </Record>
     <Record>
       <Key>PlantStabilizerStabilizingPlant</Key>
@@ -25276,11 +25276,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TraderLocked</Key>
-      <Value>Travado</Value>
+      <Value>Bloqueado</Value>
     </Record>
     <Record>
       <Key>TraderTrade</Key>
-      <Value>Negociar</Value>
+      <Value>Trocar</Value>
     </Record>
     <Record>
       <Key>CommunicateWithShuttle</Key>
@@ -25288,39 +25288,39 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ContactTradeNoLandingPad</Key>
-      <Value>O transportador não pode pousar, pois nenhuma doca ativa está disponível</Value>
+      <Value>O comerciante não pode pousar pois não há uma plataforma de pouso ativa disponível</Value>
     </Record>
     <Record>
       <Key>ContactTradePadOff</Key>
-      <Value>O transportador não pode pousar, pois a doca de destino está desligada</Value>
+      <Value>O comerciante não pode pousar pois a plataforma de pouso de destino está desligada</Value>
     </Record>
     <Record>
       <Key>ContactTradePadUnpowered</Key>
-      <Value>O transportador não pode pousar, pois a doca de destino não está energizada</Value>
+      <Value>O comerciante não pode pousar pois a plataforma de pouso de destino está sem energia</Value>
     </Record>
     <Record>
       <Key>ContactTradeLandingObstructed</Key>
-      <Value>O transportador não pode pousar, pois o caminho até a doca de destino está obstruído</Value>
+      <Value>O comerciante não pode pousar pois o caminho até a plataforma de pouso de destino está obstruído</Value>
     </Record>
     <Record>
       <Key>ContactTradeDepartingObstructed</Key>
-      <Value>O transportador não pode partir, pois o caminho está obstruído</Value>
+      <Value>O comerciante não pode partir pois o caminho está obstruído</Value>
     </Record>
     <Record>
       <Key>ContactTradeLandingPadError</Key>
-      <Value>O transportador não pode pousar, pois a doca de destino está configurada incorretamente</Value>
+      <Value>O comerciante não pode pousar pois a plataforma de pouso de destino está configurada incorretamente</Value>
     </Record>
     <Record>
       <Key>ContactTradeLandingPadToSmall</Key>
-      <Value>O transportador não pode pousar, pois a doca de destino é pequena demais</Value>
+      <Value>O comerciante não pode pousar pois a plataforma de pouso de destino é muito pequena</Value>
     </Record>
     <Record>
       <Key>ArmControlIdle</Key>
-      <Value>Ocioso</Value>
+      <Value>Inativo</Value>
     </Record>
     <Record>
       <Key>ArmControlPlant</Key>
-      <Value>Planta</Value>
+      <Value>Plantar</Value>
     </Record>
     <Record>
       <Key>ArmControlHarvest</Key>
@@ -25328,15 +25328,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>YouNeedAWrenchForOrientation</Key>
-      <Value>É necessário uma chave inglesa para alterar a orientação</Value>
+      <Value>Você precisa de uma chave inglesa para alterar a orientação</Value>
     </Record>
     <Record>
       <Key>NotApplicableString</Key>
-      <Value>N/A</Value>
+      <Value>N/D</Value>
     </Record>
     <Record>
       <Key>SlotFull</Key>
-      <Value>O slot está ocupado</Value>
+      <Value>Slot ocupado</Value>
     </Record>
     <Record>
       <Key>SplicerCurrentGene</Key>
@@ -25348,15 +25348,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SplicerDeviceIsOpen</Key>
-      <Value>Feche o dispositivo antes de iniciar a fusão</Value>
+      <Value>Feche o dispositivo antes de iniciar a recombinação</Value>
     </Record>
     <Record>
       <Key>SplicerNeedSourceAndTargetPlant</Key>
-      <Value>É necessário ter uma planta de origem e uma planta alvo do mesmo tipo para iniciar a fusão</Value>
+      <Value>É necessário uma planta de origem e uma planta de destino do mesmo tipo para iniciar a recombinação</Value>
     </Record>
     <Record>
       <Key>SplicerStartSplice</Key>
-      <Value>Iniciar fusão genetica</Value>
+      <Value>Iniciar recombinação</Value>
     </Record>
     <Record>
       <Key>SplicerChangeGene</Key>
@@ -25364,11 +25364,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SplicerPreviewSplice</Key>
-      <Value>Fará a fusão de &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt; de {LOCAL:SourcePlant} em {LOCAL:TargetPlant}</Value>
+      <Value>Irá recombinar o gene &lt;color=green&gt;{LOCAL:Gene}&lt;/color&gt; de {LOCAL:SourcePlant} para {LOCAL:TargetPlant}</Value>
     </Record>
     <Record>
       <Key>SplicerBusy</Key>
-      <Value>Atualmente fusão com &lt;color=green&gt;{LOCAL:PercentComplete}%&lt;/color&gt; concluída</Value>
+      <Value>Recombinação em andamento &lt;color=green&gt;{LOCAL:PercentComplete}%&lt;/color&gt; concluído</Value>
     </Record>
     <Record>
       <Key>SplicerAddOneToSlot</Key>
@@ -25408,23 +25408,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TransactionFailInsufficientStock</Key>
-      <Value>O comerciante não tem estoque suficiente para concluir esta transação.</Value>
+      <Value>O comerciante não possui estoque suficiente para concluir esta transação.</Value>
     </Record>
     <Record>
       <Key>TransactionFailInsufficientFunds</Key>
-      <Value>Você não tem dinheiro suficiente para concluir esta transação.</Value>
+      <Value>Você não possui dinheiro suficiente para concluir esta transação.</Value>
     </Record>
     <Record>
       <Key>TransactionErrorTradableCast</Key>
-      <Value>Não é possível converter item negociável em objeto</Value>
+      <Value>Não foi possível converter o item negociável para objeto</Value>
     </Record>
     <Record>
       <Key>TradingToolTipNoInfo</Key>
-      <Value>Sem informações adicionais</Value>
+      <Value>Nenhuma informação adicional</Value>
     </Record>
     <Record>
       <Key>TradingToolTipNoRequirements</Key>
-      <Value>Sem requisitos adicionais</Value>
+      <Value>Nenhum requisito adicional</Value>
     </Record>
     <Record>
       <Key>DegreesCelcius</Key>
@@ -25432,7 +25432,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DegreesKelvin</Key>
-      <Value>°K</Value>
+      <Value>K</Value>
     </Record>
     <Record>
       <Key>Moles</Key>
@@ -25484,7 +25484,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ChildItem</Key>
-      <Value>Possui item filho</Value>
+      <Value>Possui item interno</Value>
     </Record>
     <Record>
       <Key>TemperatureBetween</Key>
@@ -25508,7 +25508,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Wants</Key>
-      <Value>Desejos</Value>
+      <Value>Deseja</Value>
     </Record>
     <Record>
       <Key>SoldOut</Key>
@@ -25524,15 +25524,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CycleWaypointHeight</Key>
-      <Value>Ciclar altura</Value>
+      <Value>Alternar altura</Value>
     </Record>
     <Record>
       <Key>CycleWaypoint</Key>
-      <Value>Ciclar ponto de passagem</Value>
+      <Value>Alternar ponto de rota</Value>
     </Record>
     <Record>
       <Key>CurrentWaypoint</Key>
-      <Value>Próximo ponto de passagem: {LOCAL:NextWaypoint}</Value>
+      <Value>Próximo ponto de rota: {LOCAL:NextWaypoint}</Value>
     </Record>
     <Record>
       <Key>CurrentHeight</Key>
@@ -25540,11 +25540,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceManualHeightWindow</Key>
-      <Value>Abre uma janela de entrada para uma nova altura</Value>
+      <Value>Abre uma janela para inserir uma nova altura</Value>
     </Record>
     <Record>
       <Key>ContactTradeLandingNoThreshold</Key>
-      <Value>A nave comerciante não pode pousar sem um limite</Value>
+      <Value>A nave do comerciante não pode pousar sem um limite definido</Value>
     </Record>
     <Record>
       <Key>ToggleVisualiser</Key>
@@ -25616,7 +25616,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NoWaterAvailable</Key>
-      <Value>&lt;color=red&gt;Erro!&lt;/color&gt; não há &lt;color=yellow&gt;Pressão da Água&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Erro!&lt;/color&gt; não há &lt;color=yellow&gt;Pressão de Água&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PowerControlSetTo</Key>
@@ -25628,23 +25628,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingOverPressure</Key>
-      <Value>O &lt;color=green&gt;{LOCAL:Thing}&lt;/color&gt; está com &lt;color=red&gt;Excesso de Pressão&lt;/color&gt;!</Value>
+      <Value>O &lt;color=green&gt;{LOCAL:Thing}&lt;/color&gt; está com &lt;color=red&gt;Sobrepressão&lt;/color&gt;!</Value>
     </Record>
     <Record>
       <Key>PressureSafteySetTo</Key>
-      <Value>A Segurança de &lt;color=green&gt;{LOCAL:Location}&lt;/color&gt; está definida como &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
+      <Value>A &lt;color=green&gt;Segurança de {LOCAL:Location}&lt;/color&gt; está definida para &lt;color=yellow&gt;{LOCAL:Value}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>AtmosphereExternal</Key>
-      <Value>Externo</Value>
+      <Value>Externa</Value>
     </Record>
     <Record>
       <Key>AtmosphereInternal</Key>
-      <Value>Interno</Value>
+      <Value>Interna</Value>
     </Record>
     <Record>
       <Key>IngotIsType</Key>
-      <Value>Este é um &lt;color=yellow&gt;{LOCAL:Type}&lt;/color&gt;</Value>
+      <Value>Isto é um &lt;color=yellow&gt;{LOCAL:Type}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CannotBePickedUpRightNow</Key>
@@ -25660,7 +25660,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>InputChatMessage</Key>
-      <Value>Digite a Mensagem para Enviar</Value>
+      <Value>Digite a mensagem para enviar</Value>
     </Record>
     <Record>
       <Key>TypeOfSlot</Key>
@@ -25680,7 +25680,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>MoleMixtureMustBePure</Key>
-      <Value>Requer uma &lt;color=#44AD83&gt;mistura de gás puro&lt;/color&gt; contendo apenas os tipos listados</Value>
+      <Value>Requer uma &lt;color=#44AD83&gt;mistura de gás pura&lt;/color&gt; apenas dos tipos listados</Value>
     </Record>
     <Record>
       <Key>GridBlockedByStructure</Key>
@@ -25696,23 +25696,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresHydroponicsTray</Key>
-      <Value>A colocação requer um recipiente de Hidroponia abaixo</Value>
+      <Value>A colocação requer uma bandeja de hidroponia abaixo</Value>
     </Record>
     <Record>
       <Key>CannotMergeTwoOperationalElevatorShafts</Key>
-      <Value>Não é possível fundir dois poços de elevador operacionai</Value>
+      <Value>Não é possível unir dois eixos de elevador operacionais</Value>
     </Record>
     <Record>
       <Key>ElevatorShaftRotationFail</Key>
-      <Value>Todas as peças do edifício do elevador devem ser giradas na mesma direção</Value>
+      <Value>Todas as peças de construção do elevador devem estar rotacionadas na mesma direção</Value>
     </Record>
     <Record>
       <Key>PlacementBlockedByAdjacentDevice</Key>
-      <Value>Não é possível colocar ao lado de &lt;color=green&gt;{LOCAL:Device}&lt;/color&gt;</Value>
+      <Value>>Não é possível colocar adjacente a &lt;color=green&gt;{LOCAL:Device}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlacementBlockedByUnknownDevice</Key>
-      <Value>Não é possível colocar ao lado de outro dispositivo</Value>
+      <Value>Não é possível colocar adjacente a outro dispositivo</Value>
     </Record>
     <Record>
       <Key>PlacementBlockedBySmallGrid</Key>
@@ -25720,7 +25720,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresPipeValve</Key>
-      <Value>Deve ser colocado após uma válvula de tubo (ou qualquer outro dispositivo de atmosfera)</Value>
+      <Value>Deve ser colocado após uma válvula de tubo (ou qualquer outro dispositivo atmosférico)</Value>
     </Record>
     <Record>
       <Key>PipeContentTypeIncorrect</Key>
@@ -25728,15 +25728,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CannotMergeWithSmallGrid</Key>
-      <Value>Não é possível fundir com &lt;color=green&gt;{LOCAL:SmallGrid}&lt;/color&gt;</Value>
+      <Value>Não é possível unir com &lt;color=green&gt;{LOCAL:SmallGrid}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CannotPlaceOnBrokenCable</Key>
-      <Value>Não é possível colocar em cabo quebrado</Value>
+      <Value>Não é possível colocar sobre um cabo quebrado</Value>
     </Record>
     <Record>
       <Key>CannotPlaceOnBurstPipe</Key>
-      <Value>Não é possível colocar em tubo estourado</Value>
+      <Value>Não é possível colocar sobre um tubo rompido</Value>
     </Record>
     <Record>
       <Key>MustMountToCable</Key>
@@ -25748,15 +25748,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CannotMergeIMergeable</Key>
-      <Value>Este {LOCAL:IMergeable} não pode ser fundido</Value>
+      <Value>Este {LOCAL:IMergeable} não pode ser unido</Value>
     </Record>
     <Record>
       <Key>CannotMergeIMergeableOfDifferentType</Key>
-      <Value>Não é possível fundir com {LOCAL:IMergeable}pois é de um tipo diferente</Value>
+      <Value>Não é possível unir com {LOCAL:IMergeable} pois é de um tipo diferente</Value>
     </Record>
     <Record>
       <Key>MergeRequiresTool</Key>
-      <Value>A fusão requer &lt;color=green&gt;{LOCAL:Tool}&lt;/color&gt; na outra mão</Value>
+      <Value>Unir requer &lt;color=green&gt;{LOCAL:Tool}&lt;/color&gt; na outra mão</Value>
     </Record>
     <Record>
       <Key>EntityIsCurrentlyState</Key>
@@ -25764,7 +25764,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>EntityIsDead</Key>
-      <Value>{LOCAL:Thing} está &lt;color=red&gt;morto&lt;/color&gt;</Value>
+      <Value>{LOCAL:Thing} está &lt;color=red&gt;Morto&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresModularRocket</Key>
@@ -25772,19 +25772,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CannotPlaceOnCommandModule</Key>
-      <Value>Não é possível colocar esta peça do foguete acima de uma peça do módulo de comando</Value>
+      <Value>Não é possível colocar esta peça de foguete acima de um módulo de comando</Value>
     </Record>
     <Record>
       <Key>CouplerBetweenTwoRocketPieces</Key>
-      <Value>A Unidade de Acoplamento deve ser colocada na interseção de duas peças do foguete</Value>
+      <Value>A Unidade de Acoplamento deve ser colocada na junção de duas peças de foguete</Value>
     </Record>
     <Record>
       <Key>RocketRotationFail</Key>
-      <Value>Todas as peças do foguete devem ser giradas na mesma direção</Value>
+      <Value>Todas as peças do foguete devem estar rotacionadas na mesma direção</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresLaunchPad</Key>
-      <Value>A colocação requer um Lançador abaixo</Value>
+      <Value>A colocação requer uma plataforma de lançamento abaixo</Value>
     </Record>
     <Record>
       <Key>WeldingWillLockDoor</Key>
@@ -25792,7 +25792,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>UnweldingWillUnLockDoor</Key>
-      <Value>&lt;color=yellow&gt;Dessoldar&lt;/color&gt; o {LOCAL:Thing} irá destravá-lo</Value>
+      <Value>&lt;color=yellow&gt;Dessoldar&lt;/color&gt; do {LOCAL:Thing} irá destravá-lo</Value>
     </Record>
     <Record>
       <Key>ClearStacker</Key>
@@ -25808,11 +25808,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ActionFixLeak</Key>
-      <Value>Consertar Vazamento</Value>
+      <Value>Reparar Vazamento</Value>
     </Record>
     <Record>
       <Key>ActionExtinguish</Key>
-      <Value>Extinguir</Value>
+      <Value>Apagar</Value>
     </Record>
     <Record>
       <Key>ActionWeld</Key>
@@ -25828,11 +25828,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LightDeficient</Key>
-      <Value>Luz Deficiente</Value>
+      <Value>Deficiência de luz</Value>
     </Record>
     <Record>
       <Key>DarknessDeficient</Key>
-      <Value>Escuro Deficiente</Value>
+      <Value>Deficiência de escuridão</Value>
     </Record>
     <Record>
       <Key>NoDeficiency</Key>
@@ -25852,7 +25852,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>OnlyHumansCanDragThings</Key>
-      <Value>{LOCAL:Thing} não permite arrastar</Value>
+      <Value>{LOCAL:Thing} não permite ser arrastado</Value>
     </Record>
     <Record>
       <Key>CannotDragWhileAlive</Key>
@@ -25912,51 +25912,51 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionSrl</Key>
-      <Value>Executa uma operação lógica de deslocamento à direita nos valores binários de um número. Os bits são deslocados para a direita e os bits mais à esquerda liberados são preenchidos com zeros.</Value>
+      <Value>Executa uma operação de deslocamento lógico à direita nos bits da representação binária de um valor. Os bits são deslocados para a direita e as posições mais à esquerda são preenchidas com zeros.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionSra</Key>
-      <Value>Executa uma operação aritmética de deslocamento à direita nos valores binários de um número. Os bits são deslocados para a direita e os bits mais à esquerda liberados são preenchidos com uma cópia do bit de sinal (o bit mais significativo).</Value>
+      <Value>Executa uma operação de deslocamento aritmético à direita nos bits da representação binária de um valor. Os bits são deslocados para a direita e as posições mais à esquerda são preenchidas com uma cópia do bit de sinal (o bit mais significativo).</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionSll</Key>
-      <Value>Executa uma operação lógica de deslocamento à esquerda nos valores binários de um número. Os bits são deslocados para a esquerda e os bits mais à direita liberados são preenchidos com zeros.</Value>
+      <Value>Executa uma operação de deslocamento lógico à esquerda nos bits da representação binária de um valor. Os bits são deslocados para a esquerda e as posições mais à direita são preenchidas com zeros.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionSla</Key>
-      <Value>Executa uma operação aritmética de deslocamento à esquerda nos valores binários de um número. Os bits são deslocados para a esquerda e os bits mais à direita liberados são preenchidos com uma cópia do bit de sinal (o bit mais significativo).</Value>
+      <Value>Executa uma operação de deslocamento aritmético à esquerda nos bits da representação binária de um valor. Os bits são deslocados para a esquerda e as posições mais à direita são preenchidas com uma cópia do bit de sinal (o bit mais significativo).</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionNot</Key>
-      <Value>Executa uma operação lógica NOT nos valores binários, invertendo cada bit do valor de entrada, resultando em um complemento binário. Se um bit for 1, ele se torna 0; se um bit for 0, ele se torna 1.</Value>
+      <Value>Executa uma operação lógica bit a bit NOT invertendo cada bit do valor de entrada, resultando em um complemento binário. Se um bit for 1, ele se torna 0, e se um bit for 0, ele se torna 1.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionAnd</Key>
-      <Value>Executa uma operação lógica AND nos valores binários de dois números. Cada bit do resultado é determinado avaliando os bits correspondentes dos valores de entrada. Se ambos os bits forem 1, o bit resultante é definido como 1. Caso contrário, o bit resultante é definido como 0.</Value>
+      <Value>Executa uma operação lógica bit a bit AND na representação binária de dois valores. Cada bit do resultado é determinado avaliando os bits correspondentes dos valores de entrada. Se ambos os bits forem 1, o bit resultante será 1. Caso contrário, o bit resultante será 0.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionOr</Key>
-      <Value>Executa uma operação lógica OR nos valores binários de dois números. Cada bit do resultado é determinado avaliando os bits correspondentes dos valores de entrada. Se qualquer um dos bits for 1, o bit resultante é definido como 1. Se ambos os bits forem 0, o bit resultante é definido como 0.</Value>
+      <Value>Executa uma operação lógica bit a bit OR na representação binária de dois valores. Cada bit do resultado é determinado avaliando os bits correspondentes dos valores de entrada. Se qualquer um dos bits for 1, o bit resultante será 1. Se ambos os bits forem 0, o bit resultante será 0.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionXor</Key>
-      <Value>Executa uma operação lógica XOR (OU exclusivo) nos valores binários de dois números. Cada bit do resultado é determinado avaliando os bits correspondentes dos valores de entrada. Se os bits forem diferentes (um bit é 0 e o outro é 1), o bit resultante é definido como 1. Se os bits forem iguais (ambos 0 ou ambos 1), o bit resultante é definido como 0.</Value>
+      <Value>Executa uma operação lógica bit a bit XOR (OU exclusivo) na representação binária de dois valores. Cada bit do resultado é determinado avaliando os bits correspondentes dos valores de entrada. Se os bits forem diferentes (um bit for 0 e o outro 1), o bit resultante será 1. Se os bits forem iguais (ambos 0 ou ambos 1), o bit resultante será 0.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionNor</Key>
-      <Value>Executa uma operação lógica NOR (NÃO OU) nos valores binários de dois números. Cada bit do resultado é determinado avaliando os bits correspondentes dos valores de entrada. Se ambos os bits forem 0, o bit resultante é definido como 1. Caso contrário, se pelo menos um bit for 1, o bit resultante é definido como 0.</Value>
+      <Value>Executa uma operação lógica bit a bit NOR (NÃO OU) na representação binária de dois valores. Cada bit do resultado é determinado avaliando os bits correspondentes dos valores de entrada. Se ambos os bits forem 0, o bit resultante será 1. Caso contrário, se pelo menos um bit for 1, o bit resultante será 0</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionSbn</Key>
-      <Value>Armazena o valor do registrador em LogicType em todos os dispositivos da rede de saída com o hash de tipo e nome fornecidos.</Value>
+      <Value>Armazena o valor do registrador no LogicType em todos os dispositivos da rede de saída com o hash de tipo e nome fornecidos.</Value>
     </Record>
     <Record>
       <Key>ManufacturesAppliesMultiplier</Key>
-      <Value>&lt;color=orange&gt;{LOCAL:ModifierName}&lt;/color&gt; opera em &lt;color=yellow&gt;{LOCAL:Percent}&lt;/color&gt;</Value>
+      <Value>&lt;color=orange&gt;{LOCAL:ModifierName}&lt;/color&gt; opera a &lt;color=yellow&gt;{LOCAL:Percent}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ManufacturesAtTier</Key>
-      <Value>Fabricado em &lt;color=yellow&gt;{LOCAL:MachineTier}&lt;/color&gt;</Value>
+      <Value>Fabrica no nível &lt;color=yellow&gt;{LOCAL:MachineTier}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>StationpediaBuildStateUpgrade</Key>
@@ -25964,7 +25964,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NotEnoughSprayPaint</Key>
-      <Value>Tinta insuficiente {LOCAL:SprayCanister}</Value>
+      <Value>Não há tinta suficiente em {LOCAL:SprayCanister}</Value>
     </Record>
     <Record>
       <Key>ThingWillBeSprayed</Key>
@@ -25996,19 +25996,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LiquidStress</Key>
-      <Value>Tensão do Líquido: </Value>
+      <Value>Estresse de líquido: </Value>
     </Record>
     <Record>
       <Key>SaveVersionWarning</Key>
-      <Value>AVISO: Versão antiga de save detectada</Value>
+      <Value>AVISO: Versão de salvamento antiga detectada</Value>
     </Record>
     <Record>
       <Key>StateChangePopup</Key>
-      <Value>Mudança de Estado Gás-Para-Líquido: Este save é da versão 0.2.4120.19431 ou anterior e pode não ser compatível com o novo sistema de mudança de estado da atmosfera. Deseja que o Stationeers tente modificar o conteúdo das redes atmosféricas no jogo carregado para evitar explosões imediatas e eventos de sobrepressão devido à mudança de estado líquido-gás? (alguns gases/líquidos podem ser deletados e/ou ter sua temperatura modificada por este processo)</Value>
+      <Value>Mudança de Estado Gás-Líquido: Este salvamento é da versão 0.2.4120.19431 ou anterior e pode não ser compatível com o novo sistema de mudança de estado atmosférico. Deseja que o Stationeers tente modificar o conteúdo das redes atmosféricas no jogo carregado para evitar explosões imediatas e eventos de sobrepressão devido à mudança de estado líquido-gás? (algum gás/líquido pode ser removido e/ou ter sua temperatura modificada por este processo)</Value>
     </Record>
     <Record>
       <Key>PipeVolumeChangePopup</Key>
-      <Value>Alteração do Balanço de Volume dos Tubos: Este save é da versão 0.2.4120.19448 ou anterior e pode não ser compatível com as novas alterações de balanço nos volumes dos tubos. Deseja que o Stationeers tente modificar o conteúdo das redes atmosféricas no jogo carregado para evitar explosões imediatas e eventos de sobrepressão devido a essas mudanças? (alguns gases/líquidos podem ser deletados por este processo).</Value>
+      <Value>Mudança no Balanceamento de Volume dos Tubos: Este salvamento é da versão 0.2.4120.19448 ou anterior e pode não ser compatível com as novas mudanças de balanceamento de volume dos tubos. Deseja que o Stationeers tente modificar o conteúdo das redes atmosféricas no jogo carregado para evitar explosões imediatas e eventos de sobrepressão devido a essas mudanças? (algum gás/líquido pode ser removido por este processo).</Value>
     </Record>
     <Record>
       <Key>AttemptToFix</Key>
@@ -26024,7 +26024,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CryoPressureOk</Key>
-      <Value>&lt;color=green&gt;Pressão ok&lt;/color&gt;</Value>
+      <Value>&lt;color=green&gt;Pressão OK&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CryoPressureTooLow</Key>
@@ -26032,7 +26032,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>OutputVolumeRatio</Key>
-      <Value>Preenchimento da Saída &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+      <Value>Capacidade de saída &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>EvaporationChamberLiquidConnection</Key>
@@ -26060,11 +26060,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlacementBlockedByRocket</Key>
-      <Value>Posicionamento bloqueado por um foguete</Value>
+      <Value>A colocação está bloqueada por um foguete</Value>
     </Record>
     <Record>
       <Key>ProcessedMoles</Key>
-      <Value>Entrada Processada {LOCAL:Moles}</Value>
+      <Value>Mols processados {LOCAL:Moles}</Value>
     </Record>
     <Record>
       <Key>PressureDifferential</Key>
