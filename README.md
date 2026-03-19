@@ -10,12 +10,12 @@ Overwrite the existing files when prompted.<br/>
 
 ### Contribution:
 
-|      Code     |       Language       |     Main Contributors      |   Last Update    |    Game Version    |
-|---------------|----------------------|----------------------------|------------------|--------------------|
-| CN            | Simplefied Chinese   | MRhythm                    |    2026-03-05    |   0.2.6193.26986   |
-| RU            | Russian              | AlexusYT                   |                  |                    |
-| FR            | French               | CedricDx                   |    2026-02-19    |   0.2.6175.26943   |
-| PB            | Portuguese Brazilian | Chelo-BR                   |    2026-03-17    |                    |
+|      Code     |       Language       |     Main Contributors      | Last Update |    Game Version    |
+|---------------|----------------------|----------------------------|-------------|--------------------|
+| CN            | Simplefied Chinese   | MRhythm                    | 2026-03-19  |   0.2.6193.26986   |
+| RU            | Russian              | AlexusYT                   |             |                    |
+| FR            | French               | CedricDx                   | 2026-02-19  |   0.2.6175.26943   |
+| PB            | Portuguese Brazilian | Chelo-BR                   | 2026-03-17  |                    |
 
 
 
