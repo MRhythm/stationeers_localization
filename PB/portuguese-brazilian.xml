@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português (Brasil)</Name>
-  <Code>PB</Code>  <!--Tradução Marcelo 18/03/2026 v0.2.6182.26959-->
+  <Code>PB</Code>  <!--Tradução Marcelo 20/03/2026 Registro de alterações 0.2.6217.27046-->
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -248,8 +248,8 @@
       <Value>Nitrogênio</Value>
     </Record>
     <Record>
-      <Key>Volatiles</Key>
-      <Value>Voláteis</Value>
+      <Key>Methane</Key>
+      <Value>Metano</Value>
     </Record>
     <Record>
       <Key>Pollutant</Key>
@@ -276,8 +276,8 @@
       <Value>Oxigênio Líquido</Value>
     </Record>
     <Record>
-      <Key>LiquidVolatiles</Key>
-      <Value>Voláteis Líquidos</Value>
+      <Key>LiquidMethane</Key>
+      <Value>Metano Líquido</Value>
     </Record>
     <Record>
       <Key>Steam</Key>
@@ -311,6 +311,50 @@
       <Key>Fuel</Key>
       <Value>Mistura de Combustível</Value>
     </Record>
+	<Record>
+      <Key>Hydrazine</Key>
+      <Value>Hidrazina</Value>
+    </Record>
+    <Record>
+      <Key>LiquidHydrazine</Key>
+      <Value>Hidrazina Líquida</Value>
+    </Record>
+    <Record>
+      <Key>LiquidAlcohol</Key>
+      <Value>Álcool Líquido</Value>
+    </Record>
+    <Record>
+      <Key>Helium</Key>
+      <Value>Hélio</Value>
+    </Record>
+    <Record>
+      <Key>LiquidSodiumChloride</Key>
+      <Value>Cloreto de sódio líquido</Value>
+    </Record>
+    <Record>
+      <Key>Silanol</Key>
+      <Value>Silanol</Value>
+    </Record>
+    <Record>
+      <Key>LiquidSilanol</Key>
+      <Value>Silanol Líquido</Value>
+    </Record>
+    <Record>
+      <Key>HydrochloricAcid</Key>
+      <Value>Ácido clorídrico</Value>
+    </Record>
+    <Record>
+      <Key>LiquidHydrochloricAcid</Key>
+      <Value>Ácido clorídrico líquido</Value>
+    </Record>
+    <Record>
+      <Key>Ozone</Key>
+      <Value>Ozônio</Value>
+    </Record>
+    <Record>
+      <Key>LiquidOzone</Key>
+      <Value>Ozônio Líquido</Value>
+    </Record> 
   </Gases>
   <Actions>
     <Record>
@@ -1235,42 +1279,37 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterEmpty</Key>
-      <Value>Cilindro de Líquido (Vazio)</Value>
+      <Value>Cilindro de Líquido</Value>
       <Description />
     </RecordThing>
-
-
-
-
-
 	<RecordThing>
 	  <Key>ItemGasFilterCarbonDioxide</Key>
-	  <Value>Filtro de Dióxido de Carbono</Value>
+	  <Value>Filtro Dióxido de Carbono</Value>
 	  <Description>Dada a obsessão da humanidade por exalar {GAS:CarbonDioxide}, todos os {LINK:Stationeers;Stationeers} recebem três {SLOT:GasFilter} da {LINK:Sinotai;Sinotai} de {GAS:CarbonDioxide} básicos como parte do kit padrão de implantação (SDK). Esses filtros permitem a passagem do {GAS:CarbonDioxide} para o {THING:ItemGasCanisterEmpty} de resíduos do traje, mas também são componentes essenciais do {THING:DynamicScrubber} e da {THING:StructureFiltration}. Os modelos {THING:ItemGasFilterCarbonDioxideM} e {THING:ItemGasFilterCarbonDioxideL} também estão disponíveis.</Description>
 	</RecordThing>
     <RecordThing>
      <Key>ItemGasFilterPollutants</Key>
-      <Value>Filtro de Poluentes</Value>
+      <Value>Filtro Poluentes</Value>
       <Description>Filtros são usados para capturar diversos gases, como as emissões residuais de um {THING:StructureFurnace} ou {THING:StructureArcFurnace}. Ao adicionar filtros {LINK:Sinotai;Sinotai}-projetados para {GAS:Pollutant} em um {THING:DynamicScrubber}, é possível isolar esse gás e direcioná-lo para uma rede de tubulação, aproveitando suas excelentes propriedades de refrigeração em um {THING:StructureWallCooler}. Tente não inalar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogen</Key>
-      <Value>Filtro de Nitrogênio</Value>
+      <Value>Filtro Nitrogênio</Value>
       <Description>Filtros são usados para capturar diversos gases, que podem ser descartados ou reutilizados em outros sistemas. O {GAS:Nitrogen} é um subproduto da fundição de vários minérios, especialmente {THING:ItemNitrice}, e pode ser combinado com {GAS:Oxygen} para formar uma atmosfera respirável — e consideravelmente menos inflamável.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygen</Key>
-      <Value>Filtro de Oxigênio</Value>
+      <Value>Filtro Oxigênio</Value>
       <Description>A {LINK:Sinotai;Sinotai} domina o mercado de design de filtros. Seus modelos patenteados são simples de fabricar e altamente eficientes na captura de diversos gases, que podem ser descartados ou reutilizados em outros sistemas. O {GAS:Oxygen} é um subproduto comum da fundição de minérios, mas deve ser filtrado de impurezas como {GAS:Nitrogen} utilizando este filtro e dispositivos como o {THING:DynamicScrubber}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
-      <Value>Filtro de Voláteis</Value>
-      <Description>Filtros são usados para capturar diversos gases, que podem ser descartados ou aproveitados em outros processos. Os {GAS:Volatiles} são gerados ao expor {THING:ItemVolatiles} ao calor. O gás resultante pode ser coletado e combinado com {GAS:Oxygen} para criar combustível, ou utilizado em um {THING:StructureFurnace} para fundir minérios e produzir {LINK:IngotPage;ligas}.</Description>
+      <Value>Filtro Metano</Value>
+      <Description>Filtros são usados para capturar diversos gases, que podem ser descartados ou aproveitados em outros processos. Os {GAS:Methane} são gerados ao expor {THING:ItemVolatiles} ao calor. O gás resultante pode ser coletado e combinado com {GAS:Oxygen} para criar combustível, ou utilizado em um {THING:StructureFurnace} para fundir minérios e produzir {LINK:IngotPage;ligas}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
-      <Value>Filtro de Água</Value>
+      <Value>Filtro Água</Value>
       <Description>Os filtros {LINK:Sinotai;Sinotai} são utilizados para capturar diversos gases, que podem ser descartados ou reaproveitados. A {GAS:Water} pode ser coletado filtrando-se os gases após derreter {THING:ItemIce} no forno.</Description>
     </RecordThing>
     <RecordThing>
@@ -2238,7 +2277,7 @@ Com um pouco de paciência e habilidade, a silhueta de inspiração gótica da e
     <RecordThing>
       <Key>StructureFurnace</Key>
       <Value>Forno</Value>
-      <Description>O forno Zhurong utiliza uma mistura gasosa de alta temperatura composta por {GAS:Oxygen} e {GAS:Volatiles} para fundir {LINK:IngotPage;lingotes} e diversos tipos de {LINK:IngotPage;ligas}, que servem como matéria-prima para os {LINK:FabricatorPage;fabricadores}.
+      <Description>O forno Zhurong utiliza uma mistura gasosa de alta temperatura composta por {GAS:Oxygen} e {GAS:Methane} para fundir {LINK:IngotPage;lingotes} e diversos tipos de {LINK:IngotPage;ligas}, que servem como matéria-prima para os {LINK:FabricatorPage;fabricadores}.
 Uma mistura básica pode ser obtida adicionando {THING:ItemOxite} e {THING:ItemVolatiles} em uma proporção de 1:2 diretamente ao forno, mas ligas mais complexas exigem o gerenciamento cuidadoso de uma rede dedicada de mistura de gases. As proporções exatas dos ingredientes devem ser respeitadas. Da mesma forma, fundir minérios em temperaturas insuficientes produzirá {LINK:ReagentPage;reagentes}, que devem ser reciclados.
 Se houver líquidos presentes no forno, eles permanecerão ali até que o forno seja conectado a uma rede de tubos de líquidos.</Description>
     </RecordThing>
@@ -2676,7 +2715,7 @@ Observe que os transformadores também funcionam como isoladores de dados, imped
       <Value>Forno de Arco</Value>
       <Description>O sistema de fundição mais simples disponível para o {LINK:Stationeers;Stationeer} médio, o forno de arco da {LINK:Recurso;Recurso} foi originalmente desenvolvido nas profundezas do Sistema Solar para ajudar geólogos exploratórios a determinar a pureza de potenciais alvos de mineração em asteroides.  
 Adotado pela {LINK:ODA;ODA}, agora fornece aos Stationeers uma forma de produzir lingotes puros de diversos recursos.  
-O processo de fundição também libera uma variedade de {LINK:GasPage;gases} como subprodutos, principalmente {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Volatiles} e {GAS:Oxygen} em diferentes proporções. Esses gases podem ser recuperados do ambiente por filtragem, mas também tornam o forno de arco um risco em ambientes fechados.  
+O processo de fundição também libera uma variedade de {LINK:GasPage;gases} como subprodutos, principalmente {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Methane} e {GAS:Oxygen} em diferentes proporções. Esses gases podem ser recuperados do ambiente por filtragem, mas também tornam o forno de arco um risco em ambientes fechados.  
 Diferente do mais avançado {THING:StructureFurnace}, o forno de arco não pode criar {LINK:IngotPage;ligas}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2833,10 +2872,7 @@ Diferente do mais avançado {THING:StructureFurnace}, o forno de arco não pode 
     <RecordThing>
       <Key>ItemVolatiles</Key>
       <Value>Gelo de Voláteis</Value>
-      <Description>Um gelo que contém compostos altamente reativos, com diversos hidrocarbonetos presos em seu interior. Por simplicidade, esses compostos são frequentemente exibidos como H2 em dispositivos como o {THING:CartridgeAtmosAnalyser}.
-  
-Os {GAS:Volatiles} combustam em uma proporção de 2:1 com {GAS:Oxygen}, produzindo {GAS:CarbonDioxide} e poluentes. No entanto, quando catalisados em dispositivos como o {THING:H2Combustor}, na presença de {GAS:Oxygen}, produzem {GAS:Steam} e calor, com pequenas quantidades de {GAS:CarbonDioxide} e {GAS:Pollutant} devido à autoignição dos voláteis na câmara.
-Juntamente com o {GAS:Oxygen}, o gás volátil também é um dos principais componentes do combustível usado em equipamentos como o {THING:ItemWeldingTorch}.
+      <Description>Um gelo extremamente reativo com diversos hidrocarbonetos presos em seu interior. Contém principalmente {GAS:Methane}, além de uma pequena quantidade de {GAS:Hydrogen}. Gases voláteis são usados para criar misturas de combustível para itens como o {THING:ItemWeldingTorch} e o {THING:DynamicGenerator}.
 </Description>
     </RecordThing>
     <RecordThing>
@@ -4279,51 +4315,51 @@ Saída = 1 exporta os itens internos e, por fim, o item principal.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideL</Key>
-      <Value>Filtro Pesado de Dióxido de Carbono</Value>
+      <Value>Filtro Pesado Dióxido de Carbono</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideM</Key>
-      <Value>Filtro Médio de Dióxido de Carbono</Value>
+      <Value>Filtro Médio Dióxido de Carbono</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogenL</Key>
-      <Value>Filtro Pesado de Nitrogênio</Value>
+      <Value>Filtro Pesado Nitrogênio</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogenM</Key>
-      <Value>Filtro Médio de Nitrogênio</Value>
+      <Value>Filtro Médio Nitrogênio</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygenL</Key>
-      <Value>Filtro Pesado de Oxigênio</Value>
+      <Value>Filtro Pesado Oxigênio</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygenM</Key>
-      <Value>Filtro Médio de Oxigênio</Value>
+      <Value>Filtro Médio Oxigênio</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutantsL</Key>
-      <Value>Filtro Pesado de Poluentes</Value>
+      <Value>Filtro Pesado Poluentes</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutantsM</Key>
-      <Value>Filtro Médio de Poluentes</Value>
+      <Value>Filtro Médio Poluentes</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatilesL</Key>
-      <Value>Filtro Pesado de Voláteis</Value>
+      <Value>Filtro Pesado Metano</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatilesM</Key>
-      <Value>Filtro Médio de Voláteis</Value>
+      <Value>Filtro Médio Metano</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWaterL</Key>
-      <Value>Filtro Pesado de Água</Value>
+      <Value>Filtro Pesado Água</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWaterM</Key>
-      <Value>Filtro Médio de Água</Value>
+      <Value>Filtro Médio Água</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMushroom</Key>
@@ -4433,15 +4469,15 @@ USO: “J” para ativar; “Espaço” para subir; “Ctrl esquerdo” para des
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxide</Key>
-      <Value>Filtro de Óxido Nitroso</Value>
+      <Value>Filtro Óxido Nitroso</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideL</Key>
-      <Value>Filtro Pesado de Óxido Nitroso</Value>
+      <Value>Filtro Pesado Óxido Nitroso</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideM</Key>
-      <Value>Filtro Médio de Óxido Nitroso</Value>
+      <Value>Filtro Médio Óxido Nitroso</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterNitrousOxide</Key>
@@ -4957,11 +4993,6 @@ USO: ‘J’ para ativar; ‘Espaço’ para subir; ‘Ctrl Esquerdo’ para des
     <RecordThing>
       <Key>StructureReverseElectrolyzer</Key>
       <Value>Eletrólise Reversa</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>H2Combustor</Key>
-      <Value>Combustor de H2</Value>
-      <Description>Adaptado levemente de seu design original da {LINK:Recurso;Recurso}, o Combustor de {GAS:Volatiles} faz exatamente o que seu nome sugere — queima uma mistura de voláteis e {GAS:Oxygen} para criar água. Extremamente útil em ambientes quentes ou áridos, o usuário deve estar ciente de que o combustor gera uma quantidade considerável de calor residual. O dispositivo também é menos do que perfeitamente eficiente, resultando na ignição automática dos voláteis na câmara e na produção de gases residuais que precisam ser tratados.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight</Key>
@@ -6098,7 +6129,7 @@ No entanto, as pesquisas determinaram que a velocidade exata da deterioração v
 &gt; {GAS:Oxygen} x 1.3
 &gt; {GAS:Nitrogen} x 0.6
 &gt; {GAS:CarbonDioxide} x 0.8
-&gt; {GAS:Volatiles} x 1
+&gt; {GAS:Methane} x 1
 &gt; {GAS:Pollutant} x 3
 &gt; {GAS:NitrousOxide} x 1.5
 &gt; {GAS:Steam} x 2
@@ -6227,7 +6258,7 @@ O efeito desses ingredientes depende das proporções relativas no momento em qu
       <Key>StructureAdvancedComposter</Key>
       <Value>Composteira Avançada</Value>
       <Description>A composteira avançada cria {THING:Fertilizer} a partir de matéria orgânica. Ela aceita {LINK:OrganicPage;alimentos}, {THING:DecayedFood} ou {THING:ItemBiomass}. Requer {GAS:Water} e energia para funcionar, acelerando o processo natural de decomposição.
-Durante o processamento, libera nitrogênio, voláteis e uma pequena quantidade de calor. 
+Durante o processamento, libera nitrogênio e {GAS:Methane}, e uma pequena quantidade de calor. 
 
 {HEADER:Composição do composto}
 O fertilizante é produzido em uma proporção de 1:3 entre fertilizante e ingredientes. Os efeitos do fertilizante sobre as plantas variam de acordo com as proporções relativas de seus ingredientes.
@@ -6261,7 +6292,7 @@ O fertilizante é produzido em uma proporção de 1:3 entre fertilizante e ingre
       <Key>PortableComposter</Key>
       <Value>Composteira Portátil</Value>
       <Description>Um dispositivo simples de compostagem, a composteira básica cria {THING:Fertilizer} a partir de matéria orgânica. Ela aceita {LINK:OrganicPage;alimentos}, {THING:DecayedFood} ou {THING:ItemBiomass}. Requer um {THING:ItemLiquidCanisterEmpty} cheio e uma bateria para funcionar, acelerando o processo natural de decomposição.
-Durante o processamento, libera nitrogênio, voláteis e uma pequena quantidade de calor.
+Durante o processamento, libera nitrogênio e {GAS:Methane}, e uma pequena quantidade de calor.
 
 {HEADER:Composição do composto}
 O fertilizante é produzido em uma proporção de 1:3 entre fertilizante e ingredientes. Os efeitos do fertilizante sobre as plantas variam de acordo com as proporções relativas de seus ingredientes.
@@ -6694,22 +6725,22 @@ Você deve posicionar o notebook no chão para interagir com a interface na tela
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool1</Key>
       <Value>Winterspawn Variante Alfa</Value>
-      <Description>O bio-processador atmosférico Winterspawn da {LINK:Agrizero;Agrizero} é uma adição recente ao seu catálogo de decorações ambientais com manipulação genética. Usando o calor ambiente para dividir {GAS:Water} em {GAS:Volatiles} e {GAS:Oxygen}, o Winterspawn resfria o ambiente quando recebe quantidade suficiente de {GAS:Nitrogen}. A variante Alfa tem capacidade máxima de resfriamento e eletrólise de 90 watts e opera com maior eficiência em temperaturas entre 0 e 40 °C.</Description>
+      <Description>O bio-processador atmosférico Winterspawn da {LINK:Agrizero;Agrizero} é uma adição recente ao seu catálogo de decorações ambientais com manipulação genética. Usando o calor ambiente para dividir {GAS:Water} em {GAS:Methane} e {GAS:Oxygen}, o Winterspawn resfria o ambiente quando recebe quantidade suficiente de {GAS:Nitrogen}. A variante Alfa tem capacidade máxima de resfriamento e eletrólise de 90 watts e opera com maior eficiência em temperaturas entre 0 e 40 °C.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool2</Key>
       <Value>Winterspawn Variante Beta</Value>
-      <Description>O bio-processador atmosférico Winterspawn da {LINK:Agrizero;Agrizero} é uma adição recente ao seu catálogo de decorações ambientais com manipulação genética. Usando o calor ambiente para dividir {GAS:Water} em {GAS:Volatiles} e {GAS:Oxygen}, o Winterspawn resfria o ambiente quando recebe quantidade suficiente de {GAS:Nitrogen}. A variante Beta tem capacidade máxima de resfriamento e eletrólise de 150 watts e opera com maior eficiência em temperaturas entre 14 e 24 °C</Description>
+      <Description>O bio-processador atmosférico Winterspawn da {LINK:Agrizero;Agrizero} é uma adição recente ao seu catálogo de decorações ambientais com manipulação genética. Usando o calor ambiente para dividir {GAS:Water} em {GAS:Methane} e {GAS:Oxygen}, o Winterspawn resfria o ambiente quando recebe quantidade suficiente de {GAS:Nitrogen}. A variante Beta tem capacidade máxima de resfriamento e eletrólise de 150 watts e opera com maior eficiência em temperaturas entre 14 e 24 °C</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool1</Key>
       <Value>Flor de Hades Variante Alfa</Value>
-      <Description>A Flor de Hades criada pela {LINK:Agrizero;Agrizero} é o resultado de um experimento duvidoso para combinar o encanto das plantas tropicais com o conforto e a praticidade de uma bomba de calor. A planta respira uma mistura de 1:3 de {GAS:Volatiles} e {GAS:Oxygen}, e exala {GAS:Pollutant} aquecido.</Description>
+      <Description>A Flor de Hades criada pela {LINK:Agrizero;Agrizero} é o resultado de um experimento duvidoso para combinar o encanto das plantas tropicais com o conforto e a praticidade de uma bomba de calor. A planta respira uma mistura de 1:3 de {GAS:Methane} e {GAS:Oxygen}, e exala {GAS:Pollutant} aquecido.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool2</Key>
       <Value>Flor de Hades Variante Beta</Value>
-      <Description>A Flor de Hades criada pela {LINK:Agrizero;Agrizero} é o resultado de um experimento duvidoso para combinar o encanto das plantas tropicais com o conforto e a praticidade de uma bomba de calor. A planta respira uma mistura de 1:3 de {GAS:Volatiles} e {GAS:Oxygen}, e exala {GAS:Pollutant} aquecido. A variante Beta é notavelmente mais eficiente do que a versão Alfa, mais experimental.</Description>
+      <Description>A Flor de Hades criada pela {LINK:Agrizero;Agrizero} é o resultado de um experimento duvidoso para combinar o encanto das plantas tropicais com o conforto e a praticidade de uma bomba de calor. A planta respira uma mistura de 1:3 de {GAS:Methane} e {GAS:Oxygen}, e exala {GAS:Pollutant} aquecido. A variante Beta é notavelmente mais eficiente do que a versão Alfa, mais experimental.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_HadesAlpha</Key>
@@ -6937,7 +6968,12 @@ Altamente sensível à temperatura, o nitrice começa a derreter assim que é mi
     <RecordThing>
       <Key>StructureH2Combustor</Key>
       <Value>Combustor de H2</Value>
-      <Description>Adaptado levemente de seu design original {LINK:Recurso;Recurso}, o Combustor de {GAS:Volatiles} faz exatamente o que seu nome indica — queima uma mistura de voláteis e {GAS:Oxygen} para gerar água. Extremamente útil em ambientes quentes ou áridos, os usuários devem estar cientes de que o combustor gera uma quantidade considerável de calor residual. O dispositivo também não é perfeitamente eficiente, resultando na autoignição dos voláteis na câmara e na produção de gases residuais que precisam ser tratados.</Description>
+      <Description>O Combustor permite a combustão controlada de gases voláteis. Quando alimentado com {GAS:Hydrogen} e {GAS:Oxygen} , ele produzirá {GAS:Steam} que pode ser resfriado para água potável ou hidroponia.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>H2Combustor</Key>
+      <Value>Combustor</Value>
+      <Description>O Combustor permite a combustão controlada de gases voláteis. Quando alimentado com {GAS:Hydrogen} e {GAS:Oxygen} , ele produzirá {GAS:Steam} que pode ser resfriado para água potável ou hidroponia.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiatorFlat</Key>
@@ -7317,8 +7353,8 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatilesInfinite</Key>
-      <Value>Filtro Catalítico Voláteis</Value>
-      <Description>Um filtro que remove seletivamente {GAS:Volatiles}. Ele utiliza diferenciais de pressão internos para regenerar um catalisador de mudança de fase exclusivo, conferindo-lhe um ciclo de vida ilimitado.</Description> <!-- Preservei {GAS:Volatiles} exatamente como no original. -->
+      <Value>Filtro Catalítico Metano</Value>
+      <Description>Um filtro que remove seletivamente {GAS:Methane}. Ele utiliza diferenciais de pressão internos para regenerar um catalisador de mudança de fase exclusivo, conferindo-lhe um ciclo de vida ilimitado.</Description> 
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWaterInfinite</Key>
@@ -7646,8 +7682,8 @@ Em conjunto com a {THING:StructureEvaporationChamber}, os Stationeers podem expl
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceVolatiles</Key>
-      <Value>Gelo Puro de Voláteis</Value>
-      <Description>Um pedaço congelado de {GAS:Volatiles}</Description>
+      <Value>Gelo Puro de Methane</Value>
+      <Description>Um pedaço congelado de {GAS:Methane}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidCarbonDioxide</Key>
@@ -7677,7 +7713,7 @@ Em conjunto com a {THING:StructureEvaporationChamber}, os Stationeers podem expl
     <RecordThing>
       <Key>ItemPureIceLiquidVolatiles</Key>
       <Value>Gelo Puro de Voláteis Líquidos</Value>
-      <Description>Um pedaço congelado de {GAS:LiquidVolatiles}</Description>
+      <Description>Um pedaço congelado de {GAS:LiquidMethane}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceSteam</Key>
@@ -7698,6 +7734,56 @@ Em conjunto com a {THING:StructureEvaporationChamber}, os Stationeers podem expl
       <Key>ItemPureIcePollutedWater</Key>
       <Value>Gelo Puro de Água Poluída</Value>
       <Description>Um pedaço congelado de {GAS:PollutedWater}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceHydrazine</Key>
+      <Value>Gelo Puro de Hidrazina</Value>
+      <Description>Um pedaço congelado de {GAS:Hydrazine}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceHydrochloricAcid</Key>
+      <Value>Gelo Puro de Ácido Clorídrico</Value>
+      <Description>Um pedaço congelado de {GAS:HydrochloricAcid}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidAlcohol</Key>
+      <Value>Gelo Puro de Álcool Líquido</Value>
+      <Description>Um pedaço congelado de {GAS:LiquidAlcohol}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidHydrazine</Key>
+      <Value>Gelo Puro de Hidrazina Líquida</Value>
+      <Description>Um pedaço congelado de {GAS:LiquidHydrazine}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidHydrochloricAcid</Key>
+      <Value>Gelo Puro de Ácido Clorídrico Líquido</Value>
+      <Description>Um pedaço congelado de {GAS:LiquidHydrochloricAcid}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidSilanol</Key>
+      <Value>Gelo Puro de Silanol Líquido</Value>
+      <Description>Um pedaço congelado de {GAS:LiquidSilanol}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceSilanol</Key>
+      <Value>Gelo Puro de Silanol</Value>
+      <Description>Um pedaço congelado de {GAS:Silanol}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidSodiumChloride</Key>
+      <Value>Sal</Value>
+      <Description>Um pedaço sólido de {GAS:LiquidSodiumChloride}. Possui uma temperatura de fusão muito alta e só pode ser derretido em um forno quente ou em uma sala de derretimento aquecida. Não pode ser processado pelo {THING:StructureIceCrusher} ou {THING:StructureArcFurnace}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceOzone</Key>
+      <Value>Gelo Puro de Ozônio</Value>
+      <Description>Um pedaço congelado de {GAS:Ozone}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidOzone</Key>
+      <Value>Gelo Puro de Ozônio Liquido</Value>
+      <Description>Um pedaço congelado de {GAS:LiquidOzone}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveLiquidDrain</Key>
@@ -8209,7 +8295,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructurePumpedLiquidEngine</Key>
       <Value>Motor a Líquido com Bomba</Value>
-      <Description>Propelentes líquidos oferecem maior eficiência com o Motor a Líquido com Bomba. Duas entradas são fornecidas para que os Stationeers possam separar seus combustíveis, e a variável de Configuração controla a proporção de mistura das entradas. O motor foi projetado para funcionar com {GAS:LiquidVolatiles} e {GAS:LiquidOxygen}, mas alguns Stationeers relataram valores de empuxo excessivos ao trocar para {GAS:LiquidNitrousOxide}.</Description>
+      <Description>Propelentes líquidos oferecem maior eficiência com o Motor a Líquido com Bomba. Duas entradas são fornecidas para que os Stationeers possam separar seus combustíveis, e a variável de Configuração controla a proporção de mistura das entradas. O motor foi projetado para funcionar com {GAS:LiquidMethane} e {GAS:LiquidOxygen}, mas alguns Stationeers relataram valores de empuxo excessivos ao trocar para {GAS:LiquidNitrousOxide}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPumpedLiquidEngine</Key>
@@ -8219,7 +8305,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructureGovernedGasEngine</Key>
       <Value>Motor a Gás com Bomba</Value>
-      <Description>O mais confiável de todos os motores de foguete, o Motor a Gás com Bomba funciona com uma mistura de 2:1 de {GAS:Volatiles} para {GAS:Oxygen}.</Description>
+      <Description>O mais confiável de todos os motores de foguete, o Motor a Gás com Bomba funciona com uma mistura de 2:1 de {GAS:Methane} para {GAS:Oxygen}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedGasEngine</Key>
@@ -8229,7 +8315,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructurePressureFedGasEngine</Key>
       <Value>Motor a Gás por Pressão</Value>
-      <Description>Ineficiente, mas muito potente, o Motor a Gás por Pressão move o gás de cada uma de suas duas entradas com base na pressão dos tubos de entrada. Controle a proporção de mistura dos combustíveis ajustando as pressões de entrada para atingir a proporção de 2:1 de {GAS:Volatiles} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em empuxes ainda maiores.</Description>
+      <Description>Ineficiente, mas muito potente, o Motor a Gás por Pressão move o gás de cada uma de suas duas entradas com base na pressão dos tubos de entrada. Controle a proporção de mistura dos combustíveis ajustando as pressões de entrada para atingir a proporção de 2:1 de {GAS:Methane} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em empuxes ainda maiores.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngine</Key>
@@ -8249,7 +8335,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructurePressureFedGasEngineHeavy</Key>
       <Value>Motor a gás alimentado por alta pressão</Value>
-      <Description>Uma variante maior e mais potente do {THING:StructurePressureFedGasEngine}. Ela sacrifica um pouco de eficiência em troca de um empuxo muito maior. Motores a gás alimentados por pressão movem o gás de cada uma de suas entradas com base na pressão dos tubos de entrada. Controle a proporção da mistura de combustíveis ajustando as pressões de entrada para atingir uma mistura de 2:1 de {GAS:Volatiles} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em um empuxo ainda maior.</Description>
+      <Description>Uma variante maior e mais potente do {THING:StructurePressureFedGasEngine}. Ela sacrifica um pouco de eficiência em troca de um empuxo muito maior. Motores a gás alimentados por pressão movem o gás de cada uma de suas entradas com base na pressão dos tubos de entrada. Controle a proporção da mistura de combustíveis ajustando as pressões de entrada para atingir uma mistura de 2:1 de {GAS:Methane} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em um empuxo ainda maior.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngineHeavy</Key>
@@ -9545,8 +9631,8 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </RecordThing>
     <RecordThing>
       <Key>StructureFiltrationLiquid</Key>
-      <Value>Líquido de Filtragem</Value>  
-      <Description />
+      <Value>Máquina para Filtragem de líquidos</Value>  
+      <Description>A máquina de filtragem de líquidos funciona de forma semelhante à máquina de filtragem padrão, mas pode processar tanto líquidos quanto gases.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicPayloadDeliveryContainer</Key>
@@ -9589,6 +9675,202 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     <RecordThing>
       <Key>StructureCrewUmbilical</Key>
       <Value>Umbilical Conector</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemOreDetector</Key>
+      <Value>Detector de Minérios</Value>
+      <Description>Um dispositivo para localizar minérios específicos. Quanto mais próximo o jogador estiver do tipo de minério selecionado, mais indicadores irão se acender.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFermenter</Key>
+      <Value>Kit (Fermentador)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFermenter</Key>
+      <Value>Fermentador</Value>
+      <Description>O novo fermentador converte plantas em álcool. Diferentes plantas produzem rendimentos diferentes, por isso vale a pena considerar o que você cultiva se a produção de álcool for uma prioridade. Cana-de-açúcar, milho e capim estão entre as opções de maior rendimento. Sementes também podem ser fermentadas diretamente, e até mesmo alimentos em decomposição produzem uma pequena quantidade de álcool, em vez de serem desperdiçados.
+O processo de fermentação produz uma pequena quantidade de água poluída como subproduto, que retorna naturalmente ao circuito hidropônico.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcohol</Key>
+      <Value>Filtro Álcool</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcoholInfinite</Key>
+      <Value>Filtro Catalítico Álcool</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcoholL</Key>
+      <Value>Filtro Pesado Álcool</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcoholM</Key>
+      <Value>Filtro Médio Álcool</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHCl</Key>
+      <Value>Filtro Ácido Clorídrico</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHClInfinite</Key>
+      <Value>Filtro Catalítico Ácido Clorídrico</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHClL</Key>
+      <Value>Filtro Pesado Ácido Clorídrico</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHClM</Key>
+      <Value>Filtro Médio Ácido Clorídrico</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHelium</Key>
+      <Value>Filtro Hélio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHeliumInfinite</Key>
+      <Value>Filtro Catalítico Hélio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHeliumL</Key>
+      <Value>Filtro Pesado Hélio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHeliumM</Key>
+      <Value>Filtro Médio Hélio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazine</Key>
+      <Value>Filtro Hidrazina</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazineInfinite</Key>
+      <Value>Filtro Catalítico Hidrazina</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazineL</Key>
+      <Value>Filtro Pesado Hidrazina</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazineM</Key>
+      <Value>Filtro Médio Hidrazina</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogen</Key>
+      <Value>Filtro Hidrogênio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogenInfinite</Key>
+      <Value>Filtro Catalítico Hidrogênio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogenL</Key>
+      <Value>Filtro Pesado Hidrogênio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogenM</Key>
+      <Value>Filtro Médio Hidrogênio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzone</Key>
+      <Value>Filtro Ozônio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzoneInfinite</Key>
+      <Value>Filtro Catalítico Ozônio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzoneL</Key>
+      <Value>Filtro Pesado Ozônio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzoneM</Key>
+      <Value>Filtro Médio Ozônio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWater</Key>
+      <Value>Filtro Água Poluída</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWaterInfinite</Key>
+      <Value>Filtro Catalítico Água Poluída</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWaterL</Key>
+      <Value>Filtro Pesado Água Poluída</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWaterM</Key>
+      <Value>Filtro Médio Água Poluída</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSalt</Key>
+      <Value>Filtro Sal</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSaltInfinite</Key>
+      <Value>Filtro Catalítico Sal</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSaltL</Key>
+      <Value>Filtro Pesado Sal</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSaltM</Key>
+      <Value>Filtro Médio Sal</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanol</Key>
+      <Value>Filtro Silanol</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanolInfinite</Key>
+      <Value>Filtro Catalítico Silanol</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanolL</Key>
+      <Value>Filtro Pesado Silanol</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanolM</Key>
+      <Value>Filtro Médio Silanol</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -15709,8 +15991,8 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
       <Value>A proporção de poluentes na atmosfera do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatiles</Key>
-      <Value>A proporção de voláteis na atmosfera do dispositivo</Value>
+      <Key>LogicTypeRatioMethane</Key>
+      <Value>A proporção de {GAS:Methane} na atmosfera do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWater</Key>
@@ -15749,8 +16031,8 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
       <Value>A proporção de poluentes na rede de Entrada do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatilesInput</Key>
-      <Value>A proporção de voláteis na rede de Entrada do dispositivo</Value>
+      <Key>LogicTypeRatioMethaneInput</Key>
+      <Value>A proporção de {GAS:Methane} na rede de Entrada do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterInput</Key>
@@ -15785,8 +16067,8 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
       <Value>A proporção de poluentes na rede de Entrada 2 do dispositiv</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatilesInput2</Key>
-      <Value>A proporção de voláteis na rede de Entrada 2 do dispositivo</Value>
+      <Key>LogicTypeRatioMethaneInput2</Key>
+      <Value>A proporção de {GAS:Methane} na rede de Entrada 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterInput2</Key>
@@ -15821,8 +16103,8 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
       <Value>A proporção de poluentes na rede de Saída do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatilesOutput</Key>
-      <Value>A proporção de voláteis na rede de Saída do dispositivo</Value>
+      <Key>LogicTypeRatioMethaneOutput</Key>
+      <Value>A proporção de {GAS:Methane} na rede de Saída do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterOutput</Key>
@@ -16338,24 +16620,24 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
       <Value>A proporção de {GAS:LiquidOxygen} na Atmosfera da Saída 2 do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatiles</Key>
-      <Value>A proporção de {GAS:LiquidVolatiles} na Atmosfera do dispositivo</Value>
+      <Key>LogicTypeRatioLiquidMethane</Key>
+      <Value>A proporção de {GAS:LiquidMethane} na Atmosfera do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatilesInput</Key>
-      <Value>A proporção de {GAS:LiquidVolatiles} na Atmosfera da Entrada do dispositivo</Value>
+      <Key>LogicTypeRatioLiquidMethaneInput</Key>
+      <Value>A proporção de {GAS:LiquidMethane} na Atmosfera da Entrada do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatilesInput2</Key>
-      <Value>A proporção de {GAS:LiquidVolatiles} na Atmosfera da Entrada 2 do dispositivo</Value>
+      <Key>LogicTypeRatioLiquidMethaneInput2</Key>
+      <Value>A proporção de {GAS:LiquidMethane} na Atmosfera da Entrada 2 do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatilesOutput</Key>
-      <Value>A proporção de {GAS:LiquidVolatiles} na Atmosfera da Saída do dispositivo</Value>
+      <Key>LogicTypeRatioLiquidMethaneOutput</Key>
+      <Value>A proporção de {GAS:LiquidMethane} na Atmosfera da Saída do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatilesOutput2</Key>
-      <Value>A proporção de {GAS:LiquidVolatiles} na Atmosfera da Saída 2 do dispositivo</Value>
+      <Key>LogicTypeRatioLiquidMethaneOutput2</Key>
+      <Value>A proporção de {GAS:LiquidMethane} na Atmosfera da Saída 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioSteam</Key>
@@ -16508,6 +16790,50 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     <Record>
       <Key>LogicTypeContactSlotIndex</Key>
       <Value>O índice do slot no qual o comerciante apareceu. Isso define a classe do comerciante, ou seja, Utilidade, Pequeno, Médio etc.</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazine</Key>
+      <Value>A proporção de {GAS:Hydrazine} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazine</Key>
+      <Value>A proporção de {GAS:LiquidHydrazine} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcohol</Key>
+      <Value>A proporção de {GAS:LiquidAlcohol} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHelium</Key>
+      <Value>A proporção de {GAS:Helium} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChloride</Key>
+      <Value>A proporção de {GAS:LiquidSodiumChloride} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanol</Key>
+      <Value>A proporção de {GAS:Silanol} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanol</Key>
+      <Value>A proporção de {GAS:LiquidSilanol} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcid</Key>
+      <Value>A proporção de {GAS:HydrochloricAcid} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcid</Key>
+      <Value>A proporção de {GAS:LiquidHydrochloricAcid} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzone</Key>
+      <Value>A proporção de {GAS:Ozone} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzone</Key>
+      <Value>A proporção de {GAS:LiquidOzone} na atmosfera do dispositivo</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
@@ -18799,6 +19125,10 @@ Recrutando pessoas com formação em engenharia civil, das indústrias militar e
       <Value>Calor Específico:</Value>
     </Record>
     <Record>
+      <Key>StationpediaAutoIgnition</Key>
+      <Value>Autoignição:</Value>
+    </Record>
+    <Record>
       <Key>StationpediaLatentHeatHeader</Key>
       <Value>Calor Latente:</Value>
     </Record>
@@ -18863,12 +19193,20 @@ Recrutando pessoas com formação em engenharia civil, das indústrias militar e
       <Value>Gases e Líquidos</Value>
     </Record>
     <Record>
+      <Key>StationpediaFermentationHeader</Key>
+      <Value>Resultados da Fermentação</Value>
+    </Record>
+    <Record>
       <Key>StationpediaResoucesHeader</Key>
       <Value>Recursos Utilizados</Value>
     </Record>
     <Record>
       <Key>StationpediaUsedIn</Key>
-      <Value>Usado Em</Value>
+      <Value>Usado em</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCombustion</Key>
+      <Value>Combustão</Value>
     </Record>
     <Record>
       <Key>StationpediaManufactures</Key>
@@ -19088,8 +19426,8 @@ Recrutando pessoas com formação em engenharia civil, das indústrias militar e
 {GAS:Water} é melhor, mas geralmente tem usos mais importantes.</Value>
     </Record>
     <Record>
-      <Key>MoleVolatilesDescription</Key>
-      <Value>Voláteis é um combustível inflamável. É refinado a partir de {THING:ItemVolatiles}</Value>
+      <Key>MoleMethaneDescription</Key>
+      <Value>Metano é um combustível inflamável. É refinado a partir de {THING:ItemVolatiles}</Value>
     </Record>
     <Record>
       <Key>MolePollutantDescription</Key>
@@ -19118,8 +19456,8 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>{GAS:Oxygen} em sua forma líquida. Pode ser criado reduzindo a temperatura do gás {GAS:Oxygen} abaixo do seu ponto de ebulição. Isso pode ser alcançado usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidOxygen} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Oxygen}.</Value>
     </Record>
     <Record>
-      <Key>MoleLiquidVolatilesDescription</Key>
-      <Value>{GAS:Volatiles} em sua forma líquida. Pode ser criado reduzindo a temperatura do gás {GAS:Volatiles} abaixo do seu ponto de ebulição. Isso pode ser alcançado usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidVolatiles} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Volatiles}.</Value>
+      <Key>MoleLiquidMethaneDescription</Key>
+      <Value>{GAS:Methane} em sua forma líquida. Pode ser criado ao reduzir a temperatura do gás {GAS:Methane} abaixo do seu ponto de ebulição. Isso pode ser feito usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidCarbonDioxideDescription</Key>
@@ -19139,11 +19477,55 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>MoleHydrogenDescription</Key>
-      <Value />
+      <Value>{GAS:Hydrogen} é o combustível mais eficiente por peso para foguetes. Quando misturado com {GAS:Oxygen}, combustiona de forma limpa em {GAS:Steam}.</Value>
     </Record>
     <Record>
       <Key>MoleSteamDescription</Key>
-      <Value>{GAS:Water} evaporada. Pode ser criada aumentando a temperatura da {GAS:Water} até seu ponto de ebulição. Quando introduzido em um tubo,o {GAS:Steam} se condensará de volta em {GAS:Water} se sua temperatura estiver abaixo do ponto de ebulição. O vapor pode ser criado pela combustão de {GAS:Volatiles} e oxigênio usando o {THING:H2Combustor}</Value>
+      <Value>{GAS:Water} evaporada. Pode ser criada ao elevar a temperatura de {GAS:Water} até seu ponto de ebulição. Quando introduzido em um tubo, {GAS:Steam} se condensará novamente em {GAS:Water} se sua temperatura estiver abaixo do ponto de ebulição. O vapor pode ser gerado pela combustão de {GAS:Methane} e oxigênio utilizando o {THING:H2Combustor}.</Value>
+    </Record>
+    <Record>
+      <Key>MoleHydrazineDescription</Key>
+      <Value>{GAS:Hydrazine} é o combustível ideal para exploração espacial, pois não requer oxidante para combustão, necessitando apenas de calor ou uma faísca. É mais comumente armazenado em sua forma líquida {GAS:LiquidHydrazine} , que é estável à temperatura ambiente. É extremamente tóxico para todas as formas de vida.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidHydrazineDescription</Key>
+      <Value>{GAS:Hydrazine} em sua forma líquida. É estável à temperatura ambiente e é um excelente combustível para foguetes.</Value>
+    </Record>
+    <Record>
+      <Key>MoleHeliumDescription</Key>
+      <Value>{GAS:Helium} é um gás totalmente inerte que não congela nem se condensa em líquido, tornando-o um excelente gás de trabalho em sistemas atmosféricos que devem evitar mudança de fase.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidAlcoholDescription</Key>
+      <Value>{GAS:LiquidAlcohol} é um líquido volátil relativamente seguro e versátil à temperatura ambiente. Quando exposto ao vácuo, se decompõe em {GAS:Methane}, formando uma pequena pressão interna.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidSodiumChlorideDescription</Key>
+      <Value>{GAS:LiquidSodiumChloride} é único, pois permanece em estado líquido em temperaturas extremamente altas, tornando-se um excelente meio para armazenar energia térmica. Quando exposto ao vácuo, se decompõe em {GAS:Pollutant}, formando uma pequena pressão interna. À temperatura ambiente, existe como sólido {THING:ItemPureIceLiquidSodiumChloride}.</Value>
+    </Record>
+    <Record>
+      <Key>MoleSilanolDescription</Key>
+      <Value>{GAS:Silanol} é o gás refrigerante premium para utilização de mudança de fase na transferência de calor. Possui uma ampla faixa líquida e é mais comumente encontrado em sua forma líquida {GAS:LiquidSilanol}.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidSilanolDescription</Key>
+      <Value>{GAS:Silanol} em sua forma líquida é o gás refrigerante premium para utilização de mudança de fase na transferência de calor. Com sua altíssima capacidade térmica, também é um excelente fluido de resfriamento, capaz de absorver grandes quantidades de energia térmica com mínima variação de temperatura.</Value>
+    </Record>
+    <Record>
+      <Key>MoleHydrochloricAcidDescription</Key>
+      <Value>Um gás altamente tóxico.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidHydrochloricAcidDescription</Key>
+      <Value>Um líquido altamente tóxico.</Value>
+    </Record>
+    <Record>
+      <Key>MoleOzoneDescription</Key>
+      <Value>{GAS:Ozone} é um oxidante altamente energético. Assim como {GAS:NitrousOxide}, quando misturado com um gás volátil, {GAS:Ozone} gera uma combustão ainda mais quente.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidOzoneDescription</Key>
+      <Value>{GAS:Ozone} em sua forma líquida.</Value>
     </Record>
     <Record>
       <Key>SettingsSmoothTerrain</Key>
@@ -20610,7 +20992,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>FurnaceTutorialReHeatingInfo</Key>
-      <Value>Uma mistura 2:1 de {GAS:Volatiles}:{GAS:Oxygen} é a fonte de combustível mais comum e entra em autoignição a 300°C, enquanto uma mistura 50:50 de {GAS:Volatiles}:{GAS:NitrousOxide} entra em autoignição a 50°C, porém queimará muito mais quente.</Value>
+      <Value>Uma mistura 2:1 de {GAS:Methane}:{GAS:Oxygen} é a fonte de combustível mais comum e entra em autoignição a 300°C, enquanto uma mistura 50:50 de {GAS:Methane}:{GAS:NitrousOxide} entra em autoignição a 50°C, porém queimará muito mais quente.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialReHeatingInsertMoreFuel</Key>
@@ -21229,6 +21611,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Tanque de Combustível</Value>
     </Record>
     <Record>
+      <Key>SpawnDataHydrogenFuelTank</Key>
+      <Value>Tanque de Combustível de Hidrogênio</Value>
+    </Record>
+    <Record>
       <Key>SpawnDataOxygenTank</Key>
       <Value>Tanque de Oxigênio</Value>
     </Record>
@@ -21677,6 +22063,14 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Dióxido de Carbono a Granel</Value>
     </Record>
     <Record>
+      <Key>BuyDataBulkCarbonDioxideVenus</Key>
+      <Value>Dióxido de Carbono de Vênus</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkCarbonDioxideMars</Key>
+      <Value>Dióxido de Carbono de Marte</Value>
+    </Record>
+    <Record>
       <Key>BuyDataBulkWater</Key>
       <Value>Água a Granel</Value>
     </Record>
@@ -21754,7 +22148,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>BuyDataBulkVolatiles</Key>
-      <Value>Voláteis a Granel</Value>
+      <Value>Metano de Vulcan</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkHydrogen</Key>
+      <Value>Hidrogênio de Vulcan</Value>
     </Record>
     <Record>
       <Key>BuyDataBulkOxygen</Key>
@@ -21771,6 +22169,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     <Record>
       <Key>SellDataBulkNitrogen</Key>
       <Value>Nitrogênio a Granel</Value>
+   </Record>
+    <Record>
+      <Key>SellDataBulkHelium</Key>
+      <Value>Hélio a Granel</Value>
     </Record>
     <Record>
       <Key>SellDataBulkCarbonDioxide</Key>
@@ -21778,7 +22180,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SellDataBulkVolatiles</Key>
-      <Value>Voláteis a Granel</Value>
+      <Value>Metano a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkHydrogen</Key>
+      <Value>Hidrogênio a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkSilanol</Key>
+      <Value>Silanol a Granel</Value>
     </Record>
     <Record>
       <Key>SellDataBulkPollutants</Key>
@@ -21809,6 +22219,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Cilindro de Combustível</Value>
     </Record>
     <Record>
+      <Key>SellDataLiquidHydrazineCanister</Key>
+      <Value>Cilindro de Gás de Hidrazina Líquida</Value>
+    </Record>
+    <Record>
       <Key>SellDataWaterCanister</Key>
       <Value>Cilindro de Água</Value>
     </Record>
@@ -21834,7 +22248,23 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SellDataBulkLiquidVolatiles</Key>
-      <Value>Voláteis Líquidos a Granel</Value>
+      <Value>Metano Líquido a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidHydrogen</Key>
+      <Value>Hidrogênio Líquido a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidOzone</Key>
+      <Value>Ozônio Líquido a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidHydrochloricAcid</Key>
+      <Value>Ácido Clorídrico Líquido a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidHydrazine</Key>
+      <Value>Hidrazina Líquida a Granel</Value>
     </Record>
     <Record>
       <Key>SellDataLiquidNitrogenCanister</Key>
@@ -21846,7 +22276,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SellDataLiquidVolatilesCanister</Key>
-      <Value>Cilindro de Voláteis Líquidos</Value>
+      <Value>Cilindro de Metano Líquido</Value>
     </Record>
     <Record>
       <Key>SellDataBoxofSprayCans</Key>
@@ -22440,6 +22870,14 @@ Agradecemos sua compreensão e mal podemos esperar para que você experimente as
     <Record>
       <Key>ButtonLink</Key>
       <Value>Vincular</Value>			 
+    </Record>
+    <Record>
+      <Key>StationpediaFermentation</Key>
+      <Value>Fermenta em: </Value>
+    </Record>
+    <Record>
+      <Key>StationpediaFermentable</Key>
+      <Value>Fermentável:</Value>
     </Record>
   </Interface>
   <Colors>
