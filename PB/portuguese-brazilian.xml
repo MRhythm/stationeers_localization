@@ -28851,7 +28851,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DamageTypeDecay</Key>
-      <Value>Decaimento</Value>
+      <Value>Decomposição</Value>
     </Record>
     <Record>
       <Key>DamageTypeDamage</Key>
