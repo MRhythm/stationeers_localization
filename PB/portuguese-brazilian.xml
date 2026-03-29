@@ -7990,22 +7990,22 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureBench1</Key>
-      <Value>Bancada (Estilo Balcão)</Value>
+      <Value>Bancada Estilo Balcão</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBench2</Key>
-      <Value>Bancada (Estilo High Tech)</Value>
+      <Value>Bancada Estilo High Tech</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBench3</Key>
-      <Value>Bancada (Estilo Estrutura)</Value>
+      <Value>Bancada Estilo Estrutura</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBench4</Key>
-      <Value>Bancada (Estilo Oficina)</Value>
+      <Value>Bancada Estilo Oficina</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -19477,7 +19477,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>MoleHydrogenDescription</Key>
-      <Value>{GAS:Hydrogen} é o combustível mais eficiente por peso para foguetes. Quando misturado com {GAS:Oxygen}, combustiona de forma limpa em {GAS:Steam}.</Value>
+      <Value>{GAS:Hydrogen} é o combustível mais eficiente em termos de peso e temperatura de combustão para foguetes. Quando queimado com {GAS:Oxygen}, transforma-se em água ({GAS:Steam}) de forma limpa, tornando-o ideal para bases com sistemas hidropônicos ou eletrolisadores.</Value>
     </Record>
     <Record>
       <Key>MoleSteamDescription</Key>
@@ -19497,7 +19497,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>MoleLiquidAlcoholDescription</Key>
-      <Value>{GAS:LiquidAlcohol} é um líquido volátil relativamente seguro e versátil à temperatura ambiente. Quando exposto ao vácuo, se decompõe em {GAS:Methane}, formando uma pequena pressão interna.</Value>
+      <Value>{GAS:LiquidAlcohol} é um combustível líquido versátil à temperatura ambiente que pode ser produzido usando o novo Fermentador. Quando exposto ao vácuo ele evapora irreversivelmente em {GAS:Methane}, formando uma pequena pressão interna. Portanto, certifique-se de manter sua temperatura e pressão adequadas para preservar sua forma.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidSodiumChlorideDescription</Key>
@@ -19521,11 +19521,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>MoleOzoneDescription</Key>
-      <Value>{GAS:Ozone} é um oxidante altamente energético. Assim como {GAS:NitrousOxide}, quando misturado com um gás volátil, {GAS:Ozone} gera uma combustão ainda mais quente.</Value>
+      <Value>{GAS:Ozone} é um oxidante altamente energético. Assim como {GAS:NitrousOxide},ele proporciona uma combustão mais rápida em comparação com o oxigênio quando queimado com um combustível.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidOzoneDescription</Key>
-      <Value>{GAS:Ozone} em sua forma líquida.</Value>
+      <Value>{GAS:Ozone} em sua forma líquida. É liquefeito, possui uma faixa de temperatura de fusão mais ampla e um calor latente menor, o que facilita o seu manuseio em comparação com o NoS.</Value>
     </Record>
     <Record>
       <Key>SettingsSmoothTerrain</Key>
