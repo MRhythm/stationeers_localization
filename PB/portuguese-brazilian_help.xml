@@ -2,7 +2,7 @@
   <Name>Português (Brasil)</Name>
   <Code>PB</Code>
   <HelpPage>
-  <!--Traducao Marcelo 22/02/2026 versao 26943-->  
+  <!--Tradução Marcelo 20/03/2026 Registro de alterações 0.2.6217.27046-->  
 <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                 MASTER PAGES            |
@@ -354,7 +354,7 @@ Na tela de mapa da {THING:MotherboardRockets}, é possível definir o destino do
 
 Acionar o foguete sem definir um destino permite observar seu desempenho e o consumo de combustível sem realmente lançá-lo.
 
-Espere utilizar entre **5 e 20 Kmol de combustível por viagem**, dependendo do tamanho do foguete.
+Espere utilizar entre 5 e 20 Kmol de combustível por viagem, dependendo do tamanho do foguete.
 
 Um {THING:StructureRocketScanner} é usado para mapear locais desconhecidos e descobrir asteroides mineráveis.
 
@@ -655,7 +655,7 @@ Os efeitos do fertilizante dependem de seus ingredientes:
 - {THING:ItemBiomass} aumenta o NÚMERO DE CICLOS DE CRESCIMENTO pelos quais o fertilizante permanece ativo, até o máximo de 5.
 
 
-O efeito de cada ingrediente depende das proporções utilizadas no composteiro no momento do processamento. O fertilizante é produzido em uma proporção de 1:3 (uma parte de fertilizante para três partes de ingredientes). Durante o processamento, são liberados {GAS:Nitrogen} e {GAS:Volatiles}, além de uma pequena quantidade de calor.
+O efeito de cada ingrediente depende das proporções utilizadas no composteiro no momento do processamento. O fertilizante é produzido em uma proporção de 1:3 (uma parte de fertilizante para três partes de ingredientes). Durante o processamento, são liberados {GAS:Nitrogen} e {GAS:Methane}, além de uma pequena quantidade de calor.
 	  </Text>
     </StationpediaPage>
 
@@ -677,7 +677,7 @@ Pressões mais altas não afetam o processo.
 > {GAS:Oxygen} x 1.3
 > {GAS:Nitrogen} x 0.6
 > {GAS:CarbonDioxide} x 0.8
-> {GAS:Volatiles} x 1
+> {GAS:Methane} x 1
 > {GAS:Pollutant} x 3
 > {GAS:NitrousOxide} x 1.5
 > {GAS:Water} x 2
