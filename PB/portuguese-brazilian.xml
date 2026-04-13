@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português (Brasil)</Name>
-  <Code>PB</Code>  <!--Tradução Marcelo 20/03/2026 Registro de alterações 0.2.6217.27046-->
+  <Code>PB</Code>  <!--Tradução Marcelo 26/03/2026 Registro de alterações 0.2.6227.27061-->
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
