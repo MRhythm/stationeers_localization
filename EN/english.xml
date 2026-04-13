@@ -313,48 +313,48 @@
       <Value>Fuel Mix</Value>
     </Record>
     <Record>
-        <Key>Hydrazine</Key>
-        <Value>Hydrazine</Value>
+      <Key>Hydrazine</Key>
+      <Value>Hydrazine</Value>
     </Record>
     <Record>
-        <Key>LiquidHydrazine</Key>
-        <Value>Liquid Hydrazine</Value>
+      <Key>LiquidHydrazine</Key>
+      <Value>Liquid Hydrazine</Value>
     </Record>
     <Record>
-        <Key>LiquidAlcohol</Key>
-        <Value>Liquid Alcohol</Value>
+      <Key>LiquidAlcohol</Key>
+      <Value>Liquid Alcohol</Value>
     </Record>
     <Record>
-        <Key>Helium</Key>
-        <Value>Helium</Value>
+      <Key>Helium</Key>
+      <Value>Helium</Value>
     </Record>
     <Record>
-        <Key>LiquidSodiumChloride</Key>
-        <Value>Liquid Sodium Chloride</Value>
+      <Key>LiquidSodiumChloride</Key>
+      <Value>Liquid Sodium Chloride</Value>
     </Record>
     <Record>
-        <Key>Silanol</Key>
-        <Value>Silanol</Value>
+      <Key>Silanol</Key>
+      <Value>Silanol</Value>
     </Record>
     <Record>
-        <Key>LiquidSilanol</Key>
-        <Value>Liquid Silanol</Value>
+      <Key>LiquidSilanol</Key>
+      <Value>Liquid Silanol</Value>
     </Record>
     <Record>
-        <Key>HydrochloricAcid</Key>
-        <Value>Hydrochloric Acid</Value>
+      <Key>HydrochloricAcid</Key>
+      <Value>Hydrochloric Acid</Value>
     </Record>
     <Record>
-        <Key>LiquidHydrochloricAcid</Key>
-        <Value>Liquid Hydrochloric Acid</Value>
+      <Key>LiquidHydrochloricAcid</Key>
+      <Value>Liquid Hydrochloric Acid</Value>
     </Record>
     <Record>
-        <Key>Ozone</Key>
-        <Value>Ozone</Value>
+      <Key>Ozone</Key>
+      <Value>Ozone</Value>
     </Record>
     <Record>
-        <Key>LiquidOzone</Key>
-        <Value>Liquid Ozone</Value>
+      <Key>LiquidOzone</Key>
+      <Value>Liquid Ozone</Value>
     </Record>
   </Gases>
   <Actions>
@@ -5623,7 +5623,7 @@ A quad-array of hub-mounted electric engines propels the reinforced aluminium fr
     <RecordThing>
       <Key>ItemCornSoup</Key>
       <Value>Corn Soup</Value>
-      <Description>Made using {THING:ItemCookedCorn} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Faily high in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
+      <Description>Made using {THING:ItemCookedCorn} and an {THING:ItemEmptyCan} in a {THING:AppliancePackagingMachine} or {THING:StructureAdvancedPackagingMachine}. Fairly high in nutrition, canned food does not {LINK:DecayPage;decay}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemBreadLoaf</Key>
@@ -6960,9 +6960,9 @@ Highly sensitive to temperature, nitrice will begin to melt as soon as it is min
       <Description>The Combustor allows for controlled combustion of volatile gasses. When fed with {GAS:Hydrogen} and {GAS:Oxygen} it will output {GAS:Steam} which can be cooled for drinking water or hydroponics.</Description>
     </RecordThing>
     <RecordThing>
-        <Key>H2Combustor</Key>
-        <Value>Combustor</Value>
-        <Description>The Combustor allows for controlled combustion of volatile gasses. When fed with {GAS:Hydrogen} and {GAS:Oxygen} it will output {GAS:Steam} which can be cooled for drinking water or hydroponics.</Description>
+      <Key>H2Combustor</Key>
+      <Value>Combustor</Value>
+      <Description>The Combustor allows for controlled combustion of volatile gasses. When fed with {GAS:Hydrogen} and {GAS:Oxygen} it will output {GAS:Steam} which can be cooled for drinking water or hydroponics.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiatorFlat</Key>
@@ -7724,60 +7724,55 @@ To begin splicing, place a plant or seed bag in the left slot (source) and place
       <Description>A frozen chunk of {GAS:PollutedWater}</Description>
     </RecordThing>
     <RecordThing>
-        <Key>ItemPureIceHydrazine</Key>
-        <Value>Pure Ice Hydrazine</Value>
-        <Description>A frozen chunk of {GAS:Hydrazine}</Description>
+      <Key>ItemPureIceHydrazine</Key>
+      <Value>Pure Ice Hydrazine</Value>
+      <Description>A frozen chunk of {GAS:Hydrazine}</Description>
     </RecordThing>
     <RecordThing>
-        <Key>ItemPureIceHydrochloricAcid</Key>
-        <Value>Pure Ice Hydrochloric Acid</Value>
-        <Description>A frozen chunk of {GAS:HydrochloricAcid}</Description>
+      <Key>ItemPureIceHydrochloricAcid</Key>
+      <Value>Pure Ice Hydrochloric Acid</Value>
+      <Description>A frozen chunk of {GAS:HydrochloricAcid}</Description>
     </RecordThing>
     <RecordThing>
-        <Key>ItemPureIceLiquidAlcohol</Key>
-        <Value>Pure Ice Liquid Alcohol</Value>
-        <Description>A frozen chunk of {GAS:LiquidAlcohol}</Description>
+      <Key>ItemPureIceLiquidAlcohol</Key>
+      <Value>Pure Ice Liquid Alcohol</Value>
+      <Description>A frozen chunk of {GAS:LiquidAlcohol}</Description>
     </RecordThing>
     <RecordThing>
-        <Key>ItemPureIceLiquidHydrazine</Key>
-        <Value>Pure Ice Liquid Hydrazine</Value>
-        <Description>A frozen chunk of {GAS:LiquidHydrazine}</Description>
+      <Key>ItemPureIceLiquidHydrazine</Key>
+      <Value>Pure Ice Liquid Hydrazine</Value>
+      <Description>A frozen chunk of {GAS:LiquidHydrazine}</Description>
     </RecordThing>
     <RecordThing>
-        <Key>ItemPureIceLiquidHydrochloricAcid</Key>
-        <Value>Pure Ice Liquid Hydrochloric Acid</Value>
-        <Description>A frozen chunk of {GAS:LiquidHydrochloricAcid}</Description>
+      <Key>ItemPureIceLiquidHydrochloricAcid</Key>
+      <Value>Pure Ice Liquid Hydrochloric Acid</Value>
+      <Description>A frozen chunk of {GAS:LiquidHydrochloricAcid}</Description>
     </RecordThing>
     <RecordThing>
-        <Key>ItemPureIceLiquidSilanol</Key>
-        <Value>Pure Ice Liquid Silanol</Value>
-        <Description>A frozen chunk of {GAS:LiquidSilanol}</Description>
-    </RecordThing>
-      <RecordThing>
-          <Key>ItemPureIceSilanol</Key>
-          <Value>Pure Ice Silanol</Value>
-          <Description>A frozen chunk of {GAS:Silanol}</Description>
-      </RecordThing>
-    <RecordThing>
-        <Key>ItemPureIceLiquidSodiumChloride</Key>
-        <Value>Salt</Value>
-        <Description>A solid chunk of {GAS:LiquidSodiumChloride}</Description>
+      <Key>ItemPureIceLiquidSilanol</Key>
+      <Value>Pure Ice Liquid Silanol</Value>
+      <Description>A frozen chunk of {GAS:LiquidSilanol}</Description>
     </RecordThing>
     <RecordThing>
-        <Key>ItemPureIceOzone</Key>
-        <Value>Pure Ice Ozone</Value>
-        <Description>A frozen chunk of {GAS:Ozone}</Description>
+      <Key>ItemPureIceSilanol</Key>
+      <Value>Pure Ice Silanol</Value>
+      <Description>A frozen chunk of {GAS:Silanol}</Description>
     </RecordThing>
     <RecordThing>
-        <Key>ItemPureIceLiquidOzone</Key>
-        <Value>Pure Ice Ozone</Value>
-        <Description>A frozen chunk of {GAS:LiquidOzone}</Description>
+      <Key>ItemPureIceLiquidSodiumChloride</Key>
+      <Value>Salt</Value>
+      <Description>A solid chunk of {GAS:LiquidSodiumChloride}. It has a very high melt temperature and can only be melted either in a hot furnace or a hot melting room. It cannot be processed by the {THING:StructureIceCrusher} or {THING:StructureArcFurnace}.</Description>
     </RecordThing>
-      
-      
-      
-      
-      
+    <RecordThing>
+      <Key>ItemPureIceOzone</Key>
+      <Value>Pure Ice Ozone</Value>
+      <Description>A frozen chunk of {GAS:Ozone}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidOzone</Key>
+      <Value>Pure Ice Ozone</Value>
+      <Description>A frozen chunk of {GAS:LiquidOzone}</Description>
+    </RecordThing>
     <RecordThing>
       <Key>StructurePassiveLiquidDrain</Key>
       <Value>Passive Liquid Drain</Value>
@@ -9675,6 +9670,196 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Key>ItemOreDetector</Key>
       <Value>Ore Detector</Value>
       <Description>A device for locating specific ores. The closer the player is to the selected type of ore, the more indicators will light up.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFermenter</Key>
+      <Value>Kit Fermenter</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFermenter</Key>
+      <Value>Fermenter</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcohol</Key>
+      <Value>Filter (Alcohol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcoholInfinite</Key>
+      <Value>Catalytic Filter (Alcohol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcoholL</Key>
+      <Value>Heavy Filter (Alcohol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcoholM</Key>
+      <Value>Medium Filter (Alcohol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHCl</Key>
+      <Value>Filter (Hydrochloric Acid)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHClInfinite</Key>
+      <Value>Catalytic Filter (Hydrochloric Acid)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHClL</Key>
+      <Value>Heavy Filter (Hydrochloric Acid)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHClM</Key>
+      <Value>Medium Filter (Hydrochloric Acid)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHelium</Key>
+      <Value>Filter (Helium)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHeliumInfinite</Key>
+      <Value>Catalytic Filter (Helium)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHeliumL</Key>
+      <Value>Heavy Filter (Helium)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHeliumM</Key>
+      <Value>Medium Filter (Helium)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazine</Key>
+      <Value>Filter (Hydrazine)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazineInfinite</Key>
+      <Value>Catalytic Filter (Hydrazine)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazineL</Key>
+      <Value>Heavy Filter (Hydrazine)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazineM</Key>
+      <Value>Medium Filter (Hydrazine)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogen</Key>
+      <Value>Filter (Hydrogen)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogenInfinite</Key>
+      <Value>Catalytic Filter (Hydrogen)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogenL</Key>
+      <Value>Heavy Filter (Hydrogen)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogenM</Key>
+      <Value>Medium Filter (Hydrogen)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzone</Key>
+      <Value>Filter (Ozone)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzoneInfinite</Key>
+      <Value>Catalytic Filter (Ozone)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzoneL</Key>
+      <Value>Heavy Filter (Ozone)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzoneM</Key>
+      <Value>Medium Filter (Ozone)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWater</Key>
+      <Value>Filter (Polluted Water)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWaterInfinite</Key>
+      <Value>Catalytic Filter (Polluted Water)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWaterL</Key>
+      <Value>Heavy Filter (Polluted Water)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWaterM</Key>
+      <Value>Medium Filter (Polluted Water)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSalt</Key>
+      <Value>Filter (Salt)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSaltInfinite</Key>
+      <Value>Catalytic Filter (Salt)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSaltL</Key>
+      <Value>Heavy Filter (Salt)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSaltM</Key>
+      <Value>Medium Filter (Salt)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanol</Key>
+      <Value>Filter (Silanol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanolInfinite</Key>
+      <Value>Catalytic Filter (Silanol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanolL</Key>
+      <Value>Heavy Filter (Silanol)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanolM</Key>
+      <Value>Medium Filter (Silanol)</Value>
+      <Description />
     </RecordThing>
   </Things>
   <Slots>
@@ -16595,50 +16780,49 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>The index of the slot in which the trader has spawned. This defines the class of the trader i.e. Utility, Small, Medium etc.</Value>
     </Record>
     <Record>
-        <Key>LogicTypeRatioHydrazine</Key>
-        <Value>The ratio of {GAS:Hydrazine} in device's Atmosphere</Value>
+      <Key>LogicTypeRatioHydrazine</Key>
+      <Value>The ratio of {GAS:Hydrazine} in device's Atmosphere</Value>
     </Record>
-      <Record>
-          <Key>LogicTypeRatioLiquidHydrazine</Key>
-          <Value>The ratio of {GAS:LiquidHydrazine} in device's Atmosphere</Value>
-      </Record>
-      <Record>
-          <Key>LogicTypeRatioLiquidAlcohol</Key>
-          <Value>The ratio of {GAS:LiquidAlcohol} in device's Atmosphere</Value>
-      </Record>
-      <Record>
-          <Key>LogicTypeRatioHelium</Key>
-          <Value>The ratio of {GAS:Helium} in device's Atmosphere</Value>
-      </Record>
-      <Record>
-          <Key>LogicTypeRatioLiquidSodiumChloride</Key>
-          <Value>The ratio of {GAS:LiquidSodiumChloride} in device's Atmosphere</Value>
-      </Record>
-      <Record>
-          <Key>LogicTypeRatioSilanol</Key>
-          <Value>The ratio of {GAS:Silanol} in device's Atmosphere</Value>
-      </Record>
-      <Record>
-          <Key>LogicTypeRatioLiquidSilanol</Key>
-          <Value>The ratio of {GAS:LiquidSilanol} in device's Atmosphere</Value>
-      </Record>
-      <Record>
-          <Key>LogicTypeRatioHydrochloricAcid</Key>
-          <Value>The ratio of {GAS:HydrochloricAcid} in device's Atmosphere</Value>
-      </Record>
-      <Record>
-          <Key>LogicTypeRatioLiquidHydrochloricAcid</Key>
-          <Value>The ratio of {GAS:LiquidHydrochloricAcid} in device's Atmosphere</Value>
-      </Record>
-      <Record>
-          <Key>LogicTypeRatioOzone</Key>
-          <Value>The ratio of {GAS:Ozone} in device's Atmosphere</Value>
-      </Record>
-      <Record>
-          <Key>LogicTypeRatioLiquidOzone</Key>
-          <Value>The ratio of {GAS:LiquidOzone} in device's Atmosphere</Value>
-      </Record>
-
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazine</Key>
+      <Value>The ratio of {GAS:LiquidHydrazine} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcohol</Key>
+      <Value>The ratio of {GAS:LiquidAlcohol} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHelium</Key>
+      <Value>The ratio of {GAS:Helium} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChloride</Key>
+      <Value>The ratio of {GAS:LiquidSodiumChloride} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanol</Key>
+      <Value>The ratio of {GAS:Silanol} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanol</Key>
+      <Value>The ratio of {GAS:LiquidSilanol} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcid</Key>
+      <Value>The ratio of {GAS:HydrochloricAcid} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcid</Key>
+      <Value>The ratio of {GAS:LiquidHydrochloricAcid} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzone</Key>
+      <Value>The ratio of {GAS:Ozone} in device's Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzone</Key>
+      <Value>The ratio of {GAS:LiquidOzone} in device's Atmosphere</Value>
+    </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
       <Value>Randomize</Value>
@@ -18929,8 +19113,8 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
       <Value>Specific Heat:</Value>
     </Record>
     <Record>
-        <Key>StationpediaAutoIgnition</Key>
-        <Value>Auto Ignition:</Value>
+      <Key>StationpediaAutoIgnition</Key>
+      <Value>Auto Ignition:</Value>
     </Record>
     <Record>
       <Key>StationpediaLatentHeatHeader</Key>
@@ -18995,6 +19179,10 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     <Record>
       <Key>StationpediaGasHeader</Key>
       <Value>Gases and Liquids</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaFermentationHeader</Key>
+      <Value>Fermentation Results</Value>
     </Record>
     <Record>
       <Key>StationpediaResoucesHeader</Key>
@@ -19278,51 +19466,55 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>MoleHydrogenDescription</Key>
-        <Value>{GAS:Hydrogen} Is the most efficient fuel by weight for rocketry. When mixed with {GAS:Oxygen} it will cleanly combust into {GAS:Steam}.</Value>
+      <Value>{GAS:Hydrogen} Is the most efficient fuel by weight for rocketry. When mixed with {GAS:Oxygen} it will cleanly combust into {GAS:Steam}.</Value>
     </Record>
     <Record>
       <Key>MoleSteamDescription</Key>
       <Value>Evaporated {GAS:Water}. It can be created by rasing the temperature of {GAS:Water} to its boiling point. When introduced into a pipe {GAS:Steam} will condense back into {GAS:Water} if it's temperature is below it's boiling point. Steam can be created by combusting {GAS:Methane} and oxygen using the {THING:H2Combustor}</Value>
     </Record>
     <Record>
-        <Key>MoleHydrazineDescription</Key>
-        <Value>{GAS:Hydrazine} is the perfect fuel for space exploration as it requires no oxidiser to combust, only needing heat or a spark. It is more commonly stored in it's liquid form {GAS:LiquidHydrazine} which is stable at room temperature. {GAS:Hydrazine} is highly reactive and will violently combust in the presence of an oxidiser. It is extremely toxic to all forms of life.</Value>
+      <Key>MoleHydrazineDescription</Key>
+      <Value>{GAS:Hydrazine} is the perfect fuel for space exploration as it requires no oxidiser to combust, only needing heat or a spark. It is more commonly stored in it's liquid form {GAS:LiquidHydrazine} which is stable at room temperature. It is extremely toxic to all forms of life.</Value>
     </Record>
     <Record>
-        <Key>MoleLiquidHydrazineDescription</Key>
-        <Value>{GAS:Hydrazine} in its liquid form. It is stable at room temperature and makes for an excellent rocket fuel.</Value>
+      <Key>MoleLiquidHydrazineDescription</Key>
+      <Value>{GAS:Hydrazine} in its liquid form. It is stable at room temperature and makes for an excellent rocket fuel.</Value>
     </Record>
     <Record>
-        <Key>MoleLiquidAlcoholDescription</Key>
-        <Value>{GAS:LiquidAlcohol} is a relatively safe and versatile volatile liquid at room temperatures. When exposed to a vacuum it will decompose into {GAS:Methane} to form a small head pressure.</Value>
+      <Key>MoleHeliumDescription</Key>
+      <Value>{GAS:Helium} is a fully inert gas that will neither freeze or condense into liquid, making it an excellent working gas in atmospherics systems that must avoid phase-change.</Value>
     </Record>
     <Record>
-        <Key>MoleLiquidSodiumChlorideDescription</Key>
-        <Value>{GAS:LiquidSodiumChloride} is unique in that it will remain in liquid form at extremely high temperatures making it an excellent medium for storing heat energy.</Value>
+      <Key>MoleLiquidAlcoholDescription</Key>
+      <Value>{GAS:LiquidAlcohol} is a relatively safe and versatile volatile liquid at room temperatures. When exposed to a vacuum it will decompose into {GAS:Methane} to form a small head pressure.</Value>
     </Record>
     <Record>
-        <Key>MoleSilanolDescription</Key>
-        <Value>{GAS:Silanol} is the premium refrigerant gas for utilising phase change to pump heat. It has a wide liquid range an is more commonly found in it's liquid form {GAS:LiquidSilanol}.</Value>
+      <Key>MoleLiquidSodiumChlorideDescription</Key>
+      <Value>{GAS:LiquidSodiumChloride} is unique in that it will remain in liquid form at extremely high temperatures making it an excellent medium for storing heat energy. When exposed to a vacuum it will decompose into {GAS:Pollutant} to form a small head pressure. At room temperature it exists as solid {THING:ItemPureIceLiquidSodiumChloride}.</Value>
     </Record>
     <Record>
-        <Key>MoleLiquidSilanolDescription</Key>
-        <Value>{GAS:Silanol} in its liquid form is the premium refrigerant gas for utilising phase change to pump heat. With its extremely high heat capacity it also makes an excellent coolant, able to absorb large quantities of heat energy with minimal temperature fluctuation.</Value>
+      <Key>MoleSilanolDescription</Key>
+      <Value>{GAS:Silanol} is the premium refrigerant gas for utilising phase change to pump heat. It has a wide liquid range an is more commonly found in it's liquid form {GAS:LiquidSilanol}.</Value>
     </Record>
     <Record>
-        <Key>MoleHydrochloricAcidDescription</Key>
-        <Value>A highly toxic gas.</Value>
+      <Key>MoleLiquidSilanolDescription</Key>
+      <Value>{GAS:Silanol} in its liquid form is the premium refrigerant gas for utilising phase change to pump heat. With its extremely high heat capacity it also makes an excellent coolant, able to absorb large quantities of heat energy with minimal temperature fluctuation.</Value>
     </Record>
     <Record>
-        <Key>MoleLiquidHydrochloricAcidDescription</Key>
-        <Value>A highly toxic liquid.</Value>
+      <Key>MoleHydrochloricAcidDescription</Key>
+      <Value>A highly toxic gas.</Value>
     </Record>
     <Record>
-        <Key>MoleOzoneDescription</Key>
-        <Value>{GAS:Ozone} is a highly energetic oxidiser. As with {GAS:NitrousOxide}, when mixed with a volatile gas {GAS:Ozone} will create extra hot combustion.</Value>
+      <Key>MoleLiquidHydrochloricAcidDescription</Key>
+      <Value>A highly toxic liquid.</Value>
     </Record>
     <Record>
-        <Key>MoleLiquidOzoneDescription</Key>
-        <Value>{GAS:Ozone} in its liquid form.</Value>
+      <Key>MoleOzoneDescription</Key>
+      <Value>{GAS:Ozone} is a highly energetic oxidiser. As with {GAS:NitrousOxide}, when mixed with a volatile gas {GAS:Ozone} will create extra hot combustion.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidOzoneDescription</Key>
+      <Value>{GAS:Ozone} in its liquid form.</Value>
     </Record>
     <Record>
       <Key>SettingsSmoothTerrain</Key>
@@ -21409,6 +21601,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Fuel Tank</Value>
     </Record>
     <Record>
+      <Key>SpawnDataHydrogenFuelTank</Key>
+      <Value>Hydrogen Fuel Tank</Value>
+    </Record>
+    <Record>
       <Key>SpawnDataOxygenTank</Key>
       <Value>Oxygen Tank</Value>
     </Record>
@@ -21853,8 +22049,16 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Regular Fuel Mix</Value>
     </Record>
     <Record>
-      <Key>BuyDataBulkCarbonDioxide</Key>
-      <Value>Bulk Carbon Dioxide</Value>
+        <Key>BuyDataBulkCarbonDioxide</Key>
+        <Value>Carbon Dioxide</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkCarbonDioxideVenus</Key>
+      <Value>Carbon Dioxide from Venus</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkCarbonDioxideMars</Key>
+      <Value>Carbon Dioxide from Mars</Value>
     </Record>
     <Record>
       <Key>BuyDataBulkWater</Key>
@@ -21934,11 +22138,15 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>BuyDataBulkVolatiles</Key>
-      <Value>Bulk Volatiles</Value>
+      <Value>Methane from Vulcan</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkHydrogen</Key>
+      <Value>Hydrogen from Vulcan</Value>
     </Record>
     <Record>
       <Key>BuyDataBulkOxygen</Key>
-      <Value>Bulk Oxygen</Value>
+      <Value>Oxygen from Europa</Value>
     </Record>
     <Record>
       <Key>BuyDataEmptyGasCanister</Key>
@@ -21953,12 +22161,24 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Bulk Nitrogen</Value>
     </Record>
     <Record>
+      <Key>SellDataBulkHelium</Key>
+      <Value>Bulk Helium</Value>
+    </Record>
+    <Record>
       <Key>SellDataBulkCarbonDioxide</Key>
       <Value>Bulk Carbon Dioxide</Value>
     </Record>
     <Record>
       <Key>SellDataBulkVolatiles</Key>
-      <Value>Bulk Volatiles</Value>
+      <Value>Bulk Methane</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkHydrogen</Key>
+      <Value>Bulk Hydrogen</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkSilanol</Key>
+      <Value>Bulk Silanol</Value>
     </Record>
     <Record>
       <Key>SellDataBulkPollutants</Key>
@@ -21989,6 +22209,10 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
       <Value>Fuel Canister</Value>
     </Record>
     <Record>
+      <Key>SellDataLiquidHydrazineCanister</Key>
+      <Value>Liquid Hydrazine Canister</Value>
+    </Record>
+    <Record>
       <Key>SellDataWaterCanister</Key>
       <Value>Water Canister</Value>
     </Record>
@@ -22014,7 +22238,23 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>SellDataBulkLiquidVolatiles</Key>
-      <Value>Bulk Liquid Volatiles</Value>
+      <Value>Bulk Liquid Methane</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidHydrogen</Key>
+      <Value>Bulk Liquid Hydrogen</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidOzone</Key>
+      <Value>Bulk Liquid Ozone</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidHydrochloricAcid</Key>
+      <Value>Bulk Liquid HydrochloricAcid</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidHydrazine</Key>
+      <Value>Bulk Liquid Hydrazine</Value>
     </Record>
     <Record>
       <Key>SellDataLiquidNitrogenCanister</Key>
@@ -22026,7 +22266,7 @@ A {THING:StructureWaterPurifier} can be used to convert it back to {GAS:Water}.<
     </Record>
     <Record>
       <Key>SellDataLiquidVolatilesCanister</Key>
-      <Value>Liquid Volatiles Canister</Value>
+      <Value>Liquid Methane Canister</Value>
     </Record>
     <Record>
       <Key>SellDataBoxofSprayCans</Key>
@@ -22620,6 +22860,14 @@ Thank you for your understanding, and we can’t wait for you to experience what
     <Record>
       <Key>ButtonLink</Key>
       <Value>Link</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaFermentation</Key>
+      <Value>Ferments into: </Value>
+    </Record>
+    <Record>
+      <Key>StationpediaFermentable</Key>
+      <Value>Fermentable:</Value>
     </Record>
   </Interface>
   <Colors>
