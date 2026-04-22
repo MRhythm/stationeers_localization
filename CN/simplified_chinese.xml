@@ -6997,7 +6997,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>ItemDirtyOre</Key>
       <Value>粗矿石</Value>
-      <Description>通过 {THING:StructureDeepMiner} 从基岩开采的矿石, 可以用 {THING:StructureCentrifuge} 或 {THING:StructureCombustionCentrifuge} 进行处理. 经处理后产生的矿石类型取决于其开采区域. 要查询特定区域可开采的矿物种类, 请使用 {Thing:CartridgeDeepMiner}</Description>
+      <Description>通过 {THING:StructureDeepMiner} 从基岩开采的矿石, 可以用 {THING:StructureCentrifuge} 或 {THING:StructureCombustionCentrifuge} 进行处理. 经处理后产生的矿石类型取决于其开采区域. 要查询特定区域可开采的矿物种类, 请使用 {THING:CartridgeDeepMiner}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteFlipFlopSplitter</Key>
