@@ -1,8 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Name>Português (Brasil)</Name>
+  <Name>Português Brasileiro</Name>
   <Code>PB</Code>
-  <Font>font_english</Font>
-  <!--Tradução Marcelo 20/03/2026 Registro de alterações 0.2.6217.27046-->
+  <Font>font_extended</Font>
   <ScreenSpaceToolTips>
     <Record>
       <Key>StatusIconToxinName</Key>
@@ -10,15 +10,15 @@
     </Record>    
     <Record>
       <Key>StatusIconToxinDesc</Key>
-      <Value>Nível atual de toxicidade</Value>
+      <Value>Nível de toxicidade atual</Value>
     </Record>
     <Record>
       <Key>StatusIconToxinWarning</Key>
-      <Value>Necessita de atenção</Value>
+      <Value>Precisa de atenção</Value>
     </Record>
         <Record>
       <Key>StatusIconHydrationDesc</Key>
-      <Value>Hidratação está diminuindo</Value>
+      <Value>Hidratação está acabando</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationKey</Key>
@@ -26,7 +26,7 @@
     </Record>
     <Record>
       <Key>HydrationCaution</Key>
-      <Value>Atenção com a Hidratação</Value>
+      <Value>Hidratação Cuidado</Value>
     </Record>
     <Record>
       <Key>HydrationCritical</Key>
@@ -34,7 +34,7 @@
     </Record>
     <Record>
       <Key>StatusIconToxinCritical</Key>
-      <Value>Em estado crítico</Value>
+      <Value>Em um estado critico</Value>
     </Record>
     <Record>
       <Key>StatusIconOxygenName</Key>
@@ -46,11 +46,11 @@
     </Record>
     <Record>
       <Key>StatusIconOxygenWarning</Key>
-      <Value>O cilindro do seu traje está ficando vazio e precisa de atenção</Value>
+      <Value>O tanque do traje está acabando e precisa de atenção</Value>
     </Record>
     <Record>
       <Key>StatusIconOxyegnCritical</Key>
-      <Value>O cilindro do seu traje está em nível crítico, substitua o tanque de oxigênio</Value>
+      <Value>O tanque do traje está critico, troque seu tanque de oxigênio.</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureName</Key>
@@ -58,15 +58,15 @@
     </Record>
     <Record>
       <Key>StatusIconPressureDesc</Key>
-      <Value>Nível de pressão atual, verifique a pressão do traje.</Value>
+      <Value>Nível atual de pressão, veja o nível de pressão do traje</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureWarning</Key>
-      <Value>A pressão do traje está baixa</Value>
+      <Value>Pressão do traje está baixa</Value>
     </Record>
     <Record>
       <Key>StatusIconPressureCritical</Key>
-      <Value>A pressão do traje está criticamente baixa</Value>
+      <Value>Pressão do traje está criticamente baixa</Value>
     </Record>
     <Record>
       <Key>StatusIconTemperatureName</Key>
@@ -78,19 +78,19 @@
     </Record>
     <Record>
       <Key>StatusIconTempuratureWarning</Key>
-      <Value>Temperatura em nível de atenção</Value>
+      <Value>Mostra o Nível Atual de Toxicidade</Value>
     </Record>
     <Record>
       <Key>StatusIconTempuratureCritical</Key>
-      <Value>Temperatura em nível crítico</Value>
+      <Value>Mostra o Nível Atual de Toxicidade</Value>
     </Record>
     <Record>
       <Key>StatusIconLeakingName</Key>
-      <Value>Traje Vazando</Value>
+      <Value>O Traje está Vazando</Value>
     </Record>
     <Record>
       <Key>StatusIconPowerName</Key>
-      <Value>Suprimento de Energia do Traje</Value>
+      <Value>Fonte de Energia do Traje</Value>
     </Record>
     <Record>
       <Key>StatusIconPowerDesc</Key>
@@ -102,27 +102,27 @@
     </Record>
     <Record>
       <Key>StatusIconJetpackName</Key>
-      <Value>Jetpack Ativo</Value>
+      <Value>Jatos Ativos</Value>
     </Record>
     <Record>
       <Key>StatusIconClimbingName</Key>
-      <Value>Escalando</Value>
+      <Value>Subindo</Value>
     </Record>
     <Record>
       <Key>StatusIconLightName</Key>
-      <Value>Alternar Farol do Capacete</Value>
+      <Value>Alternar Farolete</Value>
     </Record>
     <Record>
       <Key>StatusIconInternalsName</Key>
-      <Value>Abrir/Fechar Capacete</Value>
+      <Value>Alternar Capacete Aberto/Fechado</Value>
     </Record>
     <Record>
       <Key>StatusIconHandPowerName</Key>
-      <Value>Ligar/Desligar Item na Mão</Value>
+      <Value>Alternar Item nas mãos Lig./Desl.</Value>
     </Record>
     <Record>
       <Key>StatusIconInSlotName</Key>
-      <Value>Você está dentro de um compartimento</Value>
+      <Value>Você está dentro de um slot</Value>
     </Record>
     <Record>
       <Key>StatusIconHungerName</Key>
@@ -130,7 +130,7 @@
     </Record>
     <Record>
       <Key>StatusIconStunName</Key>
-      <Value>Percentual de Atordoamento</Value>
+      <Value>Porcentagem de Atordoamento</Value>
     </Record>
     <Record>
       <Key>StatusIconAirTankName</Key>
@@ -138,15 +138,15 @@
     </Record>
     <Record>
       <Key>StatusIconJetpackWarningName</Key>
-      <Value>Propulsor do Jetpack</Value>
+      <Value>Propelente de Jatos</Value>
     </Record>
     <Record>
       <Key>StatusIconJetpackWarningDesc</Key>
-      <Value>Combustível do jetpack está acabando</Value>
+      <Value>Propelente está acabando</Value>
     </Record>
     <Record>
       <Key>StatusIconFilterName</Key>
-      <Value>Capacidade do Filtro</Value>
+      <Value>Capacidade de Filtro</Value>
     </Record>
     <Record>
       <Key>StatusIconWasteName</Key>
@@ -182,31 +182,31 @@
     </Record>
 	<Record>
       <Key>DeconstructCanisterFull</Key>
-      <Value>Não é possível desconstruir. O cilindro precisa estar vazio</Value>
+      <Value>Não pode desconstruir. O Cilindro precisa estar vazio</Value>
     </Record>
     <Record>
       <Key>StatusIconLeavingAreaName</Key>
-      <Value>Saindo da Área da Missão</Value>
+      <Value>Saindo da Área de Missão</Value>
     </Record>
     <Record>
       <Key>StatusIconLeavingAreaDesc</Key>
-      <Value>Fora dos limites, retorne</Value>
-	</Record>
+      <Value>Fora dos limites, dê meia-volta</Value>
+    </Record>
     <Record>
       <Key>StatusIconRespawnStressName</Key>
-      <Value>Estresse de Renascer</Value>
+      <Value>Estresse de Renascimento</Value>
     </Record>
-	<Record>
+    <Record>
       <Key>StatusIconRespawnStressDesc</Key>
-      <Value>Afecta a velocidade das ações</Value>
+      <Value>Afeta velocidade de ações</Value>
     </Record>
     <Record>
       <Key>StatusIconCoolantName</Key>
-      <Value>Temperatura do tanque de líquido de arrefecimento</Value>
+      <Value>Temperatura do Tanque de Resfriador</Value>
     </Record>
     <Record>
       <Key>StatusIconCoolantDesc</Key>
-      <Value>A temperatura do líquido de arrefecimento está muito alta</Value>
+      <Value>Temperatura do Resfriador está muito alta</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>
