@@ -1,7 +1,7 @@
 <Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Português (Brasil)</Name>
   <Code>PB</Code>
-  <!--Traducao Marcelo 22/02/2026 versao 26943-->
+  <!--Tradução Marcelo 20/03/2026 Registro de alterações 0.2.6217.27046-->
   <GameTip>
     <String>Pressione {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot}, ou {KEY:ToolBeltSlot} para alternar entre as interações e compartimentos de qualquer item que você esteja vestindo. Mantenha pressionado para trocar entre esse compartimento e suas mãos ativas.</String>
     <String>Pressionar {KEY:ToggleHandPower} ou {KEY:SecondaryAction} liga ou desliga a energia dos itens em sua mão.</String>

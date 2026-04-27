@@ -618,7 +618,7 @@ Les effets de l’engrais dépendent de ses ingrédients :
 - {THING:ItemBiomass} augmente le NOMBRE DE CYCLES DE CROISSANCE pendant lesquels l’engrais reste actif, jusqu’à un maximum de 5
 
 L’effet final dépend des proportions respectives de chaque ingrédient dans le composteur au moment de l’activation. L’engrais est produit selon un ratio de 1:3 (une unité d’engrais pour trois unités d’ingrédients).
-Lors du traitement, de l'{GAS:Nitrogen} et des {GAS:Volatiles} sont libérés, accompagnés d’une légère production de chaleur.
+Lors du traitement, de l'{GAS:Nitrogen} et du {GAS:Methane} sont libérés, accompagnés d’une légère production de chaleur.
 </Text>
 		</StationpediaPage>
 		<StationpediaPage>
@@ -637,7 +637,7 @@ Lors du traitement, de l'{GAS:Nitrogen} et des {GAS:Volatiles} sont libérés, a
 &gt; {GAS:Oxygen} x 1,3
 &gt; {GAS:Nitrogen} x 0,6
 &gt; {GAS:CarbonDioxide} x 0,8
-&gt; {GAS:Volatiles} x 1
+&gt; {GAS:Methane} x 1
 &gt; {GAS:Pollutant} x 3
 &gt; {GAS:NitrousOxide} x 1,5
 &gt; {GAS:Water} x 2
@@ -688,7 +688,7 @@ Pression : doit être réglée entre 50 et 100 kPa (0,5 à 1 atmosphère terrest
 
 Température : généralement réglée entre 18 et 21 °C. Les humains dans le jeu préfèrent 10 à 29 °C, tolèrent 0 à 39 °C et survivent jusqu’à environ 49 °C. À des températures plus élevées, la climatisation consomme davantage d’énergie pour maintenir la température interne.
 
-Filtres : le filtre par défaut est le filtre à {GAS:CarbonDioxide}, qui capture le gaz produit lors de l’expiration. Si votre mélange respirable n’est pas composé de 100 % d'{GAS:Oxygen}, ajoutez des filtres adaptés. Par exemple, avec un mélange 25 % {GAS:Oxygen} / 75 % {GAS:Nitrogen}, l’azote s’accumulera dans votre combinaison et finira par vous étouffer sans filtre à azote. Si vous disposez des filtres appropriés et du bon mélange gazeux mais rencontrez encore des problèmes, utilisez la fonction "Purger" de votre casque. Des alertes d'{GAS:Oxygen} faible ou critique retentiront lorsque vos filtres ne fonctionneront plus correctement.
+Filtres : le filtre par défaut est le filtre à {GAS:CarbonDioxide}, qui capture le gaz produit lors de l’expiration. Si votre mélange respirable n’est pas composé de 100 % d'{GAS:Oxygen}, ajoutez des filtres adaptés. Par exemple, avec un mélange 25 % {GAS:Oxygen} / 75 % {GAS:Nitrogen}, l’azote s’accumulera dans votre combinaison et finira par vous étouffer sans filtre à {GAS:Nitrogen}. Si vous disposez des filtres appropriés et du bon mélange gazeux mais rencontrez encore des problèmes, utilisez la fonction "Purger" de votre casque. Des alertes d'{GAS:Oxygen} faible ou critique retentiront lorsque vos filtres ne fonctionneront plus correctement.
 
 Si elle est endommagée, votre combinaison peut être réparée en tenant le {THING:ItemDuctTape} en main et en utilisant le bouton "Activer".
 </Text>
@@ -1061,7 +1061,7 @@ Pour les capteurs d'atmosphère ou de tuyaux, les types logiques suivants sont u
    - {LOGICTYPE:RatioOxygen} (O2)
    - {LOGICTYPE:RatioCarbonDioxide} (CO2)
    - {LOGICTYPE:RatioNitrogen} (N2)
-   - {LOGICTYPE:RatioVolatiles} (H2)
+   - {LOGICTYPE:RatioMethane} (CH4)
    - {LOGICTYPE:RatioPollutant} (X)
    - {LOGICTYPE:RatioWater} (H2O)
 Note : La loi des gaz parfaits est souvent nécessaire pour les calculs de moles (n) :

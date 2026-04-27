@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português (Brasil)</Name>
-  <Code>PB</Code>  <!--Tradução Marcelo 16/03/2026 v0.2.6182.26959-->
+  <Code>PB</Code>  <!--Tradução Marcelo 20/03/2026 Registro de alterações 0.2.6217.27046-->
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -248,8 +248,8 @@
       <Value>Nitrogênio</Value>
     </Record>
     <Record>
-      <Key>Volatiles</Key>
-      <Value>Voláteis</Value>
+      <Key>Methane</Key>
+      <Value>Metano</Value>
     </Record>
     <Record>
       <Key>Pollutant</Key>
@@ -276,8 +276,8 @@
       <Value>Oxigênio Líquido</Value>
     </Record>
     <Record>
-      <Key>LiquidVolatiles</Key>
-      <Value>Voláteis Líquidos</Value>
+      <Key>LiquidMethane</Key>
+      <Value>Metano Líquido</Value>
     </Record>
     <Record>
       <Key>Steam</Key>
@@ -311,6 +311,50 @@
       <Key>Fuel</Key>
       <Value>Mistura de Combustível</Value>
     </Record>
+	<Record>
+      <Key>Hydrazine</Key>
+      <Value>Hidrazina</Value>
+    </Record>
+    <Record>
+      <Key>LiquidHydrazine</Key>
+      <Value>Hidrazina Líquida</Value>
+    </Record>
+    <Record>
+      <Key>LiquidAlcohol</Key>
+      <Value>Álcool Líquido</Value>
+    </Record>
+    <Record>
+      <Key>Helium</Key>
+      <Value>Hélio</Value>
+    </Record>
+    <Record>
+      <Key>LiquidSodiumChloride</Key>
+      <Value>Cloreto de sódio líquido</Value>
+    </Record>
+    <Record>
+      <Key>Silanol</Key>
+      <Value>Silanol</Value>
+    </Record>
+    <Record>
+      <Key>LiquidSilanol</Key>
+      <Value>Silanol Líquido</Value>
+    </Record>
+    <Record>
+      <Key>HydrochloricAcid</Key>
+      <Value>Ácido clorídrico</Value>
+    </Record>
+    <Record>
+      <Key>LiquidHydrochloricAcid</Key>
+      <Value>Ácido clorídrico líquido</Value>
+    </Record>
+    <Record>
+      <Key>Ozone</Key>
+      <Value>Ozônio</Value>
+    </Record>
+    <Record>
+      <Key>LiquidOzone</Key>
+      <Value>Ozônio Líquido</Value>
+    </Record> 
   </Gases>
   <Actions>
     <Record>
@@ -1235,42 +1279,37 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidCanisterEmpty</Key>
-      <Value>Cilindro de Líquido (Vazio)</Value>
+      <Value>Cilindro de Líquido</Value>
       <Description />
     </RecordThing>
-
-
-
-
-
 	<RecordThing>
 	  <Key>ItemGasFilterCarbonDioxide</Key>
-	  <Value>Filtro de Dióxido de Carbono</Value>
+	  <Value>Filtro Dióxido de Carbono</Value>
 	  <Description>Dada a obsessão da humanidade por exalar {GAS:CarbonDioxide}, todos os {LINK:Stationeers;Stationeers} recebem três {SLOT:GasFilter} da {LINK:Sinotai;Sinotai} de {GAS:CarbonDioxide} básicos como parte do kit padrão de implantação (SDK). Esses filtros permitem a passagem do {GAS:CarbonDioxide} para o {THING:ItemGasCanisterEmpty} de resíduos do traje, mas também são componentes essenciais do {THING:DynamicScrubber} e da {THING:StructureFiltration}. Os modelos {THING:ItemGasFilterCarbonDioxideM} e {THING:ItemGasFilterCarbonDioxideL} também estão disponíveis.</Description>
 	</RecordThing>
     <RecordThing>
      <Key>ItemGasFilterPollutants</Key>
-      <Value>Filtro de Poluentes</Value>
+      <Value>Filtro Poluentes</Value>
       <Description>Filtros são usados para capturar diversos gases, como as emissões residuais de um {THING:StructureFurnace} ou {THING:StructureArcFurnace}. Ao adicionar filtros {LINK:Sinotai;Sinotai}-projetados para {GAS:Pollutant} em um {THING:DynamicScrubber}, é possível isolar esse gás e direcioná-lo para uma rede de tubulação, aproveitando suas excelentes propriedades de refrigeração em um {THING:StructureWallCooler}. Tente não inalar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogen</Key>
-      <Value>Filtro de Nitrogênio</Value>
+      <Value>Filtro Nitrogênio</Value>
       <Description>Filtros são usados para capturar diversos gases, que podem ser descartados ou reutilizados em outros sistemas. O {GAS:Nitrogen} é um subproduto da fundição de vários minérios, especialmente {THING:ItemNitrice}, e pode ser combinado com {GAS:Oxygen} para formar uma atmosfera respirável — e consideravelmente menos inflamável.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygen</Key>
-      <Value>Filtro de Oxigênio</Value>
+      <Value>Filtro Oxigênio</Value>
       <Description>A {LINK:Sinotai;Sinotai} domina o mercado de design de filtros. Seus modelos patenteados são simples de fabricar e altamente eficientes na captura de diversos gases, que podem ser descartados ou reutilizados em outros sistemas. O {GAS:Oxygen} é um subproduto comum da fundição de minérios, mas deve ser filtrado de impurezas como {GAS:Nitrogen} utilizando este filtro e dispositivos como o {THING:DynamicScrubber}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatiles</Key>
-      <Value>Filtro de Voláteis</Value>
-      <Description>Filtros são usados para capturar diversos gases, que podem ser descartados ou aproveitados em outros processos. Os {GAS:Volatiles} são gerados ao expor {THING:ItemVolatiles} ao calor. O gás resultante pode ser coletado e combinado com {GAS:Oxygen} para criar combustível, ou utilizado em um {THING:StructureFurnace} para fundir minérios e produzir {LINK:IngotPage;ligas}.</Description>
+      <Value>Filtro Metano</Value>
+      <Description>Filtros são usados para capturar diversos gases, que podem ser descartados ou aproveitados em outros processos. Os {GAS:Methane} são gerados ao expor {THING:ItemVolatiles} ao calor. O gás resultante pode ser coletado e combinado com {GAS:Oxygen} para criar combustível, ou utilizado em um {THING:StructureFurnace} para fundir minérios e produzir {LINK:IngotPage;ligas}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWater</Key>
-      <Value>Filtro de Água</Value>
+      <Value>Filtro Água</Value>
       <Description>Os filtros {LINK:Sinotai;Sinotai} são utilizados para capturar diversos gases, que podem ser descartados ou reaproveitados. A {GAS:Water} pode ser coletado filtrando-se os gases após derreter {THING:ItemIce} no forno.</Description>
     </RecordThing>
     <RecordThing>
@@ -2238,7 +2277,7 @@ Com um pouco de paciência e habilidade, a silhueta de inspiração gótica da e
     <RecordThing>
       <Key>StructureFurnace</Key>
       <Value>Forno</Value>
-      <Description>O forno Zhurong utiliza uma mistura gasosa de alta temperatura composta por {GAS:Oxygen} e {GAS:Volatiles} para fundir {LINK:IngotPage;lingotes} e diversos tipos de {LINK:IngotPage;ligas}, que servem como matéria-prima para os {LINK:FabricatorPage;fabricadores}.
+      <Description>O forno Zhurong utiliza uma mistura gasosa de alta temperatura composta por {GAS:Oxygen} e {GAS:Methane} para fundir {LINK:IngotPage;lingotes} e diversos tipos de {LINK:IngotPage;ligas}, que servem como matéria-prima para os {LINK:FabricatorPage;fabricadores}.
 Uma mistura básica pode ser obtida adicionando {THING:ItemOxite} e {THING:ItemVolatiles} em uma proporção de 1:2 diretamente ao forno, mas ligas mais complexas exigem o gerenciamento cuidadoso de uma rede dedicada de mistura de gases. As proporções exatas dos ingredientes devem ser respeitadas. Da mesma forma, fundir minérios em temperaturas insuficientes produzirá {LINK:ReagentPage;reagentes}, que devem ser reciclados.
 Se houver líquidos presentes no forno, eles permanecerão ali até que o forno seja conectado a uma rede de tubos de líquidos.</Description>
     </RecordThing>
@@ -2676,7 +2715,7 @@ Observe que os transformadores também funcionam como isoladores de dados, imped
       <Value>Forno de Arco</Value>
       <Description>O sistema de fundição mais simples disponível para o {LINK:Stationeers;Stationeer} médio, o forno de arco da {LINK:Recurso;Recurso} foi originalmente desenvolvido nas profundezas do Sistema Solar para ajudar geólogos exploratórios a determinar a pureza de potenciais alvos de mineração em asteroides.  
 Adotado pela {LINK:ODA;ODA}, agora fornece aos Stationeers uma forma de produzir lingotes puros de diversos recursos.  
-O processo de fundição também libera uma variedade de {LINK:GasPage;gases} como subprodutos, principalmente {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Volatiles} e {GAS:Oxygen} em diferentes proporções. Esses gases podem ser recuperados do ambiente por filtragem, mas também tornam o forno de arco um risco em ambientes fechados.  
+O processo de fundição também libera uma variedade de {LINK:GasPage;gases} como subprodutos, principalmente {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Methane} e {GAS:Oxygen} em diferentes proporções. Esses gases podem ser recuperados do ambiente por filtragem, mas também tornam o forno de arco um risco em ambientes fechados.  
 Diferente do mais avançado {THING:StructureFurnace}, o forno de arco não pode criar {LINK:IngotPage;ligas}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2833,10 +2872,7 @@ Diferente do mais avançado {THING:StructureFurnace}, o forno de arco não pode 
     <RecordThing>
       <Key>ItemVolatiles</Key>
       <Value>Gelo de Voláteis</Value>
-      <Description>Um gelo que contém compostos altamente reativos, com diversos hidrocarbonetos presos em seu interior. Por simplicidade, esses compostos são frequentemente exibidos como H2 em dispositivos como o {THING:CartridgeAtmosAnalyser}.
-  
-Os {GAS:Volatiles} combustam em uma proporção de 2:1 com {GAS:Oxygen}, produzindo {GAS:CarbonDioxide} e poluentes. No entanto, quando catalisados em dispositivos como o {THING:H2Combustor}, na presença de {GAS:Oxygen}, produzem {GAS:Steam} e calor, com pequenas quantidades de {GAS:CarbonDioxide} e {GAS:Pollutant} devido à autoignição dos voláteis na câmara.
-Juntamente com o {GAS:Oxygen}, o gás volátil também é um dos principais componentes do combustível usado em equipamentos como o {THING:ItemWeldingTorch}.
+      <Description>Um gelo extremamente reativo com diversos hidrocarbonetos presos em seu interior. Contém principalmente {GAS:Methane}, além de uma pequena quantidade de {GAS:Hydrogen}. Gases voláteis são usados para criar misturas de combustível para itens como o {THING:ItemWeldingTorch} e o {THING:DynamicGenerator}.
 </Description>
     </RecordThing>
     <RecordThing>
@@ -4279,51 +4315,51 @@ Saída = 1 exporta os itens internos e, por fim, o item principal.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideL</Key>
-      <Value>Filtro Pesado de Dióxido de Carbono</Value>
+      <Value>Filtro Pesado Dióxido de Carbono</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterCarbonDioxideM</Key>
-      <Value>Filtro Médio de Dióxido de Carbono</Value>
+      <Value>Filtro Médio Dióxido de Carbono</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogenL</Key>
-      <Value>Filtro Pesado de Nitrogênio</Value>
+      <Value>Filtro Pesado Nitrogênio</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrogenM</Key>
-      <Value>Filtro Médio de Nitrogênio</Value>
+      <Value>Filtro Médio Nitrogênio</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygenL</Key>
-      <Value>Filtro Pesado de Oxigênio</Value>
+      <Value>Filtro Pesado Oxigênio</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterOxygenM</Key>
-      <Value>Filtro Médio de Oxigênio</Value>
+      <Value>Filtro Médio Oxigênio</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutantsL</Key>
-      <Value>Filtro Pesado de Poluentes</Value>
+      <Value>Filtro Pesado Poluentes</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterPollutantsM</Key>
-      <Value>Filtro Médio de Poluentes</Value>
+      <Value>Filtro Médio Poluentes</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatilesL</Key>
-      <Value>Filtro Pesado de Voláteis</Value>
+      <Value>Filtro Pesado Metano</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatilesM</Key>
-      <Value>Filtro Médio de Voláteis</Value>
+      <Value>Filtro Médio Metano</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWaterL</Key>
-      <Value>Filtro Pesado de Água</Value>
+      <Value>Filtro Pesado Água</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWaterM</Key>
-      <Value>Filtro Médio de Água</Value>
+      <Value>Filtro Médio Água</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemMushroom</Key>
@@ -4433,15 +4469,15 @@ USO: “J” para ativar; “Espaço” para subir; “Ctrl esquerdo” para des
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxide</Key>
-      <Value>Filtro de Óxido Nitroso</Value>
+      <Value>Filtro Óxido Nitroso</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideL</Key>
-      <Value>Filtro Pesado de Óxido Nitroso</Value>
+      <Value>Filtro Pesado Óxido Nitroso</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxideM</Key>
-      <Value>Filtro Médio de Óxido Nitroso</Value>
+      <Value>Filtro Médio Óxido Nitroso</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasCanisterNitrousOxide</Key>
@@ -4957,11 +4993,6 @@ USO: ‘J’ para ativar; ‘Espaço’ para subir; ‘Ctrl Esquerdo’ para des
     <RecordThing>
       <Key>StructureReverseElectrolyzer</Key>
       <Value>Eletrólise Reversa</Value>
-    </RecordThing>
-    <RecordThing>
-      <Key>H2Combustor</Key>
-      <Value>Combustor de H2</Value>
-      <Description>Adaptado levemente de seu design original da {LINK:Recurso;Recurso}, o Combustor de {GAS:Volatiles} faz exatamente o que seu nome sugere — queima uma mistura de voláteis e {GAS:Oxygen} para criar água. Extremamente útil em ambientes quentes ou áridos, o usuário deve estar ciente de que o combustor gera uma quantidade considerável de calor residual. O dispositivo também é menos do que perfeitamente eficiente, resultando na ignição automática dos voláteis na câmara e na produção de gases residuais que precisam ser tratados.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight</Key>
@@ -6098,7 +6129,7 @@ No entanto, as pesquisas determinaram que a velocidade exata da deterioração v
 &gt; {GAS:Oxygen} x 1.3
 &gt; {GAS:Nitrogen} x 0.6
 &gt; {GAS:CarbonDioxide} x 0.8
-&gt; {GAS:Volatiles} x 1
+&gt; {GAS:Methane} x 1
 &gt; {GAS:Pollutant} x 3
 &gt; {GAS:NitrousOxide} x 1.5
 &gt; {GAS:Steam} x 2
@@ -6227,7 +6258,7 @@ O efeito desses ingredientes depende das proporções relativas no momento em qu
       <Key>StructureAdvancedComposter</Key>
       <Value>Composteira Avançada</Value>
       <Description>A composteira avançada cria {THING:Fertilizer} a partir de matéria orgânica. Ela aceita {LINK:OrganicPage;alimentos}, {THING:DecayedFood} ou {THING:ItemBiomass}. Requer {GAS:Water} e energia para funcionar, acelerando o processo natural de decomposição.
-Durante o processamento, libera nitrogênio, voláteis e uma pequena quantidade de calor. 
+Durante o processamento, libera nitrogênio e {GAS:Methane}, e uma pequena quantidade de calor. 
 
 {HEADER:Composição do composto}
 O fertilizante é produzido em uma proporção de 1:3 entre fertilizante e ingredientes. Os efeitos do fertilizante sobre as plantas variam de acordo com as proporções relativas de seus ingredientes.
@@ -6261,7 +6292,7 @@ O fertilizante é produzido em uma proporção de 1:3 entre fertilizante e ingre
       <Key>PortableComposter</Key>
       <Value>Composteira Portátil</Value>
       <Description>Um dispositivo simples de compostagem, a composteira básica cria {THING:Fertilizer} a partir de matéria orgânica. Ela aceita {LINK:OrganicPage;alimentos}, {THING:DecayedFood} ou {THING:ItemBiomass}. Requer um {THING:ItemLiquidCanisterEmpty} cheio e uma bateria para funcionar, acelerando o processo natural de decomposição.
-Durante o processamento, libera nitrogênio, voláteis e uma pequena quantidade de calor.
+Durante o processamento, libera nitrogênio e {GAS:Methane}, e uma pequena quantidade de calor.
 
 {HEADER:Composição do composto}
 O fertilizante é produzido em uma proporção de 1:3 entre fertilizante e ingredientes. Os efeitos do fertilizante sobre as plantas variam de acordo com as proporções relativas de seus ingredientes.
@@ -6694,22 +6725,22 @@ Você deve posicionar o notebook no chão para interagir com a interface na tela
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool1</Key>
       <Value>Winterspawn Variante Alfa</Value>
-      <Description>O bio-processador atmosférico Winterspawn da {LINK:Agrizero;Agrizero} é uma adição recente ao seu catálogo de decorações ambientais com manipulação genética. Usando o calor ambiente para dividir {GAS:Water} em {GAS:Volatiles} e {GAS:Oxygen}, o Winterspawn resfria o ambiente quando recebe quantidade suficiente de {GAS:Nitrogen}. A variante Alfa tem capacidade máxima de resfriamento e eletrólise de 90 watts e opera com maior eficiência em temperaturas entre 0 e 40 °C.</Description>
+      <Description>O bio-processador atmosférico Winterspawn da {LINK:Agrizero;Agrizero} é uma adição recente ao seu catálogo de decorações ambientais com manipulação genética. Usando o calor ambiente para dividir {GAS:Water} em {GAS:Methane} e {GAS:Oxygen}, o Winterspawn resfria o ambiente quando recebe quantidade suficiente de {GAS:Nitrogen}. A variante Alfa tem capacidade máxima de resfriamento e eletrólise de 90 watts e opera com maior eficiência em temperaturas entre 0 e 40 °C.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantEndothermic_Genepool2</Key>
       <Value>Winterspawn Variante Beta</Value>
-      <Description>O bio-processador atmosférico Winterspawn da {LINK:Agrizero;Agrizero} é uma adição recente ao seu catálogo de decorações ambientais com manipulação genética. Usando o calor ambiente para dividir {GAS:Water} em {GAS:Volatiles} e {GAS:Oxygen}, o Winterspawn resfria o ambiente quando recebe quantidade suficiente de {GAS:Nitrogen}. A variante Beta tem capacidade máxima de resfriamento e eletrólise de 150 watts e opera com maior eficiência em temperaturas entre 14 e 24 °C</Description>
+      <Description>O bio-processador atmosférico Winterspawn da {LINK:Agrizero;Agrizero} é uma adição recente ao seu catálogo de decorações ambientais com manipulação genética. Usando o calor ambiente para dividir {GAS:Water} em {GAS:Methane} e {GAS:Oxygen}, o Winterspawn resfria o ambiente quando recebe quantidade suficiente de {GAS:Nitrogen}. A variante Beta tem capacidade máxima de resfriamento e eletrólise de 150 watts e opera com maior eficiência em temperaturas entre 14 e 24 °C</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool1</Key>
       <Value>Flor de Hades Variante Alfa</Value>
-      <Description>A Flor de Hades criada pela {LINK:Agrizero;Agrizero} é o resultado de um experimento duvidoso para combinar o encanto das plantas tropicais com o conforto e a praticidade de uma bomba de calor. A planta respira uma mistura de 1:3 de {GAS:Volatiles} e {GAS:Oxygen}, e exala {GAS:Pollutant} aquecido.</Description>
+      <Description>A Flor de Hades criada pela {LINK:Agrizero;Agrizero} é o resultado de um experimento duvidoso para combinar o encanto das plantas tropicais com o conforto e a praticidade de uma bomba de calor. A planta respira uma mistura de 1:3 de {GAS:Methane} e {GAS:Oxygen}, e exala {GAS:Pollutant} aquecido.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPlantThermogenic_Genepool2</Key>
       <Value>Flor de Hades Variante Beta</Value>
-      <Description>A Flor de Hades criada pela {LINK:Agrizero;Agrizero} é o resultado de um experimento duvidoso para combinar o encanto das plantas tropicais com o conforto e a praticidade de uma bomba de calor. A planta respira uma mistura de 1:3 de {GAS:Volatiles} e {GAS:Oxygen}, e exala {GAS:Pollutant} aquecido. A variante Beta é notavelmente mais eficiente do que a versão Alfa, mais experimental.</Description>
+      <Description>A Flor de Hades criada pela {LINK:Agrizero;Agrizero} é o resultado de um experimento duvidoso para combinar o encanto das plantas tropicais com o conforto e a praticidade de uma bomba de calor. A planta respira uma mistura de 1:3 de {GAS:Methane} e {GAS:Oxygen}, e exala {GAS:Pollutant} aquecido. A variante Beta é notavelmente mais eficiente do que a versão Alfa, mais experimental.</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_HadesAlpha</Key>
@@ -6937,7 +6968,12 @@ Altamente sensível à temperatura, o nitrice começa a derreter assim que é mi
     <RecordThing>
       <Key>StructureH2Combustor</Key>
       <Value>Combustor de H2</Value>
-      <Description>Adaptado levemente de seu design original {LINK:Recurso;Recurso}, o Combustor de {GAS:Volatiles} faz exatamente o que seu nome indica — queima uma mistura de voláteis e {GAS:Oxygen} para gerar água. Extremamente útil em ambientes quentes ou áridos, os usuários devem estar cientes de que o combustor gera uma quantidade considerável de calor residual. O dispositivo também não é perfeitamente eficiente, resultando na autoignição dos voláteis na câmara e na produção de gases residuais que precisam ser tratados.</Description>
+      <Description>O Combustor permite a combustão controlada de gases voláteis. Quando alimentado com {GAS:Hydrogen} e {GAS:Oxygen} , ele produzirá {GAS:Steam} que pode ser resfriado para água potável ou hidroponia.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>H2Combustor</Key>
+      <Value>Combustor</Value>
+      <Description>O Combustor permite a combustão controlada de gases voláteis. Quando alimentado com {GAS:Hydrogen} e {GAS:Oxygen} , ele produzirá {GAS:Steam} que pode ser resfriado para água potável ou hidroponia.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiatorFlat</Key>
@@ -7317,8 +7353,8 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterVolatilesInfinite</Key>
-      <Value>Filtro Catalítico Voláteis</Value>
-      <Description>Um filtro que remove seletivamente {GAS:Volatiles}. Ele utiliza diferenciais de pressão internos para regenerar um catalisador de mudança de fase exclusivo, conferindo-lhe um ciclo de vida ilimitado.</Description> <!-- Preservei {GAS:Volatiles} exatamente como no original. -->
+      <Value>Filtro Catalítico Metano</Value>
+      <Description>Um filtro que remove seletivamente {GAS:Methane}. Ele utiliza diferenciais de pressão internos para regenerar um catalisador de mudança de fase exclusivo, conferindo-lhe um ciclo de vida ilimitado.</Description> 
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterWaterInfinite</Key>
@@ -7646,8 +7682,8 @@ Em conjunto com a {THING:StructureEvaporationChamber}, os Stationeers podem expl
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceVolatiles</Key>
-      <Value>Gelo Puro de Voláteis</Value>
-      <Description>Um pedaço congelado de {GAS:Volatiles}</Description>
+      <Value>Gelo Puro de Methane</Value>
+      <Description>Um pedaço congelado de {GAS:Methane}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidCarbonDioxide</Key>
@@ -7677,7 +7713,7 @@ Em conjunto com a {THING:StructureEvaporationChamber}, os Stationeers podem expl
     <RecordThing>
       <Key>ItemPureIceLiquidVolatiles</Key>
       <Value>Gelo Puro de Voláteis Líquidos</Value>
-      <Description>Um pedaço congelado de {GAS:LiquidVolatiles}</Description>
+      <Description>Um pedaço congelado de {GAS:LiquidMethane}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceSteam</Key>
@@ -7698,6 +7734,56 @@ Em conjunto com a {THING:StructureEvaporationChamber}, os Stationeers podem expl
       <Key>ItemPureIcePollutedWater</Key>
       <Value>Gelo Puro de Água Poluída</Value>
       <Description>Um pedaço congelado de {GAS:PollutedWater}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceHydrazine</Key>
+      <Value>Gelo Puro de Hidrazina</Value>
+      <Description>Um pedaço congelado de {GAS:Hydrazine}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceHydrochloricAcid</Key>
+      <Value>Gelo Puro de Ácido Clorídrico</Value>
+      <Description>Um pedaço congelado de {GAS:HydrochloricAcid}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidAlcohol</Key>
+      <Value>Gelo Puro de Álcool Líquido</Value>
+      <Description>Um pedaço congelado de {GAS:LiquidAlcohol}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidHydrazine</Key>
+      <Value>Gelo Puro de Hidrazina Líquida</Value>
+      <Description>Um pedaço congelado de {GAS:LiquidHydrazine}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidHydrochloricAcid</Key>
+      <Value>Gelo Puro de Ácido Clorídrico Líquido</Value>
+      <Description>Um pedaço congelado de {GAS:LiquidHydrochloricAcid}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidSilanol</Key>
+      <Value>Gelo Puro de Silanol Líquido</Value>
+      <Description>Um pedaço congelado de {GAS:LiquidSilanol}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceSilanol</Key>
+      <Value>Gelo Puro de Silanol</Value>
+      <Description>Um pedaço congelado de {GAS:Silanol}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidSodiumChloride</Key>
+      <Value>Sal</Value>
+      <Description>Um pedaço sólido de {GAS:LiquidSodiumChloride}. Possui uma temperatura de fusão muito alta e só pode ser derretido em um forno quente ou em uma sala de derretimento aquecida. Não pode ser processado pelo {THING:StructureIceCrusher} ou {THING:StructureArcFurnace}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceOzone</Key>
+      <Value>Gelo Puro de Ozônio</Value>
+      <Description>Um pedaço congelado de {GAS:Ozone}</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemPureIceLiquidOzone</Key>
+      <Value>Gelo Puro de Ozônio Liquido</Value>
+      <Description>Um pedaço congelado de {GAS:LiquidOzone}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveLiquidDrain</Key>
@@ -7904,22 +7990,22 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureBench1</Key>
-      <Value>Bancada (Estilo Balcão)</Value>
+      <Value>Bancada Estilo Balcão</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBench2</Key>
-      <Value>Bancada (Estilo High Tech)</Value>
+      <Value>Bancada Estilo High Tech</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBench3</Key>
-      <Value>Bancada (Estilo Estrutura)</Value>
+      <Value>Bancada Estilo Estrutura</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBench4</Key>
-      <Value>Bancada (Estilo Oficina)</Value>
+      <Value>Bancada Estilo Oficina</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8209,7 +8295,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructurePumpedLiquidEngine</Key>
       <Value>Motor a Líquido com Bomba</Value>
-      <Description>Propelentes líquidos oferecem maior eficiência com o Motor a Líquido com Bomba. Duas entradas são fornecidas para que os Stationeers possam separar seus combustíveis, e a variável de Configuração controla a proporção de mistura das entradas. O motor foi projetado para funcionar com {GAS:LiquidVolatiles} e {GAS:LiquidOxygen}, mas alguns Stationeers relataram valores de empuxo excessivos ao trocar para {GAS:LiquidNitrousOxide}.</Description>
+      <Description>Propelentes líquidos oferecem maior eficiência com o Motor a Líquido com Bomba. Duas entradas são fornecidas para que os Stationeers possam separar seus combustíveis, e a variável de Configuração controla a proporção de mistura das entradas. O motor foi projetado para funcionar com {GAS:LiquidMethane} e {GAS:LiquidOxygen}, mas alguns Stationeers relataram valores de empuxo excessivos ao trocar para {GAS:LiquidNitrousOxide}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPumpedLiquidEngine</Key>
@@ -8219,7 +8305,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructureGovernedGasEngine</Key>
       <Value>Motor a Gás com Bomba</Value>
-      <Description>O mais confiável de todos os motores de foguete, o Motor a Gás com Bomba funciona com uma mistura de 2:1 de {GAS:Volatiles} para {GAS:Oxygen}.</Description>
+      <Description>O mais confiável de todos os motores de foguete, o Motor a Gás com Bomba funciona com uma mistura de 2:1 de {GAS:Methane} para {GAS:Oxygen}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedGasEngine</Key>
@@ -8229,7 +8315,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructurePressureFedGasEngine</Key>
       <Value>Motor a Gás por Pressão</Value>
-      <Description>Ineficiente, mas muito potente, o Motor a Gás por Pressão move o gás de cada uma de suas duas entradas com base na pressão dos tubos de entrada. Controle a proporção de mistura dos combustíveis ajustando as pressões de entrada para atingir a proporção de 2:1 de {GAS:Volatiles} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em empuxes ainda maiores.</Description>
+      <Description>Ineficiente, mas muito potente, o Motor a Gás por Pressão move o gás de cada uma de suas duas entradas com base na pressão dos tubos de entrada. Controle a proporção de mistura dos combustíveis ajustando as pressões de entrada para atingir a proporção de 2:1 de {GAS:Methane} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em empuxes ainda maiores.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngine</Key>
@@ -8249,7 +8335,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>StructurePressureFedGasEngineHeavy</Key>
       <Value>Motor a gás alimentado por alta pressão</Value>
-      <Description>Uma variante maior e mais potente do {THING:StructurePressureFedGasEngine}. Ela sacrifica um pouco de eficiência em troca de um empuxo muito maior. Motores a gás alimentados por pressão movem o gás de cada uma de suas entradas com base na pressão dos tubos de entrada. Controle a proporção da mistura de combustíveis ajustando as pressões de entrada para atingir uma mistura de 2:1 de {GAS:Volatiles} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em um empuxo ainda maior.</Description>
+      <Description>Uma variante maior e mais potente do {THING:StructurePressureFedGasEngine}. Ela sacrifica um pouco de eficiência em troca de um empuxo muito maior. Motores a gás alimentados por pressão movem o gás de cada uma de suas entradas com base na pressão dos tubos de entrada. Controle a proporção da mistura de combustíveis ajustando as pressões de entrada para atingir uma mistura de 2:1 de {GAS:Methane} para {GAS:Oxygen}. Resfriar os gases propelentes ou usar {GAS:NitrousOxide} como oxidante resultará em um empuxo ainda maior.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngineHeavy</Key>
@@ -9545,8 +9631,8 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </RecordThing>
     <RecordThing>
       <Key>StructureFiltrationLiquid</Key>
-      <Value>Líquido de Filtragem</Value>  
-      <Description />
+      <Value>Máquina para Filtragem de líquidos</Value>  
+      <Description>A máquina de filtragem de líquidos funciona de forma semelhante à máquina de filtragem padrão, mas pode processar tanto líquidos quanto gases.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicPayloadDeliveryContainer</Key>
@@ -9589,6 +9675,202 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     <RecordThing>
       <Key>StructureCrewUmbilical</Key>
       <Value>Umbilical Conector</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemOreDetector</Key>
+      <Value>Detector de Minérios</Value>
+      <Description>Um dispositivo para localizar minérios específicos. Quanto mais próximo o jogador estiver do tipo de minério selecionado, mais indicadores irão se acender.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFermenter</Key>
+      <Value>Kit (Fermentador)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFermenter</Key>
+      <Value>Fermentador</Value>
+      <Description>O novo fermentador converte plantas em álcool. Diferentes plantas produzem rendimentos diferentes, por isso vale a pena considerar o que você cultiva se a produção de álcool for uma prioridade. Cana-de-açúcar, milho e capim estão entre as opções de maior rendimento. Sementes também podem ser fermentadas diretamente, e até mesmo alimentos em decomposição produzem uma pequena quantidade de álcool, em vez de serem desperdiçados.
+O processo de fermentação produz uma pequena quantidade de água poluída como subproduto, que retorna naturalmente ao circuito hidropônico.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcohol</Key>
+      <Value>Filtro Álcool</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcoholInfinite</Key>
+      <Value>Filtro Catalítico Álcool</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcoholL</Key>
+      <Value>Filtro Pesado Álcool</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterAlcoholM</Key>
+      <Value>Filtro Médio Álcool</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHCl</Key>
+      <Value>Filtro Ácido Clorídrico</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHClInfinite</Key>
+      <Value>Filtro Catalítico Ácido Clorídrico</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHClL</Key>
+      <Value>Filtro Pesado Ácido Clorídrico</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHClM</Key>
+      <Value>Filtro Médio Ácido Clorídrico</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHelium</Key>
+      <Value>Filtro Hélio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHeliumInfinite</Key>
+      <Value>Filtro Catalítico Hélio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHeliumL</Key>
+      <Value>Filtro Pesado Hélio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHeliumM</Key>
+      <Value>Filtro Médio Hélio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazine</Key>
+      <Value>Filtro Hidrazina</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazineInfinite</Key>
+      <Value>Filtro Catalítico Hidrazina</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazineL</Key>
+      <Value>Filtro Pesado Hidrazina</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrazineM</Key>
+      <Value>Filtro Médio Hidrazina</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogen</Key>
+      <Value>Filtro Hidrogênio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogenInfinite</Key>
+      <Value>Filtro Catalítico Hidrogênio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogenL</Key>
+      <Value>Filtro Pesado Hidrogênio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterHydrogenM</Key>
+      <Value>Filtro Médio Hidrogênio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzone</Key>
+      <Value>Filtro Ozônio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzoneInfinite</Key>
+      <Value>Filtro Catalítico Ozônio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzoneL</Key>
+      <Value>Filtro Pesado Ozônio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterOzoneM</Key>
+      <Value>Filtro Médio Ozônio</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWater</Key>
+      <Value>Filtro Água Poluída</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWaterInfinite</Key>
+      <Value>Filtro Catalítico Água Poluída</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWaterL</Key>
+      <Value>Filtro Pesado Água Poluída</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterPollutedWaterM</Key>
+      <Value>Filtro Médio Água Poluída</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSalt</Key>
+      <Value>Filtro Sal</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSaltInfinite</Key>
+      <Value>Filtro Catalítico Sal</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSaltL</Key>
+      <Value>Filtro Pesado Sal</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSaltM</Key>
+      <Value>Filtro Médio Sal</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanol</Key>
+      <Value>Filtro Silanol</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanolInfinite</Key>
+      <Value>Filtro Catalítico Silanol</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanolL</Key>
+      <Value>Filtro Pesado Silanol</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemGasFilterSilanolM</Key>
+      <Value>Filtro Médio Silanol</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -15709,8 +15991,8 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
       <Value>A proporção de poluentes na atmosfera do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatiles</Key>
-      <Value>A proporção de voláteis na atmosfera do dispositivo</Value>
+      <Key>LogicTypeRatioMethane</Key>
+      <Value>A proporção de {GAS:Methane} na atmosfera do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWater</Key>
@@ -15749,8 +16031,8 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
       <Value>A proporção de poluentes na rede de Entrada do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatilesInput</Key>
-      <Value>A proporção de voláteis na rede de Entrada do dispositivo</Value>
+      <Key>LogicTypeRatioMethaneInput</Key>
+      <Value>A proporção de {GAS:Methane} na rede de Entrada do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterInput</Key>
@@ -15785,8 +16067,8 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
       <Value>A proporção de poluentes na rede de Entrada 2 do dispositiv</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatilesInput2</Key>
-      <Value>A proporção de voláteis na rede de Entrada 2 do dispositivo</Value>
+      <Key>LogicTypeRatioMethaneInput2</Key>
+      <Value>A proporção de {GAS:Methane} na rede de Entrada 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterInput2</Key>
@@ -15821,8 +16103,8 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
       <Value>A proporção de poluentes na rede de Saída do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioVolatilesOutput</Key>
-      <Value>A proporção de voláteis na rede de Saída do dispositivo</Value>
+      <Key>LogicTypeRatioMethaneOutput</Key>
+      <Value>A proporção de {GAS:Methane} na rede de Saída do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioWaterOutput</Key>
@@ -16338,24 +16620,24 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
       <Value>A proporção de {GAS:LiquidOxygen} na Atmosfera da Saída 2 do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatiles</Key>
-      <Value>A proporção de {GAS:LiquidVolatiles} na Atmosfera do dispositivo</Value>
+      <Key>LogicTypeRatioLiquidMethane</Key>
+      <Value>A proporção de {GAS:LiquidMethane} na Atmosfera do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatilesInput</Key>
-      <Value>A proporção de {GAS:LiquidVolatiles} na Atmosfera da Entrada do dispositivo</Value>
+      <Key>LogicTypeRatioLiquidMethaneInput</Key>
+      <Value>A proporção de {GAS:LiquidMethane} na Atmosfera da Entrada do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatilesInput2</Key>
-      <Value>A proporção de {GAS:LiquidVolatiles} na Atmosfera da Entrada 2 do dispositivo</Value>
+      <Key>LogicTypeRatioLiquidMethaneInput2</Key>
+      <Value>A proporção de {GAS:LiquidMethane} na Atmosfera da Entrada 2 do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatilesOutput</Key>
-      <Value>A proporção de {GAS:LiquidVolatiles} na Atmosfera da Saída do dispositivo</Value>
+      <Key>LogicTypeRatioLiquidMethaneOutput</Key>
+      <Value>A proporção de {GAS:LiquidMethane} na Atmosfera da Saída do dispositivo</Value>
     </Record>
     <Record>
-      <Key>LogicTypeRatioLiquidVolatilesOutput2</Key>
-      <Value>A proporção de {GAS:LiquidVolatiles} na Atmosfera da Saída 2 do dispositivo</Value>
+      <Key>LogicTypeRatioLiquidMethaneOutput2</Key>
+      <Value>A proporção de {GAS:LiquidMethane} na Atmosfera da Saída 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>LogicTypeRatioSteam</Key>
@@ -16508,6 +16790,50 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     <Record>
       <Key>LogicTypeContactSlotIndex</Key>
       <Value>O índice do slot no qual o comerciante apareceu. Isso define a classe do comerciante, ou seja, Utilidade, Pequeno, Médio etc.</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazine</Key>
+      <Value>A proporção de {GAS:Hydrazine} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazine</Key>
+      <Value>A proporção de {GAS:LiquidHydrazine} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcohol</Key>
+      <Value>A proporção de {GAS:LiquidAlcohol} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHelium</Key>
+      <Value>A proporção de {GAS:Helium} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChloride</Key>
+      <Value>A proporção de {GAS:LiquidSodiumChloride} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanol</Key>
+      <Value>A proporção de {GAS:Silanol} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanol</Key>
+      <Value>A proporção de {GAS:LiquidSilanol} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcid</Key>
+      <Value>A proporção de {GAS:HydrochloricAcid} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcid</Key>
+      <Value>A proporção de {GAS:LiquidHydrochloricAcid} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzone</Key>
+      <Value>A proporção de {GAS:Ozone} na atmosfera do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzone</Key>
+      <Value>A proporção de {GAS:LiquidOzone} na atmosfera do dispositivo</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
@@ -18799,6 +19125,10 @@ Recrutando pessoas com formação em engenharia civil, das indústrias militar e
       <Value>Calor Específico:</Value>
     </Record>
     <Record>
+      <Key>StationpediaAutoIgnition</Key>
+      <Value>Autoignição:</Value>
+    </Record>
+    <Record>
       <Key>StationpediaLatentHeatHeader</Key>
       <Value>Calor Latente:</Value>
     </Record>
@@ -18863,12 +19193,20 @@ Recrutando pessoas com formação em engenharia civil, das indústrias militar e
       <Value>Gases e Líquidos</Value>
     </Record>
     <Record>
+      <Key>StationpediaFermentationHeader</Key>
+      <Value>Resultados da Fermentação</Value>
+    </Record>
+    <Record>
       <Key>StationpediaResoucesHeader</Key>
       <Value>Recursos Utilizados</Value>
     </Record>
     <Record>
       <Key>StationpediaUsedIn</Key>
-      <Value>Usado Em</Value>
+      <Value>Usado em</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaCombustion</Key>
+      <Value>Combustão</Value>
     </Record>
     <Record>
       <Key>StationpediaManufactures</Key>
@@ -19088,8 +19426,8 @@ Recrutando pessoas com formação em engenharia civil, das indústrias militar e
 {GAS:Water} é melhor, mas geralmente tem usos mais importantes.</Value>
     </Record>
     <Record>
-      <Key>MoleVolatilesDescription</Key>
-      <Value>Voláteis é um combustível inflamável. É refinado a partir de {THING:ItemVolatiles}</Value>
+      <Key>MoleMethaneDescription</Key>
+      <Value>Metano é um combustível inflamável. É refinado a partir de {THING:ItemVolatiles}</Value>
     </Record>
     <Record>
       <Key>MolePollutantDescription</Key>
@@ -19118,8 +19456,8 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>{GAS:Oxygen} em sua forma líquida. Pode ser criado reduzindo a temperatura do gás {GAS:Oxygen} abaixo do seu ponto de ebulição. Isso pode ser alcançado usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidOxygen} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Oxygen}.</Value>
     </Record>
     <Record>
-      <Key>MoleLiquidVolatilesDescription</Key>
-      <Value>{GAS:Volatiles} em sua forma líquida. Pode ser criado reduzindo a temperatura do gás {GAS:Volatiles} abaixo do seu ponto de ebulição. Isso pode ser alcançado usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}. {GAS:LiquidVolatiles} introduzido na atmosfera evaporará rapidamente de volta para {GAS:Volatiles}.</Value>
+      <Key>MoleLiquidMethaneDescription</Key>
+      <Value>{GAS:Methane} em sua forma líquida. Pode ser criado ao reduzir a temperatura do gás {GAS:Methane} abaixo do seu ponto de ebulição. Isso pode ser feito usando um {THING:StructureSmallDirectHeatExchangeGastoGas} ou um {THING:StructureAirConditioner}.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidCarbonDioxideDescription</Key>
@@ -19139,11 +19477,55 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>MoleHydrogenDescription</Key>
-      <Value />
+      <Value>{GAS:Hydrogen} é o combustível mais eficiente em termos de peso e temperatura de combustão para foguetes. Quando queimado com {GAS:Oxygen}, transforma-se em água ({GAS:Steam}) de forma limpa, tornando-o ideal para bases com sistemas hidropônicos ou eletrolisadores.</Value>
     </Record>
     <Record>
       <Key>MoleSteamDescription</Key>
-      <Value>{GAS:Water} evaporada. Pode ser criada aumentando a temperatura da {GAS:Water} até seu ponto de ebulição. Quando introduzido em um tubo,o {GAS:Steam} se condensará de volta em {GAS:Water} se sua temperatura estiver abaixo do ponto de ebulição. O vapor pode ser criado pela combustão de {GAS:Volatiles} e oxigênio usando o {THING:H2Combustor}</Value>
+      <Value>{GAS:Water} evaporada. Pode ser criada ao elevar a temperatura de {GAS:Water} até seu ponto de ebulição. Quando introduzido em um tubo, {GAS:Steam} se condensará novamente em {GAS:Water} se sua temperatura estiver abaixo do ponto de ebulição. O vapor pode ser gerado pela combustão de {GAS:Methane} e oxigênio utilizando o {THING:H2Combustor}.</Value>
+    </Record>
+    <Record>
+      <Key>MoleHydrazineDescription</Key>
+      <Value>{GAS:Hydrazine} é o combustível ideal para exploração espacial, pois não requer oxidante para combustão, necessitando apenas de calor ou uma faísca. É mais comumente armazenado em sua forma líquida {GAS:LiquidHydrazine} , que é estável à temperatura ambiente. É extremamente tóxico para todas as formas de vida.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidHydrazineDescription</Key>
+      <Value>{GAS:Hydrazine} em sua forma líquida. É estável à temperatura ambiente e é um excelente combustível para foguetes.</Value>
+    </Record>
+    <Record>
+      <Key>MoleHeliumDescription</Key>
+      <Value>{GAS:Helium} é um gás totalmente inerte que não congela nem se condensa em líquido, tornando-o um excelente gás de trabalho em sistemas atmosféricos que devem evitar mudança de fase.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidAlcoholDescription</Key>
+      <Value>{GAS:LiquidAlcohol} é um combustível líquido versátil à temperatura ambiente que pode ser produzido usando o novo Fermentador. Quando exposto ao vácuo ele evapora irreversivelmente em {GAS:Methane}, formando uma pequena pressão interna. Portanto, certifique-se de manter sua temperatura e pressão adequadas para preservar sua forma.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidSodiumChlorideDescription</Key>
+      <Value>{GAS:LiquidSodiumChloride} é único, pois permanece em estado líquido em temperaturas extremamente altas, tornando-se um excelente meio para armazenar energia térmica. Quando exposto ao vácuo, se decompõe em {GAS:Pollutant}, formando uma pequena pressão interna. À temperatura ambiente, existe como sólido {THING:ItemPureIceLiquidSodiumChloride}.</Value>
+    </Record>
+    <Record>
+      <Key>MoleSilanolDescription</Key>
+      <Value>{GAS:Silanol} é o gás refrigerante premium para utilização de mudança de fase na transferência de calor. Possui uma ampla faixa líquida e é mais comumente encontrado em sua forma líquida {GAS:LiquidSilanol}.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidSilanolDescription</Key>
+      <Value>{GAS:Silanol} em sua forma líquida é o gás refrigerante premium para utilização de mudança de fase na transferência de calor. Com sua altíssima capacidade térmica, também é um excelente fluido de resfriamento, capaz de absorver grandes quantidades de energia térmica com mínima variação de temperatura.</Value>
+    </Record>
+    <Record>
+      <Key>MoleHydrochloricAcidDescription</Key>
+      <Value>Um gás altamente tóxico.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidHydrochloricAcidDescription</Key>
+      <Value>Um líquido altamente tóxico.</Value>
+    </Record>
+    <Record>
+      <Key>MoleOzoneDescription</Key>
+      <Value>{GAS:Ozone} é um oxidante altamente energético. Assim como {GAS:NitrousOxide},ele proporciona uma combustão mais rápida em comparação com o oxigênio quando queimado com um combustível.</Value>
+    </Record>
+    <Record>
+      <Key>MoleLiquidOzoneDescription</Key>
+      <Value>{GAS:Ozone} em sua forma líquida. É liquefeito, possui uma faixa de temperatura de fusão mais ampla e um calor latente menor, o que facilita o seu manuseio em comparação com o NoS.</Value>
     </Record>
     <Record>
       <Key>SettingsSmoothTerrain</Key>
@@ -20610,7 +20992,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>FurnaceTutorialReHeatingInfo</Key>
-      <Value>Uma mistura 2:1 de {GAS:Volatiles}:{GAS:Oxygen} é a fonte de combustível mais comum e entra em autoignição a 300°C, enquanto uma mistura 50:50 de {GAS:Volatiles}:{GAS:NitrousOxide} entra em autoignição a 50°C, porém queimará muito mais quente.</Value>
+      <Value>Uma mistura 2:1 de {GAS:Methane}:{GAS:Oxygen} é a fonte de combustível mais comum e entra em autoignição a 300°C, enquanto uma mistura 50:50 de {GAS:Methane}:{GAS:NitrousOxide} entra em autoignição a 50°C, porém queimará muito mais quente.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialReHeatingInsertMoreFuel</Key>
@@ -21229,6 +21611,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Tanque de Combustível</Value>
     </Record>
     <Record>
+      <Key>SpawnDataHydrogenFuelTank</Key>
+      <Value>Tanque de Combustível de Hidrogênio</Value>
+    </Record>
+    <Record>
       <Key>SpawnDataOxygenTank</Key>
       <Value>Tanque de Oxigênio</Value>
     </Record>
@@ -21677,6 +22063,14 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Dióxido de Carbono a Granel</Value>
     </Record>
     <Record>
+      <Key>BuyDataBulkCarbonDioxideVenus</Key>
+      <Value>Dióxido de Carbono de Vênus</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkCarbonDioxideMars</Key>
+      <Value>Dióxido de Carbono de Marte</Value>
+    </Record>
+    <Record>
       <Key>BuyDataBulkWater</Key>
       <Value>Água a Granel</Value>
     </Record>
@@ -21754,7 +22148,11 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>BuyDataBulkVolatiles</Key>
-      <Value>Voláteis a Granel</Value>
+      <Value>Metano de Vulcan</Value>
+    </Record>
+    <Record>
+      <Key>BuyDataBulkHydrogen</Key>
+      <Value>Hidrogênio de Vulcan</Value>
     </Record>
     <Record>
       <Key>BuyDataBulkOxygen</Key>
@@ -21771,6 +22169,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     <Record>
       <Key>SellDataBulkNitrogen</Key>
       <Value>Nitrogênio a Granel</Value>
+   </Record>
+    <Record>
+      <Key>SellDataBulkHelium</Key>
+      <Value>Hélio a Granel</Value>
     </Record>
     <Record>
       <Key>SellDataBulkCarbonDioxide</Key>
@@ -21778,7 +22180,15 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SellDataBulkVolatiles</Key>
-      <Value>Voláteis a Granel</Value>
+      <Value>Metano a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkHydrogen</Key>
+      <Value>Hidrogênio a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkSilanol</Key>
+      <Value>Silanol a Granel</Value>
     </Record>
     <Record>
       <Key>SellDataBulkPollutants</Key>
@@ -21809,6 +22219,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Cilindro de Combustível</Value>
     </Record>
     <Record>
+      <Key>SellDataLiquidHydrazineCanister</Key>
+      <Value>Cilindro de Gás de Hidrazina Líquida</Value>
+    </Record>
+    <Record>
       <Key>SellDataWaterCanister</Key>
       <Value>Cilindro de Água</Value>
     </Record>
@@ -21834,7 +22248,23 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SellDataBulkLiquidVolatiles</Key>
-      <Value>Voláteis Líquidos a Granel</Value>
+      <Value>Metano Líquido a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidHydrogen</Key>
+      <Value>Hidrogênio Líquido a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidOzone</Key>
+      <Value>Ozônio Líquido a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidHydrochloricAcid</Key>
+      <Value>Ácido Clorídrico Líquido a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkLiquidHydrazine</Key>
+      <Value>Hidrazina Líquida a Granel</Value>
     </Record>
     <Record>
       <Key>SellDataLiquidNitrogenCanister</Key>
@@ -21846,7 +22276,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>SellDataLiquidVolatilesCanister</Key>
-      <Value>Cilindro de Voláteis Líquidos</Value>
+      <Value>Cilindro de Metano Líquido</Value>
     </Record>
     <Record>
       <Key>SellDataBoxofSprayCans</Key>
@@ -22440,6 +22870,14 @@ Agradecemos sua compreensão e mal podemos esperar para que você experimente as
     <Record>
       <Key>ButtonLink</Key>
       <Value>Vincular</Value>			 
+    </Record>
+    <Record>
+      <Key>StationpediaFermentation</Key>
+      <Value>Fermenta em: </Value>
+    </Record>
+    <Record>
+      <Key>StationpediaFermentable</Key>
+      <Value>Fermentável:</Value>
     </Record>
   </Interface>
   <Colors>
@@ -26116,7 +26554,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>UplinkNotConnected</Key>
-      <Value>Não conectado a nenhum link descendente</Value>
+      <Value>Não conectado a nenhum downlink</Value>
     </Record>
     <Record>
       <Key>UplinkConnectedToRocket</Key>
@@ -26124,7 +26562,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CelestialTrackerSetTo</Key>
-      <Value>Rastreador configurado para {LOCAL:Celestial}</Value>
+      <Value>Rastreador definido para {LOCAL:Celestial}</Value>
     </Record>
     <Record>
       <Key>CelestialTrackerRequiresOrbit</Key>
@@ -26156,7 +26594,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>WorldInfoRotationPeriod</Key>
-      <Value>{LOCAL:PrimaryBody} transita o &lt;color=yellow&gt;céu&lt;/color&gt; a cada {LOCAL:RotationPeriod} em {LOCAL:SolarAngle}</Value>
+      <Value>{LOCAL:PrimaryBody} cruza o &lt;color=yellow&gt;céu&lt;/color&gt; a cada {LOCAL:RotationPeriod} em {LOCAL:SolarAngle}</Value>
     </Record>
     <Record>
       <Key>WorldInfoSiderealPeriod</Key>
@@ -26168,7 +26606,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>WorldInfoSolarEnergyRange</Key>
-      <Value>{LOCAL:PrimaryBody} fornece de {LOCAL:LowValue} até {LOCAL:HighValue}</Value>
+      <Value>{LOCAL:PrimaryBody} fornece de {LOCAL:LowValue} a {LOCAL:HighValue}</Value>
     </Record>
     <Record>
       <Key>WorldInfoNoSolarEnergy</Key>
@@ -26180,7 +26618,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>WorldInfoTemperatureRange</Key>
-      <Value>&lt;color=yellow&gt;Temperatura&lt;/color&gt; de {LOCAL:LowValue} até {LOCAL:HighValue}</Value>
+      <Value>&lt;color=yellow&gt;Temperatura&lt;/color&gt; de {LOCAL:LowValue} a {LOCAL:HighValue}</Value>
     </Record>
     <Record>
       <Key>WorldInfoTemperature</Key>
@@ -26188,15 +26626,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>WorldInfoPressureRange</Key>
-      <Value>&lt;color=yellow&gt;Pressão&lt;/color&gt; de  {LOCAL:LowValue} até {LOCAL:HighValue}</Value>
+      <Value>&lt;color=yellow&gt;Pressão&lt;/color&gt; de  {LOCAL:LowValue} a {LOCAL:HighValue}</Value>
     </Record>
     <Record>
       <Key>WorldInfoPressure</Key>
-      <Value>&lt;color=yellow&gt;Pressão&lt;/color&gt; está em {LOCAL:Value}</Value>
+      <Value>&lt;color=yellow&gt;Pressão&lt;/color&gt; é {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>WorldInfoPlanetWeather</Key>
-      <Value>Irá sofrer eventos de {LOCAL:Weather}</Value>
+      <Value>Terá eventos de {LOCAL:Weather}</Value>
     </Record>
     <Record>
       <Key>ThingDamageIsAt</Key>
@@ -26204,7 +26642,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DirtCanisterDirtIsAt</Key>
-      <Value>Contém atualmente {LOCAL:Quantity} de sujeira</Value>
+      <Value>Atualmente contém {LOCAL:Quantity} de terra</Value> <!-- Verificar a tradução -->
     </Record>
     <Record>
       <Key>IsCurrentlyMelting</Key>
@@ -26220,7 +26658,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CanConnectTo</Key>
-      <Value>Fornece conexão {LOCAL:NetworkType}</Value>
+      <Value>Fornece conexão de {LOCAL:NetworkType}</Value>
     </Record>
     <Record>
       <Key>ConnectionForThing</Key>
@@ -26236,19 +26674,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ScrubberVentOpen</Key>
-      <Value>&lt;color=yellow&gt;Válvula&lt;/color&gt; está &lt;color=green&gt;aberta&lt;/color&gt;, a atmosfera interna será liberada</Value>
+      <Value>&lt;color=yellow&gt;Ventilação&lt;/color&gt; está &lt;color=green&gt;aberta&lt;/color&gt;, a atmosfera interna será liberada</Value>
     </Record>
     <Record>
       <Key>ScrubberNoFilters</Key>
-      <Value>Nenhum &lt;color=yellow&gt;Filtro&lt;/color&gt; carregado, passará toda a atmosfera</Value>
+      <Value>Nenhum &lt;color=yellow&gt;Filtro&lt;/color&gt; carregado, toda a atmosfera será liberada</Value>
     </Record>
     <Record>
       <Key>ScrubberConnectToPipe</Key>
-      <Value>Conecte à rede de tubulação para liberar a pressão</Value>
+      <Value>Conecte à rede de tubos para liberar a pressão</Value>
     </Record>
     <Record>
       <Key>CanBeUnfastenedWithWrench</Key>
-      <Value>Uma &lt;color=green&gt;Chave Inglesa&lt;/color&gt; pode ser usada para desapertar</Value>
+      <Value>Uma &lt;color=green&gt;Chave Inglesa&lt;/color&gt; pode ser usada para soltar</Value>
     </Record>
     <Record>
       <Key>ThingCanBeDestroyedByWeather</Key>
@@ -26256,11 +26694,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HeatingEnergyAmount</Key>
-      <Value>O {LOCAL:Thing} está &lt;color=green&gt;aquecendo&lt;/color&gt; em {LOCAL:Temperature}</Value>
+      <Value>O {LOCAL:Thing} está &lt;color=green&gt;aquecendo&lt;/color&gt; a {LOCAL:Temperature}</Value>
     </Record>
     <Record>
       <Key>CoolingEnergyAmount</Key>
-      <Value>O {LOCAL:Thing} está &lt;color=green&gt;resfriando&lt;/color&gt; em {LOCAL:Temperature}</Value>
+      <Value>O {LOCAL:Thing} está &lt;color=green&gt;resfriando&lt;/color&gt; a {LOCAL:Temperature}</Value>
     </Record>
     <Record>
       <Key>DifficultyCannotEatThroughHelmet</Key>
@@ -26276,11 +26714,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyValueRate</Key>
-      <Value>{LOCAL:Type} taxa {LOCAL:Value}</Value>
+      <Value>Taxa de {LOCAL:Type} {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>DifficultyValueYield</Key>
-      <Value>{LOCAL:Type} rendimento {LOCAL:Value}</Value>
+      <Value>Rendimento de {LOCAL:Type} {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>DifficultyValueStatus</Key>
@@ -26292,11 +26730,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyThingValueRate</Key>
-      <Value>{LOCAL:Type} para {LOCAL:Thing} taxa {LOCAL:Value}</Value>
+      <Value>Taxa de {LOCAL:Type} para {LOCAL:Thing} {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>PassedMolesDescription</Key>
-      <Value>O número de mols que passaram por este dispositivo no tick de simulação anterior</Value>
+      <Value>O número de mols que passaram por este dispositivo no ciclo de simulação anterior</Value>
     </Record>
     <Record>
       <Key>ExhaustVelocityDescription</Key>
@@ -26304,19 +26742,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>FlightControlRuleDescription</Key>
-      <Value>Regra de controle de voo do foguete. Nenhuma = 0, Sem Piloto Automático. Normal = 1, Aponta para o Apogeu de Descida de 60 m. Alternativa = 2, Velocidade alta - Aceleração total. Alternativa2 = 3, Aponta para uma velocidade de descida adequada, pois a velocidade está muito baixa. AproximaçãoFinal = 4, Desce em direção à plataforma de lançamento de forma controlada.</Value>
+      <Value>Regra de controle de voo do foguete. Nenhum = 0, Sem Piloto Automático. Normal = 1, alvo de ápice de descida de 60 m. Alternativo = 2, velocidade muito alta - aceleração máxima. Alternativo 2 = 3, alvo de uma velocidade de descida adequada, pois a velocidade está muito baixa. Aproximação Final = 4, desce em direção à base de lançamento de forma controlada.</Value>
     </Record>
     <Record>
       <Key>ReEntryAltitudeDescription</Key>
-      <Value>A altitude em que o foguete começará sua descida para a plataforma. Deve estar entre 25 km e 120 km</Value>
+      <Value>A altitude em que o foguete iniciará sua descida até a plataforma. Deve estar entre 25 km e 120 km</Value>
     </Record>
     <Record>
       <Key>OperationalTemperatureEfficiency</Key>
-      <Value>Eficiência em Temperatura Operacional {LOCAL:Value}</Value>
+      <Value>Eficiência de temperatura operacional {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>TemperatureDifferentialEfficiency</Key>
-      <Value>Eficiência de Diferença de Temperatura {LOCAL:Value}</Value>
+      <Value>Eficiência do diferencial de temperatura {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>PressureEfficiency</Key>
@@ -26332,11 +26770,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionEccentricity</Key>
-      <Value>Medida de quão elíptica (oval) é uma órbita. Varia de 0 (círculo perfeito) a 1 (trajetória parabólica).</Value>
+      <Value>Uma medida de quão elíptica (oval) é uma órbita. Varia de 0 (um círculo perfeito) a 1 (uma trajetória parabólica).</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionInclination</Key>
-      <Value>A inclinação do plano de uma órbita em relação ao plano equatorial, medida em graus. Define o ângulo do plano orbital.</Value>
+      <Value>A inclinação do plano da órbita em relação ao plano equatorial, medida em graus. Define o ângulo do plano orbital.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionPeriod</Key>
@@ -26356,35 +26794,35 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionCelestialParentHash</Key>
-      <Value>O hash do nome do corpo ao redor do qual o objeto celeste está orbitando, 0 se não houver um corpo celeste pai.</Value>
+      <Value>O hash do nome do corpo celeste que está sendo orbitado, 0 caso não exista um corpo celeste pai.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionTrueAnomaly</Key>
-      <Value>Um parâmetro angular que define a posição de um corpo em movimento ao longo de uma órbita kepleriana. É o ângulo entre a direção do periapsis e a posição atual do corpo, visto a partir do foco principal da elipse (o ponto ao redor do qual o objeto orbita).</Value>
+      <Value>Um parâmetro angular que define a posição de um corpo em movimento ao longo de uma órbita kepleriana. É o ângulo entre a direção do periastro e a posição atual do corpo, visto a partir do foco principal da elipse (o ponto em torno do qual o objeto orbita).</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionDiscover</Key>
-      <Value>Status de progresso da varredura de Descoberta na localização-alvo do foguete no Mapa Espacial. Retorna um valor normalizado limitado. Se a varredura de Descoberta não estiver disponível, retorna -1.</Value>
+      <Value>Status de progresso da varredura de descoberta no local alvo do mapa espacial do foguete. Retorna um valor normalizado limitado. Se a varredura de descoberta não estiver disponível, retorna -1.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionChart</Key>
-      <Value>Status de progresso da varredura de Mapeamento na localização-alvo do foguete no Mapa Espacial. Retorna um valor normalizado limitado. Se a varredura de Mapeamento não estiver disponível, retorna -1.</Value>
+      <Value>Status de progresso da varredura de mapeamento no local alvo do mapa espacial do foguete. Retorna um valor normalizado limitado. Se a varredura de mapeamento não estiver disponível, retorna -1.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionSurvey</Key>
-      <Value>Status de progresso da varredura de Pesquisa na localização-alvo do foguete no Mapa Espacial. Retorna um valor normalizado onde 100% pesquisado é igual a 1. Se a varredura de Pesquisa não estiver disponível, retorna -1.</Value>
+      <Value>Status de progresso da varredura de levantamento no local alvo do mapa espacial do foguete. Retorna um valor normalizado onde 100% levantado é igual a 1. Se a varredura de levantamento não estiver disponível, retorna -1.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionNavPoints</Key>
-      <Value>O número de Pontos de Navegação na localização-alvo do foguete no Mapa Espacial.</Value>
+      <Value>O número de Pontos de Navegação no local alvo do mapa espacial do foguete.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionChartedNavPoints</Key>
-      <Value>O número de Pontos de Navegação mapeados na localização-alvo do foguete no Mapa Espacial.</Value>
+      <Value>O número de pontos de navegação mapeados no local alvo do mapa espacial do foguete.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionSites</Key>
-      <Value>O número de locais que foram descobertos na localização-alvo do foguete no Mapa Espacial.</Value>
+      <Value>O número de locais que foram descobertos no local alvo do mapa espacial do foguete.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionCurrentCode</Key>
@@ -26392,27 +26830,27 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionDestinationCode</Key>
-      <Value>O Endereço do Mapa Espacial da Localização-alvo do foguete</Value>
+      <Value>O endereço do mapa espacial do local alvo do foguete</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionSize</Key>
-      <Value>O tamanho do depósito minerável no local-alvo do foguete.</Value>
+      <Value>O tamanho do depósito minerável do local alvo do foguete.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionRichness</Key>
-      <Value>A riqueza do depósito minerável no local-alvo do foguete.</Value>
+      <Value>A riqueza do depósito minerável do local alvo do foguete.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionDensity</Key>
-      <Value>A densidade do depósito minerável no local-alvo do foguete.</Value>
+      <Value>A densidade do depósito minerável do local alvo do foguete.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionTotalQuantity</Key>
-      <Value>A quantidade total estimada de recursos disponíveis para mineração no local-alvo do foguete no Mapa Espacial.</Value>
+      <Value>A quantidade total estimada de recursos disponíveis para mineração no local do mapa espacial alvo do foguete.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionMinedQuantity</Key>
-      <Value>O número total de recursos que foram extraídos no local-alvo do foguete no Mapa Espacial.</Value>
+      <Value>O número total de recursos que foram minerados no local do mapa espacial alvo do foguete.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionBestContactFilter</Key>
@@ -26420,7 +26858,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionCelestialHash</Key>
-      <Value>O hash atual do objeto celeste alvo.</Value>
+      <Value>O hash atual do objeto celeste selecionado.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionEntityState</Key>
@@ -26436,23 +26874,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionDrillCondition</Key>
-      <Value>A condição atual da cabeça da broca no slot de perfuração deste dispositivo. Expressa como uma proporção entre 0 e 1.</Value>
+      <Value>A condição atual da cabeça de perfuração no slot de perfuração deste dispositivo. Expressa como uma proporção entre 0 e 1.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionVelocityX</Key>
-      <Value>A velocidade mundial da entidade no eixo X</Value>
+      <Value>A velocidade da entidade no mundo no eixo X</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionVelocityY</Key>
-      <Value>A velocidade mundial da entidade no eixo Y</Value>
+      <Value>A velocidade da entidade no mundo no eixo Y</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionVelocityZ</Key>
-      <Value>A velocidade mundial da entidade no eixo Z</Value>
+      <Value>A velocidade da entidade no mundo no eixo Z</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionOrientation</Key>
-      <Value>A orientação da entidade em graus em um plano, em relação à origem norte</Value>
+      <Value>A orientação da entidade em graus em um plano em relação à origem norte</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionForward</Key>
@@ -26460,39 +26898,39 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionReferenceId</Key>
-      <Value>Identificador de referência exclusivo para este objeto</Value>
+      <Value>Identificador de referência único para este objeto</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionGet</Key>
-      <Value>Usando o dispositivo fornecido, tenta ler o valor da pilha no endereço fornecido e o coloca no registro.</Value>
+      <Value>Usando o dispositivo fornecido, tenta ler o valor da pilha no endereço informado e o armazena no registrador.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionClr</Key>
-      <Value>Limpa a memória da pilha para o dispositivo fornecido.</Value>
+      <Value>Limpa a memória da pilha do dispositivo fornecido.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionClrD</Key>
-      <Value>Busca diretamente o ID do dispositivo fornecido e limpa a memória da pilha desse dispositivo</Value>
+      <Value>Busca diretamente pelo ID do dispositivo fornecido e limpa a memória da pilha desse dispositivo</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionPut</Key>
-      <Value>Usando o dispositivo fornecido, tenta escrever o valor fornecido na pilha no endereço fornecido.</Value>
+      <Value>Usando o dispositivo fornecido, tenta gravar o valor informado na pilha no endereço especificado.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionGetD</Key>
-      <Value>Procura diretamente pelo ID do dispositivo fornecido, tenta ler o valor da pilha no endereço fornecido e o coloca no registro.</Value>
+      <Value>Busca diretamente pelo ID do dispositivo fornecido, tenta ler o valor da pilha no endereço especificado e o armazena no registrador.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionPutD</Key>
-      <Value>Busca diretamente o ID do dispositivo fornecido e tenta gravar o valor fornecido na pilha no endereço fornecido.</Value>
+      <Value>Busca diretamente pelo ID do dispositivo fornecido, tenta gravar o valor informado na pilha no endereço especificado.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionPoke</Key>
-      <Value>Armazena o valor fornecido no endereço fornecido na pilha.</Value>
+      <Value>Armazena o valor informado no endereço especificado na pilha.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionRMap</Key>
-      <Value>Dado um hash de reagente, armazene o hash correspondente do prefab que o dispositivo espera para cumprir o requisito do reagente. Por exemplo, em um torno automático, o hash do Ferro armazenará o hash de ItemIronIngot</Value>
+      <Value>Dado um hash de reagente, armazena o hash do prefab correspondente que o dispositivo espera para atender ao requisito do reagente. Por exemplo, em um torno automático, o hash para Ferro armazenará o hash para ItemIronIngot</Value>
     </Record>
     <Record>
       <Key>FurnaceMeltThing</Key>
@@ -26504,11 +26942,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HeatingFromInternal</Key>
-      <Value>O {LOCAL:Thing} está &lt;color=white&gt;Aquecendo&lt;/color&gt; a partir de {LOCAL:Source} com {LOCAL:Energy}</Value>
+      <Value>O {LOCAL:Thing} está &lt;color=white&gt;Aquecendo&lt;/color&gt; a partir de {LOCAL:Source} a {LOCAL:Energy}</Value>
     </Record>
     <Record>
       <Key>HeatingFromElement</Key>
-      <Value>O {LOCAL:Thing} está &lt;color=white&gt;Aquecendo&lt;/color&gt; a partir de &lt;color=yellow&gt;Element&lt;/color&gt; com {LOCAL:Energy}</Value>
+      <Value>O {LOCAL:Thing} está &lt;color=white&gt;Aquecendo&lt;/color&gt; a partir de &lt;color=yellow&gt;elemento&lt;/color&gt; a {LOCAL:Energy}</Value>
     </Record>
     <Record>
       <Key>CoolantFrozen</Key>
@@ -26524,7 +26962,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CoolingFromInternal</Key>
-      <Value>O {LOCAL:Thing} está &lt;color=white&gt;Resfriando&lt;/color&gt; a partir de {LOCAL:Source} com {LOCAL:Energy}</Value>
+      <Value>O {LOCAL:Thing} está &lt;color=white&gt;Resfriando&lt;/color&gt; a partir de {LOCAL:Source} a {LOCAL:Energy}</Value>
     </Record>
     <Record>
       <Key>DeviceWorldGridBlocked</Key>
@@ -26556,7 +26994,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresFrameOrGround</Key>
-      <Value>A colocação requer um &lt;color=green&gt;Estrutura&lt;/color&gt; ou chão sólido abaixo para suporte</Value>
+      <Value>A colocação requer uma &lt;color=green&gt;Estrutura&lt;/color&gt; ou solo sólido abaixo para suporte</Value>
     </Record>
     <Record>
       <Key>InvalidAttachmentsDeconstruct</Key>
@@ -26564,7 +27002,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlacementIsNotUmbilicalConnector</Key>
-      <Value>Apenas outro &lt;color=yellow&gt;Umbilical&lt;/color&gt; pode ser conectado a este lado de {LOCAL:Device}</Value>
+      <Value>Apenas outro &lt;color=yellow&gt;Umbilical&lt;/color&gt; pode se conectar a este lado de {LOCAL:Device}</Value>
     </Record>
     <Record>
       <Key>CannotDeconstructLaunchMount</Key>
@@ -26572,23 +27010,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingSpaceMap</Key>
-      <Value>Carregando mapa espacial</Value>
+      <Value>Carregando dados do mapa espacial</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingRockets</Key>
-      <Value>Carregando foguetes</Value>
+      <Value>Carregando dados dos foguetes</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingRocketLog</Key>
-      <Value>Carregando registro do foguete</Value>
+      <Value>Carregando dados do registro de foguetes</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeRocketLog</Key>
-      <Value>Carregando registro do foguete</Value>
+      <Value>Carregando dados do registro de foguetes</Value>
     </Record>
     <Record>
       <Key>CantPaintSameColour</Key>
-      <Value>O {LOCAL:Thing} já está pintado {LOCAL:Color}</Value>
+      <Value>O(A) {LOCAL:Thing} já está pintado(a) com a cor {LOCAL:Color}</Value>
     </Record>
     <Record>
       <Key>AtmosphereVolume</Key>
@@ -26612,7 +27050,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StirlingOperatingEfficiency</Key>
-      <Value>Eficiência Operacional Ambiental</Value>
+      <Value>Eficiência de operação do ambiente</Value>
     </Record>
     <Record>
       <Key>StirlingPressureDifferential</Key>
@@ -26624,11 +27062,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StirlingHelperText</Key>
-      <Value>Conecte as redes de tubulação de entrada e saída e forneça a rede de entrada com gás quente de alta pressão</Value>
+      <Value>Conecte as redes de tubos de entrada e saída e forneça à rede de entrada gás quente em alta pressão</Value>
     </Record>
     <Record>
       <Key>StirlingMissingCanister</Key>
-      <Value>&lt;color=red&gt;Faltando um &lt;color=green&gt;Cilindro de Gás&lt;/color&gt; Para gás de trabalho&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;Falta um &lt;color=green&gt;Cilindro de Gás&lt;/color&gt; para o gás de trabalho&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>SlotContainsItem</Key>
@@ -26636,15 +27074,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingIsFastenedIn</Key>
-      <Value>Fixado {LOCAL:Slot} sobre {LOCAL:Parent}</Value>
+      <Value>Fixado em {LOCAL:Slot} em {LOCAL:Parent}</Value>
     </Record>
     <Record>
       <Key>ThingIsState</Key>
-      <Value>O {LOCAL:Thing} é {LOCAL:State}</Value>
+      <Value>O(A) {LOCAL:Thing} está {LOCAL:State}</Value>
     </Record>
     <Record>
       <Key>LaunchTowerAlreadyExists</Key>
-      <Value>Um &lt;color=green&gt;Torre de lançamento&lt;/color&gt; já existe nesta grade</Value>
+      <Value>Uma &lt;color=green&gt;Torre de lançamento&lt;/color&gt; já existe nesta grade</Value>
     </Record>
     <Record>
       <Key>ProcessingThing</Key>
@@ -26652,11 +27090,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ProduceQuantityOfResource</Key>
-      <Value>Irá produzir {LOCAL:Quantity} x {LOCAL:Resource} de {LOCAL:Thing}</Value>
+      <Value>Produzirá {LOCAL:Quantity} x {LOCAL:Resource} de {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>ProduceResource</Key>
-      <Value>Irá produzir {LOCAL:Size} de {LOCAL:Resource}</Value>
+      <Value>Produzirá {LOCAL:Size} de {LOCAL:Resource}</Value>
     </Record>
     <Record>
       <Key>ProduceAnotherResource</Key>
@@ -26684,7 +27122,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AnimalVeryHungry</Key>
-      <Value>Com muita fome</Value>
+      <Value>Muito faminto</Value>
     </Record>
     <Record>
       <Key>AnimalOld</Key>
@@ -26692,7 +27130,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AnimalVeryOld</Key>
-      <Value>Ficando muito velho</Value>
+      <Value>Muito envelhecido</Value>
     </Record>
     <Record>
       <Key>UnviableEgg</Key>
@@ -26740,11 +27178,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TradeItemNutrition</Key>
-      <Value>Fornece {LOCAL:Value} nutrição</Value>
+      <Value>Fornece {LOCAL:Value} de nutrição</Value>
     </Record>
     <Record>
       <Key>TradeItemQuantity</Key>
-      <Value>Quantidade é {LOCAL:ItemAsUnit}</Value>
+      <Value>A quantidade é {LOCAL:ItemAsUnit}</Value>
     </Record>
     <Record>
       <Key>TradeItemParent</Key>
@@ -26752,11 +27190,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TradeItemContains</Key>
-      <Value>O {LOCAL:OrePrefab} contém o seguinte</Value>
+      <Value>O(A) {LOCAL:OrePrefab} contém o seguinte</Value>
     </Record>
     <Record>
       <Key>TradeRatio</Key>
-      <Value>{LOCAL:GasType} proporção deve ser {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+      <Value>A proporção de {LOCAL:GasType} deve ser {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>TradeQuantity</Key>
@@ -26764,7 +27202,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TradeDecay</Key>
-      <Value>Decadência {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+      <Value>Deterioração {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>TradeEnergyRatio</Key>
@@ -26772,7 +27210,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TradeEnergyState</Key>
-      <Value>Estado energético {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+      <Value>Estado de energia {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>DifficultyState</Key>
@@ -26780,15 +27218,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SpeciesState</Key>
-      <Value>Espécies de Jogador {LOCAL:Value}</Value>
+      <Value>Espécies do Jogador {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>TradeChildItem</Key>
-      <Value>Contém um {LOCAL:Item}</Value>
+      <Value>Contém um(a) {LOCAL:Item}</Value>
     </Record>
     <Record>
       <Key>TradeChildItemInSlot</Key>
-      <Value>Contém um {LOCAL:Item} no {LOCAL:Slot} slot</Value>
+      <Value>Contém um(a) {LOCAL:Item} no slot {LOCAL:Slot}</Value>
     </Record>
     <Record>
       <Key>TradeTemperatureBetween</Key>
@@ -26796,7 +27234,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Unpack</Key>
-      <Value>Descompacte</Value>
+      <Value>Desembalar</Value>
     </Record>
     <Record>
       <Key>FlowRate</Key>
@@ -26820,7 +27258,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Frozen</Key>
-      <Value>Líquidos ou gases Congelamento</Value>
+      <Value>Congelamento de líquidos ou gases</Value>
     </Record>
     <Record>
       <Key>PresenceOfLiquid</Key>
@@ -26828,7 +27266,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlacementConnectingNeedsFuselage</Key>
-      <Value>Colocação que se conecta a um &lt;color=green&gt;Rocket&lt;/color&gt; precisa estar dentro de um &lt;color=green&gt;Fuselagem&lt;/color&gt; ou através &lt;color=green&gt;Umbilical&lt;/color&gt;</Value>
+      <Value>A colocação que se conecta a um &lt;color=green&gt;foguete&lt;/color&gt; precisa estar dentro de uma &lt;color=green&gt;Fuselagem&lt;/color&gt; ou via &lt;color=green&gt;Umbilical&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>MachinePressureDifferential</Key>
@@ -26836,11 +27274,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PassedMolesInput1</Key>
-      <Value>Taxa de transferência de entrada 1 &lt;color=green&gt;{LOCAL:PressureDelta} mol&lt;/color&gt;</Value>
+      <Value>Vazão da entrada 1 &lt;color=green&gt;{LOCAL:PressureDelta} mol&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>PassedMolesInput2</Key>
-      <Value>Taxa de transferência de entrada 2 &lt;color=green&gt;{LOCAL:PressureDelta} mol&lt;/color&gt;</Value>
+      <Value>Vazão da entrada 2 &lt;color=green&gt;{LOCAL:PressureDelta} mol&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>HeatExchangerEnergyTransfer</Key>
@@ -26848,11 +27286,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>FlowRateStatus</Key>
-      <Value>A taxa de fluxo é &lt;color={LOCAL:color}&gt;{LOCAL:flowRate}&lt;/color&gt;</Value>
+      <Value>A taxa de fluxo está &lt;color={LOCAL:color}&gt;{LOCAL:flowRate}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>IncreasePipeVolumePressure</Key>
-      <Value>Aumentar a capacidade ou pressão da rede de tubulação de saída</Value>
+      <Value>Aumente a capacidade ou a pressão da rede de tubos de saída</Value>
     </Record>
     <Record>
       <Key>PressureCloseToTarget</Key>
@@ -26872,11 +27310,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>InvalidAdjacentFuselagePlacement</Key>
-      <Value>Os foguetes não podem ser colocados próximos uns dos outros</Value>
+      <Value>Foguetes não podem ser posicionados próximos uns dos outros</Value>
     </Record>
     <Record>
       <Key>InvalidFuselageDeconstruct</Key>
-      <Value>A fuselagem não pode ser desconstruída, pois é de suporte &lt;color=green&gt;{LOCAL:Other}&lt;/color&gt;</Value>
+      <Value>A fuselagem não pode ser desmontada pois está sustentando &lt;color=green&gt;{LOCAL:Other}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>Left</Key>
@@ -26892,7 +27330,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>UmbilicalError</Key>
-      <Value>Não é possível abrir quando em estado de erro</Value>
+      <Value>Não é possível abrir quando está em estado de erro</Value>
     </Record>
     <Record>
       <Key>DestinationCode</Key>
@@ -26904,7 +27342,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TheGround</Key>
-      <Value>o chão</Value>
+      <Value>O Solo</Value>
     </Record>
     <Record>
       <Key>Unknown</Key>
@@ -26912,7 +27350,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>GroundVelocity</Key>
-      <Value>Velocidade do solo</Value>
+      <Value>Velocidade no solo</Value>
     </Record>
     <Record>
       <Key>TransferVelocity</Key>
@@ -26928,15 +27366,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TimeToImpact</Key>
-      <Value>&lt;color=red&gt;Impact&lt;/color&gt;:</Value>
+      <Value>&lt;color=red&gt;Impacto&lt;/color&gt;:</Value>
     </Record>
     <Record>
       <Key>TimeToArrest</Key>
-      <Value>Hora de prender:</Value>
+      <Value>Desaceleração:</Value>
     </Record>
     <Record>
       <Key>TimeToArrival</Key>
-      <Value>ETA:</Value>
+      <Value>Tempo estimado de chegada:</Value>
     </Record>
     <Record>
       <Key>RocketMapIconTooltip</Key>
@@ -26952,15 +27390,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketAdjacentFail</Key>
-      <Value>Os foguetes não podem ser colocados próximos uns dos outros</Value>
+      <Value>Foguetes não podem ser posicionados próximos uns dos outros</Value>
     </Record>
     <Record>
       <Key>FuselageRequiresLaunchMount</Key>
-      <Value>A fuselagem deve ser construída sobre um suporte de lançamento totalmente construído</Value>
+      <Value>A fuselagem deve ser construída sobre uma base de lançamento totalmente construída</Value>
     </Record>
     <Record>
       <Key>PlacementRequiresMultipleSupportPillars</Key>
-      <Value>A colocação requer uma estrutura de suporte abaixo de cada pilar. &lt;color=yellow&gt;{0}&lt;/color&gt; fora de &lt;color=green&gt;{1}&lt;/color&gt; suportes estão presentes.</Value>
+      <Value>A colocação requer uma estrutura de suporte abaixo de cada pilar. &lt;color=yellow&gt;{0}&lt;/color&gt; de &lt;color=green&gt;{1}&lt;/color&gt; suportes estão presentes.</Value>
     </Record>
     <Record>
       <Key>MiningHeadSpeedMultiplierTooltip</Key>
@@ -26976,7 +27414,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>MiningHeadHealthMultiplierTooltip</Key>
-      <Value>Multiplicador de Saúde: &lt;color=yellow&gt;{LOCAL:Multiplier}&lt;/color&gt;</Value>
+      <Value>Multiplicador de integridade: &lt;color=yellow&gt;{LOCAL:Multiplier}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>MiningHeadPowerConsuptionSpeedTooltip</Key>
@@ -26984,11 +27422,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ChartFailure</Key>
-      <Value>Não há mais pontos de navegação para mapear</Value>
+      <Value>Não há mais pontos de navegação para traçar</Value>
     </Record>
     <Record>
       <Key>MiningFailure</Key>
-      <Value>Nenhum depósito minerável disponível</Value>
+      <Value>Não há depósitos mineráveis disponíveis</Value>
     </Record>
     <Record>
       <Key>NoRocketMiner</Key>
@@ -26996,11 +27434,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NoRocketScanner</Key>
-      <Value>Este foguete não possui dispositivo de digitalização</Value>
+      <Value>Este foguete não possui dispositivo de varredura</Value>
     </Record>
     <Record>
       <Key>SurveyCompleted</Key>
-      <Value>Pesquisa concluída em {Local:DisplayName}</Value>
+      <Value>Levantamento concluído em {Local:DisplayName}</Value>
     </Record>
     <Record>
       <Key>SiteCapacityReached</Key>
@@ -27008,15 +27446,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SelectRocketCurrentLocationTooltip</Key>
-      <Value>Selecione a localização atual do foguete</Value>
+      <Value>Selecionar a localização atual do foguete</Value>
     </Record>
     <Record>
       <Key>DepositIsDepleted</Key>
-      <Value>O depósito está esgotado. Não é possível minerar mais recursos neste local.</Value>
+      <Value>O depósito está esgotado. Nenhum recurso adicional pode ser minerado neste local.</Value>
     </Record>
     <Record>
       <Key>EstimatedTotalResources</Key>
-      <Value>Recursos totais estimados </Value>
+      <Value>Recursos totais estimados</Value>
     </Record>
     <Record>
       <Key>TotalMass</Key>
@@ -27040,7 +27478,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketDryMassTotal</Key>
-      <Value>Massa Seca Total </Value>
+      <Value>Massa total sem combustível</Value>
     </Record>
     <Record>
       <Key>DepositDensityToolTip</Key>
@@ -27048,7 +27486,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>MineOperationSpeedToolTip</Key>
-      <Value>Velocidade de Mineração </Value>
+      <Value>Velocidade de Mineração</Value>
     </Record>
     <Record>
       <Key>RichnessOperationAmountToolTip</Key>
@@ -27056,23 +27494,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CollectionQuantityToolTip</Key>
-      <Value>Rendimento Básico </Value>
+      <Value>Rendimento base</Value>
     </Record>
     <Record>
       <Key>DensityReductionToolTip</Key>
-      <Value>Degradação de densidade </Value>
+      <Value>Degradação da densidade</Value>
     </Record>
     <Record>
       <Key>RichnessReductionToolTip</Key>
-      <Value>Degradação de Riqueza </Value>
+      <Value>Degradação da Riqueza</Value>
     </Record>
     <Record>
       <Key>DepositSizeToolTip</Key>
-      <Value>O tamanho aumenta a produção base e reduz a taxa de degradação da densidade e da riqueza</Value>
+      <Value>O tamanho aumenta o rendimento base e reduz a taxa de degradação da densidade e da riqueza</Value>
     </Record>
     <Record>
       <Key>DepositRichnessToolTip</Key>
-      <Value>A riqueza do recurso fornece um aumento temporário no rendimento</Value>
+      <Value>A riqueza fornece um aumento de curto prazo no rendimento</Value>
     </Record>
     <Record>
       <Key>NoDownlinkFound</Key>
@@ -27092,7 +27530,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketEnginePlacementRule</Key>
-      <Value>{LOCAL:Device} deve ser colocado dentro de um &lt;color=yellow&gt;Fuselagem do motor&lt;/color&gt;</Value>
+      <Value>{LOCAL:Device} deve ser colocado dentro de uma &lt;color=yellow&gt;Fuselagem de motor&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>RocketCurrentLocation</Key>
@@ -27128,7 +27566,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketNextLocationETA</Key>
-      <Value>Tempo até o Próximo Local</Value>
+      <Value>Tempo estimado para o próximo local</Value>
     </Record>
     <Record>
       <Key>RocketNextLocation</Key>
@@ -27140,11 +27578,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketDryMass</Key>
-      <Value>Massa Seca</Value>
+      <Value>Massa sem combustível</Value>
     </Record>
     <Record>
       <Key>RocketThrust</Key>
-      <Value>Impulso</Value>
+      <Value>Empuxo</Value>
     </Record>
     <Record>
       <Key>RocketWeight</Key>
@@ -27152,7 +27590,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketThrustToWeight</Key>
-      <Value>Empuxo para Peso</Value>
+      <Value>Relação empuxo/peso</Value>
     </Record>
     <Record>
       <Key>RocketOxidizer</Key>
@@ -27168,7 +27606,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CentrifugeSpinningError</Key>
-      <Value>Erro! {LOCAL:Thing} é necessário parar a máquina para exportar</Value>
+      <Value>Erro! {LOCAL:Thing} deve estar parado antes de poder exportar</Value>
     </Record>
     <Record>
       <Key>CentrifugeFull</Key>
@@ -27176,19 +27614,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketMinerHasNoDrillHead</Key>
-      <Value>{LOCAL:Thing} Sem cabeça da broca de mineração</Value>
+      <Value>{LOCAL:Thing} não possui cabeça de perfuração</Value>
     </Record>
     <Record>
       <Key>RocketMinerDrillHeadWornOut</Key>
-      <Value>{LOCAL:Thing} Cabeça da broca de mineração está desgastada</Value>
+      <Value>A cabeça de perfuração de {LOCAL:Thing} está desgastada</Value>
     </Record>
     <Record>
       <Key>RocketScannerHasNoScanningHead</Key>
-      <Value>{LOCAL:Thing} Sem cabeça de scanner</Value>
+      <Value>{LOCAL:Thing} não possui cabeça de varredura</Value>
     </Record>
     <Record>
       <Key>RocketScannerHeadWornOut</Key>
-      <Value>{LOCAL:Thing} Cabeça do scanner está desgastado</Value>
+      <Value>A cabeça de varredura de {LOCAL:Thing} está desgastado</Value>
     </Record>
     <Record>
       <Key>DeviceOffOrUnpowered</Key>
@@ -27196,7 +27634,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ExportSlotBlocked</Key>
-      <Value>{LOCAL:Thing} O slot de exportação está bloqueado</Value>
+      <Value>O slot de exportação de {LOCAL:Thing} está bloqueado</Value>
     </Record>
     <Record>
       <Key>Charted</Key>
@@ -27224,27 +27662,27 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SurveyDifficultyTooltip</Key>
-      <Value>Total de pontos necessários para completar o levantamento desta posição</Value>
+      <Value>Total de pontos necessários para mapear completamente este local</Value>
     </Record>
     <Record>
       <Key>DiscoverDifficultyTooltip</Key>
-      <Value>Total de pontos necessários para descobrir uma nova posição</Value>
+      <Value>Total de pontos necessários para descobrir um novo local</Value>
     </Record>
     <Record>
       <Key>ChartDifficultyTooltip</Key>
-      <Value>Total de pontos necessários para mapear completamente esta posição</Value>
+      <Value>Total de pontos necessários para mapear completamente este local</Value>
     </Record>
     <Record>
       <Key>SitesDiscoveredTooltip</Key>
-      <Value>Locais descobertos nesta posição</Value>
+      <Value>Locais descobertos neste local</Value>
     </Record>
     <Record>
       <Key>NavPointsChartedTooltip</Key>
-      <Value>Pontos de navegação mapeados nesta posição</Value>
+      <Value>Pontos de navegação mapeados neste local</Value>
     </Record>
     <Record>
       <Key>SurveyProgressTooltip</Key>
-      <Value>Total de pontos de levantamento gerados nesta posição</Value>
+      <Value>Total de pontos de levantamento gerados neste local</Value>
     </Record>
     <Record>
       <Key>DiscoverProgressTooltip</Key>
@@ -27252,7 +27690,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ChartProgressTooltip</Key>
-      <Value>Total de pontos do mapa gerados nesta posição</Value>
+      <Value>Total de pontos de mapeamento gerados neste local</Value>
     </Record>
     <Record>
       <Key>RocketLogArrived</Key>
@@ -27268,7 +27706,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketLogOutOfBattery</Key>
-      <Value>{LOCAL:DisplayName} Um novo ponto de navegação foi mapeado</Value>
+      <Value>{LOCAL:DisplayName} esgotou suas baterias</Value>
     </Record>
     <Record>
       <Key>RocketLogCharted</Key>
@@ -27292,11 +27730,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ImportCountTooltip</Key>
-      <Value>Contagem de importação</Value>
+      <Value>Quantidade importada</Value>
     </Record>
     <Record>
       <Key>ExportCountTooltip</Key>
-      <Value>Contagem de exportação</Value>
+      <Value>Quantidade exportada</Value>
     </Record>
     <Record>
       <Key>TooltipInternalQuantity</Key>
@@ -27312,7 +27750,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ToolRequiredToClose</Key>
-      <Value>&lt;color=green&gt;{Local:Tool}&lt;/color&gt; obrigado a fechar</Value>
+      <Value>&lt;color=green&gt;{Local:Tool}&lt;/color&gt; necessário para fechar</Value>
     </Record>
     <Record>
       <Key>RocketTowerPlacementRule</Key>
@@ -27320,11 +27758,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>FailedToLoadGameData</Key>
-      <Value>Falha ao carregar dados do jogo em {LOCAL:Path}</Value>
+      <Value>Falha ao carregar os dados do jogo em {LOCAL:Path}</Value>
     </Record>
     <Record>
       <Key>RocketFuselageHasInternals</Key>
-      <Value>Não é possível desconstruir a fuselagem, pois ela contém componentes internos</Value>
+      <Value>Não é possível desmontar a fuselagem pois contém componentes internos</Value>
     </Record>
     <Record>
       <Key>On</Key>
@@ -27340,19 +27778,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketMineActionInfo</Key>
-      <Value>Minerador: {LOCAL:OnOff}, Cabeça Mineradora: {LOCAL:HeadQuality}, Próxima Produção: {LOCAL:Yield} Minério</Value>
+      <Value>Minerador: {LOCAL:OnOff}, Cabeça Mineradora: {LOCAL:HeadQuality}, Próximo rendimento: {LOCAL:Yield} Minério</Value>
     </Record>
     <Record>
       <Key>RocketScanNoHeadInfo</Key>
-      <Value>O scanner está inoperante porque não há cabeçote de digitalização conectado.</Value>
+      <Value>O scanner está inoperante devido à ausência de uma cabeça de varredura instalada.</Value>
     </Record>
     <Record>
       <Key>RocketMineNoHeadInfo</Key>
-      <Value>O minerador está inoperante por não ter uma cabeça de perfuração acoplada.</Value>
+      <Value>O minerador está inoperante devido à ausência de uma cabeça de perfuração instalada.</Value>
     </Record>
     <Record>
       <Key>RocketNoDataConnection</Key>
-      <Value>Nenhuma conexão da placa-mãe com a aviônico via datalink</Value>
+      <Value>Sem conexão de dados da placa-mãe com a aviônico através do link de dados</Value>
     </Record>
     <Record>
       <Key>RocketNoOperableAvionics</Key>
@@ -27364,7 +27802,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketActionSurveying</Key>
-      <Value>Topografia</Value>
+      <Value>Levantamento</Value>
     </Record>
     <Record>
       <Key>RocketActionDiscovering</Key>
@@ -27372,19 +27810,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RocketActionCharting</Key>
-      <Value>Gráficos</Value>
+      <Value>Mapeamento</Value>
     </Record>
     <Record>
       <Key>RocketActionSurveyProgress</Key>
-      <Value>Progresso da pesquisa</Value>
+      <Value>Progresso do levantamento</Value>
     </Record>
     <Record>
       <Key>RocketActionDiscoverProgress</Key>
-      <Value>Descubra o progresso</Value>
+      <Value>Progresso da descoberta</Value>
     </Record>
     <Record>
       <Key>RocketActionChartProgress</Key>
-      <Value>Progresso do gráfico</Value>
+      <Value>Progresso do mapeamento</Value>
     </Record>
     <Record>
       <Key>RocketActionMiningTotalOre</Key>
@@ -27396,19 +27834,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>VeryHighConfidence</Key>
-      <Value>Muito alto</Value>
+      <Value>Muito alta</Value>
     </Record>
     <Record>
       <Key>HighConfidence</Key>
-      <Value>Alto</Value>
+      <Value>Alta</Value>
     </Record>
     <Record>
       <Key>ModerateConfidence</Key>
-      <Value>Moderado</Value>
+      <Value>Moderada</Value>
     </Record>
     <Record>
       <Key>LowConfidence</Key>
-      <Value>Baixo</Value>
+      <Value>Baixa</Value>
     </Record>
     <Record>
       <Key>NoConfidence</Key>
@@ -27416,7 +27854,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AutoLandNoConfidence</Key>
-      <Value>&lt;color=red&gt;Pouso abortado!&lt;/color&gt; O Auto-Land não consegue garantir pouso seguro</Value>
+      <Value>&lt;color=red&gt;Pouso abortado!&lt;/color&gt; O pouso automático não tem confiança em alcançar sucesso no pouso</Value>
     </Record>
     <Record>
       <Key>LandingBeginAltitudeToolTip</Key>
@@ -27432,7 +27870,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ConnectedRocketAvionics</Key>
-      <Value>Aviônica: {LOCAL:Avionics}</Value>
+      <Value>Aviônico: {LOCAL:Avionics}</Value>
     </Record>
     <Record>
       <Key>ConnectedRocketUplinks</Key>
@@ -27448,7 +27886,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TutorialDisabled</Key>
-      <Value>Os tutoriais foram temporariamente desativados devido a revisões recentes dos sistemas principais do jogo. Se desejar jogar os tutoriais, mude para a versão beta: anterior - pré-fase de mudança</Value>
+      <Value>Os tutoriais foram temporariamente desativados devido a recentes reformulações dos sistemas principais do jogo. Se desejar jogar os tutoriais, mude para a versão beta: anterior - pré-fase de mudança</Value>
     </Record>
     <Record>
       <Key>OkayConfirmation</Key>
@@ -27456,11 +27894,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlayerStatsMoodDeltaState</Key>
-      <Value>Humor é {LOCAL:Delta}</Value>
+      <Value>Humor está {LOCAL:Delta}</Value>
     </Record>
     <Record>
       <Key>PlayerStatsHygieneDeltaState</Key>
-      <Value>Higiene é {LOCAL:Delta}</Value>
+      <Value>Higiene está {LOCAL:Delta}</Value>
     </Record>
     <Record>
       <Key>PlayerStatsTooltipTitle</Key>
@@ -27476,19 +27914,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlayerStatsStable</Key>
-      <Value>não aumentando</Value>
+      <Value>estável</Value>
     </Record>
     <Record>
       <Key>PlayerStatsLowHygiene</Key>
-      <Value>baixa higiene</Value>
+      <Value>higiene baixa</Value>
     </Record>
     <Record>
       <Key>PlayerStatsHygieneOk</Key>
-      <Value>boa higiene</Value>
+      <Value>higiene boa</Value>
     </Record>
     <Record>
       <Key>PlayerStatsRoomStateOk</Key>
-      <Value>em um quarto</Value>
+      <Value>em um cômodo</Value>
     </Record>
     <Record>
       <Key>PlayerStatsSuitOrHelmetOn</Key>
@@ -27500,11 +27938,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlayerStatsFoodQuality</Key>
-      <Value>Qualidade alimentar {LOCAL:Quality}</Value>
+      <Value>Qualidade da comida {LOCAL:Quality}</Value>
     </Record>
     <Record>
       <Key>DrinkingFountainNotEnoughWater</Key>
-      <Value>Não há água suficiente</Value>
+      <Value>Água insuficiente</Value>
     </Record>
     <Record>
       <Key>DrinkingFountainWaterTooHot</Key>
@@ -27516,7 +27954,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DrinkingFountainWaterPolluted</Key>
-      <Value>A água é imprópria para beber</Value>
+      <Value>A água não é própria para consumo</Value>
     </Record>
     <Record>
       <Key>DrinkFromFountain</Key>
@@ -27528,7 +27966,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ShowerNotEnoughWater</Key>
-      <Value>Não há água suficiente</Value>
+      <Value>Água insuficiente</Value>
     </Record>
     <Record>
       <Key>ShowerWaterTooHot</Key>
@@ -27540,7 +27978,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ShowerWaterPolluted</Key>
-      <Value>A água está poluída</Value>
+      <Value>A água está contaminada</Value>
     </Record>
     <Record>
       <Key>ShowerOutputFull</Key>
@@ -27548,7 +27986,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ShowerNetworksInvalid</Key>
-      <Value>Tubulações não conectadas</Value>
+      <Value>Tubos não conectados</Value>
     </Record>
     <Record>
       <Key>SanitizerActionMessage</Key>
@@ -27560,7 +27998,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StationpediaLowFoodQuality</Key>
-      <Value>Baixo (-25% capacidade de hidratação)</Value>
+      <Value>Baixa (-25% de hidratação)</Value>
     </Record>
     <Record>
       <Key>StationpediaOkFoodQuality</Key>
@@ -27568,15 +28006,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StationpediaGoodFoodQuality</Key>
-      <Value>Melhor (+25% capacidade de hidratação)</Value>
+      <Value>Boa (+25% de hidratação)</Value>
     </Record>
     <Record>
       <Key>StationpediaSuperiorFoodQuality</Key>
-      <Value>Melhor (+75% capacidade de hidratação)</Value>
+      <Value>Excelente (+75% de hidratação)</Value>
     </Record>
     <Record>
       <Key>TooltipLowFoodQuality</Key>
-      <Value>Baixo &lt;color=red&gt;-25% hidratação&lt;/color&gt;</Value>
+      <Value>Baixa &lt;color=red&gt;-25% hidratação&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>TooltipOkFoodQuality</Key>
@@ -27584,15 +28022,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TooltipGoodFoodQuality</Key>
-      <Value>Melhor &lt;color=green&gt;+25% hidratação &lt;/color&gt;</Value>
+      <Value>Boa &lt;color=green&gt;+25% hidratação &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>TooltipSuperiorFoodQuality</Key>
-      <Value>Melhor &lt;color=green&gt;+75% hidratação&lt;/color&gt;</Value>
+      <Value>Excelente &lt;color=green&gt;+75% hidratação&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>WaterPurifierCharcoalErrorMsg</Key>
-      <Value>Requer &lt;color=green&gt;{LOCAL:Prefab}&lt;/color&gt; no Slot de Importação para Operar</Value>
+      <Value>Requer &lt;color=green&gt;{LOCAL:Prefab}&lt;/color&gt; no slot de entrada para operar</Value>
     </Record>
     <Record>
       <Key>UpgradeConstructionAction</Key>
@@ -27600,15 +28038,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>EntityCantEnterNonEntitySlot</Key>
-      <Value>Objeto não pode ser colocado neste slot</Value>
+      <Value>Entidade não pode entrar em slot não destinado a entidades</Value>
     </Record>
     <Record>
       <Key>CantEnterOwnHierarchy</Key>
-      <Value>Não é possível inserir sua própria hierarquia</Value>
+      <Value>Não pode entrar na própria hierarquia</Value>
     </Record>
     <Record>
       <Key>CantPickUp</Key>
-      <Value>Isso não pode ser captado</Value>
+      <Value>Este item não pode ser coletado</Value>
     </Record>
     <Record>
       <Key>CantEnterSelf</Key>
@@ -27616,7 +28054,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>IsAttachedToBench</Key>
-      <Value>Não é possível mover-se - primeiro desconecte-se do banco</Value>
+      <Value>Não pode mover - desanexe da bancada primeiro</Value>
     </Record>
     <Record>
       <Key>CantNestBoxes</Key>
@@ -27624,7 +28062,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>MagazineTypeDoesNotMatch</Key>
-      <Value>O tipo de revista não corresponde</Value>
+      <Value>O tipo de carregador não corresponde</Value>
     </Record>
     <Record>
       <Key>SlotDoesNotAllowDragging</Key>
@@ -27644,11 +28082,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LinkAndDropExplosive</Key>
-      <Value>Conectar e Soltar</Value>
+      <Value>Vincular e soltar</Value>
     </Record>
     <Record>
       <Key>UnableToLinkExplosive</Key>
-      <Value>Este dispositivo já está conectado a outro Detonador Remoto</Value>
+      <Value>Este dispositivo já está vinculado a outro detonador remoto</Value>
     </Record>
     <Record>
       <Key>StructureNetworkTypeNone</Key>
@@ -27660,7 +28098,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StructureNetworkTypePipe</Key>
-      <Value>Cano</Value>
+      <Value>Tubo</Value>
     </Record>
     <Record>
       <Key>StructureNetworkTypeChute</Key>
@@ -27716,7 +28154,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>MachineTierMax</Key>
-      <Value>Máx</Value>
+      <Value>Máximo</Value>
     </Record>
     <Record>
       <Key>RoomTypeUndefined</Key>
@@ -27744,11 +28182,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ButtonSearch</Key>
-      <Value>Procurar</Value>
+      <Value>Buscar</Value>
     </Record>
     <Record>
       <Key>HeaderCreativeSpawnMenu</Key>
-      <Value>Menu de geração criativa</Value>
+      <Value>Menu de criação criativa</Value>
     </Record>
     <Record>
       <Key>EnabledLower</Key>
@@ -27780,15 +28218,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyValueStatusAre</Key>
-      <Value>{LOCAL:Type} são {LOCAL:Status}</Value>
+      <Value>{LOCAL:Type} estão {LOCAL:Status}</Value>
     </Record>
     <Record>
       <Key>AltitudeDescription</Key>
-      <Value>A altitude que o foguete está acima da superfície do planeta. -1 se o foguete estiver no espaço.</Value>
+      <Value>A altitude do foguete acima da superfície do planeta. -1 se o foguete estiver no espaço.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionTargetSlotIndex</Key>
-      <Value>O índice de slot com o qual o dispositivo de destino tentará interagir</Value>
+      <Value>O índice do slot do dispositivo alvo com o qual este dispositivo tentará interagir</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionTargetPrefabHash</Key>
@@ -27808,19 +28246,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StructureIsCompleted</Key>
-      <Value>Deve ser totalmente construído</Value>
+      <Value>Deve estar totalmente construído</Value>
     </Record>
     <Record>
       <Key>StructureCanManufacture</Key>
-      <Value>Estado da Construção: pode fabricar</Value>
+      <Value>BuildState pode fabricar</Value>
     </Record>
     <Record>
       <Key>PlantRecordCondition</Key>
-      <Value>{LOCAL:StatusType} registro deve ser {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+      <Value>O registro de {LOCAL:StatusType} deve ser {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>PlantStatusCondition</Key>
-      <Value>{LOCAL:StatusType} o status deve ser {LOCAL:Value}</Value>
+      <Value>O status de {LOCAL:StatusType} deve ser {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>GrowthStateCondition</Key>
@@ -27828,11 +28266,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PreSpawnedCondition</Key>
-      <Value>Foi pré-gerado: {LOCAL:Value}</Value>
+      <Value>Foi gerado previamente: {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>HumanCondition</Key>
-      <Value>O jogador é {LOCAL:IsOnline} {LOCAL:State}</Value>
+      <Value>O jogador está {LOCAL:IsOnline} {LOCAL:State}</Value>
     </Record>
     <Record>
       <Key>TemperatureComparableCondition</Key>
@@ -27840,11 +28278,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializeTerraformingValues</Key>
-      <Value>Carregando Valores de Terraformação</Value>
+      <Value>Carregando dados de terraformação</Value>
     </Record>
     <Record>
       <Key>LoadingScreenDeserializingWorldObjectives</Key>
-      <Value>Carregando Objetivos do Mundo</Value>
+      <Value>Carregando dados dos objetivos do mundo</Value>
     </Record>
     <Record>
       <Key>LoadingScreenLoadingTerrain</Key>
@@ -27868,7 +28306,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenApplyingMinedMinables</Key>
-      <Value>Recursos Mineráveis</Value>
+      <Value>Aplicando alterações de recursos mineráveis</Value>
     </Record>
     <Record>
       <Key>LoadingScreenPreparingTerrain</Key>
@@ -27881,15 +28319,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ScriptEditorLoadTitle</Key>
-      <Value>Instruções de carregamento</Value>
+      <Value>Carregar instruções</Value>
     </Record>
     <Record>
       <Key>ScriptEditorLoadDescription</Key>
-      <Value>Tem certeza de que deseja carregar este script no seu computador? Ele substituirá o que estiver na tela.</Value>
+      <Value>Tem certeza de que deseja carregar este script no seu computador? Isso substituirá o que está na tela.</Value>
     </Record>
     <Record>
       <Key>ScriptEditorOverwriteTitle</Key>
-      <Value>Instruções de substituição</Value>
+      <Value>Sobrescrever instruções</Value>
     </Record>
     <Record>
       <Key>ScriptEditorOverwriteDescription</Key>
@@ -27897,7 +28335,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ScriptEditorPublishTitle</Key>
-      <Value>Instruções de publicação</Value>
+      <Value>Publicar instruções</Value>
     </Record>
     <Record>
       <Key>ScriptEditorPublishDescription</Key>
@@ -27909,7 +28347,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ScriptEditorDeleteDescription</Key>
-      <Value>Tem certeza de que deseja excluir este script da biblioteca? Você não pode desfazer isso.</Value>
+      <Value>Tem certeza de que deseja excluir este script da biblioteca? Esta ação não pode ser desfeita.</Value>
     </Record>
     <Record>
       <Key>ScriptEditorInstructionCancelled</Key>
@@ -27921,7 +28359,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>InputVolumeRatio</Key>
-      <Value>Plenitude de entrada &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
+      <Value>Capacidade da entrada &lt;color=green&gt;{0}%&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>RoboticArmBusy</Key>
@@ -27933,7 +28371,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RoboticArmCantSetPositionWhenClosed</Key>
-      <Value>Não é possível mudar de posição quando ignorado</Value>
+      <Value>Não é possível alterar a posição quando em bypass</Value>
     </Record>
     <Record>
       <Key>RoboticArmJunction</Key>
@@ -27941,11 +28379,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RoboticArmTargetIndex</Key>
-      <Value>Índice alvo {LOCAL:Index}</Value>
+      <Value>Índice de destino {LOCAL:Index}</Value>
     </Record>
     <Record>
       <Key>RoboticArmCargoSetSlotIndex</Key>
-      <Value>Índice de slots {LOCAL:Index}</Value>
+      <Value>Índice do slots {LOCAL:Index}</Value>
     </Record>
     <Record>
       <Key>RoboticArmSetStartingDock</Key>
@@ -27969,7 +28407,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RoboticArmDocked</Key>
-      <Value>Ancorado</Value>
+      <Value>Acoplado</Value>
     </Record>
     <Record>
       <Key>RoboticArmFaceBlocked</Key>
@@ -27977,11 +28415,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RoboticArmFaceBlockedInfo</Key>
-      <Value>Ação do braço bloqueada. Não há espaço suficiente para o braço se estender</Value>
+      <Value>Ação do braço bloqueada. Espaço insuficiente para o braço se estender</Value>
     </Record>
     <Record>
       <Key>RoboticArmIdle</Key>
-      <Value>Parado</Value>
+      <Value>Inativo</Value>
     </Record>
     <Record>
       <Key>RoboticArmPosition</Key>
@@ -28009,7 +28447,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TargetSlotInfo</Key>
-      <Value>Segmentação {LOCAL:SlotName} {LOCAL:Occupant}</Value>
+      <Value>Alvejando {LOCAL:SlotName} {LOCAL:Occupant}</Value>
     </Record>
     <Record>
       <Key>TargetSlot</Key>
@@ -28025,11 +28463,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>BuildNetworkCondition</Key>
-      <Value>Construa um {LOCAL:NetworkType} rede</Value>
+      <Value>Construa uma rede de {LOCAL:NetworkType}</Value>
     </Record>
     <Record>
       <Key>TraderContactCondition</Key>
-      <Value>{LOCAL:Action} um contato comercial</Value>
+      <Value>{LOCAL:Action} um contato de comerciante</Value>
     </Record>
     <Record>
       <Key>ResolveAction</Key>
@@ -28041,7 +28479,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LandAction</Key>
-      <Value>Terra</Value>
+      <Value>Pousar</Value>
     </Record>
     <Record>
       <Key>PressureCondition</Key>
@@ -28049,11 +28487,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CreateThingCondition</Key>
-      <Value>Crie um {LOCAL:Thing}</Value>
+      <Value>Criar um(a) {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>PartialPressureCondition</Key>
-      <Value>Pressão parcial {LOCAL:GasType} deve ser {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+      <Value>A pressão parcial de {LOCAL:GasType} deve ser {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>HelperHintExpand</Key>
@@ -28061,11 +28499,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintCollapse</Key>
-      <Value>Colapso</Value>
+      <Value>Recolher</Value>
     </Record>
     <Record>
       <Key>HelperHintDismiss</Key>
-      <Value>Liberar</Value>
+      <Value>Dispensar</Value>
     </Record>
     <Record>
       <Key>HelperHintRestore</Key>
@@ -28077,7 +28515,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintCreateThingCondition</Key>
-      <Value>Crie um &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt;</Value>
+      <Value>Criar um(a) &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt;</Value>
     </Record>
     <Record>
       <Key>HelperHintContainsItem</Key>
@@ -28085,11 +28523,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintContainsItemInSlot</Key>
-      <Value>Contém um &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt; no &lt;color=orange&gt;{LOCAL:SlotName}&lt;/color&gt; slot</Value>
+      <Value>Contém um &lt;link="{LOCAL:PrefabName}"&gt;&lt;color=green&gt;{LOCAL:DisplayName}&lt;/color&gt;&lt;/link&gt; no slot &lt;color=orange&gt;{LOCAL:SlotName}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>HelperHintRoomState</Key>
-      <Value>Em um &lt;color=yellow&gt;{LOCAL:RoomType}&lt;/color&gt; sala</Value>
+      <Value>Em uma sala &lt;color=yellow&gt;{LOCAL:RoomType}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>HelperHintAnyRoomState</Key>
@@ -28105,11 +28543,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintRatioMustBeComparison</Key>
-      <Value>proporção deve ser {LOCAL:ComparisonOperator} </Value>
+      <Value>A proporção deve ser {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintMustBeComparison</Key>
-      <Value>deve ser {LOCAL:ComparisonOperator} </Value>
+      <Value>Deve ser {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintPartialPressure</Key>
@@ -28117,11 +28555,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintDecayComparison</Key>
-      <Value>Decadência {LOCAL:ComparisonOperator} </Value>
+      <Value>Decaimento {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintSpeciesState</Key>
-      <Value>Espécies de Jogador </Value>
+      <Value>Espécie do jogador </Value>
     </Record>
     <Record>
       <Key>HelperHintContainsComparison</Key>
@@ -28129,7 +28567,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>HelperHintHumanCondition</Key>
-      <Value>pendência</Value>
+      <Value>Todo</Value>
     </Record>
     <Record>
       <Key>HelperHintInCellCondition</Key>
@@ -28137,11 +28575,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NoRocketCargoBay</Key>
-      <Value>Este foguete não tem compartimento de carga para implantação</Value>
+      <Value>Este foguete não possui compartimento de carga para implantação</Value>
     </Record>
     <Record>
       <Key>RocketDeployActionInfo</Key>
-      <Value>Baía de carga: {LOCAL:OnOff}, Estado: {LOCAL:Open}, Progresso: {LOCAL:Progress}</Value>
+      <Value>Compartimento de Carga: {LOCAL:OnOff}, Estado: {LOCAL:Open}, Progresso: {LOCAL:Progress}</Value>
     </Record>
     <Record>
       <Key>TutorialYouDied</Key>
@@ -28153,7 +28591,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RoomState</Key>
-      <Value>em um {LOCAL:RoomType}</Value>
+      <Value>em uma {LOCAL:RoomType}</Value>
     </Record>
     <Record>
       <Key>BrutalStartConditionDescription</Key>
@@ -28169,7 +28607,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ObjectiveIsCompletedCondition</Key>
-      <Value>{LOCAL:Objective} deve primeiro ser concluído</Value>
+      <Value>{LOCAL:Objective} deve ser concluído primeiro</Value>
     </Record>
     <Record>
       <Key>InteractableMustBeOn</Key>
@@ -28189,7 +28627,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>InteractableMustBePowered</Key>
-      <Value>Deve ser alimentado</Value>
+      <Value>Deve estar energizado</Value>
     </Record>
     <Record>
       <Key>InteractableMustBeUnpowered</Key>
@@ -28209,7 +28647,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Infinity</Key>
-      <Value>Infinidade</Value>
+      <Value>Infinito</Value>
     </Record>
     <Record>
       <Key>SurvivalPropertyCondition</Key>
@@ -28225,11 +28663,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CarbonDioxideRatio</Key>
-      <Value>Razão de dióxido de carbono &lt;color=green&gt;{LOCAL:Ratio}&lt;/color&gt;</Value>
+      <Value>Proporção de Dióxido de Carbono &lt;color=green&gt;{LOCAL:Ratio}&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>StressedToFailure</Key>
-      <Value>&lt;color=red&gt; Estressado ao fracasso &lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt; Sob estresse até a falha &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>MachineTemperature</Key>
@@ -28237,7 +28675,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DispersalTowerNotEnoughPressure</Key>
-      <Value>A pressão interna deve estar acima {LOCAL:Target}</Value>
+      <Value>A pressão interna deve estar acima de {LOCAL:Target}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticCreativeMode</Key>
@@ -28249,11 +28687,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticWeatherDamage</Key>
-      <Value>Danos climáticos</Value>
+      <Value>Dano climático</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticCalmWeather</Key>
-      <Value>Tempo calmo</Value>
+      <Value>Clima calmo</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticMetabolism</Key>
@@ -28269,7 +28707,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticBreathing</Key>
-      <Value>Respirando</Value>
+      <Value>Respiração</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticRobotBattery</Key>
@@ -28277,7 +28715,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticMoonReduction</Key>
-      <Value>Redução da lua</Value>
+      <Value>Redução lunar</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticHygeineReduction</Key>
@@ -28285,7 +28723,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticFoodDecay</Key>
-      <Value>Decadência alimentar</Value>
+      <Value>Deterioração de alimentos</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticJetpackConsumption</Key>
@@ -28297,11 +28735,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticLungDamage</Key>
-      <Value>Danos pulmonares</Value>
+      <Value>Dano pulmonar</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticOfflineMetabolism</Key>
-      <Value>Metabolismo off-line</Value>
+      <Value>Metabolismo offline</Value>
     </Record>
     <Record>
       <Key>DownlinkConnectedToNothing</Key>
@@ -28313,7 +28751,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceParentRocket</Key>
-      <Value>Pai Principal {LOCAL:RocketName}</Value>
+      <Value>Nave mãe {LOCAL:RocketName}</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceRocketMass</Key>
@@ -28325,11 +28763,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AvionicsDeviceRocketThrustToWeight</Key>
-      <Value>Empuxo para Peso {LOCAL:ThrustToWeight}</Value>
+      <Value>Relação empuxo/peso {LOCAL:ThrustToWeight}</Value>
     </Record>
     <Record>
       <Key>MolesPerHour</Key>
-      <Value>{LOCAL:Value} Moles por hora</Value>
+      <Value>{LOCAL:Value} mols por hora</Value>
     </Record>
     <Record>
       <Key>InhaledGassesStationpedia</Key>
@@ -28353,11 +28791,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>StartGameFailurePromptNameExists</Key>
-      <Value>Já existe um save com este nome</Value>
+      <Value>Já existe um salvamento com esse nome</Value>
     </Record>
     <Record>
       <Key>OverwriteConfirmation</Key>
-      <Value>Substituir</Value>
+      <Value>Sobrescrever</Value>
     </Record>
     <Record>
       <Key>JetpackStabilizerState</Key>
@@ -28369,11 +28807,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>MiningDrillModeFlatten</Key>
-      <Value>Achatar</Value>
+      <Value>Aplainar</Value>
     </Record>
     <Record>
       <Key>FlashLightModeLowPower</Key>
-      <Value>Baixo consumo de energia</Value>
+      <Value>Baixa potência</Value>
     </Record>
     <Record>
       <Key>FlashLightModeHighPower</Key>
@@ -28385,11 +28823,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>VentDirectionOutward</Key>
-      <Value>Externo</Value>
+      <Value>Para fora</Value>
     </Record>
     <Record>
       <Key>InputPanelSelectRecipe</Key>
-      <Value>Selecione a receita</Value>
+      <Value>Selecionar receita</Value>
     </Record>
     <Record>
       <Key>GasTemperature</Key>
@@ -28405,15 +28843,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ThingHealth</Key>
-      <Value>Saúde {LOCAL:Value}</Value>
+      <Value>Integridade {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>CannotPlaceOutsideRocket</Key>
-      <Value>Não pode ser colocado fora de um foguete</Value>
+      <Value>Não é possível colocar fora de um foguete</Value>
     </Record>
     <Record>
       <Key>DamageTypeDecay</Key>
-      <Value>Decadência</Value>
+      <Value>Decomposição</Value>
     </Record>
     <Record>
       <Key>DamageTypeDamage</Key>
@@ -28425,7 +28863,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AdvancedComposterCurrentlyProcessing</Key>
-      <Value>Atualmente processando...</Value>
+      <Value>Processando...</Value>
     </Record>
     <Record>
       <Key>AdvancedComposterItemsLeftToGrind</Key>
@@ -28437,11 +28875,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CableAnalyserActual</Key>
-      <Value>Real {LOCAL:Value}</Value>
+      <Value>Atual {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>CableAnalyserRequired</Key>
-      <Value>Obrigatório {LOCAL:Value}</Value>
+      <Value>Necessário {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>CableAnalyserPotential</Key>
@@ -28457,7 +28895,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>EntityWheezing</Key>
-      <Value>Chiado</Value>
+      <Value>Ofegante</Value>
     </Record>
     <Record>
       <Key>EntityHungry</Key>
@@ -28477,7 +28915,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AirControlStatusDraught</Key>
-      <Value>RASCUNHO</Value>
+      <Value>CORRENTE DE AR</Value>
     </Record>
     <Record>
       <Key>AirControlStatusError</Key>
@@ -28502,7 +28940,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AirControlModeDraught</Key>
-      <Value>Rascunho</Value>
+      <Value>Corrente de ar</Value>
     </Record>
     <Record>
       <Key>AirControlModePressure</Key>
@@ -28518,11 +28956,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CircuitboardMakeSlaveLabel</Key>
-      <Value>Definir como Escravo</Value> <!-- Master/Slave: hierarquia de controle -->
+      <Value>TORNAR ESCRAVO</Value> <!-- Master/Slave: hierarquia de controle -->
     </Record>
     <Record>
       <Key>InputPanelFilterDevicesTitle</Key>
-      <Value>Dispositivos de filtro</Value>
+      <Value>Filtrar dispositivos</Value>
     </Record>
     <Record>
       <Key>SolarControlPanelsCount</Key>
@@ -28602,7 +29040,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PowerControlPower</Key>
-      <Value>FORÇA</Value>
+      <Value>ENERGIA</Value>
     </Record>
     <Record>
       <Key>PowerControlPowerOff</Key>
@@ -28622,51 +29060,51 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateInwardsLimited</Key>
-      <Value>Limitada para dentro</Value>
+      <Value>Entrada limitada</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateInwardsVeryLimited</Key>
-      <Value>Internamente muito limitado</Value>
+      <Value>Entrada muito limitada</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateOutwardsLimited</Key>
-      <Value>Externamente Limitado</Value>
+      <Value>Saída limitada</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateOutwardsVeryLimited</Key>
-      <Value>Externamente muito limitado</Value>
+      <Value>Saída muito limitada</Value>
     </Record>
     <Record>
       <Key>FlowIndicatorStateIdle</Key>
-      <Value>Parado</Value>
+      <Value>Inativo</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizingInternal</Key>
-      <Value>Pressurização Interna</Value>
+      <Value>Pressurizando interno</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizedInternal</Key>
-      <Value>Pressurizado Interno</Value>
+      <Value>Interno pressurizado</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStateDepressurizingInternal</Key>
-      <Value>Despressurizando Internamente</Value>
+      <Value>Despressurizando interno</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizingExternal</Key>
-      <Value>Pressurização Externa</Value>
+      <Value>Pressurizando externo</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStatePressurizedExternal</Key>
-      <Value>Pressurizado Externo</Value>
+      <Value>Externo pressurizado</Value>
     </Record>
     <Record>
       <Key>AdvancedAirlockStateDepressurizingExternal</Key>
-      <Value>Despressurização Externa</Value>
+      <Value>Despressurizando externo</Value>
     </Record>
     <Record>
       <Key>AirlockControlStateDisabled</Key>
-      <Value>Desabilitado</Value>
+      <Value>Desativado</Value>
     </Record>
     <Record>
       <Key>AirlockControlStatePressurizing</Key>
@@ -28686,11 +29124,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>AirlockControlStateOverrideCount</Key>
-      <Value>Substituir contagem</Value>
+      <Value>Quantidade de sobrescritas</Value>
     </Record>
     <Record>
       <Key>AirlockControlStateOverride</Key>
-      <Value>Substituir</Value>
+      <Value>Sobrescrever</Value>
     </Record>
     <Record>
       <Key>IngotTypeBasic</Key>
@@ -28726,7 +29164,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RecipeTemperatureRangeSeporator</Key>
-      <Value> para </Value>
+      <Value> até </Value>
     </Record>
     <Record>
       <Key>ConstructableInRocketsTrue</Key>
@@ -28766,11 +29204,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ConnectionRoleWaste</Key>
-      <Value>Desperdício</Value>
+      <Value>Resíduo</Value>
     </Record>
     <Record>
       <Key>NetworkTypePipe</Key>
-      <Value>Cano</Value>
+      <Value>Tubo</Value>
     </Record>
     <Record>
       <Key>NetworkTypePower</Key>
@@ -28790,7 +29228,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NetworkTypePipeLiquid</Key>
-      <Value>Líquido para tubos</Value>
+      <Value>Tubo de líquido</Value>
     </Record>
     <Record>
       <Key>NetworkTypeLandingPad</Key>
@@ -28802,7 +29240,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NetworkTypeRoboticArmRail</Key>
-      <Value>Trilho de braço robótico</Value>
+      <Value>Trilho do braço robótico</Value>
     </Record>
     <Record>
       <Key>NetworkTypePowerAndData</Key>
@@ -28822,7 +29260,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DaylightSensorGridSunlight</Key>
-      <Value>Grade de luz solar {LOCAL:Value}</Value>
+      <Value>Luz solar da grade {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>DaylightSensorSolarAngle</Key>
@@ -28846,47 +29284,47 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DaylightSensorModeError</Key>
-      <Value>Modo {LOCAL:Value} ERROR</Value>
+      <Value>Modo {LOCAL:Value} ERRO</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateEmpty</Key>
-      <Value>Vazio</Value>
+      <Value>Vazia</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateCritical</Key>
-      <Value>Crítico</Value>
+      <Value>Crítica</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateLow</Key>
-      <Value>Baixo</Value>
+      <Value>Baixa</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateVeryLow</Key>
-      <Value>Muito baixo</Value>
+      <Value>Muito baixa</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateMedium</Key>
-      <Value>Médio</Value>
+      <Value>Média</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateHigh</Key>
-      <Value>Alto</Value>
+      <Value>Alta</Value>
     </Record>
     <Record>
       <Key>BatteryCellStateFull</Key>
-      <Value>Completo</Value>
+      <Value>Cheia</Value>
     </Record>
     <Record>
       <Key>CommsMotherboardCurrentlyTrading</Key>
-      <Value>Atualmente negociando</Value>
+      <Value>Negociando no momento</Value>
     </Record>
     <Record>
       <Key>CommsMotherboardTimeTillResolveUnknown</Key>
-      <Value>Tempo até resolver desconhecido</Value>
+      <Value>Tempo para conclusão desconhecido</Value>
     </Record>
     <Record>
       <Key>CommsMotherboardSecondsTillResolve</Key>
-      <Value>{LOCAL:Value}s até resolver</Value>
+      <Value>{LOCAL:Value} s para conclui</Value>
     </Record>
     <Record>
       <Key>CommsMotherboardDegreesFromContact</Key>
@@ -28898,7 +29336,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CommsMotherboardContacted</Key>
-      <Value>Contatado</Value>
+      <Value>Contato estabelecido</Value>
     </Record>
     <Record>
       <Key>CommsTerminalInterrogationInProgressAnother</Key>
@@ -28914,7 +29352,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CommTerminalEstimatedSecondsUntilInterrogated</Key>
-      <Value>estimado {LOCAL:Value}s até interrogado</Value>
+      <Value>estimado {LOCAL:Value}s até ser interrogado</Value>
     </Record>
     <Record>
       <Key>CommsTerminalDishInUse</Key>
@@ -28922,27 +29360,27 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CommsTerminalLandTraderButton</Key>
-      <Value>Terra</Value>
+      <Value>Pousar</Value>
     </Record>
     <Record>
       <Key>CommsTerminalContactingComplete</Key>
-      <Value>Contato concluído, continue ligando para o comerciante</Value>
+      <Value>Contato concluído, prossiga para chamar o comerciante</Value>
     </Record>
     <Record>
       <Key>CommsTerminalContactRequires</Key>
-      <Value>O contato requer {LOCAL:Value}W para {LOCAL:Time}s</Value>
+      <Value>O contato requer {LOCAL:Value}W por {LOCAL:Time}s</Value>
     </Record>
     <Record>
       <Key>CommsTerminalDishBusy</Key>
-      <Value>Antena parabólica de maior potência ocupada. Aguarde ou use um terminal de comunicação separado.</Value>
+      <Value>Antena parabólica de maior potência ocupada. Aguarde ou utilize outro Terminal de Comunicações.</Value>
     </Record>
     <Record>
       <Key>CommsTerminalInterrogateButton</Key>
-      <Value>Interrogar</Value>
+      <Value>Escanear</Value>
     </Record>
     <Record>
       <Key>CommsTerminalNotEnoughEnergy</Key>
-      <Value>Não há energia suficiente direcionada ao contato para interrogar</Value>
+      <Value>Energia insuficiente direcionada ao contato para escanear</Value>
     </Record>
     <Record>
       <Key>TradeActionCharge</Key>
@@ -28958,7 +29396,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LogicReadWrite</Key>
-      <Value>Ler Escrever</Value>
+      <Value>Ler/Escrever</Value>
     </Record>
     <Record>
       <Key>MemoryAccessNone</Key>
@@ -28990,7 +29428,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ReEntryProfileMax</Key>
-      <Value>Max</Value>
+      <Value>Máximo</Value>
     </Record>
     <Record>
       <Key>SpaceMapUknownDeltaV</Key>
@@ -29062,15 +29500,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>TimeLengthEon</Key>
-      <Value>era</Value>
+      <Value>Era (tempo longo)</Value>
     </Record>
     <Record>
       <Key>TimeLengthAeons</Key>
-      <Value>eras</Value>
+      <Value>Eras (tempo longo)</Value>
     </Record>
     <Record>
       <Key>FabricatorFindRecipe</Key>
-      <Value>Encontre receita</Value>
+      <Value>Encontrar receita</Value>
     </Record>
     <Record>
       <Key>FabricatorUknownRecipe</Key>
@@ -29078,7 +29516,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>EntityDeceased</Key>
-      <Value>Morto/Morta</Value>
+      <Value>Falecido(a)</Value>
     </Record>
     <Record>
       <Key>EntityUnconsious</Key>
@@ -29086,19 +29524,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>LoadingScreenRequestingCharacter</Key>
-      <Value>Personagem Solicitante</Value>
+      <Value>Solicitando personagem</Value>
     </Record>
     <Record>
       <Key>SaveInvalidTerrainDataModified</Key>
-      <Value>Dados salvos do terreno inválidos. Este mundo foi modificado.</Value>
+      <Value>Dados de terreno inválidos. Este mundo foi modificado.</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticMoodReduction</Key>
-      <Value>Redução do humor</Value>
+      <Value>Redução de humor</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticHygieneReduction</Key>
-      <Value>Redução da higiene</Value>
+      <Value>Redução de higiene</Value>
     </Record>
     <Record>
       <Key>PressToExit</Key>
@@ -29110,7 +29548,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ResetTerrainButton</Key>
-      <Value>Reiniciar Terreno</Value>
+      <Value>Redefinir terreno</Value>
     </Record>
     <Record>
       <Key>CancelLoadButton</Key>
@@ -29138,23 +29576,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ProportionalGainDescription</Key>
-      <Value>O ganho proporcional do controlador PID. Este valor determina quão agressivamente o controlador responde ao erro entre o ponto de ajuste e a variável do processo. Um valor mais alto resulta em uma resposta mais rápida, mas pode causar ultrapassagem ou instabilidade.</Value>
+      <Value>O ganho proporcional do controlador PID. Este valor determina quão agressivamente o controlador responde ao erro entre o ponto de ajuste e a variável do processo. Um valor mais alto resulta em uma resposta mais rápida, mas pode levar a overshoot ou instabilidade.</Value>
     </Record>
     <Record>
       <Key>IntegralGainDescription</Key>
-      <Value>O ganho integral do controlador PID. Este valor determina quanto o controlador responde ao erro acumulado ao longo do tempo. Um valor mais alto pode ajudar a eliminar erros em regime permanente, mas também pode causar oscilações ou instabilidade.</Value>
+      <Value>O ganho integral do controlador PID. Este valor determina o quanto o controlador responde ao erro acumulado ao longo do tempo. Um valor mais alto pode ajudar a eliminar erros em regime permanente, mas também pode levar a oscilações ou instabilidade.</Value>
     </Record>
     <Record>
       <Key>DerivativeGainDescription</Key>
-      <Value>O ganho derivativo do controlador PID. Este valor determina quanto o controlador responde à taxa de variação do erro. Um valor mais alto pode ajudar a amortecer oscilações e melhorar a estabilidade, mas também pode amplificar ruídos.</Value>
+      <Value>O ganho derivativo do controlador PID. Este valor determina o quanto o controlador responde à taxa de variação do erro. Um valor mais alto pode ajudar a reduzir oscilações e melhorar a estabilidade, mas também pode amplificar ruídos.</Value>
     </Record>
     <Record>
       <Key>ResetDescription</Key>
-      <Value>Redefine o estado interno do controlador PID, limpando qualquer erro acumulado e reiniciando a saída para zero. Isso é útil para começar do zero ou se recuperar de um estado instável.</Value>
+      <Value>Redefine o estado interno do controlador PID, limpando qualquer erro acumulado e redefinindo a saída para zero. Isso é útil para iniciar novamente ou recuperar de um estado instável.</Value>
     </Record>
     <Record>
       <Key>SetpointDescription</Key>
-      <Value>O valor desejado que o controlador PID busca atingir. Este é o valor-alvo da variável do processo, e o controlador ajustará sua saída para minimizar a diferença entre o ponto de ajuste e a variável do processo.</Value>
+      <Value>O valor desejado que o controlador PID busca alcançar. Este é o valor alvo para a variável do processo, e o controlador ajustará sua saída para minimizar a diferença entre o ponto de ajuste e a variável do processo.</Value>
     </Record>
     <Record>
       <Key>MinimumDescription</Key>
@@ -29162,23 +29600,23 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>NetworkFaultDescription</Key>
-      <Value>A rede conectada está apresentando uma falha, como um rompimento de tubulação ou outro tipo de defeito.</Value>
+      <Value>A rede conectada está apresentando uma falha, como um rompimento de tubulação ou outro tipo de problema.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionMaturityRatio</Key>
-      <Value>Indica o quão próxima a planta está da maturidade, representada como uma fração entre 0 e 1, sendo 1 o ponto em que está madura e pronta para a colheita.</Value>
+      <Value>Indica o quanto a planta está próxima da maturidade, representado como uma fração entre 0 e 1, sendo 1 madura e pronta para colheita.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionSeedingRatio</Key>
-      <Value>Indica o quão próxima a planta está da fase de produção de sementes, representada como uma fração entre 0 e 1, sendo 1 o ponto em que está produzindo sementes e irá fornecê-las quando colhida.</Value>
+      <Value>Indica o quanto a planta está próxima de produzir sementes, representado como uma fração entre 0 e 1, sendo 1 pronta para gerar sementes ao ser colhida.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionBdnvl</Key>
-      <Value>Fará um desvio para a linha “a” se o dispositivo fornecido não for válido para uma instrução de carregamento do tipo lógico especificado..</Value>
+      <Value>Fará um desvio para a linha “a” se o dispositivo fornecido não for válido para uma instrução de leitura para o tipo lógico especificado.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionBdnvs</Key>
-      <Value>Fará um desvio para a linha “a” se o dispositivo fornecido não for válido para uma instrução de armazenamento do tipo lógico especificado.</Value>
+      <Value>Fará um desvio para a linha “a” se o dispositivo fornecido não for válido para uma instrução de escrita para o tipo lógico especificado.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionPow</Key>
@@ -29186,11 +29624,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionExt</Key>
-      <Value>Extrai um campo de bits de “a”, começando em “b” e com comprimento “c”, colocando o resultado no registrador especificado. A carga útil não pode exceder 53 bits de comprimento final.</Value>
+      <Value>Extrai um campo de bits de “a”, começando em “b” e com comprimento “c”, colocando o resultado no registrador especificado. O tamanho final não pode exceder 53 bits.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionIns</Key>
-      <Value>Insere um campo de bits de “a” no registrador especificado, começando em “b” e com comprimento “c”. A carga útil não pode exceder 53 bits de comprimento final.</Value>
+      <Value>Insere um campo de bits de “a” no registrador especificado, começando em “b” e com comprimento “c”. O tamanho final não pode exceder 53 bits.</Value>
     </Record>
     <Record>
       <Key>ScriptDescriptionLerp</Key>
@@ -29214,7 +29652,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>IceCrusherHeating</Key>
-      <Value>Operação desacelerada enquanto aquece até a temperatura alvo de {LOCAL:Temperature}</Value>
+      <Value>Operação reduzida durante o aquecimento até a temperatura alvo de {LOCAL:Temperature}</Value>
     </Record>
     <Record>
       <Key>IceCrusherIndicatorHeat</Key>
@@ -29222,7 +29660,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>IceCrusherIndicatorIdle</Key>
-      <Value>Ocioso</Value>
+      <Value>Inativo</Value>
     </Record>
     <Record>
       <Key>IceCrusherAtmosFull</Key>
@@ -29242,7 +29680,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CryoLiquidVolumeTooLow</Key>
-      <Value>O volume do líquido criogênico deve estar acima de {LOCAL:Volume}</Value>
+      <Value>O volume do líquido criogênico deve ser maior que {LOCAL:Volume}</Value>
     </Record>
     <Record>
       <Key>CryoLiquidTemperatureTooHigh</Key>
@@ -29258,7 +29696,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SleeperState</Key>
-      <Value>Status do Dormitório</Value>
+      <Value>Status da cápsula de sono</Value>
     </Record>
     <Record>
       <Key>SleeperMetabolicSuspension</Key>
@@ -29286,7 +29724,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PatchingRecipe</Key>
-      <Value>{LOCAL:ModName} está ajustando a receita para {LOCAL:PrefabName}</Value>
+      <Value>{LOCAL:ModName} está modificando a receita de {LOCAL:PrefabName}</Value>
     </Record>
     <Record>
       <Key>UnknownMod</Key>
@@ -29298,7 +29736,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>SlotVacant</Key>
-      <Value>Vago</Value>
+      <Value>Vazio</Value>
     </Record>
     <Record>
       <Key>SlotOccupant</Key>
@@ -29306,7 +29744,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceNotForSpecies</Key>
-      <Value>O dispositivo não pode ser ocupado por {LOCAL:Species}</Value>
+      <Value>O dispositivo não pode ser utilizado por {LOCAL:Species}</Value>
     </Record>
     <Record>
       <Key>DeviceNotConstructed</Key>
@@ -29314,7 +29752,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DevicePressureTooHigh</Key>
-      <Value>{LOCAL:Thing} excede sua pressão interna máxima</Value>
+      <Value>{LOCAL:Thing} excede seu limite de pressão interna</Value>
     </Record>
     <Record>
       <Key>RocketGasCollectActionInfo</Key>
@@ -29322,11 +29760,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CryoAtmosphereIsUnsafe</Key>
-      <Value>A atmosfera respirável está insegura</Value>
+      <Value>A atmosfera respirável é insegura</Value>
     </Record>
     <Record>
       <Key>CryoNoAtmosphericInput</Key>
-      <Value>Sem rede de gás respirável</Value>
+      <Value>Sem rede de gases respiráveis</Value>
     </Record>
     <Record>
       <Key>CryoNoLiquidInput</Key>
@@ -29394,11 +29832,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>DeviceConfigMode</Key>
-      <Value>Definir para Configurar</Value>
+      <Value>Definido para Configurar</Value>
     </Record>
     <Record>
       <Key>DeviceOperateMode</Key>
-      <Value>Definir para Operar</Value>
+      <Value>Definido para Operar</Value>
     </Record>
     <Record>
       <Key>SlotItemProvidesPower</Key>
@@ -29414,7 +29852,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ShowerNotInPosition</Key>
-      <Value>{LOCAL:Occupant} não está perto o suficiente do chuveiro</Value>
+      <Value>{LOCAL:Occupant} não está próximo o suficiente para usar o chuveiro</Value>
     </Record>
     <Record>
       <Key>ShowerCannotWhenWearing</Key>
@@ -29426,19 +29864,19 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>CoolingAmount</Key>
-      <Value>Resfriando {LOCAL:Value}</Value>
+      <Value>Resfriamento {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>HeatingAmount</Key>
-      <Value>Aquecendo {LOCAL:Value}</Value>
+      <Value>Aquecimento {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionFreeSlots</Key>
-      <Value>O número de espaços livres disponíveis neste objeto.</Value>
+      <Value>O número de slots livres disponíveis neste objeto.</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionTotalSlots</Key>
-      <Value>O número total de espaços disponíveis neste objeto.</Value>
+      <Value>O número total de slots disponíveis neste objeto.</Value>
     </Record>
     <Record>
       <Key>UnidentifiedPlayer</Key>
@@ -29470,7 +29908,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlayerReviveInCryotube</Key>
-      <Value>Coloque &lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; em um &lt;color=green&gt;Criotubo&lt;/color&gt; para reviver.</Value>
+      <Value>Coloque &lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; em um &lt;color=green&gt;Tubo Criogênico&lt;/color&gt; para reviver.</Value>
     </Record>
     <Record>
       <Key>PlayerRequestHelpUnconscious</Key>
@@ -29478,11 +29916,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>PlayerRequestHelpDead</Key>
-      <Value>{LOCAL:UserName} está morto. Ele(a) solicitou ser revivido(a) em um Criotubo.</Value>
+      <Value>{LOCAL:UserName} está morto. Ele(a) solicitou que seja revivido em um Tubo Criogênico.</Value>
     </Record>
     <Record>
       <Key>FoodContainerDecayReduction</Key>
-      <Value>Decomposição reduzida para {LOCAL:Percent} dentro de {LOCAL:Container}</Value>
+      <Value>Deterioração reduzida para {LOCAL:Percent} dentro de {LOCAL:Container}</Value>
     </Record>
     <Record>
       <Key>DeviceNotClosed</Key>
@@ -29522,15 +29960,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ToolUseSpeed</Key>
-      <Value>Velocidade da Ferramenta</Value>
+      <Value>Velocidade de uso de ferramentas</Value>
     </Record>
     <Record>
       <Key>TradePenalty</Key>
-      <Value>Penalidade de Troca</Value>
+      <Value>Penalidade de negociação</Value>
     </Record>
     <Record>
       <Key>DeviceIsNotOperable</Key>
-      <Value>O dispositivo não pode ser operado</Value>
+      <Value>O dispositivo não está operacional</Value>
     </Record>
     <Record>
       <Key>PumpIntoPad</Key>
@@ -29542,11 +29980,11 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>Inward</Key>
-      <Value>Entrada</Value>
+      <Value>Para dentro</Value>
     </Record>
     <Record>
       <Key>Outward</Key>
-      <Value>Saída</Value>
+      <Value>Para fora</Value>
     </Record>
     <Record>
       <Key>Warning</Key>
@@ -29586,15 +30024,15 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>RobotHasNoBattery</Key>
-      <Value>Falta de bateria</Value>
+      <Value>Bateria ausente</Value>
     </Record>
     <Record>
       <Key>RobotBatteryNoCharge</Key>
-      <Value>A bateria não possui carga</Value>
+      <Value>A bateria está sem carga</Value>
     </Record>
     <Record>
       <Key>PartialPressureN2O</Key>
-      <Value>Pressão Parcial do Óxido Nitroso</Value>
+      <Value>Pressão Parcial de Óxido Nitroso</Value>
     </Record>
     <Record>
       <Key>Refreshed</Key>
@@ -29610,7 +30048,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>UnviableEggNotice</Key>
-      <Value>O {LOCAL:Name} não é viável</Value>
+      <Value>O {LOCAL:Name} é inviável</Value>
     </Record>
     <Record>
       <Key>WillHatchInto</Key>
@@ -29618,7 +30056,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
     <Record>
       <Key>ViableEggNotice</Key>
-      <Value>A incubação requer {LOCAL:MinTemp} a {LOCAL:MaxTemp}</Value>
+      <Value>A incubação requer {LOCAL:MinTemp} até {LOCAL:MaxTemp}</Value>
     </Record>
     <Record>
       <Key>PlayerStateMoodDecreasing</Key>
@@ -29646,7 +30084,7 @@ Status: {LOCAL:StatusValue}</Value>
     </Record>
 	<Record>
       <Key>FertilizedEggProcess</Key>
-      <Value>O {LOCAL:Thing} é {LOCAL:Percent} para eclosão</Value>
+      <Value>O {LOCAL:Thing} está em {LOCAL:Percent} para eclodir</Value>
     </Record>
     <Record>
       <Key>ThisDeviceNotOpen</Key>
