@@ -2504,7 +2504,7 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallInLine</Key>
-      <Value>Small Tank</Value>
+      <Value>Газовая цистерна</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallAir</Key>
@@ -3185,7 +3185,7 @@ Note that transformers operate as data isolators, preventing data flowing into a
     </RecordThing>
     <RecordThing>
       <Key>StructureTankBigInLine</Key>
-      <Value>Large Tank</Value>
+      <Value>Газовая цистерна (Большая)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemPotato</Key>
@@ -5271,12 +5271,12 @@ USE: 'J' to activate; 'space' to fly up; 'left ctrl' to descend; and 'WASD' to m
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallInsulatedInLine</Key>
-      <Value>Tank Small (Insulated)</Value>
+      <Value>Газовая цистерна (Изолированная)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankBigInsulatedInLine</Key>
-      <Value>Tank Big (Insulated)</Value>
+      <Value>Газовая цистерна (Большая изолированная)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitTankInsulated</Key>
@@ -5914,12 +5914,12 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankBigInLine</Key>
-      <Value>Liquid Tank Big</Value>
+      <Value>Жидкостная цистерна (Большая)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankSmallInLine</Key>
-      <Value>Liquid Tank Small</Value>
+      <Value>Жидкостная цистерна</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -5944,12 +5944,12 @@ To use on yourself: put duct tape in your active hand, hold RIGHT MOUSE BUTTON t
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankBigInsulatedInLine</Key>
-      <Value>Liquid Tank Big (Insulated)</Value>
+      <Value>Жидкостная цистерна (Большая изолированная)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankSmallInsulatedInLine</Key>
-      <Value>Liquid Tank Small (Insulated)</Value>
+      <Value>Жидкостная цистерна (Изолированная)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -9668,8 +9668,8 @@ All the rack's pipes must be connected or the unit will show an error state, but
     </RecordThing>
     <RecordThing>
       <Key>ItemOreDetector</Key>
-      <Value>Ore Detector</Value>
-      <Description>A device for locating specific ores. The closer the player is to the selected type of ore, the more indicators will light up.</Description>
+      <Value>Детектор руд</Value>
+      <Description>Устройство для поиска определенных руд. Чем ближе игрок к выбранному типу руды, тем больше индикаторов загорается.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitFermenter</Key>
@@ -16821,6 +16821,231 @@ All the rack's pipes must be connected or the unit will show an error state, but
       <Value>The ratio of {GAS:LiquidOzone} in device's Atmosphere</Value>
     </Record>
     <Record>
+      <Key>LogicTypeRatioHydrogenInput</Key>
+      <Value>The ratio of {GAS:Hydrogen} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenInput2</Key>
+      <Value>The ratio of {GAS:Hydrogen} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenOutput</Key>
+      <Value>The ratio of {GAS:Hydrogen} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenOutput2</Key>
+      <Value>The ratio of {GAS:Hydrogen} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenInput</Key>
+      <Value>The ratio of {GAS:LiquidHydrogen} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenInput2</Key>
+      <Value>The ratio of {GAS:LiquidHydrogen} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenOutput</Key>
+      <Value>The ratio of {GAS:LiquidHydrogen} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenOutput2</Key>
+      <Value>The ratio of {GAS:LiquidHydrogen} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterInput</Key>
+      <Value>The ratio of {GAS:PollutedWater} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterInput2</Key>
+      <Value>The ratio of {GAS:PollutedWater} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterOutput</Key>
+      <Value>The ratio of {GAS:PollutedWater} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterOutput2</Key>
+      <Value>The ratio of {GAS:PollutedWater} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineInput</Key>
+      <Value>The ratio of {GAS:Hydrazine} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineInput2</Key>
+      <Value>The ratio of {GAS:Hydrazine} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineOutput</Key>
+      <Value>The ratio of {GAS:Hydrazine} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineOutput2</Key>
+      <Value>The ratio of {GAS:Hydrazine} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineInput</Key>
+      <Value>The ratio of {GAS:LiquidHydrazine} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineInput2</Key>
+      <Value>The ratio of {GAS:LiquidHydrazine} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineOutput</Key>
+      <Value>The ratio of {GAS:LiquidHydrazine} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineOutput2</Key>
+      <Value>The ratio of {GAS:LiquidHydrazine} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholInput</Key>
+      <Value>The ratio of {GAS:LiquidAlcohol} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholInput2</Key>
+      <Value>The ratio of {GAS:LiquidAlcohol} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholOutput</Key>
+      <Value>The ratio of {GAS:LiquidAlcohol} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholOutput2</Key>
+      <Value>The ratio of {GAS:LiquidAlcohol} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumInput</Key>
+      <Value>The ratio of {GAS:Helium} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumInput2</Key>
+      <Value>The ratio of {GAS:Helium} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumOutput</Key>
+      <Value>The ratio of {GAS:Helium} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumOutput2</Key>
+      <Value>The ratio of {GAS:Helium} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideInput</Key>
+      <Value>The ratio of {GAS:LiquidSodiumChloride} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideInput2</Key>
+      <Value>The ratio of {GAS:LiquidSodiumChloride} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideOutput</Key>
+      <Value>The ratio of {GAS:LiquidSodiumChloride} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideOutput2</Key>
+      <Value>The ratio of {GAS:LiquidSodiumChloride} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolInput</Key>
+      <Value>The ratio of {GAS:Silanol} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolInput2</Key>
+      <Value>The ratio of {GAS:Silanol} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolOutput</Key>
+      <Value>The ratio of {GAS:Silanol} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolOutput2</Key>
+      <Value>The ratio of {GAS:Silanol} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolInput</Key>
+      <Value>The ratio of {GAS:LiquidSilanol} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolInput2</Key>
+      <Value>The ratio of {GAS:LiquidSilanol} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolOutput</Key>
+      <Value>The ratio of {GAS:LiquidSilanol} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolOutput2</Key>
+      <Value>The ratio of {GAS:LiquidSilanol} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidInput</Key>
+      <Value>The ratio of {GAS:HydrochloricAcid} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidInput2</Key>
+      <Value>The ratio of {GAS:HydrochloricAcid} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidOutput</Key>
+      <Value>The ratio of {GAS:HydrochloricAcid} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidOutput2</Key>
+      <Value>The ratio of {GAS:HydrochloricAcid} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidInput</Key>
+      <Value>The ratio of {GAS:LiquidHydrochloricAcid} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidInput2</Key>
+      <Value>The ratio of {GAS:LiquidHydrochloricAcid} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidOutput</Key>
+      <Value>The ratio of {GAS:LiquidHydrochloricAcid} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidOutput2</Key>
+      <Value>The ratio of {GAS:LiquidHydrochloricAcid} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneInput</Key>
+      <Value>The ratio of {GAS:Ozone} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneInput2</Key>
+      <Value>The ratio of {GAS:Ozone} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneOutput</Key>
+      <Value>The ratio of {GAS:Ozone} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneOutput2</Key>
+      <Value>The ratio of {GAS:Ozone} in device's Output2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneInput</Key>
+      <Value>The ratio of {GAS:LiquidOzone} in device's Input Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneInput2</Key>
+      <Value>The ratio of {GAS:LiquidOzone} in device's Input2 Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneOutput</Key>
+      <Value>The ratio of {GAS:LiquidOzone} in device's Output Atmosphere</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneOutput2</Key>
+      <Value>The ratio of {GAS:LiquidOzone} in device's Output2 Atmosphere</Value>
+    </Record>
+
+    <Record>
       <Key>AppearanceButtonRandomize</Key>
       <Value>Случайно</Value>
     </Record>
@@ -19392,7 +19617,7 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     </Record>
     <Record>
       <Key>MoleOxygenDescription</Key>
-      <Value>Смесь кислорода с {GAS:Volatiles} даёт очень взрывоопасную среду, но если поместить её в {THING:H2Combustor}, то можно получить водяной {GAS:Steam}. Кислород создается {LINK:OrganicPage;растениями}, а также в процессе переработки {THING:ItemOxite}. Очень пожароопасен при низких температурах.</Value>
+      <Value>Кислород даёт энергию, которая высвобождается при сгорании смеси с водородом и создает водяной {GAS:Water}. Кислород создается {LINK:OrganicPage;растениями}, а также в процессе переработки {THING:ItemOxite}. Очень пожароопасен при низких температурах.</Value>
     </Record>
     <Record>
       <Key>MoleNitrogenDescription</Key>
@@ -19422,7 +19647,7 @@ Recruiting from civil engineering backgrounds, military and aerospace industries
     </Record>
     <Record>
       <Key>MoleNitrousOxideDescription</Key>
-      <Value>Закись азота (также известный как веселящий газ) - это химическое вещество, вдыхая которое можно потерять сознание. Кроме этого, оксид азота может выступать прекрасным окислителем. {GAS:Volatiles} в его присутствии сгорают быстрее и при более высокой температуре, при этом поджечь такую смесь гораздо проще, чем {GAS:Oxygen}+{Gas:Volatiles} из-за более низкой температуры самовоспламенения. Закись азота можно произвести в {THING:StructureNitrolyzer}е, но это очень энергозатратный процесс.</Value>
+      <Value>Закись азота (также известный как веселящий газ) - это химическое вещество, вдыхая которое можно потерять сознание. Кроме этого, оксид азота может выступать прекрасным окислителем. Летучие газы в его присутствии сгорают быстрее и при более высокой температуре, при этом поджечь такую смесь гораздо проще из-за более низкой температуры самовоспламенения. Закись азота можно произвести в {THING:StructureNitrolyzer}е, но это очень энергозатратный процесс.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidNitrogenDescription</Key>
