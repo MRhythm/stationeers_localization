@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Language xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Português (Brasil)</Name>
-  <Code>PB</Code>  <!--Tradução Marcelo 26/03/2026 Registro de alterações 0.2.6227.27061-->
+  <Code>PB</Code>  <!--Tradução Marcelo 03/07/2026 Registro de alterações v0.2.6403.27689-->
   <Reagents>
     <RecordReagent>
       <Key>Flour</Key>
@@ -974,7 +974,7 @@ A placa possui dois modos: 'Vincular' liga ou desliga todos os dispositivos; 'Al
 	<RecordThing>
 	  <Key>DynamicGasCanisterEmpty</Key>
 	  <Value>Tanque de Gás Portátil</Value>
-	  <Description>Tanques de gás portáteis armazenam gás. Para reabastecer um, parafuse-o em um {THING:StructurePortablesConnector} usando uma {THING:ItemWrench}, e conecte-o a uma rede de tubulação. Tente não ultrapassar 10 MPa de pressão, ou coisas ruins podem acontecer. Quando estiver cheio, você pode reabastecer um {THING:ItemGasCanisterEmpty} conectando-o à seção listrada do tanque. Ou pode ventilar o gás pela válvula de fluxo variável,instalada na parte superior do tanque para dentro de um ambiente e criar uma atmosfera.</Description>
+	  <Description>Tanques de gás portáteis armazenam gás. Para reabastecer um, parafuse-o em um {THING:StructurePortablesConnector} usando uma {THING:ItemWrench}, e conecte-o a uma rede de tubulação. Tente não ultrapassar 10 MPa de pressão, ou coisas ruins podem acontecer. Quando estiver cheio, você pode reabastecer um {THING:ItemGasCanisterEmpty} conectando-o à seção listrada do tanque. Ou pode ventilar o gás pela válvula de fluxo variável, instalada na parte superior do tanque para dentro de um ambiente e criar uma atmosfera.</Description>
 	</RecordThing>
 	<RecordThing>
 	  <Key>DynamicGasCanisterFuel</Key>
@@ -1104,7 +1104,7 @@ Levando o equilíbrio entre potência e peso ao limite, a “nuclear” possui u
 	</RecordThing>
 	<RecordThing>
 	  <Key>ItemBatteryCharger</Key>
-	  <Value>Kit (Carregador de Baterias)</Value>
+	  <Value>Kit (Carregador de Células de Baterias)</Value>
 	  <Description>Este kit produz um {THING:ItemBatteryCharger} com 5 slots.</Description>
 	</RecordThing>
 	<RecordThing>
@@ -1579,7 +1579,7 @@ Para usar em si mesmo: coloque a fita adesiva na mão ativa e segure o BOTÃO DI
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeAnalyizer</Key>
-      <Value>Kit (Analisador de Tubulação)</Value>
+      <Value>Kit (Analisador de Tubulação de Gás)</Value>
       <Description>Este kit cria um {THING:StructurePipeAnalysizer}.</Description>
     </RecordThing>
     <RecordThing>
@@ -1723,6 +1723,26 @@ USO: “J” para ativar; “espaço” para subir; “Ctrl esquerdo” para des
       <Description>Adote o clássico, o clandestino ou o estilo gótico com a tinta preta, que pode ser aplicada à maioria dos itens. Cada lata possui 20 usos.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemSprayCanMetallicObsidian</Key>
+      <Value>Tinta Spray Obsidiana</Value>
+      <Description>Tinta spray metálica na cor obsidiana. Usá-la com uma pistola de pintura aumentará bastante seu rendimento.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicSilver</Key>
+      <Value>Tinta Spray Prata</Value>
+      <Description>Tinta spray metálica na cor prata. Usá-la com uma pistola de pintura aumentará bastante seu rendimento.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicBronze</Key>
+      <Value>Tinta Spray Bronze</Value>
+      <Description>Tinta spray metálica na cor bronze. Usá-la com uma pistola de pintura aumentará bastante seu rendimento.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicGold</Key>
+      <Value>Tinta Spray Ouro</Value>
+      <Description>Tinta spray metálica na cor ouro. Usá-la com uma pistola de pintura aumentará bastante seu rendimento.</Description>
+    </RecordThing>
+    <RecordThing>											 
       <Key>ItemSprayCanBlue</Key>
       <Value>Tinta Spray Azul</Value>
       <Description>Que tipo de cor é o azul? O tipo de cor que diz: “Ei, e eu aqui?”</Description>
@@ -1944,7 +1964,7 @@ Por fim, um APC carrega baterias, que podem fornecer energia de reserva à sub-r
     </RecordThing>
     <RecordThing>
       <Key>StructureAreaPowerControlReversed</Key>
-      <Value>Controle de Energia da Área (Invertido)</Value>
+      <Value>Controle de Energia da Área Invertido</Value>
       <Description>O Controle de Energia da Área (APC) possui três funções principais:  
 Sua principal função é regular o fluxo de energia, garantindo desempenho contínuo de dispositivos e máquinas — especialmente aqueles com consumo variável.  
 Os APCs também criam sub-redes, já que nenhum dispositivo localizado após um APC é visível na rede principal.  
@@ -1985,7 +2005,7 @@ Capaz de armazenar até 3.600.000 W de potência, não há limites práticos par
     </RecordThing>
     <RecordThing>
       <Key>StructureBatteryCharger</Key>
-      <Value>Carregador de Células de Bateria</Value>
+      <Value>Carregador de Células de Baterias</Value>
       <Description>O carregador de bateria de 5 slots da {LINK:Xigo;Xigo} é compatível com {THING:ItemBatteryCell}, {THING:ItemBatteryCellLarge} e {THING:ItemBatteryCellNuclear}, fornecendo até 500 W para qualquer célula conectada. Observação: devido ao design mais antigo, o dispositivo consome uma pequena quantidade de energia (10 W) mesmo quando não está carregando.</Description>
     </RecordThing>
     <RecordThing>
@@ -2298,8 +2318,8 @@ Se houver líquidos presentes no forno, eles permanecerão ali até que o forno 
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankStorage</Key>
-      <Value>Estação de Recarga de Cilindros de Líquido</Value>
-      <Description>Quando conectado a uma rede de tubos de líquidos, a estação de recarga permite reabastecer um {THING:ItemLiquidCanisterEmpty}, além de ler diversos dados atmosféricos a partir do {SLOT:GasCanister}. Ele não aceita cilindros de gás.</Description>
+      <Value>Estação de Recarga de Cilindros para Líquido</Value>
+      <Description>Quando conectado a uma rede de tubos de líquidos, a estação de recarga permite reabastecer um {THING:ItemLiquidCanisterEmpty}, além de ler diversos dados atmosféricos a partir do Cilindro de Líquido. Ele não aceita cilindros de gás.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGlassDoor</Key>
@@ -2349,33 +2369,33 @@ O sensor é ativado sempre que um jogador entra na grade onde ele está instalad
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeAnalysizer</Key>
-      <Value>Analisador de Tubulação</Value>
+      <Value>Analisador de Tubulação de Gás</Value>
       <Description>Supostamente o resultado de um projeto de fim de semana entre pai e filha de um engenheiro entusiasta da {LINK:ExMin;ExMin}, o analisador de tubo é essencialmente uma versão mais avançada do {THING:StructurePipeMeter}.
 Exibindo a pressão interna das redes de tubos, ele também mostra a temperatura e o conteúdo gasoso, podendo ser conectado a um {THING:StructureConsole} ou {THING:StructureComputer} por meio de um sistema de {LINK:LogicPage;Lógica}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCorner</Key>
-      <Value>Tubo Curvo</Value>
+      <Value>Tubo para Gases Curvo</Value>
       <Description>Você pode converter este tubo em um {THING:StructureInsulatedPipeCorner} utilizando {THING:ItemKitInsulatedPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction</Key>
-      <Value>Tubo Cruzado</Value>
+      <Value>Tubo para Gases Cruzado</Value>
       <Description>Você pode converter este tubo em um {THING:StructureInsulatedPipeCrossJunction} utilizando um {THING:ItemKitInsulatedPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction3</Key>
-      <Value>Tubo 3 Vias</Value>
+      <Value>Tubo para Gases 3 Vias</Value>
       <Description>Você pode converter este tubo em um {THING:StructureInsulatedPipeCrossJunction3} utilizando um {THING:ItemKitInsulatedPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction5</Key>
-      <Value>Tubo 5 Vias</Value>
+      <Value>Tubo para Gases 5 Vias</Value>
       <Description>Você pode converter este tubo em um {THING:StructureInsulatedPipeCrossJunction5} utilizando um {THING:ItemKitInsulatedPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction6</Key>
-      <Value>Tubo 6 vias</Value>
+      <Value>Tubo para Gases 6 vias</Value>
       <Description>Você pode converter este tubo em um {THING:StructureInsulatedPipeCrossJunction6} utilizando um {THING:ItemKitInsulatedPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2399,27 +2419,27 @@ A velocidade da troca de calor dependerá do tipo de gás envolvido. A adição 
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeStraight</Key>
-      <Value>Tubo Reto</Value>
+      <Value>Tubo para Gases Reto</Value>
       <Description>Você pode converter este tubo em um {THING:StructureInsulatedPipeStraight} utilizando um {THING:ItemKitInsulatedPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeStraight3</Key>
-      <Value>Tubo Reto 3 unidades</Value>
+      <Value>Tubo para Gases Reto 3 unidades</Value>
       <Description>Versão longa do tubo reto. Essas variantes não podem ser unidas nem aprimoradas com isolamento.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeStraight5</Key>
-      <Value>Tubo Reto 5 unidades</Value>
+      <Value>Tubo para Gases Reto 5 unidades</Value>
       <Description>Versão longa do tubo reto. Essas variantes não podem ser unidas nem aprimoradas com isolamento.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeStraight10</Key>
-      <Value>Tubo Reto 10 unidades</Value>
+      <Value>Tubo para Gases Reto 10 unidades</Value>
       <Description>Versão longa do tubo reto. Essas variantes não podem ser unidas nem aprimoradas com isolamento.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeTJunction</Key>
-      <Value>Tubo em T</Value>
+      <Value>Tubo para Gases em T</Value>
       <Description>Você pode converter este tubo em um {THING:StructureInsulatedPipeTJunction} utilizando um {THING:ItemKitInsulatedPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
@@ -2712,7 +2732,7 @@ Observe que os transformadores também funcionam como isoladores de dados, imped
     </RecordThing>
     <RecordThing>
       <Key>StructureArcFurnace</Key>
-      <Value>Forno de Arco</Value>
+      <Value>Forno de Arco Elétrico</Value>
       <Description>O sistema de fundição mais simples disponível para o {LINK:Stationeers;Stationeer} médio, o forno de arco da {LINK:Recurso;Recurso} foi originalmente desenvolvido nas profundezas do Sistema Solar para ajudar geólogos exploratórios a determinar a pureza de potenciais alvos de mineração em asteroides.  
 Adotado pela {LINK:ODA;ODA}, agora fornece aos Stationeers uma forma de produzir lingotes puros de diversos recursos.  
 O processo de fundição também libera uma variedade de {LINK:GasPage;gases} como subprodutos, principalmente {GAS:Nitrogen}, {GAS:CarbonDioxide}, {GAS:Methane} e {GAS:Oxygen} em diferentes proporções. Esses gases podem ser recuperados do ambiente por filtragem, mas também tornam o forno de arco um risco em ambientes fechados.  
@@ -3007,7 +3027,7 @@ Altamente sensível à temperatura, o oxite começa a derreter assim que é mine
     </RecordThing>
     <RecordThing>
       <Key>ItemBeacon</Key>
-      <Value>Baliza de Localização</Value>
+      <Value>Localizador Portátil</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureToolManufactory</Key>
@@ -3022,7 +3042,7 @@ Atualize o dispositivo usando um {THING:ToolPrinterMod} para desbloquear receita
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerSmallReversed</Key>
-      <Value>Transformador Invertido Pequeno</Value>
+      <Value>Transformador Pequeno Invertido</Value>
       <Description>Os transformadores controlam a potência máxima que flui em uma sub-rede de cabos, evitando sobrecargas nos sistemas {LINK:ElectronicPage;elétricos}. O transformador pequeno pode ser ajustado de 0 a 5000W.
 Observe que os transformadores também atuam como isoladores de dados, impedindo o fluxo de informações entre redes.</Description>
     </RecordThing>
@@ -3693,7 +3713,7 @@ Observe que os transformadores também atuam como isoladores de dados, impedindo
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction4</Key>
-      <Value>Cano Junção em Cruz 4 Vias</Value>
+      <Value>Tubo para Gases Junção em Cruz 4 Vias</Value>
       <Description>Você pode atualizar este cano para um {THING:StructureInsulatedPipeCrossJunction4} usando um {THING:ItemKitInsulatedPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
@@ -4121,7 +4141,7 @@ Observe que os transformadores também atuam como isoladores de dados, impedindo
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamicScrubber</Key>
-      <Value>Kit (Depurador Portátil)</Value>
+      <Value>Kit (Purificador de Ar Portátil)</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemDynamicAirCon</Key>
@@ -4257,12 +4277,12 @@ Saída = 1 exporta os itens internos e, por fim, o item principal.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicCanister</Key>
-      <Value>Kit (Cilindro de Gás Portátil)</Value>
+      <Value>Kit (Tanque de Gás Portátil)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicLiquidCanister</Key>
-      <Value>Kit (Cilindro de Líquido Portátil)</Value>
+      <Value>Kit (Tanque de Líquido Portátil)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -4465,7 +4485,7 @@ USO: “J” para ativar; “Espaço” para subir; “Ctrl esquerdo” para des
     </RecordThing>
     <RecordThing>
       <Key>StructureBasketHoop</Key>
-      <Value>Aro de Basquete</Value>
+      <Value>Cesta de Basquete</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemGasFilterNitrousOxide</Key>
@@ -4765,14 +4785,14 @@ Observe que os transformadores também funcionam como isoladores de dados, imped
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMediumReversed</Key>
-      <Value>Transformador Invertido Médio</Value>
+      <Value>Transformador Médio Invertido</Value>
       <Description>Os transformadores controlam a potência máxima que fluirá por uma sub-rede de cabos, evitando a sobrecarga dos sistemas {LINK:ElectronicPage;elétricos}. 
 Os transformadores médios são usados em instalações maiores, onde mais de 5000W são necessários, podendo ter saída ajustada até o máximo de 25000W.
 Observe que os transformadores também funcionam como isoladores de dados, impedindo o fluxo de dados para qualquer rede além deles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureTransformerMedium(Reversed)</Key>
-      <Value>Transformador Invertido Médio</Value>
+      <Value>Transformador Médio Invertido</Value>
 	  <Description>Os transformadores controlam a potência máxima que fluirá por uma sub-rede de cabos, evitando a sobrecarga dos sistemas {LINK:ElectronicPage;elétricos}. 
 Os transformadores médios são usados em instalações maiores, onde mais de 5000W são necessários, podendo ter saída ajustada até o máximo de 25000W.
 Observe que os transformadores também funcionam como isoladores de dados, impedindo o fluxo de dados para qualquer rede além deles.</Description>
@@ -4970,7 +4990,7 @@ USO: ‘J’ para ativar; ‘Espaço’ para subir; ‘Ctrl Esquerdo’ para des
     <RecordThing>
       <Key>StructureAutoMinerSmall</Key>
       <Value>Minerador Automático Pequeno</Value>
-      <Description>O {LINK:Recurso;Recurso} SquareDig Autominer é uma estrutura que, quando construída, minera um poço vertical de 2x2 até atingir o leito rochoso. O minerador pode ser conectado a um sistema de {LINK:ChutePage;esteiras} e controlado por uma rede lógica. Observe que o minerador produz mais {LINK:OrePage;minério} do que uma {THING:ItemMiningDrill} convencional na mesma área.</Description>
+      <Description>O {LINK:Recurso;Recurso} SquareDig Autominer é uma estrutura que, quando construída, minera um poço vertical de 2x2 até atingir o leito rochoso. O minerador pode ser conectado a um sistema de {LINK:ItemKitChute;Esteiras} e controlado por uma rede lógica. Observe que o minerador produz mais {LINK:OrePage;minério} do que uma {THING:ItemMiningDrill} convencional na mesma área.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAutoMinerSmall</Key>
@@ -4996,57 +5016,57 @@ USO: ‘J’ para ativar; ‘Espaço’ para subir; ‘Ctrl Esquerdo’ para des
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight</Key>
-      <Value>Tubo Isolado Reto</Value>
+      <Value>Tubo para Gases Isolado Reto</Value>
       <Description>Tubos isolados reduzem significativamente a perda de calor dos gases armazenados neles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight3</Key>
-      <Value>Tubo Isolado Reto 3 unidades</Value>
+      <Value>Tubo para Gases Isolado Reto 3 unidades</Value>
       <Description>Variante longa do tubo reto. Essas versões não podem ser unidas. Tubos isolados reduzem significativamente a perda de calor dos gases armazenados neles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight5</Key>
-      <Value>Tubo Isolado Reto 5 unidades</Value>
+      <Value>Tubo para Gases Isolado Reto 5 unidades</Value>
       <Description>Variante longa do tubo reto. Essas versões não podem ser unidas. Tubos isolados reduzem significativamente a perda de calor dos gases armazenados neles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeStraight10</Key>
-      <Value>Tubo Isolado Reto 10 unidades</Value>
+      <Value>Tubo para Gases Isolado Reto 10 unidades</Value>
       <Description>Variante longa do tubo reto. Essas versões não podem ser unidas. Tubos isolados reduzem significativamente a perda de calor dos gases armazenados neles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCorner</Key>
-      <Value>Tubo Isolado Curvo</Value>
+      <Value>Tubo para Gases Isolado Curvo</Value>
       <Description>Tubos isolados reduzem significativamente a perda de calor dos gases armazenados neles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction</Key>
-      <Value>Tubo Isolado Cruzamento</Value>
+      <Value>Tubo para Gases Isolado Cruzamento</Value>
       <Description>Tubos isolados reduzem significativamente a perda de calor dos gases armazenados neles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction3</Key>
-      <Value>Tubo Isolado Junção em 3 Vias</Value>
+      <Value>Tubo para Gases Isolado Junção em 3 Vias</Value>
       <Description>Tubos isolados reduzem significativamente a perda de calor dos gases armazenados neles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction4</Key>
-      <Value>Tubo Isolado Junção em 4 Vias</Value>
+      <Value>Tubo para Gases Isolado Junção em 4 Vias</Value>
       <Description>Tubos isolados reduzem significativamente a perda de calor dos gases armazenados neles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction5</Key>
-      <Value>Tubo Isolado Junção em 5 Vias</Value>
+      <Value>Tubo para Gases Isolado Junção em 5 Vias</Value>
       <Description>Tubos isolados reduzem significativamente a perda de calor dos gases armazenados neles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeCrossJunction6</Key>
-      <Value>Tubo Isolado Junção em 6 Vias</Value>
+      <Value>Tubo para Gases Isolado Junção em 6 Vias</Value>
       <Description>Tubos isolados reduzem significativamente a perda de calor dos gases armazenados neles.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeTJunction</Key>
-      <Value>Tubo Isolado Junção em T</Value>
+      <Value>Tubo para Gases Isolado Junção em T</Value>
       <Description>Tubos isolados reduzem significativamente a perda de calor dos gases armazenados neles.</Description>
     </RecordThing>
     <RecordThing>
@@ -5058,7 +5078,7 @@ Com um {THING:ItemIntegratedCircuit10} no {SLOT:ProgrammableChip}, é possível 
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipe</Key>
-      <Value>Kit (Tubo Isolado)</Value>
+      <Value>Kit (Tubo para Gases Isolado)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5449,6 +5469,11 @@ Com um {THING:ItemIntegratedCircuit10} no {SLOT:ProgrammableChip}, é possível 
       <Description>A primeira peça a ser colocada ao construir um foguete. Os foguetes podem ser construídos ou pousados aqui. Cada Base de Lançamento recebe um slot no Mapa Espacial e é atribuída a ela um Código de Localização.</Description>
     </RecordThing>
     <RecordThing>
+	<Key>StructureLaunchMountOrbital</Key>
+      <Value>Plataforma de Lançamento Orbital</Value>
+      <Description>Uma plataforma de lançamento implantada em órbita baixa usando uma {THING:DynamicOrbitalLaunchMountPayload} transportada em um(a) {THING:StructureRocketLargePayloadBay}. Foguetes podem ser construídos e/ou pousar aqui. Cada Plataforma de Lançamento Orbital receberá uma posição no Mapa Espacial e terá um Código de Localização atribuído.</Description>
+    </RecordThing>
+	<RecordThing>
       <Key>ItemKitAirlockGate</Key>
       <Value>Kit (Porta de Hangar)</Value>
       <Description />
@@ -5620,7 +5645,7 @@ Embora seja otimizada para gerar energia mesmo em mundos com atmosfera rarefeita
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrateMkII</Key>
-      <Value>Kit (Caixa Dinamica Mk II)</Value>
+      <Value>Kit (Caixa Dinâmica Mk II)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5712,62 +5737,62 @@ Embora a turbina eólica seja otimizada para gerar energia (até 500 W) mesmo em
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeLiquid</Key>
-      <Value>Kit (Tubulação de Líquidos)</Value>
+      <Value>Kit (Tubo para Líquidos)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction</Key>
-      <Value>Tubulação de Líquidos Junção Cruzada</Value>
+      <Value>Tubo para Líquidos Junção Cruzada</Value>
       <Description>Você pode aprimorar este tubo para um {THING:StructurePipeInsulatedLiquidCrossJunction} usando um {THING:ItemKitInsulatedLiquidPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidStraight</Key>
-      <Value>Tubulação de Líquidos Reto</Value>
+      <Value>Tubo para Líquidos Reto</Value>
       <Description>Você pode aprimorar este tubo para um {THING:StructureInsulatedPipeLiquidStraight} usando um {THING:ItemKitInsulatedLiquidPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidStraight3</Key>
-      <Value>Tubulação de Líquidos Reto 3 unidades</Value>
+      <Value>Tubo para Líquidos Reto 3 unidades</Value>
       <Description>Variante longa da tubulação de líquido. Essas versões não podem ser unidas nem aprimoradas com isolamento.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidStraight5</Key>
-      <Value>Tubulação de Líquidos Reto 5 unidades </Value>
+      <Value>Tubo para Líquidos Reto 5 unidades </Value>
       <Description>Variante longa da tubulação de líquido. Essas versões não podem ser unidas nem aprimoradas com isolamento.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidStraight10</Key>
-      <Value>Tubulação de Líquidos Reto 10 unidades</Value>
+      <Value>Tubo para Líquidos Reto 10 unidades</Value>
       <Description>Variante longa da tubulação de líquido. Essas versões não podem ser unidas nem aprimoradas com isolamento.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCorner</Key>
-      <Value>Tubulação de Líquidos Curvo</Value>
+      <Value>Tubo para Líquidos Curvo</Value>
       <Description>Você pode aprimorar este tubo para um {THING:StructureInsulatedPipeLiquidCorner} usando um {THING:ItemKitInsulatedLiquidPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction3</Key>
-      <Value>Tubulação de Líquidos Junção em 3 Vias</Value>
+      <Value>Tubo para Líquidos Junção em 3 Vias</Value>
       <Description>Você pode aprimorar este tubo para um {THING:StructureInsulatedPipeLiquidCrossJunction3} usando um {THING:ItemKitInsulatedLiquidPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction4</Key>
-      <Value>Tubulação de Líquidos Junção em 4 Vias</Value>
+      <Value>Tubo para Líquidos Junção em 4 Vias</Value>
       <Description>Você pode aprimorar este tubo para um {THING:StructureInsulatedPipeLiquidCrossJunction4} usando um {THING:ItemKitInsulatedLiquidPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction5</Key>
-      <Value>Tubulação de Líquidos Junção em 5 Vias</Value>
+      <Value>Tubo para Líquidos Junção em 5 Vias</Value>
       <Description>Você pode aprimorar este tubo para um {THING:StructureInsulatedPipeLiquidCrossJunction5} usando um {THING:ItemKitInsulatedLiquidPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidCrossJunction6</Key>
-      <Value>Tubulação de Líquidos Junção em 6 Vias</Value>
+      <Value>Tubo para Líquidos Junção em 6 Vias</Value>
       <Description>Você pode aprimorar este tubo para um {THING:StructureInsulatedPipeLiquidCrossJunction6} usando um {THING:ItemKitInsulatedLiquidPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeLiquidTJunction</Key>
-      <Value>Tubulação de Líquidos Conexão em T</Value>
+      <Value>Tubo para Líquidos Conexão em T</Value>
       <Description>Você pode aprimorar este tubo para um {THING:StructureInsulatedPipeLiquidTJunction} usando um {THING:ItemKitInsulatedLiquidPipe} e uma {THING:ItemWrench}.</Description>
     </RecordThing>
     <RecordThing>
@@ -5815,17 +5840,17 @@ No vácuo, o calor será irradiado. A velocidade da troca de calor depende do l�
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeLiquidRadiator</Key>
-      <Value>Kit (Radiador de Líquido)</Value>
+      <Value>Kit (Radiador Convectivo de Tubulação de Líquidos)</Value>
       <Description>Este kit cria um {THING:StructureLiquidPipeRadiator}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicMKIILiquidCanisterEmpty</Key>
-      <Value>Cilindro Portátil de Líquido Mk II Vazio</Value>
-      <Description>Cilindro portátil de líquido vazio, com isolamento térmico.</Description>
+      <Value>Tanque Portátil de Líquido Mk II Vazio</Value>
+      <Description>Tanque portátil de líquido vazio, com isolamento térmico.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicMKIILiquidCanister</Key>
-      <Value>Kit (Cilindro Portátil de Líquido Mk II Vazio)</Value>
+      <Value>Kit (Tanque Portátil de Líquido Mk II Vazio)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -5845,17 +5870,17 @@ No vácuo, o calor será irradiado. A velocidade da troca de calor depende do l�
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidRegulator</Key>
-      <Value>Kit (Regulador Volumétrico de Líquido (Entrada))</Value>
+      <Value>Kit (Regulador Volumétrico de Líquido)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureBackLiquidPressureRegulator</Key>
-      <Value>Regulador Volumétrico de Líquido (Entrada)</Value>
+      <Value>Regulador Volumétrico de Líquido Entrada</Value>
       <Description>Regula a proporção de volume de líquido no tubo de entrada. Essa proporção é expressa em porcentagem, onde 100 indica totalmente cheio e 0 indica vazio.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPressureRegulator</Key>
-      <Value>Regulador Volumétrico de Líquido</Value>
+      <Value>Regulador Volumétrico de Líquido Saída</Value>
       <Description>Regula a proporção de volume de líquido no tubo de saída. Essa proporção é expressa em porcentagem, onde 100 indica totalmente cheio e 0 indica vazio.</Description>
     </RecordThing>
     <RecordThing>
@@ -6379,7 +6404,7 @@ Observação: a Cannifier exibirá um erro no interruptor de ativação se você
     <RecordThing>
       <Key>StructureAdvancedPackagingMachine</Key>
       <Value>Máquina de Enlatar Alimentos Avançada</Value>
-      <Description>A {LINK:Xigo;Xigo} Cannifier Multi-Plus Pro Avançada é uma máquina automatizável de empacotamento que utiliza {THING:ItemEmptyCan}s e alimentos {LINK:OrganicPage;cozidos} para criar refeições enlatadas que não se decompõem. Observe que o modelo ACMPP aceita apenas alimentos cozidos e latas de estanho.</Description>
+      <Description>A {LINK:Xigo;Xigo} Cannifier Multi-Plus Pro Avançada é uma máquina automatizável de empacotamento que utiliza {THING:ItemEmptyCan} e alimentos {LINK:OrganicPage;cozidos} para criar refeições enlatadas que não se decompõem. Observe que o modelo ACMPP aceita apenas alimentos cozidos e latas de estanho.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedPackagingMachine</Key>
@@ -6458,7 +6483,7 @@ Observação: a Cannifier exibirá um erro no interruptor de ativação se você
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedLiquidPipe</Key>
-      <Value>Kit (Tubulação Líquida Isolada)</Value>
+      <Value>Kit (Tubo para Líquidos Isolado)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -6503,57 +6528,57 @@ Observação: a Cannifier exibirá um erro no interruptor de ativação se você
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCorner</Key>
-      <Value>Tubulação Líquida Isolada Curva</Value>
+      <Value>Tubo para Líquido Isolado Curva</Value>
       <Description>Tubulação de líquido com perda ou ganho de temperatura muito baixos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction</Key>
-      <Value>Tubulação Líquida Isolada Junção 3 Vias</Value>
+      <Value>Tubo para Líquido Isolado Junção 3 Vias</Value>
       <Description>Tubulação de líquido com perda ou ganho de temperatura muito baixos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction4</Key>
-      <Value>Tubulação Líquida Isolada Junção 4 Vias</Value>
+      <Value>Tubo para Líquido Isolado Junção 4 Vias</Value>
       <Description>Tubulação de líquido com perda ou ganho de temperatura muito baixos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeInsulatedLiquidCrossJunction</Key>
-      <Value>Tubulação Líquida Isolada Junção Cruzada</Value>
+      <Value>Tubo para Líquido Isolado Junção Cruzada</Value>
       <Description>Tubulação de líquido com perda ou ganho de temperatura muito baixos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction5</Key>
-      <Value>Tubulação Líquida Isolada Junção 5 Vias</Value>
+      <Value>Tubo para Líquido Isolado Junção 5 Vias</Value>
       <Description>Tubulação de líquido com perda ou ganho de temperatura muito baixos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidCrossJunction6</Key>
-      <Value>Tubulação Líquida Isolada Junção 6 Vias</Value>
+      <Value>Tubo para Líquido Isolado Junção 6 Vias</Value>
       <Description>Tubulação de líquido com perda ou ganho de temperatura muito baixos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidStraight</Key>
-      <Value>Tubulação Líquida Isolada Reta</Value>
+      <Value>Tubo para Líquido Isolado Reta</Value>
       <Description>Tubulação de líquido com perda ou ganho de temperatura muito baixos.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidStraight3</Key>
-      <Value>Tubulação Líquida Isolada Reta 3 unidades</Value>
+      <Value>Tubo para Líquido Isolado Reta 3 unidades</Value>
       <Description>Variante longa de tubulação líquida com perda ou ganho de temperatura muito baixos. Essas variantes não podem ser fundidas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidStraight5</Key>
-      <Value>Tubulação Líquida Isolada Reta 5 unidades</Value>
+      <Value>Tubo para Líquido Isolado Reta 5 unidades</Value>
       <Description>Variante longa de tubulação líquida com perda ou ganho de temperatura muito baixos. Essas variantes não podem ser fundidas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidStraight10</Key>
-      <Value>Tubulação Líquida Isolada Reta 10 unidades</Value>
+      <Value>Tubo para Líquido Isolado Reta 10 unidades</Value>
       <Description>Variante longa de tubulação líquida com perda ou ganho de temperatura muito baixos. Essas variantes não podem ser fundidas.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedPipeLiquidTJunction</Key>
-      <Value>Tubulação Líquida Isolada Junção em T</Value>
+      <Value>Tubo para Líquido Isolado Junção em T</Value>
       <Description>Tubulação de líquido com perda ou ganho de temperatura muito baixos.</Description>
     </RecordThing>
     <RecordThing>
@@ -6680,7 +6705,7 @@ Finalizado - 4
     </RecordThing>
     <RecordThing>
       <Key>StructureReinforcedCompositeWindow</Key>
-      <Value>>Janela Reforçada Compósito</Value>
+      <Value>Janela Reforçada Compósito</Value>
       <Description>Desfrute de vistas até mesmo das paisagens alienígenas mais severas com estas molduras de janela robustas, resistentes a diferenças de pressão de até 1 MPa.</Description>
     </RecordThing>
     <RecordThing>
@@ -6967,13 +6992,13 @@ Altamente sensível à temperatura, o nitrice começa a derreter assim que é mi
     </RecordThing>
     <RecordThing>
       <Key>StructureH2Combustor</Key>
-      <Value>Combustor de H2</Value>
-      <Description>O Combustor permite a combustão controlada de gases voláteis. Quando alimentado com {GAS:Hydrogen} e {GAS:Oxygen} , ele produzirá {GAS:Steam} que pode ser resfriado para água potável ou hidroponia.</Description>
+      <Value>Combustor (Obsoleto)</Value>
+      <Description>Este dispositivo está obsoleto. Use o {THING:StructureCombustor} em seu lugar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>H2Combustor</Key>
-      <Value>Combustor</Value>
-      <Description>O Combustor permite a combustão controlada de gases voláteis. Quando alimentado com {GAS:Hydrogen} e {GAS:Oxygen} , ele produzirá {GAS:Steam} que pode ser resfriado para água potável ou hidroponia.</Description>
+      <Value>Combustor (Obsoleto)</Value>
+      <Description>Este dispositivo está obsoleto. Use {THING:StructureCombustor} em seu lugar.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeRadiatorFlat</Key>
@@ -7032,8 +7057,8 @@ Altamente sensível à temperatura, o nitrice começa a derreter assim que é mi
     </RecordThing>
     <RecordThing>
       <Key>StructureCombustionDeepMiner</Key>
-      <Value>Minerador de Combustão Profunda</Value>
-      <Description>A Mineradora Profunda de Combustão é uma versão a gás da {THING:StructureDeepMiner}. A rotação da máquina deve ser controlada pelas alavancas do acelerador e do limitador de combustão. Se a Mineradora Profunda de Combustão aumentar ou diminuir a rotação muito rapidamente, ela sofrerá sobrecarga e eventualmente parará.
+      <Value>Mineradora Profunda a Combustão</Value>
+      <Description>A Mineradora Profunda a Combustão é uma versão a gás da {THING:StructureDeepMiner}. A rotação da máquina deve ser controlada pelas alavancas do acelerador e do limitador de combustão. Se a Mineradora Profunda de Combustão aumentar ou diminuir a rotação muito rapidamente, ela sofrerá sobrecarga e eventualmente parará.
 Rotações mais altas resultam diretamente em velocidades de mineração mais rápidas.
 A alavanca do acelerador controla a quantidade de combustível que entra na máquina, aumentando a temperatura dentro do motor e levando a um aumento na rotação.
 A alavanca do limitador influencia a velocidade da combustão e a quantidade de gás não queimado no escapamento.
@@ -7072,7 +7097,7 @@ Desligar a máquina reduzirá a rotação de forma controlada.
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCombustionDeepMiner</Key>
-      <Value>Kit (Mineradora de Combustão Profunda)</Value>
+      <Value>Kit (Mineradora Profunda a Combustão)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -7403,7 +7428,7 @@ Quando conectada a um {THING:StructureComputer} contendo uma placa-mãe {THING:M
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeCowl</Key>
-      <Value>Terminal de Tubo</Value>
+      <Value>Terminal de Tubo para Gases</Value>
       <Description>Cria um {THING:ItemPipeCowl} que pode ser colocado na extremidade dos tubos para expô-los às atmosferas externas.</Description>
     </RecordThing>
     <RecordThing>
@@ -7622,27 +7647,27 @@ Em conjunto com a {THING:StructureEvaporationChamber}, os Stationeers podem expl
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeUtility</Key>
-      <Value>Kit (Utilitário de Tubulação de Gás)</Value>
+      <Value>Kit (Utilitários de Tubulação de Gás)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPipeUtilityLiquid</Key>
-      <Value>Kit (Utilitário de Tubulação de Líquido)</Value>
+      <Value>Kit (Utilitários de Tubulação para Líquido)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankGas1x1</Key>
-      <Value>Tanque em Linha Pequeno de Gás</Value>
+      <Value>Tanque em Linha para Gás Pequeno</Value>
       <Description>Um pequeno tanque de expansão que aumenta o volume de uma rede de tubulação.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankGas1x2</Key>
-      <Value>Tanque em Linha de Gás</Value>
+      <Value>Tanque em Linha para Gás</Value>
       <Description>Um pequeno tanque de expansão que aumenta o volume de uma rede de tubulação.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankLiquid1x1</Key>
-      <Value>Tanque em Linha Pequeno de Líquido</Value>
+      <Value>Tanque em Linha para Líquido Pequeno</Value>
       <Description>Um pequeno tanque de expansão que aumenta o volume de uma rede de tubulação.</Description>
     </RecordThing>
     <RecordThing>
@@ -8030,17 +8055,17 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidUmbilicalFemale</Key>
-      <Value>Conector Umbilical Líquido</Value>
+      <Value>Conector Umbilical para Líquido</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidUmbilicalFemaleSide</Key>
-      <Value>Conector Umbilical Angular Líquido</Value>
+      <Value>Conector Umbilical Angular para Líquido</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidUmbilicalMale</Key>
-      <Value>Umbilical Líquido</Value>
+      <Value>Umbilical para Líquido</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8176,6 +8201,11 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     <RecordThing>
       <Key>ItemKitLaunchMount</Key>
       <Value>Kit (Suporte de Lançamento)</Value>
+	 <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitLaunchMountOrbital</Key>
+      <Value>Kit (Plataforma de Lançamento Orbital)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8249,7 +8279,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLiquidUmbilical</Key>
-      <Value>Kit (Umbilical de Líquido)</Value>
+      <Value>Kit (Umbilical para Líquido)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8599,7 +8629,7 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAccessBridge</Key>
-      <Value>Kit (Passarela de Acesso)</Value>
+      <Value>Kit (Ponte de Acesso)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -8823,32 +8853,32 @@ O equilíbrio da vazão de ambas as entradas é essencial para criar uma boa tro
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x1</Key>
-      <Value>Tanque em Linha Pequeno de Gás Isolado</Value>
+      <Value>Tanque em Linha para Gás Isolado Pequeno</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x2</Key>
-      <Value>Tanque em Linha de Gás Isolado</Value>
+      <Value>Tanque em Linha para Gás Isolado</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x1</Key>
-      <Value>Tanque em Linha de Líquido Isolado</Value>
+      <Value>Tanque em Linha para Líquido Isolado Pequeno</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x2</Key>
-      <Value>Tanque em Linha de Líquido Isolado 1x2</Value>
+      <Value>Tanque em Linha para Líquido Isolado 1x2</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipeUtilityLiquid</Key>
-      <Value>Kit (Tubo Utilitário de Líquido Isolado)</Value>
+      <Value>Kit (Tanque em Linha para Líquido Isolado)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>ItemKitInsulatedPipeUtility</Key>
-      <Value>Kit (Tubo Utilitário de Gás Isolado)</Value>
+      <Value>Kit (Tanque em Linha para Gás Isolado)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9391,22 +9421,22 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankGas1x3</Key>
-      <Value>Tanque de gás em linha 1x3</Value>
+      <Value>Tanque em linha para Gás 1x3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInLineTankLiquid1x3</Key>
-      <Value>Tanque de líquido em linha 1x3</Value>
+      <Value>Tanque em Linha para líquido 1x3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankGas1x3</Key>
-      <Value>Tanque de gás em linha 1x3 isolado</Value>
+      <Value>Tanque em Linha para Gás Isolado 1x3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>StructureInsulatedInLineTankLiquid1x3</Key>
-      <Value>Tanque de líquido em linha 1x3 isolado</Value>
+      <Value>Tanque em Linha para Líquido Isolado 1x3</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9536,12 +9566,12 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </RecordThing>
     <RecordThing>
       <Key>DynamicAFrameStripes</Key>
-      <Value>Placa portátil em formato de A listrada</Value>
+      <Value>Cavalete portátil em formato de A listrado</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>DynamicAFrameWIP</Key>
-      <Value>Placa portátil em formato de A</Value>
+      <Value>Cavalete Portátil em formato de A</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9556,7 +9586,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicAFrameWIP1</Key>
-      <Value>Kit (Cavalete portátil)</Value>
+      <Value>Kit (Cavalete portátil em formato de A)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9566,7 +9596,7 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicChannelizer</Key>
-      <Value>Kit Canalizador Portátil</Value>
+      <Value>Kit (Canalizador Portátil)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9644,6 +9674,16 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
       <Value>Kit (Contêiner de entrega de carga útil)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicOrbitalLaunchMountPayload</Key>
+      <Value>Carga da Plataforma de Lançamento Orbital</Value>
+      <Description>Quando acoplada a um(a) {THING:StructureRocketLargePayloadBay}, a {THING:DynamicOrbitalLaunchMountPayload} pode ser implantada em Órbita Baixa, onde será desdobrada em uma {THING:StructureLaunchMountOrbital}. Depois disso, foguetes poderão ser construídos e pousar nela, e foguetes tripulados poderão viajar entre ela e as plataformas de lançamento na superfície.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitOrbitalLaunchMountPayload</Key>
+      <Value>Kit (Carga da Plataforma de Lançamento Orbital)</Value>
+      <Description>Constrói um(a) {THING:DynamicOrbitalLaunchMountPayload} que pode ser transportado(a) para a Órbita Baixa em um(a) {THING:StructureRocketLargePayloadBay}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketLargePayloadBay</Key>
       <Value>Compartimento de carga grande</Value>
       <Description>O {THING:StructureRocketLargePayloadBay} funciona como um ponto de fixação para o {THING:DynamicPayloadDeliveryContainer}. Defina o local de implantação configurando as variáveis lógicas PositionX e PositionZ no dispositivo. Use a ação de implantação no painel de localização do foguete para implantar uma carga útil acoplada. A variável lógica Open deve ser definida como 1 para iniciar a implantação da carga útil.</Description>
@@ -9670,6 +9710,21 @@ Todos os canos do suporte devem estar conectados, caso contrário, a unidade exi
     <RecordThing>
       <Key>StructureCrewModuleCableConnectorB</Key>
       <Value>Conector B do cabo do módulo da tripulação</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleChair</Key>
+      <Value>Assento do Módulo de Tripulação</Value>
+      <Description>Assento para tripular um foguete. Enquanto o assento estiver ocupado, o foguete só poderá viajar entre plataformas de lançamento, e o ocupante só poderá sair do assento quando o foguete estiver pousado em uma delas.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleScreen</Key>
+      <Value>Tela do Módulo de Tripulação</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+	<Key>ItemKitCrewParts</Key>
+      <Value>Kit (Componentes do Módulo de Tripulação)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9871,6 +9926,238 @@ O processo de fermentação produz uma pequena quantidade de água poluída como
     <RecordThing>
       <Key>ItemGasFilterSilanolM</Key>
       <Value>Filtro Médio Silanol</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureEngineMountTypeE1</Key>
+      <Value>Suporte do Motor (Tipo E1)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureEngineMountTypeE2</Key>
+      <Value>Suporte do Motor (Tipo E2)</Value>		   
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFairingTypeE1</Key>
+      <Value>Carenagem (Tipo E1)</Value>
+      <Description />
+    </RecordThing>		  
+   <RecordThing>
+      <Key>StructureFuselageTypeE1</Key>
+      <Value>Fuselagem (Tipo E1)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFuselageTypeE</Key>
+      <Value>Kit (Fuselagem Tipo E)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorEpi</Key>
+      <Value>Autoaplicador (Estimulante)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorHealth</Key>
+      <Value>Autoaplicador (Saúde)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorStun</Key>
+      <Value>Autoaplicador (Atordoamento)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorDex</Key>
+      <Value>Autoaplicador DEX</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPacket</Key>
+      <Value>Pacote de Água</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleFuselage</Key>
+      <Value>Fuselagem do Módulo de Tripulação (Tipo C)</Value>
+      <Description>Compartimento de tripulação aerodinâmico para foguetes. Embarque interagindo com o módulo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagEmpty</Key>
+      <Value>>Saco de Resíduos</Value>
+      <Description>Um saco descartável que pode ser usado para suprir necessidades de {LINK:SanitationPage;saneamento}. Não pode ser usado quando estiver usando o {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagFilled</Key>
+      <Value>Saco de Resíduos (Cheio)</Value>
+      <Description>Um saco descartável parcialmente ou completamente utilizado que pode ser usado para suprir necessidades de {LINK:SanitationPage;saneamento}, desde que ainda haja espaço restante. Não pode ser usado quando estiver usando o {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureToiletModern</Key>
+      <Value>Vaso Sanitário Moderno</Value>
+      <Description>Um dispositivo para reduzir necessidades de {LINK:SanitationPage;saneamento}. Requer {GAS:Water} e produz {GAS:PollutedWater} dos usuários.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitToilet</Key>
+      <Value>Kit (Vaso Sanitário)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>OrganStomach</Key>
+      <Value>Estômago</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModulePassiveVent</Key>
+      <Value>Ventilação Passiva do Módulo de Tripulação</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleActiveVent</Key>
+      <Value>Ventilação Ativa do Módulo de Tripulação</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPacket</Key>
+      <Value>Pacote de Água</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagEmpty</Key>
+      <Value>Saco de Resíduos</Value>
+      <Description>Um saco descartável que pode ser usado para suprir necessidades de {LINK:SanitationPage;saneamento}. Não pode ser usado quando estiver usando o {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagFilled</Key>
+      <Value>Saco de Resíduos (Cheio)</Value>
+      <Description>Um saco descartável parcialmente ou completamente utilizado que pode ser usado para suprir necessidades de {LINK:SanitationPage;saneamento}, desde que ainda haja espaço restante. Não pode ser usado quando estiver usando o {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSurvivalBelt</Key>
+      <Value>Cinto de Sobrevivência</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleFuselageSimple</Key>
+      <Value>Fuselagem do Módulo de Tripulação (Tipo A)</Value>
+      <Description>Compartimento de tripulação compacto para foguetes. Embarque interagindo com o módulo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Paintable</Key>
+      <Value>Macacão (Pintável)</Value>
+      <Description>Macacão que pode ser colorido usando Tintas Spray.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicRocketUplinkCompact</Key>
+      <Value>Uplink Lógico (Compacto)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleChair</Key>
+      <Value>Kit (Assento do Módulo de Tripulação)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleCableConnector</Key>
+      <Value>Kit (Conector de Cabo do Módulo de Tripulação)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleScreen</Key>
+      <Value>Kit (Tela do Módulo de Tripulação)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewBulkhead</Key>
+      <Value>Anteparo da Tripulação</Value>
+      <Description />
+    </RecordThing> 
+    <RecordThing>
+      <Key>ItemKitCrewModuleElectronics</Key>
+      <Value>Kit (Eletrônicos do Módulo de Tripulação)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleLight</Key>
+      <Value>Luz do Módulo de Tripulação</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight3</Key>
+      <Value>Cabo Reto 3 unidades</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight3Burnt</Key>
+      <Value>Cabo Queimado Reto 3 unidades</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight5</Key>
+      <Value>Cabo Reto 5 unidades</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight5Burnt</Key>
+      <Value>Cabo Queimado Reto 5 unidades</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight10</Key>
+      <Value>Cabo Reto 10 unidades</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight10Burnt</Key>
+      <Value>Cabo Queimado Reto 10 unidades</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_ArrowPiece</Key>
+      <Value>Seta da Plataforma de Pouso</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5</Key>
+      <Value>Painel Solar (Duplo 1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Reinforced</Key>
+      <Value>Painel Solar (Duplo Reforçado 1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Side</Key>
+      <Value>Display de LED (Lateral Médio)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Back</Key>
+      <Value>Display de LED (Lateral Traseiro)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5ReinforcedSingle</Key>
+      <Value>Painel Solar (Reforçado 1x5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureH2Combustor1</Key>
+      <Value>Combustor de H2 1</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCombustor</Key>
+      <Value>Combustor</Value>
+      <Description>O Combustor realiza a combustão controlada de uma mistura retirada de uma entrada de gás e uma entrada de líquido. Uma roda de controle define a proporção retirada de cada um, de forma semelhante ao {THING:StructureGasMixer}, e a mistura combinada é então queimada antes de ser enviada para a saída.
+
+O que o Combustor produz depende inteiramente do que é inserido nele. Veja a página de {LINK:GasPage;Gases} para descobrir em que cada combinação é convertida após a combustão.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Single</Key>
+      <Value>Painel Solar (1x5)</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -10144,6 +10431,14 @@ O processo de fermentação produz uma pequena quantidade de água poluída como
       <Value>Chip Programável</Value>
     </Record>
     <Record>
+      <Key>AutoInjector</Key>
+      <Value>Autoaplicador</Value>
+    </Record>
+    <Record>
+      <Key>Stomach</Key>
+      <Value>Estômago</Value>
+    </Record>
+    <Record>	
       <Key>CreditCard</Key>
       <Value>Cartão de Crédito</Value>
     </Record>
@@ -13640,6 +13935,10 @@ O processo de fermentação produz uma pequena quantidade de água poluída como
       <Value>Umbilicais</Value>
     </Record>
     <Record>
+      <Key>Sanitation</Key>
+      <Value>Saneamento</Value>
+    </Record>
+    <Record>
       <Key>RocketPayloadCategory</Key>
       <Value>Cargas de Foguete</Value>
     </Record>
@@ -14482,6 +14781,10 @@ O processo de fermentação produz uma pequena quantidade de água poluída como
     <Record>
       <Key>ButtonOk</Key>
       <Value>OK</Value>
+    </Record>
+    <Record>
+      <Key>ServerAnnouncement</Key>
+      <Value>Anúncio</Value>
     </Record>
     <Record>
       <Key>InputPassword</Key>
@@ -16834,6 +17137,230 @@ O processo de fermentação produz uma pequena quantidade de água poluída como
     <Record>
       <Key>LogicTypeRatioLiquidOzone</Key>
       <Value>A proporção de {GAS:LiquidOzone} na atmosfera do dispositivo</Value>
+ </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenInput</Key>
+      <Value>A proporção de {GAS:Hydrogen} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenInput2</Key>
+      <Value>A proporção de {GAS:Hydrogen} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenOutput</Key>
+      <Value>A proporção de {GAS:Hydrogen} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrogenOutput2</Key>
+      <Value>A proporção de {GAS:Hydrogen} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenInput</Key>
+      <Value>A proporção de {GAS:LiquidHydrogen} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenInput2</Key>
+      <Value>A proporção de {GAS:LiquidHydrogen} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenOutput</Key>
+      <Value>A proporção de {GAS:LiquidHydrogen} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrogenOutput2</Key>
+      <Value>A proporção de {GAS:LiquidHydrogen} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterInput</Key>
+      <Value>A proporção de {GAS:PollutedWater} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterInput2</Key>
+      <Value>A proporção de {GAS:PollutedWater} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>			 
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterOutput</Key>
+      <Value>A proporção de {GAS:PollutedWater} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioPollutedWaterOutput2</Key>
+      <Value>A proporção de {GAS:PollutedWater} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineInput</Key>
+      <Value>A proporção de {GAS:Hydrazine} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineInput2</Key>
+      <Value>A proporção de {GAS:Hydrazine} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineOutput</Key>
+      <Value>A proporção de {GAS:Hydrazine} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrazineOutput2</Key>
+      <Value>A proporção de {GAS:Hydrazine} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineInput</Key>
+      <Value>A proporção de {GAS:LiquidHydrazine} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineInput2</Key>
+      <Value>A proporção de {GAS:LiquidHydrazine} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineOutput</Key>
+      <Value>A proporção de {GAS:LiquidHydrazine} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrazineOutput2</Key>
+      <Value>A proporção de {GAS:LiquidHydrazine} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholInput</Key>
+      <Value>A proporção de {GAS:LiquidAlcohol} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholInput2</Key>
+      <Value>A proporção de {GAS:LiquidAlcohol} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>			
+ <Record>
+      <Key>LogicTypeRatioLiquidAlcoholOutput</Key>
+      <Value>A proporção de {GAS:LiquidAlcohol} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidAlcoholOutput2</Key>
+      <Value>A proporção de {GAS:LiquidAlcohol} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumInput</Key>
+      <Value>A proporção de {GAS:Helium} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumInput2</Key>
+      <Value>A proporção de {GAS:Helium} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumOutput</Key>
+      <Value>A proporção de {GAS:Helium} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHeliumOutput2</Key>
+      <Value>A proporção de {GAS:Helium} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>																			 
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideInput</Key>
+      <Value>A proporção de {GAS:LiquidSodiumChloride} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideInput2</Key>
+      <Value>A proporção de {GAS:LiquidSodiumChloride} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideOutput</Key>
+      <Value>A proporção de {GAS:LiquidSodiumChloride} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSodiumChlorideOutput2</Key>
+      <Value>A proporção de {GAS:LiquidSodiumChloride} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolInput</Key>
+      <Value>A proporção de {GAS:Silanol} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolInput2</Key>
+      <Value>A proporção de {GAS:Silanol} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolOutput</Key>
+      <Value>A proporção de {GAS:Silanol} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioSilanolOutput2</Key>
+      <Value>A proporção de {GAS:Silanol} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolInput</Key>
+      <Value>A proporção de {GAS:LiquidSilanol} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolInput2</Key>
+      <Value>A proporção de {GAS:LiquidSilanol} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolOutput</Key>
+      <Value>A proporção de {GAS:LiquidSilanol} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidSilanolOutput2</Key>
+      <Value>A proporção de {GAS:LiquidSilanol} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidInput</Key>
+      <Value>A proporção de {GAS:HydrochloricAcid} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidInput2</Key>
+      <Value>A proporção de {GAS:HydrochloricAcid} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidOutput</Key>
+      <Value>A proporção de {GAS:HydrochloricAcid} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioHydrochloricAcidOutput2</Key>
+      <Value>A proporção de {GAS:HydrochloricAcid} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidInput</Key>
+      <Value>A proporção de {GAS:LiquidHydrochloricAcid} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidInput2</Key>
+      <Value>A proporção de {GAS:LiquidHydrochloricAcid} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidOutput</Key>
+      <Value>A proporção de {GAS:LiquidHydrochloricAcid} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidHydrochloricAcidOutput2</Key>
+      <Value>A proporção de {GAS:LiquidHydrochloricAcid} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneInput</Key>
+      <Value>A proporção de {GAS:Ozone} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneInput2</Key>
+      <Value>A proporção de {GAS:Ozone} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneOutput</Key>
+      <Value>A proporção de {GAS:Ozone} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioOzoneOutput2</Key>
+      <Value>A proporção de {GAS:Ozone} na Atmosfera de Saída 2 do dispositivo</Value>
+    </Record>			
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneInput</Key>
+      <Value>A proporção de {GAS:LiquidOzone} na Atmosfera de Entrada do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneInput2</Key>
+      <Value>A proporção de {GAS:LiquidOzone} na Atmosfera de Entrada 2 do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneOutput</Key>
+      <Value>A proporção de {GAS:LiquidOzone} na Atmosfera de Saída do dispositivo</Value>
+    </Record>
+    <Record>
+      <Key>LogicTypeRatioLiquidOzoneOutput2</Key>
+      <Value>A proporção de {GAS:LiquidOzone} na Atmosfera de Saída 2 do dispositivo</Value>
     </Record>
     <Record>
       <Key>AppearanceButtonRandomize</Key>
@@ -19275,6 +19802,18 @@ Recrutando pessoas com formação em engenharia civil, das indústrias militar e
       <Value>Hidratação Crítica</Value>
     </Record>
     <Record>
+      <Key>SanitationCaution</Key>
+      <Value>Cuidado com Saneamento</Value>
+    </Record>
+    <Record>
+      <Key>SanitationCritical</Key>
+      <Value>Saneamento Crítico</Value>
+    </Record>
+    <Record>
+      <Key>SoiledCritical</Key>
+      <Value>Sujo</Value>
+    </Record>
+    <Record>
       <Key>MoodLow</Key>
       <Value>Humor Baixo</Value>
     </Record>
@@ -19879,6 +20418,14 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Cancelar</Value>
     </Record>
     <Record>
+      <Key>RemoveNodesOfTypeButton</Key>
+      <Value>Excluir Nós do Tipo</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodesOfTypeText</Key>
+      <Value>Isto excluirá todos os nós neste local do tipo selecionado. Tem certeza?</Value>
+    </Record>
+    <Record>
       <Key>ClearDestinationButton</Key>
       <Value>Limpar Destino</Value>
     </Record>
@@ -19917,6 +20464,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     <Record>
       <Key>StationpediaInstructions</Key>
       <Value>Instruções</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaBindings</Key>
+      <Value>Configurações de Teclas</Value>
     </Record>
     <Record>
       <Key>StationpediaInternalMemory</Key>
@@ -20128,7 +20679,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveGrowFood</Key>
-      <Value>Cultive plantas para Oxigênio e Alimento</Value>
+      <Value>Cultive plantas para gerar Oxigênio e Alimento</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveRefillBottle</Key>
@@ -20148,7 +20699,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveCookPotato</Key>
-      <Value>Cozinhe uma batata assada</Value>
+      <Value>Cozinhe uma batata para assá-la</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveAcknowledgeAndDismiss</Key>
@@ -20224,7 +20775,7 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>WorldObjectiveSmeltIce</Key>
-      <Value>Mine gelo para obter gases</Value>
+      <Value>Minere gelo para obter gases</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveSmeltIceInfo</Key>
@@ -21379,6 +21930,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Gravidade Zero</Value>
     </Record>
     <Record>
+      <Key>StatusWarningAcceleration</Key>
+      <Value>Aceleração</Value>
+    </Record>
+    <Record>
       <Key>StatusNoticeActiveHandOff</Key>
       <Value>Mão Ativa Desativada</Value>
     </Record>
@@ -21397,6 +21952,14 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     <Record>
       <Key>StatusNoticeJetpackOn</Key>
       <Value>Jetpack Ligado</Value>
+    </Record>
+    <Record>
+      <Key>ConnectedSlot</Key>
+      <Value>Conexão de Tela</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeHealingNotice</Key>
+      <Value>Cura</Value>
     </Record>
     <Record>
       <Key>StatusNoticeLightOff</Key>
@@ -21667,6 +22230,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Suprimentos para Câmara Airlock</Value>
     </Record>
     <Record>
+      <Key>SpawnDataNavigationPackage</Key>
+      <Value>Pacote de Navegação</Value>
+    </Record>
+    <Record>
       <Key>SpawnDataAdvancedAirlockSupplies</Key>
       <Value>Suprimentos para Câmara Airlock Avançada</Value>
     </Record>
@@ -21855,6 +22422,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Tempestade de Cinzas</Value>
     </Record>
     <Record>
+      <Key>FireStorm</Key>
+      <Value>Tempestade de Fogo</Value>
+    </Record>
+    <Record>
       <Key>RainWeather</Key>
       <Value>Chuva</Value>
     </Record>
@@ -22035,6 +22606,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Pacote de Reparo de Nave</Value>
     </Record>
     <Record>
+      <Key>BuyDataCryogenicsSupplyCrate</Key>
+      <Value>Caixa de Suprimentos de Criogenia</Value>
+    </Record>
+    <Record>
       <Key>BuyDataHardsuitPackage</Key>
       <Value>Pacote traje de Hardsuit</Value>
     </Record>
@@ -22203,8 +22778,16 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Óxido Nitroso a Granel</Value>
     </Record>
     <Record>
+      <Key>SellDataBulkOzone</Key>
+      <Value>Ozônio a Granel</Value>
+    </Record>
+    <Record>
       <Key>SellDataBulkDirtyVolatiles</Key>
       <Value>Voláteis impuros a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkHydrazine</Key>
+      <Value>Hidrazina a Grane</Value>
     </Record>
     <Record>
       <Key>SellDataSteam</Key>
@@ -22215,6 +22798,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Cilindro de Oxigênio</Value>
     </Record>
     <Record>
+      <Key>SellDataHydrazineCanister</Key>
+      <Value>Cilindro de Hidrazina</Value>
+    </Record>
+    <Record>		
       <Key>SellDataFuelCanister</Key>
       <Value>Cilindro de Combustível</Value>
     </Record>
@@ -22436,7 +23023,39 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     </Record>
     <Record>
       <Key>TraderPlanetaryProduce</Key>
-      <Value>Planetary Produce</Value>
+      <Value>Produtos Planetários</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCare</Key>
+      <Value>Cuidados Cósmicos</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarMedical</Key>
+      <Value>Suprimentos Médicos Estelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitalApothecary</Key>
+      <Value>Botica Orbital</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVitals</Key>
+      <Value>Sinais Vitais do Vazio</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNursing</Key>
+      <Value>Enfermagem Nebular</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAidStation</Key>
+      <Value>Estação de Socorro de Asteroides</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInfirmary</Key>
+      <Value>Enfermaria Interestelar</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGauze</Key>
+      <Value>Gaze Galáctica</Value>
     </Record>
     <Record>
       <Key>TraderGreenFutures</Key>
@@ -22879,6 +23498,18 @@ Agradecemos sua compreensão e mal podemos esperar para que você experimente as
       <Key>StationpediaFermentable</Key>
       <Value>Fermentável:</Value>
     </Record>
+    <Record>
+      <Key>ButtonSurfaceScan</Key>
+      <Value>Escanear Superfície</Value>
+    </Record>
+    <Record>
+      <Key>ButtonTransfer</Key>
+      <Value>Transferir</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodeOfTypeButton</Key>
+      <Value>Remover Tipo de Nó</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
@@ -22928,6 +23559,22 @@ Agradecemos sua compreensão e mal podemos esperar para que você experimente as
     <Record>
       <Key>ColorPurple</Key>
       <Value>Roxo</Value>
+    </Record>
+    <Record>
+      <Key>ColorObsidian</Key>
+      <Value>Obsidiana</Value>
+   </Record>
+    <Record>
+      <Key>ColorSilver</Key>
+      <Value>Prata</Value>
+    </Record>
+    <Record>
+      <Key>ColorBronze</Key>
+      <Value>Bronze</Value>
+    </Record>
+    <Record>
+      <Key>ColorGold</Key>
+      <Value>Ouro</Value>
     </Record>
   </Colors>
   <Keys>
@@ -28029,6 +28676,26 @@ Status: {LOCAL:StatusValue}</Value>
       <Value>Excelente &lt;color=green&gt;+75% hidratação&lt;/color&gt;</Value>
     </Record>
     <Record>
+      <Key>FoodQualityLow</Key>
+      <Value>Baixa</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityOk</Key>
+      <Value>Boa</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityGood</Key>
+      <Value>Ótima</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityBest</Key>
+      <Value>Excelente</Value>
+    </Record>
+    <Record>
+      <Key>TooltipFoodQuality</Key>
+      <Value>Qualidade da Comida: {LOCAL:Quality}</Value>
+    </Record>
+    <Record>
       <Key>WaterPurifierCharcoalErrorMsg</Key>
       <Value>Requer &lt;color=green&gt;{LOCAL:Prefab}&lt;/color&gt; no slot de entrada para operar</Value>
     </Record>
@@ -30099,12 +30766,176 @@ Status: {LOCAL:StatusValue}</Value>
       <Value>{LOCAL:Payload} Só pode ser implantado em órbita baixa.</Value>
     </Record>
     <Record>
+      <Key>RocketDeployFailNoFreePosition</Key>
+      <Value>{LOCAL:Payload} Todas as posições de implantação na Órbita Baixa estão ocupadas</Value>
+    </Record>
+    <Record>
+      <Key>RocketCannotExitSeatInFlight</Key>
+      <Value>Não é possível sair do assento enquanto o foguete não estiver pousado em uma plataforma de lançamento.</Value>
+    </Record>
+    <Record>
+      <Key>RocketCrewModuleMannedTravel</Key>
+      <Value>Não é possível viajar para este local enquanto o módulo da tripulação estiver ocupado.</Value>
+    </Record>
+    <Record>
       <Key>RocketDeployFailNoPayload</Key>
       <Value>Nenhuma carga útil para implantar.</Value>
     </Record>
     <Record>
       <Key>ConstructionBlockedByDynamic</Key>
       <Value>Construção bloqueada por {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>Waste</Key>
+      <Value>Resíduos</Value>
+    </Record>
+    <Record>
+      <Key>Use</Key>
+      <Value>Usar</Value>
+    </Record>
+    <Record>
+      <Key>Healing</Key>
+      <Value>Cura</Value>
+    </Record>
+    <Record>
+      <Key>SanitationNeed</Key>
+      <Value>Necessidade Fisiológica</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotInPosition</Key>
+      <Value>{LOCAL:Occupant} não está próximo o suficiente para usar</Value>
+    </Record>
+    <Record>
+      <Key>DeviceCannotWhenWearing</Key>
+      <Value>Não é possível usar enquanto estiver vestindo {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>NoSanitationNeed</Key>
+      <Value>{LOCAL:Human} não precisa usar o banheiro no momento</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionSgn</Key>
+      <Value>Armazena o sinal de a no registrador: -1 se a for negativo, 1 se for positivo e 0 se a for zero (ou não for um número).</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionClamp</Key>
+      <Value>Armazena o valor de a limitado ao intervalo inclusivo [min, max] no registrador fornecido.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionRol</Key>
+      <Value>Realiza uma rotação de bits à esquerda na representação binária de a em b posições, fazendo com que os bits deslocados para fora da posição mais significativa retornem à posição menos significativa.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionRor</Key>
+      <Value>Realiza uma rotação de bits à direita na representação binária de a em b posições, fazendo com que os bits deslocados para fora da posição menos significativa retornem à posição mais significativa.</Value>
+    </Record>
+    <Record>
+      <Key>TrackablePlayerBodyBag</Key>
+      <Value>Saco para Cadáver de {LOCAL:UserName}</Value>
+    </Record>
+    <Record>
+      <Key>Progress</Key>
+      <Value>Progresso</Value>
+    </Record>
+    <Record>
+      <Key>DistanceToBedRock</Key>
+      <Value>Distância até a Rocha Matriz</Value>
+    </Record>
+    <Record>
+      <Key>Defibrillate</Key>
+      <Value>Desfibrilar</Value>
+    </Record>
+    <Record>
+      <Key>DefibrillatorNotOperable</Key>
+      <Value>O desfibrilador não pode ser utilizado para esta ação.</Value>
+    </Record>
+    <Record>
+      <Key>NoPartnerUmbilical</Key>
+      <Value>Nenhum cabo umbilical conectado ao parceiro</Value>
+    </Record>
+    <Record>
+      <Key>RocketScannerWrongHeadType</Key>
+      <Value>O cabeçote de varredura {LOCAL:Thing} não é do tipo correto para a ação que você está tentando executar</Value>
+    </Record>
+    <Record>
+      <Key>RocketSurfaceScanActionInfo</Key>
+      <Value>Enviando dados da varredura para as placas-mãe de mapa conectadas. Scanner: {LOCAL:OnOff}</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionSurfaceScan</Key>
+      <Value>Varrendo a Superfície</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionTransfer</Key>
+      <Value>Transferindo Recursos</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotEnoughWater</Key>
+      <Value>Não há água suficiente</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterTooHot</Key>
+      <Value>A água está muito quente</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterTooCold</Key>
+      <Value>A água está muito fria</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterPolluted</Key>
+      <Value>A água está contaminada</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOutputFull</Key>
+      <Value>A rede de &lt;color=yellow&gt;Saída&lt;/color&gt; está cheia</Value>
+    </Record>
+    <Record>
+      <Key>DeviceMinimumPressure</Key>
+      <Value>A atmosfera do mundo deve ser de pelo menos {LOCAL:PRESSURE}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticSanitation</Key>
+      <Value>Necessidades Fisiológicas</Value>
+    </Record>
+    <Record>
+      <Key>FermenterItemsLeftToFerment</Key>
+      <Value>Fermentando &lt;color=yellow&gt;{LOCAL:Amount}&lt;/color&gt; × &lt;color=green&gt;{LOCAL:Value} {LOCAL:Percentage}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>FermenterWillProduce</Key>
+      <Value>Irá produzir &lt;color=purple&gt;{LOCAL:Value}&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>FermenterInputIsEmpty</Key>
+      <Value>Não há nenhum item fermentável na Entrada.</Value>
+    </Record>
+    <Record>
+      <Key>RocketNoAvailableSeat</Key>
+      <Value>Não há assentos disponíveis no módulo da tripulação</Value>
+    </Record>
+    <Record>
+      <Key>NoAvailableBattery</Key>
+      <Value>Não há bateria disponível. A bateria deve estar ligada e com carga.</Value>
+    </Record>
+    <Record>
+      <Key>PowerTransferActionInfo</Key>
+      <Value>Transferindo energia. Origem: {LOCAL:SourcePercent}. Destino: {LOCAL:TargetPercent}</Value>
+    </Record>
+    <Record>
+      <Key>NoUmbilicalForTransfer</Key>
+      <Value>Não há cabo umbilical para realizar a transferência</Value>
+    </Record>
+    <Record>
+      <Key>GasTransferActionInfo</Key>
+      <Value>Transferindo gases e líquidos.</Value>
+    </Record>
+    <Record>
+      <Key>ActionSource</Key>
+      <Value>Origem </Value>
+    </Record>
+    <Record>
+      <Key>ActionTarget</Key>
+      <Value>Destino </Value>
     </Record>
   </GameStrings>
   <GameTip />
