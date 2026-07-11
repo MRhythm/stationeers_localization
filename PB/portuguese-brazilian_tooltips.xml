@@ -2,7 +2,7 @@
   <Name>Português (Brasil)</Name>
   <Code>PB</Code>
   <Font>font_english</Font>
-  <!--Tradução Marcelo 26/03/2026 Registro de alterações 0.2.6227.27061-->
+  <!--Tradução Marcelo 03/07/2026 Registro de alterações v0.2.6403.27689-->
   <ScreenSpaceToolTips>
     <Record>
       <Key>StatusIconToxinName</Key>
@@ -101,6 +101,18 @@
       <Value>Gravidade Zero</Value>
     </Record>
     <Record>
+      <Key>StatusIconGravityDesc</Key>
+      <Value>Atualmente em estado de ausência de gravidade</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationName</Key>
+      <Value>Aceleração</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationDesc</Key>
+      <Value>Submetido a forças G excessivas</Value>
+    </Record>
+    <Record>
       <Key>StatusIconJetpackName</Key>
       <Value>Jetpack Ativo</Value>
     </Record>
@@ -179,6 +191,26 @@
     <Record>
       <Key>StatusIconHygieneName</Key>
       <Value>Higiene Atual</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSanitationName</Key>
+      <Value>Necessidade Fisiológica</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSoiledName</Key>
+      <Value>Sujo</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealingName</Key>
+      <Value>Cura</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStimulantName</Key>
+      <Value>Estimulante</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunNotice</Key>
+      <Value>Atordoado</Value>
     </Record>
 	<Record>
       <Key>DeconstructCanisterFull</Key>
