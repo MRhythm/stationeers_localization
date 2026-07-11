@@ -2,7 +2,7 @@
   <Name>Português (Brasil)</Name>
   <Code>PB</Code>
   <HelpPage>
-  <!--Tradução Marcelo 26/03/2026 Registro de alterações 0.2.6227.27061-->  
+  <!--Tradução Marcelo 02/07/2026 Registro de alterações v0.2.6403.27689-->  
 <!--
     ~~~~~~~~~~~~~~~~~~~~~~~~~
     |                 MASTER PAGES            |
@@ -145,7 +145,7 @@ Depois de resolver a posição do contato, será possível pressionar o botão d
       <Title>Construção</Title>
       <DisplayFilter>Guides</DisplayFilter>
       <Text>{HEADER:Primeiros Passos}
-Normalmente, você usará {LINK:KitPage;kits} para iniciar a construção e, em seguida, uma variedade de {LINK:ToolPage;ferramentas} e {LINK:ResourcePage;recursos} para concluí-la. Preste muita atenção à quantidade de kits necessários para construir o que foi selecionado, pois algumas estruturas exigem mais de um item da pilha. Alguns kits oferecem várias opções de construção — use a {COLORRED:Roda do Mouse} para alternar entre as opções disponíveis.
+Normalmente, você usará {LINK:KitPage;kits} para iniciar a construção e, em seguida, uma variedade de {LINK:ToolPage;ferramentas} e {LINK:ResourcePage;recursos} para concluí-la. Preste muita atenção à quantidade de kits necessários para construir o que foi selecionado, pois algumas estruturas exigem mais de um Kit. Alguns kits oferecem várias opções de construção — use a {COLORRED:Roda do Mouse} para alternar entre as opções disponíveis.
 
 {HEADER:Etapas de Construção}
 Algumas estruturas possuem múltiplas etapas de montagem que requerem combinações diferentes de itens para serem concluídas. A dica de ferramenta (tooltip) indicará quais itens ou ferramentas são necessários para completar a estrutura. Em alguns casos, será preciso ter dois objetos — um em cada mão — para finalizar uma etapa de construção. Algumas ferramentas precisam estar ligadas antes de serem usadas, o que pode ser feito pressionando a letra {KEY:ToggleHandPower} ou o {COLORRED:botão direito do mouse} enquanto estiver com ela na mão ativa.
