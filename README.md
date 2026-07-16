@@ -14,7 +14,7 @@ Note: Always back up your original files before overwriting.
 |---------------|----------------------|----------------------------|-------------|----------------|
 | CN            | Simplified Chinese   | MRhythm                    | 2026-07-14  | 0.2.6409.27724 |
 | RU            | Russian              | AlexusYT                   | 2026-05-16  | 0.2.6227.27061 |
-| FR            | French               | CedricDx                   | 2026-02-19  | 0.2.6175.26943 |
+| FR            | French               | CedricDx                   | 2026-07-16  | 0.2.6403.27689 |
 | PB            | Portuguese Brazilian | Chelo-BR / Pesterenan      | 2026-07-14  | 0.2.6403.27689 |
 | UA            | Ukrainian            | ZorenZal                   | 2026-07-14  | 0.2.6409.27724 |
 ### Maintenance:
