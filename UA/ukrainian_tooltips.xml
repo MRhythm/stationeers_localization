@@ -6,11 +6,11 @@
   <ScreenSpaceToolTips>
     <Record>
       <Key>StatusIconToxinName</Key>
-      <Value>Рівень токсинів</Value>
+      <Value>Токсичність</Value>
     </Record>
     <Record>
       <Key>StatusIconToxinDesc</Key>
-      <Value>Поточний рівень токсинів у вдихуваній атмосфері</Value>
+      <Value>Поточний рівень токсичності вдихуваної атмосфери</Value>
     </Record>
     <Record>
       <Key>StatusIconToxinWarning</Key>
@@ -18,11 +18,11 @@
     </Record>
         <Record>
       <Key>StatusIconHydrationDesc</Key>
-      <Value>Рівень гідратації знижується — випийте води</Value>
+      <Value>Водний баланс знижується — випийте води</Value>
     </Record>
     <Record>
       <Key>StatusIconHydrationKey</Key>
-      <Value>Низька гідратація</Value>
+      <Value>Низький водний баланс</Value>
     </Record>
     <Record>
       <Key>HydrationCaution</Key>
@@ -178,7 +178,7 @@
     </Record>
     <Record>
       <Key>StatusIconHydrationName</Key>
-      <Value>Рівень гідратації</Value>
+      <Value>Водний баланс</Value>
     </Record>
     <Record>
       <Key>StatusIconUnconsciousName</Key>
@@ -234,11 +234,11 @@
     </Record>
     <Record>
       <Key>StatusIconCoolantName</Key>
-      <Value>Температура охолоджувача</Value>
+      <Value>Температура теплоносія</Value>
     </Record>
     <Record>
       <Key>StatusIconCoolantDesc</Key>
-      <Value>Температура охолоджувача надто висока</Value>
+      <Value>Температура теплоносія надто висока</Value>
     </Record>
   </ScreenSpaceToolTips>
 </Language>
