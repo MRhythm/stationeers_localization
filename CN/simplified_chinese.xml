@@ -4637,7 +4637,7 @@ AIMEe有7种模式:
     </RecordThing>
     <RecordThing>
       <Key>StructureLogicTransmitter</Key>
-      <Value>(套件)逻辑无线收发器</Value>
+      <Value>逻辑无线收发器</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLogicTransmitter</Key>
@@ -25717,7 +25717,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>ThingModeDoesNotSupportLinking</Key>
-      <Value>模式不支持链接</Value>
+      <Value>该模式不支持配对</Value>
     </Record>
     <Record>
       <Key>ThingWillDecayInHours</Key>
