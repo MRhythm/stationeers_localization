@@ -10168,6 +10168,11 @@ What the Combustor produces depends entirely on what is fed into it. See the {LI
       <Value>Power Pylon Output</Value>
       <Description />
     </RecordThing>
+    <RecordThing>
+      <Key>ItemCableGun</Key>
+      <Value>Cable Gun</Value>
+      <Description />
+    </RecordThing>
   </Things>
   <Slots>
     <Record>
@@ -10233,6 +10238,10 @@ What the Combustor produces depends entirely on what is fed into it. See the {LI
     <Record>
       <Key>Battery</Key>
       <Value>Battery</Value>
+    </Record>
+    <Record>
+      <Key>CableAmmo</Key>
+      <Value>Cable</Value>
     </Record>
     <Record>
       <Key>Egg</Key>
