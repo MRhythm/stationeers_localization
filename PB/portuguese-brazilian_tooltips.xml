@@ -101,6 +101,18 @@
       <Value>Gravidade Zero</Value>
     </Record>
     <Record>
+      <Key>StatusIconGravityDesc</Key>
+      <Value>Atualmente experimentando ausência de peso</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationName</Key>
+      <Value>Aceleração</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationDesc</Key>
+      <Value>Submetendo-se a Forças G excessivas</Value>
+    </Record>
+    <Record>
       <Key>StatusIconJetpackName</Key>
       <Value>Jatos Ativos</Value>
     </Record>
@@ -179,6 +191,26 @@
     <Record>
       <Key>StatusIconHygieneName</Key>
       <Value>Higiene Atual</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSanitationName</Key>
+      <Value>Necessidade de Saneamento</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSoiledName</Key>
+      <Value>Sujo</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealingName</Key>
+      <Value>Curando</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStimulantName</Key>
+      <Value>Estimulante</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunNotice</Key>
+      <Value>Atordoamento</Value>
     </Record>
 	<Record>
       <Key>DeconstructCanisterFull</Key>

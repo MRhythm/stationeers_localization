@@ -1,0 +1,49 @@
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Code>UK</Code>
+  <GameTip>
+    <String>Натисніть {KEY:HelmetSlot}, {KEY:SuitSlot}, {KEY:BackSlot}, {KEY:UniformSlot} або {KEY:ToolBeltSlot}, щоб перемикатися між діями й комірками спорядженого предмета. Утримуйте, щоб обміняти вибрану комірку з активною рукою.</String>
+    <String>Натискання {KEY:ToggleHandPower} або {KEY:SecondaryAction} вмикає або вимикає живлення предметів у руці.</String>
+    <String>Натисніть {KEY:ToggleLight}, щоб увімкнути або вимкнути світло шолома. Шолом: {THING:ItemSpaceHelmet}.</String>
+    <String>Натисніть {KEY:EmoteWave}, щоб ваш персонаж помахав іншим станціонерам.</String>
+    <String>Натисніть {KEY:Jetpack}, щоб увімкнути або вимкнути реактивний ранець. Ранець: {THING:ItemSpacepack}.</String>
+    <String>Натисніть {KEY:ToggleUI}, щоб увімкнути або вимкнути інтерфейс для створення скріншотів або відео.</String>
+    <String>Коли реактивний ранець увімкнено, натисніть {KEY:Ascend}, щоб летіти вгору, або {KEY:Descend}, щоб спускатися. Ранець: {THING:ItemSpacepack}.</String>
+    <String>Натискання {KEY:InventorySelect} перемикає між комірками інвентарю та активною рукою.</String>
+    <String>Натискання {KEY:Drop} випускає предмет із руки. Утримуйте {KEY:Drop}, щоб кинути його: що довше утримуєте клавішу, то далі він полетить.</String>
+    <String>Натискання {KEY:SwapHands} перемикає активну руку. Натисніть {KEY:ActiveHandSlot}, щоб переглянути варіанти взаємодії з предметом у вашій активній руці.</String>
+    <String>Натисніть {KEY:Internals}, щоб швидко відкрити або закрити шолом. Шолом: {THING:ItemSpaceHelmet}.</String>
+    <String>Натисніть {KEY:Chatting}, щоб надсилати повідомлення іншим гравцям.</String>
+    <String>Натисніть {KEY:RotateLeft}, щоб обертати курсор будівництва вліво, {KEY:RotateRight} — вправо, {KEY:RotateUp} — вгору, {KEY:RotateDown} — вниз, {KEY:RotateRollLeft} — нахил вліво, {KEY:RotateRollRight} — нахил вправо.</String>
+    <String>Космос не такий вже й порожній, як здається.</String>
+    <String>Подайте живлення до {THING:StructureArcFurnace}, а потім завантажте руду: {THING:ItemIronOre}. Результат виплавлення: {THING:ItemIronIngot}.</String>
+    <String>Щоб активувати логіку з ІС-чипом, установіть системну плату {THING:MotherboardLogic} у комп’ютер {THING:StructureComputer}. Після цього можна додавати умови й дії для керування пристроями в тій самій мережі даних.</String>
+    <String>Щоб змінювати кількість через кнопку у світі дрібнішими кроками, утримуйте {KEY:QuantityModifier} під час натискання.</String>
+    <String>Використовуйте {THING:ItemKitLogicInputOutput}, щоб створити {THING:StructureLogicReader} або {THING:StructureLogicWriter}. Зчитувачі отримують значення з інших пристроїв, а записувачі змінюють їх. У поєднанні з математичними модулями вони дають змогу створювати дуже складні автоматизовані системи.</String>
+    <String>Використовуйте {THING:ItemKitLogicInputOutput}, щоб створити {THING:StructureLogicBatchReader} або {THING:StructureLogicBatchWriter}. Ці пристрої дають змогу одночасно читати або записувати значення для групи пристроїв.</String>
+    <String>Переробляйте непотрібні речі на ресурси за допомогою {THING:StructureRecycler}. Результат: {THING:ItemReagentMix}. Завантажте його в {THING:StructureCentrifuge}, щоб отримати чисту руду для подальшої обробки у {THING:StructureFurnace}.</String>
+    <String>Виготовляйте атмосферне обладнання за допомогою {THING:StructureHydraulicPipeBender}. Наприклад, комплект {THING:ItemKitAtmospherics} дає змогу будувати {THING:StructureAirConditioner} або {THING:StructureFiltration}.</String>
+    <String>Що сильніше пошкоджено скафандр, то гірше він працює. Клейка стрічка це виправить.</String>
+    <String>Що сильніше пошкоджено скафандр, то нижча його ефективність.</String>
+    <String>Після того як оригінальний «Посібник станціонера» згорнувся у сингулярність, його замінила Станціопедія. Натисніть {KEY:Help}, щоб відкрити її в грі.</String>
+    <String>Початкове спорядження може загорітися за високої температури: {THING:ItemEvaSuit}; {THING:ItemSpaceHelmet}. У небезпечних середовищах використовуйте {THING:ItemHardSuit}.</String>
+    <String>Програму «Станціонери» створило Агентство позаземного розвитку, щоб підтримувати дослідження Сонячної системи й просторів за її межами.</String>
+    <String>Звертайте увагу на попередження вашого скафандра. Вони можуть запобігти катастрофі.</String>
+    <String>{THING:ItemHardBackpack} може нести більше речей, але не вас!</String>
+    <String>Що сильніше пошкоджено скафандр, то нижча його ефективність.</String>
+    <String>Якщо ваша станція здається похмурою, підніміть настрій музикою з {THING:StructureKlaxon} або створіть власний програвач за допомогою логіки.</String>
+    <String>{THING:StructureHarvie} дає змогу повністю автоматизувати садіння й вирощування рослин, а також збирання врожаю.</String>
+    <String>Розширені підказки можна ввімкнути або вимкнути в меню налаштувань.</String>
+    <String>Ви можете закрити всі відкриті вікна на екрані одночасно, натиснувши {KEY:HideAllWindows}.</String>
+    <String>{THING:ItemCrowbar} можна використовувати для відкривання знеструмлених дверей і контролерів живлення.</String>
+    <String>{THING:ItemMiningDrill} можна перемкнути в режим «Вирівнювання» для створення рівної поверхні під час копання.</String>
+    <String>{THING:ItemWearLamp} можна використовувати для освітлення без шолома.</String>
+    <String>Утримуючи {KEY:MouseControl}, можна активувати курсор миші та перетягувати предмети між інвентарем і комірками.</String>
+    <String>Базовий космічний шолом ізолює станціонера від усього — від вакууму до дивних запахів їжі.</String>
+    <String>Фізика — ваш друг. Поки не перестає бути ним.</String>
+    <String>Регулятор тертя з бі-ротаційною моделлю та уні-захватом — це не просто викрутка.</String>
+    <String>Це не зовсім «молоко», а запатентована Agrizero суміш двох складників: {THING:ItemSoyOil} і {THING:ItemFern}. Їх делікатно змішано в {THING:ApplianceChemistryStation}.</String>
+    <String>Після інциденту в Ченду ядерні елементи живлення Norsec заборонили на Землі. Зате поза Землею для них знайшовся новий ринок — значно менш обтяжений міркуваннями безпеки.</String>
+    <String>Зголодніли? Зернові батончики — компактні, поживні і майже не фонять.</String>
+    <String>Втомилися міняти звичайні фільтри? Середні й великі фільтри служать у 5 та 20 разів довше, але й коштують дорожче.</String>
+  </GameTip>
+</Language>

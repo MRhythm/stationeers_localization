@@ -12,13 +12,17 @@
     <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
       <Key>Home</Key>
       <Title>Início</Title>
-      <Text> </Text>
+      <Text>
+        
+      </Text>
     </StationpediaPage>
     <!--LEAVE THIS ALONE NEEDED FOR THOSE PAGES-->
     <StationpediaPage>
       <Key>Search</Key>
       <Title>Pesquisar</Title>
-      <Text> </Text>
+      <Text>
+        
+      </Text>
     </StationpediaPage>
 
     <StationpediaPage>
@@ -495,7 +499,9 @@ Pressão de Derretimento {0}</Text>
 
     <StationpediaPage>
       <Key>TierListHeaderTemplate</Key>
-      <Text> </Text>
+      <Text>
+        
+      </Text>
     </StationpediaPage>
 
     <StationpediaPage>
@@ -662,6 +668,13 @@ Com que frequência beber água? Isso é determinado pelo seu nível de dificuld
 A água vem em várias formas. Pelo menos uma {THING:ItemWaterBottle} é fornecida aos Stationeers como parte de suas rações ao pousarem em novos planetas, com mais em seus contêineres de pouso. Essas garrafas podem ser reabastecidas usando um {THING:ItemWaterBottleFiller}, que por sua vez deve estar conectado a uma rede de tubulação de líquidos. A própria rede pode ser abastecida usando um {THING:StructureIceCrusher} com uma quantidade adequada de gelo.
 
 Você pode ajustar o nível de sede no menu de configurações principal, alterando o controle deslizante "Taxa de Fome/Hidratação".</Text>
+    </StationpediaPage>
+    <StationpediaPage>
+      <Key>SanitationPage</Key>
+      <Title>Saneamento</Title>
+      <DisplayFilter>Guides</DisplayFilter>
+      <Text>Com o tempo, satisfazer {LINK:HydrationPage;sede} e {LINK:HungerPage;fome} dos Stationeers fará com que eles precisem fazer suas necessidades. A {LINK:ODA;ADE} recomenda que os Stationeers configurem um {THING:StructureToiletModern} dentro de sua base após o pouso, exigindo uma atmosfera e {GAS:Water} para operar. Isso produzirá {GAS:PollutedWater} que pode ser reciclada usando um {THING:StructureWaterPurifier} e depois usado para outros fins, como {LINK:FarmingPage;agricultura} ou {LINK:HydrationPage;para beber}. O {THING:ItemWasteBagEmpty} pode ser usado como uma alternativa portátil ao banheiro, mas o conteúdo não é recuperável.
+{LIST_OF_SANITATION}</Text>
     </StationpediaPage>
 
     <StationpediaPage>

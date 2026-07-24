@@ -112,6 +112,18 @@
 			<Value>Apesanteur</Value>
 		</Record>
 		<Record>
+			<Key>StatusIconGravityDesc</Key>
+			<Value>Subit actuellement l’apesanteur</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconAccelerationName</Key>
+			<Value>Accélération</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconAccelerationDesc</Key>
+			<Value>Soumis à des forces G excessives</Value>
+		</Record>
+		<Record>
 			<Key>StatusIconJetpackName</Key>
 			<Value>Propulseurs activés</Value>
 		</Record>
@@ -250,6 +262,26 @@
 		<Record>
 			<Key>StatusIconHygieneName</Key>
 			<Value>Hygiène</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconSanitationName</Key>
+			<Value>Besoins sanitaires</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconSoiledName</Key>
+			<Value>Souillé</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconHealingName</Key>
+			<Value>Guérison</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconStimulantName</Key>
+			<Value>Stimulant</Value>
+		</Record>
+		<Record>
+			<Key>StatusIconStunNotice</Key>
+			<Value>Étourdissement</Value>
 		</Record>
 		<Record>
 			<Key>DeconstructCanisterFull</Key>

@@ -580,8 +580,8 @@ Manger des ingrédients bruts rassasie moins qu’un repas complet : ils ne rest
 {HEADER:QUALITÉ DE LA NOURRITURE}
 La nourriture possède plusieurs niveaux de qualité, chacun ayant un effet direct sur votre capacité d’hydratation :
 - Mauvaise : &lt;color=red&gt;-25 % de capacité d'hydratation&lt;/color&gt;
-- Neutre : sans effet sur la capacité d'hydratation
-- Bonne : &lt;color=green&gt;+25 % de capacité d'hydratation&lt;/color&gt;
+- Correcte : &lt;color=orange&gt;sans effet sur la capacité d'hydratation&lt;/color&gt;
+- Bonne : &lt;color=yellow&gt;+25 % de capacité d'hydratation&lt;/color&gt;
 - Excellente : &lt;color=green&gt;+75 % de capacité d'hydratation&lt;/color&gt;
 
 Une nourriture de meilleure qualité augmente votre capacité d’hydratation maximale, ce qui réduit la fréquence à laquelle vous devez boire et améliore donc votre autonomie.
@@ -654,13 +654,20 @@ Lors du traitement, de l'{GAS:Nitrogen} et du {GAS:Methane} sont libérés, acco
 
 La qualité de la nourriture consommée influence également votre capacité d'hydratation maximale :
 - Mauvaise : &lt;color=red&gt;-25 % de capacité d'hydratation&lt;/color&gt;
-- Neutre : sans effet sur la capacité d'hydratation
-- Bonne : &lt;color=green&gt;+25 % de capacité d'hydratation&lt;/color&gt;
+- Correcte : &lt;color=orange&gt;sans effet sur la capacité d'hydratation&lt;/color&gt;
+- Bonne : &lt;color=yellow&gt;+25 % de capacité d'hydratation&lt;/color&gt;
 - Excellente : &lt;color=green&gt;+75 % de capacité d'hydratation&lt;/color&gt;
 
 L'{GAS:Water} se présente sous de nombreuses formes. Au moins une {THING:ItemWaterBottle} est fournie aux {LINK:Stationeers;Stationeers} dans le cadre de leurs rations lors de l'atterrissage sur de nouvelles planètes, d'autres {THING:ItemWaterBottle} sont fournies dans les caisses sur l'atterrisseur. Celles-ci peuvent être remplies à l'aide d'un {THING:ItemWaterBottleFiller}, qui doit lui-même être connecté à un réseau de tuyaux liquides. Le réseau lui-même peut être rempli à l'aide d'un {THING:StructureIceCrusher} avec un approvisionnement adéquat en glace.
 
 </Text>
+		</StationpediaPage>
+		<StationpediaPage>
+			<Key>SanitationPage</Key>
+			<Title>Sanitaire</Title>
+			<DisplayFilter>Guides</DisplayFilter>
+			<Text>Avec le temps, satisfaire la {LINK:HydrationPage;soif} et la {LINK:HungerPage;faim} des Stationeers les amènera à devoir se soulager. L’{LINK:ODA;ODA} recommande d’installer des {THING:StructureToiletModern} dans la base après l’atterrissage, nécessitant une atmosphère et de l’{GAS:Water} pour fonctionner. Celle-ci produira de l’{GAS:PollutedWater}, qui peut être recyclée via un {THING:StructureWaterPurifier} puis réutilisée pour d’autres usages, comme l’{LINK:FarmingPage;agriculture} ou la {LINK:HydrationPage;consommation}. Le {THING:ItemWasteBagEmpty} peut servir d’alternative portable aux toilettes, mais son contenu n’est pas récupérable.
+{LIST_OF_SANITATION}</Text>
 		</StationpediaPage>
 		<StationpediaPage>
 			<Key>EVAPage</Key>

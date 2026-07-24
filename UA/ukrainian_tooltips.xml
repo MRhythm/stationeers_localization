@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Ukrainian</Name>
+  <Code>UK</Code>
+  <Font>font_russian</Font>
+  <ScreenSpaceToolTips>
+    <Record>
+      <Key>StatusIconToxinName</Key>
+      <Value>Токсичність</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinDesc</Key>
+      <Value>Поточний рівень токсичності вдихуваної атмосфери</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinWarning</Key>
+      <Value>Потребує уваги</Value>
+    </Record>
+        <Record>
+      <Key>StatusIconHydrationDesc</Key>
+      <Value>Водний баланс знижується — випийте води</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationKey</Key>
+      <Value>Низький водний баланс</Value>
+    </Record>
+    <Record>
+      <Key>HydrationCaution</Key>
+      <Value>Попередження про гідратацію</Value>
+    </Record>
+    <Record>
+      <Key>HydrationCritical</Key>
+      <Value>Критичний рівень гідратації</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconToxinCritical</Key>
+      <Value>Критичний стан</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenName</Key>
+      <Value>Постачання кисню</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenDesc</Key>
+      <Value>Атмосфера, якою ви дихаєте, шкодить вашим легеням.</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxygenWarning</Key>
+      <Value>Рівень кисню в балоні низький — потрібна увага</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconOxyegnCritical</Key>
+      <Value>Критичний рівень кисню — замініть балон</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureName</Key>
+      <Value>Внутрішній тиск</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureDesc</Key>
+      <Value>Поточний рівень тиску — перевірте тиск у скафандрі</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureWarning</Key>
+      <Value>Тиск у скафандрі низький</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPressureCritical</Key>
+      <Value>Критично низький тиск у скафандрі</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTemperatureName</Key>
+      <Value>Внутрішня температура</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTemperatureDesc</Key>
+      <Value>Поточна температура всередині скафандра</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTempuratureWarning</Key>
+      <Value>Температура всередині скафандра відхиляється від норми</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconTempuratureCritical</Key>
+      <Value>Критична температура всередині скафандра</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeakingName</Key>
+      <Value>Витік зі скафандра</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPowerName</Key>
+      <Value>Живлення скафандра</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconPowerDesc</Key>
+      <Value>Заряд акумулятора скафандра знижується</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconGravityName</Key>
+      <Value>Невагомість</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconGravityDesc</Key>
+      <Value>Наразі у стані невагомості</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationName</Key>
+      <Value>Прискорення</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAccelerationDesc</Key>
+      <Value>Надмірні перевантаження</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackName</Key>
+      <Value>Реактивний ранець активний</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconClimbingName</Key>
+      <Value>Підіймання</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLightName</Key>
+      <Value>Перемкнути ліхтар</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconInternalsName</Key>
+      <Value>Відкрити/закрити шолом</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHandPowerName</Key>
+      <Value>Увімкнути/вимкнути предмет у руці</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconInSlotName</Key>
+      <Value>У кріслі або у транспорті</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHungerName</Key>
+      <Value>Рівень голоду</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunName</Key>
+      <Value>Відсоток оглушення</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconAirTankName</Key>
+      <Value>Запас повітря в балоні</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackWarningName</Key>
+      <Value>Паливо реактивного ранця</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconJetpackWarningDesc</Key>
+      <Value>Запас палива реактивного ранця зменшується</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconFilterName</Key>
+      <Value>Ресурс фільтра</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconWasteName</Key>
+      <Value>Заповнення балона відпрацьованих газів</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconWasteDesc</Key>
+      <Value>Балон відпрацьованих газів майже заповнений — спорожніть його</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealthName</Key>
+      <Value>Стан здоров’я</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealthDesc</Key>
+      <Value>Стан здоров’я погіршився</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHydrationName</Key>
+      <Value>Водний баланс</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconUnconsciousName</Key>
+      <Value>Непритомність</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconMoodName</Key>
+      <Value>Настрій</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHygieneName</Key>
+      <Value>Гігієна</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSanitationName</Key>
+      <Value>Санітарна потреба</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconSoiledName</Key>
+      <Value>Забруднення</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconHealingName</Key>
+      <Value>Лікування</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStimulantName</Key>
+      <Value>Стимулятор</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconStunNotice</Key>
+      <Value>Оглушення</Value>
+    </Record>
+	<Record>
+      <Key>DeconstructCanisterFull</Key>
+      <Value>Неможливо розібрати. Балон має бути порожнім</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeavingAreaName</Key>
+      <Value>Вихід за межі зони місії</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconLeavingAreaDesc</Key>
+      <Value>Ви за межами зони — поверніться назад</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconRespawnStressName</Key>
+      <Value>Стрес після відродження</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconRespawnStressDesc</Key>
+      <Value>Впливає на швидкість дій</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantName</Key>
+      <Value>Температура теплоносія</Value>
+    </Record>
+    <Record>
+      <Key>StatusIconCoolantDesc</Key>
+      <Value>Температура теплоносія надто висока</Value>
+    </Record>
+  </ScreenSpaceToolTips>
+</Language>

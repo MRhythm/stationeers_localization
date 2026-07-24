@@ -1716,6 +1716,26 @@ USO: 'J' para ativar; 'espaço' para voar; 'Ctrl esquerdo' para descer; e 'WASD'
       <Description>Escolha clássico, clandestino ou simplesmente gótico com a tinta preta, que pode ser aplicada na maioria dos itens. Cada lata tem 20 utilizações.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemSprayCanMetallicObsidian</Key>
+      <Value>Tinta Spray (Obsidiana)</Value>
+      <Description>Tinta spray obsidiana metálica. Usá-la com uma pistola de pulverização prolongará bastante o uso.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicSilver</Key>
+      <Value>Tinta Spray (Prata)</Value>
+      <Description>Tinta spray prateada metálica. Usá-la com uma pistola de pulverização prolongará bastante o uso.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicBronze</Key>
+      <Value>Tinta Spray (Bronze)</Value>
+      <Description>Tinta spray bronze metálico. Usá-la com uma pistola de pulverização prolongará bastante o uso.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSprayCanMetallicGold</Key>
+      <Value>Tinta Spray (Ouro)</Value>
+      <Description>Tinta spray dourada metálica. Usá-la com uma pistola de pulverização prolongará bastante o uso.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemSprayCanBlue</Key>
       <Value>Tinta Spray (Azul)</Value>
       <Description>Que tipo de cor é azul? O tipo de cor que diz: 'Ei, e quanto a mim?'</Description>
@@ -5433,6 +5453,11 @@ Com um {THING:ItemIntegratedCircuit10} no {SLOT:ProgrammableChip}, você pode ac
       <Description>A primeira peça a ser instalada quando estiver construindo um foguete. Foguetes podem ser construídos e/ou lançados aqui. Cada Montagem de Lançamento terá um slot alocado no Mapa Espacial e será designada um Código de Local.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>StructureLaunchMountOrbital</Key>
+      <Value>Montagem de Lançamento Orbital</Value>
+      <Description>Uma montagem de lançamento implantada em órbita baixa usando um {THING:DynamicOrbitalLaunchMountPayload} carregado em um {THING:StructureRocketLargePayloadBay}. Foguetes podem ser construídos e/ou pousados ​​aqui. Cada Montagem de Lançamento Orbital receberá um slot no Mapa Espacial e receberá um Código de Localização.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemKitAirlockGate</Key>
       <Value>Kit (Portas de Hangar)</Value>
       <Description/>
@@ -8147,6 +8172,11 @@ Equilibrar o rendimento de ambas as entradas é fundamental para criar uma boa t
       <Description/>
     </RecordThing>
     <RecordThing>
+      <Key>ItemKitLaunchMountOrbital</Key>
+      <Value>Kit (Montagem de Lançamento Orbital)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketManufactory</Key>
       <Value>Fabricadora de Foguetes</Value>
     </RecordThing>
@@ -9611,6 +9641,16 @@ Todos os tubos do armário devem estar conectados ou a unidade apresentará um e
       <Value>Kit (Contêiner de Entrega Portátil)</Value>
     </RecordThing>
     <RecordThing>
+      <Key>DynamicOrbitalLaunchMountPayload</Key>
+      <Value>Carga de Montagem de Lançamento Orbital</Value>
+      <Description>Quando anexado a um {THING:StructureRocketLargePayloadBay}, o {THING:DynamicOrbitalLaunchMountPayload} pode ser implantado em órbita baixa, onde é descompactado em um {THING:StructureLaunchMountOrbital}. Os foguetes podem então ser construídos e pousados ​​lá, e os foguetes tripulados podem viajar entre eles e lançar montagens na superfície.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitOrbitalLaunchMountPayload</Key>
+      <Value>Kit (Carga de Montagem de Lançamento Orbital)</Value>
+      <Description>Constrói uma {THING:DynamicOrbitalLaunchMountPayload} que pode ser levada até a Órbita Baixa em uma {THING:StructureRocketLargePayloadBay}.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>StructureRocketLargePayloadBay</Key>
       <Value>Baía de Carga Grande</Value>
       <Description>O {THING:StructureRocketLargePayloadBay} funciona como um ponto de fixação para o {THING:DynamicPayloadDeliveryContainer}. Defina o local de implantação definindo as variáveis ​​lógicas PositionX e PositionZ no dispositivo. Use a ação de implantação no painel de localização do foguete para implantar uma carga anexada. A variável de lógica Open (Aberto) deve ser definida como 1 para iniciar a implantação da carga útil.</Description>
@@ -9627,7 +9667,7 @@ Todos os tubos do armário devem estar conectados ou a unidade apresentará um e
     <RecordThing>
       <Key>StructureCrewModule</Key>
       <Value>Módulo de Tripulação</Value>
-      <Description/>
+      <Description>Compartimento de tripulação para foguetes.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCrewModuleCableConnectorA</Key>
@@ -9637,6 +9677,21 @@ Todos os tubos do armário devem estar conectados ou a unidade apresentará um e
     <RecordThing>
       <Key>StructureCrewModuleCableConnectorB</Key>
       <Value>Módulo de Tripulação - Cabo Conector B</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleChair</Key>
+      <Value>Cadeira do Módulo de Tripulação</Value>
+      <Description>Assento para tripular um foguete. Enquanto o assento está ocupado, o foguete só pode viajar entre as montagens de lançamento, e o assento só pode ser retirado enquanto o foguete pousa em uma delas.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleScreen</Key>
+      <Value>Tela do Módulo de Tripulação</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewParts</Key>
+      <Value>Kit (Peças da Tripulação)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -9837,6 +9892,238 @@ Todos os tubos do armário devem estar conectados ou a unidade apresentará um e
     <RecordThing>
       <Key>ItemGasFilterSilanolM</Key>
       <Value>Filtro Médio (Silanol)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureEngineMountTypeE1</Key>
+      <Value>Montagem de Motor (Tipo E1)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureEngineMountTypeE2</Key>
+      <Value>Montagem de Motor (Tipo E2)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFairingTypeE1</Key>
+      <Value>Escudo (Tipo E1)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureFuselageTypeE1</Key>
+      <Value>Fuselagem (Tipo E1)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitFuselageTypeE</Key>
+      <Value>Kit (Fuselagem Tipo E)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorEpi</Key>
+      <Value>Autoinjetor (Estímulo)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorHealth</Key>
+      <Value>Autoinjetor (Saúde)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorStun</Key>
+      <Value>Autoinjetor (Atordoamento)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemInjectorDex</Key>
+      <Value>Estojo de Injetores</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPacket</Key>
+      <Value>Pacote de Água</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleFuselage</Key>
+      <Value>Fuselagem do Módulo de Tripulação (Tipo C)</Value>
+      <Description>Compartimento de tripulação simplificado para foguetes. Entre interagindo com o módulo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagEmpty</Key>
+      <Value>Saco de Lixo</Value>
+      <Description>Um saco descartável que pode ser usado para atender às necessidades de {LINK:SanitationPage;saneamento}. Não pode ser usado enquanto veste {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagFilled</Key>
+      <Value>Saco de Lixo (Cheio)</Value>
+      <Description>Um saco descartável parcial ou totalmente usado que pode ser usado para atender às necessidades de {LINK:SanitationPage;saneamento}, desde que haja espaço restante. Não pode ser usado enquanto veste {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureToiletModern</Key>
+      <Value>Banheiro Moderno</Value>
+      <Description>Um dispositivo para reduzir as necessidades de {LINK:SanitationPage;saneamento}. Requer {GAS:Water} e produz {GAS:PollutedWater} daqueles que o utilizam.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitToilet</Key>
+      <Value>Kit (Banheiro)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>OrganStomach</Key>
+      <Value>Estômago</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModulePassiveVent</Key>
+      <Value>Ventilação Passiva do Módulo de Tripulação</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleActiveVent</Key>
+      <Value>Ventilação Ativa do Módulo de Tripulação</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWaterPacket</Key>
+      <Value>Pacote de Agua</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagEmpty</Key>
+      <Value>Saco de Lixo</Value>
+      <Description>Um saco descartável que pode ser usado para atender às necessidades de {LINK:SanitationPage;saneamento}. Não pode ser usado enquanto veste {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemWasteBagFilled</Key>
+      <Value>Saco de Lixo (Cheio)</Value>
+      <Description>Um saco descartável parcial ou totalmente usado que pode ser usado para atender às necessidades de {LINK:SanitationPage;saneamento}, desde que haja espaço restante. Não pode ser usado enquanto veste {SLOT:Suit}.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemSurvivalBelt</Key>
+      <Value>Cinto de Sobrevivência</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleFuselageSimple</Key>
+      <Value>Fuselagem do Módulo de Tripulação (Tipo A)</Value>
+      <Description>Compartimento compacto da tripulação para foguetes. Entre interagindo com o módulo.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemClothingBagOveralls_Paintable</Key>
+      <Value>Macacão (Pintável)</Value>
+      <Description>Macacões que podem ser coloridos com as Tintas Spray.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureLogicRocketUplinkCompact</Key>
+      <Value>Uplink de Lógica (Compacto)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleChair</Key>
+      <Value>Kit (Cadeira do Módulo de Tripulação)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleCableConnector</Key>
+      <Value>Kit (Conector do Cabo do Módulo de Tripulação)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleScreen</Key>
+      <Value>Kit (Tela do Módulo de Tripulação)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewBulkhead</Key>
+      <Value>Antepara da Tripulação</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemKitCrewModuleElectronics</Key>
+      <Value>Kit (Eletrônicos da Tripulação)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCrewModuleLight</Key>
+      <Value>Luz de Tripulação</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight3</Key>
+      <Value>Cabo (Reta de 3)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight3Burnt</Key>
+      <Value>Cabo Queimado (Reta de 3)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight5</Key>
+      <Value>Cabo (Reta de 5)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight5Burnt</Key>
+      <Value>Cabo Queimado (Reta de 5)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight10</Key>
+      <Value>Cabo (Reta de 10)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraight10Burnt</Key>
+      <Value>Cabo Queimado (Reta de 10)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>Landingpad_ArrowPiece</Key>
+      <Value>Plataforma de Pouso - Seta</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5</Key>
+      <Value>Painel Solar (Duplo 1x5)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Reinforced</Key>
+      <Value>Painel Solar (Pesado, Duplo 1x5)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Side</Key>
+      <Value>Display LED (Médio, Lateral)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureConsoleLED1x2Back</Key>
+      <Value>Display LED (Médio, Atrás)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5ReinforcedSingle</Key>
+      <Value>Painel Solar (Pesado 1x5)</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureH2Combustor1</Key>
+      <Value>H2 Combustor1</Value>
+      <Description/>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCombustor</Key>
+      <Value>Combustor</Value>
+      <Description>O Combustor realiza a combustão controlada de uma mistura retirada de uma entrada de gás e de uma entrada de líquido. Uma roda de controle define a proporção obtida de cada um, bem como o {THING:StructureGasMixer}, e a mistura combinada é queimada antes de ser passada para a saída.
+
+O que o Combustor produz depende inteiramente do que é alimentado nele. Consulte a página sobre {LINK:GasPage;Gases} para descobrir em que cada combinação entra em combustão.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureSolarPanel1x5Single</Key>
+      <Value>Painel Solar (1x5)</Value>
       <Description/>
     </RecordThing>
   </Things>
@@ -10108,6 +10395,14 @@ Todos os tubos do armário devem estar conectados ou a unidade apresentará um e
     <Record>
       <Key>ProgrammableChip</Key>
       <Value>Chip Programável</Value>
+    </Record>
+    <Record>
+      <Key>AutoInjector</Key>
+      <Value>Auto-Injetor</Value>
+    </Record>
+    <Record>
+      <Key>Stomach</Key>
+      <Value>Estômago</Value>
     </Record>
     <Record>
       <Key>CreditCard</Key>
@@ -13606,6 +13901,10 @@ Todos os tubos do armário devem estar conectados ou a unidade apresentará um e
       <Value>Umbilicais</Value>
     </Record>
     <Record>
+      <Key>Sanitation</Key>
+      <Value> Saneamento</Value>
+    </Record>
+    <Record>
       <Key>RocketPayloadCategory</Key>
       <Value>Cargas de Foguete</Value>
     </Record>
@@ -14448,6 +14747,10 @@ Todos os tubos do armário devem estar conectados ou a unidade apresentará um e
     <Record>
       <Key>ButtonOk</Key>
       <Value>OK</Value>
+    </Record>
+    <Record>
+      <Key>ServerAnnouncement</Key>
+      <Value>Anúncio</Value>
     </Record>
     <Record>
       <Key>InputPassword</Key>
@@ -17018,7 +17321,6 @@ Só não fique triste quando você se explodir em pedacinhos minúsculos ou for 
       <Key>LogicTypeRatioLiquidOzoneOutput2</Key>
       <Value>A taxa de {GAS:LiquidOzone} na atmosfera da rede de saída 2 do dispositivo</Value>
     </Record>
-
     <Record>
       <Key>AppearanceButtonRandomize</Key>
       <Value>Randomizar</Value>
@@ -19443,6 +19745,18 @@ Recrutando pessoas com formação em engenharia civil, indústrias militares e a
       <Value>Hidratação Crítica</Value>
     </Record>
     <Record>
+      <Key>SanitationCaution</Key>
+      <Value>Saneamento: Cuidado</Value>
+    </Record>
+    <Record>
+      <Key>SanitationCritical</Key>
+      <Value>Saneamento: Crítico</Value>
+    </Record>
+    <Record>
+      <Key>SoiledCritical</Key>
+      <Value>Sujo</Value>
+    </Record>
+    <Record>
       <Key>MoodLow</Key>
       <Value>Humor Baixo</Value>
     </Record>
@@ -20044,6 +20358,14 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Cancelar</Value>
     </Record>
     <Record>
+      <Key>RemoveNodesOfTypeButton</Key>
+      <Value>Deletar Nós do Tipo</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodesOfTypeText</Key>
+      <Value>Isso irá deletar todos os nós nesse local do tipo selecionado. Tem certeza?</Value>
+    </Record>
+    <Record>
       <Key>ClearDestinationButton</Key>
       <Value>Limpar Destino</Value>
     </Record>
@@ -20082,6 +20404,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     <Record>
       <Key>StationpediaInstructions</Key>
       <Value>Instruções</Value>
+    </Record>
+    <Record>
+      <Key>StationpediaBindings</Key>
+      <Value>Atalhos</Value>
     </Record>
     <Record>
       <Key>StationpediaInternalMemory</Key>
@@ -21544,6 +21870,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Gravidade Zero</Value>
     </Record>
     <Record>
+      <Key>StatusWarningAcceleration</Key>
+      <Value>Aceleração</Value>
+    </Record>
+    <Record>
       <Key>StatusNoticeActiveHandOff</Key>
       <Value>Mão Ativa Desl.</Value>
     </Record>
@@ -21562,6 +21892,14 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     <Record>
       <Key>StatusNoticeJetpackOn</Key>
       <Value>Jetpack Lig.</Value>
+    </Record>
+    <Record>
+      <Key>ConnectedSlot</Key>
+      <Value>Conexão de Tela</Value>
+    </Record>
+    <Record>
+      <Key>StatusNoticeHealingNotice</Key>
+      <Value>Cura</Value>
     </Record>
     <Record>
       <Key>StatusNoticeLightOff</Key>
@@ -21832,6 +22170,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Suprimentos para Câmara de Descompressão</Value>
     </Record>
     <Record>
+      <Key>SpawnDataNavigationPackage</Key>
+      <Value>Pacote de Navegação</Value>
+    </Record>
+    <Record>
       <Key>SpawnDataAdvancedAirlockSupplies</Key>
       <Value>Suprimentos de Câmara de Ar Avançada</Value>
     </Record>
@@ -22020,6 +22362,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Tempestade de Cinzas</Value>
     </Record>
     <Record>
+      <Key>FireStorm</Key>
+      <Value>Tempestade de Fogo</Value>
+    </Record>
+    <Record>
       <Key>RainWeather</Key>
       <Value>Chuva</Value>
     </Record>
@@ -22200,6 +22546,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Pacote de Reparo da Nave</Value>
     </Record>
     <Record>
+      <Key>BuyDataCryogenicsSupplyCrate</Key>
+      <Value>Caixa de Suprimentos de Criogenia</Value>
+    </Record>
+    <Record>
       <Key>BuyDataHardsuitPackage</Key>
       <Value>Pacote de Traje Avançado</Value>
     </Record>
@@ -22224,8 +22574,8 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Mistura de Combustível Comum</Value>
     </Record>
     <Record>
-        <Key>BuyDataBulkCarbonDioxide</Key>
-        <Value>Dióxido de Carbono</Value>
+      <Key>BuyDataBulkCarbonDioxide</Key>
+      <Value>Dióxido de Carbono</Value>
     </Record>
     <Record>
       <Key>BuyDataBulkCarbonDioxideVenus</Key>
@@ -22368,8 +22718,16 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
       <Value>Óxido Nitroso a Granel</Value>
     </Record>
     <Record>
+      <Key>SellDataBulkOzone</Key>
+      <Value>Ozônio à Granel</Value>
+    </Record>
+    <Record>
       <Key>SellDataBulkDirtyVolatiles</Key>
       <Value>Voláteis Sujos a Granel</Value>
+    </Record>
+    <Record>
+      <Key>SellDataBulkHydrazine</Key>
+      <Value>Hidrazina à Granel</Value>
     </Record>
     <Record>
       <Key>SellDataSteam</Key>
@@ -22378,6 +22736,10 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     <Record>
       <Key>SellDataOxygenCanister</Key>
       <Value>Cilindro de Oxigênio</Value>
+    </Record>
+    <Record>
+      <Key>SellDataHydrazineCanister</Key>
+      <Value>Cilindro de Hidrazina</Value>
     </Record>
     <Record>
       <Key>SellDataFuelCanister</Key>
@@ -22602,6 +22964,38 @@ Um {THING:StructureWaterPurifier} pode ser usado para convertê-la de volta em {
     <Record>
       <Key>TraderPlanetaryProduce</Key>
       <Value>Produtos Planetários</Value>
+    </Record>
+    <Record>
+      <Key>TraderCosmicCare</Key>
+      <Value>Cuidados Cósmicos</Value>
+    </Record>
+    <Record>
+      <Key>TraderStellarMedical</Key>
+      <Value>Suprimentos Médicos Estelares</Value>
+    </Record>
+    <Record>
+      <Key>TraderOrbitalApothecary</Key>
+      <Value>Boticário Orbital</Value>
+    </Record>
+    <Record>
+      <Key>TraderVoidVitals</Key>
+      <Value>Vitais Nulos</Value>
+    </Record>
+    <Record>
+      <Key>TraderNebulaNursing</Key>
+      <Value>Enfermagem Nebulosa</Value>
+    </Record>
+    <Record>
+      <Key>TraderAsteroidAidStation</Key>
+      <Value>Asteroide-Estação de Auxílio</Value>
+    </Record>
+    <Record>
+      <Key>TraderInterstellarInfirmary</Key>
+      <Value>Enfermaria Interestelar</Value>
+    </Record>
+    <Record>
+      <Key>TraderGalacticGauze</Key>
+      <Value>Gaze Galática</Value>
     </Record>
     <Record>
       <Key>TraderGreenFutures</Key>
@@ -23043,6 +23437,18 @@ Obrigado por sua compreensão, e nós mal podemos esperar que vocês experiencie
       <Key>StationpediaFermentable</Key>
       <Value>Fermentável:</Value>
     </Record>
+    <Record>
+      <Key>ButtonSurfaceScan</Key>
+      <Value>Escanear Superfície</Value>
+    </Record>
+    <Record>
+      <Key>ButtonTransfer</Key>
+      <Value>Transferir</Value>
+    </Record>
+    <Record>
+      <Key>RemoveNodeOfTypeButton</Key>
+      <Value>Remover Tipo de Nó</Value>
+    </Record>
   </Interface>
   <Colors>
     <Record>
@@ -23092,6 +23498,22 @@ Obrigado por sua compreensão, e nós mal podemos esperar que vocês experiencie
     <Record>
       <Key>ColorPurple</Key>
       <Value>Púrpura</Value>
+    </Record>
+    <Record>
+      <Key>ColorObsidian</Key>
+      <Value>Obsidiana</Value>
+    </Record>
+    <Record>
+      <Key>ColorSilver</Key>
+      <Value>Prata</Value>
+    </Record>
+    <Record>
+      <Key>ColorBronze</Key>
+      <Value>Bronze</Value>
+    </Record>
+    <Record>
+      <Key>ColorGold</Key>
+      <Value>Ouro</Value>
     </Record>
   </Colors>
   <Keys>
@@ -28251,6 +28673,26 @@ Indica a duração do ciclo orbital.</Value>
       <Value>Ótima: &lt;color=green&gt;+75% de hidratação&lt;/color&gt;</Value>
     </Record>
     <Record>
+      <Key>FoodQualityLow</Key>
+      <Value>Baixa</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityOk</Key>
+      <Value>Ok</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityGood</Key>
+      <Value>Boa</Value>
+    </Record>
+    <Record>
+      <Key>FoodQualityBest</Key>
+      <Value>Ótima</Value>
+    </Record>
+    <Record>
+      <Key>TooltipFoodQuality</Key>
+      <Value>Qualidade do Alimento: {LOCAL:Quality}</Value>
+    </Record>
+    <Record>
       <Key>WaterPurifierCharcoalErrorMsg</Key>
       <Value>Requer &lt;color=green&gt;{LOCAL:Prefab}&lt;/color&gt; no slot de Importação para Operar</Value>
     </Record>
@@ -30320,12 +30762,176 @@ Indica a duração do ciclo orbital.</Value>
       <Value>{LOCAL:Payload} Só pode ser implantado em Órbita Baixa</Value>
     </Record>
     <Record>
+      <Key>RocketDeployFailNoFreePosition</Key>
+      <Value>{LOCAL:Payload}: Todas as posições de implementação na Órbita Baixa estão ocupadas</Value>
+    </Record>
+    <Record>
+      <Key>RocketCannotExitSeatInFlight</Key>
+      <Value>Não é possível sair do assento a menos que o foguete pouse em uma montagem de lançamento</Value>
+    </Record>
+    <Record>
+      <Key>RocketCrewModuleMannedTravel</Key>
+      <Value>Não é possível viajar aqui enquanto o módulo da tripulação estiver tripulado</Value>
+    </Record>
+    <Record>
       <Key>RocketDeployFailNoPayload</Key>
       <Value>Sem carga para implantar</Value>
     </Record>
     <Record>
       <Key>ConstructionBlockedByDynamic</Key>
       <Value>Construção bloqueada por {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>Waste</Key>
+      <Value>Resíduo</Value>
+    </Record>
+    <Record>
+      <Key>Use</Key>
+      <Value>Usar</Value>
+    </Record>
+    <Record>
+      <Key>Healing</Key>
+      <Value>Curar</Value>
+    </Record>
+    <Record>
+      <Key>SanitationNeed</Key>
+      <Value>Necessidade de Saneamento</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotInPosition</Key>
+      <Value>{LOCAL:Occupant} não está perto o suficiente para usar</Value>
+    </Record>
+    <Record>
+      <Key>DeviceCannotWhenWearing</Key>
+      <Value>Não é possível usar vestindo {LOCAL:Thing}</Value>
+    </Record>
+    <Record>
+      <Key>NoSanitationNeed</Key>
+      <Value>{LOCAL:Human} não precisa de saneamento no momento</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionSgn</Key>
+      <Value>Armazena o sinal de a no registro: -1 se a for negativo, 1 se for positivo e 0 se a for zero (ou não for um número).</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionClamp</Key>
+      <Value>Armazena um valor contido no intervalo inclusivo [min, max] no registro fornecido.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionRol</Key>
+      <Value>Executa uma rotação bit a bit para a esquerda na representação binária de a por b casas, envolvendo os bits deslocados da posição mais significativa de volta para a posição menos significativa.</Value>
+    </Record>
+    <Record>
+      <Key>ScriptDescriptionRor</Key>
+      <Value>Executa uma rotação bit a bit para a direita na representação binária de a por b casas, envolvendo os bits deslocados da posição menos significativa de volta para a posição mais significativa.</Value>
+    </Record>
+    <Record>
+      <Key>TrackablePlayerBodyBag</Key>
+      <Value>Saco de Corpo de {LOCAL:UserName}</Value>
+    </Record>
+    <Record>
+      <Key>Progress</Key>
+      <Value>Progresso</Value>
+    </Record>
+    <Record>
+      <Key>DistanceToBedRock</Key>
+      <Value>Distância até o Leito Rochoso</Value>
+    </Record>
+    <Record>
+      <Key>Defibrillate</Key>
+      <Value>Desfibrilar</Value>
+    </Record>
+    <Record>
+      <Key>DefibrillatorNotOperable</Key>
+      <Value>O desfibrilador não pode ser usado para esta ação.</Value>
+    </Record>
+    <Record>
+      <Key>NoPartnerUmbilical</Key>
+      <Value>Nenhum umbilical do parceiro conectado</Value>
+    </Record>
+    <Record>
+      <Key>RocketScannerWrongHeadType</Key>
+      <Value>A cabeça de escâner {LOCAL:Thing} é o tipo errado para a ação que você está tentando realizar</Value>
+    </Record>
+    <Record>
+      <Key>RocketSurfaceScanActionInfo</Key>
+      <Value>Enviando dados de digitalização para placas-mãe de mapas conectadas. Scanner: {LOCAL:OnOff}</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionSurfaceScan</Key>
+      <Value>Digitalizando Superfície</Value>
+    </Record>
+    <Record>
+      <Key>RocketActionTransfer</Key>
+      <Value>Transferindo Recursos</Value>
+    </Record>
+    <Record>
+      <Key>DeviceNotEnoughWater</Key>
+      <Value>Água insuficiente</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterTooHot</Key>
+      <Value>Água muito quente</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterTooCold</Key>
+      <Value>Água muito fria</Value>
+    </Record>
+    <Record>
+      <Key>DeviceWaterPolluted</Key>
+      <Value>Água está poluída</Value>
+    </Record>
+    <Record>
+      <Key>DeviceOutputFull</Key>
+      <Value>A rede de &lt;color=yellow&gt;saída&lt;/color&gt; está cheia</Value>
+    </Record>
+    <Record>
+      <Key>DeviceMinimumPressure</Key>
+      <Value>A atmosfera do mundo deve ser de pelo menos {LOCAL:PRESSURE}</Value>
+    </Record>
+    <Record>
+      <Key>DifficultyStatisticSanitation</Key>
+      <Value>Saneamento</Value>
+    </Record>
+    <Record>
+      <Key>FermenterItemsLeftToFerment</Key>
+      <Value>Fermentando &lt;color=yellow&gt;{LOCAL:Amount}&lt;/color&gt; x &lt;color=green&gt;{LOCAL:Value}{LOCAL:Percentage}%&lt;/color&gt;</Value>
+    </Record>
+    <Record>
+      <Key>FermenterWillProduce</Key>
+      <Value>Irá produzir &lt;color=purple&gt;{LOCAL:Value}&lt;/color&gt;.</Value>
+    </Record>
+    <Record>
+      <Key>FermenterInputIsEmpty</Key>
+      <Value>Sem item Fermentável na entrada.</Value>
+    </Record>
+    <Record>
+      <Key>RocketNoAvailableSeat</Key>
+      <Value>Nenhum assento disponível no módulo da tripulação</Value>
+    </Record>
+    <Record>
+      <Key>NoAvailableBattery</Key>
+      <Value>Nenhuma bateria disponível. A Bateria deve estar ligada e ter carga</Value>
+    </Record>
+    <Record>
+      <Key>PowerTransferActionInfo</Key>
+      <Value>Transferindo Energia. Fonte {LOCAL:SourcePercent}. Alvo {LOCAL:TargetPercent}</Value>
+    </Record>
+    <Record>
+      <Key>NoUmbilicalForTransfer</Key>
+      <Value>Não há umbilical para transferir</Value>
+    </Record>
+    <Record>
+      <Key>GasTransferActionInfo</Key>
+      <Value>Transferindo Gases e Líquidos.</Value>
+    </Record>
+    <Record>
+      <Key>ActionSource</Key>
+      <Value>Fonte</Value>
+    </Record>
+    <Record>
+      <Key>ActionTarget</Key>
+      <Value>Alvo</Value>
     </Record>
   </GameStrings>
   <GameTip/>
