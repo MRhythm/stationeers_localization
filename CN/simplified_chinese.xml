@@ -1821,7 +1821,14 @@
     <RecordThing>
       <Key>ItemToolBelt</Key>
       <Value>工具腰带</Value>
-      <Description>象征 {LINK:Stationeers;Stationeer} 生活的标志性装备（编者注:  {LINK:ODA;ODA} 调查显示, 被超压 {THING:StructureFurnace} 炸毁的基地残骸同样具有高辨识度）. 符合ODA安全标准, 八个插槽专用于存放工具和 {THING:ItemCableCoil} . 工具腰带设计符合最严格的ODA标准, 仅被设计为承载工具和 {THING:ItemCableCoil} , 不要将其与 {THING:ItemMiningBelt} 混淆</Description>
+      <Description>象征 {LINK:Stationeers;Stationeer} 生活的标志性装备（编者注: {LINK:ODA;ODA} 调查显示, 被超压 {THING:StructureFurnace} 炸毁的基地残骸同样具有高辨识度）. 符合ODA安全标准, 八个插槽专用于存放工具和 {THING:ItemCableCoil} . 工具腰带设计符合最严格的ODA标准, 仅被设计为承载工具和 {THING:ItemCableCoil} , 不要将其与 {THING:ItemMiningBelt} 混淆</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>ItemCableToolBelt</Key>
+      <Value>电工腰带</Value>
+      <Description>一条拥有两个工具槽位和八个专用槽位的腰带, 专用槽位仅能存放 {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} 和 {THING:ItemCableCoilSuperHeavy}.
+
+          穿戴该腰带时, {THING:ItemCableGun} 会在用光电缆时自动从其中取出对应种类的电缆并装填到枪内, 而且会自动收纳手中拿不下的电缆.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemUraniumOre</Key>
@@ -9110,8 +9117,9 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>ItemSuitHARM</Key>
       <Value>防护服</Value>
-      <Description>防护服是Stationeers对抗恶劣环境的终极手段.
-        防护服采用液冷技术, 具备卓越的隔热性能, 并拥有优秀的抗冲击和熔岩耐受能力. 虽然防护服不兼容 {THING:ItemJetpackBasic} ,但Stationeer仍可配备 {THING:ItemHardBackpack} 或 {THING:ItemHardMiningBackPack}. 由于其特殊的稳定性与体积, 穿着防护服在风暴中行动时不会影响行走速度, 但这也导致日常操作时的移动速度有所下降.</Description>
+      <Description>
+防护服是Stationeers对抗恶劣环境的终极手段.防护服采用液冷技术, 具备卓越的隔热性能, 并拥有优秀的抗冲击和熔岩耐受能力. 虽然防护服不兼容 {THING:ItemJetpackBasic} ,但Stationeer仍可配备 {THING:ItemHardBackpack} 或 {THING:ItemHardMiningBackPack}. 由于其特殊的稳定性与体积, 穿着防护服在风暴中行动时不会影响行走速度, 但这也导致日常操作时的移动速度有所下降.
+</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemSuitHelmetHARM</Key>
@@ -9310,14 +9318,14 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>太空服收纳架</Value>
       <Description>整洁又实用, 太空服收纳架可存放一件 {THING:ItemEvaSuit}, 一个 {THING:ItemSpaceHelmet} 和一个{THING:ItemJetpackBasic}.
         当通电并连接到 {GAS:Oxygen} 和 {GAS:Nitrogen} 时, 它将为太空服的电池充电, 补充{THING:ItemGasCanisterOxygen} 和你的 {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister} .废气瓶将被泵送到连接到废弃物出口的管道中.
-        收纳架的所有管道都必须接好, 否则改设备将显示错误状态, 不过它仍会为电池充电.</Description>
+        收纳架的所有管道都必须接好, 否则该设备将显示为错误状态, 不过它仍会为电池充电.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSuitStorageLocker</Key>
       <Value>太空服收纳柜</Value>
       <Description>整洁又实用, 太空服收纳架可存放一件 {THING:ItemEvaSuit}, 一个 {THING:ItemSpaceHelmet} 和一个{THING:ItemJetpackBasic}.
         当通电并连接到 {GAS:Oxygen} 和 {GAS:Nitrogen} 时, 它将为太空服的电池充电, 补充{THING:ItemGasCanisterOxygen} 和你的 {THING:ItemGasCanisterNitrogen} {SLOT:GasCanister} .废气瓶将被泵送到连接到废弃物出口的管道中.
-        收纳架的所有管道都必须接好, 否则改设备将显示错误状态, 不过它仍会为电池充电.</Description>
+        收纳架的所有管道都必须接好, 否则该设备将显示为错误状态, 不过它仍会为电池充电.</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasTankConnectorPiece</Key>
@@ -10076,8 +10084,46 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>ItemCableGun</Key>
       <Value>电缆枪</Value>
-      <Description />
+        <Description>能够轻易建造长长的电缆段.
+
+            兼容 {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} 和 {THING:ItemCableCoilSuperHeavy}, 电缆枪在建造时会尽可能选择较长的电缆变体
+
+            电缆枪无法融合已经安装完毕的电缆.
+
+            一次能够安装的电缆长度无法超过电缆枪允许的装载量; {THING:ItemCableToolBelt} 也无法扩展这一上限. 当装载的电缆用完时, 电缆枪能够自动从中装载对应种类的电缆.</Description>
     </RecordThing>
+      <RecordThing>
+          <Key>StructureCableStraightH3</Key>
+          <Value>重型电缆(直线3)</Value>
+          <Description />
+      </RecordThing>
+      <RecordThing>
+          <Key>StructureCableStraightH3Burnt</Key>
+          <Value>烧毁的重型电缆(直线3)</Value>
+      </RecordThing>
+      <RecordThing>
+          <Key>StructureCableStraightH5</Key>
+          <Value>重型电缆(直线5)</Value>
+          <Description />
+      </RecordThing>
+      <RecordThing>
+          <Key>StructureCableStraightH5Burnt</Key>
+          <Value>烧毁的重型电缆(直线3)</Value>
+      </RecordThing>
+      <RecordThing>
+          <Key>StructureCableStraightH10</Key>
+          <Value>重型电缆(直线10)</Value>
+          <Description />
+      </RecordThing>
+      <RecordThing>
+          <Key>StructureCableStraightH10Burnt</Key>
+          <Value>烧毁的重型电缆(直线10)</Value>
+      </RecordThing>
+      <RecordThing>
+          <Key>StructurePowerPylonTerminus</Key>
+          <Value>输电塔终点</Value>
+          <Description />
+      </RecordThing>
   </Things>
   <Slots>
     <Record>
