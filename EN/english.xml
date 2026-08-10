@@ -1833,6 +1833,13 @@ It may not be elegant, but {THING:ItemOxite} and {THING:ItemVolatiles} can be co
 Designed to meet the most strict-ish ODA safety standards, the toolbelt's eight slots hold one thing: tools, and {THING:ItemCableCoil}. Not to be confused with the {THING:ItemMiningBelt}.</Description>
     </RecordThing>
     <RecordThing>
+      <Key>ItemCableToolBelt</Key>
+      <Value>Electrical Belt</Value>
+      <Description>A belt with two tool slots and six slots restricted to {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} and {THING:ItemCableCoilSuperHeavy}.
+
+When worn, the belt reloads the {THING:ItemCableGun} with a matching coil once the gun's own coil is empty, and catches deconstructed cable that will not fit in your hands.</Description>
+    </RecordThing>
+    <RecordThing>
       <Key>ItemUraniumOre</Key>
       <Value>Ore (Uranium)</Value>
       <Description>In 1934, Enrico Fermi noticed that bombarding uranium with neutrons produced a burst of beta rays, and a new material. This process was named 'nuclear fission', and resulted in cheap energy, the Cold War, and countless thousand deaths. While reasonably common throughout the Solar System, {LINK:Stationeers;Stationeers} are wary of the material.</Description>
@@ -10171,6 +10178,44 @@ What the Combustor produces depends entirely on what is fed into it. See the {LI
     <RecordThing>
       <Key>ItemCableGun</Key>
       <Value>Cable Gun</Value>
+      <Description>Create long straight cable sections easily.
+
+Works with {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} and {THING:ItemCableCoilSuperHeavy}. The Cable Gun will use the long cable variant pieces wherever possible.
+
+The Cable Gun cannot merge its cables will cables that are already placed.
+
+A run can only be as long as the coil loaded in the gun allows; coils on an {THING:ItemCableToolBelt} do not extend it. When the loaded coil runs out, a matching coil from the belt is loaded into the gun automatically.</Description>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH3</Key>
+      <Value>Heavy Cable (Straight 3)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH3Burnt</Key>
+      <Value>Burnt Heavy Cable (Straight 3)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH5</Key>
+      <Value>Heavy Cable (Straight 5)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH5Burnt</Key>
+      <Value>Burnt Heavy Cable (Straight 5)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH10</Key>
+      <Value>Heavy Cable (Straight 10)</Value>
+      <Description />
+    </RecordThing>
+    <RecordThing>
+      <Key>StructureCableStraightH10Burnt</Key>
+      <Value>Burnt Heavy Cable (Straight 10)</Value>
+    </RecordThing>
+    <RecordThing>
+      <Key>StructurePowerPylonTerminus</Key>
+      <Value>Power Pylon Terminus</Value>
       <Description />
     </RecordThing>
   </Things>
@@ -10241,7 +10286,7 @@ What the Combustor produces depends entirely on what is fed into it. See the {LI
     </Record>
     <Record>
       <Key>CableAmmo</Key>
-      <Value>Cable</Value>
+      <Value>Cable Ammo</Value>
     </Record>
     <Record>
       <Key>Egg</Key>
