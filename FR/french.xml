@@ -1975,6 +1975,13 @@ Ce n'est peut-être pas élégant, mais la {THING:ItemOxite} et la {THING:ItemVo
 Conçue pour respecter les normes de sécurité ODA les plus strictes, les huit emplacements de la ceinture d'outils ne contiennent qu'une chose : des outils, et {THING:ItemCableCoil}. Ne pas confondre avec la {THING:ItemMiningBelt}.</Description>
 		</RecordThing>
 		<RecordThing>
+			<Key>ItemCableToolBelt</Key>
+			<Value>Ceinture de câblage</Value>
+			<Description>Une ceinture dotée de deux emplacements pour outils et de six emplacements réservés aux {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} et {THING:ItemCableCoilSuperHeavy}.
+
+Lorsqu’elle est portée, la ceinture recharge automatiquement le {THING:ItemCableGun} avec une câble compatible une fois celle de l’outil vide, et récupère les câbles déconstruits qui ne peuvent pas tenir dans vos mains.</Description>
+		</RecordThing>
+		<RecordThing>
 			<Key>ItemUraniumOre</Key>
 			<Value>Minerai d'uranium</Value>
 			<Description>En 1934, Enrico Fermi remarqua que bombarder de l'uranium avec des neutrons produisait un dégagement de rayons bêta et un nouveau matériau. Ce processus fut appelé "fission nucléaire" et entraîna une énergie bon marché, la guerre froide et d'innombrables milliers de morts. Bien que raisonnablement courant dans tout le système solaire, les {LINK:Stationeers;Stationeers} se méfient de ce matériau.</Description>
@@ -11039,12 +11046,12 @@ Les poches d'eau disparaissent une fois vidées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureToiletModern</Key>
-			<Value>Toilettes modernes</Value>
+			<Value>Toilette moderne</Value>
 			<Description>Un appareil pour réduire les besoins {LINK:SanitationPage;sanitaires}. Nécessite de l'{GAS:Water} et produit de l'{GAS:PollutedWater} de la part de ceux qui l'utilisent.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemKitToilet</Key>
-			<Value>Kit (Toilettes)</Value>
+			<Value>Kit (Toilette)</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -11118,7 +11125,7 @@ Les emplacements restants sont destinés aux outils, avec 2 emplacements supplé
 		</RecordThing>
 		<RecordThing>
 			<Key>StructureCrewModuleLight</Key>
-			<Value>Lumière de module d'équipage</Value>
+			<Value>Lampe de module d'équipage</Value>
 			<Description/>
 		</RecordThing>
 		<RecordThing>
@@ -11197,6 +11204,67 @@ Ce que produit la chambre de combustion dépend entièrement de ce qui y est int
 			<Key>StructureSolarPanel1x5Single</Key>
 			<Value>Panneau solaire pivotant (1x5)</Value>
 			<Description>Panneaux solaires 1x5 qui comprend des structures individuelles comportant cinq panneaux mais nécessitant seulement quatre kits pour être construits.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemKitPowerPylon</Key>
+			<Value>Kit (Pylône électrique)</Value>
+			<Description>Kit permettant d’assembler un pylône électrique.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructurePowerPylon</Key>
+			<Value>Pylône électrique</Value>
+			<Description>Structure de transmission électrique longue distance, servant de relais entre une entrée et une sortie de puissance.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructurePowerPylonInput</Key>
+			<Value>Pylône électrique (entrée)</Value>
+			<Description>Module d’entrée recevant la puissance provenant d’un réseau local.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructurePowerPylonOutput</Key>
+			<Value>Pylône électrique (sortie)</Value>
+			<Description>Module de sortie transmettant la puissance vers un réseau distant.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructurePowerPylonTerminus</Key>
+			<Value>Pylône électrique (terminus)</Value>
+			<Description>Point terminal d’un réseau de pylônes électriques, utilisé pour finaliser ou rediriger une ligne de transmission.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>ItemCableGun</Key>
+			<Value>Pistolet à câbles</Value>
+			<Description>Permet de créer facilement de longues sections de câbles rectilignes. Compatible avec les {THING:ItemCableCoil}, {THING:ItemCableCoilHeavy} et {THING:ItemCableCoilSuperHeavy}. Le pistolet à câbles utilise les variantes longues dès que possible. Les câbles posés par le pistolet ne peuvent pas être fusionnés avec des câbles déjà en place.
+La longueur maximale dépend du nombre de câbles chargés dans l’outil ; les câbles présents sur une {THING:ItemCableToolBelt} n’augmentent pas cette limite. Lorsque le câble chargé est vide, un câble compatible provenant de la ceinture est automatiquement chargé.</Description>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureCableStraightH3</Key>
+			<Value>Câble 100 kW (droit x3)</Value>
+			<Description/>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureCableStraightH3Burnt</Key>
+			<Value>Câble 100 kW brûlé (droit x3)</Value>
+			<Description/>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureCableStraightH5</Key>
+			<Value>Câble 100 kW (droit x5)</Value>
+			<Description/>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureCableStraightH5Burnt</Key>
+			<Value>Câble 100 kW brûlé (droit x5)</Value>
+			<Description/>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureCableStraightH10</Key>
+			<Value>Câble 100 kW (droit x10)</Value>
+			<Description/>
+		</RecordThing>
+		<RecordThing>
+			<Key>StructureCableStraightH10Burnt</Key>
+			<Value>Câble 100 kW brûlé (droit x10)</Value>
+			<Description/>
 		</RecordThing>
 		<RecordThing>
 			<Key>ItemWreckageConstructor</Key>
@@ -12060,6 +12128,10 @@ Le module doit être connecté à un module de stockage de ressources de fusée 
 		<Record>
 			<Key>Battery</Key>
 			<Value>Batterie</Value>
+		</Record>
+		<Record>
+			<Key>CableAmmo</Key>
+			<Value>Réserve de câble</Value>
 		</Record>
 		<Record>
 			<Key>Egg</Key>
@@ -20876,7 +20948,7 @@ L'appareil est défini soit par :
 		</Record>
 		<Record>
 			<Key>ScriptCommandBnaal</Key>
-			<Value>Saute à la ligne d si abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) et stocke le numéro de la ligne suivante dans ra
+			<Value>Saute à la ligne d si abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8) et stocke le numéro de la ligne suivante dans ra
 (float.epsilon représente la plus petite différence entre deux nombres flottants distincts. C'est essentiellement la précision minimale ou la tolérance au-delà de laquelle les nombres flottants sont considérés comme différents)</Value>
 		</Record>
 		<Record>
@@ -22306,7 +22378,7 @@ Un {THING:StructureWaterPurifier} peut être utilisé pour la reconvertir de nou
 		</Record>
 		<Record>
 			<Key>MoleSteamDescription</Key>
-			<Value>{GAS:Water} évaporée. Elle peut être obtenue en portant la température de {GAS:Water} à son point d’ébullition. Introduite dans une conduite, la {GAS:Steam} se condensera de nouveau en {GAS:Water} si sa température descend sous son point d’ébullition. La vapeur peut également être produite en brûlant du {GAS:Methane} et de l’oxygène à l’aide du {THING:H2Combustor}.</Value>
+			<Value>{GAS:Water} évaporée. Elle peut être obtenue en portant la température de {GAS:Water} à son point d’ébullition. Introduite dans une conduite, la {GAS:Steam} se condensera de nouveau en {GAS:Water} si sa température descend sous son point d’ébullition. La vapeur peut également être produite en brûlant du {GAS:Hydrogen} et de l’{GAS:Oxygen} à l’aide du {THING:StructureCombustor}.</Value>
 		</Record>
 		<Record>
 			<Key>MoleHydrazineDescription</Key>
@@ -24585,6 +24657,10 @@ Fabrication</Value>
 		<Record>
 			<Key>SpawnDataVolatilesCanister</Key>
 			<Value>Bouteille de gaz (Volatils)</Value>
+		</Record>
+		<Record>
+			<Key>SpawnDataMethaneCanister</Key>
+			<Value>Bouteille de gaz (Méthane)</Value>
 		</Record>
 		<Record>
 			<Key>SpawnDataHydroponicsSupplies</Key>
