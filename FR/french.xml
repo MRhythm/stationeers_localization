@@ -11208,12 +11208,20 @@ Ce que produit la chambre de combustion dépend entièrement de ce qui y est int
 		<RecordThing>
 			<Key>ItemKitPowerPylon</Key>
 			<Value>Kit (Pylône électrique)</Value>
-			<Description>Kit permettant d’assembler un pylône électrique.</Description>
+			<Description>Permet de construire tous les éléments d'une ligne de pylônes électriques.
+
+Deux kits permettent d'ériger un {THING:StructurePowerPylon}, tandis qu'un seul kit suffit pour placer un {THING:StructurePowerPylonTerminus}.
+
+La ligne elle-même est installée séparément à l'aide de {THING:ItemCableCoilSuperHeavy}.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePowerPylon</Key>
 			<Value>Pylône électrique</Value>
-			<Description>Structure de transmission électrique longue distance, servant de relais entre une entrée et une sortie de puissance.</Description>
+			<Description>Achemine l'électricité au-dessus du sol là où la pose de câbles est impossible.
+
+Les pylônes sont reliés entre eux par des {THING:ItemCableCoilSuperHeavy}. Équipez-vous d'une bobine, cliquez sur un point de connexion pour démarrer le tracé, puis sur un autre pour le terminer. Une seule section peut couvrir jusqu'à 40 mètres et consomme entre 5 et 30 unités de câble selon la distance ; le tracé nécessite un passage dégagé, ce qui signifie que le terrain, les murs ou les structures situés entre les deux points empêcheront la connexion.
+
+Un pylône dispose de deux points de connexion acceptant chacun une section de câble ; il permet donc de prolonger une ligne plutôt que de la diviser. Coupez une section avec la {THING:ItemWireCutters} pour récupérer le câble ; le démantèlement d'un pylône permet de récupérer le câble de toutes les sections qui y sont encore rattachées.</Description>
 		</RecordThing>
 		<RecordThing>
 			<Key>StructurePowerPylonInput</Key>
