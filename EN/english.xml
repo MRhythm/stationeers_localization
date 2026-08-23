@@ -10158,12 +10158,20 @@ What the Combustor produces depends entirely on what is fed into it. See the {LI
     <RecordThing>
       <Key>ItemKitPowerPylon</Key>
       <Value>Kit (Power Pylon)</Value>
-      <Description />
+      <Description>Builds every part of a power pylon line.
+
+Two kits raise a {THING:StructurePowerPylon}, and one kit places a {THING:StructurePowerPylonTerminus}.
+
+The line itself is strung separately, using {THING:ItemCableCoilSuperHeavy}.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerPylon</Key>
       <Value>Power Pylon</Value>
-      <Description />
+      <Description>Carries power across ground where laying cable is impractical.
+
+Pylons are strung with {THING:ItemCableCoilSuperHeavy}. Hold a coil, click one node to start a run and another node to finish it. A single run reaches 40m and costs between 5 and 30 coil depending on how far it spans, and the cable must have a clear path, so terrain, walls and structures between the two nodes will refuse the link.
+
+A pylon carries two nodes and each node accepts one run, so a pylon passes a line onward rather than branching it. Cut a run with the {THING:ItemWireCutters} to recover its cable; deconstructing a pylon returns the cable of every run still attached.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePowerPylonInput</Key>
@@ -10216,7 +10224,11 @@ A run can only be as long as the coil loaded in the gun allows; coils on an {THI
     <RecordThing>
       <Key>StructurePowerPylonTerminus</Key>
       <Value>Power Pylon Terminus</Value>
-      <Description />
+      <Description>Ties a pylon line into an ordinary cable network.
+
+The terminus counts as a length of super heavy cable, so everything reachable through the line becomes one network with everything wired to the terminus.
+
+It has a single node, which takes one run of {THING:ItemCableCoilSuperHeavy}. A terminus cannot link straight to another terminus; the run has to pass through at least one {THING:StructurePowerPylon}.</Description>
     </RecordThing>
   </Things>
   <Slots>
@@ -18654,7 +18666,7 @@ A run can only be as long as the coil loaded in the gun allows; coils on an {THI
     </Record>
     <Record>
       <Key>ScriptCommandBnaal</Key>
-      <Value>Branch to line d if abs(a - b) &lt;= max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra</Value>
+      <Value>Branch to line d if abs(a - b) &gt; max(c * max(abs(a), abs(b)), float.epsilon * 8) and store next line number in ra</Value>
     </Record>
     <Record>
       <Key>ScriptCommandBltzal</Key>
