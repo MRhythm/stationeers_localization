@@ -14882,11 +14882,11 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>TooltipUpgrade2</Key>
-      <Value>安放后, 使用 {0} 和 {1} 进行升级</Value>
+      <Value>安装后, 使用 {0} 和 {1} 进行升级</Value>
     </Record>
     <Record>
       <Key>TooltipUpgrade</Key>
-      <Value>安放后, 使用 {0} 进行升级</Value>
+      <Value>安装后, 使用 {0} 进行升级</Value>
     </Record>
     <Record>
       <Key>TooltipAllowsMounting</Key>
@@ -20742,7 +20742,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>Tutorial1PlaceWallHeading</Key>
-      <Value>安放一个墙壁</Value>
+      <Value>安装一个墙壁</Value>
     </Record>
     <Record>
       <Key>Tut1WallKitsInLocker</Key>
@@ -20758,7 +20758,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>Tut1PlaceWall</Key>
-      <Value>当主手拿着墙的时候, 按 {KEY:SecondaryAction} 来进入安放模式. 用&lt;color=#FBB03B&gt;MouseWheel&lt;/color&gt;选择 {THING:StructureWallIron} 并按住 {KEY:PrimaryAction} 进行安放. 按 {KEY:QuantityModifier} 进行旋转</Value>
+      <Value>当主手拿着墙的时候, 按 {KEY:SecondaryAction} 来进入安装模式. 用&lt;color=#FBB03B&gt;MouseWheel&lt;/color&gt;选择 {THING:StructureWallIron} 并按住 {KEY:PrimaryAction} 进行安装. 按 {KEY:QuantityModifier} 进行旋转</Value>
     </Record>
     <Record>
       <Key>Tutorial1CompleteWallHeading</Key>
@@ -20774,7 +20774,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>Tutorial1CompleteFrameHeading</Key>
-      <Value>安放并完成一个框架</Value>
+      <Value>安装并完成一个框架</Value>
     </Record>
     <Record>
       <Key>Tut1IntroFrame</Key>
@@ -20802,7 +20802,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>Tut1PlaceDoor</Key>
-      <Value>将 {THING:ItemKitDoor} 拿在主手中, 按 {KEY:SecondaryAction} 来进入安放模式. 用&lt;color=#FBB03B&gt;MouseWheel&lt;/color&gt;选择 {THING:StructureGlassDoor} 并按住 {KEY:PrimaryAction} 进行安放. 按 {KEY:QuantityModifier} 进行旋转</Value>
+      <Value>将 {THING:ItemKitDoor} 拿在主手中, 按 {KEY:SecondaryAction} 来进入安装模式. 用&lt;color=#FBB03B&gt;MouseWheel&lt;/color&gt;选择 {THING:StructureGlassDoor} 并按住 {KEY:PrimaryAction} 进行安装. 按 {KEY:QuantityModifier} 进行旋转</Value>
     </Record>
     <Record>
       <Key>Tutorial1CompleteDoorHeading</Key>
@@ -20902,7 +20902,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>Tut2PlaceCables</Key>
-      <Value>按 {KEY:SecondaryAction} 进入安放模式, 按 {KEY:PrimaryAction} 进行安放</Value>
+      <Value>按 {KEY:SecondaryAction} 进入安装模式, 按 {KEY:PrimaryAction} 进行安装</Value>
     </Record>
     <Record>
       <Key>Tut2CableVariants</Key>
@@ -20910,7 +20910,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>Tut2RemovingCables</Key>
-      <Value>你工具腰带中的 {THING:ItemWireCutters} 能够移除已经安放的电缆</Value>
+      <Value>你工具腰带中的 {THING:ItemWireCutters} 能够移除已经安装的电缆</Value>
     </Record>
     <Record>
       <Key>Tutorial2ApcHeading</Key>
@@ -20966,7 +20966,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>Tut2PlacePipes</Key>
-      <Value>按 {KEY:SecondaryAction} 进入安放模式, 按 {KEY:PrimaryAction} 进行建造</Value>
+      <Value>按 {KEY:SecondaryAction} 进入安装模式, 按 {KEY:PrimaryAction} 进行建造</Value>
     </Record>
     <Record>
       <Key>Tut2PipeVariants</Key>
@@ -20974,7 +20974,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>Tut2RemovingPipes</Key>
-      <Value>你工具腰带中的 {THING:ItemWrench} 能够移除已经安放的管道</Value>
+      <Value>你工具腰带中的 {THING:ItemWrench} 能够移除已经安装的管道</Value>
     </Record>
     <Record>
       <Key>Tutorial2CoalPowerHeading</Key>
@@ -26855,19 +26855,19 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>RequiredContinueConstruction</Key>
-      <Value>需要&lt;color=yellow&gt;继续建造&lt;/color&gt;</Value>
+      <Value>: &lt;color=yellow&gt;继续建造&lt;/color&gt;的必需材料</Value>
     </Record>
     <Record>
       <Key>RequiredUpgradeDevice</Key>
-      <Value>需要&lt;color=yellow&gt;升级设备&lt;/color&gt;</Value>
+      <Value>: &lt;color=yellow&gt;升级设备&lt;/color&gt;的必需材料</Value>
     </Record>
     <Record>
       <Key>RequiredToRepair</Key>
-      <Value>需要&lt;color=yellow&gt;修复&lt;/color&gt;</Value>
+      <Value>: &lt;color=yellow&gt;维修&lt;/color&gt;的必需材料</Value>
     </Record>
     <Record>
       <Key>OnlyHumansCanDragThings</Key>
-      <Value>{LOCAL:Thing} 不允许拖动</Value>
+      <Value>不允许拖动 {LOCAL:Thing}</Value>
     </Record>
     <Record>
       <Key>CannotDragWhileAlive</Key>
@@ -26887,7 +26887,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>DeviceDoesNotAllowInternals</Key>
-      <Value>无法在穿着 {LOCAL:Thing} 的状态下进入设备</Value>
+      <Value>无法在穿戴 {LOCAL:Thing} 的状态下进入设备</Value>
     </Record>
     <Record>
       <Key>DeviceDoesNotAllowItemsInHands</Key>
@@ -28327,11 +28327,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>ToolRequiredToOpen</Key>
-      <Value>需要&lt;color=green&gt; {Local:Tool} &lt;/color&gt;开启</Value>
+      <Value>需要开启&lt;color=green&gt; {Local:Tool} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>ToolRequiredToClose</Key>
-      <Value>需要&lt;color=green&gt; {Local:Tool} &lt;/color&gt;关闭</Value>
+      <Value>需要关闭&lt;color=green&gt; {Local:Tool} &lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>RocketTowerPlacementRule</Key>
