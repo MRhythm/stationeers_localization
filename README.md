@@ -12,7 +12,7 @@ Note: Always back up your original files before overwriting.
 
 |      Code     |       Language       |     Main Contributors      | Last Update | Game Version   |
 |---------------|----------------------|----------------------------|-------------|----------------|
-| CN            | Simplified Chinese   | MRhythm                    | 2026-08-23  | 0.2.6428.27798 |
+| CN            | Simplified Chinese   | MRhythm                    | 2026-09-24  | 0.2.6428.27798 |
 | RU            | Russian              | AlexusYT                   | 2026-05-16  | 0.2.6227.27061 |
 | FR            | French               | CedricDx                   | 2026-08-13  | 0.2.6427.27798 |
 | PB            | Portuguese Brazilian | Chelo-BR / Pesterenan      | 2026-07-14  | 0.2.6403.27689 |
