@@ -26855,15 +26855,15 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>RequiredContinueConstruction</Key>
-      <Value>: &lt;color=yellow&gt;继续建造&lt;/color&gt;的必需材料</Value>
+      <Value>: &lt;color=yellow&gt;继续建造&lt;/color&gt;所需</Value>
     </Record>
     <Record>
       <Key>RequiredUpgradeDevice</Key>
-      <Value>: &lt;color=yellow&gt;升级设备&lt;/color&gt;的必需材料</Value>
+      <Value>: &lt;color=yellow&gt;升级设备&lt;/color&gt;所需</Value>
     </Record>
     <Record>
       <Key>RequiredToRepair</Key>
-      <Value>: &lt;color=yellow&gt;维修&lt;/color&gt;的必需材料</Value>
+      <Value>: &lt;color=yellow&gt;维修&lt;/color&gt;所需</Value>
     </Record>
     <Record>
       <Key>OnlyHumansCanDragThings</Key>
@@ -28031,7 +28031,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>DepositIsDepleted</Key>
-      <Value>矿床已枯竭, 该地点无法继续开采</Value>
+      <Value>矿物已枯竭, 该地点无法继续开采</Value>
     </Record>
     <Record>
       <Key>EstimatedTotalResources</Key>
