@@ -24974,11 +24974,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>CloseThreshold</Key>
-      <Value>近阈值</Value>
+      <Value>关闭阈值</Value>
     </Record>
     <Record>
       <Key>CloseThresholdToolTip</Key>
-      <Value>近阈值&lt;color=green&gt; {LOCAL:ThresholdValue}</Value>
+      <Value>关闭阈值&lt;color=green&gt; {LOCAL:ThresholdValue}</Value>
     </Record>
     <Record>
       <Key>CryoN2OPressureOk</Key>
