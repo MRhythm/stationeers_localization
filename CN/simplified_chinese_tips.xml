@@ -17,7 +17,7 @@
 	<String>太空并不像听起来那样空旷。</String>
 	<String>将一叠{THING:ItemIronOre}放入已供电的{THING:StructureArcFurnace}中以熔炼{THING:ItemIronIngot}。</String>
 	<String>将{THING:MotherboardLogic}放入{THING:StructureComputer}即可通过IC芯片启用逻辑系统。您可添加条件和动作来控制同一数据网络上设备的状态。</String>
-	<String>通过世设备上的按钮调整物品数量时，按住{KEY:QuantityModifier}并点击可使用更小的增减幅度。</String>
+	<String>通过世界中的设备上的按钮调整物品数量时，按住{KEY:QuantityModifier}并点击可使用更小的增减幅度。</String>
 	<String>使用{THING:ItemKitLogicInputOutput}创建{THING:StructureLogicReader}或{THING:StructureLogicWriter}。读取器允许您从其他设备读取值，写入器允许您修改设备值。与数学单元结合时，可构建复杂的自动化系统。</String>
 	<String>使用{THING:ItemKitLogicInputOutput}创建{THING:StructureLogicBatchReader}或{THING:StructureLogicBatchWriter}。批量读取器允许您从整组设备读取特定逻辑值，批量写入器允许您修改整组设备的逻辑值。</String>
 	<String>使用{THING:StructureRecycler}将不需要的物品回收为材料。将输出的{THING:ItemReagentMix}输入到{THING:StructureCentrifuge}可将其还原为矿石，供{THING:StructureFurnace}使用。</String>
