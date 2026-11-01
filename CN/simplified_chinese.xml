@@ -1199,7 +1199,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemFertilizedEgg</Key>
-      <Value>受精卵</Value>
+      <Value>受精蛋</Value>
       <Description>能够孵化成一只 {THING:NpcChick} . 若暴露于10度以下环境将失去活性</Description>
     </RecordThing>
     <RecordThing>
@@ -22290,7 +22290,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>SpawnDataEggCartonFertilized</Key>
-      <Value>受精卵盒</Value>
+      <Value>受精蛋盒</Value>
     </Record>
     <Record>
       <Key>SpawnDataMiningSupplies</Key>
