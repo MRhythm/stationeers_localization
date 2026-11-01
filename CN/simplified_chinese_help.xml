@@ -101,7 +101,7 @@
       <Key>SmeltingPage</Key>
 	  <DisplayFilter>Guides</DisplayFilter>
       <Title>冶金</Title>
-      <Text>当你拥有 {LINK:OrePage;矿石} , 你需要将其冶炼成 {LINK:IngotPage;金属锭} 来运动其中包含的 {LINK:ReagentPage;原料成分} . 冶金的副产物还包括 {LINK:GasPage;气体} . 使用 {THING:StructureArcFurnace} 制造简单金属,  {THING:StructureFurnace} 制造复杂的 {LINK:AlloyPage;合金} ,  {THING:StructureAdvancedFurnace} 制造更复杂的 {LINK:SuperAlloyPage;超级合金} . 想制造复杂的合金, 你需要精确控制材料的配比成分, 以及 {LINK:TemperaturePage;温度} 和 {LINK:PressurePage;气压}
+      <Text>当你拥有 {LINK:OrePage;矿石} , 你需要将其冶炼成 {LINK:IngotPage;金属锭} 来运用其中包含的 {LINK:ReagentPage;原料成分} . 冶金的副产物还包括 {LINK:GasPage;气体} . 使用 {THING:StructureArcFurnace} 制造简单金属,  {THING:StructureFurnace} 制造复杂的 {LINK:AlloyPage;合金} ,  {THING:StructureAdvancedFurnace} 制造更复杂的 {LINK:SuperAlloyPage;超级合金} . 想制造复杂的合金, 你需要精确控制材料的配比成分, 以及 {LINK:TemperaturePage;温度} 和 {LINK:PressurePage;气压}
       </Text>
     </StationpediaPage>
     <StationpediaPage>
@@ -119,9 +119,9 @@
 
 存在三个独立等级的贸易商信号. 这些信号的联络难度逐级递增, 每个贸易商信号会停留大约20分钟然后离开, 并由新信号取代, 因此若想接触更多贸易商, 必须寻找更难定位的信号. 
 
-需通过卫星天线解析贸易商信号位置后才能确定天线指向位置与实际信号位置的偏离程度. 该解析时间由天线功率乘以天线准确, 再除以联系人的预期解析所需功率决定. 若解析速度过慢, 通常表明天线完全偏离目标方位, 此时应该尝试换一个完全不同的角度. 另一种可能是联络该信号所需的功率要求极高, 当前天线规模无法在合理时间内完成解析. 解析过程仅消耗天线设定功率的10%. 
+需通过卫星天线解析贸易商信号位置后才能确定天线指向位置与实际信号位置的偏离程度. 该解析时间由天线功率乘以天线准确度, 再除以联系人的预期解析所需功率决定. 若解析速度过慢, 通常表明天线完全偏离目标方位, 此时应该尝试换一个完全不同的角度. 另一种可能是联络该信号所需的功率要求极高, 当前天线规模无法在合理时间内完成解析. 解析过程仅消耗天线设定功率的10%.
 
-成功解析信号位置后, 可按下联络按钮. 与解析类似, 需维持足够的天线输出功率. 联络对话框将显示当前天线位置计算出. 询问存在硬性最低要求, 若天线指向精度不足或功率过低, 则无法启动联络流程. 联络需要花费一定时间, 难度越高的贸易商所花费的时间也越多, 因此最好使用大功率天线并调高功率, 确保在贸易商离开前完成联络. 联络完成后, 即可像往常一样接引贸易商着陆.
+成功解析信号位置后, 可按下联络按钮. 与解析类似, 需维持足够的天线输出功率. 联络对话框将显示根据当前天线位置计算出的功率需求. 联络存在硬性最低要求, 若天线指向精度不足或功率过低, 则无法启动联络流程. 联络需要花费一定时间, 难度越高的贸易商所花费的时间也越多, 因此最好使用大功率天线并调高功率, 确保在贸易商离开前完成联络. 联络完成后, 即可像往常一样接引贸易商着陆.
 
 {LIST_OF_TRADING_DEVICES}
       </Text>
@@ -158,7 +158,7 @@
       <DisplayFilter>Guides</DisplayFilter>
       <Text>{LINK:ODA;ODA} 并不赞成使用原声音乐或其他分散注意力的元素.
 因此, {LINK:Stationeers;Stationeers} 不得不在建造和维护外星基础设施的繁重劳动中自己创造音乐伴奏.
-这种消遣的核心是步进音序器, 它允许Stationeers师编排简短的音乐模式或循环. 
+这种消遣的核心是步进音序器, 它允许Stationeers编排简短的音乐模式或循环.
 
 {HEADER:自制音乐-入门指南}
 
@@ -690,7 +690,7 @@ Stationeer最终会感到饥饿, 但并非所有食物都能提供同等效果. 
       <Key>SanitationPage</Key>
       <Title>卫生</Title>
       <DisplayFilter>Guides</DisplayFilter>
-      <Text>随着时间推移, 当Stationeers的 {LINK:HydrationPage;饥渴} 和 {LINK:HungerPage;饥饿} 得到满足后, 他们会需要方便一下. {LINK:ODA;ODA} 建议 Stationeers 在着陆后于基地内建造一个 {THING:StructureToiletModern}, 该设施需要大气和 {GAS:Water} 才能运行. 它会输出 {GAS:PollutedWater}, 可以使用 {THING:StructureWaterPurifier} 将其回收, 然后用于其他用途, 例如 {LINK:FarmingPage;农业} 或 {LINK:HydrationPage;饮用}. {THING:ItemWasteBagEmpty} 可暂时替代厕所的功能, 但其内容物无法被回收.
+      <Text>随着时间推移, 当Stationeers的 {LINK:HydrationPage;口渴} 和 {LINK:HungerPage;饥饿} 得到满足后, 他们会需要方便一下. {LINK:ODA;ODA} 建议 Stationeers 在着陆后于基地内建造一个 {THING:StructureToiletModern}, 该设施需要大气和 {GAS:Water} 才能运行. 它会输出 {GAS:PollutedWater}, 可以使用 {THING:StructureWaterPurifier} 将其回收, 然后用于其他用途, 例如 {LINK:FarmingPage;农业} 或 {LINK:HydrationPage;饮用}. {THING:ItemWasteBagEmpty} 可暂时替代厕所的功能, 但其内容物无法被回收.
           {LIST_OF_SANITATION}</Text>
     </StationpediaPage>
 
