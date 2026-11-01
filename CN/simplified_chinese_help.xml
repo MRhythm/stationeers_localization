@@ -78,7 +78,7 @@
     <StationpediaPage>
       <Key>FabricatorPage</Key>
       <Title>制造设备</Title>
-      <Text>这些重要的设备能够制造生产你在游戏中所需的各种东西. 需要为其供应 {LINK:ReagentPage;原料} 所对应的 {LINK:IngotPage;金属锭} .
+      <Text>这些需要供电的设备能够制造生产你在游戏中所需的各种东西. 需要为其供应 {LINK:ReagentPage;原料} 所对应的 {LINK:IngotPage;金属锭} .
         {LIST_OF_FABRICATORS}
       </Text>
 
@@ -86,7 +86,7 @@
     <StationpediaPage>
       <Key>DevicePage</Key>
       <Title>设备</Title>
-      <Text>大量有用的设备, 功能各式各样, 例如逻辑控制和气体控制设备. 这些设备的建造方法大同小异.
+      <Text>大量有用的设备, 通常需要供电, 功能各式各样, 例如逻辑控制和气体控制设备. 这些设备的建造方法大同小异.
         {LIST_OF_DEVICES}
       </Text>
     </StationpediaPage>
@@ -191,7 +191,7 @@
 
 注意: 温控方法众多, 有些无需上述设备. 此处仅介绍基础方法.
 
-安装温控设备前需充分了解环境. 气体/液体体积是选择温控方式的重要参数:  {THING:StructureTankSmall} 可容纳6000升,  {THING:StructureTankBig} 容量达50, 000升, 因此如果都装满时, 容量较小的储罐温度变化更快. 如果使用房间作为气体容器, 空间越大则容量越大, 其温控原理与储罐相同.
+安装温控设备前需充分了解环境. 气体/液体体积是选择温控方式的重要参数:  {THING:StructureTankSmall} 可容纳6000升,  {THING:StructureTankBig} 容量达50,000升, 因此如果都装满时, 容量较小的储罐温度变化更快. 如果使用房间作为气体容器, 空间越大则容量越大, 其温控原理与储罐相同.
 
 {HEADER:管道网络}
 管道网络由无缝连接的多个管道段组成. 无论规模大小, 网络内各点共享相同大气环境. 当网络某端温度/压力变化时, 远端会即时同步该变化.
@@ -417,7 +417,7 @@
       <Text>{HEADER:耐热极限}
 {LIST}毁坏 {POS:300}{0}
 闪点{POS:300}{1}
-自燃点{POS:300}{2}{3}{/LIST}</Text>
+燃点{POS:300}{2}{3}{/LIST}</Text>
     </StationpediaPage>
     
     
@@ -454,8 +454,8 @@
     
     <StationpediaPage>
       <Key>IceMeltingTemplate</Key>
-      <Text>熔炼温度 {1}
-熔炼压力 {0}</Text>
+      <Text>熔化温度 {1}
+熔化压力 {0}</Text>
     </StationpediaPage>
 
     <StationpediaPage>
@@ -577,7 +577,7 @@
     
     <StationpediaPage>
       <Key>GasPageTemplate</Key>
-      <Text>{LINK:GasPage;气体} ,  {LINK:SmeltingPage;冶炼} 通常会产出一些
+      <Text>{LINK:GasPage;气体} , 通常在 {LINK:SmeltingPage;冶炼} 时产生
 
 
 {LIST} 比热容 {1}{2}{/LIST}
@@ -588,7 +588,7 @@
     
     <StationpediaPage>
       <Key>GasPageFlamableTemplate</Key>
-      <Text>燃烧极限 {0} to {1}</Text>
+      <Text>燃烧极限 {0} 至 {1}</Text>
     </StationpediaPage>
 
     <StationpediaPage>
@@ -632,7 +632,7 @@ Stationeer最终会感到饥饿, 但并非所有食物都能提供同等效果. 
 
 {HEADER:收获}
 
-多数植物具有多个生长阶段: 第一阶段为生长阶段, 从第二阶段开始可以收获果实, 最终阶段会产出种子. 此后若未清理, 植株将会死亡.
+多数植物具有多个生长阶段: 第一阶段为生长阶段, 从第二阶段开始可以收获果实, 最终阶段会产出果实和种子. 此后若未清理, 植株将会死亡.
 
 {HEADER:施肥}
 
@@ -702,7 +702,7 @@ Stationeer最终会感到饥饿, 但并非所有食物都能提供同等效果. 
 
 主要型号包括 {THING:ItemEvaSuit} 和耐压耐高温的 {THING:ItemHardSuit}.
 
-太空服状态显示位于屏幕右下角. 按下对应数字键（默认2）可查看插槽与设置界面, 包含:
+太空服状态显示位于屏幕右下角. 按下对应数字键（默认2）可查看槽位与设置界面, 包含:
 
 ·温度控制开关
 ·过滤系统开关
@@ -710,7 +710,7 @@ Stationeer最终会感到饥饿, 但并非所有食物都能提供同等效果. 
 ·压力调节（0kPa至202kPa, 即0-2个地球大气压）
 ·温度调节（0°C至60°C）
 
-太空服配备6-8个插槽:
+太空服配备6-8个槽位:
 ·氧气瓶（×1）——装入含可呼吸混合气体（如 {GAS:Oxygen} 或 {GAS:Nitrogen}/{GAS:Oxygen} 35/65比例）的罐体
 ·废气瓶（×1）——收集过滤器排出的气体
 ·维生系统（×1）——装载为温控、照明供电的电池

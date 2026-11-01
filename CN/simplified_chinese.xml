@@ -863,7 +863,7 @@
     <RecordThing>
       <Key>CartridgeAtmosAnalyser</Key>
       <Value>功能卡(大气分析)</Value>
-      <Description>洛伦兹大气分析仪是由 {LINK:ExMin;ExMin} 为配合矿石核心 {THING:ItemTablet} 设计的多功能质谱仪. 可显示房间, 储罐或管网中的 {LINK:GasPage;气体} 压力, 浓度和摩尔量</Description>
+      <Description>洛伦兹大气分析仪是由 {LINK:ExMin;ExMin} 为配合矿石核心 {THING:ItemTablet} 设计的多功能质谱仪. 可显示房间, 储罐或管网中的 {LINK:GasPage;气体} 压强, 浓度和摩尔量</Description>
     </RecordThing>
     <RecordThing>
       <Key>CartridgeMedicalAnalyser</Key>
@@ -883,7 +883,7 @@
     <RecordThing>
       <Key>CircuitboardAirControl</Key>
       <Value>电路板(空气控制)</Value>
-      <Description>将电路板(空气控制)安装到 {THING:StructureConsole} 后, 可对 {THING:StructureActiveVent} 进行编程. 与小型犬和83%的人类相似, 该电路板仅有压强模式, 通风模式和离线模式三种设置. 压强模式会通过启停主动通风口尝试将空气保持在100kPa, 通风模式允许你将其与其他主动通风口配对来循环空气, 离线模式用来关闭通风口</Description>
+      <Description>将电路板(空气控制)安装到 {THING:StructureConsole} 后, 可对 {THING:StructureActiveVent} 进行编程. 与小型犬和83%的人类相似, 该电路板仅有气压模式, 通风模式和离线模式三种设置. 气压模式会通过启停主动通风口尝试将空气保持在100kPa, 通风模式允许你将其与其他主动通风口配对来循环空气, 离线模式用来关闭通风口</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardAirlockControl</Key>
@@ -907,7 +907,7 @@
     <RecordThing>
       <Key>CircuitboardGasDisplay</Key>
       <Value>电路板(气体显示)</Value>
-      <Description>信息即是力量. 将此电路板安装至 {THING:StructureConsole} , 即可生成一个显示界面, 展示任何相连的储罐, 存储罐, {THING:ItemPipeAnalyizer} 或 {THING:ItemGasSensor} 的气体压力或温度</Description>
+      <Description>信息即是力量. 将此电路板安装至 {THING:StructureConsole} , 即可生成一个显示界面, 展示任何相连的储罐, 存储罐, {THING:ItemPipeAnalyizer} 或 {THING:ItemGasSensor} 的气体压强或温度</Description>
     </RecordThing>
     <RecordThing>
       <Key>CircuitboardModeControl</Key>
@@ -933,7 +933,7 @@
     <RecordThing>
       <Key>DynamicAirConditioner</Key>
       <Value>便携式空调</Value>
-      <Description>{LINK:Sinotai;Sinotai} 设计的Huxi便携式空调通过吸收大气热量储存, 或从内部储罐向大气释放热量来实现制冷/制热. 其最大内部压力为8106kPa, 容量相对有限——物理定律对此有明确限制. 要扩展其温度储存能力, 请将Huxi用螺栓固定在 {THING:StructureTankConnector} 上, 再接入可供应制冷或制热 {LINK:GasPage;气体} 的管道网络</Description>
+      <Description>{LINK:Sinotai;Sinotai} 设计的Huxi便携式空调通过吸收大气热量储存, 或从内部储罐向大气释放热量来实现制冷/制热. 其最大内部气压为8106kPa, 容量相对有限——物理定律对此有明确限制. 要扩展其温度储存能力, 请将Huxi用螺栓固定在 {THING:StructureTankConnector} 上, 再接入可供应制冷或制热 {LINK:GasPage;气体} 的管道网络</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicCrate</Key>
@@ -960,37 +960,37 @@
     <RecordThing>
       <Key>DynamicGasCanisterAir</Key>
       <Value>便携储罐(空气)</Value>
-      <Description>便携储罐专门用来储存气体, 但也有许多其他用途. 将其固定在 {THING:ItemTankConnector} 并接入管道网络即可充气. 请勿使压力超过10MPa, 否则后果十分严重. 充满后, 可将 {THING:ItemGasCanisterOxygen} 放入罐体条纹区域进行分装. 也可以开启罐体上的阀门向舱室释放气体以营造大气环境. 此罐还可装配于漫游车与火箭. 或者, 踢倒它练习滚桶翻滚——可能性永无止境</Description>
+      <Description>便携储罐专门用来储存气体, 但也有许多其他用途. 将其固定在 {THING:ItemTankConnector} 并接入管道网络即可充气. 请勿使气压超过10MPa, 否则后果十分严重. 充满后, 可将 {THING:ItemGasCanisterOxygen} 放入罐体条纹区域进行分装. 也可以开启罐体上的阀门向舱室释放气体以营造大气环境. 此罐还可装配于漫游车与火箭. 或者, 踢倒它练习滚桶翻滚——可能性永无止境</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterCarbonDioxide</Key>
       <Value>便携储罐(二氧化碳)</Value>
-      <Description>便携储罐专门用来存储气体. 将其固定在 {THING:ItemTankConnector} 并接入管道网络即可进行充气. 请勿使压力超过10MPa, 否则…砰. 充满后, 可将 {THING:ItemGasCanisterCarbonDioxide} 放入罐体条纹区域进行分装. 也可以开启罐体上的阀门向房间内释放气体以营造某种. . . 大气环境</Description>
+      <Description>便携储罐专门用来存储气体. 将其固定在 {THING:ItemTankConnector} 并接入管道网络即可进行充气. 请勿使气压超过10MPa, 否则…砰. 充满后, 可将 {THING:ItemGasCanisterCarbonDioxide} 放入罐体条纹区域进行分装. 也可以开启罐体上的阀门向房间内释放气体以营造某种. . . 大气环境</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterEmpty</Key>
       <Value>便携储罐</Value>
-      <Description>便携储罐专门用来存储气体. 将其固定在 {THING:ItemTankConnector} 并接入管道网络即可充气. 请勿使压力超过10MPa, 否则后果堪忧. 充满后, 可将 {THING:ItemGasCanisterEmpty} 放入罐体条纹区域进行分装. 也可以开启罐体上的阀门向舱室释放气体以营造大气环境</Description>
+      <Description>便携储罐专门用来存储气体. 将其固定在 {THING:ItemTankConnector} 并接入管道网络即可充气. 请勿使气压超过10MPa, 否则后果堪忧. 充满后, 可将 {THING:ItemGasCanisterEmpty} 放入罐体条纹区域进行分装. 也可以开启罐体上的阀门向舱室释放气体以营造大气环境</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterFuel</Key>
       <Value>便携储罐(燃料)</Value>
-      <Description>便携储罐专门用来储存气体. 它们在这方面表现出色. 若需补充储罐, 请使用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上, 再接入管道网络. 尽量避免压力超过10MPa, 否则会把一切弄得一团糟. 可将 {THING:ItemGasCanisterFuel} 放入罐体条纹区域进行分装. 也可用 {THING:ItemWrench} 将其安装到漫游车或火箭上备用——选择权完全在您手中</Description>
+      <Description>便携储罐专门用来储存气体. 它们在这方面表现出色. 若需补充储罐, 请使用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上, 再接入管道网络. 尽量避免气压超过10MPa, 否则会把一切弄得一团糟. 可将 {THING:ItemGasCanisterFuel} 放入罐体条纹区域进行分装. 也可用 {THING:ItemWrench} 将其安装到漫游车或火箭上备用——选择权完全在您手中</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterNitrogen</Key>
       <Value>便携储罐(氮)</Value>
-      <Description>便携储罐专门用来储存气体. 若需补充储罐, 请使用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上, 再接入管道网络. 尽量避免压力超过10MPa, 否则您会在意想不到的地方发现 {GAS:Nitrogen} . 可将 {THING:ItemGasCanisterNitrogen} 放入罐体条纹区域进行分装. 也可用 {THING:ItemWrench} 将其安装到漫游车或火箭上备用</Description>
+      <Description>便携储罐专门用来储存气体. 若需补充储罐, 请使用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上, 再接入管道网络. 尽量避免气压超过10MPa, 否则您会在意想不到的地方发现 {GAS:Nitrogen} . 可将 {THING:ItemGasCanisterNitrogen} 放入罐体条纹区域进行分装. 也可用 {THING:ItemWrench} 将其安装到漫游车或火箭上备用</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterOxygen</Key>
       <Value>便携储罐(氧)</Value>
-      <Description>便携储罐专门用来储存气体. 若需补充储罐, 请使用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上, 再接入管道网络. 尽量避免压力超过10MPa, 否则您将不得不从脸上拔出储罐碎片. 将 {THING:ItemGasCanisterOxygen} 贴附于储罐条纹区域即可补充. 也可将其释放到密封房间创造大气环境, 甚至涂成粉色命名为史蒂夫, 填补您内心的空虚</Description>
+      <Description>便携储罐专门用来储存气体. 若需补充储罐, 请使用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上, 再接入管道网络. 尽量避免气压超过10MPa, 否则您将不得不从脸上拔出储罐碎片. 将 {THING:ItemGasCanisterOxygen} 贴附于储罐条纹区域即可补充. 也可将其释放到密封房间创造大气环境, 甚至涂成粉色命名为史蒂夫, 填补您内心的空虚</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterVolatiles</Key>
       <Value>便携储罐(可燃物)</Value>
-      <Description>便携储罐用于储存气体. 补充时请使用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上, 再接入管道网络. 除非您钟爱复杂易燃的紧急状况, 否则请勿超过10MPa压力. 可将 {THING:ItemGasCanisterVolatiles} 放入罐体条纹区域进行分装. 也可用 {THING:ItemWrench} 将其安装到火箭上, 带它环游太阳系</Description>
+      <Description>便携储罐用于储存气体. 补充时请使用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上, 再接入管道网络. 除非您钟爱复杂易燃的紧急状况, 否则请勿超过10MPa气压. 可将 {THING:ItemGasCanisterVolatiles} 放入罐体条纹区域进行分装. 也可用 {THING:ItemWrench} 将其安装到火箭上, 带它环游太阳系</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGasCanisterWater</Key>
@@ -999,12 +999,12 @@
     <RecordThing>
       <Key>DynamicLiquidCanisterEmpty</Key>
       <Value>便携储液罐(空)</Value>
-      <Description>这款便携储罐用于储存液体. 您可以使用 {THING:ItemWrench} 将其固定到 {THING:StructurePortablesConnector} 上, 再连接至 {THING:StructurePipeLiquidStraight} 接入管道网络为该罐补充液体. 请将压力控制在10MPa以下, 否则您将在痛苦和懊悔中浑身湿透. 可将 {THING:ItemLiquidCanisterEmpty} 放入罐体条纹区域进行分装.</Description>
+      <Description>这款便携储罐用于储存液体. 您可以使用 {THING:ItemWrench} 将其固定到 {THING:StructurePortablesConnector} 上, 再连接至 {THING:StructurePipeLiquidStraight} 接入管道网络为该罐补充液体. 可将 {THING:ItemLiquidCanisterEmpty} 放入罐体条纹区域进行分装.</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicGenerator</Key>
       <Value>便携式发电机</Value>
-      <Description>作为每位 {LINK:Stationeers;Stationeer's} 的最佳伙伴, 便携式发电机能让您快速运转起来. 装入 {THING:ItemGasCanisterFuel} 即可为 {THING:ItemBatteryCell} 充电, 或连接至 {THING:StructurePowerConnector} 并接入电网. 该设备采用压力驱动, 低温环境下效率更高, 超低温时效能显著提升. 优化燃料混合比例也能大幅改善其性能</Description>
+      <Description>作为每位 {LINK:Stationeers;Stationeer's} 的最佳伙伴, 便携式发电机能让您快速运转起来. 装入 {THING:ItemGasCanisterFuel} 即可为 {THING:ItemBatteryCell} 充电, 或连接至 {THING:StructurePowerConnector} 并接入电网. 该设备采用气压驱动, 低温环境下效率更高, 超低温时效能显著提升. 优化燃料混合比例也能大幅改善其性能</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicLight</Key>
@@ -1014,7 +1014,7 @@
     <RecordThing>
       <Key>DynamicScrubber</Key>
       <Value>便携式空气过滤器</Value>
-      <Description>便携式空气过滤器的功能如其名: 清除空气中的特定物质. 例如安装 {THING:ItemGasFilterCarbonDioxide} 可吸附周围环境中的 {GAS:CarbonDioxide} . 该设备配备1个电池槽和2个过滤器槽, 双过滤器可使运行速度翻倍. 当内部压力达到8106千帕时, 开关将闪烁错误信号提示清空. 可将其直接排放, 或通过 {THING:ItemTankConnector} 和 {THING:ItemWrench} 连接至管道网络处理</Description>
+      <Description>便携式空气过滤器的功能如其名: 清除空气中的特定物质. 例如安装 {THING:ItemGasFilterCarbonDioxide} 可吸附周围环境中的 {GAS:CarbonDioxide} . 该设备配备1个电池槽和2个过滤器槽, 双过滤器可使运行速度翻倍. 当内部气压达到8106千帕时, 开关将闪烁错误信号提示清空. 可将其直接排放, 或通过 {THING:ItemTankConnector} 和 {THING:ItemWrench} 连接至管道网络处理</Description>
     </RecordThing>
     <RecordThing>
       <Key>EffectSplatEgg</Key>
@@ -1057,7 +1057,7 @@
     </RecordThing>
     <RecordThing>
       <Key>GasTankAir</Key>
-      <Value>储罐(气体)</Value>
+      <Value>储罐(空气)</Value>
       <Description>便携储罐专门用来储存气体. 要补充气体, 用 {THING:ItemWrench} 将其固定到 {THING:ItemTankConnector} 上, 然后连接到管道网络. 尽量避免超过100个大气压, 否则你会尝到后悔的滋味. 可将 {THING:ItemGasCanisterEmpty} 放入罐体条纹区域进行分装. 也可将其排入密封房间以制造大气, 或者安装到探测车上驾驶, 或用于昂贵喧闹的射击练习</Description>
     </RecordThing>
     <RecordThing>
@@ -1462,7 +1462,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemKitRegulator</Key>
-      <Value>(套件)压力调节器</Value>
+      <Value>(套件)气压调节器</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -1821,7 +1821,7 @@
     <RecordThing>
       <Key>ItemToolBelt</Key>
       <Value>工具腰带</Value>
-      <Description>象征 {LINK:Stationeers;Stationeer} 生活的标志性装备（编者注: {LINK:ODA;ODA} 调查显示, 被超压 {THING:StructureFurnace} 炸毁的基地残骸同样具有高辨识度）. 符合ODA安全标准, 八个插槽专用于存放工具和 {THING:ItemCableCoil} . 工具腰带设计符合最严格的ODA标准, 仅被设计为承载工具和 {THING:ItemCableCoil} , 不要将其与 {THING:ItemMiningBelt} 混淆</Description>
+      <Description>象征 {LINK:Stationeers;Stationeer} 生活的标志性装备（编者注: {LINK:ODA;ODA} 调查显示, 被超压 {THING:StructureFurnace} 炸毁的基地残骸同样具有高辨识度）. 符合ODA安全标准, 八个槽位专用于存放工具和 {THING:ItemCableCoil} . 工具腰带设计符合最严格的ODA标准, 仅被设计为承载工具和 {THING:ItemCableCoil} , 不要将其与 {THING:ItemMiningBelt} 混淆</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemCableToolBelt</Key>
@@ -1852,8 +1852,8 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemWeldingTorch</Key>
-      <Value>气焊枪</Value>
-      <Description>标准 {LINK:Stationeers;宇航员} 装备, 存放于 {THING:ItemToolBelt} 中.  {LINK:ExMin;ExMin} 经典"Zairo"型号升级版, 使用单罐 {THING:ItemGasCanisterFuel} 驱动, 适用于太空与重力环境</Description>
+      <Value>焊枪</Value>
+      <Description>标准 {LINK:Stationeers;太空员} 装备, 存放于 {THING:ItemToolBelt} 中. Arlite 焊枪用于建造各类关键结构. {LINK:ExMin;ExMin} 经典"Zairo"型号升级版, 使用单罐 {THING:ItemGasCanisterFuel} 驱动, 适用于太空与重力环境</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWheat</Key>
@@ -1907,7 +1907,7 @@
     <RecordThing>
       <Key>OrganLungs</Key>
       <Value>人肺</Value>
-      <Description>精密器官, 需为其营造并维持适宜温度与压力环境</Description>
+      <Description>精密器官, 需为其营造并维持适宜温度与气压环境</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicBodyBag</Key>
@@ -1922,14 +1922,14 @@
     <RecordThing>
       <Key>StructureActiveVent</Key>
       <Value>主动通风口</Value>
-      <Description>主动通风口是一种动力装置, 通过向管道网络泵入（或抽出）气体来维持 {LINK:GasPage;气体} 压力. 该通风口有两种模式: "向外"模式会泵送气体至空间直到达到设定安全压力; "向内"模式会抽吸气体直到达到设定安全压力. 压力参数可通过连接的 {THING:StructureConsole} 设置. 向外模式默认压力为101kPa; 向内模式默认压力为0kPa</Description>
+      <Description>主动通风口是一种动力装置, 通过向管道网络泵入（或抽出）气体来维持 {LINK:GasPage;气体} 压强. 该通风口有两种模式: "向外"模式会泵送气体至空间直到达到设定安全气压; "向内"模式会抽吸气体直到达到设定安全气压. 气压参数可通过连接的 {THING:StructureConsole} 设置. 向外模式默认气压为101kPa; 向内模式默认气压为0kPa</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirConditioner</Key>
       <Value>空调机</Value>
       <Description>使用 {THING:ItemKitAtmospherics} 建造的 {LINK:ExMin;ExMin设计} 空调机用于升高或降低输入气体温度. 
 该设备有三个管道接口: 输入口, 输出口和废气口. 输入口的气体将被加热或冷却以达到目标温度, 而废气口连接的管道网络中的气体将发生相反的温度变化.
-多个效率乘数会影响空调机的能耗, 这些参数可在设备的绿色信息面板查看. 随着输入与废气管温差增大, 温差效率乘数会降低. 若输入或废气管温度极高/极低, 运行温度效率也会下降. 若输入或废气管压力过低, 压力效率会降低. 
+多个效率乘数会影响空调机的能耗, 这些参数可在设备的绿色信息面板查看. 随着输入与废气管温差增大, 温差效率乘数会降低. 若输入或废气管温度极高/极低, 运行温度效率也会下降. 若输入或废气管气压过低, 气压效率会降低.
  {THING:StructurePipeRadiator} 有助于将极端管道温度调节至正常环境温度. 
 更多使用说明请参考 {LINK:TemperatureControlPage;温控} 指南页面. "</Description>
     </RecordThing>
@@ -1957,17 +1957,17 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     <RecordThing>
       <Key>StructureBackPressureRegulator</Key>
       <Value>背压调节器</Value>
-      <Description>与 {THING:StructurePressureRegulator} 在输入超压时关闭不同, 背压调节器在输入压力达到设定值时开启</Description>
+      <Description>与 {THING:StructurePressureRegulator} 在输入超压时关闭不同, 背压调节器在输入气压达到设定值时开启</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePurgeValve</Key>
       <Value>排气阀</Value>
-      <Description>允许从液体管道中移除气体和液体蒸气. 功能类似 {THING:StructureBackPressureRegulator} ,  {THING:StructurePurgeValve} 将气体从输入液体管转移至输出气体管, 旨在维持输入压力在目标设定值</Description>
+      <Description>允许从液体管道中移除气体和液体蒸汽. 功能类似 {THING:StructureBackPressureRegulator} ,  {THING:StructurePurgeValve} 将气体从输入液体管转移至输出气体管, 旨在维持输入气压在目标设定值</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePressurantValve</Key>
       <Value>加压阀</Value>
-      <Description>向液体管道泵入气体以提高压力</Description>
+      <Description>向液体管道泵入气体以提高气压</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCondensationValve</Key>
@@ -2001,7 +2001,7 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
       <Key>StructureBlastDoor</Key>
       <Value>防爆门</Value>
       <Description>气密且几乎不可摧毁的初代「米尔玛」防爆门由外星矿业巨头 {LINK:Recurso;Recurso} 设计, 用于保护小行星采矿设施免受核事故级爆炸减压影响. 
-除非局部时空出现口袋奇点, 这些防爆门能承受的压力实际上没有上限——是压力敏感环境建造气闸室的理想选择</Description>
+除非局部时空出现口袋奇点, 这些防爆门能承受的气压实际上没有上限——是气压敏感环境建造气闸室的理想选择</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner</Key>
@@ -2060,9 +2060,9 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteBin</Key>
-      <Value>滑槽(回收)</Value>
+      <Value>电动滑槽(入口)</Value>
       <Description>{LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难. 
-与大多数 {LINK:Recurso;Recurso} 设计的系统类似, 滑槽回收口是简单可靠的动力装置, 通过拉动杠杆即可手动将物品传入滑槽网络. 也可通过 {LINK:LogicUnitPage;逻辑单元} 编程实现自动操作, 但全自动化需配合 {THING:StructureSDBHopper} 等设备使用</Description>
+与大多数 {LINK:Recurso;Recurso} 设计的系统类似, 滑槽入口是简单可靠的动力装置, 通过拉动杠杆即可手动将物品传入滑槽网络. 也可通过 {LINK:LogicUnitPage;逻辑} 编程实现自动操作, 但全自动化需配合 {THING:StructureSDBHopper} 等设备使用</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteCorner</Key>
@@ -2094,28 +2094,28 @@ APC亦能创建子电网, 位于APC下游的设备在主电网不可见.
       <Value>滑槽(直连)</Value>
       <Description>滑槽作为物品传输管道, 可连接 {LINK:ImportExportPage;物流进出口} 设备, 如 {THING:StructureVendingMachine} 和 {THING:StructureAutolathe} 打印机. 
  {LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难. 
-滑槽是滑槽网络的基础组件, 可在配备 {LINK:ImportExportPage;进出口} 插槽的各类设备间运输物品</Description>
+滑槽是滑槽网络的基础组件, 可在配备 {LINK:ImportExportPage;进出口} 槽位的各类设备间运输物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight3</Key>
       <Value>滑槽(直连3)</Value>
       <Description>滑槽作为物品传输管道, 可连接 {LINK:ImportExportPage;物流进出口} 设备, 如 {THING:StructureVendingMachine} 和 {THING:StructureAutolathe} 打印机.
         {LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难.
-        滑槽是滑槽网络的基础组件, 可在配备 {LINK:ImportExportPage;进出口} 插槽的各类设备间运输物品</Description>
+        滑槽是滑槽网络的基础组件, 可在配备 {LINK:ImportExportPage;进出口} 槽位的各类设备间运输物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight5</Key>
       <Value>滑槽(直连5)</Value>
       <Description>滑槽作为物品传输管道, 可连接 {LINK:ImportExportPage;物流进出口} 设备, 如 {THING:StructureVendingMachine} 和 {THING:StructureAutolathe} 打印机.
         {LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难.
-        滑槽是滑槽网络的基础组件, 可在配备 {LINK:ImportExportPage;进出口} 插槽的各类设备间运输物品</Description>
+        滑槽是滑槽网络的基础组件, 可在配备 {LINK:ImportExportPage;进出口} 槽位的各类设备间运输物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureChuteStraight10</Key>
       <Value>滑槽(直连10)</Value>
       <Description>滑槽作为物品传输管道, 可连接 {LINK:ImportExportPage;物流进出口} 设备, 如 {THING:StructureVendingMachine} 和 {THING:StructureAutolathe} 打印机.
         {LINK:Stationeers;Stationeer} 的目标是让外星生存对自身和后来者不再艰难.
-        滑槽是滑槽网络的基础组件, 可在配备 {LINK:ImportExportPage;进出口} 插槽的各类设备间运输物品</Description>
+        滑槽是滑槽网络的基础组件, 可在配备 {LINK:ImportExportPage;进出口} 槽位的各类设备间运输物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCompositeDoor</Key>
@@ -2290,17 +2290,17 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     <RecordThing>
       <Key>StructureGasSensor</Key>
       <Value>气体传感器</Value>
-      <Description>气体传感器用于监测并报告温度, 压力及气体比例等基础大气数据——同时也是绝佳的结婚礼物</Description>
+      <Description>气体传感器用于监测并报告温度, 气压及气体比例等基础大气数据——同时也是绝佳的结婚礼物</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGasTankStorage</Key>
       <Value>储气瓶填充器</Value>
-      <Description>连接管道网络后, 储气瓶填充器可为 {THING:ItemGasCanisterEmpty} 充气, 并通过 {SLOT:GasCanister} 插槽读取气瓶数据</Description>
+      <Description>连接管道网络后, 储气瓶填充器可为 {THING:ItemGasCanisterEmpty} 充气, 并通过 {SLOT:GasCanister} 槽位读取气瓶数据</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTankStorage</Key>
       <Value>储液瓶填充器</Value>
-      <Description>连接液体管道网络后, 储液瓶填充器可为 {THING:ItemLiquidCanisterEmpty} 填注液体, 并通过 {SLOT:GasCanister} 插槽读取数据（不接受储气瓶）</Description>
+      <Description>连接液体管道网络后, 储液瓶填充器可为 {THING:ItemLiquidCanisterEmpty} 填注液体, 并通过 {SLOT:GasCanister} 槽位读取数据（不接受储气瓶）</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureGlassDoor</Key>
@@ -2350,7 +2350,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
       <Key>StructurePipeAnalysizer</Key>
       <Value>管道分析仪</Value>
       <Description>据称是某位 {LINK:ExMin;ExMin} 工程师与女儿周末电子项目的成果, 管道分析仪本质上是 {THING:StructurePipeMeter} 的升级版. 
-可显示管道网络内部压力, 温度及气体成分, 并能通过 {LINK:LogicPage;逻辑系统} 连接至 {THING:StructureConsole} 或 {THING:StructureComputer}</Description>
+可显示管道网络内部气压, 温度及气体成分, 并能通过 {LINK:LogicPage;逻辑系统} 连接至 {THING:StructureConsole} 或 {THING:StructureComputer}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCorner</Key>
@@ -2360,7 +2360,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     <RecordThing>
       <Key>StructurePipeCrossJunction</Key>
       <Value>管道(交叉)</Value>
-      <Description>使用 {THING:ItemKitInsulatedPipe} 和 {THING:ItemWrench} 可将此管道升级为 {THING:StructureInsulatedPipeCorner}</Description>
+      <Description>使用 {THING:ItemKitInsulatedPipe} 和 {THING:ItemWrench} 可将此管道升级为 {THING:StructureInsulatedPipeCrossJunction}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeCrossJunction3</Key>
@@ -2387,7 +2387,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
       <Value>管道仪表</Value>
       <Description>尽管Stationeer计划至今鲜少激发古典诗词创作, 但火神星上的某块管道残骸上刻着这首讽刺俳句:
 「谦卑管道表
-诉说真实传压力
+诉说真实传气压
 无问管道形」</Description>
     </RecordThing>
     <RecordThing>
@@ -2428,8 +2428,8 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     </RecordThing>
     <RecordThing>
       <Key>StructurePressureRegulator</Key>
-      <Value>压力调节器</Value>
-      <Description>压力调节器通过转移气体控制两管网间流量, 直至出口侧达设定压力或气源耗尽. 对比之下, 背压调节器仅在入口压力超设定值时工作. 最大承压超20000kPa, 需供电运行</Description>
+      <Value>气压调节器</Value>
+      <Description>气压调节器通过转移气体控制两管网间流量, 直至出口侧达设定气压或气源耗尽. 对比之下, 背压调节器仅在入口气压超设定值时工作. 最大承压超20000kPa, 需供电运行</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRailing</Key>
@@ -2512,7 +2512,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallAir</Key>
-      <Value>小型储气罐</Value>
+      <Value>小型空气罐</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureTankSmallFuel</Key>
@@ -2551,14 +2551,14 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
  {HEADER:错误} 
 闪烁报错可能原因:
 未连接管道
-管道缺气或压力过低
-环境缺少空气或压力过低
+管道缺气或气压过低
+环境缺少空气或气压过低
 更多温控指南请参阅 {LINK:TemperatureControlPage;温控} 页面</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallHeater</Key>
       <Value>壁挂式加热器</Value>
-      <Description>壁挂式加热器是简易制热设备, 安装后连接电源即可运行, 打开开关后, 它会开始加热周围的环境. 它每刻能将1000焦耳热量添加到环境中. 它只能在高于阿姆斯特朗极限(6.3kPa)的环境中工作, 并且最多加热环境温度到2500K.</Description>
+      <Description>壁挂式加热器是简易制热设备, 安装后连接电源即可运行, 打开开关后, 它会开始加热周围的环境. 它每刻能将1000焦耳热量添加到管道网络中. 它只能在高于阿姆斯特朗极限(6.3kPa)的环境中工作, 并且最多加热环境温度到2500K.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWallLight</Key>
@@ -3287,11 +3287,11 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner4</Key>
-      <Value>电缆(4路)</Value>
+      <Value>电缆(4角)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableCorner4Burnt</Key>
-      <Value>烧毁的电缆(4路)</Value>
+      <Value>烧毁的电缆(4角)</Value>
     </RecordThing>
     <RecordThing>
       <Key>StructureCableJunction5Burnt</Key>
@@ -4150,7 +4150,7 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     <RecordThing>
       <Key>ItemHardsuitHelmet</Key>
       <Value>强化太空头盔</Value>
-      <Description>与 {THING:ItemSpaceHelmet} 类似, 但能承受更高温度和压力. 适用于金星, 伏尔甘等恶劣环境</Description>
+      <Description>与 {THING:ItemSpaceHelmet} 类似, 但能承受更高温度和气压. 适用于金星, 伏尔甘等恶劣环境</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemWearLamp</Key>
@@ -4371,7 +4371,7 @@ Output=1 导出内部物品并最后输出主物品</Description>
     <RecordThing>
       <Key>ItemHardJetpack</Key>
       <Value>强化喷气背包</Value>
-      <Description>{LINK:Norsec;Norsec} 喷气背包从"技术上"来说不是喷气背包, 而是气体推进器. 只要 {LINK:AtmosphericsPage;canister} 内部气压高于外部环境压力, 即可使用任何气体作为动力. 若外部压力更高, 空间背包将无法运作. 调整推力值可改变加速度, 激活稳定器后可在特定高度悬停. 
+      <Description>{LINK:Norsec;Norsec} 喷气背包从"技术上"来说不是喷气背包, 而是气体推进器. 只要 {LINK:AtmosphericsPage;canister} 内部气压高于外部环境气压, 即可使用任何气体作为动力. 若外部气压更高, 空间背包将无法运作. 调整推力值可改变加速度, 激活稳定器后可在特定高度悬停.
 此款强化喷气背包速度远超 {THING:ItemJetpackBasic} （最高达15米/秒）, 是建造, 采矿和移动的必备工具, 提供14个存储槽.
 使用方式: 'J'激活; 空格键上升; 左Ctrl下降; WASD移动</Description>
     </RecordThing>
@@ -4479,12 +4479,12 @@ Output=1 导出内部物品并最后输出主物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureShuttleLandingPad</Key>
-      <Value>着陆场</Value>
-      <Description>着陆场可处理小型贸易飞船. 当连接到 {THING:StructureSatelliteDish} 和 {THING:StructureVendingMachine} 以及包含 {THING:MotherboardComms} 的 {THING:StructureComputer} 时, 可启用与供应商交易功能. 需要95%或以上的通信信号才能与商人建立可靠联系</Description>
+      <Value>着陆平台</Value>
+      <Description>着陆平台可处理小型贸易飞船. 当连接到 {THING:StructureSatelliteDish} 和 {THING:StructureVendingMachine} 以及包含 {THING:MotherboardComms} 的 {THING:StructureComputer} 时, 可启用与供应商交易功能. 需要95%或以上的通信信号才能与商人建立可靠联系</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPad</Key>
-      <Value>(套件)着陆场</Value>
+      <Value>(套件)着陆平台</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -4542,7 +4542,7 @@ Output=1 导出内部物品并最后输出主物品</Description>
     <RecordThing>
       <Key>ItemMiningDrillHeavy</Key>
       <Value>采矿钻机(重型)</Value>
-      <Description>采矿任务有时需要大型工具. 这款 {LINK:Recurso;Recurso} 「Topo」设计的 {THING:ItemMiningDrill} 升级版可真正移山填海. 重型钻机比标准型号挖掘 {LINK:OrePage;矿石} 更快并且能够移除更多土石, 并能耐受极端温度和压力, 适用于任何行星环境</Description>
+      <Description>采矿任务有时需要大型工具. 这款 {LINK:Recurso;Recurso} 「Topo」设计的 {THING:ItemMiningDrill} 升级版可真正移山填海. 重型钻机比标准型号挖掘 {LINK:OrePage;矿石} 更快并且能够移除更多土石, 并能耐受极端温度和气压, 适用于任何行星环境</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemLiquidVacuum</Key>
@@ -4654,7 +4654,7 @@ AIMEe有7种模式:
     <RecordThing>
       <Key>StructureAdvancedFurnace</Key>
       <Value>高级熔炉</Value>
-      <Description>高级熔炉自带内置的进气泵和排气泵, 能够灵活控制其内部压力</Description>
+      <Description>高级熔炉自带内置的进气泵和排气泵, 能够灵活控制其内部气压</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitAdvancedFurnace</Key>
@@ -4752,7 +4752,7 @@ AIMEe有7种模式:
     <RecordThing>
       <Key>ItemJetpackBasic</Key>
       <Value>基础喷气背包</Value>
-      <Description>这款 {LINK:CHAC;CHAC} 基础背包'技术上'来说并非背包, 而是气体推进装置. 只要 {LINK:AtmosphericsPage;气瓶} 内部压力高于环境压力即可工作（外部压力过高时失效）. 具备10个储物槽, 使 {LINK:Stationeers;太空工程师} 能以3m/s飞行（弱于 {THING:ItemHardJetpack} ）, 适用于建造, 采矿和移动. 调节推力值能够改变加速度, 启用稳定器可在达到指定高度时悬停. 操作: J键启动, 空格上升, 左Ctrl下降, WASD移动</Description>
+      <Description>这款 {LINK:CHAC;CHAC} 基础背包'技术上'来说并非背包, 而是气体推进装置. 只要 {LINK:AtmosphericsPage;气瓶} 内部气压高于环境气压即可工作（外部气压过高时失效）. 具备10个储物槽, 使 {LINK:Stationeers;太空工程师} 能以3m/s飞行（弱于 {THING:ItemHardJetpack} ）, 适用于建造, 采矿和移动. 调节推力值能够改变加速度, 启用稳定器可在达到指定高度时悬停. 操作: J键启动, 空格上升, 左Ctrl下降, WASD移动</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureRTGSurvival</Key>
@@ -5022,7 +5022,7 @@ AIMEe有7种模式:
     <RecordThing>
       <Key>ItemAdvancedTablet</Key>
       <Value>高级平板电脑</Value>
-      <Description>{LINK:Xigo;Xigo} Padi2高级平板是基础 {THING:ItemTablet} 的升级版, 配备两个 {LINK:CartridgePage;功能卡} 插槽, 支持 {THING:CartridgeAtmosAnalyser} , {THING:CartridgeTracker} , {THING:CartridgeMedicalAnalyser} , {THING:CartridgeOreScanner} , {THING:CartridgeElectronicReader} 等类型.
+      <Description>{LINK:Xigo;Xigo} Padi2高级平板是基础 {THING:ItemTablet} 的升级版, 配备两个 {LINK:CartridgePage;功能卡} 槽位, 支持 {THING:CartridgeAtmosAnalyser} , {THING:CartridgeTracker} , {THING:CartridgeMedicalAnalyser} , {THING:CartridgeOreScanner} , {THING:CartridgeElectronicReader} 等类型.
 在 {SLOT:ProgrammableChip} 槽位安装 {THING:ItemIntegratedCircuit10} 后, 可通过设备编号（d0, d1等）访问穿戴者的逻辑可交互物品（如 {THING:ItemHardSuit} ）变量槽</Description>
     </RecordThing>
     <RecordThing>
@@ -5477,7 +5477,7 @@ AIMEe有7种模式:
     </RecordThing>
     <RecordThing>
       <Key>StructureBlocker</Key>
-      <Value>方块</Value>
+      <Value>阻挡块</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -5589,7 +5589,7 @@ AIMEe有7种模式:
     <RecordThing>
       <Key>CrateMkII</Key>
       <Value>储物箱MkII</Value>
-      <Description>标志性 {THING:DynamicCrate} 的强化版本, MkII储物箱可承受极高压力与温度. 除非投入黑洞, MkII堪称最安全的储物装置</Description>
+      <Description>标志性 {THING:DynamicCrate} 的强化版本, MkII储物箱可承受极高气压与温度. 除非投入黑洞, MkII堪称最安全的储物装置</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitCrateMkII</Key>
@@ -5857,7 +5857,7 @@ AIMEe有7种模式:
     <RecordThing>
       <Key>ItemMKIIDrill</Key>
       <Value>手钻MkII</Value>
-      <Description>{LINK:ExMin;ExMin} Off-whirled手钻是 {LINK:Stationeers;Stationeer} 数十年来的必备工具, 可在任意重力, 压力或温度下组装/拆除结构与物品</Description>
+      <Description>{LINK:ExMin;ExMin} Off-whirled手钻是 {LINK:Stationeers;Stationeer} 数十年来的必备工具, 可在任意重力, 气压或温度下组装/拆除结构与物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemMKIIMiningDrill</Key>
@@ -5982,7 +5982,7 @@ AIMEe有7种模式:
     </RecordThing>
     <RecordThing>
       <Key>StructureFloorDrain</Key>
-      <Value>被动排液口</Value>
+      <Value>被动进液口</Value>
       <Description>一个被动液体地面入口, 可快速单向将液体从世界移除至连接的管道网络, 并与世界大气平衡气体. 
 它可移除同一水平面上最远6格距离的网格中的液体</Description>
     </RecordThing>
@@ -6092,7 +6092,7 @@ AIMEe有7种模式:
 
 食物类型-每种 {LINK:OrganicPage;食物} 有独立腐烂特性. 例如 {THING:ItemTomatoSoup} 比 {THING:ItemTomato} 保存更久. 
 
-气压-压力低于1大气压（101kPa）时腐烂加速. 接近真空时腐烂呈指数级加快. 高压无影响. 
+气压-气压低于1大气压（101kPa）时腐烂加速. 接近真空时腐烂呈指数级加快. 高压无影响.
 
 大气成分-不同气体会改变腐烂速度. 混合大气中按气体比例计算衰减系数. 各气体全局倍率如下:
 
@@ -6513,22 +6513,22 @@ AIMEe有7种模式:
     <RecordThing>
       <Key>StructurePipeHeater</Key>
       <Value>管道加热器</Value>
-      <Description>每刻将1000焦耳热量添加到管道网络中. 管道加热器只能在高于阿姆斯特朗极限(6.3kPa)的环境中工作, 并且最多加热温度到2500K.</Description>
+      <Description>每刻将1000焦耳热量添加到管道网络中. 管道加热器只能在管道内高于阿姆斯特朗极限, 并且温度低于2500K时才能(6.3kPa)工作.</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePipeOneWayValve</Key>
       <Value>单向阀(气体)</Value>
-      <Description>单向阀仅允许气体单向流动: 从输入端到输出端. 仅在输入压力高于输出压力时允许流通</Description>
+      <Description>单向阀仅允许气体单向流动: 从输入端到输出端. 仅在输入端气压高于输出端气压时允许流动</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureOneWayValve</Key>
       <Value>单向阀(气体)</Value>
-      <Description>单向阀仅允许气体单向流动: 从输入端到输出端. 仅在输入压力高于输出压力时允许流通</Description>
+      <Description>单向阀仅允许气体单向流动: 从输入端到输出端. 仅在输入端气压高于输出端气压时允许流动</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWaterPipeHeater</Key>
       <Value>管道加热器(气体)</Value>
-      <Description>每tick为管道网络内容物增加1000焦耳热量</Description>
+      <Description>每时间刻都会为管道网络内容物增加1000焦耳热量</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPipeHeater</Key>
@@ -6578,12 +6578,12 @@ AIMEe有7种模式:
     <RecordThing>
       <Key>ItemMiningBeltMKII</Key>
       <Value>采矿腰带MKII</Value>
-      <Description>扩容版采矿腰带, 拥有13个插槽（基础版为8个）延长采矿时长, 另设两个工具槽位</Description>
+      <Description>扩容版采矿腰带, 拥有13个槽位（基础版为8个）延长采矿时长, 另设两个工具槽位</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidPipeOneWayValve</Key>
       <Value>单向阀(液体)</Value>
-      <Description>单向阀仅允许液体单向流动: 从输入端到输出端. 仅在输入压力高于输出压力时允许流通</Description>
+      <Description>单向阀仅允许液体单向流动: 从输入端到输出端. 仅在输入端气压高于输出端气压时允许流通</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureWindowShutter</Key>
@@ -6667,7 +6667,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>ItemLaptop</Key>
       <Value>笔记本电脑</Value>
-      <Description>笔记本电脑可作为便携式集成电路编辑器, 需安装电池供电, 主板插槽插入 {THING:MotherboardProgrammableChip} , 可编程芯片槽放置 {THING:ItemIntegratedCircuit10} 方可运行. 
+      <Description>笔记本电脑可作为便携式集成电路编辑器, 需安装电池供电, 主板槽位插入 {THING:MotherboardProgrammableChip} , 可编程芯片槽放置 {THING:ItemIntegratedCircuit10} 方可运行.
 
 需放置于平面后通过屏幕界面操作</Description>
     </RecordThing>
@@ -6864,7 +6864,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Value>氮冰</Value>
       <Description>固态 {GAS:Nitrogen} 冰俗称氮冰, 广泛存在于太阳系星体. 其释放的惰性氮气适合构建低可燃性呼吸环境. 
 
-氮冰对温度极为敏感, 开采后即刻融化, 除非储存在 {THING:ItemMiningBelt} , {THING:ItemMiningBeltAdvanced} 或 {THING:StructureIceCrusher} , {THING:StructureFridgeSmall} 等设备中</Description>
+氮冰对温度极为敏感, 开采后即刻融化, 除非环境温度低于零度或储存在 {THING:ItemMiningBelt} , {THING:ItemMiningBeltAdvanced} 或 {THING:StructureIceCrusher} , {THING:StructureFridgeSmall} 等设备中</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPassiveLargeRadiator</Key>
@@ -7128,28 +7128,28 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_CenterPiece01</Key>
-      <Value>着陆场(中心)</Value>
+      <Value>着陆平台(中心)</Value>
       <Description>贸易飞船着陆点, 需上方天空无任何遮挡</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_StraightPiece01</Key>
-      <Value>着陆场(直线)</Value>
+      <Value>着陆平台(直线)</Value>
       <Description>扩展着陆区面积, 基础贸易船需3x3大小的净空区域</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_DiagonalPiece01</Key>
-      <Value>着陆场(斜线)</Value>
+      <Value>着陆平台(斜线)</Value>
       <Description>扩展着陆区面积, 基础贸易船需3x3大小的净空区域</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_CrossPiece</Key>
-      <Value>着陆场(十字线)</Value>
+      <Value>着陆平台(十字线)</Value>
       <Description>扩展着陆区面积, 基础贸易船需3x3大小的净空区域</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_DataConnectionPiece</Key>
-      <Value>着陆场(供电和网络)</Value>
-      <Description>为着陆场供电, 数据端口需连接配备通讯主板的电脑以召唤贸易飞船着陆</Description>
+      <Value>着陆平台(供电和网络)</Value>
+      <Description>为着陆平台供电, 数据端口需连接配备通讯主板的电脑以召唤贸易飞船着陆</Description>
     </RecordThing>
     <RecordThing>
       <Key>SeedBag_Switchgrass</Key>
@@ -7168,18 +7168,18 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasCylinderTankPiece</Key>
-      <Value>着陆场(小型储罐)</Value>
-      <Description>增加着陆场气体存储容量, 用于与贸易商进行散装流体货物交易</Description>
+      <Value>着陆平台(小型储罐)</Value>
+      <Description>增加着陆平台气体存储容量, 用于与贸易商进行散装流体货物交易</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasConnectorOutwardPiece</Key>
-      <Value>着陆场(气体输出)</Value>
-      <Description>将购买的气体从着陆场泵出, 添加 {THING:Landingpad_GasCylinderTankPiece} 可扩展存储容量</Description>
+      <Value>着陆平台(气体输出)</Value>
+      <Description>将购买的气体从着陆平台泵出, 添加 {THING:Landingpad_GasCylinderTankPiece} 可扩展存储容量</Description>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_LiquidConnectorOutwardPiece</Key>
-      <Value>着陆场(液体输出)</Value>
-      <Description>将购买的液体从着陆场泵出, 添加 {THING:Landingpad_GasCylinderTankPiece} 可扩展存储容量</Description>
+      <Value>着陆平台(液体输出)</Value>
+      <Description>将购买的液体从着陆平台泵出, 添加 {THING:Landingpad_GasCylinderTankPiece} 可扩展存储容量</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureSmallSatelliteDish</Key>
@@ -7205,17 +7205,17 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasConnectorInwardPiece</Key>
-      <Value>着陆场(气体输入)</Value>
+      <Value>着陆平台(气体输入)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_LiquidConnectorInwardPiece</Key>
-      <Value>着陆场(液体输入)</Value>
+      <Value>着陆平台(液体输入)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_2x2CenterPiece01</Key>
-      <Value>着陆场(2×2中心)</Value>
+      <Value>着陆平台(2×2中心)</Value>
       <Description>推荐大型贸易商船, 支持构建带对称舱门的4x4/6x6着陆区</Description>
     </RecordThing>
     <RecordThing>
@@ -7245,17 +7245,17 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPadBasic</Key>
-      <Value>(套件)着陆场-基础</Value>
+      <Value>(套件)着陆平台-基础</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPadAtmos</Key>
-      <Value>(套件)着陆场-流体处理</Value>
+      <Value>(套件)着陆平台-流体处理</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLandingPadWaypoint</Key>
-      <Value>(套件)着陆场-跑道</Value>
+      <Value>(套件)着陆平台-跑道</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -7551,14 +7551,14 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructureEvaporationChamber</Key>
       <Value>蒸发器</Value>
-      <Description>一种安全将液体蒸发为气体的装置. 液体和气体均可安全存在于装置内部. 使用设置轮降低内置背压调节器的压力目标值, 可改变内部液体的沸点温度. 
+      <Description>一种安全将液体蒸发为气体的装置. 液体和气体均可安全存在于装置内部. 使用设置轮降低内置背压调节器的气压目标值, 可改变内部液体的沸点温度.
 左侧的次级气体输入口是热交换接口, 允许次级输入管道与蒸发器内部气体进行热交换. 
 配合 {THING:StructureCondensationChamber} 使用, Stationeers可利用气体的相变特性建造自制空调系统</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureCondensationChamber</Key>
       <Value>冷凝器</Value>
-      <Description>一种安全将气体冷凝为液体的装置. 液体和气体均可安全存在于装置内部. 该容器通过内置压力调节器将内部压力维持在使用设置轮设定的目标值. 
+      <Description>一种安全将气体冷凝为液体的装置. 液体和气体均可安全存在于装置内部. 该容器通过内置气压调节器将内部气压维持在使用设置轮设定的目标值.
 左侧的次级气体输入口是热交换接口, 允许次级输入管道与冷凝器内部气体进行热交换. 
 配合 {THING:StructureEvaporationChamber} 使用, 太空工程师可利用气体的相变特性建造自制空调系统</Description>
     </RecordThing>
@@ -7600,137 +7600,137 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>ItemPureIce</Key>
       <Value>纯净水冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:Water}</Description>
+      <Description>一大块冰冻的 {GAS:Water}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceCarbonDioxide</Key>
       <Value>纯净干冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:CarbonDioxide}</Description>
+      <Description>一大块冰冻的 {GAS:CarbonDioxide}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceNitrogen</Key>
       <Value>纯净氮冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:Nitrogen}</Description>
+      <Description>一大块冰冻的 {GAS:Nitrogen}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceNitrous</Key>
       <Value>纯净一氧化二氮冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:NitrousOxide}</Description>
+      <Description>一大块冰冻的 {GAS:NitrousOxide}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceOxygen</Key>
       <Value>纯净氧冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:Oxygen}</Description>
+      <Description>一大块冰冻的 {GAS:Oxygen}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIcePollutant</Key>
       <Value>纯净污染冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:Pollutant}</Description>
+      <Description>一大块冰冻的 {GAS:Pollutant}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceVolatiles</Key>
       <Value>纯净甲烷冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:Methane}</Description>
+      <Description>一大块冰冻的 {GAS:Methane}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidCarbonDioxide</Key>
       <Value>纯净液态二氧化碳冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidCarbonDioxide}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidCarbonDioxide}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidNitrous</Key>
       <Value>纯净液态一氧化二氮冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidNitrousOxide}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidNitrousOxide}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidNitrogen</Key>
       <Value>纯净液氮冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidNitrogen}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidNitrogen}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidOxygen</Key>
       <Value>纯净液氧冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidOxygen}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidOxygen}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidPollutant</Key>
       <Value>纯净液态污染冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidPollutant}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidPollutant}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidVolatiles</Key>
       <Value>纯净液态甲烷冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidMethane}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidMethane}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceSteam</Key>
       <Value>纯净水冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:Steam}</Description>
+      <Description>一大块冰冻的 {GAS:Steam}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceHydrogen</Key>
       <Value>纯净氢冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:Hydrogen}</Description>
+      <Description>一大块冰冻的 {GAS:Hydrogen}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidHydrogen</Key>
       <Value>纯净液氢冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidHydrogen}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidHydrogen}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIcePollutedWater</Key>
       <Value>纯净污染水冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:PollutedWater}</Description>
+      <Description>一大块冰冻的 {GAS:PollutedWater}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceHydrazine</Key>
       <Value>纯净肼冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:Hydrazine}</Description>
+      <Description>一大块冰冻的 {GAS:Hydrazine}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceHydrochloricAcid</Key>
       <Value>纯净氢氯酸冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:HydrochloricAcid}</Description>
+      <Description>一大块冰冻的 {GAS:HydrochloricAcid}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidAlcohol</Key>
       <Value>纯净液态乙醇冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidAlcohol}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidAlcohol}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidHydrazine</Key>
       <Value>纯净液态肼冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidHydrazine}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidHydrazine}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidHydrochloricAcid</Key>
       <Value>纯净液态氢氯酸冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidHydrochloricAcid}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidHydrochloricAcid}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidSilanol</Key>
       <Value>纯净液态硅烷醇冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidSilanol}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidSilanol}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceSilanol</Key>
       <Value>纯净硅烷醇冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:Silanol}</Description>
+      <Description>一大块冰冻的 {GAS:Silanol}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidSodiumChloride</Key>
       <Value>盐</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidSodiumChloride}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidSodiumChloride}. 熔化它需要较高的温度, 并且只能在高温熔炉或熔化室熔化. 无法使用 {THING:StructureIceCrusher} 或 {THING:StructureArcFurnace} 处理.</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceOzone</Key>
       <Value>纯净臭氧冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:Ozone}</Description>
+      <Description>一大块冰冻的 {GAS:Ozone}</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemPureIceLiquidOzone</Key>
       <Value>纯净液态臭氧冰</Value>
-      <Description>一大块冰冻的纯净 {GAS:LiquidOzone}</Description>
+      <Description>一大块冰冻的 {GAS:LiquidOzone}</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassiveLiquidDrain</Key>
@@ -7845,19 +7845,19 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructurePassthroughHeatExchangerLiquidToLiquid</Key>
       <Value>逆流式换热器(液体+液体)</Value>
-      <Description>通过调节输出端泵或调节器的压力降并控制输入压力, 实现两个逆向流动的管道网络之间的有效热交换.
+      <Description>通过调节输出端泵或调节器的气压并控制输入气压, 实现两个逆向流动的管道网络之间的有效热交换.
 平衡两个输入端的流量是获得良好热交换效果的关键</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassthroughHeatExchangerGasToLiquid</Key>
       <Value>逆流式换热器(气体+液体)</Value>
-      <Description>通过调节输出端泵或调节器的压力降并控制输入压力, 实现两个逆向流动的管道网络之间的有效热交换.
+      <Description>通过调节输出端泵或调节器的气压并控制输入气压, 实现两个逆向流动的管道网络之间的有效热交换.
 平衡两个输入端的流量是获得良好热交换效果的关键</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructurePassthroughHeatExchangerGasToGas</Key>
       <Value>逆流式换热器(气体+气体)</Value>
-      <Description>通过调节输出端泵或调节器的压力降并控制输入压力, 实现两个逆向流动的管道网络之间的有效热交换.
+      <Description>通过调节输出端泵或调节器的气压并控制输入气压, 实现两个逆向流动的管道网络之间的有效热交换.
 平衡两个输入端的流量是获得良好热交换效果的关键</Description>
     </RecordThing>
     <RecordThing>
@@ -7892,7 +7892,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>ItemKitLaunchPad</Key>
-      <Value>(套件)发射场</Value>
+      <Value>(套件)发射台</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -7907,17 +7907,17 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>StructureLaunchPadCenter</Key>
-      <Value>发射场(中心)</Value>
+      <Value>发射台(中心)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLaunchPadTower</Key>
-      <Value>发射场(塔台)</Value>
+      <Value>发射台(塔台)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
       <Key>StructureLaunchPadModule</Key>
-      <Value>发射场(模组)</Value>
+      <Value>发射台(模组)</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -8267,7 +8267,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructurePressureFedGasEngine</Key>
       <Value>供压式气体火箭发动机</Value>
-      <Description>虽效率较低但推力强劲, 供压式气体发动机根据输入管道压力自动调节双燃料输入量. 通过调整输入压力控制燃料混合比例, 建议维持 {GAS:Methane} 与 {GAS:Oxygen} 气体2:1的混合比. 冷却推进剂气体或使用 {GAS:NitrousOxide} 作为氧化剂可进一步提升推力输出</Description>
+      <Description>虽效率较低但推力强劲, 供压式气体发动机根据输入管道的气压自动调节双燃料输入量. 通过调整输入气压控制燃料混合比例, 建议维持 {GAS:Methane} 与 {GAS:Oxygen} 气体2:1的混合比. 冷却推进剂气体或使用 {GAS:NitrousOxide} 作为氧化剂可进一步提升推力输出</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngine</Key>
@@ -8287,7 +8287,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructurePressureFedGasEngineHeavy</Key>
       <Value>重型供压式气体火箭发动机</Value>
-      <Description>{THING:StructurePressureFedGasEngine}的增强型变体. 它通过牺牲少量效率换取推力的大幅提升. 供压式发动机根据输入管道的压力从各个输入端输送气体. 可以通过调整输入压力来控制燃料混合比例, 以达成 {GAS:Methane} 与 {GAS:Oxygen} 混合比2:1的目标. 使用冷却燃料气体或使用 {GAS:NitrousOxide} 作为氧化剂会输出更高的推力</Description>
+      <Description>{THING:StructurePressureFedGasEngine}的增强型变体. 它通过牺牲少量效率换取推力的大幅提升. 供压式发动机根据输入管道的气压从各个输入端输送气体. 可以通过调整输入气压来控制燃料混合比例, 以达成 {GAS:Methane} 与 {GAS:Oxygen} 混合比2:1的目标. 使用冷却燃料气体或使用 {GAS:NitrousOxide} 作为氧化剂会输出更高的推力</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitPressureFedLiquidEngineHeavy</Key>
@@ -8297,7 +8297,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructurePressureFedLiquidEngineHeavy</Key>
       <Value>重型供压式液体火箭发动机</Value>
-      <Description>{THING:StructurePressureFedLiquidEngine}的增强型变体. 它通过牺牲少量效率换取推力的大幅提升. 警告: 供压式发动机需要精密调控才能稳定运行. 液体燃料基于输入气体压力从输入端被吸入发动机, 此过程会同时带入部分气体, Stationeers需要设计一套系统来维持液体输入管道的气压. 第二个液体管道连接口是可选的热交换器接口, 用于在管道内容物与发动机喷管间进行热交换, 发动机的Setting变量可调节该换热器的效果</Description>
+      <Description>{THING:StructurePressureFedLiquidEngine}的增强型变体. 它通过牺牲少量效率换取推力的大幅提升. 警告: 供压式发动机需要精密调控才能稳定运行. 液体燃料基于输入气体气压从输入端被吸入发动机, 此过程会同时带入部分气体, Stationeers需要设计一套系统来维持液体输入管道的气压. 第二个液体管道连接口是可选的热交换器接口, 用于在管道内容物与发动机喷管间进行热交换, 发动机的Setting变量可调节该换热器的效果</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureFuselageTypeA1</Key>
@@ -8576,7 +8576,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_BlankPiece</Key>
-      <Value>着陆场</Value>
+      <Value>着陆平台</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -9092,7 +9092,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>StructureLiquidTap</Key>
-      <Value>液体按钮</Value>
+      <Value>液体阀</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -9250,8 +9250,8 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_LargeTank</Key>
-      <Value>着陆场储罐(大型)</Value>
-      <Description>增加着陆场气体存储容量, 可用于与星际贸易商进行气体交易</Description>
+      <Value>着陆平台储罐(大型)</Value>
+      <Description>增加着陆平台气体存储容量, 可用于与星际贸易商进行气体交易</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureAirlockWide</Key>
@@ -9329,12 +9329,12 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_GasTankConnectorPiece</Key>
-      <Value>着陆场储罐连接器(气体)</Value>
+      <Value>着陆平台储罐连接器(气体)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_LiquidTankConnectorPiece</Key>
-      <Value>着陆场储罐连接器(液体)</Value>
+      <Value>着陆平台储罐连接器(液体)</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -9475,7 +9475,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructurePacker</Key>
       <Value>装载机</Value>
-      <Description>装载机会从其左侧插槽中取出物品, 并将其放入右侧插槽物品的可用插槽中. 插槽将按从第一个到最后一个的顺序填充. 如果找不到可用插槽, 则左侧插槽中的物品将被弹出. 右侧插槽中的物品一旦装满或是拉下拉杆, 将会自动弹出. </Description>
+      <Description>装载机会从其左侧槽位中取出物品, 并将其放入右侧槽位容器的可用槽位中. 将按照从第一个槽位到最后一个槽位的顺序填充. 如果找不到可用槽位, 则左侧槽位中的容器将被弹出. 右侧槽位中的物品一旦装满或是拉下拉杆, 将会自动弹出. </Description>
     </RecordThing>
     <RecordThing>
       <Key>CardboardBoxLarge</Key>
@@ -10017,7 +10017,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </RecordThing>
     <RecordThing>
       <Key>Landingpad_ArrowPiece</Key>
-      <Value>着陆场箭头</Value>
+      <Value>着陆平台箭头</Value>
       <Description />
     </RecordThing>
     <RecordThing>
@@ -10144,7 +10144,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>GasMask</Key>
-      <Value>防毒面具</Value>
+      <Value>防毒面罩</Value>
     </Record>
     <Record>
       <Key>FireExtinguisher</Key>
@@ -10356,7 +10356,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>Processing</Key>
-      <Value>加工</Value>
+      <Value>处理</Value>
     </Record>
     <Record>
       <Key>Torpedo</Key>
@@ -10452,7 +10452,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LiquidCanister</Key>
-      <Value>液体罐</Value>
+      <Value>储液瓶</Value>
     </Record>
     <Record>
       <Key>HandSlot</Key>
@@ -10556,7 +10556,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>Crate</Key>
-      <Value>储物箱插槽</Value>
+      <Value>储物箱槽位</Value>
     </Record>
   </Slots>
   <Interactables>
@@ -10894,7 +10894,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>Grow</Key>
-      <Value>增长</Value>
+      <Value>生长</Value>
     </Record>
     <Record>
       <Key>LayEgg</Key>
@@ -11396,11 +11396,11 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>MimasPoiMarsdenCraterName</Key>
-      <Value>马斯登陨坑</Value>
+      <Value>马斯登环形山</Value>
     </Record>
     <Record>
       <Key>MimasPoiMarsdenCraterDescription</Key>
-      <Value>低洼地层陨坑</Value>
+      <Value>浅层低地陨坑</Value>
     </Record>
     <Record>
       <Key>MimasPoiDesolationName</Key>
@@ -11512,7 +11512,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>MimasNamedRegionMarsdenCraterName</Key>
-      <Value>马斯登陨坑</Value>
+      <Value>马斯登环形山</Value>
     </Record>
     <Record>
       <Key>MimasNamedRegionHarrietsDitchName</Key>
@@ -11520,7 +11520,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>MimasNamedRegionHarrietCraterName</Key>
-      <Value>哈丽特陨坑</Value>
+      <Value>哈丽特环形山</Value>
     </Record>
     <Record>
       <Key>MimasNamedRegionDesolationName</Key>
@@ -11908,7 +11908,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LunarPoiGrandCraterCraterVeritasName</Key>
-      <Value>维里塔斯陨坑</Value>
+      <Value>维里塔斯环形山</Value>
     </Record>
     <Record>
       <Key>LunarPoiGrandCraterCraterVeritasDescription</Key>
@@ -11916,7 +11916,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LunarPoiGrandCraterCraterVesperName</Key>
-      <Value>维斯珀陨坑</Value>
+      <Value>维斯珀环形山</Value>
     </Record>
     <Record>
       <Key>LunarPoiGrandCraterCraterVesperDescription</Key>
@@ -11924,7 +11924,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LunarPoiGrandCraterCraterNoxName</Key>
-      <Value>诺克斯陨坑</Value>
+      <Value>诺克斯环形山</Value>
     </Record>
     <Record>
       <Key>LunarPoiGrandCraterCraterNoxDescription</Key>
@@ -12956,7 +12956,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanNamedRegionSerpentRiseName</Key>
-      <Value>巨蛇崛起</Value>
+      <Value>巨蛇隆起</Value>
     </Record>
     <Record>
       <Key>VulcanNamedRegionSouthernHighlandsName</Key>
@@ -13296,7 +13296,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiDogsheadCraterName</Key>
-      <Value>狗头陨坑</Value>
+      <Value>狗头环形山</Value>
     </Record>
     <Record>
       <Key>VulcanPoiDogsheadCraterDescription</Key>
@@ -13304,7 +13304,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterName</Key>
-      <Value>索林陨坑</Value>
+      <Value>索林环形山</Value>
     </Record>
     <Record>
       <Key>VulcanPoiSorinCraterDescription</Key>
@@ -13312,7 +13312,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterName</Key>
-      <Value>卡利马尔陨坑</Value>
+      <Value>卡利马尔环形山</Value>
     </Record>
     <Record>
       <Key>VulcanPoiKalimarCraterDescription</Key>
@@ -13320,7 +13320,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterName</Key>
-      <Value>灰烬陨坑</Value>
+      <Value>灰烬环形山</Value>
     </Record>
     <Record>
       <Key>VulcanPoiCinderCraterDescription</Key>
@@ -13328,7 +13328,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterName</Key>
-      <Value>勇毅陨坑</Value>
+      <Value>勇毅环形山</Value>
     </Record>
     <Record>
       <Key>VulcanPoiValourCraterDescription</Key>
@@ -13336,7 +13336,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterName</Key>
-      <Value>奥伦陨坑</Value>
+      <Value>奥伦环形山</Value>
     </Record>
     <Record>
       <Key>VulcanPoiOrenCraterDescription</Key>
@@ -13344,7 +13344,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterName</Key>
-      <Value>塔隆陨坑</Value>
+      <Value>塔隆环形山</Value>
     </Record>
     <Record>
       <Key>VulcanPoiTalonCraterDescription</Key>
@@ -13352,7 +13352,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterName</Key>
-      <Value>托拉陨坑</Value>
+      <Value>托拉环形山</Value>
     </Record>
     <Record>
       <Key>VulcanPoiToraCraterDescription</Key>
@@ -13360,7 +13360,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterName</Key>
-      <Value>洛马陨坑</Value>
+      <Value>洛马环形山</Value>
     </Record>
     <Record>
       <Key>VulcanPoiLomaCraterDescription</Key>
@@ -13752,7 +13752,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>VulcanSpawnIxionsDemiseDescription</Key>
-      <Value>由嶙峋的岩石和坍塌的岩浆堆构成的严酷荒原</Value>
+      <Value>由嶙峋的岩石和流淌的岩浆构成的严酷荒原</Value>
     </Record>
     <Record>
       <Key>SpawnRoundRobin</Key>
@@ -13992,7 +13992,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ReagentsHeader</Key>
-      <Value>杂物</Value>
+      <Value>原料</Value>
     </Record>
     <Record>
       <Key>GasesHeader</Key>
@@ -14160,7 +14160,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LoadMenuFileListTitle</Key>
-      <Value>保存游戏</Value>
+      <Value>保存世界</Value>
     </Record>
     <Record>
       <Key>WorldInfoTextDate</Key>
@@ -14732,7 +14732,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>AlertButtonClose</Key>
-      <Value>关闭</Value>
+      <Value>关上</Value>
     </Record>
     <Record>
       <Key>AlertButtonTitle</Key>
@@ -14792,7 +14792,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ButtonSave</Key>
-      <Value>保存</Value>
+      <Value>保存退出</Value>
     </Record>
     <Record>
       <Key>DialogConfirmNoticeClientLeaving</Key>
@@ -15363,7 +15363,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>SettingsTitleGameSettings</Key>
-      <Value>游戏设定</Value>
+      <Value>游戏设置</Value>
     </Record>
     <Record>
       <Key>SettingsHungerRate</Key>
@@ -15533,7 +15533,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>TraderErrorNoGasSpace</Key>
-      <Value>着陆场没有足够的容量来接收要求的气体. 需要添加更多的气体储罐</Value>
+      <Value>着陆平台没有足够的容量来接收要求的气体. 需要添加更多的气体储罐</Value>
     </Record>
     <Record>
       <Key>GameMenuRespawn</Key>
@@ -15549,7 +15549,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>SettingsSunOrbitPeriod</Key>
-      <Value>太阳轨道速率</Value>
+      <Value>太阳轨道周期</Value>
     </Record>
     <Record>
       <Key>SettingsExtendedTerrain</Key>
@@ -15918,7 +15918,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>GeoNameLunarCraterNox</Key>
-      <Value>诺克斯陨石坑</Value>
+      <Value>诺克斯环形山</Value>
     </Record>
     <Record>
       <Key>GeoNameLunarCraterSolaris</Key>
@@ -16186,7 +16186,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LogicTypeTargetPadIndex</Key>
-      <Value>设备数据网络中着陆场的索引值, 使用该值可以引导贸易飞船降落在与该索引值对应的着陆场</Value>
+      <Value>设备数据网络中着陆平台的索引值, 使用该值可以引导贸易飞船降落在与该索引值对应的着陆平台</Value>
     </Record>
     <Record>
       <Key>LogicTypeInterrogationProgress</Key>
@@ -16230,11 +16230,11 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LogicTypePressureExternal</Key>
-      <Value>设备的预设外部压强安全值, 单位为kPa. 设备在外部压强接近该值时会逐渐停止工作</Value>
+      <Value>设备的预设外部压强安全值, 单位为kPa.</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureInternal</Key>
-      <Value>设备的预设内部压强安全值, 单位为kPa. 设备在内部压强接近该值时会逐渐停止工作</Value>
+      <Value>设备的预设内部压强安全值, 单位为kPa.</Value>
     </Record>
     <Record>
       <Key>LogicTypeActivate</Key>
@@ -16672,7 +16672,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LogicTypeOutput</Key>
-      <Value>用于工作在逻辑(Logic)模式的分拣设备(如堆垛机或分拣机)进行输出物品, 当设置值大于0时, 该设备将执行一次输出操作, 然后返回到-1并等待下一步操作</Value>
+      <Value>用于工作在逻辑(Logic)模式的分拣设备(如堆垛机或分拣机)进行输出物品, 当设置值大于等于0时, 该设备将执行一次输出操作, 然后返回到-1并等待下一步操作</Value>
     </Record>
     <Record>
       <Key>LogicTypePressureSetting</Key>
@@ -16712,15 +16712,15 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LogicTypeVelocityRelativeX</Key>
-      <Value>当前速度矢量在世界坐标X轴上的分量</Value>
+      <Value>当前速度矢量相对于当前朝向在X轴上的分量</Value>
     </Record>
     <Record>
       <Key>LogicTypeVelocityRelativeY</Key>
-      <Value>当前速度矢量在世界坐标Y轴上的分量</Value>
+      <Value>当前速度矢量相对于当前朝向在Y轴上的分量</Value>
     </Record>
     <Record>
       <Key>LogicTypeVelocityRelativeZ</Key>
-      <Value>当前速度矢量在世界坐标Z轴上的分量</Value>
+      <Value>当前速度矢量相对于当前朝向在Z轴上的分量</Value>
     </Record>
     <Record>
       <Key>LogicTypePrefabHash</Key>
@@ -17020,7 +17020,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LogicTypeAcceleration</Key>
-      <Value>加速度值, 着陆时减速的火箭将显示为负值</Value>
+      <Value>加速度值, 降落时减速的火箭将显示为负值</Value>
     </Record>
     <Record>
       <Key>LogicTypeAutoShutOff</Key>
@@ -17032,7 +17032,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LogicTypeThrustToWeight</Key>
-      <Value>火箭的推重比. 推重比受到天体重力的影响. 推重比较低的火箭在发射和着陆过程中会消耗更多燃料</Value>
+      <Value>火箭的推重比. 推重比受到天体重力的影响. 推重比较低的火箭在发射和降落过程中会消耗更多燃料</Value>
     </Record>
     <Record>
       <Key>LogicTypeWeight</Key>
@@ -17040,7 +17040,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LogicTypeOverShootTarget</Key>
-      <Value>着陆的火箭在当前推力下会超过其着陆目标多远, 以米为单位表示为负值. 确保在火箭接地时该值为零, 否则火箭有坠毁的风险</Value>
+      <Value>降落的火箭在当前推力下会超过其降落目标多远, 以米为单位表示为负值. 确保在火箭接地时该值为零, 否则火箭有坠毁的风险</Value>
     </Record>
     <Record>
       <Key>LogicTypeTimeToDestination</Key>
@@ -17052,7 +17052,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>LogicTypeAutoLand</Key>
-      <Value>启动自动着陆算法. 火箭将自动调节节流阀, 自动启动和关闭引擎, 以实现平稳着陆</Value>
+      <Value>启动自动降落算法. 火箭将自动调节节流阀, 自动启动和关闭引擎, 以实现平稳着陆</Value>
     </Record>
     <Record>
       <Key>LogicTypeDryMass</Key>
@@ -17408,7 +17408,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ContactTradeRequestFail</Key>
-      <Value>贸易商需要安全的着陆点. 请确保着陆场供电且畅通</Value>
+      <Value>贸易商需要安全的着陆点. 请确保着陆平台供电且畅通</Value>
     </Record>
     <Record>
       <Key>ContactTradeRequestFailInUse</Key>
@@ -17508,7 +17508,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>OcclusionTickSpeed</Key>
-      <Value>碰撞检测的Tick速度</Value>
+      <Value>遮盖检测的Tick速度</Value>
     </Record>
     <Record>
       <Key>RoomControlTickSpeed</Key>
@@ -17844,7 +17844,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoITitle</Key>
-      <Value>自燃点: </Value>
+      <Value>燃点: </Value>
     </Record>
     <Record>
       <Key>CartridgeElectronicReaderAutoHashTitle</Key>
@@ -18008,7 +18008,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ElectronicReaderEnergy</Key>
-      <Value>W</Value>
+      <Value>能量</Value>
     </Record>
     <Record>
       <Key>WattEnergyMeasurement</Key>
@@ -18840,7 +18840,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>TankPressure</Key>
-      <Value>罐内压力</Value>
+      <Value>罐内气压</Value>
     </Record>
     <Record>
       <Key>CrowbarToOpen</Key>
@@ -19008,7 +19008,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>TutorialCompleteDeanHall</Key>
-      <Value>DeanHall</Value>
+      <Value>迪恩 霍尔</Value>
     </Record>
     <Record>
       <Key>TutorialCompleteTruly</Key>
@@ -19088,7 +19088,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     </Record>
     <Record>
       <Key>ActivateExplosiveTooltipKey2</Key>
-      <Value>备用定时器. 该定时器无法中止</Value>
+      <Value>备用定时器. 建议谨慎</Value>
     </Record>
     <Record>
       <Key>CommandSave</Key>
@@ -19250,7 +19250,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
       <Key>CHACDesc</Key>
       <Value>该公司成立于2085年, 旨在为 {LINK:Sinotai;Sinotai} 的太空部队生产武器. 
 他们风格务实, 专注于适合3D打印和大规模生产的设计, 以及不同型号和武器类别组件的高度重复使用上. 
-因此, 尽管CHAC的枪支在任何应用领域中都不出彩, 也没有多少令人惊艳的设计, 但它们也没有什么大的缺陷, 而且从大多数已知的衡量标准来看, 它们的表现都足够好, 因此它们的设计者赢得了“太阳系装甲师”的非正式称号</Value>
+因此, 尽管CHAC的枪支在任何应用领域中都不出彩, 也没有多少令人惊艳的设计, 但它们也没有什么大的缺陷, 而且从大多数已知的衡量标准来看, 它们的表现都足够好, 因此它们的设计者赢得了“太阳系军械师”的非正式称号</Value>
     </Record>
     <Record>
       <Key>ExMin</Key>
@@ -19303,7 +19303,7 @@ Norsec以轨道为基础的太空系统部负责设计和生产 {LINK:ODA;ODA} �
     </Record>
     <Record>
       <Key>Recurso</Key>
-      <Value>Recurso</Value>
+      <Value>Recurso Espaciais</Value>
     </Record>
     <Record>
       <Key>RecursoDesc</Key>
@@ -19449,7 +19449,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>HelpCommand</Key>
-      <Value>Test/nTest/nTest</Value>
+      <Value>测试 /n 测试 /n 测试</Value>
     </Record>
     <Record>
       <Key>ToggleChangeLog</Key>
@@ -19545,11 +19545,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>ReagentsCategoryKey</Key>
-      <Value>化学原料</Value>
+      <Value>原料</Value>
     </Record>
     <Record>
       <Key>GasesCategoryKey</Key>
-      <Value>流体</Value>
+      <Value>气体</Value>
     </Record>
     <Record>
       <Key>ConstructionKitsCategoryKey</Key>
@@ -19665,7 +19665,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>MinLiquidPressure</Key>
-      <Value>最低液化压力: </Value>
+      <Value>最低液化压强: </Value>
     </Record>
     <Record>
       <Key>StationpediaConstructedFrom</Key>
@@ -19946,7 +19946,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     <Record>
       <Key>MoleWaterDescription</Key>
       <Value>你可以通过使用 {THING:StructureFurnace} 或 {THING:StructureIceCrusher} 融化或粉碎 {THING:ItemIce} 来获得 {GAS:Water} .  {GAS:Water} 对于 {LINK:OrganicPage;plants} 的生存和生产 {LINK:NutritionPage;食物} 的过程至关重要. 
-虽然不常用, 但 {GAS:Water} 也是一种比热容极高的冷却剂, 当它的温度超过沸点时, 会蒸发变成 {GAS:Steam}</Value>
+            {GAS:Water} 也是一种比热容极高的冷却剂, 当它的温度超过沸点时, 会蒸发变成 {GAS:Steam}</Value>
     </Record>
     <Record>
       <Key>MolePollutedWaterDescription</Key>
@@ -19970,15 +19970,15 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>MoleLiquidCarbonDioxideDescription</Key>
-      <Value>{GAS:CarbonDioxide} 的液体形态. 将 {GAS:CarbonDioxide} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.</Value>
+      <Value>{GAS:CarbonDioxide} 的液体形态. 将 {GAS:CarbonDioxide} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现. 将其排入大气会迅速蒸发变回气.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidPollutantDescription</Key>
-      <Value>{GAS:Pollutant} 的液体形态. 将 {GAS:Pollutant} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.</Value>
+      <Value>{GAS:Pollutant} 的液体形态. 将 {GAS:Pollutant} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现. 将其排入大气会迅速蒸发变回气.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidNitrousOxideDescription</Key>
-      <Value>{GAS:NitrousOxide} 的液体形态. 将 {GAS:NitrousOxide} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现.</Value>
+      <Value>{GAS:NitrousOxide} 的液体形态. 将 {GAS:NitrousOxide} 的温度降低至沸点以下会液化. 这一过程可以使用 {THING:StructureHeatExchangerGastoGas} 或 {THING:StructureAirConditioner} 来实现. 将其排入大气会迅速蒸发变回气.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidHydrogenDescription</Key>
@@ -19990,7 +19990,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>MoleHydrazineDescription</Key>
-      <Value>{GAS:Hydrazine} 是一种用于太空探索的完美燃料, 它不需要氧化剂就能燃烧, 只需热量或者一点火花. 它通常在稳定的室温状态下以 {GAS:LiquidHydrazine} 的形态进行储存. {GAS:Hydrazine} 的化学性质极其活泼, 和任何氧化剂接触都会发生剧烈燃烧. 它对一切生命形态都是剧毒的.</Value>
+      <Value>{GAS:Hydrazine} 是一种用于太空探索的完美燃料, 它不需要氧化剂就能燃烧, 只需热量或者一点火花. 它通常在稳定的室温状态下以 {GAS:LiquidHydrazine} 的形态进行储存. 它对一切生命形态都是剧毒的.</Value>
     </Record>
     <Record>
       <Key>MoleLiquidHydrazineDescription</Key>
@@ -20006,7 +20006,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>MoleLiquidSodiumChlorideDescription</Key>
-      <Value>{GAS:LiquidSodiumChloride} 的特殊之处在于它在极端高温下依然能保持液态, 使其成为储存大量热能的绝佳介质.</Value>
+      <Value>{GAS:LiquidSodiumChloride} 的特殊之处在于它在极端高温下依然能保持液态, 使其成为储存大量热能的绝佳介质. 当暴露在真空中时, 它会分解成 {GAS:Pollutant} 形成微量气压. 它在室温下为稳定的 {THING:ItemPureIceLiquidSodiumChloride} 形态.</Value>
     </Record>
     <Record>
       <Key>MoleSilanolDescription</Key>
@@ -20138,15 +20138,15 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>TradeErrorNoMotherboardInsertedMessage</Key>
-      <Value>计算机连接网络并插入通信主板以进行交易操作</Value>
+      <Value>电脑需要插入通信主板以进行交易操作</Value>
     </Record>
     <Record>
       <Key>TradeErrorPadError</Key>
-      <Value>着陆场或跑道处于错误状态. 在继续交易前, 需要将着陆场恢复到正常运行状态</Value>
+      <Value>着陆平台或跑道处于错误状态. 在继续交易前, 需要将着陆平台恢复到正常运行状态</Value>
     </Record>
     <Record>
       <Key>TradeErrorPadOff</Key>
-      <Value>着陆场未供电. 在继续交易前, 需要将着陆场恢复到正常运行状态</Value>
+      <Value>着陆平台未供电. 在继续交易前, 需要将着陆平台恢复到正常运行状态</Value>
     </Record>
     <Record>
       <Key>CartridgePlantAnalyserTitle</Key>
@@ -20166,7 +20166,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>ButtonClose</Key>
-      <Value>关闭</Value>
+      <Value>关上</Value>
     </Record>
     <Record>
       <Key>ButtonRocket</Key>
@@ -20686,11 +20686,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>WorldObjectiveBuildPad</Key>
-      <Value>建造一个3x3大小的贸易飞船着陆场并为其供电</Value>
+      <Value>建造一个3x3大小的贸易飞船着陆平台并为其供电</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveConnectPad</Key>
-      <Value>将电脑和智能货柜连接到着陆场</Value>
+      <Value>将电脑和智能货柜连接到着陆平台</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveResolveContact</Key>
@@ -20702,7 +20702,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>WorldObjectiveBuildPowerInfo</Key>
-      <Value>一个区域电源控制器(APC)拥有一个电池插槽和一个开关, 并且能够控制输出网络的电力供应. 使用 {THING:ItemCrowbar} 将其撬开</Value>
+      <Value>一个区域电源控制器(APC)拥有一个电池槽位和一个开关, 并且能够控制输出网络的电力供应. 使用 {THING:ItemCrowbar} 将其撬开</Value>
     </Record>
     <Record>
       <Key>WorldObjectiveBuildFurnaceInfo</Key>
@@ -21058,7 +21058,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>Tutorial3CanisterSlot</Key>
-      <Value>{THING:DynamicGasCanisterEmpty} 有一个插槽可以为储气瓶充气</Value>
+      <Value>{THING:DynamicGasCanisterEmpty} 有一个槽位可以为储气瓶充气</Value>
     </Record>
     <Record>
       <Key>Tutorial3EmptyWasteHeading</Key>
@@ -21210,7 +21210,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>TutorialAirlockAPCInstallBatt</Key>
-      <Value>从储物柜中取出一个 {THING:ItemBatteryCellLarge}, 放入 {THING:StructureAreaPowerControl} 的 {SLOT:Battery} 插槽中</Value>
+      <Value>从储物柜中取出一个 {THING:ItemBatteryCellLarge}, 放入 {THING:StructureAreaPowerControl} 的 {SLOT:Battery} 槽位中</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockInformationName</Key>
@@ -21290,7 +21290,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingPressureSettingNote</Key>
-      <Value>高级气闸电路板允许你设置气闸每一侧的压力目标, 气闸将尝试加压到此压强值. 大多数情况下应该将其设置为与气闸对应一侧的压力相匹配. 注意普通气闸电路板没有此功能.</Value>
+      <Value>高级气闸电路板允许你设置气闸每一侧的目标气压, 气闸将尝试加压到此压强值. 大多数情况下应该将其设置为与气闸对应一侧的气压相匹配. 注意普通气闸电路板没有此功能.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockProgramingChooseExteriorDoors</Key>
@@ -21318,7 +21318,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockOperatingInfo</Key>
-      <Value>气闸将首先对舱室进行减压, 然后将其重新加压到气闸配置界面顶部选择的压强值.</Value>
+      <Value>气闸将首先对舱室进行减压, 然后将其重新加压到气闸配置界面顶部选择的气压值.</Value>
     </Record>
     <Record>
       <Key>TutorialAirlockActivateAirlockHowToIncreaseSpeed</Key>
@@ -21350,7 +21350,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingInfo</Key>
-      <Value>开采的原始{LINK:OrePage;矿石}需要在 {THING:StructureArcFurnace}, {THING:StructureFurnace} 或 {THING:StructureAdvancedFurnace} 中加工成{LINK:IngotPage;锭}以供打印机使用.</Value>
+      <Value>开采的原始{LINK:OrePage;矿石}需要在 {THING:StructureArcFurnace}, {THING:StructureFurnace} 或 {THING:StructureAdvancedFurnace} 中处理成{LINK:IngotPage;锭}以供打印机使用.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingPlaceArcFurnace</Key>
@@ -21370,7 +21370,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>FurnaceTutorialArcFurnaceTakeBackpack</Key>
-      <Value>从储物柜中取出橙色 {THING:ItemMiningBackPack}, 按 {KEY:ActiveHandSlot} 打开它, 并将一组 {THING:ItemIronOre} 拖入 {THING:StructureArcFurnace} 的 {SLOT:Import} 插槽.</Value>
+      <Value>从储物柜中取出橙色 {THING:ItemMiningBackPack}, 按 {KEY:ActiveHandSlot} 打开它, 并将一组 {THING:ItemIronOre} 拖入 {THING:StructureArcFurnace} 的 {SLOT:Import} 槽位.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialArcFurnacePressButton</Key>
@@ -21386,7 +21386,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>FurnaceTutorialFurnacePlaceFurnace</Key>
-      <Value>从储物柜中取出 {THING:StructureFurnace} 并将其放置在绿色框架上方. 建议将其侧放, 以便更容易访问顶部的输入插槽, 注意不要让输出端挤入地面. 使用 {KEY:RotateLeft}/{KEY:RotateRight}, {KEY:RotateUp}/{KEY:RotateDown}, {KEY:RotateRollLeft}/{KEY:RotateRollRight} 旋转放置方向.</Value>
+      <Value>从储物柜中取出 {THING:StructureFurnace} 并将其放置在绿色框架上方. 建议将其侧放, 以便更容易访问顶部的输入槽位, 注意不要让输出端挤入地面. 使用 {KEY:RotateLeft}/{KEY:RotateRight}, {KEY:RotateUp}/{KEY:RotateDown}, {KEY:RotateRollLeft}/{KEY:RotateRollRight} 旋转放置方向.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFurnaceBuildFurnace</Key>
@@ -21402,7 +21402,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>FurnaceTutorialPlumbingInfo</Key>
-      <Value>{THING:StructureFurnace} 有两个管道连接和一个电缆连接口. 输入管道连接有一个单向阀, 以防止气体回流到管道中. 输入压力必须高于熔炉压力才能注入更多燃料. 输出连接没有阀门, 因此气体可以在熔炉和输出管道之间自由流动. 你可以将鼠标指向端口以查看是哪一个.</Value>
+      <Value>{THING:StructureFurnace} 有两个管道连接和一个电缆连接口. 输入管道连接有一个单向阀, 以防止气体回流到管道中. 输入气压必须高于熔炉气压才能注入更多燃料. 输出连接没有阀门, 因此气体可以在熔炉和输出管道之间自由流动. 你可以将鼠标指向端口以查看是哪一个.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialPlumbingConnectOutputPipe</Key>
@@ -21422,7 +21422,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnacePutInOxite</Key>
-      <Value>将 {THING:ItemOxite} 放入 {THING:StructureFurnace} 的输入插槽中. 然后按下红色激活按钮, 熔化 {THING:StructureFurnace} 中的冰, 直到炉门再次打开.</Value>
+      <Value>将 {THING:ItemOxite} 放入 {THING:StructureFurnace} 的输入槽位中. 然后按下红色激活按钮, 熔化 {THING:StructureFurnace} 中的冰, 直到炉门再次打开.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnaceSplitVolatiles</Key>
@@ -21430,7 +21430,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>FurnaceTutorialFiringTheFurnacePlaceVolatilesPressStart</Key>
-      <Value>将 {THING:ItemVolatiles} 放入熔炉中. 这次当你按下激活按钮时, {THING:StructureFurnace} 将点燃. 注意观察前面的压力表.</Value>
+      <Value>将 {THING:ItemVolatiles} 放入熔炉中. 这次当你按下激活按钮时, {THING:StructureFurnace} 将点燃. 注意观察前面的气压表.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreName</Key>
@@ -21438,11 +21438,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreInfo</Key>
-      <Value>{THING:StructureFurnace} 现在可以装入矿石了. 请注意, 当你开始熔炼装入 {THING:StructureFurnace} 的矿石时, 温度会因矿石的脱气而下降, 压力会上升. 每个矿石只能脱气一次.</Value>
+      <Value>{THING:StructureFurnace} 现在可以装入矿石了. 请注意, 当你开始熔炼装入 {THING:StructureFurnace} 的矿石时, 温度会因矿石脱气而下降, 气压会上升. 每个矿石只能脱气一次.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOrePlaceCopperOre</Key>
-      <Value>从橙色 {THING:ItemMiningBackPack} 中将一组 {THING:ItemCopperOre} 放入熔炉的输入插槽.</Value>
+      <Value>从橙色 {THING:ItemMiningBackPack} 中将一组 {THING:ItemCopperOre} 放入熔炉的输入槽位.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSmeltingOreObserveProcessWindow</Key>
@@ -21462,7 +21462,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysInfo</Key>
-      <Value>所有金属锭和合金都有制造它所需的最小和最大压力和温度范围. 使用 Stationpedia, 按 {KEY:Help} 并搜索锭. 如果熔炉压力和温度范围超出规格, 或太冷, 则打开阀门从熔炉中排出大部分气体以重置它.</Value>
+      <Value>所有金属锭和合金都有制造它所需的最小和最大气压以及温度范围. 使用 Stationpedia, 按 {KEY:Help} 并搜索锭. 如果熔炉气压和温度范围超出规格, 或太冷, 则打开阀门从熔炉中排出大部分气体以重置它.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialAlloysPrepareAlloyMix</Key>
@@ -21530,7 +21530,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadObserveTempPressure</Key>
-      <Value>请注意, 当你输入 {THING:ItemReagentMix} 时, 除了热能向月球真空辐射外, 温度和压力没有变化, 因为混合物已经脱气.</Value>
+      <Value>请注意, 当你输入 {THING:ItemReagentMix} 时, 除了热能向月球真空辐射外, 温度和气压没有变化, 因为混合物已经脱气.</Value>
     </Record>
     <Record>
       <Key>FurnaceTutorialSteelReloadObserveProcessWindow</Key>
@@ -21574,7 +21574,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>ManufacturingTutorialManufacturingIntroPrintersUseIngots</Key>
-      <Value>所有打印机都使用 {LINK:IngotPage;锭} 进行操作, 这些锭必须首先在 {THING:StructureFurnace} 中从 {LINK:OrePage;矿石} 加工而成.</Value>
+      <Value>所有打印机都使用 {LINK:IngotPage;锭} 进行操作, 这些锭必须首先在 {THING:StructureFurnace} 中从 {LINK:OrePage;矿石} 处理而成.</Value>
     </Record>
     <Record>
       <Key>ManufacturingTutorialManufacturingIntroLookThroughPrintersInfo</Key>
@@ -23424,7 +23424,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     <Record>
       <Key>MajorUpdateDescription</Key>
       <Value>这是&lt;b&gt;Stationeers迄今为止的最大规模的更新&lt;/b&gt;
-        本次更新带来了一系列重大变革, 包括&lt;b&gt;彻底重做的地形系统&lt;/b&gt;, &lt;b&gt;重新构建的存档/读取系统&lt;/b&gt;, 人游戏的显著优化以及整体性能与稳定性的全面提升.
+        本次更新带来了一系列重大变革, 包括&lt;b&gt;彻底重做的地形系统&lt;/b&gt;, &lt;b&gt;重新构建的存档/读取系统&lt;/b&gt;, 多人游戏的显著优化以及整体性能与稳定性的全面提升.
 
         由于这些改动, &lt;b&gt;旧版本存档将无法兼容&lt;/b&gt; 并且&lt;b&gt;我们不会提供向后兼容支持&lt;/b&gt;.
         若您希望尝试将存档转换到新版本中, 社区玩家已开发出相关工具 — 请访问我们的 &lt;color=#00AAFF&gt;&lt;b&gt;Discord&lt;/b&gt;&lt;/color&gt;频道与其他玩家交流经验并获得协助.
@@ -25026,11 +25026,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>CryoN2OPressureOk</Key>
-      <Value>&lt;color=green&gt;一氧化二氮压力正常&lt;/color&gt;</Value>
+      <Value>&lt;color=green&gt;一氧化二氮气压正常&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CryoN2OPressureTooLow</Key>
-      <Value>&lt;color=red&gt;一氧化二氮压力过低&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;一氧化二氮气压过低&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CryoTemperatureOk</Key>
@@ -25284,7 +25284,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>Fertiliser</Key>
-      <Value>施肥</Value>
+      <Value>肥料</Value>
     </Record>
     <Record>
       <Key>AddFertiliserToSlot</Key>
@@ -25848,7 +25848,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>StructureDeconstructionFailed</Key>
-      <Value>Deconstructionfailed</Value>
+      <Value>拆除失败</Value>
     </Record>
     <Record>
       <Key>StructureIsNotDamaged</Key>
@@ -26344,19 +26344,19 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>ContactTradeNoLandingPad</Key>
-      <Value>没有可用的着陆场, 贸易飞船无法降落</Value>
+      <Value>没有可用的着陆平台, 贸易飞船无法降落</Value>
     </Record>
     <Record>
       <Key>ContactTradePadOff</Key>
-      <Value>着陆场已关闭, 贸易飞船无法降落</Value>
+      <Value>着陆平台已关闭, 贸易飞船无法降落</Value>
     </Record>
     <Record>
       <Key>ContactTradePadUnpowered</Key>
-      <Value>着陆场未供电, 贸易飞船无法降落</Value>
+      <Value>着陆平台未供电, 贸易飞船无法降落</Value>
     </Record>
     <Record>
       <Key>ContactTradeLandingObstructed</Key>
-      <Value>通往目标着陆场的道路被阻挡, 贸易飞船无法降落</Value>
+      <Value>通往目标着陆平台的道路被阻挡, 贸易飞船无法降落</Value>
     </Record>
     <Record>
       <Key>ContactTradeDepartingObstructed</Key>
@@ -26364,11 +26364,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>ContactTradeLandingPadError</Key>
-      <Value>着陆场未正确配置, 贸易飞船无法降落</Value>
+      <Value>着陆平台未正确配置, 贸易飞船无法降落</Value>
     </Record>
     <Record>
       <Key>ContactTradeLandingPadToSmall</Key>
-      <Value>着陆场太小, 贸易飞船无法降落</Value>
+      <Value>着陆平台太小, 贸易飞船无法降落</Value>
     </Record>
     <Record>
       <Key>ArmControlIdle</Key>
@@ -26440,7 +26440,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>TransactionAtmosError</Key>
-      <Value>着陆场不存在大气</Value>
+      <Value>着陆平台不存在大气</Value>
     </Record>
     <Record>
       <Key>TransactionTradableError</Key>
@@ -26723,7 +26723,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>TypeOfSlot</Key>
-      <Value>这是一个&lt;color=yellow&gt; {LOCAL:SlotType} &lt;/color&gt;插槽</Value>
+      <Value>这是一个&lt;color=yellow&gt; {LOCAL:SlotType} &lt;/color&gt;槽位</Value>
     </Record>
     <Record>
       <Key>ItemInSlotStack</Key>
@@ -27011,7 +27011,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>ManufacturesAppliesMultiplier</Key>
-      <Value>&lt;color=orange&gt; {LOCAL:ModifierName} &lt;/color&gt;进行到&lt;color=yellow&gt; {LOCAL:Percent} &lt;/color&gt;</Value>
+      <Value>&lt;color=orange&gt; {LOCAL:ModifierName} &lt;/color&gt;以&lt;color=yellow&gt; {LOCAL:Percent} &lt;/color&gt;的效率运行</Value>
     </Record>
     <Record>
       <Key>ManufacturesAtTier</Key>
@@ -27051,11 +27051,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>PipeStressed</Key>
-      <Value>管道压强达到危险阈值</Value>
+      <Value>管道应力达到危险阈值</Value>
     </Record>
     <Record>
       <Key>LiquidStress</Key>
-      <Value>液体压力百分比:</Value>
+      <Value>液体应力百分比:</Value>
     </Record>
     <Record>
       <Key>SaveVersionWarning</Key>
@@ -27083,11 +27083,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>CryoPressureOk</Key>
-      <Value>&lt;color=green&gt;压力OK&lt;/color&gt;</Value>
+      <Value>&lt;color=green&gt;气压OK&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CryoPressureTooLow</Key>
-      <Value>&lt;color=red&gt;压力过低&lt;/color&gt;</Value>
+      <Value>&lt;color=red&gt;气压过低&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>InputVolumeRatio</Key>
@@ -27147,7 +27147,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>TargetPressureKPA</Key>
-      <Value>目标压力&lt;color=green&gt; {0} kPa&lt;/color&gt;</Value>
+      <Value>目标气压&lt;color=green&gt; {0} kPa&lt;/color&gt;</Value>
     </Record>
     <Record>
       <Key>CondensationChamberLiquidConnection</Key>
@@ -27371,7 +27371,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>ReEntryAltitudeDescription</Key>
-      <Value>火箭着陆时开始减速的高度. 范围必须位于25km至120km之间</Value>
+      <Value>火箭降落时开始减速的高度. 范围必须位于25km至120km之间</Value>
     </Record>
     <Record>
       <Key>OperationalTemperatureEfficiency</Key>
@@ -27383,7 +27383,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>PressureEfficiency</Key>
-      <Value>压强效率 {LOCAL:Value}</Value>
+      <Value>气压效率 {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>ConversionEfficiency</Key>
@@ -27555,7 +27555,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>ScriptDescriptionRMap</Key>
-      <Value>根据给定的材料哈希值, 返回设备满足配方要求的该种材料数量（例如查询自动车床中铁的哈希值, 对应铁锭的哈希值）</Value>
+      <Value>根据给定的材料哈希值, 返回设备满足配方要求的该种材料哈希值（例如查询自动车床中原料铁的哈希值, 对应铁锭的哈希值）</Value>
     </Record>
     <Record>
       <Key>FurnaceMeltThing</Key>
@@ -27695,11 +27695,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>SlotContainsItem</Key>
-      <Value>{LOCAL:Slot} 插槽包含 {LOCAL:Item}</Value>
+      <Value>{LOCAL:Slot} 槽位包含 {LOCAL:Item}</Value>
     </Record>
     <Record>
       <Key>ThingIsFastenedIn</Key>
-      <Value>固定在 {LOCAL:Parent} 的 {LOCAL:Slot} 插槽</Value>
+      <Value>固定在 {LOCAL:Parent} 的 {LOCAL:Slot} 槽位</Value>
     </Record>
     <Record>
       <Key>ThingIsState</Key>
@@ -27859,7 +27859,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>Unpack</Key>
-      <Value>解包</Value>
+      <Value>拆包</Value>
     </Record>
     <Record>
       <Key>FlowRate</Key>
@@ -27915,15 +27915,15 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>IncreasePipeVolumePressure</Key>
-      <Value>请增加输出管网容量或压力</Value>
+      <Value>请增加输出管网容量或气压</Value>
     </Record>
     <Record>
       <Key>PressureCloseToTarget</Key>
-      <Value>压力接近外部目标值</Value>
+      <Value>气压接近外部目标值</Value>
     </Record>
     <Record>
       <Key>PressureCloseToInternalTarget</Key>
-      <Value>压力接近内部目标值</Value>
+      <Value>气压接近内部目标值</Value>
     </Record>
     <Record>
       <Key>Rocket</Key>
@@ -27995,7 +27995,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>TimeToArrest</Key>
-      <Value>着陆缓冲时间: </Value>
+      <Value>降落缓冲时间: </Value>
     </Record>
     <Record>
       <Key>TimeToArrival</Key>
@@ -28151,11 +28151,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>RocketLandAborted</Key>
-      <Value>火箭着陆中止. 自动着陆控制器无法计算安全着陆轨道</Value>
+      <Value>火箭着陆中止. 自动降落控制器无法计算安全降落轨道</Value>
     </Record>
     <Record>
       <Key>RocketEnginePlacementRule</Key>
-      <Value>{LOCAL:Device} 必须放置在&lt;color=yellow&gt;发动机支架&lt;/color&gt;内</Value>
+      <Value>{LOCAL:Device} 必须放置在&lt;color=yellow&gt;发动机机身&lt;/color&gt;内</Value>
     </Record>
     <Record>
       <Key>RocketCurrentLocation</Key>
@@ -28279,11 +28279,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>AutoLandDisabledTooltip</Key>
-      <Value>自动着陆已禁用</Value>
+      <Value>自动降落已禁用</Value>
     </Record>
     <Record>
       <Key>AutoLandEnabledTooltip</Key>
-      <Value>自动着陆已启用</Value>
+      <Value>自动降落已启用</Value>
     </Record>
     <Record>
       <Key>SurveyDifficultyTooltip</Key>
@@ -28479,11 +28479,11 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>AutoLandNoConfidence</Key>
-      <Value>&lt;color=red&gt;着陆中止!&lt;/color&gt;自动着陆系统无法确保成功着陆</Value>
+      <Value>&lt;color=red&gt;降落中止!&lt;/color&gt;自动降落系统无法确保成功降落</Value>
     </Record>
     <Record>
       <Key>LandingBeginAltitudeToolTip</Key>
-      <Value>着陆高度 {LOCAL:Altitude}</Value>
+      <Value>再入高度 {LOCAL:Altitude}</Value>
     </Record>
     <Record>
       <Key>AutoLandThrustRequired</Key>
@@ -28567,7 +28567,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>DrinkingFountainNotEnoughWater</Key>
-      <Value>水分不足</Value>
+      <Value>水量不足</Value>
     </Record>
     <Record>
       <Key>DrinkingFountainWaterTooHot</Key>
@@ -28739,7 +28739,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>StructureNetworkTypeLandingPad</Key>
-      <Value>着陆场</Value>
+      <Value>着陆平台</Value>
     </Record>
     <Record>
       <Key>StructureNetworkTypePipe</Key>
@@ -28755,7 +28755,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>StructureNetworkTypeLaunchPad</Key>
-      <Value>发射场</Value>
+      <Value>发射台</Value>
     </Record>
     <Record>
       <Key>StructureNetworkTypeRoboticArm</Key>
@@ -28871,7 +28871,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>LogicDescriptionTargetSlotIndex</Key>
-      <Value>目标设备的插槽索引, 该设备将与对应索引的槽位进行交互</Value>
+      <Value>目标设备的槽位索引, 该设备将与对应索引的槽位进行交互</Value>
     </Record>
     <Record>
       <Key>LogicDescriptionTargetPrefabHash</Key>
@@ -29124,7 +29124,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>PressureCondition</Key>
-      <Value>压强必须 {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
+      <Value>气压必须 {LOCAL:ComparisonOperator} {LOCAL:Value}</Value>
     </Record>
     <Record>
       <Key>CreateThingCondition</Key>
@@ -29180,7 +29180,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>HelperHintPressureCondition</Key>
-      <Value>压强必须 {LOCAL:ComparisonOperator} </Value>
+      <Value>气压必须 {LOCAL:ComparisonOperator} </Value>
     </Record>
     <Record>
       <Key>HelperHintRatioMustBeComparison</Key>
@@ -29316,7 +29316,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>DispersalTowerNotEnoughPressure</Key>
-      <Value>内部压力必须高于 {LOCAL:Target}</Value>
+      <Value>内部气压必须高于 {LOCAL:Target}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticCreativeMode</Key>
@@ -29360,7 +29360,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>DifficultyStatisticHygeineReduction</Key>
-      <Value>卫生衰减</Value>
+      <Value>卫生下降率</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticFoodDecay</Key>
@@ -29552,7 +29552,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>AirControlStatusPressure</Key>
-      <Value>压力模式</Value>
+      <Value>压强模式</Value>
     </Record>
     <Record>
       <Key>AirControlStatusDraught</Key>
@@ -29585,7 +29585,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>AirControlModePressure</Key>
-      <Value>压强</Value>
+      <Value>气压</Value>
     </Record>
     <Record>
       <Key>CircuitboardMasterLabel</Key>
@@ -29613,7 +29613,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>GasDisplayModeTitlePressure</Key>
-      <Value>压强</Value>
+      <Value>气压</Value>
     </Record>
     <Record>
       <Key>GasDisplayModeTitleTemperature</Key>
@@ -29621,7 +29621,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>GasDisplayModePressure</Key>
-      <Value>压强</Value>
+      <Value>气压</Value>
     </Record>
     <Record>
       <Key>GasDisplayModeTemperature</Key>
@@ -29873,7 +29873,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>NetworkTypeLandingPad</Key>
-      <Value>着陆场</Value>
+      <Value>着陆平台</Value>
     </Record>
     <Record>
       <Key>NetworkTypeLaunchPad</Key>
@@ -30177,7 +30177,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>DifficultyStatisticHygieneReduction</Key>
-      <Value>卫生损耗</Value>
+      <Value>卫生下降率</Value>
     </Record>
     <Record>
       <Key>PressToExit</Key>
@@ -30393,7 +30393,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>DevicePressureTooHigh</Key>
-      <Value>{LOCAL:Thing} 超出其内部压力额定值</Value>
+      <Value>{LOCAL:Thing} 超出其内部气压额定值</Value>
     </Record>
     <Record>
       <Key>RocketGasCollectActionInfo</Key>
@@ -30529,7 +30529,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>PlayerBodyBagDead</Key>
-      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; 已 &lt;color=red&gt;dead&lt;/color&gt; 死亡并位于尸体袋中, 正在等待复活.</Value>
+      <Value>&lt;color=green&gt;{LOCAL:UserName}&lt;/color&gt; 已 &lt;color=red&gt;dead&lt;/color&gt; 并位于尸体袋中, 正在等待复活.</Value>
     </Record>
     <Record>
       <Key>PlayerIsOnline</Key>
@@ -30613,7 +30613,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>PumpIntoPad</Key>
-      <Value>泵入着陆场</Value>
+      <Value>泵入平台</Value>
     </Record>
     <Record>
       <Key>PumpIntoTank</Key>
@@ -30845,15 +30845,15 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>DeviceNotEnoughWater</Key>
-      <Value>水不足</Value>
+      <Value>水量不足</Value>
     </Record>
     <Record>
       <Key>DeviceWaterTooHot</Key>
-      <Value>水太热</Value>
+      <Value>水温太高</Value>
     </Record>
     <Record>
       <Key>DeviceWaterTooCold</Key>
-      <Value>水太冷</Value>
+      <Value>水温太低</Value>
     </Record>
     <Record>
       <Key>DeviceWaterPolluted</Key>
@@ -30865,7 +30865,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>DeviceMinimumPressure</Key>
-      <Value>大气压力必须至少为 {LOCAL:PRESSURE}</Value>
+      <Value>大气压强必须至少为 {LOCAL:PRESSURE}</Value>
     </Record>
     <Record>
       <Key>DifficultyStatisticSanitation</Key>
