@@ -1362,7 +1362,7 @@
     </RecordThing>
     <RecordThing>
       <Key>ItemHydroponicTray</Key>
-      <Value>(套件)水培箱</Value>
+      <Value>(套件)水培盘</Value>
       <Description>该套件可建造用于种植各类作物的 {THING:StructureHydroponicsTray}</Description>
     </RecordThing>
     <RecordThing>
@@ -2318,8 +2318,8 @@ Stationeer长期抱怨输送系统的每个阶段都需独立供电. 用Recurso�
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTray</Key>
-      <Value>水培箱</Value>
-      <Description>{LINK:Agrizero;Agrizero} 水培箱是培育 {LINK:OrganicPage;植物} 的理想设备, 需通过管道网络供水并提供光照进行光合作用, 可使用 {THING:StructureHarvie} 实现自动化管理</Description>
+      <Value>水培盘</Value>
+      <Description>{LINK:Agrizero;Agrizero} 水培盘是培育 {LINK:OrganicPage;植物} 的理想设备, 需通过管道网络供水并提供光照进行光合作用, 可使用 {THING:StructureHarvie} 实现自动化管理</Description>
     </RecordThing>
     <RecordThing>
       <Key>StructureIgniter</Key>
@@ -4382,11 +4382,11 @@ Output=1 导出内部物品并最后输出主物品</Description>
     </RecordThing>
     <RecordThing>
       <Key>DynamicHydroponics</Key>
-      <Value>便携水培箱</Value>
+      <Value>便携水培盘</Value>
     </RecordThing>
     <RecordThing>
       <Key>ItemKitDynamicHydroponics</Key>
-      <Value>(套件)便携水培箱</Value>
+      <Value>(套件)便携水培盘</Value>
       <Description/>
     </RecordThing>
     <RecordThing>
@@ -5623,7 +5623,7 @@ AIMEe有7种模式:
     </RecordThing>
     <RecordThing>
       <Key>StructureHydroponicsTrayData</Key>
-      <Value>水培箱(数字)</Value>
+      <Value>水培盘(数字)</Value>
       <Description>{LINK:Agrizero;Agrizero} 水培装置是种植 {LINK:OrganicPage;植物} 的理想容器. 需通过管道网络供应 {GAS:Water} 并保证充足光照以进行光合作用. 
 可使用 {THING:StructureHarvie} 自动化操作. 与 {THING:StructureHydroponicsTray} 不同, 这些装置因归类为设备而非纯管道而无法串行放置, 但支持逻辑系统数据查询</Description>
     </RecordThing>
@@ -8652,7 +8652,7 @@ OGRE可连接滑槽系统并通过逻辑网络控制. 因高效处理工艺, 其
     <RecordThing>
       <Key>StructureRoboticArmDock</Key>
       <Value>轨道机械臂驻坞(LArRE)</Value>
-      <Description>线性铰接轨道实体(LArRE)可为水培箱作物种植, 收割和施肥, 也可以从 {THING:StructureChuteExportBin} 抓取物品并投放至 {THING:StructureChuteBin} . LArRE可与线性轨道站下方或其坞站下方的水培箱/滑槽进行交互</Description>
+      <Description>线性铰接轨道实体(LArRE)可为水培盘作物种植, 收割和施肥, 也可以从 {THING:StructureChuteExportBin} 抓取物品并投放至 {THING:StructureChuteBin} . LArRE可与线性轨道站下方或其坞站下方的水培盘/滑槽进行交互</Description>
     </RecordThing>
     <RecordThing>
       <Key>ItemIcarusSuit</Key>
@@ -21002,7 +21002,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>Tutorial2ConnectPlantersHeading</Key>
-      <Value>将水箱连接到水培箱</Value>
+      <Value>将水箱连接到水培盘</Value>
     </Record>
     <Record>
       <Key>Tut2PipesInLocker</Key>
@@ -26755,7 +26755,7 @@ Stationeers涵盖多重角色: 他们是宇航员, 工程师兼探险家, 仅配
     </Record>
     <Record>
       <Key>PlacementRequiresHydroponicsTray</Key>
-      <Value>需要放置在水培箱正上方</Value>
+      <Value>需要放置在水培盘正上方</Value>
     </Record>
     <Record>
       <Key>CannotMergeTwoOperationalElevatorShafts</Key>
